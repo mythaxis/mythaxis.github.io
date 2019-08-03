@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Test SSI includes</title>
+</head>
+<body>
+Before the include<p>
+<!--#include virtual="include.htm" --> 
+After the include
+</body>
+</html>
