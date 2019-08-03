@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!DOCTYPE html>
 <html>
 <head>
 <title>
@@ -64,7 +64,8 @@ function telepop(url)
 	winpops.focus()
 }
 </SCRIPT>
-
+<script src="./js/w3data.js"></script>
+<script src="./js/includeHTML.js"></script>
 </head>
 
 <body>
@@ -487,7 +488,7 @@ already made up his mind. <P><small>&copy; Twilite Minotaur 2009 All Rights Rese
 </td>
 <td width=0 bgcolor=#c0c0c0></td>
 <td width=168 align=center>
-<!--#include virtual="sidebar.txt" --> 
+<div w3-include-html="./sidebar.html"></div>
 
 </td>
 </tr><tr>
@@ -497,6 +498,7 @@ Portions of this site are copyrighted to third parties</td>
 </tr>
 </table>
 </div>
+<script>includeHTML();</script>
 </body>
 </html>
 
