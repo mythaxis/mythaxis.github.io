@@ -111,7 +111,16 @@ echo '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www
 				font-family: verdana, sans-serif;
 			}
 		</style>
-	</head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146012578-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146012578-1');
+</script>
+</head>
 	<body>
 		<div id="header">
 			<div title="Akihabara">', $txt['smf_installer'], '</div>
@@ -187,7 +196,16 @@ function initialize_inputs()
 <html>
 	<head>
 		<title>', $txt['ftp_path'], '</title>
-	</head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146012578-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146012578-1');
+</script>
+</head>
 	<body style="background-color: #D4D4D4; margin-top: 5%; font: 10pt Verdana, sans-serif;">
 		<div style="border: 1px solid gray; background-color: #F0F0F0; margin: 1ex 0; padding: 1.2ex;">
 			<b>', $txt['ftp_path'], '</b><br />
