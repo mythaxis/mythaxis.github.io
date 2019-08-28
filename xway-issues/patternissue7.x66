@@ -109,6 +109,7 @@ function telepop(url)
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 <head>
+<meta charset="UTF-8">
 <title>
 mythaxis [TITLE]
 </title>
