@@ -33,3 +33,9 @@ pandoc TOC.md --template mythaxis-pattern-tempate.html -o index.html
 Or command to do a whole directory is:
 
 find . -iname "./md/*.md" -type f -exec sh -c 'pandoc "${0}" --template mythaxis-stock-tempate.html -o "${0%.md}.html"' {} \;
+
+
+Command to change PNG files to JPEG:
+
+find . -iname "*.png" -type f -exec sh -c 'convert "${0}" "${0%.png}.jpg"' {} \;    
+
