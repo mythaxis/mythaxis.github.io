@@ -39,6 +39,7 @@
 
 				<!-- Main -->
 					<div id="main">
+
 						{{ if (eq $postsFeaturedPostEnabled true) }}
 						{{ partial "posts/featured.html" (dict "firstpost" $firstPost "siteData" (index .Site.Data .Site.Language.Lang)) }}
 						{{ end }}

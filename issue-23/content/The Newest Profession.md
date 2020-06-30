@@ -1,19 +1,18 @@
 ---
-# This is the frontmatter, which is the metadata and configuration switches
-# for this page of the website
-title: 'The Newest Profession'
-author: 'Anya Josephs'
+title: "The Newest Profession"
+date: 2020-06-30T13:57:57+01:00
+image: 'images/picXXX.jpg'
+issue: Issue 23
+author: Anya Josephs
+description: 'The short blurb which appears on the list pages'
 
-# We can set the 'archetype', which is the template to use for this page along
-# with any of the switches/parameters/variables the template might use.
-type: page
-slug: 'the-newest-profession'
-disableComments: true
+type: stock
+slug: 'everythings-jake'
+
 morelink: 'MORELINK'
 
-# And some of the content values, like short description and main image
-description: 'Description field of a page with missing date property'
-#image: 'images/pic03.jpg'
+draft: true
+disableComments: false
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ex lacus. Vestibulum interdum dapibus sapien, ac sagittis ex lacinia non. In quis tortor sed ipsum viverra pharetra a id nisl. Praesent eu dignissim ipsum. Mauris ut erat fringilla arcu auctor vulputate sed a lectus. Pellentesque placerat ut ligula nec ultrices. Curabitur feugiat, ipsum nec ornare congue, diam leo blandit nulla, eu cursus diam tortor id sapien.
