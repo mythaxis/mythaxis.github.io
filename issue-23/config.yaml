@@ -1,0 +1,46 @@
+languageCode: en-us
+baseURL: ''
+uglyurls: 'true'
+theme: massively
+
+title: MYTHAXIS MAGAZINE - ISSUE 23
+
+googleanalytics: ''
+disqusShortname: ''
+
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+  - section
+
+params:
+  posts:
+    pageSize: '2'
+    featuredPost: true
+    paginationPages: 2
+    showFirstLast: false
+
+languages:
+  en:
+    languageName: English
+
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: -110
+    - name: Editorial
+      url: editorial.html
+      weight: -100
+    - name: Contents
+      url: contents.html
+      weight: -90
+    - name: Archive
+      url: https://mythaxis.co.uk/archive.html
+      weight: -80
+    - name: Submissions
+      url: https://mythaxis.co.uk/submission.htm
+      weight: -70
+    - name: Contact
+      url: https://mythaxis.co.uk/about.htm
+      weight: -60

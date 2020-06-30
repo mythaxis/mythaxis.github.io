@@ -1,8 +1,8 @@
 title:
 # - line: 'Mythaxis Magazine'
-- line: '[...Issue 23...]'
-- line: '[August 2020]'
+- line: '• Issue 23 • August 2020 •'
 
 description:
 - line: 'Welcome to the 23rd issue of Mythaxis.'
-- line: 'This issue is...'
+#- line: 'This issue is...'
+
