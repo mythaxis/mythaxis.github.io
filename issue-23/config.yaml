@@ -20,7 +20,7 @@ disableKinds:
 
 params:
   posts:
-    pageSize: '2'
+    pageSize: '50'
     featuredPost: true
     paginationPages: 2
     showFirstLast: false

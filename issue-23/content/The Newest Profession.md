@@ -1,7 +1,7 @@
 ---
 title: "The Newest Profession"
 date: 2020-06-30T13:57:57+01:00
-image:
+image: images/huy-tran-viet-green-field.jpg
 issue: Issue 23
 author: Anya Josephs
 copyright: '© Anya Josephs 2020 All Rights Reserved'
@@ -10,7 +10,7 @@ description: 'The short blurb which appears on the list pages'
 type: stock
 slug: 'newest-profession'
 
-morelink: 'MORELINK'
+morelink: 'Amazing... tell me more!'
 
 draft: true
 ---

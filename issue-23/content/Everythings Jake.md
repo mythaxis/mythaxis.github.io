@@ -1,7 +1,7 @@
 ---
 title: "Everything's Jake"
 date: 2020-06-30T13:57:57+01:00
-image: './images/test.png'
+image: './images/huy-tran-viet-jagfec-02-2.jpg'
 issue: Issue 23
 author: Chris Cook
 copyright: '© Chris Cook 2020 All Rights Reserved'
