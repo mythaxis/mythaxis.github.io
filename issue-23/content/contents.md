@@ -15,7 +15,7 @@ draft: true
 - The Sedona House, by Jeffery Scott Sims
 - Weapons of Mass Entanglement, by Dennis Mombauer
 - A Curse at Midnight, by Moustapha Mbacké Diop
-- Alight, by Skye Allen
+- [Alight](https://example.com), by Skye Allen
 - Experimental Diet, by Andrew Johnston
 - The Third Martian Dick Temple, by Micah Hyatt
 - Cartoon, by Liam Baldwin
