@@ -1,23 +1,23 @@
 {{ partial "htmlhead" . }}
-	<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
-
-		{{ $postsFoldername := .Site.Params.Posts.foldername | default "post" }}
-		{{ $postsPageSize := .Site.Params.Posts.pagesize | default 6 }}
-
+	<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">		
+		{{/*  Setup featured post variable */}}
 		{{ .Scratch.Set "postsFeaturedPostEnabled" true }}
 		{{ if (or (eq .Site.Params.Posts.featuredpost "false") (eq .Site.Params.Posts.featuredpost false)) }}
 			{{ .Scratch.Set "postsFeaturedPostEnabled" false }}
 		{{ end }}
 		{{ $postsFeaturedPostEnabled := .Scratch.Get "postsFeaturedPostEnabled" }}
 
-		{{ $posts := where .Data.Pages "Type" $postsFoldername }}
+		{{/*  Get all stock pages */}}
+		{{ $posts := where .Data.Pages "Type" "stock" }}
 
+		{{/*  Put the editorial at the top of the posts */}}
 		{{ if .IsHome }}
-		{{ $posts = .Site.RegularPages }}
+		{{ $editorial := where .Data.Pages "Title" "Editorial" }}
+		{{ $posts = union $editorial $posts }}
 		{{ end }}
 
-		{{ $firstPost := first 1 $posts }}
 
+		{{ $firstPost := first 1 $posts }}		
 		{{ if and (eq $postsFeaturedPostEnabled true) (gt (len $posts) 1) }}
 			{{ .Scratch.Set "postsForPaging" (after 1 $posts) }}
 		{{ else }}
@@ -25,10 +25,11 @@
 		{{ end }}
 		{{ $postsForPaging := .Scratch.Get "postsForPaging" }}
 
+		{{ $postsPageSize := .Site.Params.Posts.pagesize | default 6 }}
 		{{ $postsPaging := .Paginate $postsForPaging $postsPageSize }}
 
 		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in" data-pfn="{{ $postsFoldername }}" data-ps="{{ $postsPageSize }}" data-pfp="{{ $postsFeaturedPostEnabled }}">
+			<div id="wrapper" class="fade-in" data-pfn="stock" data-ps="{{ $postsPageSize }}" data-pfp="{{ $postsFeaturedPostEnabled }}">
 
 				{{ if eq $postsPaging.PageNumber 1 }}
 				{{ partial "intro.html" . }}
@@ -39,13 +40,12 @@
 
 				<!-- Main -->
 					<div id="main">
-
 						{{ if (eq $postsFeaturedPostEnabled true) }}
-						{{ partial "posts/featured.html" (dict "firstpost" $firstPost "siteData" (index .Site.Data .Site.Language.Lang)) }}
+						{{ partial "pages/featured.html" (dict "firstpost" $firstPost "siteData" (index .Site.Data .Site.Language.Lang)) }}
 						{{ end }}
 
 						{{ if (not (and (eq (len $posts) 1) (eq $postsFeaturedPostEnabled true))) }}
-							{{ partial "posts/list.html" (dict "posts" $postsPaging "siteData" (index .Site.Data .Site.Language.Lang)) }}
+							{{ partial "stock/list.html" (dict "posts" $postsPaging "siteData" (index .Site.Data .Site.Language.Lang)) }}
 						{{ end }}
 
 						{{ $paginator := .Paginator }}
