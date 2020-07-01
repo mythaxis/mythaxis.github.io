@@ -1,18 +1,18 @@
 ---
 title: "The Newest Profession"
 date: 2020-06-30T13:57:57+01:00
-image: 'images/picXXX.jpg'
+image:
 issue: Issue 23
 author: Anya Josephs
+copyright: '© Anya Josephs 2020 All Rights Reserved'
 description: 'The short blurb which appears on the list pages'
 
 type: stock
-slug: 'everythings-jake'
+slug: 'newest-profession'
 
 morelink: 'MORELINK'
 
 draft: true
-disableComments: false
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ex lacus. Vestibulum interdum dapibus sapien, ac sagittis ex lacinia non. In quis tortor sed ipsum viverra pharetra a id nisl. Praesent eu dignissim ipsum. Mauris ut erat fringilla arcu auctor vulputate sed a lectus. Pellentesque placerat ut ligula nec ultrices. Curabitur feugiat, ipsum nec ornare congue, diam leo blandit nulla, eu cursus diam tortor id sapien.

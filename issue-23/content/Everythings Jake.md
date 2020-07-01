@@ -1,9 +1,10 @@
 ---
 title: "Everything's Jake"
 date: 2020-06-30T13:57:57+01:00
-image: 'images/picXXX.jpg'
-issue: Issue XX
+image: './images/test.png'
+issue: Issue 23
 author: Chris Cook
+copyright: '© Chris Cook 2020 All Rights Reserved'
 description: 'The short blurb which appears on the list pages'
 
 type: stock
@@ -12,7 +13,6 @@ slug: 'everythings-jake'
 morelink: 'MORELINK'
 
 draft: true
-disableComments: false
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ex lacus. Vestibulum interdum dapibus sapien, ac sagittis ex lacinia non. In quis tortor sed ipsum viverra pharetra a id nisl. Praesent eu dignissim ipsum. Mauris ut erat fringilla arcu auctor vulputate sed a lectus. Pellentesque placerat ut ligula nec ultrices. Curabitur feugiat, ipsum nec ornare congue, diam leo blandit nulla, eu cursus diam tortor id sapien.

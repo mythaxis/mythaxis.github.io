@@ -1,0 +1,43 @@
+{{ partial "htmlhead" . }}
+	<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+                {{ partial "header" . }}
+                {{ partial "nav" . }}
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+                        <section class="post">
+                            <header class="major">
+                                <img src="images/toplist.jpg" />
+                                <h1>{{ .Title }}</h1>
+                                <p>{{ .Params.author }}</p>
+                                <img src="images/divider.jpg" />
+                            </header>
+                            {{ if .Params.image }}
+                            <div class="image main">
+                                <img src="{{ .Params.image | relURL }}" alt="" />
+                            </div>
+                            {{ end }}
+                            {{ .Content }}
+                            <p>{{ .Params.copyright }}</p>
+
+                            {{ partial "postcustom" . }}
+                            
+
+                        </section>
+
+					</div>
+
+                    {{ partial "footer/index" . }}
+                    {{ partial "copyright" . }}
+
+            </div>
+            {{ template "_internal/google_analytics.html" . }}
+            {{ partial "scripts/index" . }}
+	</body>
+</html>

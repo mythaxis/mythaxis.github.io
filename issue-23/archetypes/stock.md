@@ -4,6 +4,7 @@ date: {{ .Date }}
 image: 'images/picXXX.jpg'
 issue: Issue XX
 author: Firstname Lastname
+copyright:
 description: 'The short blurb which appears on the list pages'
 
 type: stock
