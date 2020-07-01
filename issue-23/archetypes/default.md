@@ -8,7 +8,6 @@ type: page
 slug: 'XXXX'
 
 draft: true
-disableComments: true
 ---
 
 This is the default type of 'page'.

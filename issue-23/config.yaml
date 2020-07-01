@@ -8,6 +8,11 @@ title: MYTHAXIS MAGAZINE - ISSUE 23
 googleanalytics: ''
 disqusShortname: ''
 
+taxonomies:
+  category: categories
+  issue: issues
+  tag: tags
+
 disableKinds:
   - taxonomy
   - taxonomyTerm
