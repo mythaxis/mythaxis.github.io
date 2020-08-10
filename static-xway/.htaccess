@@ -1,0 +1,12 @@
+#<Files />
+#    AddType application/x-httpd-php .html
+#</Files>
+
+RewriteEngine On
+
+RewriteCond %{ENV:HTTPS} !on
+RewriteCond %{HTTPS} !on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
+
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301,NE]

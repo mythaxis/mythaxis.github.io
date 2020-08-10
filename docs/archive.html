@@ -1,0 +1,119 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<meta charset="UTF-8">
+<title>
+mythaxis Archive
+</title>
+<STYLE TYPE="text/css" >
+<!--
+  @import url(./mythaxis.css);
+-->
+</STYLE>
+<META name="description" content="About">
+<META name="keywords" content=
+Mythaxis Magazine Science Fiction and Fantasy Modern Fiction
+>
+
+
+
+<SCRIPT LANGUAGE="JavaScript">
+// Check for browser support.
+ ver = navigator.appVersion.substring(0, 1);
+ flip=0;
+ if ( (navigator.appName == "Netscape") && ( ver >= 3 ) ) flip=1;
+ if ( (navigator.appName == "Microsoft Internet Explorer") && (ver >= 4) ) flip=1;
+
+// This JavaScript is Copyright 1996-99 Outsource Labs
+// http://www.olabs.com/
+// Permission to use and modify this script is given as long as this
+// notice remains and you agree to do so at your own risk.
+// @author Cameron Gregory
+
+function change(a,im)
+{
+//document.ff.flag.src=im; // yawn .. doesn't work in 3.0 on unix
+x = eval("document."+a);
+if (flip ==1)
+  x.src=im;
+}
+
+function changeLong(a,im,msg)
+{
+//document.ff.flag.src=im; // yawn .. doesn't work in 3.0 on unix
+x = eval("document."+a);
+if (msg!="null")
+  window.status=msg;
+if (flip ==1)
+  x.src=im;
+}
+
+var fred=1;
+
+function MouseOver(image1,image2,imgflags, imghref)
+{
+var x = "a"+fred;
+  document.write("<a onMouseOver='change(\""+x+"\",\""+image2+"\")' onMouseOut='change(\""+x+"\",\""+image1+"\")' href=\""+imghref+"\"><IMG name=\""+x+"\" "+imgflags+" SRC=\""+image1+"\"></a>");
+  fred=fred+1;
+}
+function telepop(url)
+{
+	var popurl = url;
+	winpops = window.open(popurl, "", "width=700,height=550,scrollbars,resizable");
+	winpops.focus()
+}
+</SCRIPT>
+
+<script src="./js/w3data.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146012578-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-146012578-1');
+</script>
+</head>
+
+<body>
+<script type="text/javascript" src="wz_tooltip.js"></script> 
+<div id="wrapper">
+<a href="./about.htm">
+<img src="banner1.jpg" alt="Mythaxis" align="top"></a>
+<table width=700 border = 0 cellspacing = 5 cellpadding = 5>
+<tr><td width=500>
+
+
+<div><H2>Mythaxis Magazine Archive</H2>
+<H3>Speculative Fiction Without Distraction</H3>
+<P class=drop>Welcome to the Mythaxis Magazine Archive!</P>
+<P>Here you can find not only the more than one hundred-and-fifty pieces of fiction 
+assembled by the magazine's founder, Gil Williamson, but we've also preserved the 
+hand-coded format of the original zine as a lasting legacy of his varied talents.</P>
+<P>Mythaxis Magazine has been seeking out quality writing for over a decade. 
+We aim to provide a mixture of classic- and contemporary-styled speculative fiction,
+free from the typical web trappings of click-hungry advertising.</P>
+<P>Here you will find a place for science fiction both hard and soft, fantasy 
+both high and low, horror both harsh and humorous, along with whatever mash-ups or
+sub-genres can be conceived.</P>
+<P>We pay our authors what we can, and offer their stories to you forever 
+free-to-read. See the links over on the right... and enjoy.</P></div>
+
+</td>
+<td width=0 bgcolor=#c0c0c0></td>
+<td width=168 align=center>
+<div w3-include-html="sidebar.html"></div> 
+
+</td>
+</tr><tr>
+<td colspan=3 class=trailer><hr size=3 />Date and time of last update 11:09 Wed 14 Feb 2018<br />
+<div w3-include-html="copyright.html"></div> 
+Portions of this site are copyrighted to third parties</td>
+</tr>
+</table>
+</div>
+<script>w3IncludeHTML();</script>
+</body>
+</html>
+
