@@ -27,7 +27,7 @@
 #intro {}
 #intro h1 {
 	font-family: Starcraft;
-	filter: drop-shadow(8px 8px 1px rgb(191,239,249));
+	filter: drop-shadow(0.2rem 0.2rem 0.5px rgb(191,239,249));
 }
 #intro h2 {
 	font-family: Starcraft;
@@ -40,16 +40,25 @@
 }
 
 header {
-	font-family: Starcraft;
+    font-family: Starcraft;
 }
 #header .logo {
-	font-family: Starcraft;	
-	background: rgba(30, 37, 45, 0.314);
+    font-family: Starcraft; 
+    background: rgba(30, 37, 45, 0.314);
 }
+/* Header banner which appears when scrolling down past the introduction header on the cover page */
+header > a {
+    position: relative;
+    margin: 0 auto;
+    width: calc(100% - 4rem);
+    max-width: 72rem;
+}
+
 
 
 #wrapper > .bg {
-    background-image: url(../../images/overlay.png), 
+    background-image: 
+        url(../../images/overlay.png), 
         linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
         url(../../images/bg.png);
 }
@@ -66,4 +75,15 @@ glyph {
     padding-top: 0.15em;
     padding-right: 0.1em;
     /*font-family: Georgia, Times, Serif;*/
+}
+
+
+.author img {
+    border: 3px solid #212931a6;
+    border-radius: 50%;
+    display: block;
+    width: 200px;
+    height: 200px;
+    top: -.2em;
+    /*left: 0;*/
 }

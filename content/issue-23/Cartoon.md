@@ -1,7 +1,6 @@
 ---
 title: "Cartoon"
 date: 2020-08-30
-image: images/xxxx
 issue: Issue 23
 author: Liam Baldwin
 copyright: "© Liam Baldwin 2020 All Rights Reserved"
@@ -15,3 +14,4 @@ weight: 7
 morelink: 'I would'
 ---
 
+[comic goes here](images/xxxx)

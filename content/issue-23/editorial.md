@@ -31,5 +31,5 @@ In addition to this issue's talented contributors, we'd like to express our part
 
 And special gratitude is reserved for our Webmaster, Marty Steer, who has not only struggled valiantly behind the scenes on the magazine's stylish transformation, but is largely responsible for new issues being able to come out at all. We hope you'll agree his hard work is being put to good use!
 
-![ALH](authors/ALH.png)
+![ALH](../../authors/images/ALH.png)
 

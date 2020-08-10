@@ -22,16 +22,19 @@
                             </div>
                             {{ end }}
                             {{ .Content }}
-                            <p>{{ .Params.copyright }}</p>
-
-                            {{ partial "stockcustom" . }}
                             
 
+
+                            <p>{{ .Params.Copyright }}</p>
+                            <p class="align-center">
+                                <img src="{{ "/images/divider.png" | safeURL }}" />
+                            </p>
                         </section>
 
 					</div>
 
                     {{ partial "copyright" . }}
+                    <a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
 
             </div>
             {{ template "_internal/google_analytics.html" . }}
