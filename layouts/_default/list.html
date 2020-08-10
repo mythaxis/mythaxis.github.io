@@ -39,8 +39,6 @@
 
         <!-- Main -->
           <div id="main">
-_DEFAULT/list.html::{{ .Type }}
-
             {{ if (eq $postsFeaturedPostEnabled true) }}
             {{ partial "posts/featured.html" (dict "firstpost" $firstPost "siteData" (index .Site.Data .Site.Language.Lang)) }}
             {{ end }}
@@ -52,10 +50,6 @@ _DEFAULT/list.html::{{ .Type }}
             {{ $paginator := .Paginator }}
             {{ $outer := . }}
             {{ partial "posts/pagination.html" (dict "paginator" $paginator "outer" $outer)}}
-
-
-SECTION
-      {{ .Content }}
 
           <ul class="contents">
           {{ range .Paginator.Pages }}
@@ -73,7 +67,6 @@ SECTION
           </div>
 
           {{ partial "copyright" . }}
-
           <a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
       </div>
 
