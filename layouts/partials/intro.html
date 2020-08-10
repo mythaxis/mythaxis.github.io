@@ -1,12 +1,12 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 {{ with $data.intro }}
 <div id="intro">
-    <img src="images/banner1.svg" style="filter: drop-shadow(8px 8px 1px rgb(191,239,249));"/>
-    <h1>
+    <h1>Mythaxis</h1>
+    <h2>    
         {{ range $i, $e := .title }}
             {{ if $i }} <br/> {{ end }} {{ .line }}
         {{ end }}
-    </h1>
+    </h2>
     <p>
         {{ range $i, $e := .description }}
             {{ if $i }} <br/> {{ end }} {{ .line }}

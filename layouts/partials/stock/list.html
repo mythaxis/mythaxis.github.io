@@ -8,7 +8,7 @@
             <span>{{ .Params.author }} </span>
         </header>
         {{ if .Params.image }}
-        <a href="{{ .Permalink }}" class="image fit"><img src="{{ .Params.image | relURL }}" alt="" /></a>
+        <a href="{{ .Permalink }}" class="image fit"><img src="./{{ .Section }}/{{ .Params.image }}" alt="" /></a>
         {{ end }}
         {{ if .Description }}
         <p>{{ .Description }}</p>

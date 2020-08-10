@@ -1,11 +1,15 @@
 languageCode: en-us
-baseURL: ''
-uglyurls: 'true'
+
+# To make .html URL's and relative links to avoid baseURL
+uglyurls: true
+relativeurls: true
+
 theme: massively
+publishDir: docs
 
-title: MYTHAXIS MAGAZINE - ISSUE 23
+title: MYTHAXIS MAGAZINE • ISSUE 23
 
-googleanalytics: ''
+googleanalytics: 'UA-146012578-1'
 disqusShortname: ''
 
 taxonomies:
@@ -16,7 +20,8 @@ taxonomies:
 disableKinds:
   - taxonomy
   - taxonomyTerm
-  - section
+  - RSS
+
 
 params:
   posts:
@@ -29,23 +34,27 @@ languages:
   en:
     languageName: English
 
+staticDir:
+- static
+- static-xway
+
 menu:
   main:
     - name: Home
       url: /
-      weight: -110
+      weight: -10
     - name: Editorial
-      url: editorial.html
-      weight: -100
+      url: /issue-23/editorial.html
+      weight: -9
     - name: Contents
-      url: contents.html
-      weight: -90
+      url: /issue-23/contents.html
+      weight: -8
     - name: Archive
-      url: https://mythaxis.co.uk/archive.html
-      weight: -80
+      url: /archive.html
+      weight: -7
     - name: Submissions
-      url: https://mythaxis.co.uk/submission.htm
-      weight: -70
+      url: /submissions.html
+      weight: -6
     - name: Contact
-      url: https://mythaxis.co.uk/about.htm
-      weight: -60
+      url: /about.html
+      weight: -5

@@ -1,0 +1,24 @@
+<!-- Featured Post -->
+{{ $data := .siteData }}
+{{ range .firstpost }}
+<article class="post featured">
+    <header class="major">
+        <span>{{ .Params.author }}</span>
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    </header>
+
+    {{ if .Description }}
+    <p>{{ .Description }}</p>
+    {{ else }}
+    <p>{{ .Summary }}</p>
+    {{ end }}
+
+    {{ if .Params.image }}
+    <a href="{{ .Permalink }}" class="image main"><img src="./{{ .Section }}/{{ .Params.image }}" alt="" /></a>
+    {{ end }}
+
+    <ul class="actions">
+        <li><a href="{{ .Permalink }}" class="button big">{{ $data.post.linktext }}</a></li>
+    </ul>
+</article>
+{{ end }}

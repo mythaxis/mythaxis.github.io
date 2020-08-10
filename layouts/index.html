@@ -1,35 +1,26 @@
 {{ partial "htmlhead" . }}
-	<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">		
-		{{/*  Setup featured post variable */}}
+	<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
+		
+		{{/*  Get all stock pages for the current issue */}}
+		{{ $posts := where (where .Site.Pages "Section" "issue-23") ".Type" "stock" }}
+
+
 		{{ .Scratch.Set "postsFeaturedPostEnabled" true }}
 		{{ if (or (eq .Site.Params.Posts.featuredpost "false") (eq .Site.Params.Posts.featuredpost false)) }}
 			{{ .Scratch.Set "postsFeaturedPostEnabled" false }}
 		{{ end }}
 		{{ $postsFeaturedPostEnabled := .Scratch.Get "postsFeaturedPostEnabled" }}
 
-		{{/*  Get all stock pages */}}
-		{{ $posts := where .Data.Pages "Type" "stock" }}
+		{{/* Get first featured story, then remove it from the paging list */}}
+		{{ $firstPost := first 1 (where $posts ".Params.featured" true) }}
+		{{ $postsForPaging := $posts | complement $firstPost }}
 
-		{{/*  Put the editorial at the top of the posts */}}
-		{{ if .IsHome }}
-		{{ $editorial := where .Data.Pages "Title" "Editorial" }}
-		{{ $posts = union $editorial $posts }}
-		{{ end }}
-
-
-		{{ $firstPost := first 1 $posts }}		
-		{{ if and (eq $postsFeaturedPostEnabled true) (gt (len $posts) 1) }}
-			{{ .Scratch.Set "postsForPaging" (after 1 $posts) }}
-		{{ else }}
-			{{ .Scratch.Set "postsForPaging" $posts }}
-		{{ end }}
-		{{ $postsForPaging := .Scratch.Get "postsForPaging" }}
-
-		{{ $postsPageSize := .Site.Params.Posts.pagesize | default 6 }}
+		{{/* Do the paging */}}
+		{{ $postsPageSize := .Site.Params.Posts.pagesize | default 2 }}
 		{{ $postsPaging := .Paginate $postsForPaging $postsPageSize }}
-
+		
 		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in" data-pfn="stock" data-ps="{{ $postsPageSize }}" data-pfp="{{ $postsFeaturedPostEnabled }}">
+			<div id="wrapper" class="fade-in" data-ps="{{ $postsPageSize }}" data-pfp="{{ $postsFeaturedPostEnabled }}">
 
 				{{ if eq $postsPaging.PageNumber 1 }}
 				{{ partial "intro.html" . }}
@@ -40,8 +31,8 @@
 
 				<!-- Main -->
 					<div id="main">
-						{{ if (eq $postsFeaturedPostEnabled true) }}
-						{{ partial "pages/featured.html" (dict "firstpost" $firstPost "siteData" (index .Site.Data .Site.Language.Lang)) }}
+						{{ if and (gt (len $firstPost) 0) (eq $postsPaging.PageNumber 1) }}
+						{{ partial "stock/featured.html" (dict "firstpost" $firstPost "siteData" (index .Site.Data .Site.Language.Lang)) }}
 						{{ end }}
 
 						{{ if (not (and (eq (len $posts) 1) (eq $postsFeaturedPostEnabled true))) }}

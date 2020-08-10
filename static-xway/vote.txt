@@ -1,0 +1,14 @@
+To: gil@mythaxis.co.uk
+Subject: Vote Mythaxis [issue]
+
+First: [story1]
+Second: [story2]
+Third: [story3]
+--------------
+Message: 
+[comments]
+--------------
+Env Report:
+[$HTTP_USER_AGENT]
+[$REMOTE_HOST]
+[$REMOTE_ADDR]
