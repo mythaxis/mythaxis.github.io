@@ -12,7 +12,7 @@
 						<!-- post -->
                         <section class="post">
                             <header class="major">
-                                <img src="{{ "/images/toplist.png" | safeURL }}" />
+                                <img src="{{ "/images/toplist.svg" | safeURL }}" />
                                 <h1>{{ .Title }}</h1>
                                 <p>{{ .Params.author }}</p>
                                 <p>{{ .Description }}</p>
@@ -21,6 +21,9 @@
                             <div class="image main"><img src="{{ .Params.image | safeURL }}" alt="" /></div>
                             {{ end }}
                             {{ .Content }}
+                            {{ if .Params.showAuthorFooter }}
+                                {{ partial "authorfooter" . }}
+                            {{ end }}
                         </section>
 
 					</div>

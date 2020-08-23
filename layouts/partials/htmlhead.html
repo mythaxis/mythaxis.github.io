@@ -6,7 +6,6 @@
 -->
 <html lang='{{ .Site.Language.Lang | default "en-us" }}'>
 	<head>
-		<title>{{ if eq (.Site.Title) (.Title) }}{{ .Site.Title }}{{ else }}{{ .Title }} &middot; {{ .Site.Title }}{{ end }}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!-- CSS -->
@@ -23,4 +22,15 @@
 		{{ $noscript := resources.Get "scss/noscript.scss" | resources.ExecuteAsTemplate "noscript.scss" . | toCSS (dict "targetPath" "assets/css/noscript.css" "enableSourceMap" false) }}
 		<noscript><link rel="stylesheet" href='{{ $noscript.RelPermalink }}' /></noscript>
 		<link rel="stylesheet" href='{{ "assets/css/overrides.css" | relURL }}' />
+		
+
+		<title>{{ if eq (.Site.Title) (.Title) }}{{ .Site.Title }}{{ else }}{{ .Title }} &mdash; {{ .Site.Title }}{{ end }}</title>
+		<meta name="DC.Title" content="{{ if eq (.Site.Title) (.Title) }}{{ .Site.Title }}{{ else }}{{ .Title }} &mdash; {{ .Site.Title }}{{ end }}" />
+		
+		{{ if .Params.author }}<meta name="DC.Creator" content="{{ .Params.author }}" />{{ end }}
+		{{ if .Params.date }}<meta name="DC.Date" content="{{ .Params.date }}" />{{ end }}
+		
+		{{ if .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}" />{{ end }}
+		<meta name="keywords" content="{{ .Site.Params.keywords }}">
+
 	</head>

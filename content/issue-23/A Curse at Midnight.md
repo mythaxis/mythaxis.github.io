@@ -1,10 +1,16 @@
 ---
 title: "A Curse at Midnight"
-date: 2020-08-30
-image: images/CurseMidnight.png
+date: 2020-08-23
 issue: Issue 23
+
 author: Moustapha Mbacké Diop
+authors:
+- Moustapha Mbacké Diop
+image: images/CurseMidnight.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Pexels](https://pixabay.com/photos/alligator-animal-close-up-crocodile-1851313/), [josephvm](https://pixabay.com/photos/abstract-horror-face-dark-rough-3363956/), [Skitterphoto](https://pixabay.com/photos/flame-fire-inferno-orange-burning-726268/), and [darksouls1](https://pixabay.com/illustrations/fractal-light-light-fractal-fire-1764914/)."
 copyright: "© Moustapha Mbacké Diop 2020 All Rights Reserved"
+showAuthorFooter: true
+
 description: "Afrofuturism is riding a wave of popularity around the world, but that richness which scifi is benefitting from has its roots in traditional stories, myths, and beliefs. Moustapha Mbacké Diop takes us to present day Senegal and shows us that some of those things from the past are alive and well, and very up close."
 
 type: stock
@@ -52,13 +58,9 @@ Putting aside those silly thoughts, I hung up after he wished me a good night, a
 
 The tepid lilac sheets, courtesy of my thoughtful sister, were a blessing for my sore muscles. Wrapping myself even tighter, I inhaled the rich smell of gowé incense that impregnated the sheets. Soon enough, the steady song of cicadas and the purifying breeze shrouded me in a peaceful sleep.
 
+&nbsp;
 
-
-
-
-
-
-And I abruptly awoke, in the middle of the night, my heart pounding so fast I felt as if I’d just run a marathon. Not a sound was to be heard, apart from my ragged breath. Lost amid this terror coming out of nowhere, I turned to check on my baby.
+{{<glyph>}}A{{</glyph>}}nd I abruptly awoke, in the middle of the night, my heart pounding so fast I felt as if I’d just run a marathon. Not a sound was to be heard, apart from my ragged breath. Lost amid this terror coming out of nowhere, I turned to check on my baby.
 
 An abomination stared at me, crouched right where my baby was supposed to be.
 
@@ -124,11 +126,9 @@ The corners of her mouth quirked up in a devilish smile, and Yaye walked out of 
 
 “I’m gonna change into something more suitable, and we are getting your son back. Nobody messes with my family. It’s time to teach that hideous goat a lesson.”
 
+&nbsp;
 
-
-
-
-Less than ten minutes later, my mother and I walked out of the house, stalking the dormant streets. She was wearing a sweater and her old military pants, and I was dressed in sportswear. Yaye was almost sixty years old, but at this moment she didn’t look a day over forty. In her right hand she held her old pipe, and over her shoulder was a satchel containing some trinkets, powders, and what she said was a ceremonial knife.
+{{<glyph>}}L{{</glyph>}}ess than ten minutes later, my mother and I walked out of the house, stalking the dormant streets. She was wearing a sweater and her old military pants, and I was dressed in sportswear. Yaye was almost sixty years old, but at this moment she didn’t look a day over forty. In her right hand she held her old pipe, and over her shoulder was a satchel containing some trinkets, powders, and what she said was a ceremonial knife.
 
 “Do you know where she lives?” I asked.
 
@@ -254,11 +254,9 @@ I ignored the stinging pain and pulled the locks of hair out of Ciré’s grip, 
 
 With a roar of triumph, it leaped on top of Ciré, piercing her chest with its claws. Both of them vanished just the way it came, leaving nothing but Ciré’s shrieks of terror fading on the sudden wind. Then it and they were gone.
 
+&nbsp;
 
-
-
-
-Entirely drained, I struggled to get up and help my mother, the same way she helped me just a few hours ago.
+{{<glyph>}}E{{</glyph>}}ntirely drained, I struggled to get up and help my mother, the same way she helped me just a few hours ago.
 
 “Go see to your son,” she muttered through clenched teeth. “I’ll be just fine.”
 
@@ -296,11 +294,5 @@ Because there was one side to the stories that my mother never told us before, a
 
 “*But when that time comes, we will be ready.”*
 
-
-
 -
-
-
-
-***Moustapha Mbacké Diop*** *is a Senegalese author living in Dakar. He is in his fourth year of medical school, and when he's not stressing about finals or hospital rounds, he reads and writes mainly fantasy. Obsessed with mythology and African folklore, he has published an urban fantasy trilogy written in French, named* Teranga Chronicles. *You can find him at [his website](https://moustaphamdbooks.webflow.io/) and on [Goodreads](https://www.goodreads.com/author/show/18933319.Moustapha_Mbacke_Diop), and he tweets as [@riverjengu](https://twitter.com/riverjengu).*
 

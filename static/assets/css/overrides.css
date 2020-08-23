@@ -24,6 +24,7 @@
     background-color: rgba(255, 255, 255, 0.93);
 }
 
+/* Introduction */
 #intro {}
 #intro h1 {
 	font-family: Starcraft;
@@ -39,6 +40,9 @@
     background: rgba(30, 37, 45, 0.6);
 }
 
+
+/* Header banner which appears when scrolling down past 
+the introduction header on the cover page */
 header {
     font-family: Starcraft;
 }
@@ -46,7 +50,6 @@ header {
     font-family: Starcraft; 
     background: rgba(30, 37, 45, 0.314);
 }
-/* Header banner which appears when scrolling down past the introduction header on the cover page */
 header > a {
     position: relative;
     margin: 0 auto;
@@ -64,26 +67,36 @@ header > a {
 }
 
 
+blockquote > p {
+    margin: 0 0 1rem 0;
+}
 
 
-/* Some TEI styles, just to mash it up */
+
+/* TEI styles */
 glyph {
     font-weight: 600;
-    font-size: 3.8em;
+    font-size: 4em;
     float: left;
     line-height: 0.9em;
     padding-top: 0.15em;
     padding-right: 0.1em;
-    /*font-family: Georgia, Times, Serif;*/
+}
+glyph.small {
+    font-size: 2em;
 }
 
 
-.author img {
-    border: 3px solid #212931a6;
+
+/* Author footers at end of stock pages */
+footer.author img {
+    border: 5px solid #212931a6;
     border-radius: 50%;
-    display: block;
-    width: 200px;
-    height: 200px;
-    top: -.2em;
-    /*left: 0;*/
+    max-width: 200px;
+    height: auto;
+    padding: 0;
+}
+footer.author p {
+    line-height: 2em;
+    margin-bottom: 1em;
 }

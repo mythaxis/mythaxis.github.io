@@ -7,7 +7,7 @@ relativeurls: true
 theme: massively
 publishDir: docs
 
-title: MYTHAXIS MAGAZINE • ISSUE 23
+title: MYTHAXIS MAGAZINE ISSUE 23
 
 googleanalytics: 'UA-146012578-1'
 disqusShortname: ''
@@ -16,12 +16,10 @@ taxonomies:
   category: categories
   issue: issues
   tag: tags
+  author: authors
 
 disableKinds:
-  - taxonomy
-  - taxonomyTerm
   - RSS
-
 
 params:
   posts:
@@ -29,6 +27,9 @@ params:
     featuredPost: true
     paginationPages: 2
     showFirstLast: false
+  description: Mythaxis Magazine, Speculative Fiction Without Distraction
+  keywords: Mythaxis Magazine Science Fiction and Fantasy Modern Fiction
+
 
 languages:
   en:

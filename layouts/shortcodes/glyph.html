@@ -1,1 +1,2 @@
-<glyph>{{ .Inner }}</glyph>
+<glyph {{ with .Get "class" }}class="{{ . }}"{{ end }}>{{ .Inner }}</glyph>
+

@@ -1,10 +1,16 @@
 ---
 title: "The Newest Profession"
-date: 2020-08-30
-image: images/NewestProfession.png
+date: 2020-08-23
 issue: Issue 23
+
 author: Anya Josephs
+authors:
+- Anya Josephs
 copyright: "© Anya Josephs 2020 All Rights Reserved"
+image: images/NewestProfession.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [JacksonDavid](https://pixabay.com/photos/african-afro-turban-people-person-5035645/) (several times over), and [Pexels](https://pixabay.com/photos/architecture-building-geometric-1868547/)."
+showAuthorFooter: true
+
 description: "We open the issue with a visit to a plausible near-future, as Anya Josephs presents us with a disturbing glimpse of a world where ordinary people rarely get the chances they dream of, and corporate life is everything. That last is a theme this magazine plans to play host to again - but that's a story for another time. As for this one, well, the title gives it all away. Doesn't it?"
 
 type: stock
@@ -36,16 +42,13 @@ She’s lucky to have any offer, she knows. Even if it means a lifetime sitting 
 She scans the offer as quickly as her reading speed (only 21st percentile for her age cohort) allows, but doesn’t see the name of the position. She doesn’t see anything that makes any sense, so she carefully reads the letter, in full.
 
 
-
-> ​	*Dear Yendra,*
+> Dear Yendra,
 >
-> ​	*Congratulations on your recent graduation from all of us here at G3O, and thanks so much for wanting to be a part of our superstar team! We noticed you applied to a couple of open positions here, and we love your team spirit.*
+> Congratulations on your recent graduation from all of us here at G3O, and thanks so much for wanting to be a part of our superstar team! We noticed you applied to a couple of open positions here, and we love your team spirit.
 >
-> ​	*We actually think we might have the perfect opportunity for you. It’s a brand-new project that hasn’t been posted yet, but we think you have what it takes. If you’re interested, ping us back—we would love to go ahead and set up an interview.*
+> We actually think we might have the perfect opportunity for you. It’s a brand-new project that hasn’t been posted yet, but we think you have what it takes. If you’re interested, ping us back—we would love to go ahead and set up an interview.
 >
-> ​	*Danelle, and the rest of the G3O Research Team*
->
-
+> Danelle, and the rest of the G3O Research Team
 
 
 Never in her life has Yendra, solidly-bottom quartile Yendra, average-at-best-in-everything Yendra, thought she would get a personal message from the Research Department. Of all the departments that would laugh Yendra’s application out of their inboxes, the Research Department is the most elite, the most competitive, and the most prestigious. 
@@ -53,18 +56,15 @@ Never in her life has Yendra, solidly-bottom quartile Yendra, average-at-best-in
 She doesn’t even stop to think about what this mysterious message could mean, why they might want her or why there’s so little detail involved. She doesn’t let herself think about how little she deserves this. She just types out a reply.
 
 
-
-> ​	*Hi Danelle!*
+> *Hi Danelle!*
 >
-> ​	*So great to hear from you—and I couldn’t be more excited! When can I come in?*
->
-
+> ​*So great to hear from you—and I couldn’t be more excited! When can I come in?*
 
 
 Before she’s finished her episode of *Fashion Fights,* she has an answer.
 
 
-
+&nbsp;
 
 
 ***106 days to program launch***
@@ -130,7 +130,7 @@ Danelle snaps her fingers, and the wallscreen goes dim. She looks up, meeting Ye
 Yendra nods, slowly. She takes a deep breath, and swallows hard. And she says, “Where do I sign up?”
 
 
-
+&nbsp;
 
 
 ***102 days to program launch***
@@ -156,7 +156,7 @@ In short, this badge is proof that she’s successful. Proof that everyone who e
 If she’s got that, she doesn’t care what she has to do to keep it. She just has to keep reminding herself of that. She has what she’s always wanted. A *chance.*
 
 
-
+&nbsp;
 
 
 ***87 days to program launch***
@@ -186,7 +186,7 @@ It doesn’t really matter. She’s here to do a job. The survey panels only mee
 It’s better than anything she could have hoped for.
 
 
-
+&nbsp;
 
 
 ***71*** ***days to program launch***
@@ -220,10 +220,10 @@ Besides, she probably won’t have to do the actual work for very long. Danelle 
 She wants everyone to see that she’s on top of her work, but more than that, that she’s the right *kind* of person to work at the company. The kind of person who can keep a secret. The kind of person who’s willing to take whatever it gets. The kind of person who will one day be sitting in her very own private office, with the future at her feet. 
 
 
+&nbsp;
 
 
-
-***42*** ***days to program launch***
+***42 days to program launch***
 
 Another message from Danelle floating across her handscreen. This time, the words that will change her life read: *We’re moving to trial* *this week.* *Everything is* *ready. Do you want to be the first to see? You’ve earned it. -D*
 
@@ -277,10 +277,4 @@ She wonders if she, *she*, will even be a footnote in the history of this new de
 
 “Well,” she says, swallowing, her throat so dry. “Thank you anyway. For the opportunity.”
 
-
-
 -
-
-
-
-**Anya Josephs** was raised in North Carolina and now lives and works in New York City, where she teaches foster youth pursuing college degrees. When not working or writing, she can be found seeing a lot of plays, reading doorstopper fantasy novels, or worshipping her cat, Sycorax. Her writing can be found in *Andromeda Spaceways Magazine*, *The Green Briar Review*, *the Necronomicon Anthology*, *SPARK*, *UnLaced*, *Proud2BeMe*, *The Huffington Post*, *Anti-Heroin Chic*, and *Poets Reading the News*. Her debut novel, *Queen of All*, a fantasy for young adults, is forthcoming from Zenith Press. You can find her at her website [anyajosephs.com](http://anyajosephs.com/)), and she tweets as [@anya_writes](https://twitter.com/anya_writes).

@@ -11,10 +11,10 @@
 					<div id="main">
                         <section class="post">
                             <header class="major">
-                                <img src="{{ "/images/toplist.png" | safeURL }}" />
+                                <img src="{{ "/images/toplist.svg" | safeURL }}" />
                                 <h1>{{ .Title }}</h1>
                                 <p>{{ .Params.author }}</p>
-                                <img src="{{ "/images/divider.png" | safeURL }}" />
+                                <img src="{{ "/images/divider.svg" | safeURL }}" />
                             </header>
                             {{ if .Params.image }}
                             <div class="image main">
@@ -22,12 +22,11 @@
                             </div>
                             {{ end }}
                             {{ .Content }}
-                            
-
-
-                            <p>{{ .Params.Copyright }}</p>
+                            {{ if .Params.showAuthorFooter }}
+                                {{ partial "authorfooter" . }}
+                            {{ end }}
                             <p class="align-center">
-                                <img src="{{ "/images/divider.png" | safeURL }}" />
+                                <img src="{{ "/images/divider.svg" | safeURL }}" />
                             </p>
                         </section>
 

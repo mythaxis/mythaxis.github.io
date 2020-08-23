@@ -1,4 +1,3 @@
 ---
-name: Authors
 headless: true
 ---

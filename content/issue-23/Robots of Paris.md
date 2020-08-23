@@ -1,10 +1,16 @@
 ---
 title: "Robots of Paris"
-date: 2020-08-30
-image: images/RobotsParis.png
+date: 2020-08-23
 issue: Issue 23
+
 author: Andrea Kriz
+authors:
+- Andrea Kriz
+image: images/RobotsParis.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Pexels](https://pixabay.com/photos/abandoned-alley-building-dark-1850087/), [sergeitokmakov](https://pixabay.com/illustrations/bot-cyborg-helper-robot-android-4877983/), and [DariuszSankowski](https://pixabay.com/photos/war-desert-guns-gunshow-soldier-1447007/)."
 copyright: "© Andrea Kriz 2020 All Rights Reserved"
+showAuthorFooter: true
+
 description: Not only is "Alternate History" a fun source of escapism for the well-informed reader, it can give rise to what we might call "Alternate Future" stories - where we glimpse what might have followed what might have been. Andrea Kriz doesn't say it outright, but we can see what changed here. And what needs to.
 
 type: stock
@@ -66,7 +72,7 @@ Instead he gets a high-pitched giggle.
 
 “C’est vous,” Marcel says, and a trembly grin spreads across his face. “C’est vous!” 
 
-*Should he have brought his translator along?* Riess wonders. His milicien, Frédéric, is hanging by the skycars and trying to bum off a cigarette, if he knows him at all. Although even Riess understands what the kid  just said. *It**’s you*. 
+*Should he have brought his translator along?* Riess wonders. His milicien, Frédéric, is hanging by the skycars and trying to bum off a cigarette, if he knows him at all. Although even Riess understands what the kid just said. *It’s you*. 
 
 And Riess knows Marcel knows damn well what he said, they teach them that in school. Probably first words they learn, because that’s the only German most of them will ever hear. *Hands. Up. Under. Arrest*. And if that wasn’t enough, there’s this uniform, this gun. Riess walks up and jabs the barrel right into his chest.
 
@@ -89,10 +95,9 @@ Marcel takes another step back.
 And then he turns and walks off and leaves Riess standing there, trembling the handgun at thin air.
 
 
+&nbsp;
 
-
-
-Sirens surround him, and cops, like that police officer he just talked to multiplied a dozen-fold. They’ve got their helmets on now so they even look the same, bug-eyed aliens in bullet-proof armor. Except Frédéric, sulking behind a skycar’s wing in the bare minimum, a vest thrown on over his suit.
+{{<glyph>}}S{{</glyph>}}irens surround him, and cops, like that police officer he just talked to multiplied a dozen-fold. They’ve got their helmets on now so they even look the same, bug-eyed aliens in bullet-proof armor. Except Frédéric, sulking behind a skycar’s wing in the bare minimum, a vest thrown on over his suit.
 
 “Where the fuck were you?” Riess blurts.
 
@@ -112,7 +117,7 @@ Got her eyes on his job, he knows.
 
 But he’s off, sprinting in the direction where the after image of Marcel is still seared in his mind. Out of the alley, huffing past tenement buildings so cookie-cutter he feels like he’s treadmilling past the same sooty wall over and over again. 
 
-*Rue 16*, his eye-text tells him as he passes, *Rue 18*… *Rue 23*…  
+*Rue 16*, his eye-text tells him as he passes, *Rue 18*… *Rue 23*… 
 
 Makes him feel bad for the kids who have to live in these banlieues. Kids should have plenty of space to run around in, like he did when he was little. Through the forests, airplaning through the halls of their English manor house. She’s right, Aude. He’s grown weak, doughy. Even ten years ago this would’ve been no problem for him. The running definitely, even the shooting. He would’ve done it with all those bastards watching. 
 
@@ -222,10 +227,4 @@ It’s different now. The robot. It’s got this ridiculous mask stuck on it. A 
 
 *Fear.* Funny. He always thought it would feel—more deserving than this.
 
-
-
 -
-
-
-
-***Andrea Kriz*** *writes from Cambridge, MA. Find her other stories in* Cossmass Infinities, Nature, Tales to Terrify, AURELIA LEO, *and* Hybrid Fiction, *among others. You can follow her on twitter as [@theworldshesaw](https://twitter.com/theworldshesaw).*
