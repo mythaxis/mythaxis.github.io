@@ -1,10 +1,16 @@
 ---
 title: "The Sedona House"
-date: 2020-08-30
-image: images/SedonaHouse.png
+date: 2020-08-23
 issue: Issue 23
+
 author: Jeffery Scott Sims
+authors:
+- Jeffery Scott Sims
+image: images/SedonaHouse.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [WindowsObserver](https://pixabay.com/photos/sedona-arizona-red-rocks-351683/), and [422737](https://pixabay.com/photos/fingerprint-traces-pattern-456486/)."
 copyright: "© Jeffery Scott Sims 2020 All Rights Reserved"
+showAuthorFooter: true
+
 description: "Mythaxis is not just about looking to the future. Jeffery Scott Sims delivers a classic yarn with echoes of H. P. Lovecraft to it - courtesy of the kind of roguish problem-solver-for-hire who made the stencilled doors of Private Eyes so much fun to knock on..."
 
 type: stock
@@ -23,10 +29,9 @@ Neither, certainly, does Tharaspas. He’s gone, wiped from this world. The pres
 That’s how they tell it, anyway.
 
 
+&nbsp;
 
-
-
-I saw the Sedona House in the twilight of its glory. 
+{{<glyph>}}I{{</glyph>}} saw the Sedona House in the twilight of its glory. 
 
 One morning bright in 1930, at my dingy hole-in-the-wall of a downtown Phoenix office (small, under the radar, suitable for my business), my secretary Angie carried in a letter for me. One of those old fashioned written kind, inscribed in beautiful cursive, with a stamp and everything; I don’t get many of those. 
 
@@ -34,11 +39,13 @@ The return address listed Professor Anton Vorchek. I grimaced, but nevertheless 
 
 Vorchek wrote: 
 
+
 > ​	*My Dear Mr. Fontaine:* 
 >
 > ​	*No less than Gregor Tharaspas requests my aid involving complicated matters pertaining to the arcane. After receiving from him further particulars, I suggested in my acceptance that you might be willing to lend your expertise in support of our endeavors. He acquiesced to this, mentioning in his response previous dealings with you about which he did not elaborate. Inform me so soon as you are ready.* 
 >
 > ​	*- Vorchek*
+
 
 Inform him, indeed! Mightn’t I refuse? 
 
@@ -93,10 +100,9 @@ He stood, strode to the massive fireplace, crooked a finger to beckon me over. �
 “I’ll make you a swap, Fontaine. The clock is yours, with a clear title, if you deliver into my hand the Seventh Scroll of Artocris.”
 
 
+&nbsp;
 
-
-
-I accepted, obviously.
+{{<glyph>}}I{{</glyph>}} accepted, obviously.
 
 While the big boys were busy, I had the tumultuous pleasure of sharing lunch with Theresa Delaney. She failed to pretend joy at meeting me again. 
 
@@ -133,10 +139,9 @@ Despite the suggestion inherent in its name, the Seventh Scroll of Artocris was 
 Tharaspas certainly would. Well, I’d give him that chance.
 
 
+&nbsp;
 
-
-
-I stole it. 
+{{<glyph>}}I{{</glyph>}} stole it. 
 
 Let’s skip the minutiae of the operation: those intricacies are a tale in themselves, possibly boring to the layman, and besides I’ve a penchant for sitting on trade secrets. I researched, calculated, observed, chose the moment, acted. 
 
@@ -189,10 +194,9 @@ Tharaspas seized both my hands, cried, “Great days! You won’t regret it, Fon
 Thrills. For the moment, I chose to look forward to a nice dinner. But while that was being prepared at length, and while Tharaspas was no doubt laying an esoteric table of his own somewhere for later, I took advantage of a few hours convenience to hop behind the wheel and buzz my prize into Sedona and back, entrusting it to the overnight attentions of the most resilient looking bank in town. If there was one thing I’ve learned in my years in the field, it’s not to consider any artefact claimed until you’ve got it where the last owner can’t lay their hands on it again.
 
 
+&nbsp;
 
-
-
-Tharaspas rapidly advanced his plans. We gathered that evening for a princely feast, lavished upon us by a host who gave no thought to counting pennies. It was rich, exotic, saucy stuff, much of which I couldn’t identify, but it tasted wonderful and I slopped up all I could hold. 
+{{<glyph>}}T{{</glyph>}}haraspas rapidly advanced his plans. We gathered that evening for a princely feast, lavished upon us by a host who gave no thought to counting pennies. It was rich, exotic, saucy stuff, much of which I couldn’t identify, but it tasted wonderful and I slopped up all I could hold. 
 
 He served caviar, the rare Kaluga variety, he boasted. I hate caviar, but I ate it anyway, just to say I did. I still hated it, the first helping and the second. I washed down that, and the rest of the sumptuous meal, with a bucketful of pricey wine, quaffed from a crystal goblet, the elixir fetched from private stocks aged over a century.
 
@@ -341,10 +345,9 @@ We timed it right. Imagine this last glimpse of the Sedona House: there it stood
 And, as the papers say, it blew up.
 
 
+&nbsp;
 
-
-
-Contrary to public reporting, it wasn’t an actual explosion. The house simply sprang off its foundations and disintegrated, like a thousand piece jigsaw puzzle thrown into the air. A kaleidoscope image of fragments whizzed every which way, and then the whole mess came crashing down again, leaving a psycho’s scheme for urban renewal. Thus ended the Sedona House.
+{{<glyph>}}C{{</glyph>}}ontrary to public reporting, it wasn’t an actual explosion. The house simply sprang off its foundations and disintegrated, like a thousand piece jigsaw puzzle thrown into the air. A kaleidoscope image of fragments whizzed every which way, and then the whole mess came crashing down again, leaving a psycho’s scheme for urban renewal. Thus ended the Sedona House.
 
 You know, I really can’t complain. I got my clock, the sale of which paid for a sporty new coupe and much else besides. I’ve lived on easy street for a while, enjoying throwing money around like a big man, something I can’t always do in my business. My secretary Angie got her night on the town, and several more. When Professor Vorchek and his hot number invited me to dinner at a ritzy restaurant, and I even picked up the check. Blue moons come round occasionally.
 
@@ -362,10 +365,4 @@ The professor smiled grimly. “That constitutes a mystery, Mr. Fontaine? You di
 
 “For that which really matters, there may be only one way to find out… and no second chance.”
 
-
-
 -
-
-
-
-***Jeffery Scott Sims*** *is a degreed anthropologist with a penchant for the fantastic. He makes his home in Arizona, the setting for many of his well over one hundred published stories. His recent publications include a volume of weird tales,* Science and Sorcery III; *the republication of his novel*, The Journey of Jacob Bleek; *and the short stories* Comes the New World, The Revenge of the Weird, The Master of Kirgusk, The Mystery of the Egyptian Biscuit, The Watcher Within, *and* The Forbidden Chapter. *You can find him at [JefferyScottSimms.webs.com](https://jefferyscottsims.webs.com/index.html).*

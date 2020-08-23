@@ -1,10 +1,16 @@
 ---
 title: "Alight"
-date: 2020-08-30
-image: images/Alight.png
+date: 2020-08-23
 issue: Issue 23
+
 author: Skye Allen
+authors:
+- Skye Allen
+image: images/Alight.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [1987599](https://pixabay.com/photos/eye-alligator-reptile-nature-1446419/), and [dlonrax](https://pixabay.com/photos/gig-concert-show-music-event-3518406/)."
 copyright: "© Skye Allen 2020 All Rights Reserved"
+showAuthorFooter: true
+
 description: "Depending on her name at the time, Skye Allen either does fantasy fiction or she does music. In the piece she gave us, we get both - along with a stage-side pass to a gig that threatens to go to some very dark places. There's nothing quite like a band that's on fire..."
 
 type: stock
@@ -183,11 +189,4 @@ Her vision filled with darkness, and she realized she was sitting on the curb wi
 
 The firefighter turned to give an order into her shoulder radio. And then Tress was in a swarm of face masks and latex gloves. And then the pain hit. 
 
-
-
 -
-
-
-
-***Skye Allen*** *wrote* Pretty Peg *and* The Songbird Thief, *both queer YA fantasy novels.* The Songbird Thief *was a Goldie Award finalist and won a FAPA President’s Book Award. She has had stories in* Toasted Cheese *and* Of Dragons and Magic *and poetry in* Insomnia *and* Sinister Wisdom. *She is a graduate of the Viable Paradise writers workshop. She is also a musician and occasionally performs around the San Francisco Bay Area, where she lives with her wife. She/her pronouns. You can find her [at her website](https://allenskye.com/), and she tweets as [@eppiemorrie](https://twitter.com/eppiemorrie).*
-

@@ -1,6 +1,6 @@
 ---
 title: "Table of Contents"
-date: 2020-08-30
+date: 2020-08-23
 image:
 issue: Issue 23
 description: To celebrate our new skin, we have all new meat on the bone!

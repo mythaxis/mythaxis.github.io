@@ -1,10 +1,16 @@
 ---
 title: "Weapons of Mass Entanglement"
-date: 2020-08-30
-image: images/MassEntanglement.png
+date: 2020-08-23
 issue: Issue 23
+
 author: Dennis Mombauer
+authors:
+- Dennis Mombauer
 copyright: "© Dennis Mombauer 2020 All Rights Reserved"
+image: images/MassEntanglement.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Pawel Kadysz](https://unsplash.com/photos/yKPj4oi9m74), [David-Karich](https://pixabay.com/photos/portrait-face-pale-expressive-eyes-358970/), and [Stephanie Mulrooney](https://unsplash.com/photos/X_unyC4Kkyc)."
+showAuthorFooter: true
+
 description: "The only unifying thing Mythaxis seeks is good writing - but we want to bring together a variety of genres, styles, themes, and no two alike is fine by us. Dennis Mombauer answered that call with a vision of the strange, and left us with questions."
 
 type: stock
@@ -21,10 +27,9 @@ This continued over the following weeks. While Panduranga guided visitors from f
 Her work tired Panduranga out, and the plant soon became just another part of the house she came home to. Then, one day, as unexpected as had been its sprouting, the bud was open. Inside it, Panduranga saw an object of non-biological origin.
 
 
+&nbsp;
 
-
-
-The object was a remote with one button. Panduranga examined it from all angles before she tried to touch it. The plastic surface felt warm under her fingers, smooth, not at all like the plant surrounding it. Panduranga plucked the remote like a fruit and tentatively pressed the button, but it didn’t seem to do anything. She pressed it a few more times, pointing the remote in different directions, then walked inside the house.
+{{<glyph>}}T{{</glyph>}}he object was a remote with one button. Panduranga examined it from all angles before she tried to touch it. The plastic surface felt warm under her fingers, smooth, not at all like the plant surrounding it. Panduranga plucked the remote like a fruit and tentatively pressed the button, but it didn’t seem to do anything. She pressed it a few more times, pointing the remote in different directions, then walked inside the house.
 
 As she passed her living room, the button glowed faintly. It boggled her mind how something like this could grow from a plant, but she was no botanist, merely a tour guide. She pressed the button one more time, and her TV came alive. This was doubly strange, because Panduranga didn’t watch TV often and it shouldn’t have any energy stored—but even more surprising was what it showed.
 
@@ -35,10 +40,9 @@ It felt unsettling to see him there, in her house, even though he was just a rec
 The button on the remote didn’t glow anymore, and there seemed to be no way to change the channel, so Panduranga watched the man sit there, get himself something to eat, scratching his back, and finally falling asleep, just as tiredness overcame herself as well.
 
 
+&nbsp;
 
-
-
-In the morning, the man wasn’t there. Panduranga ate breakfast, cleaned up, and drove to work. The tourist town lay in no-man’s-land between the front lines, as did Panduranga’s home, but the war parties excluded it from their attacks, and only rarely did a missile, airstrike, or orbital bombardment hit close to it.This time, there was a huge load of visitors from a remote planet, gawking and gaping at the soldiers, at their weapons, at the desolation the war had brought upon the planet.
+{{<glyph>}}I{{</glyph>}}n the morning, the man wasn’t there. Panduranga ate breakfast, cleaned up, and drove to work. The tourist town lay in no-man’s-land between the front lines, as did Panduranga’s home, but the war parties excluded it from their attacks, and only rarely did a missile, airstrike, or orbital bombardment hit close to it.This time, there was a huge load of visitors from a remote planet, gawking and gaping at the soldiers, at their weapons, at the desolation the war had brought upon the planet.
 
 The workday was long, and Panduranga returned in the dark, the purple-bruised horizon occasionally lit up by flares and distant skirmishes. The plant still grew by her doorstep, but it wasn’t the reason Panduranga stopped dead in her tracks.
 
@@ -59,10 +63,9 @@ The next morning, Panduranga was late for work. She only noticed in passing that
 And that the plant was sprouting another bud.
 
 
+&nbsp;
 
-
-
-More people than usual crowded the tourist town. Everyone was excited over the resumed fighting. In the distance, visible only through the stationary binoculars, a major offensive was in full swing, with uncertainty fighters flickering in and out of existence across the northern horizon. 
+{{<glyph>}}M{{</glyph>}}ore people than usual crowded the tourist town. Everyone was excited over the resumed fighting. In the distance, visible only through the stationary binoculars, a major offensive was in full swing, with uncertainty fighters flickering in and out of existence across the northern horizon. 
 
 Panduranga did her job, but she was distracted, and almost lost a tourist when he wandered off toward the killzones.
 
@@ -73,10 +76,9 @@ She took it inside, checked on the TV’s inhabitant—he was sitting on the cou
 Now, she had leverage: Whenever he moved her furniture, she killed his lights. This way, she could keep him at bay during the evenings, but not during daylight hours, when she went to work.
 
 
+&nbsp;
 
-
-
-One evening, there was a new bud on the ever-growing plant, and Panduranga hoped for another gadget in her silent war against the TV man. The next day, for the first time that Panduranga could remember, missiles hit the tourist town and leveled a shopping street in the outskirts. 
+{{<glyph>}}O{{</glyph>}}ne evening, there was a new bud on the ever-growing plant, and Panduranga hoped for another gadget in her silent war against the TV man. The next day, for the first time that Panduranga could remember, missiles hit the tourist town and leveled a shopping street in the outskirts. 
 
 With tourists having little appetite for observing war quite so close up, she returned early from work to find the plant offering a new device: an air conditioning filter, that (she discovered) sucked in any smells or smoke from her house and belched it out from the man’s ventilation.
 
@@ -91,10 +93,9 @@ Then, perhaps inevitably, one day Panduranga drove out to find the tourist town 
 There was nothing to do except to drive home. So that’s what Panduranga did.
 
 
+&nbsp;
 
-
-
-In the short time she had been gone, Panduranga’s plant had grown bigger than her house. The house itself wasn’t there—it had vanished as tracelessly as had the tourist town.
+{{<glyph>}}I{{</glyph>}}n the short time she had been gone, Panduranga’s plant had grown bigger than her house. The house itself wasn’t there—it had vanished as tracelessly as had the tourist town.
 
 Only the TV stood in the middle of the wasteland.
 
@@ -104,10 +105,4 @@ Their eyes met, and he pressed the button.
 
 Panduranga stood alone with the plant and watched reality ripple in the sky. No TV, no house, no tourist town: only the plant. It carried a newly blossomed bud, and as Panduranga looked inside it, she saw herself lying there, asleep next to the man from the TV.
 
-
-
 -
-
-
-
-***Dennis Mombauer*** *currently lives in Colombo, Sri Lanka, where he works as a consultant on climate change and as a writer of speculative fiction, textual experiments, and poetry. He is co-publisher of a German magazine for experimental fiction,* [Die Novelle – Magazine for Experimentalism](http://novelle.wtf/), *and has published fiction and non-fiction in various magazines and anthologies. His first English novel,* The Fertile Clay, *will be published by Nightscape Press in 2020. You can find him [at his website](https://dennismombauer.com/), and he tweets [@DMombauer](https://twitter.com/DMombauer).*

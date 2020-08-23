@@ -1,10 +1,16 @@
 ---
 title: "Experimental Diet"
-date: 2020-08-30
-image: images/ExperimentalDiet.png
+date: 2020-08-23
 issue: Issue 23
+
 author: Andrew Johnston
+authors:
+- Andrew Johnston
+image: images/ExperimentalDiet.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Andrea Piacquadio](https://www.pexels.com/photo/woman-in-gray-tank-top-3812731/), [Nesrin Danan](https://www.pexels.com/photo/woman-eating-outside-3193818/), and [Sharon Murillo](https://www.pexels.com/photo/yellow-pasta-on-stainless-steel-bowl-4049953/)."
 copyright: "© Andrew Johnston 2020 All Rights Reserved"
+showAuthorFooter: true
+
 description: "From the beginning there's been a fine tradition of epistolary fiction in the speculative genres - Dracula, for example, told its bloody tale through diaries, letters, newspaper articles, ship's logs... Andrew Johnston tells no less bloody a tale - and if these records glowed on a screen on some distant planet, what of it?"
 
 type: stock
@@ -22,19 +28,18 @@ morelink: 'Feed me more'
 	- **BRIEF SUMMARY**: *Analysis of unidentified live organism X-0E*
 
 
-
 **LOG 181**
 
 A xenofauna sample was captured alive and returned to the laboratory by Agolgan mercenaries. Once negotiations for payment were concluded, the sample was brought into the complex. As the sample demonstrated a highly aggressive nature while in the care of the mercenaries, it was placed into secured containment immediately.
 
 ***Preliminary notes***:
 
-- **MASS**: 250-300kg (estimate)
-- **LENGTH**: 2.5m (estimate)
-- **LOCOMOTION**: Primarily quadrupedal
-- **DIET**: Unknown
-- **REPRODUCTION**: Unknown
-- **NECROPSY**: Not performed
+	- **MASS**: 250-300kg (estimate)
+	- **LENGTH**: 2.5m (estimate)
+	- **LOCOMOTION**: Primarily quadrupedal
+	- **DIET**: Unknown
+	- **REPRODUCTION**: Unknown
+	- **NECROPSY**: Not performed
 
 Because this organism was secured alive, we will maintain it in captivity while we study its behavior and physical traits. Our first step is to determine its diet so that it can be maintained until a necropsy is ordered.
 
@@ -42,9 +47,7 @@ Because this organism was secured alive, we will maintain it in captivity while 
 
 Speaking of diet, someone should have a word with Exterra about our supplies. They can brag all they want about how their wonderful Nutri-Noodles have the perfect balance of macronutrients or whatever it was, but they taste like plastic tubing and they're hardly filling. They could have at least sent along some dried fruit or something.
 
-
-
-
+&nbsp;
 
 **LOG 182**
 
@@ -58,9 +61,7 @@ Sample circled the vegetation, prodded through the mound with its head, then tur
 
 Noticed some irregular readings from the containment sensors. The maintenance team needs to get off its collective ass and fix this thing up. God help them if I have to get on them about it.
 
-
-
-
+&nbsp;
 
 **LOG 183**
 
@@ -76,9 +77,7 @@ Received more irate messages from Dr. Hedren on our alleged “lack of progress.
 
 All I ever hear is “Oh, the Taiyang people would have had reports done by now.” Well, let her try to bribe some Taiyang people into joining up. Recruitment isn't my responsibility.
 
-
-
-
+&nbsp;
 
 **LOG 184**
 
@@ -92,9 +91,7 @@ The sample did not even approach the noodles. It made a vocalization that sounde
 
 How the hell did a technician get close enough to drop anything in there? And why? The holographic displays are more than sufficient, but they always want to get close. This is a lawsuit waiting to happen.
 
-
-
-
+&nbsp;
 
 **LOG 185**
 
@@ -110,9 +107,7 @@ The sample is clearly carnivorous. Furthermore, it obviously has an exceptionall
 
 If Hedren keeps pestering me, I'm going to drown her in Nutri-Noodle broth. I shouldn't write that, but it's not like she's ever going to read it.
 
-
-
-
+&nbsp;
 
 **LOG 186**
 
@@ -126,9 +121,7 @@ The sample consumed Davidson's body in its entirety, much as it did with the xen
 
 The best I can say is that Davidson didn't scream for too long. That was horrible, but I told those idiots to stay away from the enclosure. I'll bet she's not the last one to fall in. Frankly, they deserve it if they're going to be this dumb.
 
-
-
-
+&nbsp;
 
 **LOG 187**
 
@@ -142,9 +135,7 @@ Unlike Davidson, who was still stunned, Arnold was composed enough to attempt to
 
 Arnold was an asshole, I don't think anyone will miss him. Hedren's on us, now. Busybody that she is, I bet she'll be down here ASAP, looking for someone to blame. It'll probably be me – she's been looking for an excuse to run me out. Let her try it, see what happens.
 
-
-
-
+&nbsp;
 
 **LOG 188**
 
@@ -158,9 +149,7 @@ Dr. Hedren will be sorely missed.
 
 Well, that was convenient.
 
-
-
-
+&nbsp;
 
 **LOG 189**
 
@@ -176,9 +165,7 @@ Okay, the internal security mechanisms have engaged, so as long as I don't leave
 
 I think I'm getting a new appreciation for Nutri-Noodles now that I've decided that I'm never eating meat again.
 
-
-
-
+&nbsp;
 
 **LOG 190**
 
@@ -194,9 +181,7 @@ On the plus side, I'm now confident that we have no alcoholics here. I haven't f
 
 Anyway, if anyone finds this, I leave whatever I happen to own to my brother. It's not exactly a legal document, but it's the best I can do under the circumstances.
 
-
-
-
+&nbsp;
 
 **LOG 191**
 
@@ -210,9 +195,7 @@ Sampel also 8 at least 2 resrchers. Maybe more but I def saw 2 before shuttter c
 
 Most of my blood is on thfloor. Watched man gt bit in haf. Sorry Hedren.
 
-
-
-
+&nbsp;
 
 **LOG 192**
 
@@ -226,9 +209,7 @@ Might be delirous from blod loss and shok. Dont think the music sreal. Noddles a
 
 Musics good even if not real. I want sm fruit tho.
 
-
-
-
+&nbsp;
 
 **LOG 193**
 
@@ -240,10 +221,5 @@ I think its gone. Cant see on camera now. Feeling fiiiiiine.
 
 its a good life, ha ha. Doggie is whinning. Thats a god boy. Ha ha look what I typd. Good boy, ha. Doggie scratching ad door. K doggie, Ill let u in now, b good.
 
-
-
 -
 
-
-
-*Born in rural western Kansas, **Andrew Johnston** discovered his Sinophilia while attending the University of Kansas. Subsequently, he has spent most of his adult life shuttling back and forth across the Pacific Ocean. He is currently based out of Hefei, Anhui province. He has published short fiction in* Nature: Futures, Electric Spec, Mythic *and the* Laughing at Shadows Anthology. *You can learn more about his projects at [findthefabulist.com](http://findthefabulist.com/).*

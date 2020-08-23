@@ -1,10 +1,16 @@
 ---
 title: "The Huntress and the Conveyor Worlds"
-date: 2020-08-30
-image: images/HuntressConveyor.png
+date: 2020-08-23
 issue: Issue 23
+
 author: Daniel Ausema
+authors:
+- Daniel Ausema
+image: images/HuntressConveyor.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Pexels](https://pixabay.com/photos/railroad-tracks-jungle-overgrown-1835529/), [bere69](https://pixabay.com/photos/the-jungle-of-chiapas-1865639/), and [TobiasRehbein](https://pixabay.com/photos/train-building-airport-indoors-5150747/)."
 copyright: "© Daniel Ausema 2020 All Rights Reserved"
+showAuthorFooter: true
+
 description: "Fantasy author and speculative poet Daniel Ausema is no stranger to strange lands, strange technologies, strange creatures. Here he takes us on a journey though a selection of the first, and exposes us to the others in ways his heroine - and readers - may be unprepared for."
 
 type: stock
@@ -117,10 +123,9 @@ Shilaha pulled herself onto the creature’s back. A push on the head sent it sh
 As she rode the richest prize she’d ever won, images passed through her mind as if on a conveyor themselves, circling back over and over to repeat themselves. Of herself at rest with purchased food always available, of herself in a restored home of the ancient ones, of hunting only when she needed to, of a conveyor that worked to her will instead of the whim of unpredictability. Let the others think her luck bad now! *Comfortable?* That could be forgotten. Now she could dream of *finery*.
 
 
+&nbsp;
 
-
-
-The conveyor flickered across her path and disappeared, leaving a line of broken vegetation. Her ley tattoo responded with a jolt of energy. Too late, Sihala spurred her mount forward, as if the conveyor might return. As if she’d dare ride it now with it shifting so frequently. But the cut in the undergrowth made for a good path that went roughly the direction she wanted, so she steered the creature onto it and urged it faster.
+{{<glyph>}}T{{</glyph>}}he conveyor flickered across her path and disappeared, leaving a line of broken vegetation. Her ley tattoo responded with a jolt of energy. Too late, Sihala spurred her mount forward, as if the conveyor might return. As if she’d dare ride it now with it shifting so frequently. But the cut in the undergrowth made for a good path that went roughly the direction she wanted, so she steered the creature onto it and urged it faster.
 
 The mount moved gracefully as it accelerated, a rolling motion from front to back that kept it moving easily but ready to change directions whenever it needed to. For Sihala, though, it didn’t feel graceful, though she knew the fault was her own. The way the shoulders rose and rolled forward with each lope roiled her stomach. After crossing a good stretch of land she had to slow the creature to a walk.
 
@@ -188,10 +193,4 @@ She fell asleep thinking of her little shack along one of the conveyor’s more 
 
 She wondered what creatures she would hunt tomorrow, and what luck she would have to scavenge for.
 
-
-
 -
-
-
-
-***Daniel Ausema*** *huddles with his family where viruses can't reach them (so far, knock on wood) but mountain airs can. His work has appeared in many publications, including* Strange Horizons, Daily Science Fiction, *and* Diabolical Plots. *He is the creator of the steampunk-fantasy* Spire City *series as well as the* Arcist Chronicles, *which is published by Guardbridge Books. You can find him [at his website](https://danielausema.com/) and on [twitter](https://twitter.com/ausema).*

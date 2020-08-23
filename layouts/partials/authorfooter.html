@@ -1,0 +1,21 @@
+{{ $authors := .Site.GetPage "/authors" }}
+{{ $authors := $authors.Resources.Match "*" }}
+
+{{ $stock := . }}
+
+{{ if .Params.authors }}
+	{{ range .Params.authors }}
+		{{ range where $authors ".Params.name" . }}
+			<footer class="row author">
+				<h3>{{ .Params.name }}</h3>
+				<p>
+					<span class="image left">
+				<img src="../authors{{ .Params.photo | relURL }}" alt="{{ .Params.name }}"></span>
+				
+			    {{ .Params.description | markdownify }}</p>
+			    <p>{{ $stock.Params.copyright | default .Params.copyright }}</p>
+			    <p>{{ $stock.Params.imageCopyright | markdownify }}</p>
+			</footer>
+		{{ end }}
+    {{ end }}
+{{end}}

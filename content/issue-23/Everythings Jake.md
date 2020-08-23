@@ -1,10 +1,16 @@
 ---
 title: "Everything's Jake"
-date: 2020-08-30
-image: images/EverythingsJake.png
+date: 2020-08-23
 issue: Issue 23
+
 author: Chris Cook
+authors: 
+- Christopher Cook
+image: images/EverythingsJake.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [spinheike](https://pixabay.com/photos/meadow-garden-summer-front-yard-115676/), [ArtTower](https://pixabay.com/photos/smoke-background-artwork-swirl-69124/), [Alexas_Fotos](https://pixabay.com/photos/sofa-couch-wall-furniture-pieces-3094153/), [amarjits](https://pixabay.com/photos/leather-sofa-recliner-sofa-furniture-186636/), and [StockSnap](https://pixabay.com/photos/house-interior-design-couch-sofa-2593570/). Plus a special salute to Pier 2Eyes for the most striking [Gangster smoking](https://www.flickr.com/photos/pier-photos/6992325347/)."
 copyright: "© Chris Cook 2020 All Rights Reserved"
+showAuthorFooter: true
+
 description: They say "Always leave them wanting more", and we think the final story of the issue will certainly do that. Chris Cook introduces us to a down-to-earth family man dealing with real world problems... and then introduces him to the quirkiest suburban adventure you're ever likely to come across. Fuggedaboudit.
 
 type: stock
@@ -84,11 +90,9 @@ Such behavior was common in their tight-knit community. So no, the theory that t
 
 Matthew pinched the flesh on his forearm and scanned the yard once more, making sure that he was not still asleep in the master bed that was now too large for its purpose. Then he went inside, closed and locked the door to 664 Half Pint Loop, and made a beeline to the coffee pot.
 
+&nbsp;
 
-
-
-
-Matthew funded the family coffers by working as an IT security consultant for a large bank headquartered in Charlotte. The nature of his role afforded him the luxury of working from home most days, which had been particularly helpful ever since the Fords had downsized from a quartet to a power trio.
+{{<glyph>}}M{{</glyph>}}atthew funded the family coffers by working as an IT security consultant for a large bank headquartered in Charlotte. The nature of his role afforded him the luxury of working from home most days, which had been particularly helpful ever since the Fords had downsized from a quartet to a power trio.
 
 Seated at his desk in the office located at the front of the house, Matthew set out to solve the issue of the spontaneous couch consignment that had apparently taken place overnight. Returning to sender was not an option, since whoever had made the delivery had not been kind enough to leave a note. He briefly considered turning a profit—he did work for a bank, after all—by selling the sofas one by one online, but this was too onerous; he wanted his yard back before the end of the day. 
 
@@ -131,10 +135,9 @@ Nails dropped his cigarette on the stoop and ground it out with the toe of his b
 With that, Nails turned and marched down the path toward the street. Matthew thought it was a bit strange that this intruder didn’t have a car, but he had no interest in offering to give him a lift. Nor did he care enough to stand and watch him go; he slammed the door shut before Nails was halfway down the walk.
 
 
+&nbsp;
 
-
-
-The rest of the day went off without a hitch. The Troops of Salvation arrived shortly after Nails Nelson took his leave. They had two twenty-six-foot trucks, yet still required three trips before the yard was completely cleared. The crew almost took off without providing a tax receipt, but Matthew saw to it that everything was accounted for prior to bidding them adieu.
+{{<glyph>}}T{{</glyph>}}he rest of the day went off without a hitch. The Troops of Salvation arrived shortly after Nails Nelson took his leave. They had two twenty-six-foot trucks, yet still required three trips before the yard was completely cleared. The crew almost took off without providing a tax receipt, but Matthew saw to it that everything was accounted for prior to bidding them adieu.
 
 *Every penny counts when you’re flying solo,* he thought. Matthew was well compensated by the bank, but things began to add up when you started thinking long-term. *Polishing off the mortgage, paying for college, weddings*… He looked toward the sky. *Wish we could talk, Cait. I may have to hock plasma or pose nude for the local art school on the side, but I got this.*
 
@@ -157,10 +160,9 @@ He didn’t mention the unexpected visitor. Wanting to move past the events of t
 That and time, anyway.
 
 
+&nbsp;
 
-
-
-The Ford family was quite surprised to find their front yard once again littered with couches the next morning. Not the same couches: the lawn was now covered by an entirely new gaggle of living room furniture. And the number of pieces had increased. Each blade of grass was obscured, and since there was excess inventory, whoever had made the drop-off had decided to start stacking. Towers, two and three couches high, stretched from the beginning of the property line to the front door of their home.
+{{<glyph>}}T{{</glyph>}}he Ford family was quite surprised to find their front yard once again littered with couches the next morning. Not the same couches: the lawn was now covered by an entirely new gaggle of living room furniture. And the number of pieces had increased. Each blade of grass was obscured, and since there was excess inventory, whoever had made the drop-off had decided to start stacking. Towers, two and three couches high, stretched from the beginning of the property line to the front door of their home.
 
 *There’s gotta be double the amount from yesterday,* Matthew thought. *We’re gonna need a bigger boat.*
 
@@ -253,38 +255,29 @@ Matthew made his way out to the family car, which had never been airborne withou
 “Hi, yes, this is Matthew Ford, we spoke earlier about a donation pick-up? I’m gonna need to cancel. No, no, we just gave it some thought and decided to send this batch elsewhere, since you guys are probably full-up on couches after the haul yesterday. Which charity did we decide on? Oh, you’ve probably never heard of it.” His face twisted bitterly. “It’s just a little group that some friends of ours run.”
 
 
+&nbsp;
 
-
-
-Matthew woke early next morning to check the yard before the girls roused. When he opened the door, a letter that had been wedged in the jamb fluttered to his feet. As he bent to pick it up, he spared a glance through squinted eyes toward the lawn, afraid of what he might discover. He was pleased to find nothing worth remarking on, save for the immaculate condition of the grass itself. There wasn’t a blade out of place, no sign at all that there had been thousands of pounds of foam and feathers scattered about only hours earlier. The yard was actually a brighter shade of green than it had been the day he laid the sod. 
+{{<glyph>}}M{{</glyph>}}atthew woke early next morning to check the yard before the girls roused. When he opened the door, a letter that had been wedged in the jamb fluttered to his feet. As he bent to pick it up, he spared a glance through squinted eyes toward the lawn, afraid of what he might discover. He was pleased to find nothing worth remarking on, save for the immaculate condition of the grass itself. There wasn’t a blade out of place, no sign at all that there had been thousands of pounds of foam and feathers scattered about only hours earlier. The yard was actually a brighter shade of green than it had been the day he laid the sod. 
 
 *They really* do *hit on all sixes,* Matthew thought. *Hot damn.*
 
 As he wondered whether he could enlist Nails and his fellow conspirators for regular landscaping, Matthew opened the letter. The handwriting was crude, resembling a *Do You Like Me?* note from a preteen righty attempting a sly southpaw.
 
-
-
-​	*Mister,*
-
-​	*Hope you like what you see. Me and the boys never had an unsatisfied customer. I take that back. We had one, but I don’t figure he’s heard the birds chirp for a while now. Ha-Ha.*
-
-
+> *Mister,*
+>
+> *Hope you like what you see. Me and the boys never had an unsatisfied customer. I take that back. We had one, but I don’t figure he’s heard the birds chirp for a while now. Ha-Ha.*
 
 Nails’s spelling was a lot more precise than his pronunciation. Still, Matthew couldn’t help but mentally *ya* his *you*’s and *dat* his *that*’s for him.
 
-
-
-​	*Speaking of birds, a little one told me that you’re having that shed delivered today. That’s good, mister. That’s… what did you say when we first chewed the fat? Swell. That’s swell. Anyone says to me that Matty Ford ain’t a stand-up guy is getting five fingers and fourteen joints to the face. Scout’s Honor.*
-
-​	*Go ahead and plan for us to swing by tomorrow night around 11. Me and the crew like to travel after the moon’s up when we’re carrying tools. Like them vamps in that Irish book.* 
-
-​	*Be alone.*
-
-​	*Your pal,*
-
-​	*Nails*
-
-
+> *Speaking of birds, a little one told me that you’re having that shed delivered today. That’s good, mister. That’s… what did you say when we first chewed the fat? Swell. That’s swell. Anyone says to me that Matty Ford ain’t a stand-up guy is getting five fingers and fourteen joints to the face. Scout’s Honor.*
+>
+> *Go ahead and plan for us to swing by tomorrow night around 11. Me and the crew like to travel after the moon’s up when we’re carrying tools. Like them vamps in that Irish book.* 
+>
+> *Be alone.*
+>
+> *Your pal,*
+>
+> *Nails*
 
 So, there it was. The events of the last couple of days hadn’t been a production of his overstressed mind or a sick joke perpetrated by a bored cosplayer. The Fords really had been visited by a “gangster” in a flying Studebaker, and Matthew had signed-up to help the guy build a militia. All because the visitor had dropped a mess of couches on the front lawn and executed a classic extortion racket. Kinda.
 
@@ -333,10 +326,9 @@ Flabbergasted by his daughter’s statement (and her sneak-attack kiss), Matthew
 *And I got* this.
 
 
+&nbsp;
 
-
-
-“Are you really just gonna fold for this guy?” Matthew stood in the newly constructed shed and pressed his palms to the card table in the middle of the room. “You’re gonna roll out the red carpet and welcome an alien invasion with open arms?”
+{{<glyph class="small">}}“{{</glyph>}}{{<glyph>}}A{{</glyph>}}re you really just gonna fold for this guy?” Matthew stood in the newly constructed shed and pressed his palms to the card table in the middle of the room. “You’re gonna roll out the red carpet and welcome an alien invasion with open arms?”
 
 *Now you’re talking to yourself*, Matthew thought. *Boy, the couch delivery extraterrestrials have really done a number on you. And to answer your question, Matty—yeah, I probably am. Ants can’t really fight back against the bottom of a boot, can they?*
 
@@ -415,10 +407,9 @@ The two mobsters nodded, turned on their heels, and made their way toward the do
 “You got it, boss.” Nails tipped his hat to Matthew and clapped Mugsy on the back. “We’re aces at makin’ folks comfortable. Everything’s Jake, Matty.”
 
 
+&nbsp;
 
-
-
-Matthew was just getting the fire started when he felt two arms wrap around his waist. He turned to find all four slumber-partying girls behind him, wearing pajamas and wide, tired eyes. Apparently, even the Jonas Brothers couldn’t hold their attention all night. He couldn’t help noticing that Brittany’s hair was pulled back into a perfect braid. 
+{{<glyph>}}M{{</glyph>}}atthew was just getting the fire started when he felt two arms wrap around his waist. He turned to find all four slumber-partying girls behind him, wearing pajamas and wide, tired eyes. Apparently, even the Jonas Brothers couldn’t hold their attention all night. He couldn’t help noticing that Brittany’s hair was pulled back into a perfect braid. 
 
 “Dad, it’s after midnight!” Elizabeth looked up from the bear hug with an expression of innocent curiosity that girls teetering on their teenage years allow to shine through every so often. “What are you doing out here so late?”
 
@@ -431,8 +422,4 @@ Matthew shifted his gaze to the clear night sky.
 *Don’t worry about us, Cait. I got this.*
 
 
-
 -
-
-
-***Christopher Cook*** *writes fiction to make the reader question their reality and perhaps rethink poking their foot out from underneath the covers. You can find his work in Critical Blast Publishing's anthology,* The Devil You Know, *and the October 2020 issue of* The J.J. Outre Review.

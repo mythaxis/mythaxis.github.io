@@ -5,8 +5,8 @@ all: mythaxis #upload invalidate
 
 mythaxis:
 	@hugo -F
-	git add .
-	git commit -m 'make mythaxis'
+# 	git add .
+# 	git commit -m 'make mythaxis'
 
 upload:
 	@echo 'upload'
