@@ -1,4 +1,6 @@
 # Deploy to freehosting SFTP account
+name: Publish Website
+
 on: 
   workflow_dispatch:
     inputs:
@@ -8,7 +10,7 @@ on:
         default: 'warning'
       tags:
         description: 'Opcode'
-name: Publish Website
+
 jobs:
   printInputs:
     runs-on: ubuntu-latest
