@@ -4,16 +4,14 @@ name: Publish to Github pages
 on:
   push:
     branches:
-      - master  # Set a branch to deploy
+      - master  # Set branch to deploy html to
 
 jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: false  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - name: Git checkout
+        uses: actions/checkout@v2
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -21,11 +19,11 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Build
+      - name: Build hugo site
         run: hugo
 
-      - name: Deploy
+      - name: Deploy to ./docs
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./docs
