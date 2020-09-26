@@ -1,15 +1,13 @@
 # Deploy to freehosting SFTP account
-name: Publish Website
+name: Publish to mythaxis.co.uk
 
-on: 
+on:
   workflow_dispatch:
     inputs:
       logLevel:
         description: 'Whatcha doing?'     
         required: true
         default: 'deploying mythaxis inni'
-      tags:
-        description: 'Opcode'
 
 jobs:
   printInputs:
@@ -17,7 +15,6 @@ jobs:
     steps:
     - run: |
         echo "Log level: ${{ github.event.inputs.logLevel }}"
-        echo "Opcode tags: ${{ github.event.inputs.tags }}" 
 
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
