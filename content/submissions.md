@@ -7,7 +7,7 @@ type: page
 slug: submissions
 ---
 
-***Mythaxis* is currently open for submissions!** We seek and offer the following:
+***Mythaxis* is currently CLOSED to submissions!** When open, we seek and offer the following:
 
 - **Length**: 1,000-7,500 words. This is a firm limit. Generally speaking, the further a story goes beyond 5,000 words the more it will need to impress, but the door is not shut in advance.
 - **Compensation**: $20 on acceptance and return of contract. Payment via PayPal only.
