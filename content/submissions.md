@@ -25,7 +25,7 @@ We aim to accept or reject within 14 days of that acknowledgment, but rl (real l
 
 We require **First Print and Digital rights with a six month period of exclusivity** from the date of publication. We also ask permission to potentially include accepted pieces in future anthologies, in event of which an additional full payment and digital copy will be offered in compensation. All other rights remain entirely with the author.
 
-**Simultaneous submissions are not only accepted, they are encouraged**. Put your work out there, as many places as you can! We merely ask that you notify us of acceptance at another market as soon as possible. In the event that we accept first we would expect an immediate positive confirmation, so we recommend sim-subbing to markets of equivalent status - we won't want to wait for someone else you'd like better to turn you down...
+**Simultaneous submissions are not only accepted, they are encouraged**. Put your work out there, as many places as you can! We merely ask that you notify us of acceptance at another market as soon as possible. In the event that we accept first we would expect an positive confirmation, so we recommend sim-subbing to markets of equivalent status - we won't want to wait for someone else you'd like better to turn you down...
 
 **We do not currently invite reprint submissions**.
 
