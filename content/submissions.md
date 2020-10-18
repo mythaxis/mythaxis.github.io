@@ -7,7 +7,14 @@ type: page
 slug: submissions
 ---
 
-***Mythaxis* is currently CLOSED to submissions!** When open, we seek and offer the following:
+**As of 2021, *Mythaxis* will be published four times a year, and is periodically open to submissions on the following schedule:**
+
+- **January 15th-31st**
+- **April 15th-30th**
+- **July 15th-31st**
+- **October 15th-31st**
+
+Submissions received outside of these dates will unfortunately be lost and therefore not responded to. When open, we seek and offer the following:
 
 - **Length**: 1,000-7,500 words. This is a firm limit. Generally speaking, the further a story goes beyond 5,000 words the more it will need to impress, but the door is not shut in advance.
 - **Compensation**: $20 on acceptance and return of contract. Payment via PayPal only.
@@ -48,7 +55,7 @@ Email files as an attachment to:
 
 Please use the email subject line **MYTHAXIS SUBMISSION – *STORY TITLE*** to evade spam filters.
 
-Feel free to include a concise cover letter and/or author bio, though neither is mandatory. ***Mythaxis*** has a history of publishing first-time authors, and we mean to continue this tradition.
+Feel free to include a concise cover letter and/or author bio, though neither is mandatory. ***Mythaxis*** welcomes authors of all levels of experience. We have a history of publishing first-time authors, and we mean to continue this tradition.
 
  
 
@@ -64,10 +71,12 @@ Straightforward manuscript formatting is preferred for editorial convenience. We
 - Use *italics* for italics, don’t underline instead. Smart (“curly”) punctuation is fine.
 - If your manuscript includes any unusual formatting, please alert the editors when submitting and have a really good, story-related reason.
 
+ 
 
+### FINAL CONSIDERATIONS
 
-When submitting, mentioning the fact that **"avocados have feelings too"** will let us know that you have read these guidelines right to the end... and if you would like to receive feedback on your story when we respond, please say so. We shall try to provide something constructive to consider.
+If you would like to receive feedback on your story when we respond, please say so and we shall try to provide something constructive to consider. And if you absolutely do *not* want to receive feedback, telling us in advance is just fine too!
 
-If you track your submissions, you can find ***Mythaxis Magazine*** on [The Submissions Grinder](https://thegrinder.diabolicalplots.com/Market?id=10939#)!
+If you track your submissions, you can find ***Mythaxis Magazine*** on [The Submissions Grinder](https://thegrinder.diabolicalplots.com/Market?id=10939#).
 
-And finally, if you would like to know more about our editorial policy, [read on here]({{< relref path="editorial policy.md" >}}).
+And finally, if you would like to know more about our editorial policy, [read on here]({{< relref path="editorial policy.md" >}}). Any inquiries can be directed to the editor at the above email address.
