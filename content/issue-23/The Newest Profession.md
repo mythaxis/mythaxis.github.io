@@ -279,4 +279,4 @@ She wonders if she, *she*, will even be a footnote in the history of this new de
 
 -
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of "The Newest Profession" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/103845811536420)*
+*Thanks for reading - but we'd love feedback! Let us know what you think of "The Newest Profession" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/103845811536420).*
