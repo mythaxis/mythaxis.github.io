@@ -421,5 +421,6 @@ Matthew shifted his gaze to the clear night sky.
 
 *Don’t worry about us, Cait. I got this.*
 
-
 -
+
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Everything's Jake" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/103854688202199).*
