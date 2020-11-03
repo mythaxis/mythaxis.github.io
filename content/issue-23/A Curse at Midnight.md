@@ -296,3 +296,4 @@ Because there was one side to the stories that my mother never told us before, a
 
 -
 
+*Thanks for reading - but we'd love feedback! Let us know what you think of "A Curse at Midnight" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/103847458202922).*
