@@ -228,3 +228,5 @@ It’s different now. The robot. It’s got this ridiculous mask stuck on it. A 
 *Fear.* Funny. He always thought it would feel—more deserving than this.
 
 -
+
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Robots of Paris" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/103851538202514).*
