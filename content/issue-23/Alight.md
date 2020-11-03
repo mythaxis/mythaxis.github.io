@@ -190,3 +190,5 @@ Her vision filled with darkness, and she realized she was sitting on the curb wi
 The firefighter turned to give an order into her shoulder radio. And then Tress was in a swarm of face masks and latex gloves. And then the pain hit. 
 
 -
+
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Alight" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/103848058202862).*
