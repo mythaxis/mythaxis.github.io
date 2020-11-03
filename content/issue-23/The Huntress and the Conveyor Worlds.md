@@ -194,3 +194,5 @@ She fell asleep thinking of her little shack along one of the conveyor’s more 
 She wondered what creatures she would hunt tomorrow, and what luck she would have to scavenge for.
 
 -
+
+*Thanks for reading - but we'd love feedback! Let us know what you think of "The Huntress and the Conveyor Worlds" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/103848281536173).*
