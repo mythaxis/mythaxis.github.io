@@ -65,3 +65,5 @@ I search for words to explain to her why a civilization went to such lengths to 
 “We’re still learning about them,” I say. A tear rolls down my cheek. “But I think that they were just like us.”
 
 -
+
+*Thanks for reading - but we'd love feedback! Let us know what you think of "The Third Martian Dick Temple" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/103848768202791).*
