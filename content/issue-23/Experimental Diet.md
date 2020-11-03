@@ -223,3 +223,4 @@ its a good life, ha ha. Doggie is whinning. Thats a god boy. Ha ha look what I t
 
 -
 
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Experimental Diet" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/103850668202601).*
