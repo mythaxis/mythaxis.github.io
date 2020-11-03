@@ -106,3 +106,5 @@ Their eyes met, and he pressed the button.
 Panduranga stood alone with the plant and watched reality ripple in the sky. No TV, no house, no tourist town: only the plant. It carried a newly blossomed bud, and as Panduranga looked inside it, she saw herself lying there, asleep next to the man from the TV.
 
 -
+
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Weapons of Mass Entanglement" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/103854514868883).*
