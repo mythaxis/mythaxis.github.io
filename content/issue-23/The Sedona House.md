@@ -366,3 +366,5 @@ The professor smiled grimly. “That constitutes a mystery, Mr. Fontaine? You di
 “For that which really matters, there may be only one way to find out… and no second chance.”
 
 -
+
+*Thanks for reading - but we'd love feedback! Let us know what you think of "The Sedona House" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/103846668203001).*
