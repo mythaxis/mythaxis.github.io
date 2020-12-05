@@ -1,16 +1,16 @@
 ---
 title: "Winter"
-date: 2020-12-15T13:57:57+01:00
+date: 2020-12-15
 image: images/Winter.png
 issue: Issue 24
 author: David Whitmarsh
 copyright: '© David Whitmarsh 2020 All Rights Reserved'
-description: 'Our recent issues have welcomed a host of new faces to Mythaxis, in this latest including a first fiction sale - and now we are proud to also present not just that but a first ever publication, full stop! David Whitmarsh's story of transitions introduces us to a world clawing its way back from the brink - but things with claws must always be treated with caution...'
+description: "Our recent issues have welcomed a host of new faces to Mythaxis, in this latest including a first fiction sale - and now we are proud to also present not just that but a first ever publication, full stop! David Whitmarsh\'s story of transitions introduces us to a world clawing its way back from the brink - but things with claws must always be treated with caution..."
 
 type: stock
 slug: 'winter'
 
-morelink: 'Don't wait for Spring'
+morelink: "Don\'t wait for Spring"
 
 draft: true
 ---

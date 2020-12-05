@@ -1,6 +1,6 @@
 ---
 title: "The Witches Curse"
-date: 2020-12-15T13:57:57+01:00
+date: 2020-12-15
 image: /images/WitchesCurse.png
 issue: Issue 24
 author: Matthew Wilson

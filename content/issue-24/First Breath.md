@@ -1,6 +1,6 @@
 ---
 title: "First Breath"
-date: 2020-12-15T13:57:57+01:00
+date: 2020-12-15
 image: images/FirstBreath.png
 issue: Issue 24
 author: Addison Smith
@@ -10,7 +10,7 @@ description: 'Far in the distant past of 2013, the story before you received an 
 type: stock
 slug: 'first-breath'
 
-morelink: 'Pray it's not your last'
+morelink: "Pray it\'s not your last"
 
 draft: true
 ---

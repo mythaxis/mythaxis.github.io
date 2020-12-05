@@ -2,7 +2,7 @@
 	<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
 		
 		{{/*  Get all stock pages for the current issue */}}
-		{{ $posts := where (where .Site.Pages "Section" "issue-23") ".Type" "stock" }}
+		{{ $posts := where (where .Site.Pages "Section" "issue-24") ".Type" "stock" }}
 
 
 		{{ .Scratch.Set "postsFeaturedPostEnabled" true }}

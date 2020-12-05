@@ -1,16 +1,16 @@
 ---
 title: "Mine Own"
-date: 2020-12-15T13:57:57+01:00
+date: 2020-12-15
 image: images/MineOwn.png
 issue: Issue 24
 author: Sharon Dawn Selby
 copyright: '© Sharon Dawn Selby 2020 All Rights Reserved'
-description: 'As a professional specialist in both communication and literature, you might be forgiven for expecting Sharon Dawn Selby to already have a long list of fiction credits to her name - so imagine our surprise and delight to be able to present her first published story - one which underlines the traditional power of language and place, good manners, and proper introductions.'
+description: "As a professional specialist in both communication and literature, you might be forgiven for expecting Sharon Dawn Selby to already have a long list of fiction credits to her name - so imagine our surprise and delight to be able to present her first published story - one which underlines the traditional power of language and place, good manners, and proper introductions."
 
 type: stock
 slug: 'mine-own'
 
-morelink: 'What's in a name?
+morelink: "What's in a name?"
 
 draft: true
 ---

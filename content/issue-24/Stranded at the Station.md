@@ -1,11 +1,11 @@
 ---
 title: "Stranded at the Station"
-date: 2020-12-15T13:57:57+01:00
+date: 2020-12-15
 image: images/StrandedStation.png
 issue: Issue 24
 author: Trisha McKee
 copyright: '© Trisha McKee 2020 All Rights Reserved'
-description: 'Romance fiction isn't always the first thing associated with the speculative genres, but there are many fine examples in which the two are well-wedded, and it is surely inarguable that there is nothing in human experience to compare with beginning a new relationship for the sensation of leaping into the unknown. Trisha McKee presents exactly such a case, of two people reaching out towards each other and finding something far from understood.'
+description: "Romance fiction isn\'t always the first thing associated with the speculative genres, but there are many fine examples in which the two are well-wedded, and it is surely inarguable that there is nothing in human experience to compare with beginning a new relationship for the sensation of leaping into the unknown. Trisha McKee presents exactly such a case, of two people reaching out towards each other and finding something far from understood."
 
 type: stock
 slug: 'stranded-station'
