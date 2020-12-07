@@ -14,7 +14,7 @@ description: 'Is it possible that one thing is more important that all the other
 morelink: 'sweet dreams'
 
 image: /images/WitchesCurse.png
-imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Pexels](https://pixabay.com/photos/railroad-tracks-jungle-overgrown-1835529/), [bere69](https://pixabay.com/photos/the-jungle-of-chiapas-1865639/), and [TobiasRehbein](https://pixabay.com/photos/train-building-airport-indoors-5150747/)."
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to Karen Apricot [for](https://www.flickr.com/photos/karenapricot/5519603107) [these](https://www.flickr.com/photos/karenapricot/5519635971/) [five](https://www.flickr.com/photos/karenapricot/5520186750/) [great](https://www.flickr.com/photos/karenapricot/5520117230/) [pictures](https://www.flickr.com/photos/karenapricot/5519527767/)!"
 
 type: stock
 slug: witches-curse
