@@ -19,7 +19,6 @@ imageCopyright: "The title picture was created using Creative Commons images - m
 type: stock
 slug: witches-curse
 weight: 5
-draft: true
 ---
 
 obviously we killed Gemma Ryan because she boiled kids down in a pot and sold the fat as soap Prisoners dont care what other Prisoners did for example I shot my sister Carol because she slept with my husband but in Prison we dont stand for that kid killing stuff

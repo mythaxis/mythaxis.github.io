@@ -19,7 +19,6 @@ imageCopyright: "The title picture was created using Creative Commons images - m
 type: stock
 slug: every-hat-crown
 weight: 6
-draft: true
 ---
 
 On his way into the nearby town of Prestathwyke, young Walleg Ravenscoop stopped by the house where Gwendolyn lived, determined to steal a kiss.

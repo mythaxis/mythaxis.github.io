@@ -19,7 +19,6 @@ type: stock
 slug: first-breath
 weight: 1
 featured: true
-draft: true
 ---
 
 The Rez was a strobing mass of lights, lasers, and mirrors tuned to the heavy bass lines and syncopation. The floor shook with the beat and bodies moved to it, fluid and sexual, fingers running down sweating backs. Two girls stared into each other’s eyes before one let out a breath that sent the other into a fit of ecstasy. Hardy’s wetware mod ached to join them, feeding him shadows of breath—the latest drug craze that turned a faint mist of DNA into an electric stimulus.

@@ -7,7 +7,6 @@ description:
 
 type: page
 slug: contents
-draft: true
 ---
 
 - [First Breath]({{< relref path="First Breath.md" >}}), by Addison Smith

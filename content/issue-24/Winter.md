@@ -19,7 +19,6 @@ imageCopyright: "The title picture was created using Creative Commons images - m
 type: stock
 slug: winter
 weight: 9
-draft: true
 ---
 
 A melody ran counterpoint to Beth Simpson’s every movement as she picked her way from one snare to the next. Often the traps yielded nothing, but today she had already caught a plump little rat, and now another trap gave up a wren. She placed the bird in her collecting bag and struck out at a tangent through the trees searching for shoots, buds, berries, fungi, or the track of some surviving rodent where she might set another snare. She knew these woods. Every barren tree, every hollow. The empty burrows of rabbits long gone, the abandoned nests of migrating birds that had not returned for a decade. 

@@ -19,7 +19,6 @@ imageCopyright: "The title picture was created using Creative Commons images - m
 type: stock
 slug: into-the-darkness
 weight: 3
-draft: true
 ---
 
 Mary Cavanaugh walked along the street from the Toronto Opera House, humming from the overture. Her dark blue velvet dress *susshed* over the crinoline as she side-stepped the well-bundled late night pedestrians. Adjusting the lace shawl to lie flat on her shoulders, she was unconcerned by the chill wind blowing between the buildings.

@@ -19,7 +19,6 @@ imageCopyright: "The title picture was created using Creative Commons images - m
 type: stock
 slug: snow-over-interstate-80
 weight: 8
-draft: true
 ---
 
 I drove the Boss-9 while Winston rode shotgun, feeding shells into his Winchester M97. His nose was broken and there was dried blood down his beard and front. I was sporting two banged-up ribs and a wraparound bruise the size of Jersey.
