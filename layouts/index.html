@@ -3,31 +3,29 @@
   {{ partial "htmlhead" . }}
   
   <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
+    {{/* Infer current section and lookup __index.md params for theming */}}
+    {{ $currSection := .Section | default (urlize .Site.Params.currentIssue) }}
+    {{ $currSection := .Site.GetPage "section" (print $currSection "/__index.md") }}
     
     {{/*  Get all stock pages for the current issue */}}
-    {{ $posts := where (where .Site.Pages "Section" "issue-24") ".Type" "stock" }}
-
-
-    {{ .Scratch.Set "postsFeaturedPostEnabled" true }}
-    {{ if (or (eq .Site.Params.Posts.featuredpost "false") (eq .Site.Params.Posts.featuredpost false)) }}
-      {{ .Scratch.Set "postsFeaturedPostEnabled" false }}
-    {{ end }}
-    {{ $postsFeaturedPostEnabled := .Scratch.Get "postsFeaturedPostEnabled" }}
+    {{ $posts := where (where .Site.Pages "Section" $currSection.Section) ".Type" "stock" }}
 
     {{/* Get first featured story, then remove it from the paging list */}}
     {{ $firstPost := first 1 (where $posts ".Params.featured" true) }}
     {{ $postsForPaging := $posts | complement $firstPost }}
+
+    {{ if mod (len $postsForPaging) 2 }}
+      {{ $lastPost := last 1 $postsForPaging}}
+      {{ $postsForPaging := $postsForPaging | complement $lastPost }}
+    {{ end }}
 
     {{/* Do the paging */}}
     {{ $postsPageSize := .Site.Params.Posts.pagesize | default 2 }}
     {{ $postsPaging := .Paginate $postsForPaging $postsPageSize }}
     
     <!-- Wrapper -->
-      <div id="wrapper" class="fade-in" data-ps="{{ $postsPageSize }}" data-pfp="{{ $postsFeaturedPostEnabled }}">
-
-        {{ if eq $postsPaging.PageNumber 1 }}
+      <div id="wrapper" class="fade-in" data-ps="{{ $postsPageSize }}" >
         {{ partial "intro.html" . }}
-        {{ end }}
 
         {{ partial "header" . }}
         {{ partial "nav" . }}
@@ -38,14 +36,10 @@
             {{ partial "stock/featured.html" (dict "firstpost" $firstPost "siteData" (index .Site.Data .Site.Language.Lang)) }}
             {{ end }}
 
-            {{ if (not (and (eq (len $posts) 1) (eq $postsFeaturedPostEnabled true))) }}
+            {{ if not (eq (len $posts) 1) }}
               {{ partial "stock/list.html" (dict "posts" $postsPaging "siteData" (index .Site.Data .Site.Language.Lang)) }}
             {{ end }}
-
-            {{ $paginator := .Paginator }}
-            {{ $outer := . }}
-            {{ partial "posts/pagination.html" (dict "paginator" $paginator "outer" $outer)}}
-
+            
           </div>
 
           {{ partial "copyright" . }}
