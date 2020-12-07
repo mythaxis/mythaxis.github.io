@@ -1,6 +1,6 @@
 ---
 title: "Stranded at the Station"
-date: 2020-12-01
+date: 2020-12-15
 issue: Issue 24
 
 author: Trisha McKee
