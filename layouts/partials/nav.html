@@ -1,18 +1,41 @@
+{{ $currentPage := . }}
+{{ $currSection := .Section | default (urlize .Site.Params.currentIssue) }}
+
 <!-- Default Nav for sections-->
 {{ $data := index .Site.Data .Site.Language.Lang }}
 <nav id="nav">
     <ul class="links">
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
+        
+        {{/* Home menu item */}}
+        {{ range first 1 .Site.Menus.main }}
+        <li {{ if $currentPage.IsHome }}class="active"{{ end }}>
+            <a href="{{ .URL }}" class="{{ if $currentPage.IsHome }}active{{ end }}">
+                <span>{{ .Name }}</span>
+            </a>
+        </li>
+        {{ end }}
+
+
+        {{/* Inject section specific menu items */}}
+        {{ range where (where .Site.RegularPages "Section" $currSection) "Slug" "in" (slice "editorial" "contents") }}
+            {{ $active := eq $currentPage.RelPermalink .RelPermalink }}
+            <li {{ if $active }}class="active"{{ end }}>
+                <a href="{{ .RelPermalink }}" class="{{ if $active }}active{{ end }}">
+                    <span>{{ .Slug | title }}</span>
+                </a>
+            </li>
+        {{ end }}
+
+
+        {{/* Remaining main menu items (from config) */}}
+        {{ range after 1 .Site.Menus.main }}
             {{ $active := eq $currentPage.RelPermalink .URL }}
-            {{ $newactive := or ($currentPage.IsMenuCurrent "nav" .) ($currentPage.HasMenuCurrent "nav" .) }}
-            {{ $active = or $active (eq .Name $currentPage.Title) }}
-            {{ $active = or $active (and (eq .Name "Contents") (eq $currentPage.Type "stock")) }}
             <li {{ if $active }}class="active"{{ end }}>
                 <a href="{{ .URL }}" class="{{ if $active }}active{{ end }}">
                     <span>{{ .Name }}</span>
                 </a>
             </li>
         {{ end }}
+
     </ul>
 </nav>
