@@ -1,36 +1,40 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html lang='{{ .Site.Language.Lang | default "en-us" }}'>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!-- CSS -->
-		{{ if .Site.IsServer }}
-		{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS (dict "targetPath" "assets/css/main.css" "enableSourceMap" true) }}
-		<link rel="stylesheet" href="{{ ($style).RelPermalink }}">
-		{{ else }}
-		{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS (dict "targetPath" "assets/css/main.css" "enableSourceMap" false) }}
-		<link rel="stylesheet" href="{{ ($style | minify).RelPermalink }}">
-		{{ end }}
-		{{ with .Site.Params.favicon }}
-		<link rel="shortcut icon" href="{{ . }}">
-		{{ end }}
-		{{ $noscript := resources.Get "scss/noscript.scss" | resources.ExecuteAsTemplate "noscript.scss" . | toCSS (dict "targetPath" "assets/css/noscript.css" "enableSourceMap" false) }}
-		<noscript><link rel="stylesheet" href='{{ $noscript.RelPermalink }}' /></noscript>
-		<link rel="stylesheet" href='{{ "assets/css/overrides.css" | relURL }}' />
-		
+{{/* Infer current section and lookup __index.md params for theming */}}
+{{ $currSection := .Section | default (urlize .Site.Params.currentIssue) }}
+{{ $currSection := .Site.GetPage "section" (print $currSection "/__index.md") }}
 
-		<title>{{ if eq (.Site.Title) (.Title) }}{{ .Site.Title }}{{ else }}{{ .Title }} &mdash; {{ .Site.Title }}{{ end }}</title>
-		<meta name="DC.Title" content="{{ if eq (.Site.Title) (.Title) }}{{ .Site.Title }}{{ else }}{{ .Title }} &mdash; {{ .Site.Title }}{{ end }}" />
-		
-		{{ if .Params.author }}<meta name="DC.Creator" content="{{ .Params.author }}" />{{ end }}
-		{{ if .Params.date }}<meta name="DC.Date" content="{{ .Params.date }}" />{{ end }}
-		
-		{{ if .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}" />{{ end }}
-		<meta name="keywords" content="{{ .Site.Params.keywords }}">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!-- CSS -->
+	{{ if .Site.IsServer }}
+	{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS (dict "targetPath" "assets/css/main.css" "enableSourceMap" true) }}
+	<link rel="stylesheet" href="{{ ($style).RelPermalink }}">
+	{{ else }}
+	{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS (dict "targetPath" "assets/css/main.css" "enableSourceMap" false) }}
+	<link rel="stylesheet" href="{{ ($style | minify).RelPermalink }}">
+	{{ end }}
+	{{ with .Site.Params.favicon }}
+	<link rel="shortcut icon" href="{{ . }}">
+	{{ end }}
+	{{ $noscript := resources.Get "scss/noscript.scss" | resources.ExecuteAsTemplate "noscript.scss" . | toCSS (dict "targetPath" "assets/css/noscript.css" "enableSourceMap" false) }}
+	<noscript><link rel="stylesheet" href='{{ $noscript.RelPermalink }}' /></noscript>
+	
+	
+	<link rel="stylesheet" href='{{ "assets/css/overrides.css" | relURL }}' />
+	<style type="text/css">
+		#wrapper > .bg {
+		    background-image: url(../../images/overlay.png), 
+		        linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
+		        url({{ path.Join $currSection.Section $currSection.Params.image | relURL }});}
+	</style>
 
-	</head>
+
+	<title>{{ if eq (.Site.Title) (.Title) }}{{ .Site.Title }}{{ else }}{{ .Title }} &mdash; {{ .Site.Title }}{{ end }}</title>
+	<meta name="DC.Title" content="{{ if eq (.Site.Title) (.Title) }}{{ .Site.Title }}{{ else }}{{ .Title }} &mdash; {{ .Site.Title }}{{ end }}" />
+
+	{{ if .Params.author }}<meta name="DC.Creator" content="{{ .Params.author }}" />{{ end }}
+	{{ if .Params.date }}<meta name="DC.Date" content="{{ .Params.date }}" />{{ end }}
+
+	{{ if .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}" />{{ end }}
+	<meta name="keywords" content="{{ .Site.Params.keywords }}">
+</head>

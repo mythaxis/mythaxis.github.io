@@ -14,11 +14,16 @@
     {{ end }}
 
     {{ if .Params.image }}
-    <a href="{{ .Permalink }}" class="image main"><img src="./{{ .Section }}/{{ .Params.image }}" alt="" /></a>
+    <a href="{{ .Permalink }}" class="image main"><img src="{{ path.Join .Section .Params.image | relURL }}" alt="" /></a>
     {{ end }}
 
     <ul class="actions">
-        <li><a href="{{ .Permalink }}" class="button big">{{ $data.post.linktext }}</a></li>
+        <li><a href="{{ .Permalink }}" class="button big">
+        {{ if .Params.morelink }}
+            {{ .Params.morelink }}
+        {{ else }}
+            {{ $data.post.linktext }}
+        {{ end }}</a></li>
     </ul>
 </article>
 {{ end }}

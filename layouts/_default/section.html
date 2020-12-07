@@ -12,13 +12,22 @@
 </head>
 
 <body>
-	<h1>{{ with .Site.GetPage "section" .Section }}{{ .Title }}{{ end }}</h1>
+ This is the section list template
+ {{ $idx := .Site.GetPage (print .Section "/__index.md") }}
+
+{{ with $idx }}
+  <h1>{{ .Title }}</h1>
+  {{ .Params }}<br />
+  {{ .Params.image }}
+{{ end }}
 
  	<ul class="nav nav-pills nav-stacked">
-      {{ range .Site.Pages }}
-        <li><a href="{{ .Permalink }}">{{ .Params.title | humanize | title }}</a></li>
+      {{ range (where .Site.Pages "Section" .Section) }}
+        <li><a href="{{ .Permalink }}">{{ .Permalink }}</a></li>
       {{ end }}
     </ul>
+}
+}
 </body>
 
 </html>

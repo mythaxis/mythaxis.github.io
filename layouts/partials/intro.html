@@ -1,17 +1,12 @@
-{{ $data := index .Site.Data .Site.Language.Lang }}
-{{ with $data.intro }}
+{{/* Infer current section and lookup __index.md params for theming */}}
+{{ $currSection := .Section | default (urlize .Site.Params.currentIssue) }}
+{{ $currSection := .Site.GetPage "section" (print $currSection "/__index.md") }}
+
+{{ with $currSection }}
 <div id="intro">
     <h1>Mythaxis</h1>
-    <h2>    
-        {{ range $i, $e := .title }}
-            {{ if $i }} <br/> {{ end }} {{ .line }}
-        {{ end }}
-    </h2>
-    <p>
-        {{ range $i, $e := .description }}
-            {{ if $i }} <br/> {{ end }} {{ .line }}
-        {{ end }}
-    </p>
+    <h2>{{ .Params.subhead }}</h2>
+    <p>{{ .Params.headline }}</p>
     <ul class="actions">
         <li><a href="#header" class="button icon solo fa-arrow-down scrolly">{{ i18n "INTRO_CONTINUE" . }}</a></li>
     </ul>

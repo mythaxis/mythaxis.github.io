@@ -1,38 +1,42 @@
-{{ partial "htmlhead" . }}
-	<body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
+<!DOCTYPE HTML>
+<html lang='{{ .Site.Language.Lang | default "en-us" }}'>
+  {{ partial "htmlhead" . }}
+  
+  <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      {{ partial "header" . }}
+      {{ partial "nav" . }}
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+      <!-- Main -->
+      <div id="main">
+        <!-- post -->
+        <section class="post">
+            <header class="major">
+              <img src="{{ "/images/toplist.svg" | safeURL }}" />
+              <h1>{{ .Title }}</h1>
+              <p>{{ .Params.author }}</p>
+              <p>{{ .Description }}</p>
+            </header>
+            {{ if .Params.image }}
+            <div class="image main"><img src="{{ path.Join .Section .Params.image | relURL }}" alt="" /></div>
+            {{ end }}
 
-                {{ partial "header" . }}
-                {{ partial "nav" . }}
+            {{ .Content }}
+            
+            {{ if .Params.showAuthorFooter }}
+                {{ partial "authorfooter" . }}
+            {{ end }}
+        </section>
+      </div>
+      
+      {{ partial "copyright" . }}
+      <a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
 
-				<!-- Main -->
-					<div id="main">
-						<!-- post -->
-                        <section class="post">
-                            <header class="major">
-                                <img src="{{ "/images/toplist.svg" | safeURL }}" />
-                                <h1>{{ .Title }}</h1>
-                                <p>{{ .Params.author }}</p>
-                                <p>{{ .Description }}</p>
-                            </header>
-                            {{ if .Params.image }}
-                            <div class="image main"><img src="{{ .Params.image | safeURL }}" alt="" /></div>
-                            {{ end }}
-                            {{ .Content }}
-                            {{ if .Params.showAuthorFooter }}
-                                {{ partial "authorfooter" . }}
-                            {{ end }}
-                        </section>
+    </div>
 
-					</div>
-
-                    {{ partial "copyright" . }}
-                    <a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
-
-            </div>
-            {{ template "_internal/google_analytics.html" . }}
-            {{ partial "scripts/index" . }}
-	</body>
+    {{ template "_internal/google_analytics.html" . }}
+    {{ partial "scripts/index" . }}
+  
+  </body>
 </html>
