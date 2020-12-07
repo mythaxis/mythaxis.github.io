@@ -1,6 +1,6 @@
 ---
 title: "Every Hat is a Crown"
-date: 2020-12-15
+date: 2020-12-01
 issue: Issue 24
 
 author: Mike Morgan
