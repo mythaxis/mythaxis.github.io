@@ -8,7 +8,7 @@ authors:
 - Andrew Leon Hudson
 showAuthorFooter: true
 
-image: images/huy-tran-viet-green-field.jpg
+image: images/EveryHat.png
 
 type: page
 slug: editorial
