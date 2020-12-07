@@ -14,7 +14,7 @@ description: "Romance fiction isn\'t always the first thing associated with the 
 morelink: 'Someone is coming'
 
 image: images/StrandedStation.png
-imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Andrea Piacquadio](https://www.pexels.com/photo/woman-in-gray-tank-top-3812731/), [Nesrin Danan](https://www.pexels.com/photo/woman-eating-outside-3193818/), and [Sharon Murillo](https://www.pexels.com/photo/yellow-pasta-on-stainless-steel-bowl-4049953/)."
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Pawel L.](https://www.pexels.com/photo/reflection-of-buildings-on-body-of-water-1121782/), [Daria Shevtsova](https://www.pexels.com/photo/woman-in-white-short-sleeved-dress-holding-brown-leather-suitcase-1071078/), [Sebastian Voortman](https://www.pexels.com/photo/man-standing-in-the-middle-of-empty-road-663455/), and [Travis Rupert](https://www.pexels.com/photo/scenic-view-of-ocean-during-sunset-1032650/)."
 
 type: stock
 slug: stranded-station
