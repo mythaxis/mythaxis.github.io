@@ -9,10 +9,11 @@
 			<footer class="row author">
 				<h3>{{ .Params.name }}</h3>
 				<p>
-					<span class="image left">
-				<img src="../authors{{ .Params.photo | relURL }}" alt="{{ .Params.name }}"></span>
+					{{ if fileExists (path.Join .Section .Params.photo | relURL) }}
+					<span class="image left"><img src="{{ path.Join .Section .Params.photo | relURL }}" alt="{{ .Params.name }}"></span>
+					{{ end }}
 				
-			    {{ .Params.description | markdownify }}</p>
+			    	{{ .Params.description | markdownify }}</p>
 			    <p>{{ $stock.Params.copyright | default .Params.copyright }}</p>
 			    <p>{{ $stock.Params.imageCopyright | markdownify }}</p>
 			</footer>

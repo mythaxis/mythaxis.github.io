@@ -1,17 +1,24 @@
 ---
 title: "Mine Own"
 date: 2020-12-15
-image: images/MineOwn.png
 issue: Issue 24
-author: Sharon Dawn Selby
-copyright: '© Sharon Dawn Selby 2020 All Rights Reserved'
-description: "As a professional specialist in both communication and literature, you might be forgiven for expecting Sharon Dawn Selby to already have a long list of fiction credits to her name - so imagine our surprise and delight to be able to present her first published story - one which underlines the traditional power of language and place, good manners, and proper introductions."
 
-type: stock
-slug: 'mine-own'
+author: Sharon Dawn Selby
+authors:
+- Sharon Dawn Selby
+showAuthorFooter: true
+copyright: '© Sharon Dawn Selby 2020 All Rights Reserved'
+
+description: "As a professional specialist in both communication and literature, you might be forgiven for expecting Sharon Dawn Selby to already have a long list of fiction credits to her name - so imagine our surprise and delight to be able to present her first published story - one which underlines the traditional power of language and place, good manners, and proper introductions."
 
 morelink: "What's in a name?"
 
+image: images/MineOwn.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [WindowsObserver](https://pixabay.com/photos/sedona-arizona-red-rocks-351683/), and [422737](https://pixabay.com/photos/fingerprint-traces-pattern-456486/)."
+
+type: stock
+slug: mine-own
+weight: 2
 draft: true
 ---
 
@@ -456,9 +463,5 @@ Two crows launched themselves into the sky and were gone.
 “*Deirdre*,” the forest whispered. “*A ghràidh*. *Mine own*.”
 
 
-
 -
 
-
-
-***Sharon Dawn Selby*** *is a professor of English Literature and Professional Communication in London, Ontario, which means she gets to roam the realms of other people's stories when she isn't writing her own. She has published several book reviews and an academic article, as well as a monograph,* Memory and Identity, *in Canadian Fiction. You can find her on [Twitter](https://twitter.com/sharondawnselby) and at [her website](http://sharondawnselby.com/).*

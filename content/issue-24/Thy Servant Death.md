@@ -1,17 +1,24 @@
 ---
 title: "Thy Servant, Death"
 date: 2020-12-15
-image: images/ThyServantDeath.png
 issue: Issue 24
-author: Scott J. Couturier
-copyright: '© Scott J. Couturier 2020 All Rights Reserved'
-description: "There's nothing quite like The Gothic for wrapping a reader in a strange atmosphere: painting with morbid darkness, sinking a chill deep down into the bones, or perhaps too-vivid colour as fangs sink into the richest vein. Scott J. Couturier offers up an incomparable gift in answer to the age-old question, \"What do you give to the man who has, or had, everything?\""
 
-type: stock
-slug: 'thy-servant-death'
+author: Scott J. Couturier
+authors:
+    - Scott J. Couturier
+copyright: '© Scott J. Couturier 2020 All Rights Reserved'
+showAuthorFooter: true
+
+description: "There's nothing quite like The Gothic for wrapping a reader in a strange atmosphere: painting with morbid darkness, sinking a chill deep down into the bones, or perhaps too-vivid colour as fangs sink into the richest vein. Scott J. Couturier offers up an incomparable gift in answer to the age-old question, \"What do you give to the man who has, or had, everything?\""
 
 morelink: 'A gift that keeps on...'
 
+image: images/ThyServantDeath.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [1987599](https://pixabay.com/photos/eye-alligator-reptile-nature-1446419/), and [dlonrax](https://pixabay.com/photos/gig-concert-show-music-event-3518406/)."
+
+type: stock
+slug: thy-servant-death
+weight: 4
 draft: true
 ---
 
@@ -116,10 +123,5 @@ He motioned for his cup, draining its contents in three quick gulps. The king th
 Ripples of his decree spread throughout the countryside. That nightfall Oola-Saggath (who indeed went by many names) returned to court, descending on a thunderous pitch-black pall that would not abate for seven generations.
 
 
-
 -
-
-
-
-***Scott J. Couturier*** *is a poet and prose writer of the weird, grotesque, liminal, and darkly fantastic. His work has appeared in numerous venues, including* [The Audient Void](https://theaudientvoid.bigcartel.com/), [Spectral Realms](https://www.hippocampuspress.com/journals/spectral-realms), [Eye To The Telescope](http://eyetothetelescope.com/), [The Dark Corner Zine](http://thedarkcornerzine.limitedrun.com/), [Space and Time Magazine](https://spaceandtime.net/), *and* [Weirdbook](http://weirdbook-magazine.com/); *his fiction has been repeatedly featured in the* Test Patterns *and* Pulps *anthologies from [Planet X Publications](http://planetxpublications.blogspot.com/). He currently lives an obscure reverie in the wilds of northern Michigan with his partner/live-in editor and two cats, and you can find him on [Facebook](https://www.facebook.com/scottjcouturier/).*
 

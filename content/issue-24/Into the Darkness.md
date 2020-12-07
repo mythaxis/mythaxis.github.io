@@ -1,17 +1,24 @@
 ---
 title: "Into the Darkness"
 date: 2020-12-15
-image: images/IntoTheDarkness.png
 issue: Issue 24
-author: Lee F. Patrick
-copyright: '© Lee F. Patrick 2020 All Rights Reserved'
-description: "If there's a genre especially close to the heart of your humble editor, it\'s the Ghost Story: that grand denizen of the limbic, liminal domain between mere flighty fantasy and bluntly blundering horror (and there\'s a sentence that should fuel some enmities moving forward). Anyway, isn\'t it so often often the case with these strange inhabitants that \"moving forward\" is at the very heart of the matter?"
 
-type: stock
-slug: 'into-the-darkness'
+author: Lee F. Patrick
+authors:
+- Lee F. Patrick
+showAuthorFooter: true
+copyright: '© Lee F. Patrick 2020 All Rights Reserved'
+
+description: "If there's a genre especially close to the heart of your humble editor, it\'s the Ghost Story: that grand denizen of the limbic, liminal domain between mere flighty fantasy and bluntly blundering horror (and there\'s a sentence that should fuel some enmities moving forward). Anyway, isn\'t it so often often the case with these strange inhabitants that \"moving forward\" is at the very heart of the matter?"
 
 morelink: 'Look more closely...'
 
+image: images/IntoTheDarkness.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Pexels](https://pixabay.com/photos/alligator-animal-close-up-crocodile-1851313/), [josephvm](https://pixabay.com/photos/abstract-horror-face-dark-rough-3363956/), [Skitterphoto](https://pixabay.com/photos/flame-fire-inferno-orange-burning-726268/), and [darksouls1](https://pixabay.com/illustrations/fractal-light-light-fractal-fire-1764914/)."
+
+type: stock
+slug: into-the-darkness
+weight: 3
 draft: true
 ---
 
@@ -428,11 +435,4 @@ Mr. Smythe glanced down at the other end of the room, where those living had bee
 A novel idea, that the dead could so communicate with the living.
 
 
-
 -
-
-
-
-***Lee F. Patrick*** *lives and writes in Calgary Alberta with her husband and four cats who love to sit on her keyboard. She has published three novels, several novellas and a number of short stories and poems in
-magazines and anthologies. She was a finalist in the Poetry category in the 2018 Prix Aurora Awards. You can find her writing on [Amazon](https://www.amazon.com/Lee-F.-Patrick/e/B073KXC2BS), and she tweets as [@LeeFPatrick](https://twitter.com/LeeFPatrick).*
-

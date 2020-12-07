@@ -1,17 +1,24 @@
 ---
 title: "First Breath"
 date: 2020-12-15
-image: images/FirstBreath.png
 issue: Issue 24
+
 author: Addison Smith
+authors:
+  - Addison Smith
+showAuthorFooter: true
 copyright: '© Addison Smith 2020 All Rights Reserved'
+
 description: 'Far in the distant past of 2013, the story before you received an honourable mention from Writers of the Future only to slink into the shadows, never to be seen again. Now at long last Addison Smith gets our Winter issue moving with the futuristic tale of a reluctant hero who gradually comes to learn that, much like revenge, rescue is a dish best served cold.'
+morelink: "Pray it's not your last"
+
+image: images/FirstBreath.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [JacksonDavid](https://pixabay.com/photos/african-afro-turban-people-person-5035645/) (several times over), and [Pexels](https://pixabay.com/photos/architecture-building-geometric-1868547/)."
 
 type: stock
-slug: 'first-breath'
-
-morelink: "Pray it\'s not your last"
-
+slug: first-breath
+weight: 1
+featured: true
 draft: true
 ---
 
@@ -508,9 +515,5 @@ Hardy pulled her close. With the memories returned, he knew what he almost lost,
 Jack would pay.
 
 
-
 -
 
-
-
-***Addison Smith*** *has blood made of cold brew and flesh made of chocolate. He spends most of his time writing about fish, birds, and cybernetics, often in combination. His fiction has appeared in* [Fireside Magazine](https://firesidefiction.com/issue10/chapter/hope-for-enthos/) *and* [Daily Science Fiction](https://dailysciencefiction.com/fantasy/fairy-tales/addison-smith/all-miracles-fifty-percent-off), *and you can find him on Twitter as the [@storylizard](https://twitter.com/storylizard).*

@@ -1,16 +1,22 @@
-languageCode: en-us
+title: MYTHAXIS MAGAZINE
 
 # To make .html URL's and relative links to avoid baseURL
 uglyurls: true
 relativeurls: true
-
+languageCode: en-us
 theme: massively
 publishDir: docs
-
-title: MYTHAXIS MAGAZINE ISSUE 24
-
 googleanalytics: 'UA-146012578-1'
 disqusShortname: ''
+disableKinds:
+  - RSS
+languages:
+  en:
+    languageName: English
+staticDir:
+- static
+- static-xway
+
 
 taxonomies:
   category: categories
@@ -18,8 +24,6 @@ taxonomies:
   tag: tags
   author: authors
 
-disableKinds:
-  - RSS
 
 params:
   posts:
@@ -29,15 +33,10 @@ params:
     showFirstLast: false
   description: Mythaxis Magazine, Speculative Fiction Without Distraction
   keywords: Mythaxis Magazine Science Fiction and Fantasy Modern Fiction
+  # The slug/name of the current section. This is used to theme pages
+  # which are not in a specific section (homepage, about, etc.)
+  currentIssue: Issue 24
 
-
-languages:
-  en:
-    languageName: English
-
-staticDir:
-- static
-- static-xway
 
 menu:
   main:

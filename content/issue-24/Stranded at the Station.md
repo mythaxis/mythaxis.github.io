@@ -1,17 +1,24 @@
 ---
 title: "Stranded at the Station"
 date: 2020-12-15
-image: images/StrandedStation.png
 issue: Issue 24
-author: Trisha McKee
-copyright: '© Trisha McKee 2020 All Rights Reserved'
-description: "Romance fiction isn\'t always the first thing associated with the speculative genres, but there are many fine examples in which the two are well-wedded, and it is surely inarguable that there is nothing in human experience to compare with beginning a new relationship for the sensation of leaping into the unknown. Trisha McKee presents exactly such a case, of two people reaching out towards each other and finding something far from understood."
 
-type: stock
-slug: 'stranded-station'
+author: Trisha McKee
+authors:
+- Trisha McKee
+showAuthorFooter: true
+copyright: '© Trisha McKee 2020 All Rights Reserved'
+
+description: "Romance fiction isn\'t always the first thing associated with the speculative genres, but there are many fine examples in which the two are well-wedded, and it is surely inarguable that there is nothing in human experience to compare with beginning a new relationship for the sensation of leaping into the unknown. Trisha McKee presents exactly such a case, of two people reaching out towards each other and finding something far from understood."
 
 morelink: 'Someone is coming'
 
+image: images/StrandedStation.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Andrea Piacquadio](https://www.pexels.com/photo/woman-in-gray-tank-top-3812731/), [Nesrin Danan](https://www.pexels.com/photo/woman-eating-outside-3193818/), and [Sharon Murillo](https://www.pexels.com/photo/yellow-pasta-on-stainless-steel-bowl-4049953/)."
+
+type: stock
+slug: stranded-station
+weight: 7
 draft: true
 ---
 
@@ -214,9 +221,5 @@ But the next month she was passing by a television, and a familiar sound stopped
 He had left the station. Just the other way.
 
 
-
 -
 
-
-
-***Trisha McKee*** *resides in a small town in Pennsylvania after being stranded at the station. Since April 2019, her work has appeared in over 60 publications, including* Scribe, The Oddville Press, Horror Magazine, Night to Dawn, J.J. Outre Review, Tablet Magazine, Hybrid Fiction, *several anthologies, and more. Her debut novel* Beyond the Surface *was released through Breaking Rules Publishing in May 2020. You can find her on [Twitter](http://www.twitter.com/wordromancer/), [Facebook](https://www.amazon.com/author/trishamckee/), and [her website](http://www.trishamckee.com/).*

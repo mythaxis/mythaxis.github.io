@@ -1,15 +1,19 @@
 ---
 title: "Editorial"
-date: 2020-12-15T14:25:02+01:00
-image: /images/xxxx.jpg
+date: 2020-12-15
 issue: Issue 24
+
 author: Andrew Leon Hudson
+authors:
+- Andrew Leon Hudson
+showAuthorFooter: true
+
+image: images/huy-tran-viet-green-field.jpg
 
 type: page
-slug: 'editorial'
-
-draft: true
+slug: editorial
 ---
+
 
 Welcome to the last ***Mythaxis*** of the year!
 
