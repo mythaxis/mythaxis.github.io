@@ -1,11 +1,11 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+date: {{ dateFormat "2006-01-02" .Date }}
 image: 'images/picXXX.jpg'
 issue: Issue XX
 
 type: page
-slug: 'XXXX'
+slug: {{ .Name }}
 
 draft: true
 ---
