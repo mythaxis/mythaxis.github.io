@@ -1,17 +1,24 @@
 ---
 title: "The Witches Curse"
 date: 2020-12-15
-image: /images/WitchesCurse.png
 issue: Issue 24
-author: Matthew Wilson
-copyright: '© Matthew Wilson 2020 All Rights Reserved'
-description: 'Is it possible that one thing is more important that all the others when it comes to telling a good tale? Hard to say - but what is certainly true is that, whether a story soars or has flaws, a distinctive sense of voice will make amends for whatever sins it might contain. Matthew Wilson gives us sins large and small... and voice as well.'
 
-type: stock
-slug: 'witches-curse'
+author: Matthew Wilson
+authors:
+  - Matthew Wilson
+copyright: '© Matthew Wilson 2020 All Rights Reserved'
+showAuthorFooter: true
+
+description: 'Is it possible that one thing is more important that all the others when it comes to telling a good tale? Hard to say - but what is certainly true is that, whether a story soars or has flaws, a distinctive sense of voice will make amends for whatever sins it might contain. Matthew Wilson gives us sins large and small... and voice as well.'
 
 morelink: 'sweet dreams'
 
+image: /images/WitchesCurse.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Pexels](https://pixabay.com/photos/railroad-tracks-jungle-overgrown-1835529/), [bere69](https://pixabay.com/photos/the-jungle-of-chiapas-1865639/), and [TobiasRehbein](https://pixabay.com/photos/train-building-airport-indoors-5150747/)."
+
+type: stock
+slug: witches-curse
+weight: 5
 draft: true
 ---
 
@@ -194,9 +201,4 @@ yet with my luck they still wont give me a Medal
 maybe I am Cursed after all
 
 
-
 -
-
-
-
-***Matthew Wilson*** *has been published over 300 times in such places as* horror zine, star*line, Zimbell House Publishing, *and many others. He is currently editing his first novel, and you can find him on [Twitter](@matthew94544267).*

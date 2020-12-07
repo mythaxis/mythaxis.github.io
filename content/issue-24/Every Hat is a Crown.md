@@ -1,17 +1,24 @@
 ---
 title: "Every Hat is a Crown"
 date: 2020-12-15
-image: images/EveryHat.png
 issue: Issue 24
-author: Mike Morgan
-copyright: '© Mike Morgan 2020 All Rights Reserved'
-description: 'Humour is a many subjective thing, often called the hardest thing to write, but in our opinion Mike Morgan has pulled it off here. Much as his hero demonstrates, you can achieve plenty with recourse to just a little bit of charm - of course, when it comes to fantasy, charm can also be the problem...'
 
-type: stock
-slug: 'every-hat-crown'
+author: Mike Morgan
+authors:
+- Mike Morgan
+showAuthorFooter: true
+copyright: '© Mike Morgan 2020 All Rights Reserved'
+
+description: 'Humour is a many subjective thing, often called the hardest thing to write, but in our opinion Mike Morgan has pulled it off here. Much as his hero demonstrates, you can achieve plenty with recourse to just a little bit of charm - of course, when it comes to fantasy, charm can also be the problem...'
 
 morelink: 'Try this on for size!'
 
+image: images/EveryHat.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Layers](https://pixabay.com/illustrations/oil-painting-paint-painting-artist-5285514/), and [tomw77](https://pixabay.com/photos/columns-doorway-stone-arches-452590/)."
+
+type: stock
+slug: every-hat-crown
+weight: 6
 draft: true
 ---
 
@@ -404,9 +411,4 @@ His fingers brushed against a solid mass of gold, much larger than the previous 
 “Five hundred,” he croaked, his voice disintegrating into a terrified whisper. “Five hundred crowns. How much will they weigh by the end, and how strong is my neck?”
 
 
-
 -
-
-
-
-***Mike Morgan*** *has lived on three continents. It wasn't for a bet; it was just how things worked out. (Being easily bored may have factored into it.) He's married with two kids and looks after a foul-tempered pet. Can you tell? His work has been included in anthologies like Flame Tree's* Gothic Fantasy; Science Fiction Short Stories, *NewCon Press's* Best of British Science Fiction 2018 *and* 2019, Unidentified Funny Objects 8, *and multiple issues of Hiraeth's* The Martian Wave. *His novella* Where the Monsters Are *is due out soon from Hiraeth. You can find him on [Twitter](https://twitter.com/culttvmike) and his [website](https://perpetualstateofmildpanic.wordpress.com/).*

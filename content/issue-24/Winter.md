@@ -1,17 +1,24 @@
 ---
 title: "Winter"
 date: 2020-12-15
-image: images/Winter.png
 issue: Issue 24
-author: David Whitmarsh
-copyright: '© David Whitmarsh 2020 All Rights Reserved'
-description: "Our recent issues have welcomed a host of new faces to Mythaxis, in this latest including a first fiction sale - and now we are proud to also present not just that but a first ever publication, full stop! David Whitmarsh\'s story of transitions introduces us to a world clawing its way back from the brink - but things with claws must always be treated with caution..."
 
-type: stock
-slug: 'winter'
+author: David Whitmarsh
+authors:
+- David Whitmarsh
+showAuthorFooter: true
+copyright: '© David Whitmarsh 2020 All Rights Reserved'
+
+description: "Our recent issues have welcomed a host of new faces to Mythaxis, in this latest including a first fiction sale - and now we are proud to also present not just that but a first ever publication, full stop! David Whitmarsh\'s story of transitions introduces us to a world clawing its way back from the brink - but things with claws must always be treated with caution..."
 
 morelink: "Don\'t wait for Spring"
 
+image: images/Winter.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Pawel Kadysz](https://unsplash.com/photos/yKPj4oi9m74), [David-Karich](https://pixabay.com/photos/portrait-face-pale-expressive-eyes-358970/), and [Stephanie Mulrooney](https://unsplash.com/photos/X_unyC4Kkyc)."
+
+type: stock
+slug: winter
+weight: 9
 draft: true
 ---
 
@@ -334,9 +341,5 @@ The first tear fell down Beth’s cheek like a storm cloud’s first heavy raind
 By the time the storm passed, the Earth lay far below.
 
 
-
 -
 
-
-
-***David Whitmarsh*** *is a rehabilitated software engineer who now spends his days playing acoustic blues badly and writing.* Winter, *his first published work, is the backstory of a character in his hopefully forthcoming novel, provisionally titled* The Long Fall. *David lives in West Sussex with his wife, two cats and a randomly varying subset of his four adult children. You can find him on Twitter as [@whitmarshdj](https://twitter.com/whitmarshdj).*

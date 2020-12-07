@@ -1,17 +1,24 @@
 ---
 title: "Spring Man"
 date: 2020-12-15
-image: images/SpringMan.png
 issue: Issue 24
-author: Fabiyas M. V.
-copyright: '© Fabiyas M. V. 2020 All Rights Reserved'
-description: "When we first read Fabiyas M. V.\'s submission, we didn\'t know quite what to make of it... other than \"a definite purchase\"! Another piece with distinctive voice, it tells its story with the same blunt directness we find boasted by its unexpected hero, but one which veils a thread of sly humour, right up to the final line."
 
-type: stock
-slug: 'spring-man'
+author: Fabiyas M. V.
+authors:
+- Fabiyas M. V.
+copyright: '© Fabiyas M. V. 2020 All Rights Reserved'
+showAuthorFooter: true
+
+description: "When we first read Fabiyas M. V.\'s submission, we didn\'t know quite what to make of it... other than \"a definite purchase\"! Another piece with distinctive voice, it tells its story with the same blunt directness we find boasted by its unexpected hero, but one which veils a thread of sly humour, right up to the final line."
 
 morelink: 'There! At the window!'
 
+image: images/SpringMan.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [spinheike](https://pixabay.com/photos/meadow-garden-summer-front-yard-115676/), [ArtTower](https://pixabay.com/photos/smoke-background-artwork-swirl-69124/), [Alexas_Fotos](https://pixabay.com/photos/sofa-couch-wall-furniture-pieces-3094153/), [amarjits](https://pixabay.com/photos/leather-sofa-recliner-sofa-furniture-186636/), and [StockSnap](https://pixabay.com/photos/house-interior-design-couch-sofa-2593570/). Plus a special salute to Pier 2Eyes for the most striking [Gangster smoking](https://www.flickr.com/photos/pier-photos/6992325347/)."
+
+type: stock
+slug: spring-man
+weight: 10
 draft: true
 ---
 
@@ -152,10 +159,4 @@ Velanji sits on the dais with pride as huge as the Himalayas. *Ways of honor are
 He always cherished the dream of winning a literary award. But even if he won the Man Booker Prize, he wouldn’t get this much applause from his fellow men, who rarely read books.
 
 
-
 -
-
-
-
-***Fabiyas M. V.*** *is the author of* [Monsoon Turbulence](https://www.amazon.com/Monsoon-Turbulence-Fabiyas-M-V/dp/1939832144/), [Shelter within the Peanut Shells](https://lizzieandrewborden.com/HatchetOnline/LiteraryHatchet/product/literary-hatchet-10), [Kanoli Kaleidoscope](https://www.amazon.com/Kanoli-Kaleidoscope-Fabiyas-M-V/dp/098617078X/), Eternal Fragments, [Stringless Lives](https://www.amazon.com/Stringless-Lives-Fabiyas-M-V/dp/B08673MCQQ/), *and* [Moonlight And Solitude](https://www.indulekha.com/moonlight-and-solitude-poetry-fabiyas-m-v), *and his writing has also been published by Western Australian University, British Council, University of Hawaii, Rosemont College, Douglas College, Forward Poetry, Off the Coast, Silver Blade, Pear Tree Press, Poetry Nook, Zoetic Press, Encircle Publications, Pendle War Poetry and Creative Writing Ink. He has won many international accolades, including the* Merseyside at War Poetry Award *from Liverpool University.*
-

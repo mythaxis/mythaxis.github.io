@@ -1,17 +1,24 @@
 ---
 title: "Snow Over Interstate 80"
 date: 2020-12-15
-image: SnowOverI80.png
 issue: Issue 24
-author: Martin M. Clark
-copyright: '© Martin M. Clark 2020 All Rights Reserved'
-description: "Martin Clark has been contributing to Mythaxis Magazine since 2010, with and without the \"M\". Twenty-eight pieces have appeared in that time, invariably featuring a variety of hard-bitten heroes and villains locked in conflict, so why not one more for his anniversary? We weren\'t really looking for seasonally themed pieces for the issue, but you have to make an exception when the right someone's nipping at your nose."
 
-type: stock
-slug: 'snow-over-interstate-80'
+author: Martin M. Clark
+authors:
+- Martin M. Clark
+showAuthorFooter: true
+copyright: '© Martin M. Clark 2020 All Rights Reserved'
+
+description: "Martin Clark has been contributing to Mythaxis Magazine since 2010, with and without the \"M\". Twenty-eight pieces have appeared in that time, invariably featuring a variety of hard-bitten heroes and villains locked in conflict, so why not one more for his anniversary? We weren\'t really looking for seasonally themed pieces for the issue, but you have to make an exception when the right someone's nipping at your nose."
 
 morelink: 'Oh what fun it is to ride...'
 
+image: images/SnowOverI80.png
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Pexels](https://pixabay.com/photos/abandoned-alley-building-dark-1850087/), [sergeitokmakov](https://pixabay.com/illustrations/bot-cyborg-helper-robot-android-4877983/), and [DariuszSankowski](https://pixabay.com/photos/war-desert-guns-gunshow-soldier-1447007/)."
+
+type: stock
+slug: snow-over-interstate-80
+weight: 8
 draft: true
 ---
 
@@ -228,10 +235,5 @@ Christmas Day.
 One of the good ones.
 
 
-
 -
-
-
-
-***Martin M. Clark*** *Martin M. Clark is a freelance writer and occasional poet. He is the author of [several novellas on Amazon](https://www.amazon.com/Martin-M-Clark/e/B01J13H888), plus short stories in* Third Flatiron *anthologies. He also contributes to several online publications including* Mythaxis.co.uk, *and* [Kraxon.com](http://www.kraxon.com/). *His range of subject matter includes science fiction, urban fantasy, romance and westerns. He puts this down to the somewhat eclectic mobile lending library where he grew up. He works as a local government officer in south-west Scotland but still finds time to be an evil stepfather.*
 

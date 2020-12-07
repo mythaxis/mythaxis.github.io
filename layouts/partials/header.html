@@ -1,0 +1,12 @@
+{{/* Infer current section and lookup __index.md params for theming */}}
+{{ $currSection := .Section | default (urlize .Site.Params.currentIssue) }}
+{{ $currSection := .Site.GetPage "section" (print $currSection "/__index.md") }}
+
+<!-- Header -->
+<header id="header">
+	{{ if $currSection }}
+    <a href='{{ "/" | relLangURL }}' class="logo">{{ $currSection.Title }}</a>
+	{{ else }}
+	<a href='{{ "/" | relLangURL }}' class="logo">{{ .Site.Title }}</a>
+	{{ end }}
+</header>
