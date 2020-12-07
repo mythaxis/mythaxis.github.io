@@ -5,7 +5,7 @@ slug: index
 layout: section
 
 issue: Issue 24
-subhead: December 2020
+subhead: Winter 2020
 headline: Welcome to the 24th issue of Mythaxis (hoorah!).
 
 editor: Andrew Leon Hudson
