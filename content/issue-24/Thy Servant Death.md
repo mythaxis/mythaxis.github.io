@@ -14,7 +14,7 @@ description: "There's nothing quite like The Gothic for wrapping a reader in a s
 morelink: 'A gift that keeps on...'
 
 image: images/ThyServantDeath.png
-imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [1987599](https://pixabay.com/photos/eye-alligator-reptile-nature-1446419/), and [dlonrax](https://pixabay.com/photos/gig-concert-show-music-event-3518406/)."
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Aphiwat chuangchoem](https://www.pexels.com/photo/abstract-photo-ancient-chest-concept-398543/) and [Carlo Raso](https://www.flickr.com/photos/70125105@N06/16532757197/)."
 
 type: stock
 slug: thy-servant-death
