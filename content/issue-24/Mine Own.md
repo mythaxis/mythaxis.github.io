@@ -57,10 +57,17 @@ Dee’s curiosity about her heritage had been dampened long ago by memories of h
 
 
 
+
+
 *Never chase the fox’s fire,*
+
 *Always greet the crows,*
+
 *Beware the wily messenger,* 
+
 *With dread approach the stones.* 
+
+
 
 
 
