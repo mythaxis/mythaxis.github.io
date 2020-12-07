@@ -14,7 +14,7 @@ description: "If there's a genre especially close to the heart of your humble ed
 morelink: 'Look more closely...'
 
 image: images/IntoTheDarkness.png
-imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Pexels](https://pixabay.com/photos/alligator-animal-close-up-crocodile-1851313/), [josephvm](https://pixabay.com/photos/abstract-horror-face-dark-rough-3363956/), [Skitterphoto](https://pixabay.com/photos/flame-fire-inferno-orange-burning-726268/), and [darksouls1](https://pixabay.com/illustrations/fractal-light-light-fractal-fire-1764914/)."
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Antonio Friedmann](https://www.pexels.com/photo/fashion-people-woman-art-5641061/) and [Pixabay](https://www.pexels.com/photo/road-amidst-bare-trees-327308/)."
 
 type: stock
 slug: into-the-darkness
