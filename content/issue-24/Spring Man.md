@@ -14,7 +14,7 @@ description: "When we first read Fabiyas M. V.\'s submission, we didn\'t know qu
 morelink: 'There! At the window!'
 
 image: images/SpringMan.png
-imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [spinheike](https://pixabay.com/photos/meadow-garden-summer-front-yard-115676/), [ArtTower](https://pixabay.com/photos/smoke-background-artwork-swirl-69124/), [Alexas_Fotos](https://pixabay.com/photos/sofa-couch-wall-furniture-pieces-3094153/), [amarjits](https://pixabay.com/photos/leather-sofa-recliner-sofa-furniture-186636/), and [StockSnap](https://pixabay.com/photos/house-interior-design-couch-sofa-2593570/). Plus a special salute to Pier 2Eyes for the most striking [Gangster smoking](https://www.flickr.com/photos/pier-photos/6992325347/)."
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Mark Barrison](https://www.flickr.com/photos/barrison/4354201147/), [The Living Room](https://www.flickr.com/photos/thelivingroominkenmore/5287430988/), and [suriya.nathan](https://www.pexels.com/photo/nature-sky-sunset-sunny-5712887/)."
 
 type: stock
 slug: spring-man
