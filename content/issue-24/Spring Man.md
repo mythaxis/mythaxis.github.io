@@ -1,6 +1,6 @@
 ---
 title: "Spring Man"
-date: 2020-12-15
+date: 2020-12-01
 issue: Issue 24
 
 author: Fabiyas M. V.
