@@ -19,7 +19,6 @@ imageCopyright: "The title picture was created using Creative Commons images - m
 type: stock
 slug: mine-own
 weight: 2
-draft: true
 ---
 
 Go to the site of the Sedona House now and you see a shattered ruin, a pathetic pile of jumbled wreckage amidst which lies, like so much scattered trash, the remnants of the worldly goods that once belonged to the great Gregor Tharaspas. Come to think of it, most of that broken junk has probably been cleared away by now. I wouldn’t know; I last saw it right after the fact, and I haven’t had reason to return.

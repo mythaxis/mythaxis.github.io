@@ -19,7 +19,6 @@ imageCopyright: "The title picture was created using Creative Commons images - m
 type: stock
 slug: stranded-station
 weight: 7
-draft: true
 ---
 
 Betty walked slowly, measuring each step as she took in her surroundings. There were train tracks, a platform full of people avoiding eye contact and shuffling their feet, and large hotels surrounding the station. 

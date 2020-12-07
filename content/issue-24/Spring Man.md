@@ -19,7 +19,6 @@ imageCopyright: "The title picture was created using Creative Commons images - m
 type: stock
 slug: spring-man
 weight: 10
-draft: true
 ---
 
 A ghastly silence prevails in the village after the sunset. Not only Manayur village, the whole country has been locked down to combat the coronavirus. 

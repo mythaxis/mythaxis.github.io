@@ -19,7 +19,6 @@ imageCopyright: "The title picture was created using Creative Commons images - m
 type: stock
 slug: thy-servant-death
 weight: 4
-draft: true
 ---
 
 It was known that the king of Aoravia had killed his son.
