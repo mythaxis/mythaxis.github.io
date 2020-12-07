@@ -14,7 +14,7 @@ description: "As a professional specialist in both communication and literature,
 morelink: "What's in a name?"
 
 image: images/MineOwn.png
-imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [WindowsObserver](https://pixabay.com/photos/sedona-arizona-red-rocks-351683/), and [422737](https://pixabay.com/photos/fingerprint-traces-pattern-456486/)."
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Republica](https://pixabay.com/photos/forest-trees-light-dust-clearing-653448/) and [Ellie Burgin](https://www.pexels.com/photo/black-crow-sitting-on-signpost-on-gray-background-3643742/)."
 
 type: stock
 slug: mine-own
