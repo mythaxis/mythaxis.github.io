@@ -14,7 +14,7 @@ description: "Martin Clark has been contributing to Mythaxis Magazine since 2010
 morelink: 'Oh what fun it is to ride...'
 
 image: images/SnowOverI80.png
-imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Pexels](https://pixabay.com/photos/abandoned-alley-building-dark-1850087/), [sergeitokmakov](https://pixabay.com/illustrations/bot-cyborg-helper-robot-android-4877983/), and [DariuszSankowski](https://pixabay.com/photos/war-desert-guns-gunshow-soldier-1447007/)."
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Mengliu Di](https://www.pexels.com/photo/lonely-car-driving-along-smooth-asphalt-road-4179266/) and [Julia Volk](https://www.pexels.com/photo/asphalt-road-through-snowy-mountainous-terrain-5110937/)."
 
 type: stock
 slug: snow-over-interstate-80

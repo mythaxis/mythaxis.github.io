@@ -14,7 +14,7 @@ description: "Our recent issues have welcomed a host of new faces to Mythaxis, i
 morelink: "Don\'t wait for Spring"
 
 image: images/Winter.png
-imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Pawel Kadysz](https://unsplash.com/photos/yKPj4oi9m74), [David-Karich](https://pixabay.com/photos/portrait-face-pale-expressive-eyes-358970/), and [Stephanie Mulrooney](https://unsplash.com/photos/X_unyC4Kkyc)."
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Pixabay](https://www.pexels.com/photo/black-and-white-cold-fog-forest-235621/) and [Gantas Vaiciulènas](https://www.pexels.com/photo/person-walking-on-snow-1891882/)."
 
 type: stock
 slug: winter

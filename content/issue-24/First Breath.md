@@ -13,7 +13,7 @@ description: 'Far in the distant past of 2013, the story before you received an 
 morelink: "Pray it's not your last"
 
 image: images/FirstBreath.png
-imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [JacksonDavid](https://pixabay.com/photos/african-afro-turban-people-person-5035645/) (several times over), and [Pexels](https://pixabay.com/photos/architecture-building-geometric-1868547/)."
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Tatiana Twinslol](https://www.pexels.com/photo/stylish-focused-woman-leaned-on-hand-at-table-in-countryside-5368679/) and [Trinity Kubassek](https://www.pexels.com/photo/adults-audience-band-bar-342520//)."
 
 type: stock
 slug: first-breath
