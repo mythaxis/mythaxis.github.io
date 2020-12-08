@@ -14,7 +14,7 @@ description: 'Humour is a many subjective thing, often called the hardest thing 
 morelink: 'Try this on for size!'
 
 image: images/EveryHat.png
-imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Layers](https://pixabay.com/illustrations/oil-painting-paint-painting-artist-5285514/), and [tomw77](https://pixabay.com/photos/columns-doorway-stone-arches-452590/)."
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Moose Photos](https://www.pexels.com/photo/man-wearing-brown-dress-shirt-holding-white-fedora-hat-1036627/), [talpeanu](https://pixabay.com/photos/king-crown-history-romania-1304612/), [InspiredImages](https://pixabay.com/photos/caiman-crocodile-predator-alligator-3301709/), and [LubosHouska](https://pixabay.com/photos/autumn-landscape-nature-view-972717/)."
 
 type: stock
 slug: every-hat-crown
