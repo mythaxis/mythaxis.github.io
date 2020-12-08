@@ -9,7 +9,7 @@ subhead: December 2020
 headline: Welcome to the 24th issue of Mythaxis (hoorah!).
 
 editor: Andrew Leon Hudson
-image: images/EveryHat.png
+image: images/Dragons.jpg
 imageCopyright: "The background picture is..."
 ---
 
