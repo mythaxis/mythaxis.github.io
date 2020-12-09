@@ -6,7 +6,7 @@ layout: section
 
 issue: Issue 24
 subhead: Winter 2020
-headline: Welcome to the 24th issue of Mythaxis (hoorah!).
+headline: 
 
 editor: Andrew Leon Hudson
 image: images/Dragons.jpg

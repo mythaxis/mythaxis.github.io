@@ -99,7 +99,7 @@ I waited for the punchline but there was none coming **Im locked up here because
 
 the Wardens chair squeaked like a Horror Movie door as he shifted his weight and his tactics **dont get me wrong Sally its my job to keep you AWAY from society but its also my job to keep you SAFE from others and yourself now I know your friends killed Inmate Ryan**
 
-**we what?** I asked Sweetly **I was writing poetry to inspire Down and Out children at the time ask my friends** 
+**we what?** I asked Sweetly **I was writing poetry to inspire Down and Out children at the time ask my friends**
 
 **your friends are dead** he reminded needlessly I had seen their torn faces Scream enough in my horrid Dreams to know **they cant confirm anything but I want to help you I want you to go see the Doctor maybe a one on one talk will help shift any guilt**
 
@@ -191,7 +191,7 @@ how I Love the feel of these Hospital sheets while they fix me up
 
 good food and good rest
 
-even my Dreams are gone 
+even my Dreams are gone
 
 I am the last of my kind Killer of Witches
 

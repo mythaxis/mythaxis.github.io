@@ -21,17 +21,17 @@ slug: snow-over-interstate-80
 weight: 8
 ---
 
-I drove the Boss-9 while Winston rode shotgun, feeding shells into his Winchester M97. His nose was broken and there was dried blood down his beard and front. I was sporting two banged-up ribs and a wraparound bruise the size of Jersey.
+{{<glyph>}}I{{</glyph>}} drove the Boss-9 while Winston rode shotgun, feeding shells into his Winchester M97. His nose was broken and there was dried blood down his beard and front. I was sporting two banged-up ribs and a wraparound bruise the size of Jersey.
 
 It was Christmas Eve.
 
 Man, was it *ever*.
 
-There was a *rak-rak* as the erstwhile drummer loaded a shell into the breech. He sure likes his 12-gauge, does Mister Winston. Me, I had my .455 Webley, a real antique from an era before smart ammunition, when ‘stopping power’ meant putting as big a hole as possible in your enemy. 
+There was a *rak-rak* as the erstwhile drummer loaded a shell into the breech. He sure likes his 12-gauge, does Mister Winston. Me, I had my .455 Webley, a real antique from an era before smart ammunition, when ‘stopping power’ meant putting as big a hole as possible in your enemy.
 
 You might think the two of us made for unlikely partners. I mean, I’m Jack Frost, the Iceman, the proverbial loner—and Winston, for all his bonhomie, wasn’t exactly big on friends who’d return his calls. So, yeah, it was a marriage of inconvenience, something we’d just have to live with.
 
-The truth was I needed him more than he needed me. A while back I’d ended up on Santa’s Naughty List. Bad things happen to those on the Naughty List, and this particular Bad Thing was out for blood. 
+The truth was I needed him more than he needed me. A while back I’d ended up on Santa’s Naughty List. Bad things happen to those on the Naughty List, and this particular Bad Thing was out for blood.
 
 The trick is to stay one step ahead until you make amends, until you become the proverbial reformed character, someone Jiminy Cricket would be proud to call ‘pal’. Well, I’d tried that, I’d tried being a good little boy—inserting myself into every saccharine-sweet tale going. Wonderland is where stories live on, if enough people believe in them, and was thus a target-rich environment when it comes to heart-warming schmaltz. So, I’d bought the entire stock from a freezing match girl, kept a robin warm under my coat, even left anonymous gifts on doorsteps—none of it mattered a damn.
 
@@ -41,13 +41,11 @@ So, I’d been moping around Wonderland, feeling sorry for myself, when a little
 
 
 
-
-
-I glared at the robin, startled out of my gloomy reverie. “Since when do *you* talk?” 
+{{<glyph>}}I{{</glyph>}} glared at the robin, startled out of my gloomy reverie. “Since when do *you* talk?”
 
 Wonderland sounds like it's going to be, well, wonderful , but if you've been paying attention to all the stories from your childhood, half the creatures in it are often having a pretty bad time. Feathered smartarses aren't necessarily a help. Sometimes they're responsible.
 
-This one fluttered his wings, gesturing at our surroundings. “You’re Jack Frost, fairy-tale character turned hitman, taking a walk in the snow-covered pine woods behind Uncle Tom’s cabin, and you’re querying me about *realism*?”  
+This one fluttered his wings, gesturing at our surroundings. “You’re Jack Frost, fairy-tale character turned hitman, taking a walk in the snow-covered pine woods behind Uncle Tom’s cabin, and you’re querying me about *realism*?”
 
 “Point taken.” I frowned. “But song lyrics? How do they qualify as classical *anything*, let alone literature?”
 
@@ -69,9 +67,7 @@ I sniffed. “Tell me more.”
 
 
 
-
-
-So, there I was, hooked up with Winston Watson, trying to save his squeeze Arabella from freezing to death out on Interstate 80. Man, the gig tasted sour from the get-go, like ashes and milk. I couldn’t break free of Christmas Eve and it was starting to get on my nerves. I’d already smashed the radio for one-too-many renditions of ‘Jingle Bells’ and gotten us into a knock-down, drag-out fight with a bunch of Elves when we stopped for gas in Des Moines. Turned out they were Hawkeyes collecting for charity and not in the mood to take my bad-tempered shit. Well, lesson learned.
+{{<glyph>}}S{{</glyph>}}o, there I was, hooked up with Winston Watson, trying to save his squeeze Arabella from freezing to death out on Interstate 80. Man, the gig tasted sour from the get-go, like ashes and milk. I couldn’t break free of Christmas Eve and it was starting to get on my nerves. I’d already smashed the radio for one-too-many renditions of ‘Jingle Bells’ and gotten us into a knock-down, drag-out fight with a bunch of Elves when we stopped for gas in Des Moines. Turned out they were Hawkeyes collecting for charity and not in the mood to take my bad-tempered shit. Well, lesson learned.
 
 I flexed my hands on the wheel. “What’s she driving again?”
 
@@ -89,7 +85,7 @@ He glared at me. “As I remember you *offered* to ride along, man. Anyway, she 
 
 “None taken. Yeah, ever since I’ve known her…” Winston trailed off. He twisted slightly in his seat to see me better, finger around the trigger of his shotgun, “Say again, how is it *we* know each other?”
 
-I laughed and shook my head. “Jeez, that blow to the head must have hit harder than we thought. Our mutual friend, Winston, remember?” 
+I laughed and shook my head. “Jeez, that blow to the head must have hit harder than we thought. Our mutual friend, Winston, remember?”
 
 The confusion in his eyes was obvious but he nodded, slowly. “Yeah, yeah. Sorry, man, for a moment there… never mind.”
 
@@ -115,13 +111,13 @@ I looked around, confused, my usual affinity with Winter somehow smothered by th
 
 A Bad Thing doesn’t exist on its own. It takes what it finds in your soul and feeds on it, crafts memories into fear made manifest. And my soul is not a good place to be.
 
-The shadow slid across the highway to become a grey patch of snow against the banking. It shrank in on itself, darkening as it did so, a concentration of every terror and failure and hurt I’d ever experienced. 
+The shadow slid across the highway to become a grey patch of snow against the banking. It shrank in on itself, darkening as it did so, a concentration of every terror and failure and hurt I’d ever experienced.
 
 I’m Jack Frost. For every child who’s gazed in delight at the spread of a frost fond on a window, there’s a homeless hobo freezing to death in the biting cold. I don’t make the rules and sure as hell can’t appeal the decisions. All I can do is be there, for the good times and bad.
 
 This was not a good time.
 
-The Bad Thing drew itself up, like the melting of a grey snowman but in reverse. I clawed for my gun, fighting it free from the folds of cloth. The slick gunmetal glittered with frost, an extension of my very being. 
+The Bad Thing drew itself up, like the melting of a grey snowman but in reverse. I clawed for my gun, fighting it free from the folds of cloth. The slick gunmetal glittered with frost, an extension of my very being.
 
 The snowman sprouted distinct arms, legs, head. A mouth. “You think yourself so clever, don’t you, Jackie-boy? The arrogance of endurance in an age where retrieval has replaced memory. Well, we both remember what you’re *really* like, don’t we?”
 
@@ -159,7 +155,7 @@ Despite the situation, I felt a curious detachment. Our surroundings suddenly se
 
 No, not a snow globe—a *dream*.
 
-A figure appeared out of the blizzard, behind the gargoyle. It was a girl, a young woman, in blue silk pyjamas, twirling a walking stick in the manner of an oversized baton. I grinned, I 
+A figure appeared out of the blizzard, behind the gargoyle. It was a girl, a young woman, in blue silk pyjamas, twirling a walking stick in the manner of an oversized baton. I grinned, I
 
 laughed out loud, I lowered my gun.
 
@@ -197,7 +193,7 @@ I cleared my throat. “So…”
 
 “That whole twirling thing. Cheerleading?”
 
-“In my dreams.” She smiled. “Literally. My hand-eye coordination sucks. When I’m awake.” 
+“In my dreams.” She smiled. “Literally. My hand-eye coordination sucks. When I’m awake.”
 
 “Uh-huh. Glad you kept the swordstick.”
 

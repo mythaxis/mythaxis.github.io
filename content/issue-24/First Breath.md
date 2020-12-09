@@ -21,9 +21,9 @@ weight: 1
 featured: true
 ---
 
-The Rez was a strobing mass of lights, lasers, and mirrors tuned to the heavy bass lines and syncopation. The floor shook with the beat and bodies moved to it, fluid and sexual, fingers running down sweating backs. Two girls stared into each other’s eyes before one let out a breath that sent the other into a fit of ecstasy. Hardy’s wetware mod ached to join them, feeding him shadows of breath—the latest drug craze that turned a faint mist of DNA into an electric stimulus.
+{{<glyph>}}T{{</glyph>}}he Rez was a strobing mass of lights, lasers, and mirrors tuned to the heavy bass lines and syncopation. The floor shook with the beat and bodies moved to it, fluid and sexual, fingers running down sweating backs. Two girls stared into each other’s eyes before one let out a breath that sent the other into a fit of ecstasy. Hardy’s wetware mod ached to join them, feeding him shadows of breath—the latest drug craze that turned a faint mist of DNA into an electric stimulus.
 
-His attention turned to the other side of the sea of glowing dreads, bare skin, and fluid motion. The girl at the bar-side table had been watching him since he’d arrived. Her gaze followed him from the door to the bar, then to his usual seat against the wall. She was familiar, but not by the pink lines that glowed in her hair, or the nearly transparent synthetic that clung to her body. 
+His attention turned to the other side of the sea of glowing dreads, bare skin, and fluid motion. The girl at the bar-side table had been watching him since he’d arrived. Her gaze followed him from the door to the bar, then to his usual seat against the wall. She was familiar, but not by the pink lines that glowed in her hair, or the nearly transparent synthetic that clung to her body.
 
 She wasn’t in his memory, but she had been once.
 
@@ -33,7 +33,7 @@ The hot breath lingering in the room touched at his mind, giving him just a tast
 
 She was gone.
 
-“You just gonna watch?” The voice came from beside him, smooth and sensual. 
+“You just gonna watch?” The voice came from beside him, smooth and sensual.
 
 He didn’t turn his head. “I thought I might sit this one out.”
 
@@ -51,11 +51,11 @@ She put one arm around his neck, hanging down to scratch a long nail along his s
 
 He lowered his eyes to hers—the eyes of his new, perfect drug.
 
-She was gone again. 
+She was gone again.
 
 The space where she had stood filled with others, and their breath hung around him in a haze, but it meant nothing. He looked around the room, trying to pick out the pink of her hair, but it was lost in the neon glow. He sighed, closing his eyes.
 
-*And there she was*. A white silhouette on the black of his eyelids, fifteen feet away. The silhouette reached a hand out, and he opened his eyes, fixating on her position. Her hand was on the doorknob, and she glanced back at him. She smiled, then stepped into the night. 
+*And there she was*. A white silhouette on the black of his eyelids, fifteen feet away. The silhouette reached a hand out, and he opened his eyes, fixating on her position. Her hand was on the doorknob, and she glanced back at him. She smiled, then stepped into the night.
 
 When the door closed behind her, he moved to the edge of the pit, away from the dancers. He thought about going back to his table, to ride what was left of her high, but he saw her again when he blinked, and his craving nagged at him.
 
@@ -71,7 +71,7 @@ Her shape flashed white in front of him every time he blinked. She had done some
 
 She’d gotten into his head, but he didn’t know how—she had hardly touched him. A wireless connection? Maybe something in the breath? His desire for that feeling had become an ache in his mind—a need he would have to satisfy. He’d followed her for half an hour through dark streets and darker alleys, and all the while the need grew.
 
-What was worse, he knew where she was going. Every step took him closer to Jack’s place. 
+What was worse, he knew where she was going. Every step took him closer to Jack’s place.
 
 Jack had money. Lots of money. The tech he dealt with was expensive, and his clients paid him well. He could afford a place in the city proper, but he set up shop in the slums. Authorities didn’t bother him, and the locals were prime for employment—people who would do anything if you knew the right buttons to push.
 
@@ -115,13 +115,13 @@ She rose and dusted off her synthetic clothes, then offered her hand. “I teste
 
 He stood without taking her hand. “I did, huh?”
 
-“Call me Mara.” The name clicked somewhere in Hardy’s mind, but no memories came with it. They were probably locked back in Jack’s place. He’d been right about knowing her. 
+“Call me Mara.” The name clicked somewhere in Hardy’s mind, but no memories came with it. They were probably locked back in Jack’s place. He’d been right about knowing her.
 
 There was shuffling around the edge of the building, and he turned, fearing an armed man with a headache. It wasn’t the guard. There were three people—two men, and a girl dressed in your basic technotrash attire. The tallest, a man with short blond hair, glared at him.
 
 Mara put her hand on Hardy’s shoulder and nodded at the newcomers. “Meet the Narcs. They want to hire you.” She patted his arm and joined the group. As one, they turned away from the alley and Jack’s.
 
-Hardy watched them leave and thought about going the other way, but still felt the ache in his mind. No breath should be so sweet. She’d done something to him, and he had no choice but to go along with it. 
+Hardy watched them leave and thought about going the other way, but still felt the ache in his mind. No breath should be so sweet. She’d done something to him, and he had no choice but to go along with it.
 
 “A test,” he said, tasting the lie as sure as her breath. They’d got his face on Jack’s camera. He could already feel Jack’s eyes crawling over him, trying to determine his part in this. Whether he liked it or not, he was involved now.
 
@@ -191,7 +191,7 @@ That was what she wanted. His expertise. He had a feeling his membership was abo
 
 Mara grinned. “But you recognize me.”
 
-That confirmed it. She had worked for Jack. “That’s it, though. I couldn’t tell you if you were my boss, or if you got Jack his coffee in the mornings.” 
+That confirmed it. She had worked for Jack. “That’s it, though. I couldn’t tell you if you were my boss, or if you got Jack his coffee in the mornings.”
 
 Something clicked when he mentioned Jack’s coffee. *A cup of coffee, black, but cold*. Mara grinned again; she’d seen the recollection. Jack liked his coffee cold. Hardy knew he shouldn’t remember that. He shouldn’t remember a lot of the things he knew about Jack, or the people who worked for him. It should all have been locked away in his crown.
 
@@ -229,7 +229,7 @@ Nobody paid any attention as they went in, all lost in the drink, the drugs, or 
 
 “So who is it?” Mara asked.
 
-Hardy nodded at the other edge of the dance floor. Tony was standing there, perving on the perimeter. He wasn’t the type to get involved. Didn’t have it in him. He was happy to watch, though. There was a visible dent in the line of dancers around him. 
+Hardy nodded at the other edge of the dance floor. Tony was standing there, perving on the perimeter. He wasn’t the type to get involved. Didn’t have it in him. He was happy to watch, though. There was a visible dent in the line of dancers around him.
 
 “Far edge. The guy not dressed the part.” He was in a heavy leather coat that wouldn’t allow much in the way of dancing. Hardy had never seen him without it. A memory clicked in his mind, the coat bridging the gap. He’d asked him about it once, and had gotten a very honest answer: *“It makes me feel cool.”*
 
@@ -285,7 +285,7 @@ He wanted those memories back.
 
 “Hardy,” Mara said, “leave her be. She’s got work to do.”
 
-When Hardy turned back to Z, she was facing away, back at her worktable. “Right.” 
+When Hardy turned back to Z, she was facing away, back at her worktable. “Right.”
 
 Mara was sitting by the wall, and he joined her. He didn’t trust her in the slightest, but she at least was warm toward him; he’d get nothing from Les or Simek. “You’ve got an odd crew,” he said.
 
@@ -293,7 +293,7 @@ She nodded. “I guess. I haven’t been with them long. They were just drawn to
 
 He was only half paying attention. His head ached again, but he ignored it. He’d gotten over his fear of asking, but there was more to it than that. He’d seen what Mara tried to hide the last time. She was afraid of him.
 
-It didn’t make any sense—she had him in a vice. Every decision he had made to help, he realized, had been right after getting a dose of that breath. The guard in front of Jack’s, tracking down Tony for the key. He couldn’t even trust his own mind now, for fear the breath was making him do things he otherwise wouldn’t. 
+It didn’t make any sense—she had him in a vice. Every decision he had made to help, he realized, had been right after getting a dose of that breath. The guard in front of Jack’s, tracking down Tony for the key. He couldn’t even trust his own mind now, for fear the breath was making him do things he otherwise wouldn’t.
 
 He did hate Jack, though.
 
@@ -351,17 +351,17 @@ Something was on her mind, and he was paying for it in pain. On the other hand, 
 
 The five of them made their way across the street, motions casual and relaxed, but they were rabbits ready to bolt. The camera watched them approach. Z raised her keycard and the signal went out from her card and from her implant. With hope, the combination would get them in and not set off any alarms.
 
-Or maybe it wouldn’t work. The door wouldn’t open, and no alarms would go off. They could just walk away and plan things properly. Get more members. Hit Jack hard. 
+Or maybe it wouldn’t work. The door wouldn’t open, and no alarms would go off. They could just walk away and plan things properly. Get more members. Hit Jack hard.
 
 Or guards would spill out and kill them where they stood.
 
-The lock clicked. 
+The lock clicked.
 
 The door opened.
 
 They went in fast, down the hall together, but Les and Simek branched off quick, heading for what Hardy had identified as the crown room. It was on the second floor, same as Lynn’s whie silhouette, but closer to another stairwell. He and the girls would go straight. Mara could probably take care of herself, but with only Z along that left them as the only muscle. He didn’t like that idea.
 
-The stairs passed under their feet, black-painted grates digging into their shoes. Despite their speed, they passed quietly over them. They were upstairs, heading for the room four doors down, where Lynn was captive. Getting in had been easy; they hadn’t seen any guards, and it made Hardy nervous. He could feel those nerves beside him, radiating from Mara. 
+The stairs passed under their feet, black-painted grates digging into their shoes. Despite their speed, they passed quietly over them. They were upstairs, heading for the room four doors down, where Lynn was captive. Getting in had been easy; they hadn’t seen any guards, and it made Hardy nervous. He could feel those nerves beside him, radiating from Mara.
 
 Something was wrong. A click he hadn’t realized he had heard. The distinct lack of a second set of footsteps behind him. He turned, still running. Z was gone.
 
@@ -415,7 +415,7 @@ Hardy went still, fighting the urge to dig his fingers into the chair.
 
 Memories crashed back into Hardy. Memories so sweet they ached as much as his need for her breath. Memories of stolen kisses and sly glances. Memories of nights spent together and days spent plotting. Memories of laughter and shared smiles as they planned Jack’s downfall.
 
-He closed his eyes, just to see her again—for the first time—and there she was. Just outside the door. He smiled up at Jack, and the man’s brow furrowed. 
+He closed his eyes, just to see her again—for the first time—and there she was. Just outside the door. He smiled up at Jack, and the man’s brow furrowed.
 
 The door burst open, and there was chaos. He couldn’t see everything, bound as he was, but he heard a guard fall, and Jack curse. A gun rose above his head, sweeping upward in Jack’s hand, but it never made it level. Something collided with Jack’s head, and he went down, out of view.
 
@@ -461,7 +461,7 @@ He looked back to Mara, and she nodded, keeping her distance.
 
 He reached into the tank. The lukewarm liquid tingled on his arms, and he wrapped them behind the small of her back, cradling her head with his hand. She was slight, but not young. Maybe Mara’s little sister, but not by much. She emerged from the tank, and Mara wrapped a blanket around her, covering her from head to toe. The girl shivered beneath it.
 
-“We don’t have much time,” Mara said. She was right. Hardy shifted the girl’s weight, and they made for the door. 
+“We don’t have much time,” Mara said. She was right. Hardy shifted the girl’s weight, and they made for the door.
 
 The hallway was empty. They would meet Les and Simek at the crown room. All they had to do was get out. But then something moved at the end of the hallway, a man entering from the side. His hand raised, a shot echoed. Hardy’s eyes locked with Mara’s as she stared into the distance.
 
@@ -471,11 +471,11 @@ And then she fell.
 
 
 
-Les’ voice cried from the hallway behind him. The killing gun was pointed at Hardy now, but he stood in place, the girl’s weight a thousand tons, staring down into the shock on Mara’s face. Something narrowly missed his head, but his focus stayed on her. 
+Les’ voice cried from the hallway behind him. The killing gun was pointed at Hardy now, but he stood in place, the girl’s weight a thousand tons, staring down into the shock on Mara’s face. Something narrowly missed his head, but his focus stayed on her.
 
 Then the crack of a shot too close not to flinch, and at the top of his vision Hardy saw the shape of the gunman tumbling away from him, from them, even as his gaze never wavered from Mara’s body.
 
-Les rushed into view, dropping his gun beside her as he knelt, uttering the curses Hardy couldn’t bring to mind. He put his hand to her chest, wet with blood, then to her neck. 
+Les rushed into view, dropping his gun beside her as he knelt, uttering the curses Hardy couldn’t bring to mind. He put his hand to her chest, wet with blood, then to her neck.
 
 Hardy’s eyes had followed hers as she fell. He’d watched them as they lost focus. He stood, the weight in his arms threatening to slip.
 
@@ -495,7 +495,7 @@ Les laid the girl on the floor, cracking a glow stick for light while Simek walk
 
 “Hey,” Simek said, holding out one of the copper domes. “This one’s yours.”
 
-Hardy held the dome in his hands and stared at it, no longer bothered if he never remembered anything. 
+Hardy held the dome in his hands and stared at it, no longer bothered if he never remembered anything.
 
 Les hovered over the rescued girl’s shaking body ten feet away. Simek patted him on the shoulder, trying in a gesture to express understanding of a pain he could never imagine. He went to Les with the crown.
 
