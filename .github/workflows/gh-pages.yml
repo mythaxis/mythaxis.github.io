@@ -20,7 +20,9 @@ jobs:
           extended: true
 
       - name: Build hugo site (incl. drafts and future)
-        run: hugo -DF
+        env:
+          HUGO_BASE_URL: ${{ secrets.GHPAGES_BASEURL }}
+        run: hugo -DF ${HUGO_BASE_URL}
 
       - name: Deploy ./docs to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
