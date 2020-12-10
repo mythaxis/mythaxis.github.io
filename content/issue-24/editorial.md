@@ -1,4 +1,4 @@
----
+i---
 title: "Editorial"
 date: 2020-12-15
 issue: Issue 24
@@ -34,5 +34,4 @@ So, in spite of what this year has thrown at us all, Iâ€™d be a liar if I didnâ€
 
 **ISSUE 24** - ***Thanks and Salutations!***
 
-xxx
-
+In addition to our contributors and backroom team, special thanks this time go to the multi-talented **P. J. Richards**, creator of our charming cover, who describes herself as [an artist and writer inspired by nature, history, and folklore](https://www.facebook.com/P.J.RichardsArtandWriting). As well as producing such eye-catching, painstaking images as this one, she's also the freshly-minted author of her first novel, ***Deeper, Older, Darker***, a contemporary fantasy adventure that features a unique system of magic based on archery (which is figuratively another string to P.J.'s actual, she-fires-arrows-with-it, bow). It's available from the likes of [here](https://www.amazon.com/Deeper-Older-Darker-P-Richards/dp/1913525163/), if you want to pick it up for Xmas!
