@@ -8,7 +8,7 @@ authors:
 - Andrew Leon Hudson
 showAuthorFooter: true
 
-image: images/EveryHat.png
+image: images/Dragons.png
 
 type: page
 slug: editorial
