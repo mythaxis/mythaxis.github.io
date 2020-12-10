@@ -3,6 +3,7 @@ title: MYTHAXIS MAGAZINE
 # To make .html URL's and relative links to avoid baseURL
 uglyurls: true
 relativeurls: true
+canonifyURLs: true
 languageCode: en-us
 theme: massively
 publishDir: docs
@@ -49,7 +50,7 @@ menu:
     - name: Archive
       url: /archive.html
       weight: -7
-    - name: Submissions
+    - name: 2021 Submissions
       url: /submissions.html
       weight: -6
     - name: Contact
