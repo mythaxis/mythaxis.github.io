@@ -1,0 +1,28 @@
+<!-- Posts -->
+{{ $data := index .Site.Data .Site.Language.Lang }}
+<article>
+    <header>
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <span>{{ .Params.author }} </span>
+    </header>
+    
+    {{ if .Params.image }}
+    <a href="{{ .Permalink }}" class="image fit"><img src="{{ path.Join .Section .Params.image | relURL }}" alt="" /></a>
+    {{ end }}
+    
+    {{ if .Description }}
+    <p>{{ .Description }}</p>
+    {{ else }}
+    <p>{{ .Summary }}</p>
+    {{ end }}
+    
+    <ul class="actions">
+        <li><a href="{{ .Permalink }}" class="button">
+        {{ if .Params.morelink }}
+            {{ .Params.morelink }}
+        {{ else }}
+            {{ $data.post.linktext }}
+        {{ end }}
+        </a></li>
+    </ul>
+</article>  
