@@ -1,6 +1,5 @@
 <!-- Featured Post -->
-{{ $data := .siteData }}
-{{ range .firstpost }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
 <article class="post featured">
     <header class="major">
         <span>{{ .Params.author }}</span>
@@ -23,7 +22,7 @@
             {{ .Params.morelink }}
         {{ else }}
             {{ $data.post.linktext }}
-        {{ end }}</a></li>
+        {{ end }}
+        </a></li>
     </ul>
 </article>
-{{ end }}

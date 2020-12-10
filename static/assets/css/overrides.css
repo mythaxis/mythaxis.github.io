@@ -19,6 +19,9 @@
     font-style: italic;
 }
 
+#nav {
+    background-color: rgba(30, 37, 45, 0.5);
+}
 #main,
 #nav ul.links li.active {
     background-color: rgba(255, 255, 255, 0.96);
@@ -37,7 +40,7 @@
     border-width: 5px !important;
     letter-spacing: 0.075em;
     padding: 1rem 1.75rem;
-    background: rgba(30, 37, 45, 0.6);
+    background: rgba(30, 37, 45, 0.5);
 }
 
 
@@ -48,7 +51,7 @@ header {
 }
 #header .logo {
     font-family: Starcraft; 
-    background: rgba(30, 37, 45, 0.314);
+    background: rgba(30, 37, 45, 0.5);
 }
 header > a {
     position: relative;
@@ -71,7 +74,20 @@ blockquote > p {
     margin: 0 0 1rem 0;
 }
 
-
+input[type="submit"]:hover,
+input[type="reset"]:hover, 
+input[type="button"]:hover, 
+button:hover, 
+.button:hover {
+    background: rgba(30, 37, 45, 0.5); !important;
+}
+#intro input[type="submit"],
+#intro input[type="reset"],
+#intro input[type="button"],
+#intro button,
+#intro .button {
+    background: rgba(30, 37, 45, 0.5); !important;
+}
 
 /* TEI styles */
 glyph {
