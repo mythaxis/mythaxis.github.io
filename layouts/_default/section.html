@@ -1,33 +1,43 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<html lang='{{ .Site.Language.Lang | default "en-us" }}'>
+  {{ partial "htmlhead" . }}
+  
+  <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
+    {{/* Infer current section and lookup __index.md params for theming */}}
+    {{ $currSection := .Section | default (urlize .Site.Params.currentIssue) }}
+    {{ $currSection := .Site.GetPage "section" (print $currSection "/__index.md") }}
+    
+    {{/*  Get all stock pages for the current issue */}}
+    {{ $posts := where (where .Site.Pages "Section" $currSection.Section) ".Type" "stock" }}
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="author" content="">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{/* Get first featured story, then remove it from the paging list */}}
+    {{ $firstPost := first 1 (where $posts ".Params.featured" true) }}
+    {{ $posts := $posts | complement $firstPost }}
+    
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+      {{ partial "intro.html" . }}
+      {{ partial "header" . }}
+      {{ partial "nav" . }}
 
-  <link href="css/style.css" rel="stylesheet">
-</head>
+      <!-- Main -->
+      <div id="main">
+        {{ range $firstPost }}
+          {{ .Render "featured" }}
+        {{ end }}
 
-<body>
- This is the section list template
- {{ $idx := .Site.GetPage (print .Section "/__index.md") }}
+        <section class="posts">
+          {{ range $posts }}
+            {{ .Render "list" }}
+          {{ end }}
+        </section>
+      </div>
 
-{{ with $idx }}
-  <h1>{{ .Title }}</h1>
-  {{ .Params }}<br />
-  {{ .Params.image }}
-{{ end }}
+      {{ partial "copyright" . }}
+      <a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
+    </div>
 
- 	<ul class="nav nav-pills nav-stacked">
-      {{ range (where .Site.Pages "Section" .Section) }}
-        <li><a href="{{ .Permalink }}">{{ .Permalink }}</a></li>
-      {{ end }}
-    </ul>
-}
-}
-</body>
-
+    {{ template "_internal/google_analytics.html" . }}
+    {{ partial "scripts/index" . }}
+  </body>
 </html>
