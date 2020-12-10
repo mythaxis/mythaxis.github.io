@@ -8,25 +8,26 @@ slug: archive
 
 ---
 
-*Welcome to the Mythaxis Magazine Archive!*
-
-Here you can find not only the more than one hundred-and-fifty pieces of fiction assembled by the magazine's founder, Gil Williamson, but we've also preserved the hand-coded format of the original zine as a lasting legacy of his varied talents.
-
-Mythaxis Magazine has been seeking out quality writing for over a decade. We aim to provide a mixture of classic- and contemporary-styled speculative fiction, free from the typical web trappings of click-hungry advertising.
-
-Here you will find a place for science fiction both hard and soft, fantasy both high and low, horror both harsh and humorous, along with whatever mash-ups or sub-genres can be conceived.
-
-We pay our authors what we can, and offer their stories to you forever free-to-read... and (enjoy).
-
 ## Back Issues
 
 - [Issue&nbsp;24: Dec 20]({{< ref "/issue-24/__index.md" >}})
 - [Issue&nbsp;23: Aug 20]({{< ref "/issue-23/__index.md" >}})
-- [Issue&nbsp;22: Apr 20](issue-22/index.html)
+
 
 
 ## Archives
 
+*Welcome to the Mythaxis Magazine Archive!*
+
+Here you can find not only the more than one hundred-and-fifty pieces of fiction assembled by the magazine's founder, Gil Williamson, but we've also preserved the hand-coded format of the original zine as a lasting legacy of his varied talents.
+
+*Mythaxis Magazine* has been seeking out quality writing for over a decade. We aim to provide a mixture of classic- and contemporary-styled speculative fiction, free from the typical web trappings of click-hungry advertising.
+
+Here you will find a place for science fiction both hard and soft, fantasy both high and low, horror both harsh and humorous, along with whatever mash-ups or sub-genres can be conceived.
+
+We pay our authors what we can, and offer their stories to you forever free-to-read... enjoy!
+
+- [Issue&nbsp;22: Apr 20](issue-22/index.html)
 - [Issue&nbsp;21: Feb 18](indexissuev21.htm)
 - [Issue&nbsp;20: Aug 17](indexissuev20.htm)
 - [Issue&nbsp;19: Feb 17](indexissuev19.htm)
