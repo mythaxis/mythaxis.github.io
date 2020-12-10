@@ -51,7 +51,7 @@ With tears and fear, Sanu’s mother sprinkles water on her girl’s face. Sanu 
 
 
 
-{{<glyph>}}N{{</glyph>}}ext, a child wakes up with sweat on his forehead and around his neck. *Ma… ma… clinking of chains… Spring* **Man passes by…**
+{{<glyph>}}N{{</glyph>}}ext, a child wakes up with sweat on his forehead and around his neck. *Ma… ma… clinking of chains… Spring Man passes by…**
 
 All are on pins and needles, even though nobody has reported this Spring Man’s atrocities.
 
@@ -81,9 +81,7 @@ As Joshu cries aloud, Spring Man leaps and lands on a branch of the nearest sapo
 
 
 
-{{<glyph>}}A{{</glyph>}}s usual, the police search in vain.
-
-Next morning, they let off the tallest Bengali from their custody.
+{{<glyph>}}A{{</glyph>}}s usual, the police search in vain. Next morning, they let off the tallest Bengali from their custody.
 
 
 
