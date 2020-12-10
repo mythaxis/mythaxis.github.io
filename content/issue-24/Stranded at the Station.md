@@ -73,7 +73,7 @@ She did as he suggested, grateful she was going back to an empty apartment. Rodn
 
 But as she listened to music and worked on her latest painting, Betty started to feel a bit better about the situation. Neyter was a friend. They were merely visiting. There was no pressure for anything else. And he would have to eventually return to his dimension.
 
-There were those that took that chance, to live in this world after leaving their own. Some even ventured out of the train station area. There were hot spots everywhere, though, and no matter how familiar people were with these hot spots, one always managed to surprise them. Every few months, there would be a news story about an *other**-**dimension person* getting vaporized by hitting a strange hot spot. Just obliterated right there, without warning.
+There were those that took that chance, to live in this world after leaving their own. Some even ventured out of the train station area. There were hot spots everywhere, though, and no matter how familiar people were with these hot spots, one always managed to surprise them. Every few months, there would be a news story about an *other-dimension person* getting vaporized by hitting a strange hot spot. Just obliterated right there, without warning.
 
 It was a dangerous life, to be an other-dimension person and try to live out your days in this world. Some did it, sure, but they were few and far between. Most knew better. Most simply visited, and maybe only ventured out a town or two deep.
 
