@@ -67,7 +67,7 @@ Either way, he had to follow.
 
 
 
-Her shape flashed white in front of him every time he blinked. She had done something. The euphoria had settled enough that he could see reason. At the very least it was a tracking hack, in tune with something on her person, or even her DNA. In itself it was harmless, but he couldn’t know that was all it was.
+{{<glyph>}}H{{</glyph>}}er shape flashed white in front of him every time he blinked. She had done something. The euphoria had settled enough that he could see reason. At the very least it was a tracking hack, in tune with something on her person, or even her DNA. In itself it was harmless, but he couldn’t know that was all it was.
 
 She’d gotten into his head, but he didn’t know how—she had hardly touched him. A wireless connection? Maybe something in the breath? His desire for that feeling had become an ache in his mind—a need he would have to satisfy. He’d followed her for half an hour through dark streets and darker alleys, and all the while the need grew.
 
@@ -133,7 +133,7 @@ They’d better have a damned good reason.
 
 
 
-By the time they got to the Narcs’ hideout, Hardy’s head was splitting. The idea behind breath was a breakdown of barriers: it was an excuse to get into someone’s personal space and stay there. Easy enough with people you know well. Not all that difficult with strangers, in the anonymity of the dance floor.
+{{<glyph>}}B{{</glyph>}}y the time they got to the Narcs’ hideout, Hardy’s head was splitting. The idea behind breath was a breakdown of barriers: it was an excuse to get into someone’s personal space and stay there. Easy enough with people you know well. Not all that difficult with strangers, in the anonymity of the dance floor.
 
 Mara was different. He felt like he should know her, but he didn’t. She was an odd mix of friend and stranger that made it impossible for him to get close, and he was suffering for it. Moreover, he didn’t trust her.
 
@@ -165,7 +165,7 @@ He succeeded in fighting down the feeling, separating his thoughts from it and l
 
 
 
-The place looked like it had been decorated by the technotrash girl. It was more workshop than anything. Cables hung in spools on nails in the wooden wall—newer cables, mostly, but there were some coaxials and Cat 5s as well. Dismantled electronics were everywhere, from children’s toys to high-tech headgear. The room was lit by strings of LEDs, but light of every color shone from fiber optics in bunches.
+{{<glyph>}}T{{</glyph>}}he place looked like it had been decorated by the technotrash girl. It was more workshop than anything. Cables hung in spools on nails in the wooden wall—newer cables, mostly, but there were some coaxials and Cat 5s as well. Dismantled electronics were everywhere, from children’s toys to high-tech headgear. The room was lit by strings of LEDs, but light of every color shone from fiber optics in bunches.
 
 The Narcs stood by a table poring over a schematic of some sort. Probably stolen from Jack. When they approached, the plans rolled up—not for him.
 
@@ -223,7 +223,7 @@ All those things he couldn’t remember. Little bits of life he thought were los
 
 
 
-The beat still pounded at The Rez. The lights still flashed, the bodies still swayed. They had been gone for only a couple of hours, so nothing should have changed. It felt different, though. The lingering breath no longer did anything for him, Mara’s dampened it to nothingness. Or maybe she’d programmed exclusivity into the mod. Either way, he was getting nothing. He’d asked for another breath before they left the Narcs, trying to keep images of a begging junkie out of his head. She had given it—just a touch, and grudgingly—but it was already wearing off. It made him irritable.
+{{<glyph>}}T{{</glyph>}}he beat still pounded at The Rez. The lights still flashed, the bodies still swayed. They had been gone for only a couple of hours, so nothing should have changed. It felt different, though. The lingering breath no longer did anything for him, Mara’s dampened it to nothingness. Or maybe she’d programmed exclusivity into the mod. Either way, he was getting nothing. He’d asked for another breath before they left the Narcs, trying to keep images of a begging junkie out of his head. She had given it—just a touch, and grudgingly—but it was already wearing off. It made him irritable.
 
 Nobody paid any attention as they went in, all lost in the drink, the drugs, or the dance. They went to Hardy’s usual table.
 
@@ -275,7 +275,7 @@ He wanted those memories back.
 
 
 
-“Perfect,” Z beamed when he brought her the metal card. She had given up choosing a color for her hair, and the fibers alternated throughout the spectrum.
+{{<glyph>}}"P{{</glyph>}}erfect,” Z beamed when he brought her the metal card. She had given up choosing a color for her hair, and the fibers alternated throughout the spectrum.
 
 “I don’t know what you can do with it,” he said. “It’s a two-part lock.”
 
@@ -333,7 +333,7 @@ Besides, he wanted Jack gone too.
 
 
 
-Z had anesthetized her arm and cut a slit just big enough for the disc implant to lay beneath her skin, biotech activated. Now they stood across the street from Jack’s. Nobody said anything. There wasn’t any real plan beyond the basics. Get in, Les and Simek get the crowns, and he, Mara, and Z would get the girl.
+{{<glyph>}}Z{{</glyph>}} had anesthetized her arm and cut a slit just big enough for the disc implant to lay beneath her skin, biotech activated. Now they stood across the street from Jack’s. Nobody said anything. There wasn’t any real plan beyond the basics. Get in, Les and Simek get the crowns, and he, Mara, and Z would get the girl.
 
 The camera was tilted just too low to see them, but it made Hardy nervous. Z had done some research, and the two-part key was all it would take. It all felt too easy. Where was that guard? Was the two-part key *really* enough? Maybe the camera was a third part, scanning for identification.
 
@@ -383,7 +383,7 @@ And then he saw nothing.
 
 
 
-The room came into focus, and Hardy winced against the pain. He couldn’t tell what came from the crack to the head, and what came from the ache for breath. He closed his eyes again and lifted his head; it was the only part he could move. His arms and legs were strapped to a chair. The pain in his temple still felt fresh.
+{{<glyph>}}T{{</glyph>}}he room came into focus, and Hardy winced against the pain. He couldn’t tell what came from the crack to the head, and what came from the ache for breath. He closed his eyes again and lifted his head; it was the only part he could move. His arms and legs were strapped to a chair. The pain in his temple still felt fresh.
 
 He could see her, though. Past the silhouette of her sister a few rooms over was another silhouette—a smaller one, maybe outside the building somewhere. Mara had gotten out, and probably the rest as well.
 
@@ -471,7 +471,7 @@ And then she fell.
 
 
 
-Les’ voice cried from the hallway behind him. The killing gun was pointed at Hardy now, but he stood in place, the girl’s weight a thousand tons, staring down into the shock on Mara’s face. Something narrowly missed his head, but his focus stayed on her.
+{{<glyph>}}L{{</glyph>}}es’ voice cried from the hallway behind him. The killing gun was pointed at Hardy now, but he stood in place, the girl’s weight a thousand tons, staring down into the shock on Mara’s face. Something narrowly missed his head, but his focus stayed on her.
 
 Then the crack of a shot too close not to flinch, and at the top of his vision Hardy saw the shape of the gunman tumbling away from him, from them, even as his gaze never wavered from Mara’s body.
 
