@@ -21,7 +21,7 @@ slug: every-hat-crown
 weight: 6
 ---
 
-On his way into the nearby town of Prestathwyke, young Walleg Ravenscoop stopped by the house where Gwendolyn lived, determined to steal a kiss.
+{{<glyph>}}O{{</glyph>}}n his way into the nearby town of Prestathwyke, young Walleg Ravenscoop stopped by the house where Gwendolyn lived, determined to steal a kiss.
 
 Gwen lived with her widower mother, Old Maeve, and two brothers on a small plot of land that was part of Lord Disteth’s estate. Her brothers were out in the lord’s fields that morning, helping to reap their master’s crops before being allowed to return home and attend to their own. For this reason, fair Gwen, with her crown of yellow hair, was likely left unchaperoned. This state of affairs brought a smile to Walleg’s freckled face. If he were any judge, it’d make her grin too.
 
@@ -55,7 +55,7 @@ He pulled the brim of his hat low over his eyes against the wind and concentrate
 
 
 
-Walleg soon learned that the day held two surprises. First, that the king was due to ride through town on his way to Lord Disteth’s manor house. Second, that Walleg was cursed.
+{{<glyph>}}W{{</glyph>}}alleg soon learned that the day held two surprises. First, that the king was due to ride through town on his way to Lord Disteth’s manor house. Second, that Walleg was cursed.
 
 He found the first out while lurking at the rear of Restwick’s Inn, next to the window where small beer was sold for half a penny a quart. He had already finished at the market, selling the turnips to the stallholder who bought most of his family’s vegetables, and had wasted no time in adjourning to the inn after offloading the bulky wares; the four shillings and a ha’penny earned from the sale were burning a hole in his pouch. The stallholder always added a discreet half-moon of a coin to the shillings intended for Walleg’s dad, so the lad could sneak off and quench the terrible thirst he’d developed during the trip. William was also in much better spirits now, knowing the routine well and looking forward to his own bowl of porridge-like booze.
 
@@ -97,7 +97,7 @@ There were too many people gathered next to him now to simply run away. From ben
 
 
 
-“I’ll make this as simple as I know how,” thundered King Amaranthis, leaning out of the window in the carriage’s door. “I am king and you are a peasant, so in my presence *you will take off your hat!”*
+{{<glyph>}}"I{{</glyph>}}’ll make this as simple as I know how,” thundered King Amaranthis, leaning out of the window in the carriage’s door. “I am king and you are a peasant, so in my presence *you will take off your hat!”*
 
 Walleg could only whimper, “But Sire, I did.”
 
@@ -121,7 +121,7 @@ In the narrow confines of the street, hot sun beating down on him, Walleg felt d
 
 
 
-“Plainly, it must be magic,” mused Amaranthis.
+{{<glyph>}}"P{{</glyph>}}lainly, it must be magic,” mused Amaranthis.
 
 “Indeed, my liege,” purred the Lord High Chancellor Urquhart, the Most Reverend Bishop of Dunheved-by-Launceston. “Most likely the *blackest* of magic.”
 
@@ -151,7 +151,7 @@ Rubbing his hands, he announced gleefully, “We will put this curse to the test
 
 
 
-Commencing his tasks of counting and measuring, Chancellor Urquhart said, “We should endeavor to be methodical and establish how many hats have already materialized.”
+{{<glyph>}}C{{</glyph>}}ommencing his tasks of counting and measuring, Chancellor Urquhart said, “We should endeavor to be methodical and establish how many hats have already materialized.”
 
 Everyone looked at Walleg.
 
@@ -189,7 +189,7 @@ His good cheer evaporated at the king’s next utterance. “And in case the boy
 
 
 
-The manor house did not have a dungeon. Since Walleg had to be held in a room with a lock, the King’s Guards settled for putting him in one of the storerooms next to the buttery. They did not stay to taunt Walleg; they simply slammed shut the heavy door as soon as he was inside and departed with haste.
+{{<glyph>}}T{{</glyph>}}he manor house did not have a dungeon. Since Walleg had to be held in a room with a lock, the King’s Guards settled for putting him in one of the storerooms next to the buttery. They did not stay to taunt Walleg; they simply slammed shut the heavy door as soon as he was inside and departed with haste.
 
 As the echoing thud faded, Walleg gazed about the shadowy interior of the small, cluttered chamber, then sank to the tiled floor and put his back to a storage barrel. In his sixteen years of life, he had heard many tales of the mnemosynes and their grotesque memory-feasting. The apparitions would gorge themselves on every morsel of his past, every recollection that gave his life meaning. Already he could imagine the clammy touch of half-intangible talons caressing his skin. Escape seemed impossible. He would be left a gibbering, hollow shell.
 
@@ -269,7 +269,7 @@ The first guard glared furiously at Walleg. “What have you been up to, boy?”
 
 
 
-“Splendid to make your acquaintance,” enthused the warlock. He swept around Walleg in a circle, making it hard for the boy to get a look at him. Were the warlock’s feet hovering just above the floor? “My name is Theodor Q. Ancible. I’m sure we’ll get along famously. Now, if I could just see the, um...?” He gesticulated at Walleg’s sunhat in lieu of finishing his thought.
+{{<glyph>}}"S{{</glyph>}}plendid to make your acquaintance,” enthused the warlock. He swept around Walleg in a circle, making it hard for the boy to get a look at him. Were the warlock’s feet hovering just above the floor? “My name is Theodor Q. Ancible. I’m sure we’ll get along famously. Now, if I could just see the, um...?” He gesticulated at Walleg’s sunhat in lieu of finishing his thought.
 
 Walleg wordlessly removed the article and placed it on the teetering heap of already discarded headpieces. Again, the brim darkened into solidity at the top of his field of vision. Again, he felt the itchiness of straw against his brow.
 
@@ -309,7 +309,7 @@ The king roared in Walleg’s face, “Did you hear that, serf? Give me the sour
 
 
 
-The king’s grip tightened as they ascended the circular staircase, the nobles and officials of the court trailing in their wake. It was all Walleg could do not to lose his footing. On each stone step, Amaranthis furiously swatted a hat from the boy’s head.
+{{<glyph>}}T{{</glyph>}}he king’s grip tightened as they ascended the circular staircase, the nobles and officials of the court trailing in their wake. It was all Walleg could do not to lose his footing. On each stone step, Amaranthis furiously swatted a hat from the boy’s head.
 
 As the chancellor maintained the count, soon passing three hundred, the king bellowed, “I am the man who oversaw the final eradication of the supernatural kingdoms and ushered in the new dominion of Man! I have overseen *genocides*—I will not be thwarted by the likes of you! You will give me the secret of creating objects from nothingness or you will die!”
 
@@ -349,7 +349,7 @@ Walleg let out a long breath, hardly daring to believe his luck.
 
 
 
-When the King’s Own Guardsmen hauled Walleg out of the servants’ entrance to the manor house, Gwen was waiting. She was not alone.
+{{<glyph>}}W{{</glyph>}}hen the King’s Own Guardsmen hauled Walleg out of the servants’ entrance to the manor house, Gwen was waiting. She was not alone.
 
 “I brought William,” she announced, smiling at the guards in a way that caused them to stumble to a halt.
 
@@ -395,7 +395,7 @@ Shaking her head, Gwen could only say, “Not every hat is a crown. Some are dun
 
 
 
-So enraptured was King Amaranthis with his new coronet, he wore it for the remainder of the day, drawing compliments and admiring glances from all who saw him.
+{{<glyph>}}S{{</glyph>}}o enraptured was King Amaranthis with his new coronet, he wore it for the remainder of the day, drawing compliments and admiring glances from all who saw him.
 
 When night finally fell, Amaranthis thanked Lord and Lady Disteth for their hospitality and retired to his guest chamber. The royal attendants removed his fur-trimmed outer vestments as normal, and the chief Esquire of the Household approached from behind to take off the king’s new regalia, so it could be stored in a secure cabinet.
 
