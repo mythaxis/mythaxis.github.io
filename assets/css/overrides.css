@@ -27,11 +27,12 @@
     background-color: rgba(255, 255, 255, 0.96);
 }
 
+
 /* Introduction */
 #intro {}
 #intro h1 {
 	font-family: Starcraft;
-	filter: drop-shadow(0.2rem 0.2rem 0.5px rgb(191,239,249));
+	filter: drop-shadow(0.2rem 0.2rem 0.5px rgb(30, 37, 45));
 }
 #intro h2 {
 	font-family: Starcraft;
@@ -41,6 +42,14 @@
     letter-spacing: 0.075em;
     padding: 1rem 1.75rem;
     background: rgba(30, 37, 45, 0.5);
+}
+#intro .button {
+    background: rgba(30, 37, 45, 0.5); !important;
+}
+#intro .button:hover {
+    box-shadow: inset 0 0 0 2px #ffffff;
+    color: #ffffff !important;
+    background: rgba(30, 37, 45, 0.3); !important;
 }
 
 
@@ -52,7 +61,14 @@ header {
 #header .logo {
     font-family: Starcraft; 
     background: rgba(30, 37, 45, 0.5);
+    transition: 0.3s;
 }
+#header .logo:hover {
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+    background: rgba(30, 37, 45, 0.3);
+    transition: 0.3s;
+}   
 header > a {
     position: relative;
     margin: 0 auto;
@@ -73,21 +89,10 @@ header > a {
 blockquote > p {
     margin: 0 0 1rem 0;
 }
-
-input[type="submit"]:hover,
-input[type="reset"]:hover, 
-input[type="button"]:hover, 
-button:hover, 
 .button:hover {
-    background: rgba(30, 37, 45, 0.5); !important;
+    background: rgba(30, 37, 45, 0.5);
 }
-#intro input[type="submit"],
-#intro input[type="reset"],
-#intro input[type="button"],
-#intro button,
-#intro .button {
-    background: rgba(30, 37, 45, 0.5); !important;
-}
+
 
 /* TEI styles */
 glyph {
