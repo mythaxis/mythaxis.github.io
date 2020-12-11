@@ -4,6 +4,8 @@ date: 2020-12-15
 issue: Issue 24
 
 author: Andrew Leon Hudson
+authors:
+- Andrew Leon Hudson
 showAuthorFooter: true
 
 image: images/Dragons_sml.jpg
