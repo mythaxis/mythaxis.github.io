@@ -9,11 +9,19 @@ authors:
 - Andrew Leon Hudson
 showAuthorFooter: true
 
-imageCopyright: "**ISSUE 23** - ***Thanks and Salutations!*** 
+imageCopyright: |+
+  **ISSUE 23** - ***Thanks and Salutations!*** 
+  
+  In addition to this issue's talented contributors, we'd like to express our particular thanks
+  to "cover" artist Huy Tran Viet, a freelance concept/illustration artist from Danang, Vietnam,
+  for granting permission to use his striking image, *Green Fields*. You can see more of 
+  his work at [DeviantArt](https://www.deviantart.com/novaillusion) and 
+  [ArtStation](https://www.artstation.com/novaillusion).
 
-In addition to this issue's talented contributors, we'd like to express our particular thanks to "cover" artist Huy Tran Viet, a freelance concept/illustration artist from Danang, Vietnam, for granting permission to use his striking image, *Green Fields*. You can see more of his work at [DeviantArt](https://www.deviantart.com/novaillusion) and [ArtStation](https://www.artstation.com/novaillusion).
-
-And special gratitude is reserved for our Webmaster, Marty Steer, who has not only struggled valiantly behind the scenes on the magazine's stylish transformation, but is largely responsible for new issues being able to come out at all. We hope you'll agree his hard work is being put to good use!"
+  And special gratitude is reserved for our Webmaster, Marty Steer, who has not only struggled
+  valiantly behind the scenes on the magazine's stylish transformation, but is largely 
+  responsible for new issues being able to come out at all. We hope you'll agree his 
+  hard work is being put to good use!
 
 type: page
 slug: editorial
