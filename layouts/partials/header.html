@@ -5,8 +5,8 @@
 <!-- Header -->
 <header id="header">
 	{{ if $currSection }}
-    <a href='{{ "/" | relLangURL }}' class="logo">{{ $currSection.Title }}</a>
+    <a href='{{ $currSection.RelPermalink }}' class="logo">{{ $currSection.Title }}</a>
 	{{ else }}
-	<a href='{{ "/" | relLangURL }}' class="logo">{{ .Site.Title }}</a>
+	<a href='{{ .Site.Home | relURL }}' class="logo">{{ .Site.Title }}</a>
 	{{ end }}
 </header>
