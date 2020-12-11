@@ -10,6 +10,10 @@ showAuthorFooter: true
 
 image: images/Dragons_sml.jpg
 
+imageCopyright: "**ISSUE 24** - ***Thanks and Salutations!***
+
+In addition to our contributors and backroom team, special thanks this time go to the multi-talented **P. J. Richards**, creator of our charming cover, who describes herself as [an artist and writer inspired by nature, history, and folklore](https://www.facebook.com/P.J.RichardsArtandWriting). As well as producing such eye-catching, painstaking images as this one, she's also the freshly-minted author of a first novel, ***Deeper, Older, Darker***, a contemporary fantasy adventure that features a unique system of magic based on archery (which is figuratively another string to P.J.'s actual, *she-fires-arrows-with-it* bow). It's available from the likes of [here](https://www.amazon.com/Deeper-Older-Darker-P-Richards/dp/1913525163/), if you want to pick it up for Xmas!"
+
 type: page
 slug: editorial
 ---
@@ -22,7 +26,7 @@ In what used to be called “real life”, I was approaching the first anniversa
 
 That I’ve been able to carry on that work from domestic isolation only underlines how fortunate I’ve been in 2020. I’ve not been threatened by hunger or homelessness. I’ve not fallen ill, or been forced to risk illness to care for those in desperate need. Though family and friends are now viewed only through the medium of woefully inadequate screens, even my social distancing has been alongside my better half. *Isolation without loneliness*—it could be so much worse. 
 
-And pandemic aside, this broken year has also highlighted how fortunate I am in general. I’m not forced to suffer solely for being who and what I am, and so many people around the world can’t say the same. It always was that way, of course, but seeing the mobilization of people around the world to stand up against various forms of oppression—sexual, racial, cultural, political—*even as disease sweeps the globe* is humbling to those of us who have no *need* to do the same. It seems that way to me at least.
+And pandemic aside, this broken year has also highlighted how fortunate I am in general. I’m not forced to suffer solely for being who and what I am, and so many people can’t say the same. It always was that way, of course, but seeing the mobilization of people around the world to stand up against various forms of oppression—sexual, racial, cultural, political—*even as disease sweeps the globe* is humbling to those of us who have no *need* to do the same. It seems that way to me at least.
 
 Finally, I’m fortunate to have had a project to work on in 20-damned-20. I inherited *Mythaxis* earlier still, but it was only at the beginning of this year that we began to move towards reinvigorating it again. In the last twelve months I’ve had the privilege of picking through hundreds of stories, then working with the dozens of chosen authors (and our small crew behind the scenes) to compile my first issues—first of many, I sincerely hope. 
 
