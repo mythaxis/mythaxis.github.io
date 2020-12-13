@@ -13,7 +13,7 @@
     {{ end }}
 
     {{ if .Params.image }}
-    <a href="{{ .Permalink }}" class="image main"><img src="{{ path.Join .Section .Params.image | relURL }}" alt="" /></a>
+    <a href="{{ .Permalink }}" class="image main"><img src="{{ path.Join .Section .Params.image | relURL }}" alt="Story image for {{ .Title }} by {{ .Params.author}}" title="Story image for {{ .Title }} by {{ .Params.author}}" /></a>
     {{ end }}
 
     <ul class="actions">

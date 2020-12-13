@@ -7,7 +7,7 @@
     </header>
     
     {{ if .Params.image }}
-    <a href="{{ .Permalink }}" class="image fit"><img src="{{ path.Join .Section .Params.image | relURL }}" alt="" /></a>
+    <a href="{{ .Permalink }}" class="image fit"><img src="{{ path.Join .Section .Params.image | relURL }}" alt="Thumbnail of Story image for {{ .Title }} by {{ .Params.author}}" title="Thumbnail of Story image for {{ .Title }} by {{ .Params.author}}"/></a>
     {{ end }}
     
     {{ if .Description }}
