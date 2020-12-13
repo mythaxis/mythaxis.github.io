@@ -20,7 +20,7 @@
             
             {{ if .Params.image }}
             <div class="image main">
-              <img src="{{ path.Join .Section .Params.image | relURL }}" alt="" />
+              <img src="{{ path.Join .Section .Params.image | relURL }}" alt="Story image for {{ .Title }} by {{ .Params.author }}" title="Story image for {{ .Title }} by {{ .Params.author }}"/>
             </div>
             {{ end }}
 

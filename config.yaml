@@ -4,6 +4,7 @@ title: MYTHAXIS MAGAZINE
 uglyurls: true
 relativeurls: true
 canonifyURLs: true
+disableHugoGeneratorInject: true
 languageCode: en-us
 theme: massively
 publishDir: docs
@@ -32,7 +33,7 @@ params:
     featuredPost: true
     paginationPages: 2
     showFirstLast: false
-  description: Mythaxis Magazine, Speculative Fiction Without Distraction
+  description: Speculative Fiction Without Distraction
   keywords: Mythaxis Magazine Science Fiction and Fantasy Modern Fiction
   # The slug/name of the current section. This is used to theme pages
   # which are not in a specific section (homepage, about, etc.)

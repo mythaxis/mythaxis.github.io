@@ -10,7 +10,7 @@
 				<h3>{{ .Params.name }}</h3>
 				<p>
 					{{ if fileExists (path.Join .Section .Params.photo | relURL) }}
-					<span class="image left"><img src="{{ path.Join .Section .Params.photo | relURL }}" alt="{{ .Params.name }}"></span>
+					<span class="image left"><img src="{{ path.Join .Section .Params.photo | relURL }}" alt="Author image of {{ .Params.name }}" title="Author image of {{ .Params.name }}"></span>
 					{{ end }}
 				
 			    	{{ .Params.description | markdownify }}</p>
