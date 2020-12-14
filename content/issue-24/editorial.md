@@ -11,7 +11,7 @@ image: images/Dragons_sml.jpg
 
 imageCopyright: "**ISSUE 24** - ***Thanks and Salutations!***
 
-In addition to our contributors and backroom team, special thanks this time go to the multi-talented **P. J. Richards**, creator of our charming cover, who describes herself as [an artist and writer inspired by nature, history, and folklore](https://www.facebook.com/P.J.RichardsArtandWriting). As well as producing such eye-catching, painstaking images as this one, she's also the freshly-minted author of a first novel, ***Deeper, Older, Darker***, a contemporary fantasy adventure that features a unique system of magic based on archery (which is figuratively another string to P.J.'s actual, *she-fires-arrows-with-it* bow). It's available from the likes of [here](https://www.amazon.com/Deeper-Older-Darker-P-Richards/dp/1913525163/), if you want to pick it up for Xmas!"
+In addition to our contributors and backroom team, special thanks this time go to the multi-talented **P. J. Richards**, creator of our charming cover, who describes herself as [an artist and writer inspired by nature, history, and folklore](https://www.facebook.com/P.J.RichardsArtandWriting) and tweets as [@P_J_Richards](https://twitter.com/P_J_Richards). As well as producing such eye-catching, painstaking images as this one, she's also the freshly-minted author of a first novel, ***Deeper, Older, Darker***, a contemporary fantasy adventure that features a unique system of magic based on archery (which is figuratively another string to P.J.'s actual, *she-fires-arrows-with-it* bow). It's available from the likes of [here](https://www.amazon.com/Deeper-Older-Darker-P-Richards/dp/1913525163/), if you want to pick it up for Xmas!"
 
 type: page
 slug: editorial
