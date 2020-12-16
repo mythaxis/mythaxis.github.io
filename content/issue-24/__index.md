@@ -9,7 +9,7 @@ subhead: Winter 2020
 headline: 
 
 editor: Andrew Leon Hudson
-image: images/Dragons.jpg
+image: images/Dragons.png
 imageCopyright: "The background picture is..."
 ---
 
