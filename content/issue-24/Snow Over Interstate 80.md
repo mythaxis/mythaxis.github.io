@@ -155,9 +155,7 @@ Despite the situation, I felt a curious detachment. Our surroundings suddenly se
 
 No, not a snow globe—a *dream*.
 
-A figure appeared out of the blizzard, behind the gargoyle. It was a girl, a young woman, in blue silk pyjamas, twirling a walking stick in the manner of an oversized baton. I grinned, I
-
-laughed out loud, I lowered my gun.
+A figure appeared out of the blizzard, behind the gargoyle. It was a girl, a young woman, in blue silk pyjamas, twirling a walking stick in the manner of an oversized baton. I grinned, I laughed out loud, I lowered my gun.
 
 The woman seized the cane in both hands, twisted the top, and unsheathed a long, glittering blade. She raised the swordstick above her head in a stance that would have graced a samurai master. “Hey, Mister!”
 
