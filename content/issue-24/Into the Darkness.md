@@ -9,7 +9,7 @@ authors:
 showAuthorFooter: true
 copyright: '© Lee F. Patrick 2020 All Rights Reserved'
 
-description: "If there's a genre especially close to the heart of your humble editor, it\'s the Ghost Story: that grand denizen of the limbic, liminal domain between mere flighty fantasy and bluntly blundering horror (and there\'s a sentence that should fuel some enmities moving forward). Anyway, isn\'t it so often often the case with these strange inhabitants that \"moving forward\" is at the very heart of the matter?"
+description: "If there's a genre especially close to the heart of your humble editor, it\'s the Ghost Story: that grand denizen of the limbic, liminal domain between mere flighty fantasy and bluntly blundering horror (and there\'s a sentence that should fuel some enmities moving forward). Anyway, isn\'t it so often the case with these strange inhabitants that \"moving forward\" is at the very heart of the matter?"
 
 morelink: 'Look more closely...'
 
