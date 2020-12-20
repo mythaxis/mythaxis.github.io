@@ -153,7 +153,7 @@ He sat himself on a log and chewed a piece of root while watching the other two 
 
 Johnson built his small fire at the far side of the small clearing. She could slip down, hang by her hands from the branch and drop to the ground. If she didn’t injure herself she’d have a head start. Through these woods she could outrun them, lose them. *If* she didn’t hurt herself, and *if* they were not too quick with their guns. She waited.
 
-Aziz,used a fierce looking blade to cut and skin a haunch from the dog, then to cut thin slices from it. Each slice he coiled loosely and impaled on a stick. Weasel-face Johnson wandered away a few metres. He leant his rifle against a tree and turned to piss in the leafless bushes.
+Aziz used a fierce looking blade to cut and skin a haunch from the dog, then to cut thin slices from it. Each slice he coiled loosely and impaled on a stick. Weasel-face Johnson wandered away a few metres. He leant his rifle against a tree and turned to piss in the leafless bushes.
 
 “What are they up to, those regulars, then?” he called over his shoulder.
 
@@ -213,7 +213,7 @@ She didn’t answer. Johnson tightened his grip on her arm and twisted.
 
 “Give it to her first,” said Jowls. “There’s mushrooms and there’s mushrooms.”
 
-Aziz poured a cupful of the gently steaming liquid and held it out. Johnson released his grip on one arm, and when she made no move to take it pinched the other one fiercely. She waited as long as she could bare it, then took the cup and drank the contents straight down, handed it back and shrugged.
+Aziz poured a cupful of the gently steaming liquid and held it out. Johnson released his grip on one arm, and when she made no move to take it pinched the other one fiercely. She waited as long as she could bear it, then took the cup and drank the contents straight down, handed it back and shrugged.
 
 The three men took turns and drained the flask completely while Aziz examined the bottle. “What is it?” Johnson asked.
 
@@ -241,7 +241,7 @@ The soldier spoke. A woman. “We’re looking for Carnegie. Old guy, lives arou
 
 The soldier stepped towards him, and Aziz half-raised his rifle. “I wouldn’t,” she said without breaking her stride. The machine crouched with forearms raised, aimed towards Aziz.
 
-She stopped two paces from Beth and Johnson. “I’d like to ask her,” she said,
+She stopped two paces from Beth and Johnson. “I’d like to ask her,” she said.
 
 “She don’t know anything,” Johnson stammered, sweat dripping from his face, crimson even in the fading light. *How much had he drunk? How long it would take?*
 
