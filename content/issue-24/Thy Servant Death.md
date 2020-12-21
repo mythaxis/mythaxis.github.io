@@ -119,6 +119,6 @@ He motioned for his cup, draining its contents in three quick gulps. The king th
 
 Ripples of his decree spread throughout the countryside. That nightfall Oola-Saggath (who indeed went by many names) returned to court, descending on a thunderous pitch-black pall that would not abate for seven generations.
 
-
 -
 
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Alight" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/138447278076273).*
