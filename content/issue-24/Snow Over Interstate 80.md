@@ -227,6 +227,6 @@ Christmas Day.
 
 One of the good ones.
 
-
 -
 
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Alight" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/138442444743423).*
