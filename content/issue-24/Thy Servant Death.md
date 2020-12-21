@@ -121,4 +121,4 @@ Ripples of his decree spread throughout the countryside. That nightfall Oola-Sag
 
 -
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of "Alight" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/138447278076273).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Thy Servant, Death" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/138447278076273).*
