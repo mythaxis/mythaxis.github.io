@@ -404,5 +404,6 @@ Mr. Smythe glanced down at the other end of the room, where those living had bee
 
 A novel idea, that the dead could so communicate with the living.
 
-
 -
+
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Alight" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/138448114742856).*
