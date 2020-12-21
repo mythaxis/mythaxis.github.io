@@ -411,4 +411,4 @@ His fingers brushed against a solid mass of gold, much larger than the previous 
 
 -
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of "Alight" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/138444164743251).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Every Hat is a Crown" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/138444164743251).*
