@@ -409,5 +409,6 @@ His fingers brushed against a solid mass of gold, much larger than the previous 
 
 “Five hundred,” he croaked, his voice disintegrating into a terrified whisper. “Five hundred crowns. How much will they weigh by the end, and how strong is my neck?”
 
-
 -
+
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Alight" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/138444164743251).*
