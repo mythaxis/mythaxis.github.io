@@ -141,5 +141,6 @@ Velanji sits on the dais with pride as huge as the Himalayas. *Ways of honor are
 
 He always cherished the dream of winning a literary award. But even if he won the Man Booker Prize, he wouldn’t get this much applause from his fellow men, who rarely read books.
 
-
 -
+
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Alight" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/138439474743720).*
