@@ -143,4 +143,4 @@ He always cherished the dream of winning a literary award. But even if he won th
 
 -
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of "Alight" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/138439474743720).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Spring Man" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/138439474743720).*
