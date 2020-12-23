@@ -41,7 +41,7 @@ She wore black figure-mummifying robes, making it impossible to see her face or 
 
 “I come bearing a gift,” she said, in muffled portentous tones, “a boon to distract the king in his time of darkest, bleakest need. For the god which I serve has heard his prayer, and offers reprieve.”
 
-Swaying on his throne, king frowned. Not long past he would have ordered a necromancer—or any practitioner of the magical arts—put to an instant, zealous death. However, after murdering his son by his own hand he sought out the services of every witch, sorcerer, hedge-wizard, diviner, shaman, soothsayer, necromancer, and seer within a thousand leagues, inviting them to come test their obscure rites on the prince’s corpse. His perverse summons evoked dismay in the people of Aoravia, taken as portent of the kingdom’s inevitable fall.
+Swaying on his throne, king frowned. Not long past he would have ordered a necromancer—or any practitioner of the magical arts—put to an instant, zealous death. However, after murdering his son by his own hand he'd sought out the services of every witch, sorcerer, hedge-wizard, diviner, shaman, soothsayer, necromancer, and seer within a thousand leagues, inviting them to come test their obscure rites on the prince’s corpse. His perverse summons evoked dismay in the people of Aoravia, taken as portent of the kingdom’s inevitable fall.
 
 Still, many nursed hope that one charlatan or another would succeed in resurrecting the king’s self-slain bloodline—but, magic was weak in those days. Finally, one of the necromancers absconded with the prince’s spell-scarred remains, and the fiasco was stricken from the royal records. The king ordered a gaudy tomb sealed up in the catacombs, inscribed but empty.
 
@@ -83,7 +83,7 @@ Something stirred in the near-darkness, neither rat nor ghost.
 
 The king rose in startled fear, turned and held his resinous torch aloft. He beheld the skeleton, the necromancer’s gift, firelight playing over the barrel of its ribcage and flickering in the depthless hollows of its sockets. The thing ambulated towards him, teeth clacking and chattering violently, long fleshless fingers outstretched. The king gasped and fell back before this apparition, though he did not flee, still thinking himself its master.
 
-The skeleton drew nearer, an inner phosphorescence now lighting its sockets. Ivory arms rose to its skull and, for the first time, it removed and tossed aside its its accustomed miter. Without the headdress’s gross exaggeration, the skeleton looked to be no taller than an average man—no taller, indeed, than the king’s own son had been.
+The skeleton drew nearer, an inner phosphorescence now lighting its sockets. Ivory arms rose to its skull and, for the first time, it removed and tossed aside its accustomed miter. Without the headdress’s gross exaggeration, the skeleton looked to be no taller than an average man—no taller, indeed, than the king’s own son had been.
 
 The skull turned, death’s-head grin fixed, and the king for the first time cried out in fear, collapsing amid a strew of loose bones.
 
@@ -101,7 +101,7 @@ Now at last the king tried to scream, but the thing tore his shrunken lungs asun
 
 The sapphire-gilt crown, which often teetered embarrassingly on the king’s splotchy pate, now sat cockeyed on a too-bulbous brow. That his face possessed a notably different shape, that he walked with a new (yet strangely familiar) stride, none could deny: some noted a small black-handled knife sheathed at his waist, fret with a glinting ruby. Yet, his voice was his own, his words were his own. Even when he laughed uproariously upon seating himself on the porphyritic throne, no suspicion was roused—for, as has been observed, magic was weak in that time.
 
-The king composed himself before opening the morning’s proceedings with a few ceremonial words. This token of familiarity put the court at ease, and before long the king of Aoravia was meting out sentences, hearing grievances, and granting royal favors as of old. Still, all noted something notably alien about his composure and character—that shimmer in his eyes, those eerily familiar-but-foreign motions! Even the long snowy flow of his beard seemed touched with an auburn tint.
+The king composed himself before opening the morning’s proceedings with a few ceremonial words. This token of familiarity put the court at ease, and before long the king of Aoravia was meting out sentences, hearing grievances, and granting royal favors as of old. Still, all noted something alien about his composure and character—that shimmer in his eyes, those eerily familiar-but-foreign motions! Even the long snowy flow of his beard seemed touched with an auburn tint.
 
 As the sun climbed towards midday and the court prepared to adjourn for refreshments, the king suddenly clapped his mottled, too-long-fingered hands together. “But wait! It has been over a month since my loyal cup-bearer deigned to entertain us. I confess, I tired of the skeleton’s antics for a while… my mind has been unsettled, spirit fraught with unrest. But last night I made amends with the prince, my most grievously murdered son. And so, I would have a dance before we feast!”
 
