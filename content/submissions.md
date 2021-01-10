@@ -53,11 +53,9 @@ Okay, we've said our piece. If you're still keen to roll the dice...
 
 ### HOW TO SUBMIT
 
-Email files as an attachment to:
+Email files as an attachment to: **MythaxisMagazine@gmail.com**
 
-**MythaxisMagazine@gmail.com**
-
-Please use the email subject line **MYTHAXIS SUBMISSION – *STORY TITLE*** to evade spam filters.
+Please use the email subject line **MYTHAXIS SUBMISSION – *YOUR STORY TITLE*** to evade spam filters.
 
 Feel free to include a concise cover letter and/or author bio, though neither is mandatory. ***Mythaxis*** welcomes authors of all levels of experience. We have a history of publishing first-time authors, and we mean to continue this tradition.
 
