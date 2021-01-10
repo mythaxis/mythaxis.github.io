@@ -55,7 +55,7 @@ Okay, we've said our piece. If you're still keen to roll the dice...
 
 Email files as an attachment to:
 
-**andrew**(dot)**leon**(dot)**hudson**(at)**gmail**(dot)**com**
+**MythaxisMagazine@gmail.com**
 
 Please use the email subject line **MYTHAXIS SUBMISSION – *STORY TITLE*** to evade spam filters.
 
