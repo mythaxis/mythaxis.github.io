@@ -7,7 +7,7 @@ type: page
 slug: submissions
 ---
 
-***Mythaxis* is currently closed to submissions.**
+***Mythaxis* is currently open to submissions.**
 
 As of **2021**, *Mythaxis* will be published four times a year, and is periodically open to submissions within the following schedule:
 
