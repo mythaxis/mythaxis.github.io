@@ -7,7 +7,7 @@ type: page
 slug: submissions
 ---
 
-***Mythaxis* is currently open to submissions.**
+***Mythaxis* is currently CLOSED to submissions.**
 
 As of **2021**, *Mythaxis* will be published four times a year, and is periodically open to submissions within the following schedule:
 
@@ -21,7 +21,7 @@ Submissions received outside of these dates will unfortunately be lost and there
 - **Length**: 1,000-7,500 words. This is a firm limit. Generally speaking, the further a story goes beyond 5,000 words the more it will need to impress, but the door is not shut in advance.
 - **Compensation**: $20 on acceptance and return of contract. Payment via PayPal only.
 
-We aim to acknowledge submissions the same day they are received. **If you do not receive an acknowledgment within 24 hours of submission, please get in touch**.
+We aim to acknowledge submissions the same day they are received. **If you do not receive an acknowledgment within 24 hours of submission, please get in touch**. There is no limit on how many times you submit within any window, but please wait until receiving a rejection notice before submitting again.
 
 We aim to accept or reject within 14 days of that acknowledgment, but rl (real life) and rl (reading load) can get in the way. **If you do not hear from us after 30 days, feel free to query**.
 
