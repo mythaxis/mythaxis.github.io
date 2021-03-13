@@ -3,6 +3,7 @@ title: "Plague Rooster"
 date: 2021-03-15
 issue: Issue 25
 
+name: Micah Hyatt
 author: Micah Hyatt
 authors:
 - Micah Hyatt

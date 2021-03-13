@@ -4,8 +4,8 @@ authors:
 - Pritesh Patil and Percy Wadiwala
 name: Pritesh Patil and Percy Wadiwala
 author: Pritesh Patil and Percy Wadiwala
-photo: 'images/TrishaMcKee.png'
-avatar: 'images/TrishaMcKee.png'
+photo: 'images/PriteshAndPercy.png'
+avatar: 'images/PriteshAndPercy.png'
 copyright: "© Pritesh Patil and Percy Wadiwala 2021 All Rights Reserved"
 description: "***Pritesh Patil*** *(right) is fuelled by books, stories and coffee fumes. When he isn’t hunting monsters and searching for cracks between realities, he can be found deep in Dream's library spinning tales of hope and revolutions. You can find him on Twitter as [Twitter](http://www.twitter.com/TheQuillseeker/).*
 

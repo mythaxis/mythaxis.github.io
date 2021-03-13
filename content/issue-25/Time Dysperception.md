@@ -3,6 +3,7 @@ title: "Time Dysperception"
 date: 2021-03-15
 issue: Issue 25
 
+name: Jack Mackenzie
 author: Jack Mackenzie
 authors:
   - Jack Mackenzie
