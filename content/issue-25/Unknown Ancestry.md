@@ -104,7 +104,7 @@ It took him a second to draw up from his daydream. “I like all the things abou
 
 No apologies spoken. No grand makeup. We were going, he was right, and that was that. 
 
-I settled in for the drive, gazing lazily out t he window. The trees, while past full autumn bloom, still held bunches of orange and red leaves. In some places, winds had stripped long sections clean. These were massed along the highway like clusters of discarded wire. It had the cumulative effect of being both joyous and depressing.
+I settled in for the drive, gazing lazily out the window. The trees, while past full autumn bloom, still held bunches of orange and red leaves. In some places, winds had stripped long sections clean. These were massed along the highway like clusters of discarded wire. It had the cumulative effect of being both joyous and depressing.
 
 What I had never told anyone, not even Jessie, was that I had long harbored the idea that my parents had been lying about my adoption. Lately, with my anguish over first applying for the DNA test and then getting the results, I felt almost sure. Maybe I wanted to believe it, because then I would have a secret.
 
@@ -426,4 +426,4 @@ Not for the first time, I felt the urge to devour him.
 
 ![Orbit-sml](images/Orbit-sml.png)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of "Unknown Ancestry" on [Facebook]().*
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Unknown Ancestry" on [Facebook](https://www.facebook.com/MythaxisMagazine).*

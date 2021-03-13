@@ -33,7 +33,7 @@ Follow me, children, Grandmother says,
 Across concrete bridges strangled by vines\
 Down deserted streets marked by meaningless lines\
 Around the metal husks of cars\
-become the nests of beasts
+Become the nests of beasts
 
 
 
@@ -57,13 +57,13 @@ They deserve to know about—
 
 I will tell it the only way they will understand, Grandmother says\
 Too many words have been forgotten, and the parts I’ve left out\
-would mean nothing to them without a background in virology,\
-parasitology and applied microbiology
+Would mean nothing to them without a background in virology,\
+Parasitology and applied microbiology
 
 
 
 See? Look how confused the children are,\
-scratching their heads\
+Scratching their heads\
 Science is dead\
 You and I killed it\
 Best tell them my myth instead
@@ -93,21 +93,21 @@ Busy and alive
 The stone globe in the courtyard\
 Three rooster statues crowing\
 One statue shattered by the bomb-throwing\
-terrorist that gave him his limp
+Terrorist that gave him his limp
 
 
 
 This is the place, Grandmother says,\
-the home of our ancestral tribe\
+The home of our ancestral tribe\
 And when the sickness came to us\
 We brought our babies here to die
 
 
 
 See the moss-eaten rocks of vague avian shape\
-clutching water-smooth stones with their feet?\
+Clutching water-smooth stones with their feet?\
 This is where Lord Rooster was born\
-And mistakes we must never repeat.
+And mistakes we must never repeat
 
 
 
@@ -143,7 +143,7 @@ Would bite us in our beds
 
 
 And in eight days\
-the bells would toll\
+The bells would toll\
 Announcing you were dead
 
 
@@ -157,7 +157,7 @@ Even when his meat was fresh
 
 And in a week\
 The brain you had\
-would be a runny mess
+Would be a runny mess
 
 
 
@@ -169,14 +169,14 @@ So other sicknesses could grow
 
 
 And without fail,\
-the tamest colds\
-would strike us dead in droves
+The tamest colds\
+Would strike us dead in droves
 
 
 
 But it was Lord Rooster we feared the most\
 For though his wings couldn't take him far\
-the little birds he consorted with\
+The little birds he consorted with\
 Were numerous as the stars
 
 
@@ -228,8 +228,7 @@ Lines of code in double helix
 
 Do you remember when we\
 Grafted the peach and the plum tree?\
-When I cut a branch from the one and\
-Inserted it\
+When I cut a branch from the one and Inserted it\
 Into the other’s cleft\
 So we would have plums out of season?
 
@@ -488,4 +487,4 @@ Nothing crows
 
 ![Orbit-sml](images/Orbit-sml.png)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of "Plague Rooster" on [Facebook]().*
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Plague Rooster" on [Facebook](https://www.facebook.com/MythaxisMagazine).*
