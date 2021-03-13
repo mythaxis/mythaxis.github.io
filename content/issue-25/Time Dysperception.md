@@ -10,7 +10,7 @@ authors:
 showAuthorFooter: true
 copyright: '© Jack Mackenzie 2021 All Rights Reserved'
 
-description: 'We all get lost in the moment occasionally. We all feel time is getting away from us. But imagine how horrible either could be under the wrong circumstances? Or ANY circumstances, if you never knew which way it was going to be, or when? Like you just found out the countdown has begun, the clock is ticking, and those last vital seconds are slipping away…'
+description: 'We all get lost in the moment occasionally, or feel time is getting away from us. But how horrible could either be under the wrong circumstances? Or ANY circumstances, if you never knew which way it was going to be, or when? Like you just found out the countdown has begun, the clock is ticking, the last vital seconds slipping away…'
 
 morelink: "There's no time like the right time"
 
