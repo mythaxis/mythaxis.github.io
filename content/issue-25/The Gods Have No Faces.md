@@ -41,11 +41,7 @@ It’s worse for Six Root. He doesn’t understand why they’re leaving him beh
 
 That’s enough to cheer him up. I, though, am not so easily swayed.  	
 
-
-
-\#
-
-
+![Orbit-sml](images/Orbit-sml.png)
 
 {{<glyph>}}W{{</glyph>}}e head south along an old wadi, past some low lying hillocks with pillars sticking out of them like charred ribs. Farther south, the scrub melts into dryish grasslands and then into a savanna. The trees here have long blue leaves that hang like wet hair over darkened trunks. The sun is low in the sky behind us, and our shadows and those of the trees are like a multitude of black blades stabbing the black far horizon. 
 
@@ -63,11 +59,7 @@ The figure coughs, and falls flat on the ground. A few moments pass. Then He sti
 
 “Goddamn it,” He groans. “I forgot to bring a drink.”
 
-
-
-\#
-
-
+![Orbit-sml](images/Orbit-sml.png)
 
 {{<glyph>}}T{{</glyph>}}he god spends a great deal of time with His face planted on the ground and His forelimbs wrapped around His stomach. I take a blanket and my rollbag from Six Root’s saddlebags and approach. It feels like gut-churning blasphemy to touch Him, but suffering is suffering whether quotidian or divine and so that’s what I do. I help Him up against Six Root’s warm side and the great beast sniffs Him for a long while, and then looks back to where the sun sits like a mad old king upon his throne, the horizon. I light a fire and feed Six Root and wait for the stars to come out. Of course, they never do.
 
@@ -133,11 +125,7 @@ I’m mortified the instant the words leave my mouth and I close my eyes and bra
 
 Remember that. Remember that a god once had a *good feeling* about me. 
 
-
-
-\#
-
-
+![Orbit-sml](images/Orbit-sml.png)
 
 {{<glyph>}}S{{</glyph>}}tories like this are supposed to be interesting. They usually are, in the retelling. But remember that they happen in the world we know, to ordinary people, and so there’s also a lot of tedium and a lot of boredom. Thus my first few days with the Creator aren’t a glorious rush of revelation and enlightenment, but a silent amble against the backdrop of the everdropping sun. We reach an ancient highway half digested by the earth and proceed westward along it. A damp wind licks our backs like the ghostly affections of some long-dead herd. The sun finally sets—or rather, we wander beyond its reach into places that will never again witness a dawn. Presently we see the City of Slivers glittering in the distance like a heap of fallen stars. God Waters sleeps through most of this, with His pipes jiggling and gargling noises percolating out of His suit. When we halt I watch Him and imagine Him within, a delicate and broken thing, limp like an oyster. 
 
@@ -191,11 +179,7 @@ He *tsks*. “Haven’t you been listening? It doesn’t prove anything. It wasn
 
 Stories like this are supposed to be interesting, I know. But sometimes they’re just sad.
 
-​	
-
-\#
-
-
+![Orbit-sml](images/Orbit-sml.png)
 
 {{<glyph>}}W{{</glyph>}}hen the sun moved, the weather was as changeable as a young heart. The winds wandered, incessant, and with them the rains would drift down mountainsides and in a cooling tide across the plains. Scents and distant voices drifted up through the kingdom of cloud below us and up to our balloons. But after the sun halted, the wind began blowing in only one direction, as it does now. Along the way, it gathers the fine particles of the sunside world and thickens into a choking haze that sweeps over us like a colossal procaryote made of dust. We proceed in its belly, sightless, towards a horizon we have to trust is there. 
 
@@ -287,11 +271,7 @@ She walks to where Her soldiers are waiting and they head off together. We watch
 
 “Stuck-up bitch,” He mutters. 
 
-​		
-
-\#
-
-
+![Orbit-sml](images/Orbit-sml.png)
 
 {{<glyph>}}T{{</glyph>}}his is what I think I see:
 
@@ -311,11 +291,7 @@ Where the farm is there had once been an expanse called the Forest of the Night.
 
 I learn these things, and something else also. That, though I know what I see when I see myself, perhaps I’m mistaken about that too.
 
-
-
-\#
-
-
+![Orbit-sml](images/Orbit-sml.png)
 
 {{<glyph>}}Y{{</glyph>}}ou’re waiting for the moment when I arrive at Genesis Point and the truths of the universe are revealed to me. But the revelation has come and gone. If you’ve not noticed, look again. If you still don’t see it, stop looking. It wasn’t meant for you. 
 
@@ -357,6 +333,6 @@ I look back towards Genesis Point. There’s nothing there but light.
 
 We brace against each other, and strike off, as if for the first time. 
 
--
+![Orbit-sml](images/Orbit-sml.png)
 
 *Thanks for reading - but we'd love feedback! Let us know what you think of "The Gods Have No Faces" on [Facebook]().*
