@@ -10,7 +10,7 @@ authors:
 showAuthorFooter: true
 copyright: '© KC Grifant 2021 All Rights Reserved'
 
-description: "There's a certain theme in science fiction and fantasy that's always been popular. Hollywood movies have repeatedly run with it (usually for laughs), so too surely every TV show in either genre. It has clear horror potential too, but very rarely are such stories approached from the outsider's point-of-view. KC Grifant does so here, and with a similarly atypical air of loss, rather than gain."
+description: "There's a certain theme in science fiction and fantasy that's always been popular - hard to set this up without spoiling it! Hollywood movies have repeatedly run with it (usually for laughs), so too surely every TV show in either genre. It has clear horror potential too, but very rarely are such stories approached from the outsider's point-of-view. KC Grifant does so here, and with a similarly atypical air of loss, rather than gain."
 
 morelink: 'Who can you see through the windows of the soul?'
 
