@@ -268,4 +268,4 @@ No place for the likes of that in a business where everyone was so full of thems
 
 ![Orbit-sml](images/Orbit-sml.png)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of "The Fashionistas" on [Facebook]().*
+*Thanks for reading - but we'd love feedback! Let us know what you think of "The Fashionistas" on [Facebook](https://www.facebook.com/MythaxisMagazine).*

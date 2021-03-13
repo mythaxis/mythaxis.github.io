@@ -448,4 +448,4 @@ They walked in silence for a few moments, or maybe a few hours, while she consid
 
 ![Orbit-sml](images/Orbit-sml.png)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of "Time Dysperception" on [Facebook]().*
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Time Dysperception" on [Facebook](https://www.facebook.com/MythaxisMagazine).*
