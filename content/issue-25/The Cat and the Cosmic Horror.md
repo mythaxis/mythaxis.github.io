@@ -3,6 +3,7 @@ title: "The Cat and the Cosmic Horror"
 date: 2021-03-15
 issue: Issue 25
 
+name: Pritesh Patil and Percy Wadiwala
 author: Pritesh Patil and Percy Wadiwala
 authors:
     - Pritesh Patil and Percy Wadiwala
