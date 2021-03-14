@@ -61,7 +61,7 @@ He laughed in his deep, slow way. “Don’t I know.”
 
 We each pretended to prepare for a fight, our noses touching, our chests flared out, before he dropped his towel and kissed me and then pushed me down the hallway to our bedroom. We had sex, and then he massaged me, easing the tension that always seemed to be tightening my muscles, making my joints ache. Oil dripped into the small valley of my spine. The vape pen pressed against my lips, which he manipulated without my needing to move. I got so fucking high the mattress felt like a dandelion bonanza.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}“M{{</glyph>}}aybe I’m a werewolf,” I said. 
 
@@ -91,7 +91,7 @@ He studied me as I flopped on my back, face straight up on the pillow. “Alexa,
 
 Alexa’s voice was warm and feminine, not so much like a mother but an annoyingly rational big sister. The most calming sounds floated into the room, synthesizer and love flute entwined in a simple dance. It was the kind of music white people stole from the indigenous and called “world music.” That irritant alone kept me awake. 
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}J{{</glyph>}}essie opted to not talk as I drove. His persistence that we visit my parents for Thanksgiving had caused a two-day argument, during which I sulked like a little brat. After forty-eight hours of icy interactions, I accepted his advice. If handled it well, my parents knowing I was looking into my heritage would cause no hurt. But that “if,” with my shitty track record at diplomacy, made me cautious.
 
@@ -187,7 +187,7 @@ I stared at them, sitting side by side, the way I remembered them all my life, e
 
 Mom became inconsolable, shivering until she collapsed into Dad’s embrace. I couldn’t even look at Jessie. I wandered around this Tennessee Williams disaster in a daze until I stopped at the piano and grabbed that fucking plastic turkey with every intent to smash it to pieces. But I fainted instead, cast into darkness on the wings of calamity.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}T{{</glyph>}}he drive back to DC, with Jessie at the wheel, started in quaintly rural Frederick and grew to suburban sprawl the closer we got to DC. I’d been along that route a thousand times, yet noticed for the first time how shapeless it all was, like the leftovers of a post-apocalyptic world, all glass and steel and randomly placed shrubbery. Jessie and I didn’t speak a word, so I didn’t mention that dad had slyly given me my birth certificate from his safe. The father field was blank, my own name listed only as “Baby Henderson.”
 
@@ -229,7 +229,7 @@ But the juxtaposition had occurred to me: I’d be heading to the deep country f
 
 We did have sex that night, moving from couch to bed, his need for it as urgent as mine, but relief didn’t last for us both. After he fell asleep, I tensed up to the point my calf muscles cramped. All I could do was lay there hoping I wasn’t some genetic mess from a hillbilly nightmare. 
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}I{{</glyph>}} crossed the Potomac river in fog on Saturday morning. My destination was Haplinsburg, West Virginia. It was an area near the Gauley River, which was famous for its whitewater rafting. We had gone once and I nearly drowned at a massive rapid hilariously called “Surprise.” 
 
@@ -263,7 +263,7 @@ As I reached for the door, he spoke again. “My name is Arthur Townes,” he sa
 
 “It’s fine,” he said, and for the first time grinned, a toothy thing smothered by that beard. “Always glad to help out family.”
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}T{{</glyph>}}he moon, as round and perfect as a coin, emerged from behind thick clouds. The mountain air was cool but not uncomfortable. I wandered by my car with Jessie’s backup vape pen. Salty dust from a tube of chips covered my fingers and I washed back the aftertaste with a lukewarm soda. Within minutes of hitting the vape, I got so high the stars warped as I gawked at them.
 
@@ -317,7 +317,7 @@ So real, I guess.
 
 Or hell, if it *was* a psychotic break, then it was a good one.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}E{{</glyph>}}ven in the low light, I saw shacks dotting the wooded hills, their crusty faces barely visible through the trees. After a short drive, we pulled onto a dirt road that disappeared into trees. A barely standing mailbox jutted from weeds. I saw no buildings as the road curved up a sharp rise. The angle we climbed seemed more than any vehicle could take, and it felt like we were headed straight up. As my back pressed into the seat, I gazed on the starry sky through the windshield. The engine revved as the wheels fought for traction.
 
@@ -395,7 +395,7 @@ My story. My ancestry.
 
 Before Father removed his mouth from my face, everything went blissfully black.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}M{{</glyph>}}y fingers gripped the bed sheets. Disoriented, I whipped my legs around, still sure that Father clutched my sides, and tried to kick at him. Even when I realized that nightmare had disappeared, the shitty, little motel room didn’t register: strange bed, strange carpet, awful smell, green curtains, that hideous shag. 
 

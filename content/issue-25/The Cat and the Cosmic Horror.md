@@ -48,11 +48,11 @@ The majestic woman held out her graceful arm. Farrokh took it with a smile, his 
 
 After all, it wasn’t often that he was able to surprise the city’s oldest witch.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}F{{</glyph>}}orgive Shindu-tai letting her conversational guard down for a second, for as well she knew, at that moment something unspeakably older than even she was bearing down on them both, along with everyone else on Planet Earth. The Great Old One had been hurtling through space and time for countless eons when it course-corrected to make a quick pit stop, nothing more. Destroy a city or two, absorb the souls of its people, establish a base for future reference. Like setting up a gas station, really. And while this primitive, weak world would no doubt be as an insect under its heel—if it wore heels, which it did not, thankfully, though it had many tentacles that could have passed for legs—it still knew where to make landfall. *There*, where its impact would eradicate its prey’s greatest defences. Sure, the landing would leave it a tad weaker than usual, unable to rise to its *full* size perhaps, but it was nothing a good feed wouldn’t fix.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}T{{</glyph>}}hey walked in silence, until they were at the far side of the lawn, away from potential eavesdroppers, and Shindu-tai placed a hand on her friend’s arm. “Now, out with it, dearest Firedrake, for if you mean what I think you mean, it could not be happening at a more inopportune moment.”
 
@@ -86,13 +86,13 @@ The lady scoffed. “You would complain of age to me, dear Firedrake?”
 
 Shindu-tai hummed in response, and continued playing with the squirrel. Then she turned to him with a glint in her eye. “I have an idea.”
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}F{{</glyph>}}rom her lush patch of sun-lit grass, Minerva watched with typically cat-like disdain as Shindu-tai outlined her budding strategy for her friendly rival and lashed her tail lazily. Had she been the type to confide the details of her inner world, she would own to being slightly more interested in the potential uses Shindu-tai’s squirrel could be put to than whatever machinations her witch might be concocting. Minerva half closed her eyes. No doubt she’d have opportunity to sink her claws into both sooner or later.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
-{{<glyph>}}"Y{{</glyph>}}ou can’t be serious,” Farrokh remarked on hearing the plan. “We can’t outsource our work!”
+{{<glyph>}}“Y{{</glyph>}}ou can’t be serious,” Farrokh remarked on hearing the plan. “We can’t outsource our work!”
 
 “Why not?” The grand-witch was the very picture of serenity. “Western companies keep outsourcing their work to Indians all the time. Why shouldn’t we find an Indian guy of our own?”
 
@@ -130,9 +130,9 @@ Oh well, at least the actual game had been left forgotten for now. He had caught
 
 Maybe things would work out after all.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
-{{<glyph>}}"V{{</glyph>}}aman, ol’ buddy, ol’ friend, is that your grandmother’s cat I spot over there?” Cyrus said, pointing at the cat climbing up the banister. When Vaman did not respond immediately he poked his friend, who was leaning against the aforementioned banister. 
+{{<glyph>}}“V{{</glyph>}}aman, ol’ buddy, ol’ friend, is that your grandmother’s cat I spot over there?” Cyrus said, pointing at the cat climbing up the banister. When Vaman did not respond immediately he poked his friend, who was leaning against the aforementioned banister. 
 
 Vaman, lacking Minerva’s nimble-footedness, stumbled and almost went over. Only grabbing onto Cyrus’s collar saved him from having a fatal argument with the forces of gravity. “Do be careful, old sport,” Cyrus tutted, helping his friend upright, only to receive a glare in response. 
 
@@ -152,7 +152,7 @@ Minerva, as might have been expected, took great offense at being attacked by th
 
 Left to face an increasingly irate cat on his own, Cyrus withdrew from the fray as well, though not before Minerva had given him a final scratch on one buttock. Her eyes flashed once with malice and magic as she took note of the scroll Vaman had gotten away with. Her job done, she proceeded to the kitchen, intent on eating all the fish in the refrigerator and completing her revenge.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}C{{</glyph>}}loistered behind the chawl’s common privy—for secrecy, that is, they weren’t hiding, no siree—the two friends broke the seal and unfurled the letter.
 
@@ -170,7 +170,7 @@ Left to face an increasingly irate cat on his own, Cyrus withdrew from the fray 
 
 “I won’t. Let’s go get haircuts. We have to meet them at Hanging Gardens in two days.”
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}I{{</glyph>}}n a small shop sequestered in the suburbs of Bombay, a young wizard was approached by a cat the size of a small tiger. She offered him a scroll, he offered her the fried *Bombay Duck*—a weird thing to call a fish, he thought for the umpteenth time—he had been eating. This exchange done, the cat’s eyes flashed with pleasure before she attacked the food with gusto.
 
@@ -180,9 +180,9 @@ He quickly wrote his answer and gave it to the cat. “Convey this to the grandw
 
 Minerva nodded once in response and turned to more pressing matters: the swiftly-dwindling supply of fish in her plate.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
-{{<glyph>}}"A{{</glyph>}}re you sure you have the right address?” Cyrus asked. “There don’t seem to be any princesses here.”
+{{<glyph>}}“A{{</glyph>}}re you sure you have the right address?” Cyrus asked. “There don’t seem to be any princesses here.”
 
 “The letter said Hanging Gardens, you read it same as I did,” a tetchy Vaman replied. They swung around on rickety playground swings overlooking the shimmering Arabian Sea. Well, Vaman did—Cyrus’ swing groaned under his considerable girth and refused to move. Their note had said Farrokh would ensure the garden was closed to public for the day, which meant the two had the run of the place, and did not have to worry about pesky kids getting in their way.
 
@@ -226,7 +226,7 @@ What followed was terror as the clanky, rattling pile of bolts and metal jangled
 
 “Next stop, Asia’s largest slum, Dharavi. It’s a tourist hotspot,” the two intoned together.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}I{{</glyph>}}n another part of the city, near the behemoth of steel and concrete that was the Bombay-Worli Sea-Link, two princesses of otherworldly beauty and demeanour stood across from a familiar young wizard. One white as snow, the other tanned like the earth, both with eyes that sparkled like endless pools of darkness. The Lady of Winter and Summer had arrived.
 
@@ -236,7 +236,7 @@ Their lips crooked into smiles at his words. “Tatiana, he speaks in the formal
 
 “Indeed, Titania.” A wide smile bloomed on the pale woman’s face as she shivered in ecstasy. “He even makes delightful threats.”
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}T{{</glyph>}}he eldritch cosmic horror and the Sheriffs of Bombay entered the slums of Dharavi, a cauldron of human vices which smelled of desperation and struggle. 
 
@@ -258,7 +258,7 @@ The Outer God stood shocked. It touched a tentacle to the slowly reddening palm-
 
 “Come forth, madame,” Cyrus said, smoothly. “We’ve yet to see the grandeur of Dombivali, the haunts of Kurla, and the shifty streets of Kandivali.”
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}T{{</glyph>}}he confused wizard stood his ground as the two ladies approached him with something resembling curiosity, and a hint of… was that lust? This wasn’t how Arquin had expected their battle to go. Wait—perhaps this was their bid to confuse him. 
 
@@ -274,7 +274,7 @@ The Outer God stood shocked. It touched a tentacle to the slowly reddening palm-
 
 “Me too,” Tatiana agreed, her eyes glinting with desire. “Let’s keep him.”
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}T{{</glyph>}}he Old One had seen things even other Old Ones would not believe. It had seen star dragons on fire off the heel of Caspian. It had watched U-beams glitter in the dark near the Fornax Black Hole. All those memories would be lost to time… for now it had seen horrors that defied description. 
 
@@ -286,7 +286,7 @@ Now little more than a broken shell of a Cosmic Horror, it limped to Kandivali i
 
 “Back to Hanging Gardens, then? We will take you over the Sea-Link. Amazing bridge. Amazing. Come, let’s go back to Dharavi, where I parked my car.”
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}L{{</glyph>}}ong before they reached the approach to the bridge, they saw a huge three-way battle underway up ahead. Magic was being thrown around like putty. A stray bolt of lightning barely missed their car, followed by a series of fireballs. The Old One made a chittering noise which translated to “Please, no more. Take me away from this backwater planet of refined cruelty. I was a fool to think of feeding here. No one from the Cosmic Horror Federation will ever—”
 
@@ -304,7 +304,7 @@ In the distance, ice and fire lit up the sky as the Lady of Summer and the Lady 
 
 “I wish she’d opened the door before leaving though,” said Cyrus, with a sorrowful look at the eldritch-shaped hole on the side of his rundown car.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}O{{</glyph>}}nce again, Farrokh Sodawala sat upright on a chair on the lawns of Bombay Gymkhana, his lean, bearded face a mask of furious concentration. Once again, the cards were not in his favour. Once again, the Grandwitch of Bombay, Shindu-tai Andharkar, sat opposite him. 
 
