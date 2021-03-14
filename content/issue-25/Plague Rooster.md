@@ -7,7 +7,7 @@ author: Micah Hyatt
 authors:
 - Micah Hyatt
 showAuthorFooter: true
-copyright: '© Micah Hyatt 2020 All Rights Reserved'
+copyright: '© Micah Hyatt 2019 All Rights Reserved. Plague Rooster was originally published in Shock Totem #11, Shock Totem Publications.'
 
 description: "Mythaxis is not typically a home to poetry, nor to reprints, but when we came across this piece while hunting down the author of 'The Third Martian Dick Temple' we were immediately moved, in no small part due to the pandemic gripping the world in early 2020. One year on from the first Covid-19 lockdowns, the world remains profoundly changed from how it was before - but thankfully not this much changed."
 
@@ -482,6 +482,6 @@ Hours later, the sun rises over a dead city
 
 Nothing crows
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-lrg](images/Orbit-lrg.png)
 
 *Thanks for reading - but we'd love feedback! Let us know what you think of "Plague Rooster" on [Facebook](https://www.facebook.com/MythaxisMagazine).*

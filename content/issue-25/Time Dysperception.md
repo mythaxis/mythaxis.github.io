@@ -443,6 +443,8 @@ They walked in silence for a few moments, or maybe a few hours, while she consid
 
 “Well,” Kai said with a grin, “it’s not so much a *where* as a *when*.”
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-lrg](images/Orbit-lrg.png)
+
+
 
 *Thanks for reading - but we'd love feedback! Let us know what you think of "Time Dysperception" on [Facebook](https://www.facebook.com/MythaxisMagazine).*

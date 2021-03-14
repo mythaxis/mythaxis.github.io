@@ -421,6 +421,6 @@ I only wanted to make it through the night, and hoped the morning light would br
 
 Not for the first time, I felt the urge to devour him.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-lrg](images/Orbit-lrg.png)
 
 *Thanks for reading - but we'd love feedback! Let us know what you think of "Unknown Ancestry" on [Facebook](https://www.facebook.com/MythaxisMagazine).*
