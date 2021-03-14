@@ -10,9 +10,13 @@
     {{/*  Get all stock pages for the current issue */}}
     {{ $posts := where (where .Site.Pages "Section" $currSection.Section) ".Type" "stock" }}
 
-    {{/* Get first featured story, then remove it from the paging list */}}
+    {{/* Get first featured story and remove it from paging list */}}
     {{ $firstPost := first 1 (where $posts ".Params.featured" true) }}
     {{ $posts := $posts | complement $firstPost }}
+
+    {{/* Get last featured story and remove from paging list */}}
+    {{ $lastPost := last 1 (where $posts ".Params.featured" true) }}
+    {{ $posts := $posts | complement $lastPost }}
     
     <!-- Wrapper -->
     <div id="wrapper" class="fade-in">
@@ -31,6 +35,12 @@
             {{ .Render "list" }}
           {{ end }}
         </section>
+        
+        {{ if $lastPost }}
+          {{ range $lastPost }}
+            {{ .Render "featured" }}
+          {{ end }}
+        {{ end }}
       </div>
 
       {{ partial "copyright" . }}
