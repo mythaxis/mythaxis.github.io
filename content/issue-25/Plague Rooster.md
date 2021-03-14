@@ -482,6 +482,6 @@ Hours later, the sun rises over a dead city
 
 Nothing crows
 
-![Orbit-lrg](images/Orbit-lrg.png)
+![Orbit-lrg](images/Orbit.svg)
 
 *Thanks for reading - but we'd love feedback! Let us know what you think of "Plague Rooster" on [Facebook](https://www.facebook.com/MythaxisMagazine).*

@@ -263,6 +263,6 @@ In the next day’s fashion pages, the main subject of interest involved the lat
 
 No place for the likes of that in a business where everyone was so full of themselves.
 
-![Orbit-lrg](images/Orbit-lrg.png)
+![Orbit-lrg](images/Orbit.svg)
 
 *Thanks for reading - but we'd love feedback! Let us know what you think of "The Fashionistas" on [Facebook](https://www.facebook.com/MythaxisMagazine).*
