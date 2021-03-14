@@ -33,7 +33,7 @@ She pointed it directly at his cerulean eyes.
 
 “What could you *possibly* know about what she wants?” Mar spat and, just as she had practiced in the shooting range, took aim at his chest.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}I{{</glyph>}}t started with core waves.
 
@@ -73,7 +73,7 @@ Jenna’s eyes and shoulders closed up even more, the distance between them mile
 
 “You just don’t get it.”
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}I{{</glyph>}}t still hadn’t sunk in for Mar, even when she sat in the technician’s office on the university campus, watching onscreen while specialists fitted her daughter into a giant suit.
 
@@ -107,7 +107,7 @@ After the procedure, Mar waited in the hallway until Jenna and a man emerged and
 
 Mar turned away, patting at her wet eyelashes with the back of her hand. “I’m not the one who needs counseling,” she said. Even though part of her never wanted to leave her daughter’s side, she couldn’t be there a second longer.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}M{{</glyph>}}ar met her—him—*her*—at breakfast, a few days later, once Jenna had acclimated.
 
@@ -131,7 +131,7 @@ Mar cut out of the diner early, claiming a headache. The contract was for six mo
 
 “I won’t breathe easy until she’s back to normal,” Mar had told her friends. “That’s a long time of not breathing.”
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}F{{</glyph>}}inally the awful experiment entered its final week. Mar thumbed off her phone as she and Jenna met at the corner of Newbury Street, amidst the brunch crowd.
 
@@ -169,7 +169,7 @@ Jenna opened her eyes and muttered, “I’m sorry.”
 
 Just like that, her daughter was gone.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}I{{</glyph>}}t couldn’t be prevented and had nothing to do with the experiment, according to the official death record. Legalese protected Leif, though Mar contacted a lawyer anyway, certain that whatever he had done—in that moment, he claimed he was preparing tea—had caused her daughter’s death.
 
@@ -177,7 +177,7 @@ The aneurysm had broken the quantum link, supposedly returning the core waves to
 
 After Jenna was buried, an ancient urge hummed in Mar’s fatigued bones, relieved only when she drove half an hour across state lines to buy what she needed. Maybe it would provide her some relief. Maybe not. It didn’t really matter.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}L{{</glyph>}}eif’s protesting palms, his wide sky-blue eyes, everything about him irritated Mar. She focused on the reassuring weight of the gun. She wasn’t nervous—Jenna’s death had scraped away everything, leaving her empty, as though she herself had no core waves, no signal, nothing.
 

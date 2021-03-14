@@ -67,7 +67,7 @@ Kai nodded. “It’s very important that I find Mister Zota. You see, Saesor Zo
 
 But he didn’t finish his explanation, because at that precise moment the hotel doors burst open and an identical brown-suited man named Kai burst into the lobby.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}B{{</glyph>}}onnie looked over at the newcomer in shock. “There you are again!” she managed.
 
@@ -319,7 +319,7 @@ Bonnie moved from behind the front desk and through the side door into the lobby
 
 She stepped into the elevator. 
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}A{{</glyph>}}fter the doors closed behind her, Bonnie felt the elevator ascend. The ride seemed to take an agonizingly long time, and yet she was surprised at how quickly she arrived at the second floor.
 
@@ -359,7 +359,7 @@ There was a flash and a deafening bang. Bonnie felt herself being hurled in many
 
 Something snapped. 
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}B{{</glyph>}}onnie opened her eyes. Painfully. She was in the hallway outside Zota’s room, slumped against the wall. Wisps of smoke trailed from the open door.
 
@@ -379,7 +379,7 @@ There were no Kai.
 
 Not even one.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}N{{</glyph>}}aturally there were questions the next day, and Bonnie could not provide any answers. Guests had complained about the sound of an explosion. Saesor Zota was nowhere to be found. His room contained nothing apart from a broken telephone and a badly damaged microwave oven. Saesor Zota had also not paid his bill. Mister Vox was not happy. 
 

@@ -59,7 +59,7 @@ Razz settled back in his seat. The first model stomped across the catwalk clad i
 
 And that column would be his last.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}D{{</glyph>}}ays passed, and still Razz didn’t return Marlene’s calls. She spread these attempts out while mustering the courage to ask him to float her the rent, and between little schemes to replace her dried-up trust fund.
 
@@ -81,7 +81,7 @@ The Harp was another of the city’s former elaborate cathedrals, sold off by th
 
 She called his cell again. This time, a recording came on, and a robotic woman’s voice told her the number was no longer in service. So, Razz had changed his line? Fine, but she’d flay his hide if he had the nerve to block his new number the next time he called.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}M{{</glyph>}}arlene Hildegard Schmottlak (a.k.a. “Marlene March” in fashion circles and among the glitterati) dressed smartly for the warm night in a pale pistachio top that showed the proper amount of cleavage, gauzy gray cigarette pants, and a pair of Banolo Klonick strappy sandals. A tasteful clutch rounded out the ensemble. Though not designed by that particular brand, if asked she would tell the asker her clutch was by “Glock”.
 
@@ -157,7 +157,7 @@ The two fashionistas fixed Marlene with icy stares.
 
 She forced her way through them. The wall of muscles she expected wasn’t there. The men parted, feather-light against her push. The sensation that slithered up her wrists was cold, strange, like touching fine silk or antique lace, a kiss of something only half there.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}A{{</glyph>}}t the sink, she washed her hands and then washed them again. Men wanting to *wear* her? Insides scraped out? She sensed that last part was more than the usual model’s diet, and the first worse than anything having to do with garden-variety serial killers.
 
@@ -183,7 +183,7 @@ She reached for him but caught herself. The rush of relief died. Razz didn’t b
 
 “I think it’s time we talked,” the imposter wearing Rasputin Cleary said.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}T{{</glyph>}}hey sat at a private table while an impromptu fashion show replaced the gyrations on the dance floor. It was the usual parade of student work—shredded ruffles and napkin skirts, all set to a flatulent soundtrack from the speakers that stuck Marlene’s ear like a curdled stomach and tortured, telescoping anus. *If diarrhea was music*, she thought.
 
@@ -249,7 +249,7 @@ Marlene opened her clutch for her own phone, unlocking it with her fingerprint, 
 
 A plume of dust puffed out of the opening and dispersed as the tragic models panicked and ran. The rest of Razz’s scooped, stitched, and shellacked exterior slumped and crumpled, reminding Marlene of the paper dolls with tab dresses she used to play with in those early years, back home at Daddy’s mansion.
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}“H{{</glyph>}}ow does one destroy fashion?” Marlene posed aloud to the room.
 
