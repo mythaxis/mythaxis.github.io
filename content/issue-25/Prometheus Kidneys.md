@@ -3,7 +3,6 @@ title: "Prometheus’ Kidneys"
 date: 2021-03-15
 issue: Issue 25
 
-name: Meg Candelaria
 author: Meg Candelaria
 authors:
 - Meg Candelaria
@@ -11,8 +10,6 @@ showAuthorFooter: true
 copyright: '© Meg Candelaria 2021 All Rights Reserved'
 
 description: "Yes, it's hard to know what will get a story accepted or rejected at Mythaxis — but until recently the editor thought he had one answer at least: 'Don't send me any more clever retellings of ancient Greek Myths,' he'd say, 'I'm never going to take one of those!' And then Meg Candelaria came along to make him eat those words."
-
-morelink: 'Opportunists dare where Eagles daily tread'
 
 image: images/PrometheusKidneys.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Anna Shvets](https://www.pexels.com/photo/light-man-people-woman-4421482/) and [TheOther Kev](https://www.pexels.com/photo/close-up-photo-of-bald-eagle-against-black-background-3149041/)."

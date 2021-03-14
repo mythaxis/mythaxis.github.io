@@ -16,13 +16,11 @@
     <p>{{ .Summary }}</p>
     {{ end }}
     
+    {{ if .Params.morelink }}
     <ul class="actions">
         <li><a href="{{ .Permalink }}" class="button">
-        {{ if .Params.morelink }}
             {{ .Params.morelink }}
-        {{ else }}
-            {{ $data.post.linktext }}
-        {{ end }}
         </a></li>
     </ul>
+    {{ end }}
 </article>  
