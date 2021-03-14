@@ -121,3 +121,24 @@ footer.author p {
     line-height: 2em;
     margin-bottom: 1em;
 }
+
+
+
+/* image layout CSS3 trick @src https://stackoverflow.com/a/39614958 */
+img[alt$="<"] {
+    max-width: 80px;
+}
+img[alt$=">"] {
+  display: block;
+  max-width: 80px;
+  height: auto;
+  margin-left: auto;
+  float: none !important;
+}
+img[alt$="><"] {
+  display: block;
+  max-width: 80px;
+  height: auto;
+  margin: auto;
+  float: none !important;
+}
