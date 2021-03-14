@@ -39,7 +39,7 @@
 	</style>
 
 	<title>{{ .Scratch.Get "pageTitle" }}</title>
-	{{ .Hugo.Generator }}
+	{{ hugo.Generator }}
 	<meta name="keywords" content="{{ .Site.Params.keywords }}">
 	{{ if .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}" />{{ end }}
 	
