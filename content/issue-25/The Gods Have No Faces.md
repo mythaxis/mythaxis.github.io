@@ -333,6 +333,6 @@ I look back towards Genesis Point. There’s nothing there but light.
 
 We brace against each other, and strike off, as if for the first time. 
 
-![Orbit-sml](images/Orbit-sml.png)
+![Orbit-lrg](images/Orbit-lrg.png)
 
 *Thanks for reading - but we'd love feedback! Let us know what you think of "The Gods Have No Faces" on [Facebook](https://www.facebook.com/MythaxisMagazine).*
