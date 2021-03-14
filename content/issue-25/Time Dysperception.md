@@ -10,7 +10,7 @@ authors:
 showAuthorFooter: true
 copyright: '© Jack Mackenzie 2021 All Rights Reserved'
 
-description: 'We all get lost in the moment occasionally. We all feel time is getting away from us. But imagine how horrible either could be under the wrong circumstances? Or ANY circumstances, if you never knew which way it was going to be, or when? Like you just found out the countdown has begun, the clock is ticking, and those last vital seconds are slipping away…'
+description: 'We all get lost in the moment occasionally, or feel time is getting away from us. But how horrible could either be under the wrong circumstances? Or ANY circumstances, if you never knew which way it was going to be, or when? Like you just found out the countdown has begun, the clock is ticking, the last vital seconds slipping away…'
 
 morelink: "There's no time like the right time"
 
@@ -70,11 +70,7 @@ Kai nodded. “It’s very important that I find Mister Zota. You see, Saesor Zo
 
 But he didn’t finish his explanation, because at that precise moment the hotel doors burst open and an identical brown-suited man named Kai burst into the lobby.
 
-
-
-\#
-
-
+![Orbit-sml](images/Orbit-sml.png)
 
 {{<glyph>}}B{{</glyph>}}onnie looked over at the newcomer in shock. “There you are again!” she managed.
 
@@ -326,11 +322,7 @@ Bonnie moved from behind the front desk and through the side door into the lobby
 
 She stepped into the elevator. 
 
-
-
-\#
-
-
+![Orbit-sml](images/Orbit-sml.png)
 
 {{<glyph>}}A{{</glyph>}}fter the doors closed behind her, Bonnie felt the elevator ascend. The ride seemed to take an agonizingly long time, and yet she was surprised at how quickly she arrived at the second floor.
 
@@ -370,11 +362,7 @@ There was a flash and a deafening bang. Bonnie felt herself being hurled in many
 
 Something snapped. 
 
-
-
-\#
-
-
+![Orbit-sml](images/Orbit-sml.png)
 
 {{<glyph>}}B{{</glyph>}}onnie opened her eyes. Painfully. She was in the hallway outside Zota’s room, slumped against the wall. Wisps of smoke trailed from the open door.
 
@@ -394,11 +382,7 @@ There were no Kai.
 
 Not even one.
 
-
-
-\#
-
-
+![Orbit-sml](images/Orbit-sml.png)
 
 {{<glyph>}}N{{</glyph>}}aturally there were questions the next day, and Bonnie could not provide any answers. Guests had complained about the sound of an explosion. Saesor Zota was nowhere to be found. His room contained nothing apart from a broken telephone and a badly damaged microwave oven. Saesor Zota had also not paid his bill. Mister Vox was not happy. 
 
@@ -462,6 +446,6 @@ They walked in silence for a few moments, or maybe a few hours, while she consid
 
 “Well,” Kai said with a grin, “it’s not so much a *where* as a *when*.”
 
--
+![Orbit-sml](images/Orbit-sml.png)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of "Time Dysperception" on [Facebook]().*
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Time Dysperception" on [Facebook](https://www.facebook.com/MythaxisMagazine).*

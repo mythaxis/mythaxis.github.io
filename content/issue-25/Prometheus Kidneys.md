@@ -10,7 +10,7 @@ authors:
 showAuthorFooter: true
 copyright: '© Meg Candelaria 2021 All Rights Reserved'
 
-description: "The editorial says it's hard to know what will get a story accepted or rejected at Mythaxis, but until recently the editor thought he had one answer at least: 'Don't send me any more clever retellings of ancient Greek Myths,' he'd say, 'I'm never going to take one of those!' But then Meg Candelaria came along…"
+description: "Yes, it's hard to know what will get a story accepted or rejected at Mythaxis — but until recently the editor thought he had one answer at least: 'Don't send me any more clever retellings of ancient Greek Myths,' he'd say, 'I'm never going to take one of those!' And then Meg Candelaria came along to make him eat those words."
 
 morelink: 'Opportunists dare where Eagles daily tread'
 
@@ -128,6 +128,6 @@ Prometheus smiled a trickster’s smile and settled back, to regrow his liver, a
 
 No, he had not a regret in the world.
 
--
+![Orbit-sml](images/Orbit-sml.png)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of "Prometheus' Kidneys" on [Facebook]().*
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Prometheus' Kidneys" on [Facebook](https://www.facebook.com/MythaxisMagazine).*
