@@ -3,7 +3,6 @@ title: "Plague Rooster"
 date: 2021-03-15
 issue: Issue 25
 
-name: Micah Hyatt
 author: Micah Hyatt
 authors:
 - Micah Hyatt
@@ -11,8 +10,6 @@ showAuthorFooter: true
 copyright: '© Micah Hyatt 2020 All Rights Reserved'
 
 description: "Mythaxis is not typically a home to poetry, nor to reprints, but when we came across this piece while hunting down the author of 'The Third Martian Dick Temple' we were immediately moved, in no small part due to the pandemic gripping the world in early 2020. One year on from the first Covid-19 lockdowns, the world remains profoundly changed from how it was before - but thankfully not this much changed."
-
-morelink: "To forget your mistakes is to risk them again"
 
 image: images/PlagueRooster.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [lotek56](https://pixabay.com/photos/eagle-statue-monument-bird-symbol-2636167/) and [Pixabay](https://www.pexels.com/photo/mountains-under-red-skies-33834/)."

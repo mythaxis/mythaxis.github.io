@@ -3,7 +3,6 @@ title: "Comfort Zone"
 date: 2021-03-15
 issue: Issue 25
 
-name: KC Grifant
 author: KC Grifant
 authors:
 - KC Grifant
@@ -11,8 +10,6 @@ showAuthorFooter: true
 copyright: '© KC Grifant 2021 All Rights Reserved'
 
 description: "There's a certain theme in science fiction and fantasy that's always been popular - hard to set this up without spoiling it! Hollywood movies have repeatedly run with it (usually for laughs), so too surely every TV show in either genre. It has clear horror potential too, but very rarely are such stories approached from the outsider's point-of-view. KC Grifant does so here, and with a similarly atypical air of loss, rather than gain."
-
-morelink: 'Who can you see through the windows of the soul?'
 
 image: images/ComfortZone.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Thiago Matos](https://www.pexels.com/photo/woman-standing-by-closed-shutter-door-2196688/), [Artem Podrez](https://www.pexels.com/photo/food-road-restaurant-man-4728887/), [pixel2013](https://pixabay.com/photos/love-graffiti-lettering-background-2719254/), and [romanosky77](https://pixabay.com/illustrations/face-woman-colored-look-beautiful-3029650/)."

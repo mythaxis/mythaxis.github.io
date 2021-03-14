@@ -3,7 +3,6 @@ title: "The Cat and the Cosmic Horror"
 date: 2021-03-15
 issue: Issue 25
 
-name: Pritesh Patil and Percy Wadiwala
 author: Pritesh Patil and Percy Wadiwala
 authors:
     - Pritesh Patil and Percy Wadiwala
@@ -11,8 +10,6 @@ copyright: '© Pritesh Patil and Percy Wadiwala 2021 All Rights Reserved'
 showAuthorFooter: true
 
 description: "There's a long tradition of comedy double acts, both in writing and performing. It's always good to have someone to bounce your ideas off, as long as they don't become someone you want to bounce off the wall. Pritesh Patil and Percy Wadiwala provide a fine example of the benefits of the former, but the calamitous duo at the heart of their story may be more like the latter…"
-
-morelink: "It's not cats taking over the world you need to worry about"
 
 image: images/CatCosmicHorror.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [DivvyPixel](https://pixabay.com/photos/cat-moody-angry-close-up-3386220), [Artem Podrez](https://www.pexels.com/photo/food-sandwich-restaurant-man-4728849/), [the baljinder](https://www.pexels.com/photo/thoughtful-young-ethnic-man-squatting-on-street-4089883/), and [Pexels](https://pixabay.com/photos/animal-elephant-eye-big-close-up-1853031/)."

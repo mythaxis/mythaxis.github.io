@@ -3,7 +3,6 @@ title: "Time Dysperception"
 date: 2021-03-15
 issue: Issue 25
 
-name: Jack Mackenzie
 author: Jack Mackenzie
 authors:
   - Jack Mackenzie
@@ -11,8 +10,6 @@ showAuthorFooter: true
 copyright: '© Jack Mackenzie 2021 All Rights Reserved'
 
 description: 'We all get lost in the moment occasionally, or feel time is getting away from us. But how horrible could either be under the wrong circumstances? Or ANY circumstances, if you never knew which way it was going to be, or when? Like you just found out the countdown has begun, the clock is ticking, the last vital seconds slipping away…'
-
-morelink: "There's no time like the right time"
 
 image: images/TimeDysperception.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [David Bartus](https://www.pexels.com/photo/round-gold-colored-pocket-watch-295884/), [Polina Zimmerman](https://www.pexels.com/photo/portrait-of-surprised-woman-3958832/) and [Nathan Cowley](https://www.pexels.com/photo/man-in-blue-crew-neck-shirt-634007/) several times over!"

@@ -3,7 +3,6 @@ title: "The Gods Have No Faces"
 date: 2021-03-15
 issue: Issue 25
 
-name: Subodhana Wijeyeratne
 author: Subodhana Wijeyeratne
 authors:
 - Subodhana Wijeyeratne
@@ -11,8 +10,6 @@ showAuthorFooter: true
 copyright: '© Subodhana Wijeyeratne 2021 All Rights Reserved'
 
 description: "One of the great joys of speculative fiction is World Building. As a writer, it's creating new environments from, so to speak, the ground up; as a reader, it's setting off into each one to see what they contain. Subodhana Wijeyeratne has built a world already crumbling when we take our first steps. To know why, ask its creator — but with gods, don't expect to understand whatever answer is forthcoming."
-
-morelink: "Here comes a stranger, to a strange land"
 
 image: images/GodsHaveNoFaces.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Nikita](https://www.pexels.com/photo/man-people-dark-sport-6162313/), [geralt](https://pixabay.com/photos/sky-clouds-clouds-form-3335585/), [Jorge0113](https://pixabay.com/photos/ashanincas-native-person-jungle-4572971/), and [PublicDomainPictures](https://pixabay.com/photos/arid-background-climate-desert-21799/)."

@@ -3,7 +3,6 @@ title: "The Fashionistas"
 date: 2021-03-15
 issue: Issue 25
 
-name: Gregory L. Norris
 author: Gregory L. Norris
 authors:
 - Gregory L. Norris
@@ -11,8 +10,6 @@ showAuthorFooter: true
 copyright: '© Gregory L. Norris 2021 All Rights Reserved'
 
 description: "Fashion models, they're like some other species, aren't they? Tall, sleek, beautiful — well, sometimes beautiful, sort of. \"Striking\", let's say. Or maybe they're more like aliens, so different from we mere humans as they glide by, adorned in strange new things. Well, while you're contemplating next season's rags, just be careful the fascinating lure of the catwalk doesn't distract you from the strange new thing sitting right there next to you."
-
-morelink: 'Vogue, vogue, vogue, vogue…'
 
 image: images/Fashionistas.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Rulo Davila](https://www.pexels.com/photo/city-fashion-people-woman-5618830/), [Ekrulila](https://www.pexels.com/photo/fresh-snow-fall-4040359/), and [Karolina Grabowska](https://www.pexels.com/photo/kitchen-knife-on-gray-counter-4226864/)."
