@@ -125,6 +125,8 @@ footer.author p {
 
 
 /* image layout CSS3 trick @src https://stackoverflow.com/a/39614958 */
+/* e.g. markdown ![Orbit-sml ><](images/Orbit.svg) */
+/* < - left aligned, > - right aligned, >< - centre aligned */
 img[alt$="<"] {
     max-width: 80px;
 }
@@ -141,4 +143,9 @@ img[alt$="><"] {
   height: auto;
   margin: auto;
   float: none !important;
+}
+/* large-ish left aligned image */
+img[alt$="-lrg"] {
+    width: 40%;
+    max-width: 200px;
 }

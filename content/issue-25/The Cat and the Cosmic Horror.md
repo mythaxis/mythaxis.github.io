@@ -334,6 +334,6 @@ The witch nodded, petting the feline lounging in her lap. “Minerva is smarter 
 
 All was well with the world.
 
-![Orbit-lrg](images/Orbit-lrg.png)
+![Orbit-lrg](images/Orbit.svg)
 
 *Thanks for reading - but we'd love feedback! Let us know what you think of "The Cat and the Cosmic Horror" on [Facebook](https://www.facebook.com/MythaxisMagazine).*
