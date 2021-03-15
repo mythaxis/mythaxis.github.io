@@ -117,9 +117,7 @@ Marlene tisked, broke away from the woman’s gaze with an effort and deflected 
 
 Though righteous in its delivery, the statement wasn’t exactly truthful. There had been that time during Marlene’s brief attempt at a college education in an exclusive all-girl’s school. And when she’d dated Chris, who had one of those perfect beards—only after their clothes had dropped along with inhibitions did Marlene realized ‘Chris’ was really a ‘Christine’ hopped up on heavy doses of testosterone.
 
-“You don’t understand,” Hagenfeld Caftan said.
-
-“All that internal material gets scooped out after the deal is made, including the naughty bits.”
+“You don’t understand,” Hagenfeld Caftan said. “All that internal material gets scooped out after the deal is made, including the naughty bits.”
 
 “Um,” Marlene said. She snapped the compact shut and focused on the other woman. Beautiful, yes. But also stiff. Some disconnected register in Marlene’s consciousness noted that, in addition to not blinking, the Hagenfeld Caftan didn’t seem to draw breaths.
 
@@ -241,7 +239,7 @@ The imposter rattled off an address. Marlene connected dots. That was the Blayne
 
 *Four months for a fortune, or nothing at zero notice*. “I say you can transfer the money over to my account right now.”
 
-The imposter withdrew a phone, an odd-looking model, and tapped buttons. *Actual buttons**! On a phone!* “Rasputin had your bank information in his cell from the *many* times he paid your rent. And *done*.”
+The imposter withdrew a phone, an odd-looking model, and tapped buttons. *Actual buttons! On a phone!* “Rasputin had your bank information in his cell from the *many* times he paid your rent. And *done*.”
 
 Marlene opened her clutch for her own phone, unlocking it with her fingerprint, her free hand remaining inside. It only took a moment to check her account, and at the sight of all the zeros she smiled.
 
