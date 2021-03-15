@@ -11,13 +11,13 @@ image: images/Vessavana-sml.jpg
 
 imageCopyright: "**ISSUE 25** - ***Thanks and Salutations!***
 
-Many thanks to our talented cover artist, Narupiti Harunsong, for giving us permission to use his dazzlingly intense image. Narupiti is a concept artist, illustrator, and visual development artist from Thailand, whose works and style frequently represent Thai arts, tradition, and cultures. You can find more of his work at [DeviantArt](https://www.deviantart.com/demong3), and he’s also on [Facebook](https://www.facebook.com/profile.php?id=100044443776014), [Instagram](https://www.instagram.com/narupiti.dg3/) and [Twitter](https://twitter.com/G3Demon) at the links. ขอบคุณมาก!"
+Many thanks to our talented cover artist, Narupiti Harunsong, for giving us permission to use his dazzlingly intense image. Narupiti is a concept artist, illustrator, and visual development artist from Thailand, whose works and style frequently represent Thai arts, tradition, and cultures. You can find more of his work at [DeviantArt](https://www.deviantart.com/demong3), and he’s also on [Facebook](https://www.facebook.com/profile.php?id=100044443776014), [Instagram](https://www.instagram.com/narupiti.dg3/) and [Twitter](https://twitter.com/G3Demon) at the links."
 
 type: page
 slug: editorial
 ---
 
-Since becoming editor of *Mythaxis*, I have had the sometimes privilege of reading a *lot* of short stories. We have a "fluid" reading team, but I personally read *everything* sent for our consideration. In our three open submission windows, we’ve had 428 stories to consider, more than a year’s worth of daily reading compressed into less than 7 weeks. We’ve now published twenty-eight stories and taken ten more for later in the year. That comes to a grand total of thirty-eight acceptances, which is about 9% of the total. 
+Since becoming editor of *Mythaxis*, I have had the sometimes privilege of reading a *lot* of short stories. We have a "fluid" reading team, but I personally read everything sent for our consideration. In our three open submission windows, we’ve had 428 stories to consider, more than a year’s worth of daily reading compressed into less than 7 weeks. We’ve now published twenty-eight stories and taken ten more for later in the year. That comes to a grand total of thirty-eight acceptances, which is about 9% of the total. 
 
 But another way to put that is *three hundred and ninety rejections*.
 
