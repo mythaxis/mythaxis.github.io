@@ -6,6 +6,7 @@ issue: Issue 23
 author: Liam Baldwin
 authors:
 - Liam Baldwin
+image: images/CartoonThumb.png
 copyright: "© Liam Baldwin 2020 All Rights Reserved"
 showAuthorFooter: false
 
