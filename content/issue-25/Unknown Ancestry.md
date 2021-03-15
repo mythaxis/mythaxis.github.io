@@ -275,7 +275,7 @@ Freaked out, I shuffled inside, locked the door, and slid the chain latch in pla
 
 I tiptoed up to it: no peephole to stare into. “Hello?”
 
-“I’m looking for Marcu Frippington,” a man’s voice said. 
+“I’m looking for Marcus Frippington,” a man’s voice said. 
 
 “Uh, yes?”
 
