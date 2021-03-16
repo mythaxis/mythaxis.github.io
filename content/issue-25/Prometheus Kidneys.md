@@ -127,4 +127,4 @@ No, he had not a regret in the world.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of "Prometheus' Kidneys" on [Facebook](https://www.facebook.com/MythaxisMagazine).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Prometheus' Kidneys" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/201342628453404).*
