@@ -332,4 +332,4 @@ We brace against each other, and strike off, as if for the first time.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of "The Gods Have No Faces" on [Facebook](https://www.facebook.com/MythaxisMagazine).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of "The Gods Have No Faces" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/201343465119987).*

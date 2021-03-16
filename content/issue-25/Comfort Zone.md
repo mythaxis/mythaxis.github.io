@@ -221,4 +221,4 @@ She lowered the gun.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of "Comfort Zone" on [Facebook](https://www.facebook.com/MythaxisMagazine).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Comfort Zone" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/201341191786881).*
