@@ -31,7 +31,7 @@ We require **First Print and Digital rights with a six month period of exclusivi
 
 **We do not currently invite reprint submissions**.
 
-**All submissions must be the original work of the author**. This is not a market for fan fiction.
+**All submissions must be the original work of the author**. This is not a market for fan fiction. If your story is a retelling, pastiche, or homage, please mention in your email the source you are alluding to.
 
 We anticipate an adult readership in the sense of maturity, so reasonable depictions of violence, sexuality, philosophy, or bad language are acceptable. However, this is not a market for pornographic or offensively extreme content, categorisation of which is at the editor's discretion.
 
