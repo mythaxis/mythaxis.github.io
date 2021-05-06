@@ -114,7 +114,7 @@ The crow froze as the murder began shouting their derision, then turned his back
 
 The murder exploded into the air, their cacophony drowning out the entire world. The crow turned and drew closer, its eye glittering with fierce delight. *Deirdre*. Her name floated on the wind. For the first time, she felt its power resonate in the core of her being. *Deirdre.*
 
-Unbidden, unstoppable, her hands stretched toward the crow, which hopped fitfully first on one foot then the other. *Never chase the fox fires.* Fingers lengthened, hands floated of their own accord toward the sky. *Always greet the crows.* Eyes rolled back into the skull, which elongated to form a strong, perfect point. *Beware the wily messenger.* Black wings unfurled and stretched, casting shadows across the clearing. *With dread approach the stones.*
+Unbidden, unstoppable, her hands stretched toward the crow, which hopped fitfully first on one foot then the other. *Never chase the fox's fire.* Fingers lengthened, hands floated of their own accord toward the sky. *Always greet the crows.* Eyes rolled back into the skull, which elongated to form a strong, perfect point. *Beware the wily messenger.* Black wings unfurled and stretched, casting shadows across the clearing. *With dread approach the stones.*
 
 Two crows launched themselves into the sky and were gone.
 
