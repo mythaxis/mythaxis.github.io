@@ -21,7 +21,7 @@ Welcome to the latest issue of *Mythaxis*! It's always a pleasure to be able to 
 
 But in addition to these new arrivals, closing out this issue you will also find an old, familiar friend, and (for long-time readers) old, familiar fiction as well.
 
-One of the changes I hoped to work when taking the reigns at *Mythaxis* was to widen the range of authors appearing. This has been achieved, but doing so inevitably meant there would be less opportunities for previous contributors. One of those was Les Sklaroff, whose friendship with our original editor Gil Williamson resulted in the appearance of many stories over the years, the majority of them set in Snoak City, a strange metropolis regularly plagued by distinctive personalities, unpredictable objects, and atypical events.
+One of the changes I hoped to work when taking the reins at *Mythaxis* was to widen the range of authors appearing. This has been achieved, but doing so inevitably meant there would be less opportunities for previous contributors. One of those was Les Sklaroff, whose friendship with our original editor Gil Williamson resulted in the appearance of many stories over the years, the majority of them set in Snoak City, a strange metropolis regularly plagued by distinctive personalities, unpredictable objects, and atypical events.
 
 Rather than consign our past to the past, we've decided to create a side-project within *Mythaxis* to celebrate Snoak City, bringing together all those loosely interconnected threads which wound through the magazine over the years. The result is ***Sketches of Snoak City***, currently in its fledgling 1st Edition, but certain to be expanded (in ways which shall, for the time being, remain a closely guarded secret).
 
