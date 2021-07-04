@@ -32,4 +32,4 @@ In the meantime, if you'd like a personal tour of the strangest corners a strang
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of "Sketches of Snoak City" on [Facebook](https://www.facebook.com/MythaxisMagazine/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Sketches of Snoak City" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/278296907424642).*
