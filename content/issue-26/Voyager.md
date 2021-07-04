@@ -366,4 +366,4 @@ After the rooms were clean, she snuck past Dwayne in the office and stole a thum
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of "Voyager" on [Facebook](https://www.facebook.com/MythaxisMagazine/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Voyager" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/278311337423199).*
