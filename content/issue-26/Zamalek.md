@@ -308,4 +308,4 @@ As the sun at last went below the far escarpments, I took Cassira’s hand, rais
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of "Zamalek, by the Evening Light" on [Facebook](https://www.facebook.com/MythaxisMagazine/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Zamalek, by the Evening Light" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/278308214090178).*
