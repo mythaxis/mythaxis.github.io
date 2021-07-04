@@ -75,7 +75,7 @@ The question seemed obvious to me: “When do you think we’ll have to leave?�
 
 But Dad just didn’t see it. To him, the thaw was just a temporary obstacle. “Gotta stick it out,” he always said.
 
-May as well tell a drowning man, *don**’**t be hasty, just see what happens*.
+May as well tell a drowning man, *don't be hasty, just see what happens*.
 
 I thought of the mayor and shuddered. Everyone my age, we could already see what happens.
 
