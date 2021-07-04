@@ -447,5 +447,5 @@ How about if I throw in a pen and a poster?
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of "Atmobaorders!" on [Facebook](https://www.facebook.com/MythaxisMagazine/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of "Atmobaorders!" on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/278302720757394).*
 
