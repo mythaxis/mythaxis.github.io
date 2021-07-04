@@ -94,7 +94,7 @@ It was a vow I found myself unable to keep.
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-{{<glyph>}}M{{</glyph>}}erioneth*.
+{{<glyph>}}M{{</glyph>}}*erioneth*.
 
 The name drifted at the back of my mind all evening as I managed a light supper with my family, listened to the stories of great-grand children, and heard news of the city. But before retiring, I found my thoughts turning in ways that made my heart race painfully, for my strange visitor was correct: I *had* heard the name.
 

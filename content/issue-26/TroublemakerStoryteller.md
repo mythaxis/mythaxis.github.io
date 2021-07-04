@@ -143,7 +143,7 @@ The dragons flying nearest watched me with hungry eyes, beaks snapping, talons f
 
 I closed my eyes, sinking into the chord. My heartbeat came back strong, over the sound of the wind, but I shoved it down. If I sang the wrong note, they might fight over me in the sky instead of on the ground. *Calm. Think. You were defiant down there. Now be defiant here. You can do this*.
 
-The cold clawed at me, tearing at my skin. Be s*till. Don**’**t tremble. Just listen. Listen*.
+The cold clawed at me, tearing at my skin. Be *still. Don’t tremble. Just listen. Listen*.
 
 I thought I found it. I tried to take a deep breath, but my throat. Oh, my throat. It hurt so much. I found the note, but how could I sing it? How could I stop them from feasting the way I had before?
 

@@ -97,7 +97,7 @@ And I only had a second, so I flipped a mental penny and veered left, which put 
 
 Yes! *Nice!*
 
-What I glommed were a dozen unoccupied *atmoboards* lying in the grass like they were sunning down at Goldbod Beach. And I said to myself: *T**his is supreme. Fellow atmoboarders. Fellow boarders. Fellow members of the board of atmospheriography.*
+What I glommed were a dozen unoccupied *atmoboards* lying in the grass like they were sunning down at Goldbod Beach. And I said to myself: *This is supreme. Fellow atmoboarders. Fellow boarders. Fellow members of the board of atmospheriography.*
 
 This called for an immediate visit. So I applied the brakes, like this. See how I twist the grips gently, not too hard? Too hard, you’ll flip over and head in reverse and upside down. Nothing like flying with a field of sky and a sky of grass. So remember: nice and slow, nice and slow. Nice and what?
 
@@ -197,7 +197,7 @@ I took a look at myself. I was torn up and bloody, but I *knew* I was torn and b
 
 I was still wrapped to what was left of my atmoboard, so I unlatched myself and set it free and bid it a “rest in peace”, a “dearly beloved board, we are gathered here”, an “Atmo, we hardly knew ye”.
 
-But now, from the way I was being snatched from the brambles and dragged across the meadow toward the tent, it was closing credits after all, it was animals *were* harmed during the making of this picture, it was *atmoboard, I**’**ll meet you in the next life over*.
+But now, from the way I was being snatched from the brambles and dragged across the meadow toward the tent, it was closing credits after all, it was animals *were* harmed during the making of this picture, it was *atmoboard, I’ll meet you in the next life over*.
 
 ![Orbit-sml ><](images/Orbit.svg)
 
@@ -225,7 +225,7 @@ I see the Master’s eyes through the slits in his hood. “And?” he says.
 
 “Presenting our modified atmoboard,” the Master says.
 
-I think to myself, *if this thing**’**s an atmoboard then I**’**m the Duke of Alliman Kazoo*. Sure, the plywood’s the size and shape of an atmoboard, but where are the grips? The shields for the face and footsies?
+I think to myself, *if this thing’s an atmoboard then I’m the Duke of Alliman Kazoo*. Sure, the plywood’s the size and shape of an atmoboard, but where are the grips? The shields for the face and footsies?
 
 But jets, it does have jets. Not Fleetwood jets, mind you. Not even jets built by our competitors. More like cheap steel tubing for a one-time shot.
 
@@ -243,7 +243,7 @@ His booming voice booms on, and I don’t like what I hear. I point to the pane 
 
 “No, it’s *right*. Because practice makes perfect.”
 
-He steps up to the table the plank is lying on. He flips a switch beneath the table. The jet on the ersatz atmoboard—meaning, *here sits something that**’**s nothing like an atmoboard*—begins to glow, all hot and crimson and eager. 
+He steps up to the table the plank is lying on. He flips a switch beneath the table. The jet on the ersatz atmoboard—meaning, *here sits something that’s nothing like an atmoboard*—begins to glow, all hot and crimson and eager. 
 
 It’s “Destroy! Destroy! Destroy!” from the Master.
 
@@ -275,7 +275,7 @@ He glares at me, slit to eye. “What about *two* humans then?”
 
 {{<glyph>}}W{{</glyph>}}ithin seconds I’m strapped to a second plywood plank, and the warm-up switch is thrown.
 
-The jets thrum louder, get hotter. I feel my belly burn. I can’t move my arms, move my legs, can’t even budge my toes. But I can think, see, and breathe. And what I’m thinking is, *I see I**’**m about done with breathing*.
+The jets thrum louder, get hotter. I feel my belly burn. I can’t move my arms, move my legs, can’t even budge my toes. But I can think, see, and breathe. And what I’m thinking is, *I see I’m about done with breathing*.
 
 About all I can hope for is a little extra time. Maybe see that ticking hand just a few minutes longer. So I give it the old college try, the old high school try, the old one-room school with just an outhouse try. And I say, “If you need to set up a new window pane, you go right ahead. Make sure it’s seated in the frame. You don’t want it to come loose before I hit it.”
 
@@ -415,7 +415,7 @@ Because atmoboards are awaiting. Not to mention nifty deals on account of all yo
 
 What’s that? You’re saying you’re not in the least bit interested?
 
-*What**’**s* that? You’re saying you just stuck around to hear the end of the story, and now you’re leaving?
+*What’s* that? You’re saying you just stuck around to hear the end of the story, and now you’re leaving?
 
 Well, I’ll have you know I earn my keep through atmos sold, not through stories told.
 
@@ -435,7 +435,7 @@ Then, as one, we shouted, “Zero!” and pressed the launch button on each and 
 
 Way back.
 
-And, oh, how those atmoboards rose. Higher, ever higher, in unison—meaning *altogether**—*like eleven bright orange missiles. And soon the jet flames grew distant, resembling worms, tiny glowing worms rising deep into the night, toward the edge of our atmosphere, toward the cold silence of outer space and all the wonders it had to offer.
+And, oh, how those atmoboards rose. Higher, ever higher, in unison—meaning *altogether*—like eleven bright orange missiles. And soon the jet flames grew distant, resembling worms, tiny glowing worms rising deep into the night, toward the edge of our atmosphere, toward the cold silence of outer space and all the wonders it had to offer.
 
 ![Orbit-sml ><](images/Orbit.svg)
 
