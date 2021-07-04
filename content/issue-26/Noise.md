@@ -9,7 +9,7 @@ authors:
 showAuthorFooter: true
 copyright: '© Owen Leddy 2021 All Rights Reserved'
 
-description: "Sometimes stories seem to arrive in pairs. Owen Leddy's 'Noise' felt very much like a companion piece to 'Voyager' for a couple of reasons: both deal with strange visitations, real or imagined, and at times both share an air of weariness, as their protagonists struggle with situations — employment, relationships - that could be familiar experiences to us all, were it not for the potential for these events to be very much out of the ordinary as well."
+description: "Sometimes stories seem to arrive in pairs. Owen Leddy's 'Noise' felt very much like a companion piece to 'Voyager' for a couple of reasons: both deal with strange visitations, real or imagined, and at times both share an air of weariness, as their protagonists struggle with situations — employment, relationships — that could be familiar experiences to us all, were it not for the potential for these events to be very much out of the ordinary."
 
 image: images/Noise.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [John Mor](https://www.pexels.com/photo/grayscale-photography-of-woman-putting-right-hand-near-her-mouth-3410386/) and [Pixabay](https://www.pexels.com/photo/woman-s-face-38289/)."
