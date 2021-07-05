@@ -68,7 +68,8 @@ Sinufre was tall, a thinnish, very erect man, dressed in robes of expensive flax
 “Have we met, sirrah?” I asked, at a loss to recall him.
 
 “Once, long years ago, at a palace reception.” He smiled. “You would not remember.”
- “And what is it I can do for you?”
+
+“And what is it I can do for you?”
 
 “It’s more in the nature of what *I* can do for *you.*” He let that hang for a long moment, long enough to become uncomfortable, then overthrew all social propriety by speaking more frankly than any but close family ought to. “Come now, Master Tornin. It is clear to all, especially those who speak it not: you are not long for this world. Only by the grace of the gods did you accomplish your final journey, for the house of Tornin, and for great Zamalek.”
 
