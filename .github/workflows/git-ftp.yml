@@ -11,21 +11,21 @@ on:
 
 jobs:
   printInputs:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
     - run: |
         echo "Log level: ${{ github.event.inputs.logLevel }}"
 
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2.1.0
       with:
         ref: 'gh-pages'
         fetch-depth: 2
     - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.1.0
+      uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
         ftp-server: ${{ secrets.FTP_SERVER }}
         ftp-username: ${{ secrets.FTP_USERNAME }}
