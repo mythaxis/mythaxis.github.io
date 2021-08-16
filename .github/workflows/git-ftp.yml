@@ -11,14 +11,14 @@ on:
 
 jobs:
   printInputs:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
     - run: |
         echo "Log level: ${{ github.event.inputs.logLevel }}"
 
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v2.1.0
       with:
