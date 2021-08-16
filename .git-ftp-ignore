@@ -1,7 +1,0 @@
-.gitignore
-*/.gitignore      # ignore files in sub directories
-*/.gitkeep
-.git-ftp-ignore
-.git-ftp-include
-.git
-.github
