@@ -1,0 +1,34 @@
+# Deploy to freehosting FTP account
+name: 🚀 Publish to mythaxis.co.uk
+
+on:
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Whatcha doing?'     
+        required: true
+        default: 'Deploying mythaxis inni 🎉'
+
+jobs:
+  printInputs:
+    runs-on: ubuntu-20.04
+    steps:
+    - run: |
+        echo "Log level: ${{ github.event.inputs.logLevel }}"
+
+  FTP-Deploy-Action:
+    name: 🎉 FTP-Deploy-Action
+    runs-on: ubuntu-20.04
+    steps:
+    - name: 🚚 Get latest gh-pages content
+      uses: actions/checkout@v2.3.4
+      with:
+        ref: 'gh-pages'
+
+    - name: 📂 Sync files over FTP
+      uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        
