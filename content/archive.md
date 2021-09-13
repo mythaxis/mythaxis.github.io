@@ -10,6 +10,7 @@ slug: archive
 
 ## Back Issues
 
+- [Issue&nbsp;26: June 21]({{< ref "/issue-26/__index.md" >}})
 - [Issue&nbsp;25: Apr 21]({{< ref "/issue-25/__index.md" >}})
 - [Issue&nbsp;24: Dec 20]({{< ref "/issue-24/__index.md" >}})
 - [Issue&nbsp;23: Aug 20]({{< ref "/issue-23/__index.md" >}})
