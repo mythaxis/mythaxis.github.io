@@ -102,11 +102,11 @@ The Shoefly fell from his back. “The earth is turning against us!” he cried.
 
 It’s not the earth, the Asparagoose thought with a shiver.
 
-\>>Welcome to the All Seasons Inn<< a voice said from somewhere, or nowhere.
+»Welcome to the All Seasons Inn« a voice said from somewhere, or nowhere.
 
 “When did outside become inside?”
 
-\>>Please make your way back to the front desk. All lost guests please make your way back to the front desk. Follow the yellow thread.<<
+»Please make your way back to the front desk. All lost guests please make your way back to the front desk. Follow the yellow thread.«
 
 Too much happened at once, was always happening at once: the Shoefly shouted and asked the bodiless voice about the thread while the Asparagoose—trying to ignore a moment’s daydream: *a brief flash of yellow foliage, another season, his own spears gone bright* *amber—*spotted it. A golden thread, a sun ray distilled, ran along the ground before them. It was one thread among many in a tapestry of blues and violets, greens and browns, oranges and luminous reds, but the Asparagoose grabbed the Shoefly and followed the yellow fiber trail.
 
@@ -114,33 +114,33 @@ The desk sat at the end of a long wooden hall. Portraits of ghosts hung on the w
 
 “Don’t!” the Shoefly said. “No closer.” But the Asparagoose disobeyed. There was only one way out, and that was in.
 
-\>>Welcome to the All Seasons Inn.<< The voices shifted, twisted, dropped in pitch and volume. >>Checking in?<<
+»Welcome to the All Seasons Inn.« The voices shifted, twisted, dropped in pitch and volume. »Checking in?«
 
 *Honk!*
 
-And then rose again: >>How would you like your pillows? Feather or foam?<<
+And then rose again: »How would you like your pillows? Feather or foam?«
 
 “Uh…” The Shoefly tapped on the Asparagoose’s back and whispered, “Foam? We should say foam.”
 
 *Honk!*
 
-\>>And do you want a lake view?<<
+»And do you want a lake view?«
 
 That would be the third of many questions: twelve questions and then twelve again for each of those. The Shoefly answered as best he could, with the patience of a master craftsman, and only an occasional twitch of the eye. The Asparagoose gave his opinion when he cared to, a cluck or honk, but the whole process was beyond him.
 
 “Just give us a room!” the Shoefly said, finally losing his temper. “Any one will do, let’s just be done with this!”
 
-Chains shook, the wooden desk groaned like branches in the wind, and the cables glowed bright pink. >>We were not made for this<< the voices moaned.
+Chains shook, the wooden desk groaned like branches in the wind, and the cables glowed bright pink. »We were not made for this« the voices moaned.
 
 The Asparagoose shuddered. He was afraid, and he didn’t know why. Something about the desk disturbed him, reminded him of something, the wires and chains and the tiny ball that now descended from the whispers and glided along the chains, gathering speed, losing lustre, trying to find a place of rest, a nadir, a home.
 
 They’ve gone insane, he thought. Bound to bureaucracy, to tedium and mundanity, they had lost themselves. They were made for something more.
 
-\>>I think we can find this soul a room.<<
+»I think we can find this soul a room.«
 
 “We’re two souls!” the Shoefly cried, but it was too late. 
 
-\>>You’ll be in room 857463C. The keys will appear in your beak at the moment foretold. Please follow the yellow thread to your room.<<
+»You’ll be in room 857463C. The keys will appear in your beak at the moment foretold. Please follow the yellow thread to your room.«
 
 “Riddles and a number too long to remember!” the Shoefly cried. He pointed his shoe horn at the four whispers and howled. “I will see this to the end! A life well lived is the best revenge!”
 
@@ -156,11 +156,11 @@ The Asparagoose shook his head and dipped his beak to the ground. He didn’t kn
 
 The Asparagoose looked and saw nothing, but he felt a presence, four of them, and he was filled with an urgency, an impossible itch to flee, to take flight any way he could, away from the jaws of a beast or the hunter’s nocked arrow.
 
-\>>Welcome to the All Seasons Inn. You’re here to stay.<<
+»Welcome to the All Seasons Inn. You’re here to stay.«
 
 The voice from nowhere boomed and echoed. The Shoefly covered his ears. The Asparagoose honked and wiggled his neck wildly.
 
-\>>Welcome to the disease of time. We were not meant for this. Here are the teeth of the lion hydra. The flaming crane. The ninth corridor. The grand finale.<<
+»Welcome to the disease of time. We were not meant for this. Here are the teeth of the lion hydra. The flaming crane. The ninth corridor. The grand finale.«
 
 “They’ve lost their minds!” the Shoefly shouted, and the Asparagoose began to run, as if gathering speed for take-off, but he was going the other direction: down and down and deeper into the past.
 
@@ -170,7 +170,7 @@ They entered a great hollow hall. “Hullo?” the Shoefly called, but there was
 
 “Look! Birds!” He pointed toward a corner bright with painted wings and pale yellow beaks that gaped as if begging for worms and grubs. The Asparagoose had none and didn’t know where to find some, seeing as how the floor was as stoney as the ceiling. He missed the open sky, even if he could only dream of joining it.
 
-Then the voice from nowhere shouted again, screamed, a tortured blur of voices: >>This area is off limits. Please make your way back to the front desk. Please make my way. Please make way for the Queen. The Queens.<<
+Then the voice from nowhere shouted again, screamed, a tortured blur of voices: »This area is off limits. Please make your way back to the front desk. Please make my way. Please make way for the Queen. The Queens.«
 
 The Asparagoose trumpeted a warning and threw himself into the trap of beaks, the Shoefly protesting all the way. The birds bit at his foliage, tearing whole leaves free, and the Shoefly lost his shoehorn in the greedy beak of an oriole, but then they were through and outside again.
 
@@ -278,7 +278,7 @@ He honked at the Shoefly and raised his breast, as if to say, *be brave*.
 
 The Shoefly drew himself up and shook the sniffle from his nose. “I am following you,” he said, bowing.
 
-And then the whispers swelled again. >>All lost patrons. All patrons lose. Exit the ecodustem. Please make your way, make your way front to the back desk. Please make. Please make me.<<
+And then the whispers swelled again. »All lost patrons. All patrons lose. Exit the ecodustem. Please make your way, make your way front to the back desk. Please make. Please make me.«
 
 The Asparagoose could still see them, circling above. He saw them now as whorls of fabric, skeins of thread, weaving themselves or trying to weave themselves into a pattern. It was a spiral, he thought. It’s supposed to be a spiral, but it was only a tangle, the four thrown into a box and snarled into a labyrinth. One of them was yellow. 
 
