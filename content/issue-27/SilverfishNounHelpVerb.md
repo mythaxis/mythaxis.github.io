@@ -9,12 +9,10 @@ authors:
 showAuthorFooter: true
 copyright: '© Gabrielle Bleu 2021 All Rights Reserved'
 
-description: "You'll always find what you're looking for in the place you left it, or so the unhelpfully wise would tell you - forgetting, or ignoring, that this doesn't account for interference from any bad actors out there. But what you need instead might still be nearby, and yesterday's enemy could be today's friend."
+description: "You'll find what you're looking where you left it, or so the unhelpfully wise would tell you, forgetting (or ignoring) that this doesn't account for interference from any bad actors out there. Gabrielle Bleu shows that what you might instead need could still be nearby, and yesterday's enemy could be today's friend."
 
 image: images/Silverfish.jpg
-imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [kvkirillov](https://depositphotos.com/4281667/stock-photo-old-eyeglasses-and-books.html) and [Egor Kamelev](https://www.pexels.com/photo/animal-hairy-insect-spider-8192912/).
-
-**Mythaxis** is forever free to read, but if you'd like to support the magazine you can do so [here](https://ko-fi.com/mythaxismagazine) (but only if you *really* want to!)."
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [kvkirillov](https://depositphotos.com/4281667/stock-photo-old-eyeglasses-and-books.html) and [Egor Kamelev](https://www.pexels.com/photo/animal-hairy-insect-spider-8192912/)."
 
 type: stock
 slug: silverfish-noun-help-verb

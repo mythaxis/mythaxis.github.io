@@ -9,10 +9,10 @@ authors:
 showAuthorFooter: true
 copyright: '© Hannah Hulbert 2021 All Rights Reserved'
 
-description: "Life Isn't Fair - one of the formative lessons of childhood, preparing us for the painful reality we're going to have to grow up and live with for seventy years or more, if we're lucky. But while you're learning to accept it, consider: If life isn't fair, could it be that unlife is?"
+description: "Life Isn't Fair - the formative lesson of childhood, preparing us for the painful reality we're going to have to grow up and live with for seventy years or more, if we're lucky. But while you're learning to accept it, Hannah Hulbert suggests you consider: If life isn't fair, could it be that unlife is?"
 
 image: images/Umpire.jpg
-imageCopyright: "The title picture was created from images by [Yganko](https://depositphotos.com/39067105/stock-photo-the-child-hides-under-a.html), [graphics53](https://pixabay.com/photos/golf-ball-golf-ball-2453170/), [tombark](https://pixabay.com/photos/food-plate-delicious-meal-3556782/), [lillaby](https://pixabay.com/photos/wood-turquoise-blue-structure-1963988/), and [Alexas_Fotos](https://pixabay.com/photos/meadow-field-nature-grass-2184989/)."
+imageCopyright: "The title picture was created using licensed and Creative Commons images - many thanks to the following creators: [Yganko](https://depositphotos.com/39067105/stock-photo-the-child-hides-under-a.html), [graphics53](https://pixabay.com/photos/golf-ball-golf-ball-2453170/), [tombark](https://pixabay.com/photos/food-plate-delicious-meal-3556782/), [lillaby](https://pixabay.com/photos/wood-turquoise-blue-structure-1963988/), and [Alexas_Fotos](https://pixabay.com/photos/meadow-field-nature-grass-2184989/)."
 
 type: stock
 slug: umpire-of-desolation
