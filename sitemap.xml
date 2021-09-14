@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/issue-27/i-have-no-wings-and-i-must-fly.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-26/voyager.html</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -13,6 +16,9 @@
   </url><url>
     <loc>/issue-23/newest-profession.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-27/silverfish-noun-help-verb.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-26/noise.html</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
@@ -26,6 +32,9 @@
     <loc>/issue-23/sedona-house.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/issue-27/umpire-of-desolation.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-26/freewheeling.html</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -37,6 +46,9 @@
   </url><url>
     <loc>/issue-23/curse-midnight.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-27/harryette-brickd-belovd.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-26/zamalek-by-the-evening-light.html</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
@@ -50,6 +62,9 @@
     <loc>/issue-23/alight.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/issue-27/full-metal-grandma.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-26/what-comes-after-winter.html</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -61,6 +76,9 @@
   </url><url>
     <loc>/issue-23/huntress-conveyor.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-27/a-grave-of-wind-and-leaves.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-26/atmoboarders.html</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
@@ -74,6 +92,9 @@
     <loc>/issue-23/third-martian-dick-temple.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/issue-27/utopia-is-an-island.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-26/troublemaker-storyteller.html</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -85,6 +106,9 @@
   </url><url>
     <loc>/issue-23/cartoon.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-27/the-seed-man.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-26/sketches-of-snoak-city.html</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
@@ -113,13 +137,49 @@
     <loc>/issue-23/everythings-jake.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/authors.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/claire-scherzinger.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/daniel-rabuzzi.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/gabrielle-bleu.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/hannah-hulbert.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-27.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/jalyn-renae-fiske.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/katie-mcivor.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/kyle-e.-miller.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/paul-alex-gray.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-27/contents.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-27/</loc>
+    <lastmod>2021-08-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/authors/amanda-c.-crowley.html</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/annie-percik.html</loc>
-    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors.html</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-26.html</loc>
@@ -138,9 +198,6 @@
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/mike-adamson.html</loc>
-    <lastmod>2021-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-26/</loc>
@@ -229,6 +286,9 @@
   </url><url>
     <loc>/archive.html</loc>
     <lastmod>2020-12-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-27/editorial.html</loc>
+    <lastmod>2020-09-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/andrea-kriz.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
