@@ -51,9 +51,9 @@ A message heralds its arrival.
 
 
 
-*Share your passion! Post a vid-selfie promoting*
-
-*Ammodoro and receive a bonus 10 bolts*
+> *Share your passion! Post a vid-selfie promoting*
+>
+> *Ammodoro and receive a bonus 10 bolts*
 
 
 
@@ -75,11 +75,11 @@ A gig pops up at a just about realistic range. I accept and a notification appea
 
 
 
-*Connect to Ryft-Stream to share your heroism.* 
-
-*Earn an extra 400 Ryftcoins as well as tips*
-
-*and gifts from the Ryft.io community.*
+> *Connect to Ryft-Stream to share your heroism.* 
+>
+> *Earn an extra 400 Ryftcoins as well as tips*
+>
+> *and gifts from the Ryft.io community.*
 
 
 
@@ -89,11 +89,11 @@ I bite my lip, my finger hesitating above the AR button that floats before me. T
 
 I take a deep breath and agree to stream. I don’t have to pay attention to what the douchebags say. A new drone whirs in, hovering before me, its red capture light glowing. A countdown appears on the tiny screen and I get ready to talk.
 
-*3*
-
-*2*
-
-*1*
+> *3*
+>
+> *2*
+>
+> *1*
 
 “Hey Ryftr fans! It’s me, the Full Metal Grandma, your favorite gladiator-for-hire, coming to y’all from beautiful Houston.” I open my arms wide and the drone auto-pans, taking in the scenery of destroyed buildings and burned out cars. “As you can see, the city’s had better days. I hope y’all are rootin’ for me. Army ship’s sailed, and there’s a tactical strike inbound to take care of that rift.”
 
@@ -135,11 +135,11 @@ I keep my eyes on the prize—the shelled-out apartment building at the top of t
 
 
 
-*Grandma_plz_hurry!_Dont_die_youre_my_FAVE_RYFTR!!!!!♥♥♥*
-
-*This rift shitz better than any game*
-
-*Let's watch this old bitch burrrrrrrrrrrrrn*
+> *Grandma_plz_hurry!_Dont_die_youre_my_FAVE_RYFTR!!!!!♥♥♥*
+>
+> *This rift shitz better than any game*
+>
+> *Let's watch this old bitch burrrrrrrrrrrrrn*
 
 
 
@@ -155,11 +155,11 @@ Oops—my viewer count's gone down, what with me quiet and all thinking about sh
 
 
 
-*Check that building, Grandma.*
-
-*Bitch gotta get her money!!!! LLOOLLOLOLOLLL*
-
-*Forget the kid, you gotta bail. Shitz gonna get HAWT!!!*
+> *Check that building, Grandma.*
+>
+> *Bitch gotta get her money!!!! LLOOLLOLOLOLLL*
+>
+> *Forget the kid, you gotta bail. Shitz gonna get HAWT!!!*
 
 
 
@@ -175,9 +175,9 @@ The boy’s there, cowering, all covered in dust. He looks a mess, probably been
 
 
 
-*Holy sheeeeeeet! Dat Boom$lang!*
-
-*Dat boi woulda been REKT without Grandma*
+> *Holy sheeeeeeet! Dat Boom$lang!*
+>
+> *Dat boi woulda been REKT without Grandma*
 
 
 
@@ -203,11 +203,11 @@ He prattles on and I keep a steely gaze, make like I’m scanning the terrain as
 
 
 
-*Grandma’s gonna be REKT!*
-
-*Bye Boom$lang, you gonna BURRRRRRRRRRRRRRRRRN booooy!* 
-
-*TEXAS BBQQQQQQQQQQQQQQQQQQQQQQQ!!!!!!!!!!!!!!!!!!!!!!!*
+> *Grandma’s gonna be REKT!*
+>
+> *Bye Boom$lang, you gonna BURRRRRRRRRRRRRRRRRN booooy!* 
+>
+> *TEXAS BBQQQQQQQQQQQQQQQQQQQQQQQ!!!!!!!!!!!!!!!!!!!!!!!*
 
 
 
@@ -237,11 +237,11 @@ Boom$lang goes face to the floor as a shell zooms above us, roaring past the cam
 
 
 
-*She’s kickin’ ass till the end, Granny, you’re the true MVP!*
-
-*No way they’re making it out in time*
-
-*Nice knowing you, FMG, you were my fave Ryftr.*
+> *She’s kickin’ ass till the end, Granny, you’re the true MVP!*
+>
+> *No way they’re making it out in time*
+>
+> *Nice knowing you, FMG, you were my fave Ryftr.*
 
 
 
@@ -249,9 +249,9 @@ The shuttle swings up, engines whining, smoke spilling but it still seems operat
 
 
 
-*Single passenger only. Auto*
-
-*departure in fifteen seconds.*
+> *Single passenger only. Auto*
+>
+> *departure in fifteen seconds.*
 
 
 
@@ -277,11 +277,11 @@ Maybe there *is* another way out.
 
 
 
-*Grandma, you’re my hero*
-
-*Such a sacrifice!*
-
-*Granny!!! Oh no* *☹* *I’m so sorry*
+> *Grandma, you’re my hero*
+>
+> *Such a sacrifice!*
+>
+> *Granny!!! Oh no* *☹* *I’m so sorry*
 
 
 
