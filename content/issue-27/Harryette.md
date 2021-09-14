@@ -9,7 +9,7 @@ authors:
 showAuthorFooter: true
 copyright: '© Daniel Rabuzzi 2021 All Rights Reserved.'
 
-description: "Ghost stories and romance - what could be a more perfect match? Oh course, there's inevitably the risk of tragedy with such a pairing, but Daniel Rabuzzi gives us reason to hold out hope that love really can conquer all - even across centuries."
+description: "Ghost stories and romance — what could be a more perfect match? Oh course, there's inevitably the risk of tragedy with such a pairing, but Daniel Rabuzzi gives us reason to hold out hope that love really can conquer all… even across centuries."
 
 image: images/Harryette.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Jasmine Carter](https://www.pexels.com/photo/man-in-black-long-sleeved-shirt-and-woman-in-black-dress-888899/) and [Fuzail Ahmad](https://www.pexels.com/photo/brown-concrete-dome-building-2792601/)."
