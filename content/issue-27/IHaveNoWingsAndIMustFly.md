@@ -9,7 +9,7 @@ authors:
 showAuthorFooter: true
 copyright: '© Kyle E. Miller 2021 All Rights Reserved'
 
-description: "Some stories wear their inspirations on their sleeve, and in our opening story Kyle E. Miller's title pays clear homage to a Harlan Ellison classic, \"I Have No Mouth, and I Must Scream\". Prepare yourselves for a similarly rich, strange journey, but there the similarities very definitely end..."
+description: "Some stories wear their inspiration on their sleeve, and the title of Kyle E. Miller's wonderlandish excursion through a decaying plane pays clear homage to the Harlan Ellison classic, \"I Have No Mouth, and I Must Scream\". Prepare yourselves for a similarly rich, strange journey, but there the similarities very definitely end..."
 
 image: images/Asparagoose.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [music4life](https://pixabay.com/photos/goose-water-bird-nature-bird-flow-178143/), [Wolfgang_Hasselmann](https://pixabay.com/photos/beetle-desire-nature-insect-4143529/), [Free-Photos](https://pixabay.com/photos/desert-sand-dry-hot-landscape-1246282/), and [Shutterbug75](https://pixabay.com/photos/asparagus-food-fresh-green-healthy-1239162/)."
