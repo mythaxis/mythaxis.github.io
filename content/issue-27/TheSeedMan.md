@@ -260,13 +260,13 @@ I think about how much I simultaneously hate Tama for what she’s done and miss
 
 I droop forward in the pilot’s seat… and something beeps. 
 
-*“Adrian,”* a sonorous voice on the screen says*,* *“if you get the chance—”*
+*“Adrian,”* a sonorous voice on the screen says, *“if you get the chance—”*
 
-“Fuck!” I push back and slam into the pads of the seat. The man on the screen freezes and my eyes widen, taking in the portrait of Grandpa Ian...though his hair is less salty and sparse, his eyes a little bit brighter and deep, loamy brown, like Dad’s.
+“Fuck!” I push back and slam into the pads of the seat. The man on the screen freezes and my eyes widen, taking in the portrait of Grandpa Ian... though his hair is less salty and sparse, his eyes a little bit brighter and deep, loamy brown, like Dad’s.
 
 I look down. When my hand clenched on the armrest, it landed on top of a touchscreen. I lift my fingers away and the screen blinks, starting from the beginning. 
 
-*“Adrian, if you get a chance, try to persuade Aphelion—”* I hit the touchscreen again. “Aphelion,” I repeat. That’s Ma’s name. I let go and the video resumes. *“—to get to Pontus. I know now that my son was responsible for ousting you to the Earthers when you were imprisoned on the colony ship. His personality, his temperament is all my fault, but there’s no hope in reversing it now.* 
+*“Adrian, if you get a chance, try to persuade Aphelion—”* I hit the touchscreen again. *“Aphelion,”* I repeat. That’s Ma’s name. I let go and the video resumes. *“—to get to Pontus. I know now that my son was responsible for ousting you to the Earthers when you were imprisoned on the colony ship. His personality, his temperament is all my fault, but there’s no hope in reversing it now.* 
 
 *“If you manage to get to Aiona, tell Aph that the place you’re born isn’t necessarily the place you belong. I’ve tried convincing her to let Kya go, but you might be the only one who can get through to her now. The Earthers’ll be coming for me any day, unless I do something about that, so don’t send any tight beams here, Adrian. Just get your daughter to a Free City.”*
 
