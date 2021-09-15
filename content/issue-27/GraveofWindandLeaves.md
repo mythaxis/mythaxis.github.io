@@ -9,7 +9,7 @@ authors:
 copyright: '© Jalyn Renae Fiske 2021 All Rights Reserved'
 showAuthorFooter: true
 
-description: "Here we have the first of two substantial sci-fi pieces with a focus on family, one in which overcoming separation is at the heart of things, the other in which gaining independence is the goal - both presenting futures of interplanetary colonisation. Jalyn Renae Fiske takes us very far from home and, against all circumstance, shows that there could be a home there too."
+description: "Here we have the first of two substantial sci-fi pieces with a focus on family, one in which overcoming separation is at the heart of things, the other with gaining independence as the goal - both presenting futures of interplanetary colonisation. Jalyn Renae Fiske takes us very far from home and, against all circumstance, shows that there could be a home there too."
 
 image: images/GraveWindLeaves.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to [teotarras](https://depositphotos.com/225179392/stock-photo-asian-rainforest-jungle-august.html)."
