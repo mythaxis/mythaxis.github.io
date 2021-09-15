@@ -493,5 +493,5 @@ He pierced the ashen bark and watched the substance for Vigil trickle down into 
 
 ![Orbit-lrg ><](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **A Grave of Wind and Leaves** on [Facebook](https://www.facebook.com/MythaxisMagazine/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **A Grave of Wind and Leaves** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/328488369072162).*
 
