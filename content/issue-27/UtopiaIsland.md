@@ -9,7 +9,7 @@ authors:
 copyright: '© Katie McIvor 2021 All Rights Reserved'
 showAuthorFooter: true
 
-description: "Depression is a kind of war. Oppression is as well. When you find yourself living through intolerable times, even just surviving can be a small act of defiance, or even rebellion. But as Katie McIvor's story underlines, there may still come a point at which survival-rebellion isn't enough."
+description: "Depression is a kind of war. Oppression is as well. When you find yourself living through intolerable times, just surviving can be a small act of defiance, or even rebellion. But as Katie McIvor's story underlines, there may still come a point at which survival-rebellion isn't enough."
 
 image: /images/UtopiaIsland.jpg
 imageCopyright: "The title picture was created using licensed and Creative Commons images - many thanks to the following creators: [Iurii](https://depositphotos.com/28254465/stock-photo-police.html) and [WikiImages](https://pixabay.com/photos/rocket-launch-space-shuttle-atlantis-60544/)."
