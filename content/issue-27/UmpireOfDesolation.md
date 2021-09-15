@@ -147,4 +147,4 @@ Ami turned to her sister and met her abyss-like eyes. Behind them, she thought s
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Umpire of Desolation** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Umpire of Desolation** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/328491465738519).*
