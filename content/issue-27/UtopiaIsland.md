@@ -137,4 +137,4 @@ Utopia is an island. Poverty is a prison. Existence is a debt.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Utopia is an Island** on [Facebook](https://www.facebook.com/MythaxisMagazine).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Utopia is an Island** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/328487625738903).*
