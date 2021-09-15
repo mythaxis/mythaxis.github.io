@@ -317,4 +317,4 @@ I take off, running towards the rift, shouting my final message.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Full Metal Grandma** on [Facebook](https://www.facebook.com/MythaxisMagazine/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Full Metal Grandma** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/328489632405369).*
