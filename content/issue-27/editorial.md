@@ -34,6 +34,3 @@ To close out this unexpectedly long essay, a semi-digression. Early in the year 
 So, in addition to Ursula K. LeGuin's *The Dispossessed*, I have now also read *The Female Man* by Joanna Russ, *Triton* by Samuel R. Delany, and my favourite of the four, *Woman on the Edge of Time* by Marge Piercy—just an excellent piece of work, which brought back to mind Joanne Greenberg's *I Never Promised You a Rose Garden*. Finally returning to Moylan's text for a deep analysis of the themes of, and comparison between, each novel made for a very interesting start to the year, refiring my interest in utopian fiction.
 
 I'll leave off there, without even mentioning *Dune Messiah*, since this editorial is in danger of dwarfing several of the actual stories in the issue! But this may give you some inkling of the kind of fiction that grabs this editor's attention, and you may take it as read that every novel mentioned above is also a recommendation.
-
-...except for *Harry Potter*. :-D
-
