@@ -11,7 +11,7 @@ image: images/True-Worship-sml.jpg
 
 imageCopyright: "**ISSUE 27** - ***Thanks and Salutations!***
 
-Cover art credit for this issue goes to Raja Nandepu for his striking image **True Worship**, along with our gratitude for allowing us to use it! A freelance concept artist from Hyderabad, India, you can see more of Raja's work [on his website](http://rajanandepu.com/) as well as at [DeviantArt](https://www.deviantart.com/rajanandepu) and [ArtStation](https://www.artstation.com/raja) [site](link), and you can also follow him on [Twitter](https://twitter.com/RajaNandepu)."
+Cover art credit for this issue goes to Raja Nandepu for his striking image **True Worship**, along with our gratitude for allowing us to use it. A freelance concept artist from Hyderabad, India, you can see more of Raja's work [on his website](http://rajanandepu.com/) as well as at [DeviantArt](https://www.deviantart.com/rajanandepu) and [ArtStation](https://www.artstation.com/raja), and you can also follow him on [Twitter](https://twitter.com/RajaNandepu)."
 
 type: page
 slug: editorial
