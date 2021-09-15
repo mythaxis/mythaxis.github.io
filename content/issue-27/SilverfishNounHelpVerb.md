@@ -79,5 +79,5 @@ Tabitha flipped through the pages, looking for the right words of help. She coul
 
 
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Silverfish, Noun; Help, Verb** on [Facebook](https://www.facebook.com/MythaxisMagazine/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Silverfish, Noun; Help, Verb** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/328492329071766).*
 
