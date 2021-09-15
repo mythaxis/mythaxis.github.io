@@ -364,4 +364,4 @@ And somewhere, at some later time, a wingless someone remembered what it was lik
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **I Have No Wings and I Must Fly** on [Facebook](https://www.facebook.com/MythaxisMagazine/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **I Have No Wings and I Must Fly** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/328492942405038).*
