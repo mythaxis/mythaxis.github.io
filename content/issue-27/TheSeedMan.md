@@ -384,4 +384,4 @@ The real struggle lies in not cracking, never giving a single inch.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **The Seed Man** on [Facebook](https://www.facebook.com/MythaxisMagazine/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **The Seed Man** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/328486769072322).*
