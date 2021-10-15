@@ -265,4 +265,4 @@ The witch declined the invitation to the wedding. What she asked in payment for 
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Harryette, Brick’d, Belov’d** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Harryette, Brick’d, Belov’d** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/328490389071960).*

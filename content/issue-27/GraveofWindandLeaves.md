@@ -9,7 +9,7 @@ authors:
 copyright: '© Jalyn Renae Fiske 2021 All Rights Reserved'
 showAuthorFooter: true
 
-description: "Here we have the first of two substantial sci-fi pieces with a focus on family, one in which overcoming separation is at the heart of things, the other in which gaining independence is the goal - both presenting futures of interplanetary colonisation. Jalyn Renae Fiske takes us very far from home and, against all circumstance, shows that there could be a home there too."
+description: "Here we have the first of two substantial sci-fi pieces with a focus on family, one in which overcoming separation is at the heart of things, the other with gaining independence as the goal - both presenting futures of interplanetary colonisation. Jalyn Renae Fiske takes us very far from home and, against all circumstance, shows that there could be a home there too."
 
 image: images/GraveWindLeaves.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to [teotarras](https://depositphotos.com/225179392/stock-photo-asian-rainforest-jungle-august.html)."
@@ -27,7 +27,7 @@ Ferron and the other hundred or so Earthers stepped from the platform to the sof
 
 Five Pavitra guards, nearly seven feet tall and masked in silver paint, oversaw the disembarkation. Their strange, serpentine hands clasped tall bladed spears. Like all their kind, they looked humanoid, but gender was impossible to tell. Black feathers sprouted from their heads, forearms, and calves, as black as a crows, and their snake-skin was the blinding white of untouched snow. 
 
-Only their painted faces showed any color, which the in-flight education service changed with the season: crimson for Killing, pale yellow for Seeding, silver for Haunting, and cornflower blue for Temperance.
+Only their painted faces showed any color, which the in-flight education service said changed with the season: crimson for Killing, pale yellow for Seeding, silver for Haunting, and cornflower blue for Temperance.
 
 Borun was waiting for him, Borun who had arrived on Khatus over a year earlier with the most precious of cargos in his possession. During the wars, he provided shelter to those lost and wandering. Gave them water, clothed their backs, no questions asked and always with a smile. But now his eyes were ringed with dark circles and worry lines. He looked older. He looked tired. “It’s been a long time,” Borun said.
 
@@ -175,7 +175,7 @@ A cold chill gripped his throat. Borun had said nothing of that. “How could th
 
 “You must take Vigil now.” Maephus stood to retrieve the materials from a cabinet: long needles from a Khatus plant, and a glass vial filled with purple liquid. He dipped one of the needles, very deeply into the vial, most of its length glistening as it was withdrawn. 
 
- Ferron pulled his arm back, fist clenched. “Tell me first,” he said, voice shaking.
+Ferron pulled his arm back, fist clenched. “Tell me first,” he said, voice shaking.
 
 “Vigil does many things,” Maephus said as it returned the purple vial to the cabinet. “It protects from the poison of Khatus, like Pavitra are protected.” 
 
@@ -385,7 +385,7 @@ Ferron thrust an arm towards the far buildings. “They would have helped her, i
 
 In the distance, the carillon tower chimed the first note for the end of Cleansing Hour.
 
-“Pavitra are coming out,” Raith said. “We have to go.” The Earthers extinguished their torches and hurried back to camp, but Borun stayed, a single torch burning in his hands. When the Earthers left, so did Runa. 
+“Pavitra are coming out,” Roth said. “We have to go.” The Earthers extinguished their torches and hurried back to camp, but Borun stayed, a single torch burning in his hands. When the Earthers left, so did Runa. 
 
 “It’s better if you die outside the walls,” Borun said, hatred filling his voice. “Just climb back up and disappear.”
 
@@ -493,5 +493,5 @@ He pierced the ashen bark and watched the substance for Vigil trickle down into 
 
 ![Orbit-lrg ><](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **A Grave of Wind and Leaves** on [Facebook](https://www.facebook.com/MythaxisMagazine/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **A Grave of Wind and Leaves** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/328488369072162).*
 
