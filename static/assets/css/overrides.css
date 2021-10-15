@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: "Starcraft";
-    src: url("../fonts/starcraft-normal.woff") format('woff');
+    src: url("../fonts/starcraft.woff") format('woff');
     font-weight: bold;
 }
 @font-face {
@@ -32,7 +32,9 @@
 #intro {}
 #intro h1 {
 	font-family: Starcraft;
-	filter: drop-shadow(0.2rem 0.2rem 0.5px rgb(30, 37, 45));
+    color:  rgba(169,225,244,255);
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+	filter: drop-shadow(0.6rem 0.8rem 0.5px rgb(30, 37, 45, 0.8));
 }
 #intro h2 {
 	font-family: Starcraft;
