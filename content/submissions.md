@@ -7,21 +7,21 @@ type: page
 slug: submissions
 ---
 
-***Mythaxis* is currently OPEN to submissions!**
+***Mythaxis* is currently CLOSED to submissions.**
 
 As of **2021**, *Mythaxis* will be published four times a year, and is periodically open to submissions within the following schedule: 
 
-- **January 15th-31st**
-- **April 15th-30th**
-- **July 15th-31st**
-- **October 15th-31st**
+- **January 23rd-30th**
+- **April 23th-30th**
+- **July 23rd-30th**
+- **October 23rd-30th**
 
 Submissions received outside of these dates will unfortunately be lost and therefore not responded to. When open, we seek and offer the following:
 
 - **Length**: 1,000-7,500 words. This is a firm limit. Generally speaking, the further a story goes beyond 5,000 words the more it will need to impress, but the door is not shut in advance.
 - **Compensation**: $20 on acceptance and return of contract. Payment via PayPal only.
 
-We aim to acknowledge submissions the same day they are received. If you do not receive an acknowledgment within 24 hours of submission, please get in touch. From July 2021, please limit yourself to a maximum of two submissions within any window, and **please wait until receiving a first rejection notice before submitting a second time**.
+We aim to acknowledge submissions the same day they are received. If you do not receive an acknowledgment within 24 hours of submission, please get in touch. Please limit yourself to a maximum of two submissions within any window, and **please wait until receiving a first rejection notice before submitting a second time**.
 
 We aim to accept or reject within 14 days of acknowledgment, but rl (real life) and rl (reading load) can get in the way. If you do not hear from us after 30 days, feel free to query.
 
@@ -29,11 +29,13 @@ We require **First Print and Digital rights with a six month period of exclusivi
 
 **Simultaneous submissions are not only accepted, they are encouraged**. We merely ask that you notify us of acceptance at another market as soon as possible. In the event that we accept first we would expect a positive confirmation, so we recommend sim-subbing to markets of equivalent status - we won't want to wait for someone else you'd like better to turn you down...
 
-**We do not currently invite reprint submissions**.
+**We do not currently invite reprint submissions**. 
+
+**If a story has previously been rejected by *Mythaxis*, please do not resubmit** or inquire regarding doing so, unless explicitly invited to by the editor during the original rejection.
 
 **All submissions must be the original work of the author**. This is not a market for fan fiction. If your story is a retelling, pastiche, or homage, please mention in your email the source you are alluding to.
 
-We anticipate an adult readership in the sense of maturity, so reasonable depictions of violence, sexuality, philosophy, or bad language are acceptable. However, this is not a market for pornographic or offensively extreme content, categorisation of which is at the editor's discretion.
+**Content note**: We anticipate an adult readership in the sense of maturity, so reasonable depictions of violence, sexuality, philosophy, or bad language are acceptable. However, this is not a market for pornographic or offensively extreme content, categorisation of which is at the editor's discretion.
 
 **We welcome writers of any and all backgrounds**, be they cultural or personal, and submissions exploring diverse perspectives and experiences, provided they do not seek to attack or demean those of others.
 
@@ -55,7 +57,7 @@ Okay, we've said our piece. If you're still keen to roll the dice...
 
 Email files as an attachment to: **MythaxisMagazine@gmail.com**
 
-Please use the email subject line **MYTHAXIS SUBMISSION – *YOUR STORY TITLE*** to evade spam filters.
+Please use the email subject line **MYTHAXIS SUBMISSION – *YOUR STORY TITLE*** to evade spam filters (and when we say *"your story title"*, we don't mean that literally...).
 
 Feel free to include a concise cover letter and/or author bio, though neither is mandatory. ***Mythaxis*** welcomes authors of all levels of experience. We have a history of publishing first-time authors, and we mean to continue this tradition.
 
@@ -63,14 +65,14 @@ Feel free to include a concise cover letter and/or author bio, though neither is
 
 ### FORMATTING GUIDELINES
 
-Acceptable document types are RTF, DOC, or DOCX.
+Acceptable document types are DOC, DOCX, and ODT (plus RTF, if you absolutely have to).
 
 Straightforward manuscript formatting is preferred for editorial convenience. We recommend using [Shunn's excellent Modern Manuscript formatting guide](https://www.shunn.net/format/story/), but in particular consider the following:
 
 - Please use an easy-reading font (Times New Roman 12pt is preferred).
-- Do not manually insert empty lines between paragraphs, or use tabs for first-line indents. **Use paragraph formatting** to set automatic indents or paragraph breaks.
+- **Do not manually insert** empty lines between paragraphs, or use tabs for first-line indents. **Use automatic paragraph formatting** to set indents or paragraph breaks.
 - Use a single centred # to represent essential section breaks.
-- Use *italics* for italics, don’t underline instead. Smart (“curly”) punctuation is fine.
+- Use *italics* for italics, don’t underline instead. Smart (“curly”) punctuation is preferred.
 - If your manuscript includes any unusual formatting, please alert the editors when submitting and have a really good, story-related reason.
 
  
