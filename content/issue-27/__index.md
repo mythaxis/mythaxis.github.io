@@ -29,6 +29,7 @@ headline:
 
 editor: Andrew Leon Hudson
 image: images/True-Worship-lrg.jpg
+imageMobile: images/Asparagoose.jpg
 imageCopyright: "True Worship by Raja Nandepu"
 ---
 
