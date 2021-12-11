@@ -8,6 +8,11 @@
     font-weight: bold;
 }
 @font-face {
+    font-family: "Starcraft normal";
+    src: url("../fonts/starcraft-normal.woff") format('woff');
+    font-weight: bold;
+}
+@font-face {
     font-family: "Starcraft";
     src: url("../fonts/starcraft-italic.woff") format('woff');
     font-weight: bold;
