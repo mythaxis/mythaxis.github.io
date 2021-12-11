@@ -4,6 +4,10 @@ date: 2021-03-15
 slug: index
 layout: section
 
+intro:
+  logo:
+    font_family: "Starcraft normal"
+
 issue: Issue 25
 subhead: Spring 2021
 headline: 
