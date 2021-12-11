@@ -38,16 +38,15 @@
 		    	url({{ .Site.BaseURL }}{{ path.Join $currSection.Section $currSection.Params.image | relURL }});
 		}
 
-		{{ with $currSection.Params }}
-		{{ if .imageMobile }}
+		{{ if $currSection.Params.imageMobile }}
 		@media screen and (max-width: 737px) {
 			#wrapper > .bg {
 			    background-image: url(../../images/overlay.png),
 			    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-			    	url({{ .Site.BaseURL }}{{ path.Join $currSection.Section .imageMobile | relURL }});
+			    	url({{ .Site.BaseURL }}{{ path.Join $currSection.Section $currSection.Params.imageMobile | relURL }});
 			    	background-size: auto, auto, 100%;
 			}
-		}{{ end }}{{ end }}
+		}{{ end }}
 
 		{{ with $currSection.Params.intro }}
 			{{ with .logo }}
