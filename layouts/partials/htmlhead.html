@@ -33,16 +33,29 @@
 	<link rel="stylesheet" href='{{ "assets/css/overrides.css" | relURL }}' />
 	<style type="text/css">
 		#wrapper > .bg {
-		    background-image: url(../../images/overlay.png), 
-		        linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), 
-		        url({{ .Site.BaseURL }}{{ path.Join $currSection.Section $currSection.Params.image | relURL }});}
+		    background-image: url(../../images/overlay.png),
+		    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+		    	url({{ .Site.BaseURL }}{{ path.Join $currSection.Section $currSection.Params.image | relURL }});
+		}
+
+		{{ with $currSection.Params }}
+		{{ if .imageMobile }}
+		@media screen and (max-width: 737px) {
+			#wrapper > .bg {
+			    background-image: url(../../images/overlay.png),
+			    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+			    	url({{ .Site.BaseURL }}{{ path.Join $currSection.Section .imageMobile | relURL }});
+			    	background-size: auto, auto, 100%;
+			}
+		}{{ end }}{{ end }}
 
 		{{ with $currSection.Params.intro }}
 			{{ with .logo }}
 			#intro h1 {
 				{{ with .font_family }}font-family: {{ . }};{{ end }}
 				{{ with .color }}color: {{ . }};{{ end }}
-			}{{ end }}
+			}
+		{{ end }}
 
 		@media screen and (min-width: 736px) {
 			#intro {
