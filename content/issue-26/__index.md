@@ -3,8 +3,10 @@ title: "Mythaxis Magazine Issue 26"
 date: 2021-06-30
 slug: index
 layout: section
-logo:
-  fontFamily: "Starcraft normal"
+
+intro:
+  logo:
+    font_family: "Starcraft normal"
 
 issue: Issue 26
 subhead: Summer 2021
