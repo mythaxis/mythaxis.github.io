@@ -3,7 +3,9 @@ title: "Mythaxis Magazine Issue 24"
 date: 2020-12-15
 slug: index
 layout: section
-
+logo:
+  font_family: "Starcraft normal"
+  
 issue: Issue 24
 subhead: Winter 2020
 headline: 

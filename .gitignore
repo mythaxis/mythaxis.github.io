@@ -20,3 +20,4 @@
 # Hugo gen directory
 _gen
 content/pending-issue/
+.hugo_build.lock
