@@ -9,8 +9,8 @@ subhead: Autumn 2021
 headline: 
 
 editor: Andrew Leon Hudson
-image: images/True-Worship-lrg.jpg
-imageMobile: images/Asparagoose.jpg
+image: images/True-Worship-med.jpg
+imageMobile: images/True-Worship-sml.jpg
 imageCopyright: "True Worship by Raja Nandepu"
 
 # https://flexboxsheet.com/
