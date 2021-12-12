@@ -22,53 +22,63 @@
 	
 	<noscript><link rel="stylesheet" href='./assets/css/noscript.css' /></noscript>
 	
-	
 	<link rel="stylesheet" href='./assets/css/overrides.css' />
-	<style type="text/css">
-		#wrapper > .bg {
-		    background-image: url(../../images/overlay.png),
-		    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-		    	url(/issue-24/images/Dragons.png);
+<style type="text/css">
+	#wrapper > .bg {
+	    background-image: url(/images/overlay.png),
+	    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+	    	url(/issue-24/images/Dragons.png);
+	}
+
+	
+
+	
+		
+		#intro h1 {
+			font-family: Starcraft normal;
+			
 		}
+	
 
-		
-
-		
+	@media screen and (min-width: 736px) {
+		#intro {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
 			
-			#intro h1 {
-				font-family: Starcraft normal;
-				
-			}
-		
-
-		@media screen and (min-width: 736px) {
-			#intro {
-				display: flex;
-				flex-direction: column;
-				
-				
-				
-			}
-			#intro h1 {
-				order: 1;
 			
-				
-				
-				
-				
-			
-			}
-			#intro > h2 {
-				order: 1;
-			
-			}
-			#intro ul.actions {
-				order: 5;
-				align-self: center;
-				
-			}
 		}
-	</style>
+		
+		#intro h1 {
+			order: 2;
+			
+			
+			
+		}
+		
+
+		
+		#intro > h2 {
+			order: 1;
+			
+			
+			
+		}
+		
+		
+		
+		#intro ul.actions {
+			
+			order: 3;
+			
+			
+			
+		}
+		
+	}
+</style>
+
+
 
 	<title>Issue-24s — Mythaxis Magazine Issue 24 — MYTHAXIS MAGAZINE</title>
 	<meta name="generator" content="Hugo 0.90.1" />

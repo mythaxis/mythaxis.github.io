@@ -22,67 +22,53 @@
 	
 	<noscript><link rel="stylesheet" href='./assets/css/noscript.css' /></noscript>
 	
-	
 	<link rel="stylesheet" href='./assets/css/overrides.css' />
-	<style type="text/css">
+<style type="text/css">
+	#wrapper > .bg {
+	    background-image: url(/images/overlay.png),
+	    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+	    	url(/issue-27/images/True-Worship.jpg);
+	}
+
+	
+	@media screen and (max-width: 810px) {
 		#wrapper > .bg {
-		    background-image: url(../../images/overlay.png),
+		    background-image: 
+		    url(/images/overlay.png),
 		    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-		    	url(/issue-27/images/True-Worship-lrg.jpg);
+		    	url(/issue-27/images/True-Worship-mobile.jpg);
+		    	background-size: auto, auto, 100%;
 		}
+	}
 
-		
-		@media screen and (max-width: 737px) {
-			#wrapper > .bg {
-			    background-image: url(../../images/overlay.png),
-			    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-			    	url(/issue-27/images/Asparagoose.jpg);
-			    	background-size: auto, auto, 100%;
-			}
-		}
-
-		
-			
-			#intro h1 {
-				
-				color: #ffaa12;
-			}
+	
 		
 
-		@media screen and (min-width: 736px) {
-			#intro {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				
-				
-			}
-			#intro h1 {
-				order: 1;
+	@media screen and (min-width: 736px) {
+		#intro {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-end;
 			
-				
-				
-				align-self: flex-end;
-				
-			
-			}
-			#intro > h2 {
-				order: 1;
-			
-				
-				align-self: flex-end;
-				
-			
-			}
-			#intro ul.actions {
-				order: 5;
-				align-self: center;
-				
-					display: none;
-				
-			}
 		}
-	</style>
+		
+
+		
+		
+		
+		#intro ul.actions {
+			display: none;
+			
+			
+			
+			
+		}
+		
+	}
+</style>
+
+
 
 	<title>Mythaxis Magazine Archive — Mythaxis Magazine Issue 27 — MYTHAXIS MAGAZINE</title>
 	<meta name="generator" content="Hugo 0.90.1" />

@@ -22,53 +22,57 @@
 	
 	<noscript><link rel="stylesheet" href='../assets/css/noscript.css' /></noscript>
 	
-	
 	<link rel="stylesheet" href='../assets/css/overrides.css' />
-	<style type="text/css">
+<style type="text/css">
+	#wrapper > .bg {
+	    background-image: url(/images/overlay.png),
+	    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+	    	url(/issue-23/images/bg.png);
+	}
+
+	
+	@media screen and (max-width: 810px) {
 		#wrapper > .bg {
-		    background-image: url(../../images/overlay.png),
+		    background-image: 
+		    url(/images/overlay.png),
 		    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-		    	url(/issue-23/images/bg.png);
+		    	url(/issue-23/images/bg_mobile.png);
+		    	background-size: auto, auto, 100%;
 		}
+	}
 
+	
 		
-
-		
+		#intro h1 {
+			font-family: Starcraft normal;
 			
-			#intro h1 {
-				font-family: Starcraft normal;
-				
-			}
-		
-
-		@media screen and (min-width: 736px) {
-			#intro {
-				display: flex;
-				flex-direction: column;
-				
-				
-				
-			}
-			#intro h1 {
-				order: 1;
-			
-				
-				
-				
-				
-			
-			}
-			#intro > h2 {
-				order: 1;
-			
-			}
-			#intro ul.actions {
-				order: 5;
-				align-self: center;
-				
-			}
 		}
-	</style>
+	
+
+	@media screen and (min-width: 736px) {
+		#intro {
+			display: flex;
+			flex-direction: column;
+			
+			
+			
+		}
+		
+		#intro h1 {
+			
+			
+			
+			
+		}
+		
+
+		
+		
+		
+	}
+</style>
+
+
 
 	<title>Alight — Mythaxis Magazine Issue 23 — MYTHAXIS MAGAZINE</title>
 	<meta name="generator" content="Hugo 0.90.1" />

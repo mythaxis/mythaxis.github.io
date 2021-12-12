@@ -22,53 +22,72 @@
 	
 	<noscript><link rel="stylesheet" href='../assets/css/noscript.css' /></noscript>
 	
-	
 	<link rel="stylesheet" href='../assets/css/overrides.css' />
-	<style type="text/css">
+<style type="text/css">
+	#wrapper > .bg {
+	    background-image: url(/images/overlay.png),
+	    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+	    	url(/issue-25/images/Vessavana-Mythaxis2.jpg);
+	}
+
+	
+	@media screen and (max-width: 810px) {
 		#wrapper > .bg {
-		    background-image: url(../../images/overlay.png),
+		    background-image: 
+		    url(/images/overlay.png),
 		    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-		    	url(/issue-25/images/Vessavana-Mythaxis.jpg);
+		    	url(/issue-25/images/Vessavana-mobile.jpg);
+		    	background-size: auto, auto, 100%;
 		}
+	}
 
+	
 		
-
-		
+		#intro h1 {
+			font-family: Starcraft normal;
 			
-			#intro h1 {
-				font-family: Starcraft normal;
-				
-			}
-		
-
-		@media screen and (min-width: 736px) {
-			#intro {
-				display: flex;
-				flex-direction: column;
-				
-				
-				
-			}
-			#intro h1 {
-				order: 1;
-			
-				
-				
-				
-				
-			
-			}
-			#intro > h2 {
-				order: 1;
-			
-			}
-			#intro ul.actions {
-				order: 5;
-				align-self: center;
-				
-			}
 		}
-	</style>
+	
+
+	@media screen and (min-width: 736px) {
+		#intro {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			
+			
+		}
+		
+		#intro h1 {
+			
+			flex-grow: 2;
+			
+			
+		}
+		
+
+		
+		#intro > h2 {
+			
+			
+			align-self: flex-end;
+			
+		}
+		
+		
+		
+		#intro ul.actions {
+			display: none;
+			
+			
+			
+			
+		}
+		
+	}
+</style>
+
+
 
 	<title>The Gods Have No Faces — Mythaxis Magazine Issue 25 — MYTHAXIS MAGAZINE</title>
 	<meta name="generator" content="Hugo 0.90.1" />
