@@ -15,8 +15,8 @@ imageCopyright: "True Worship by Raja Nandepu"
 
 # https://flexboxsheet.com/
 intro:
-  # justify_content: center
-  # align_items: flex-start
+  justify_content: center
+  align_items: flex-end
   # align_content: flex-start
   logo:
     # order: 3
@@ -30,7 +30,7 @@ intro:
     # align_self: center
     # align_items: flex-start
   actions:
-    # display: none
+    display: none
     # order: 1
     # flex_grow: 1
     # align_self: flex-end
