@@ -9,7 +9,7 @@ subhead: Spring 2021
 headline: 
 
 editor: Andrew Leon Hudson
-image: images/Vessavana-Mythaxis2.jpg
+image: images/Vessavana-Mythaxis.jpg
 imageMobile: images/Vessavana-mobile.jpg
 imageCopyright: "Vessavana by Narupiti Harunsong"
 

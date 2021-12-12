@@ -3,7 +3,7 @@
 	#wrapper > .bg {
 	    background-image: url({{ "/images/overlay.png" | relURL }}),
 	    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-	    	url({{ path.Join .Section .Params.image | relURL }});
+	    	url({{ .Site.BaseURL }}{{ path.Join .Section .Params.image | relURL }});
 	}
 
 	{{ if .Params.imageMobile }}
@@ -12,7 +12,7 @@
 		    background-image: 
 		    url({{ "/images/overlay.png" | relURL }}),
 		    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-		    	url({{ path.Join .Section .Params.imageMobile | relURL }});
+		    	url({{ .Site.BaseURL }}{{ path.Join .Section .Params.imageMobile | relURL }});
 		    	background-size: auto, auto, 100%;
 		}
 	}{{ end }}
