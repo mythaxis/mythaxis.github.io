@@ -9,7 +9,7 @@ subhead: Summer 2021
 
 editor: Andrew Leon Hudson
 image: images/Finnekus.png
-imageMobile: images/Finnekus2.png
+imageMobile: images/Finnekus_mobile.jpg
 imageCopyright: "Finnekus by Bobby Cooper"
 
 # https://flexboxsheet.com/
