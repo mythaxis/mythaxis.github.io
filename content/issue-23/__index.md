@@ -14,5 +14,6 @@ headline: Welcome to the 23rd issue of Mythaxis.
 
 editor: Andrew Leon Hudson
 image: images/bg.png
+imageMobile: images/bg_mobile.png
 imageCopyright: "The background picture is..."
 ---

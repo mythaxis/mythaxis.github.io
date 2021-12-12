@@ -29,67 +29,8 @@
 	{{ $noscript := resources.Get "scss/noscript.scss" | resources.ExecuteAsTemplate "noscript.scss" . | toCSS (dict "targetPath" "assets/css/noscript.css" "enableSourceMap" false) }}
 	<noscript><link rel="stylesheet" href='{{ $noscript.RelPermalink }}' /></noscript>
 	
-	
-	<link rel="stylesheet" href='{{ "assets/css/overrides.css" | relURL }}' />
-	<style type="text/css">
-		#wrapper > .bg {
-		    background-image: url(../../images/overlay.png),
-		    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-		    	url({{ .Site.BaseURL }}{{ path.Join $currSection.Section $currSection.Params.image | relURL }});
-		}
+	{{ partial "htmlhead-styles-overrides.html" $currSection }}
 
-		{{ if $currSection.Params.imageMobile }}
-		@media screen and (max-width: 737px) {
-			#wrapper > .bg {
-			    background-image: url(../../images/overlay.png),
-			    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-			    	url({{ .Site.BaseURL }}{{ path.Join $currSection.Section $currSection.Params.imageMobile | relURL }});
-			    	background-size: auto, auto, 100%;
-			}
-		}{{ end }}
-
-		{{ with $currSection.Params.intro }}
-			{{ with .logo }}
-			#intro h1 {
-				{{ with .font_family }}font-family: {{ . }};{{ end }}
-				{{ with .color }}color: {{ . }};{{ end }}
-			}
-		{{ end }}
-
-		@media screen and (min-width: 736px) {
-			#intro {
-				display: flex;
-				flex-direction: column;
-				{{ with .justify_content }}justify-content: {{ . }};{{ end }}
-				{{ with .align_items }}align-items: {{ . }};{{ end }}
-				{{ with .align_content }}align-content: {{ . }};{{ end }}
-			}
-			#intro h1 {
-				order: 1;
-			{{ with .logo }}
-				{{ with .flex_grow }}flex-grow: {{ . }};{{ end }}
-				{{ with .flex_basis }}flex-basis: {{ . }};{{ end }}
-				{{ with .align_self }}align-self: {{ . }};{{ end }}
-				{{ with .align_items }}align-items: {{ . }};{{ end }}
-			{{ end }}
-			}
-			#intro > h2 {
-				order: 1;
-			{{ with .subheading }}
-				{{ with .flex_grow }}flex-grow: {{ . }};{{ end }}
-				{{ with .align_self }}align-self: {{ . }};{{ end }}
-				{{ with .align_items }}align-items: {{ . }};{{ end }}
-			{{ end }}
-			}
-			#intro ul.actions {
-				order: 5;
-				align-self: center;
-				{{ with .actions }}
-					{{ with .display }}display: {{ .}};{{ end }}
-				{{ end }}
-			}
-		}{{ end }}
-	</style>
 
 	<title>{{ .Scratch.Get "pageTitle" }}</title>
 	{{ hugo.Generator }}
