@@ -27,7 +27,7 @@ intro:
   subheading:
     # order: 2
     # flex_grow: 1
-    align_self: flex-start
+    align_self: flex-end
     # align_items: flex-start
   actions:
     display: none
