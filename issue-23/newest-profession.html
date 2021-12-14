@@ -25,19 +25,21 @@
 	<link rel="stylesheet" href='../assets/css/overrides.css' />
 <style type="text/css">
 	#wrapper > .bg {
-	    background-image: url(/images/overlay.png),
-	    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-	    	url(/issue-23/images/bg.png);
+	    background-image: url(/issue-23/images/bg.jpg);
+	    	background-size: 100% auto;
+			background-position: top center;
+			background-repeat: no-repeat;
 	}
 
 	
-	@media screen and (max-width: 810px) {
+	@media screen and (max-width: 980px) {
 		#wrapper > .bg {
-		    background-image: 
-		    url(/images/overlay.png),
-		    	linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-		    	url(/issue-23/images/bg_mobile.png);
-		    	background-size: auto, auto, 100%;
+		    background-image: url(/issue-23/images/bg_mobile.jpg);
+		}
+	}
+	@media screen and (max-width: 500px) {
+		#wrapper > .bg {
+			background-size: cover;
 		}
 	}
 
