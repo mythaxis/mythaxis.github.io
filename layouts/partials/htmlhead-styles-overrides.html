@@ -12,6 +12,7 @@
 		#wrapper > .bg {
 		    background-image: url({{ if not .Site.IsServer }}{{ .Site.BaseURL }}{{ end }}{{ path.Join .Section .Params.imageMobile | relURL }});
 		}
+	}
 	@media screen and (max-width: 500px) {
 		#wrapper > .bg {
 			background-size: cover;
