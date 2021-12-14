@@ -30,10 +30,10 @@ intro:
     # align_self: center
     # align_items: flex-start
   actions:
-    display: none
+    # display: none
     # order: 1
     # flex_grow: 1
-    # align_self: flex-end
+    align_self: flex-end
     # align_items: flex-end
 
 ---

@@ -26,15 +26,15 @@ intro:
     # color: '#ffaa12'
     font_family: "Starcraft normal"
   subheading:
-    # order: 2
+    order: 3
     # flex_grow: 1
     align_self: flex-end
     # align_items: flex-start
   actions:
-    display: none
-    # order: 1
+    # display: none
+    order: 2
     # flex_grow: 1
-    # align_self: flex-end
+    align_self: flex-end
     # align_items: flex-end
 
 ---
