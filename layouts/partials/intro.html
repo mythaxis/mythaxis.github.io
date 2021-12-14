@@ -6,7 +6,7 @@
 <div id="intro">
     <h1>Mythaxis</h1>
     <h2>{{ .Params.subhead }}</h2>
-    <p>{{ .Params.headline }}</p>
+    {{ if .Params.headline }}<p>{{ .Params.headline }}</p>{{ end }}
     <ul class="actions">
         <li><a href="#header" class="button icon solo fa-arrow-down scrolly">{{ i18n "INTRO_CONTINUE" . }}</a></li>
     </ul>
