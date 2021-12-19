@@ -1,7 +1,7 @@
 <link rel="stylesheet" href='{{ "assets/css/overrides.css" | relURL }}' />
 <style type="text/css">
 	#wrapper > .bg {
-	    background-image: url({{ if not .Site.IsServer }}{{ .Site.BaseURL }}{{ end }}{{ path.Join .Section .Params.image | relURL }});
+	    background-image: url({{ path.Join .Section .Params.image | relURL }});
 	    	background-size: 100% auto;
 			background-position: top center;
 			background-repeat: no-repeat;
@@ -10,7 +10,7 @@
 	{{ if .Params.imageMobile }}
 	@media screen and (max-width: 980px) {
 		#wrapper > .bg {
-		    background-image: url({{ if not .Site.IsServer }}{{ .Site.BaseURL }}{{ end }}{{ path.Join .Section .Params.imageMobile | relURL }});
+		    background-image: url({{ path.Join .Section .Params.imageMobile | relURL }});
 		}
 	}
 	@media screen and (max-width: 500px) {
