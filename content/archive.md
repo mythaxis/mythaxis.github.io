@@ -10,10 +10,11 @@ slug: archive
 
 ## Back Issues
 
-- [Issue&nbsp;26: June 21]({{< relref "/issue-26/__index.md" >}})
-- [Issue&nbsp;25: Apr 21]({{< relref "/issue-25/__index.md" >}})
-- [Issue&nbsp;24: Dec 20]({{< relref "/issue-24/__index.md" >}})
-- [Issue&nbsp;23: Aug 20]({{< relref "/issue-23/__index.md" >}})
+- [Issue&nbsp;27: Autumn 2021]({{< relref "/issue-27/__index.md" >}})
+- [Issue&nbsp;26: Summer 2021]({{< relref "/issue-26/__index.md" >}})
+- [Issue&nbsp;25: Spring 2021]({{< relref "/issue-25/__index.md" >}})
+- [Issue&nbsp;24: Winter 2020]({{< relref "/issue-24/__index.md" >}})
+- [Issue&nbsp;23: Autumn 2020]({{< relref "/issue-23/__index.md" >}})
 
 
 
