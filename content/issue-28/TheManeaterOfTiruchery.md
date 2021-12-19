@@ -12,7 +12,7 @@ showAuthorFooter: true
 description: "This issue's second big story takes us to a rural India of uncertain period—but whether a tale is set in the recent past, the present day, or a near future isn't important when you sit down to enjoy an example of straight-forward adventure storytelling. Chaitanya Murali gives us a man who is as much a part of nature as he is a professional adversary of it… but it's in our nature to change."
 
 image: images/Maneater.jpg
-imageCopyright: "The title picture was composited from two VQGAN+ images, one seeded with a Creative Commons work by [https://www.pexels.com/photo/photo-of-a-leopard-lying-on-a-brown-rock-6465808/](Gill Heward), the other from the text prompt 'a forest wreathed in darkness'."
+imageCopyright: "The title picture was composited from two VQGAN+ images, one seeded with a Creative Commons work by [Gill Heward](https://www.pexels.com/photo/photo-of-a-leopard-lying-on-a-brown-rock-6465808/), the other from the text prompt 'a forest wreathed in darkness'."
 
 type: stock
 slug: the-maneater-of-tiruchery

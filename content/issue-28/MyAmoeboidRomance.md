@@ -12,7 +12,7 @@ copyright: '© Hermester Barrington 2021 All Rights Reserved'
 description: "Under the microscope, a 'single' human cell is revealed to be a chaotic community of collaborating entities. What we each see as a body is more like a microbial biosphere—so if, at a stroke, what you are became literally just that, would it even be so bad? Judging by Hermester Barrington's yarn, when Kafka wrote The Metamorphosis he wasn’t just needlessly downbeat, he was thinking too big. And too singular."
 
 image: images/MyAmoeboidRomance.jpg
-imageCopyright: "The title picture was created using VQGAN+ seeded with a Creative Commons image by [https://www.pexels.com/photo/man-facing-sideways-428364/](Spencer Selover) and the phrase 'a man made of bacteria', composited with its source plus an element from [https://pixabay.com/photos/photos-pictures-people-antique-889168/](kate_krav). A video of the VQGAN+ process can be seen [https://youtu.be/8yVsJC-Y010](here)."
+imageCopyright: "The title picture was created using VQGAN+ seeded with a Creative Commons image by [Spencer Selover](https://www.pexels.com/photo/man-facing-sideways-428364/) and the phrase 'a man made of bacteria', composited with its source plus an element from [kate_krav](https://pixabay.com/photos/photos-pictures-people-antique-889168/). A video of the VQGAN+ process can be seen [here](https://youtu.be/8yVsJC-Y010)."
 
 type: stock
 slug: my-amoeboid-romance

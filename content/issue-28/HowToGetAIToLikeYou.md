@@ -12,7 +12,7 @@ copyright: '© Aaron Emmel 2021 All Rights Reserved.'
 description: "It would have been a missed opportunity if, in an issue entirely illustrated via artificially intelligent image generation, we didn't include a single story actually featuring AI. Aaron Emmel to the rescue, therefore, with this highly plausible glimpse of the way the future may be heading—in situations, at least, if not solutions…"
 
 image: images/How2GetAI2LikeU.jpg
-imageCopyright: "The title picture was created using VQGAN+, solely based on the prompt phrase 'micro expressions'. A video of the VQGAN+ process can be seen [https://youtu.be/sXVHgVQ26mM](here)."
+imageCopyright: "The title picture was created using VQGAN+, solely based on the prompt phrase 'micro expressions'. A video of the VQGAN+ process can be seen [here](https://youtu.be/sXVHgVQ26mM)."
 
 type: stock
 slug: how-to-get-ai-to-like-you

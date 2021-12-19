@@ -12,7 +12,7 @@ copyright: '© Mame Bougouma Diene 2021 All Rights Reserved'
 description: "It's hard to hate The Other if there isn't An Other to hate. So, in a sense, when it comes to bigotry it always takes two to tango, even if only one participant is actually dancing to the music. Mame Bougouma Diene's elegiac short strongly suggests that this is going to be the case right up until the solo begins."
 
 image: images/EPluribusUnum.jpg
-imageCopyright: "The title picture was created using VQGAN+ seeded with a Creative Commons image by [https://www.pexels.com/photo/silhouette-of-man-448834/](Victor) and the prompt 'a silhouetted man in a space station'. A video of the VQGAN+ process can be seen [https://youtu.be/Xuft6nDVzcU](here)."
+imageCopyright: "The title picture was created using VQGAN+ seeded with a Creative Commons image by [Victor](https://www.pexels.com/photo/silhouette-of-man-448834/) and the prompt 'a silhouetted man in a space station'. A video of the VQGAN+ process can be seen [here](https://youtu.be/Xuft6nDVzcU)."
 
 type: stock
 slug: e-pluribus-unum
