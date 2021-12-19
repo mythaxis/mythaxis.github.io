@@ -12,7 +12,7 @@ copyright: '© Charlotte H. Lee 2021 All Rights Reserved'
 description: "The genesis of speculative fiction may well be 'Utopia', Thomas More's 16th century satire of a perfect society, its name necessarily meaning 'no-place'. The best utopian sf now looks not merely at perfection, but instead shows people striving to build something better, often within worlds that are very far from perfect. Charlotte H. Lee gives us someone on that very path."
 
 image: images/Marciano.jpg
-imageCopyright: "The title picture was created using VQGAN+ seeded with a Creative Commons image by [https://pixabay.com/photos/beach-ice-sea-shore-iceland-6847276/](susnpics) and the prompt phrase 'Oil painting of a vast building on the surface of Mars'. A video of the VQGAN+ process can be seen [https://youtu.be/F7G0IPU43fA](here)."
+imageCopyright: "The title picture was created using VQGAN+ seeded with a Creative Commons image by [susnpics](https://pixabay.com/photos/beach-ice-sea-shore-iceland-6847276/) and the prompt phrase 'Oil painting of a vast building on the surface of Mars'. A video of the VQGAN+ process can be seen [here](https://youtu.be/F7G0IPU43fA)."
 
 type: stock
 slug: marciano

@@ -12,7 +12,7 @@ showAuthorFooter: true
 description: "The damsel in distress is surely centuries old, but when the damsel in question has no choice but to do her own saving, 'damsel' is just another synonym for 'hero'. Nevertheless, while coming out on top against all odds sounds like a good thing, sadly the world is rarely so conveniently black and white. Uchechukwu Nwaka shows us how a victory can sour even as we’re savouring it."
 
 image: /images/CuffsPadlocksNailPolish.jpg
-imageCopyright: "The title picture was created using VQGAN+ seeded with a Creative Commons image by [https://pixabay.com/photos/annual-rings-tree-wood-texture-3212803/](Couleur) and the text 'a frightened black woman surrounded by pink lightning'."
+imageCopyright: "The title picture was created using VQGAN+ seeded with a Creative Commons image by [Couleur](https://pixabay.com/photos/annual-rings-tree-wood-texture-3212803/) and the text 'a frightened black woman surrounded by pink lightning'."
 
 type: stock
 slug: cuffs-padlocks-and-a-splattering-of-nail-polish

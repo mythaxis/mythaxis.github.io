@@ -12,7 +12,7 @@ copyright: '© J. Livermore 2021 All Rights Reserved'
 description: "As the editor apparently repeats every issue, sometimes (read 'always', it seems) stories tend to arrive in satisfying pairs, and J. Livermore's tale provides a pleasing dovetail with our opener. Again, it's about two very different men, again, one of them isn't around by the end, but in every other respect the two pieces could hardly be more different."
 
 image: images/FlyAwayPeter.jpg
-imageCopyright: "The title picture was created using VQGAN+ seeded with a Creative Commons image by [https://www.pexels.com/photo/man-person-people-emotions-1990/](Gratisography) and the phrase 'twin brothers sitting on a sofa', composited with a background image by [https://pixabay.com/photos/extension-wall-living-room-messi-1662055/](Peggy_Marco)."
+imageCopyright: "The title picture was created using VQGAN+ seeded with a Creative Commons image by [Gratisography](https://www.pexels.com/photo/man-person-people-emotions-1990/) and the phrase 'twin brothers sitting on a sofa', composited with a background image by [Peggy_Marco](https://pixabay.com/photos/extension-wall-living-room-messi-1662055/)."
 
 type: stock
 slug: fly-away-peter
