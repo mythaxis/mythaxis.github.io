@@ -12,7 +12,7 @@ copyright: '© E. Saxey 2021 All Rights Reserved'
 description: "Has anyone got over the 2020 lockdown yet? Hopefully we'll endure less panic and home-goods hoarding next time civilisation comes crashing down—but we're always going to need more than well-stocked shelves to feel satisfied with life, and E. Saxey's story (from an original idea by Kim Plowright) reminds us that wanderlust isn't going anywhere soon."
 
 image: images/ComeBuyComeBuy.jpg
-imageCopyright: "The title picture was created using VQGAN+ seeded with a Creative Commons image by [https://www.pexels.com/photo/a-dirty-vintage-cash-register-5370036/](Enrico Hänel) with the prompt 'an endless forest that glows at dawn'. A video of the VQGAN+ process can be seen [https://youtu.be/eUDzblBOCwg](here)."
+imageCopyright: "The title picture was created using VQGAN+ seeded with a Creative Commons image by [https://www.pexels.com/photo/a-dirty-vintage-cash-register-5370036/](Enrico Hänel) with the prompt 'an endless forest that glows at dawn'. A video of the VQGAN+ process can be seen [https://youtu.be/FOsU0ypZoa4](here)."
 
 type: stock
 slug: come-buy-come-buy

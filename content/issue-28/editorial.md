@@ -33,10 +33,10 @@ In other cases, though, no seed image was used at all. A text string was always 
 
 {{< youtube Cj2WzSZ85cc >}}
 
-By comparison, for one of our stories I selected a key phrase from the story itself to see what the software would come up with. For *"micro expressions"*, it generated this:
+By comparison, for one of our stories I selected a key phrase from the story itself to see what the software would come up with. From *"micro expressions"* it generated this:
 
 {{< youtube sXVHgVQ26mM >}}
 
-To see more, you can find these and four other videos on a [Youtube playlist](https://www.youtube.com/playlist?list=PLSLPpaSSw2pFaWFKcZIQTez_vP_Kv0p9o). Unfortunately not every image I created has a video to go with it, but while the artwork is fun to play with, what *really* matters is the fiction. AI might be one day destined to claim all the fields humanity thinks of as innately our own, but for now I can confidently leave you safe in the flesh-and-blood hands of eight more talented authors.
+To see more, you can find these videos a more on our [Youtube playlist](https://www.youtube.com/playlist?list=PLSLPpaSSw2pFaWFKcZIQTez_vP_Kv0p9o). Unfortunately not every image created has a video to go with it, but while the artwork is fun to play with, what *really* matters is the fiction. AI might be one day destined to claim all the fields humanity thinks of as innately our own, but for now I can confidently leave you safe in the flesh-and-blood hands of eight talented authors.
 
 And if I don't happen to see you in the next eleven days or so: ***Happy New Year!***
