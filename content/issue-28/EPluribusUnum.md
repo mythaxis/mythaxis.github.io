@@ -135,4 +135,4 @@ And it’s now, only now, that that doesn’t matter anymore.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **E Pluribus Unum** on [Facebook](https://www.facebook.com/MythaxisMagazine/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **E Pluribus Unum** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/390791386175193).*
