@@ -17,9 +17,7 @@ imageCopyright: "The title picture was created using VQGAN+ seeded with a Creati
 type: stock
 slug: e-pluribus-unum
 weight: 1
-
 featured: true
-description: "Some stories wear their inspiration on their sleeve, and the title of Kyle E. Miller's wonderlandish excursion through a decaying plane pays clear homage to the Harlan Ellison classic, \"I Have No Mouth, and I Must Scream\". Prepare yourselves for a similarly rich, strange journey, but there the similarities very definitely end..."
 
 ---
 
