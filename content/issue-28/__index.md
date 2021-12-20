@@ -9,6 +9,7 @@ subhead: Winter 2021
 
 editor: Andrew Leon Hudson
 image: images/The-AI-Issue.jpg
+imageMobile: images/The-AI-Issue-mobile.jpg
 imageCopyright: "The AI Issue, by Andrew Leon Hudson"
 
 # https://flexboxsheet.com/
