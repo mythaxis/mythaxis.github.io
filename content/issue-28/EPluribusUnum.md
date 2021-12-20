@@ -131,7 +131,7 @@ I’m the last man left alive.
 
 The last *black* man left alive.
 
-And it’s now, only now, that that doesn’t matter anymore.
+And it’s now, only now, that it doesn’t matter anymore.
 
 ![Orbit-lrg](images/Orbit.svg)
 
