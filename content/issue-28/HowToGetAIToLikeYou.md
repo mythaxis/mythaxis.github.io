@@ -165,7 +165,7 @@ He nodded. “I’m sure you had lots of great plans, but what you’re not fact
 
 “How dare you call me?” The line went dead.
 
-I stared at the phone. I’d called—I had to admit it—to make myself feel better somehow. As I’d dialed, though, I’d also realized I had an idea that might get her out of the mess I’d led her into. It was reckless idea, but that’s what the situation seemed to call for.
+I stared at the phone. I’d called—I had to admit it—to make myself feel better somehow. As I’d dialed, though, I’d also realized I had an idea that might get her out of the mess I’d led her into. It was a reckless idea, but that’s what the situation seemed to call for.
 
 I knew I wouldn’t stop thinking about it, or about new justifications to ask her about it. I’m very convincing to myself. So, I did what I had to do: I deleted all Lindy’s contact information from my records, put on my headphones and blasted Love, Death & Anarchy while I looked for a neighborhood to get lost in.
 
@@ -293,4 +293,4 @@ Before I could act on that, my phone pinged with another text. Unknown sender.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **How to Get AI to Like You** on [Facebook](https://www.facebook.com/MythaxisMagazine/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **How to Get AI to Like You** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/390785549509110).*

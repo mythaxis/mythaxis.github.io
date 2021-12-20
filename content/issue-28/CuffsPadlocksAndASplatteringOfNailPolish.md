@@ -19,7 +19,7 @@ slug: cuffs-padlocks-and-a-splattering-of-nail-polish
 weight: 7
 ---
 
-{{<glyph>}}22:17:49{{</glyph>}}
+> ***22:17:49***
 
 I’ve never been much into roleplay, but I need the money and Moyo would flip a lid if she ever heard that I balked now. The client isn’t all that bad either. He has this kind of boyish look on his beardless face, and he’d been wearing a suit when he approached me by the bar. I figured I could let myself get handcuffed to the bedpost while he attempted to play out his fantasies.
 
@@ -47,7 +47,7 @@ Once. Again. Silence.
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-{{<glyph>}}21:47:24{{</glyph>}}
+> ***21:47:24***
 
 Air burns its way into my lungs and my furious gasp almost topples the glass of whiskey from my hand. 
 
@@ -73,7 +73,7 @@ The client is a bloody ritualist.
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-{{<glyph>}}21:33:08{{</glyph>}}
+> ***21:33:08***
 
 I find myself in front of the hotel again. Shit, that means I died after following the client upstairs a second time. At least an earlier awareness of my situation is paying off, but…
 
@@ -135,7 +135,7 @@ I swing my head onto the asphalt.
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-{{<glyph>}}19:17:49{{</glyph>}}
+> ***19:17:49***
 
 “—don’t know if you’ve got a job for me. Anything Moyo, I know it’s sudden…”
 
@@ -187,4 +187,5 @@ Moyo’s phone suddenly feels too heavy in my hand.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Cuffs, Padlocks, and a Splattering of Nail Polish** on [Facebook](https://www.facebook.com/MythaxisMagazine/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Cuffs, Padlocks, and a Splattering of Nail Polish** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/390781929509472).*
+

@@ -54,4 +54,4 @@ So far none of these things have happened, but I am a sign to those who see only
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **My Amoeboid Romance** on [Facebook](https://www.facebook.com/MythaxisMagazine/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **My Amoeboid Romance** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/390778929509772).*
