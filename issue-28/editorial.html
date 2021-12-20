@@ -34,6 +34,42 @@
 	
 
 	
+		
+		#intro h1 {
+			
+			color: #E8BF25;
+		}
+	
+
+	@media screen and (min-width: 736px) {
+		#intro {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			
+			
+		}
+		
+		#intro h1 {
+			
+			
+			
+			
+		}
+		
+
+		
+		
+		
+		#intro ul.actions {
+			
+			
+			flex-grow: 2;
+			align-self: flex-start;
+			align-items: flex-end;
+		}
+		
+	}
 </style>
 
 
@@ -153,20 +189,20 @@
 <p>In my process, running VQGAN+ typically generated 300 images—or less if I interrupted a disastrous run before it went too wrong to bear. The results are much like the individual frames of a film, or rather of an animation, since taken collectively they show a gradual, flickering evolution of a single image.  The output can also be extracted as video, and my earliest successful attempt can be seen here:</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/8yVsJC-Y010" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/8yVsJC-Y010" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 <p>In this example, an existing image was used as the starting point for the AI to work from. Parts of that sequence of images were eventually blended to take their place in the art for our closing story, and in several cases the VQGAN+ output was composited with other material to create the final image.</p>
 <p>In other cases, though, no seed image was used at all. A text string was always necessary to guide the AI regarding what output you hoped to receive, and a lot of the fun in the process came from discovering how simple (or complex) to make the instructions you gave the software. All four generated images in the issue&rsquo;s cover art came only from a prompt—for this, the instruction was relatively complex, <em>&ldquo;a golden compass of mythical design&rdquo;</em>:</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/Cj2WzSZ85cc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/Cj2WzSZ85cc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 <p>By comparison, for one of our stories I selected a key phrase from the story itself to see what the software would come up with. From <em>&ldquo;micro expressions&rdquo;</em> it generated this:</p>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-  <iframe src="https://www.youtube.com/embed/sXVHgVQ26mM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+  <iframe src="https://www.youtube-nocookie.com/embed/sXVHgVQ26mM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
 <p>To see more, you can find these videos a more on our <a href="https://www.youtube.com/playlist?list=PLSLPpaSSw2pFaWFKcZIQTez_vP_Kv0p9o">Youtube playlist</a>. Unfortunately not every image created has a video to go with it, but while the artwork is fun to play with, what <em>really</em> matters is the fiction. AI might be one day destined to claim all the fields humanity thinks of as innately our own, but for now I can confidently leave you safe in the flesh-and-blood hands of eight talented authors.</p>
@@ -192,8 +228,8 @@
 			    	<em><strong>Andrew</strong> is a technical writer by day, and is technically a writer by night as well. In addition to editing</em> Mythaxis <em>he has been published in a small handful of quality zines, and co-authored a serialised alternate history adventure novel. He lives in Barcelona, Spain, and doesn’t update <a href="https://andrewleonhudson.wordpress.com/">his website</a> or use <a href="https://twitter.com/AndLeoHud">twitter</a> very often.</em></p>
 			    <p></p>
 			    <p><strong>ISSUE 28</strong> - <em><strong>Thanks and Salutations!</strong></em>
-Cover art created by Andrew Leon Hudson using four VQGAN+ images, plus the compass by <a href="Fourleaflovers">https://depositphotos.com/64218559/stock-illustration-vector-vintage-compass-rose.html</a>.
-A little redundant to say at this point, but maximum thanks go to <a href="https://twitter.com/RiversHaveWings">Katherine Crowson</a>, creator of the VQGAN+ version used, as well as to <a href="@advadnoun">Adverb</a> who originated the approach of combining VQGAN and CLIP, and <a href="@somewheresy">@somewheresy</a> who translated the original Spanish-language notebook to English.</p>
+Cover art created by Andrew Leon Hudson using four VQGAN+ images, plus the compass by <a href="https://depositphotos.com/64218559/stock-illustration-vector-vintage-compass-rose.html">Fourleaflovers</a>.
+A little redundant to say at this point, but maximum thanks go to <a href="https://twitter.com/RiversHaveWings">Katherine Crowson</a>, creator of the VQGAN+ version used, as well as to <a href="https://twitter.com/advadnoun">Adverb</a> who originated the approach of combining VQGAN and CLIP, and <a href="https://twitter.com/somewheresy">@somewheresy</a> who translated the original Spanish-language notebook to English.</p>
 			</footer>
 		
     
@@ -218,14 +254,24 @@ A little redundant to say at this point, but maximum thanks go to <a href="https
 
     
 <script type="application/javascript">
-var doNotTrack = false;
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-146012578-1', 'auto');
-	
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-146012578-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
 }
 </script>

@@ -34,6 +34,42 @@
 	
 
 	
+		
+		#intro h1 {
+			
+			color: #E8BF25;
+		}
+	
+
+	@media screen and (min-width: 736px) {
+		#intro {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			
+			
+		}
+		
+		#intro h1 {
+			
+			
+			
+			
+		}
+		
+
+		
+		
+		
+		#intro ul.actions {
+			
+			
+			flex-grow: 2;
+			align-self: flex-start;
+			align-items: flex-end;
+		}
+		
+	}
 </style>
 
 
@@ -174,7 +210,7 @@
     </header>
 
     
-    <p>Some stories wear their inspiration on their sleeve, and the title of Kyle E. Miller&#39;s wonderlandish excursion through a decaying plane pays clear homage to the Harlan Ellison classic, &#34;I Have No Mouth, and I Must Scream&#34;. Prepare yourselves for a similarly rich, strange journey, but there the similarities very definitely end...</p>
+    <p>It&#39;s hard to hate The Other if there isn&#39;t An Other to hate. So, in a sense, when it comes to bigotry it always takes two to tango, even if only one participant is actually dancing to the music. Mame Bougouma Diene&#39;s elegiac short strongly suggests that this is going to be the case right up until the solo begins.</p>
     
 
     
@@ -342,14 +378,24 @@
 
     
 <script type="application/javascript">
-var doNotTrack = false;
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-146012578-1', 'auto');
-	
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-146012578-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
 }
 </script>

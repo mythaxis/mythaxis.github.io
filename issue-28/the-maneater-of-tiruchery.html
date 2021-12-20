@@ -34,6 +34,42 @@
 	
 
 	
+		
+		#intro h1 {
+			
+			color: #E8BF25;
+		}
+	
+
+	@media screen and (min-width: 736px) {
+		#intro {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			
+			
+		}
+		
+		#intro h1 {
+			
+			
+			
+			
+		}
+		
+
+		
+		
+		
+		#intro ul.actions {
+			
+			
+			flex-grow: 2;
+			align-self: flex-start;
+			align-items: flex-end;
+		}
+		
+	}
 </style>
 
 
@@ -450,7 +486,7 @@ ikram departed the village the following day, not by the well-trod path, but bac
 				
 			    	<em><strong>Chaitanya Murali</strong></em> <em>is a game designer and writer who lives in Bangalore, India. He tends to write stories inspired by South India. They also usually feature giant animals. When he&rsquo;s not writing, you can find him complaining about sports on Twitter as <a href="https://twitter.com/chaitanyamurali">@chaitanyamurali</a>.</em></p>
 			    <p>© Chaitanya Murali 2021 All Rights Reserved</p>
-			    <p>The title picture was composited from two VQGAN+ images, one seeded with a Creative Commons work by [https://www.pexels.com/photo/photo-of-a-leopard-lying-on-a-brown-rock-6465808/](Gill Heward), the other from the text prompt &lsquo;a forest wreathed in darkness&rsquo;.</p>
+			    <p>The title picture was composited from two VQGAN+ images, one seeded with a Creative Commons work by <a href="https://www.pexels.com/photo/photo-of-a-leopard-lying-on-a-brown-rock-6465808/">Gill Heward</a>, the other from the text prompt &lsquo;a forest wreathed in darkness&rsquo;.</p>
 			</footer>
 		
     
@@ -481,14 +517,24 @@ ikram departed the village the following day, not by the well-trod path, but bac
 
     
 <script type="application/javascript">
-var doNotTrack = false;
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-146012578-1', 'auto');
-	
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-146012578-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
 }
 </script>

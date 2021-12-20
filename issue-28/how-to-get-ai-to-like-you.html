@@ -34,6 +34,42 @@
 	
 
 	
+		
+		#intro h1 {
+			
+			color: #E8BF25;
+		}
+	
+
+	@media screen and (min-width: 736px) {
+		#intro {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			
+			
+		}
+		
+		#intro h1 {
+			
+			
+			
+			
+		}
+		
+
+		
+		
+		
+		#intro ul.actions {
+			
+			
+			flex-grow: 2;
+			align-self: flex-start;
+			align-items: flex-end;
+		}
+		
+	}
 </style>
 
 
@@ -318,9 +354,9 @@ indy’s house was a ranch with a two decades-old Kia in the driveway. The bushe
 					<span class="image left"><img src="../authors/images/AaronEmmel.jpg" alt="Author image of Aaron Emmel" title="Author image of Aaron Emmel"></span>
 					
 				
-			    	<em><strong>Aaron Emmel</strong></em>*’s stories have appeared in numerous magazines and anthologies. Thanks to the patience of his wonderful wife, and despite the impatience of his wonderful children, Aaron also writes essays, graphic novels and interactive fiction. He grew up in the mountains of New Mexico and on Central America’s Caribbean coast. Find him online at <a href="https://aaronemmel.com/">www.aaronemmel.com</a> and on Twitter at <a href="https://twitter.com/justicioaje">@justicioaje</a>.*</p>
+			    	<em><strong>Aaron Emmel</strong></em>’<em>s stories have appeared in numerous magazines and anthologies. Thanks to the patience of his wonderful wife, and despite the impatience of his wonderful children, Aaron also writes essays, graphic novels and interactive fiction. He grew up in the mountains of New Mexico and on Central America’s Caribbean coast. Find him online at <a href="https://aaronemmel.com/">www.aaronemmel.com</a> and on Twitter at <a href="https://twitter.com/justicioaje">@justicioaje</a>.</em></p>
 			    <p>© Aaron Emmel 2021 All Rights Reserved.</p>
-			    <p>The title picture was created using VQGAN+, solely based on the prompt phrase &lsquo;micro expressions&rsquo;. A video of the VQGAN+ process can be seen <a href="here">https://youtu.be/sXVHgVQ26mM</a>.</p>
+			    <p>The title picture was created using VQGAN+, solely based on the prompt phrase &lsquo;micro expressions&rsquo;. A video of the VQGAN+ process can be seen <a href="https://youtu.be/sXVHgVQ26mM">here</a>.</p>
 			</footer>
 		
     
@@ -351,14 +387,24 @@ indy’s house was a ranch with a two decades-old Kia in the driveway. The bushe
 
     
 <script type="application/javascript">
-var doNotTrack = false;
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-146012578-1', 'auto');
-	
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-146012578-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
 }
 </script>

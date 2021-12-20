@@ -34,6 +34,42 @@
 	
 
 	
+		
+		#intro h1 {
+			
+			color: #E8BF25;
+		}
+	
+
+	@media screen and (min-width: 736px) {
+		#intro {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			
+			
+		}
+		
+		#intro h1 {
+			
+			
+			
+			
+		}
+		
+
+		
+		
+		
+		#intro ul.actions {
+			
+			
+			flex-grow: 2;
+			align-self: flex-start;
+			align-items: flex-end;
+		}
+		
+	}
 </style>
 
 
@@ -265,7 +301,7 @@
 				
 			    	<em><strong>Uchechukwu Nwaka</strong></em> <em>is a student of Medicine and Surgery at University of Ibadan, Nigeria. His works have appeared or are forthcoming in</em> Cossmass Infinities, Fusion Fragment <em>and</em> Hexagon <em>among others. When he’s not trying to unravel the mysteries of human (or inhuman) interaction, he can be found binging unhealthy amounts of anime, or generally trying to keep up with endless schoolwork. Find him on Twitter at <a href="https://twitter.com/uche_cjn">@uche_cjn</a>.</em></p>
 			    <p>© Uchechukwu Nwaka 2021 All Rights Reserved</p>
-			    <p>The title picture was created using VQGAN+ seeded with a Creative Commons image by <a href="Couleur">https://pixabay.com/photos/annual-rings-tree-wood-texture-3212803/</a> and the text &lsquo;a frightened black woman surrounded by pink lightning&rsquo;.</p>
+			    <p>The title picture was created using VQGAN+ seeded with a Creative Commons image by <a href="https://pixabay.com/photos/annual-rings-tree-wood-texture-3212803/">Couleur</a> and the text &lsquo;a frightened black woman surrounded by pink lightning&rsquo;.</p>
 			</footer>
 		
     
@@ -296,14 +332,24 @@
 
     
 <script type="application/javascript">
-var doNotTrack = false;
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-146012578-1', 'auto');
-	
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-146012578-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
 }
 </script>

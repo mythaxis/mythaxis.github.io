@@ -34,6 +34,42 @@
 	
 
 	
+		
+		#intro h1 {
+			
+			color: #E8BF25;
+		}
+	
+
+	@media screen and (min-width: 736px) {
+		#intro {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			
+			
+		}
+		
+		#intro h1 {
+			
+			
+			
+			
+		}
+		
+
+		
+		
+		
+		#intro ul.actions {
+			
+			
+			flex-grow: 2;
+			align-self: flex-start;
+			align-items: flex-end;
+		}
+		
+	}
 </style>
 
 
@@ -355,7 +391,7 @@ he soft chime of an admittance request interrupted Scarlene’s hastily thrown t
 				
 			    	<em><strong>Charlotte H. Lee</strong></em> <em>spends her days pondering how best to smash all the boxes people want to keep the world in. It doesn’t matter whether it’s through telling stories to challenge others how we see life, or pushing herself to stretch her own brain in new ways. Her stories have appeared in</em> Little Blue Marble, Metaphorosis, The Overcast, <em>and others. You can find links to her published work at <a href="https://charlottehlee.com">www.charlottehlee.com</a>.</em></p>
 			    <p>© Charlotte H. Lee 2021 All Rights Reserved</p>
-			    <p>The title picture was created using VQGAN+ seeded with a Creative Commons image by <a href="susnpics">https://pixabay.com/photos/beach-ice-sea-shore-iceland-6847276/</a> and the prompt phrase &lsquo;Oil painting of a vast building on the surface of Mars&rsquo;. A video of the VQGAN+ process can be seen <a href="here">https://youtu.be/F7G0IPU43fA</a>.</p>
+			    <p>The title picture was created using VQGAN+ seeded with a Creative Commons image by <a href="https://pixabay.com/photos/beach-ice-sea-shore-iceland-6847276/">susnpics</a> and the prompt phrase &lsquo;Oil painting of a vast building on the surface of Mars&rsquo;. A video of the VQGAN+ process can be seen <a href="https://youtu.be/F7G0IPU43fA">here</a>.</p>
 			</footer>
 		
     
@@ -386,14 +422,24 @@ he soft chime of an admittance request interrupted Scarlene’s hastily thrown t
 
     
 <script type="application/javascript">
-var doNotTrack = false;
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-146012578-1', 'auto');
-	
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-146012578-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
 }
 </script>

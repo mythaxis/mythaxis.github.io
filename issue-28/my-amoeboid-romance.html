@@ -34,6 +34,42 @@
 	
 
 	
+		
+		#intro h1 {
+			
+			color: #E8BF25;
+		}
+	
+
+	@media screen and (min-width: 736px) {
+		#intro {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			
+			
+		}
+		
+		#intro h1 {
+			
+			
+			
+			
+		}
+		
+
+		
+		
+		
+		#intro ul.actions {
+			
+			
+			flex-grow: 2;
+			align-self: flex-start;
+			align-items: flex-end;
+		}
+		
+	}
 </style>
 
 
@@ -188,7 +224,7 @@ ime no longer being what it once was for me, I’m not certain of the exact date
 				
 			    	<em><strong>Hermester Barrington</strong></em> <em>is a retired archivist, a haiku poet, and a deliberately genre-ignorant artist whose most recently published ficciones have appeared in</em> Kzine, Fate Magazine, <em>and</em> Peculiar Mormyrid. <em>For over four decades, he and his impossibly beautiful wife Fayaway have traveled the round earth’s imagined corners in search of invisible books, hitherto unrecognized protozoans, and paranormal phenomena. He and Fay are writing a biography of pop singer Mrs. Miller, tentatively titled</em> Soul of Iron, Heart of Gold, Voice of Fluttering Quicksilver. <em>From sundown until cockcrow, he roosts at <a href="https://www.facebook.com/Hermester-Barrington-143491749048273">Facebook</a>.</em></p>
 			    <p>© Hermester Barrington 2021 All Rights Reserved</p>
-			    <p>The title picture was created using VQGAN+ seeded with a Creative Commons image by [https://www.pexels.com/photo/man-facing-sideways-428364/](Spencer Selover) and the phrase &lsquo;a man made of bacteria&rsquo;, composited with its source plus an element from <a href="kate_krav">https://pixabay.com/photos/photos-pictures-people-antique-889168/</a>. A video of the VQGAN+ process can be seen <a href="here">https://youtu.be/8yVsJC-Y010</a>.</p>
+			    <p>The title picture was created using VQGAN+ seeded with a Creative Commons image by <a href="https://www.pexels.com/photo/man-facing-sideways-428364/">Spencer Selover</a> and the phrase &lsquo;a man made of bacteria&rsquo;, composited with its source plus an element from <a href="https://pixabay.com/photos/photos-pictures-people-antique-889168/">kate_krav</a>. A video of the VQGAN+ process can be seen <a href="https://youtu.be/8yVsJC-Y010">here</a>.</p>
 			</footer>
 		
     
@@ -219,14 +255,24 @@ ime no longer being what it once was for me, I’m not certain of the exact date
 
     
 <script type="application/javascript">
-var doNotTrack = false;
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
 if (!doNotTrack) {
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-146012578-1', 'auto');
-	
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-146012578-1', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
 	ga('send', 'pageview');
 }
 </script>
