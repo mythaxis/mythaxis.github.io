@@ -11,9 +11,9 @@ image: images/The-AI-Issue-sml.jpg
 
 imageCopyright: "**ISSUE 28** - ***Thanks and Salutations!***
 
-Cover art created by Andrew Leon Hudson using four VQGAN+ images, plus the compass by [https://depositphotos.com/64218559/stock-illustration-vector-vintage-compass-rose.html](Fourleaflovers).
+Cover art created by Andrew Leon Hudson using four VQGAN+ images, plus the compass by [Fourleaflovers](https://depositphotos.com/64218559/stock-illustration-vector-vintage-compass-rose.html).
 
-A little redundant to say at this point, but maximum thanks go to [Katherine Crowson](https://twitter.com/RiversHaveWings), creator of the VQGAN+ version used, as well as to [Adverb](@advadnoun) who originated the approach of combining VQGAN and CLIP, and [@somewheresy](@somewheresy) who translated the original Spanish-language notebook to English."
+A little redundant to say at this point, but maximum thanks go to [Katherine Crowson](https://twitter.com/RiversHaveWings), creator of the VQGAN+ version used, as well as to [Adverb](https://twitter.com/advadnoun) who originated the approach of combining VQGAN and CLIP, and [@somewheresy](https://twitter.com/somewheresy) who translated the original Spanish-language notebook to English."
 
 type: page
 slug: editorial
