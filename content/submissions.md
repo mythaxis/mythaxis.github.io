@@ -7,9 +7,9 @@ type: page
 slug: submissions
 ---
 
-***Mythaxis* is currently OPEN to submissions!**
+***Mythaxis* is currently CLOSED to submissions.**
 
-As of **2021**, *Mythaxis* will be published four times a year, and is periodically open to submissions within the following schedule: 
+*Mythaxis* is published four times a year, and is periodically open to submissions within the following schedule: 
 
 - **January 23rd-30th**
 - **April 23th-30th**
@@ -21,17 +21,17 @@ Submissions received outside of these dates will unfortunately be lost and there
 - **Length**: 1,000-7,500 words. This is a firm limit. Generally speaking, the further a story goes beyond 5,000 words the more it will need to impress, but the door is not shut in advance.
 - **Compensation**: $20 on acceptance and return of contract. Payment via PayPal only.
 
-We aim to acknowledge submissions the same day they are received. If you do not receive an acknowledgment within 24 hours of submission, please get in touch. Please limit yourself to a maximum of two submissions within any window, and **please wait until receiving a first rejection notice before submitting a second time**.
-
-We aim to accept or reject within 14 days of acknowledgment, but rl (real life) and rl (reading load) can get in the way. If you do not hear from us after 30 days, feel free to query.
+If you do not receive an acknowledgment within 24 hours of submission, please get in touch. We aim to accept or reject within 14 days of acknowledgment, but rl (real life) and rl (reading load) can get in the way. If you do not hear from us after 30 days, feel free to query.
 
 We require **First Print and Digital rights with a six month period of exclusivity** from the date of publication. We also ask permission to potentially include accepted pieces in future anthologies, in event of which an additional full payment and digital copy will be offered in compensation. All other rights remain entirely with the author.
 
 **Simultaneous submissions are not only accepted, they are encouraged**. We merely ask that you notify us of acceptance at another market as soon as possible. In the event that we accept first we would expect a positive confirmation, so we recommend sim-subbing to markets of equivalent status - we won't want to wait for someone else you'd like better to turn you down...
 
-**We do not currently invite reprint submissions**. 
+**Please wait until receiving a rejection notice before submitting a second time**.
 
 **If a story has previously been rejected by *Mythaxis*, please do not resubmit** or inquire regarding doing so, unless explicitly invited to by the editor during the original rejection.
+
+**We do not currently invite reprint submissions**. 
 
 **All submissions must be the original work of the author**. This is not a market for fan fiction. If your story is a retelling, pastiche, or homage, please mention in your email the source you are alluding to.
 
