@@ -9,7 +9,7 @@ slug: submissions
 
 ***Mythaxis* is currently CLOSED to submissions.**
 
-*Mythaxis* is published four times a year, and is periodically open to submissions within the following schedule: 
+*Mythaxis* is published four times a year, and is open to submissions within the following periods: 
 
 - **January 23rd-30th**
 - **April 23th-30th**
