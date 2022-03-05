@@ -25,11 +25,29 @@
 	<link rel="stylesheet" href='../assets/css/overrides.css' />
 <style type="text/css">
 	#wrapper > .bg {
-	    background-image: url(/issue-27/images/True-Worship.jpg);
-	    	background-size: 100% auto;
-			background-position: top center;
-			background-repeat: no-repeat;
+		  
+		 
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: 
+			linear-gradient(0deg,
+				rgba(255,255,255,1) 5%,
+				rgba(255,255,255,0.50) 10%,
+				rgba(255,255,255,0) 20%
+			)
+			,
+			url(/issue-27/images/True-Worship.jpg
+		);
+		background-size: auto, 100% auto;
+		background-position: bottom, top center;
+		background-repeat: no-repeat, no-repeat;
+		background-attachment: no-scroll, scroll;
 	}
+
+
 
 	
 	@media screen and (max-width: 980px) {
@@ -73,7 +91,7 @@
 
 
 	<title>Silverfish, Noun; Help, Verb — Mythaxis Magazine Issue 27 — MYTHAXIS MAGAZINE</title>
-	<meta name="generator" content="Hugo 0.92.1" />
+	<meta name="generator" content="Hugo 0.93.2" />
 	<meta name="keywords" content="Mythaxis Magazine Science Fiction and Fantasy Modern Fiction">
 	<meta name="description" content="Speculative Fiction Without Distraction" />
 	
