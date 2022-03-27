@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/issue-29/unincorporated.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-28/e-pluribus-unum.html</loc>
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -19,6 +22,9 @@
   </url><url>
     <loc>/issue-23/newest-profession.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-29/gold-plumes-on-daoodhi-hills.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-28/fly-away-peter.html</loc>
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
@@ -38,6 +44,9 @@
     <loc>/issue-23/sedona-house.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/issue-29/fractured.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-28/marciano.html</loc>
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -55,6 +64,9 @@
   </url><url>
     <loc>/issue-23/curse-midnight.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-29/xorais-hand.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-28/how-to-get-ai-to-like-you.html</loc>
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
@@ -74,6 +86,9 @@
     <loc>/issue-23/alight.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/issue-29/the-woodcutter-and-the-witchwife.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-28/come-buy-come-buy.html</loc>
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -92,6 +107,9 @@
     <loc>/issue-23/huntress-conveyor.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/issue-29/the-cross-of-xenophor.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-28/the-maneater-of-tiruchery.html</loc>
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -109,6 +127,9 @@
   </url><url>
     <loc>/issue-23/third-martian-dick-temple.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-29/in-the-weave.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-28/cuffs-padlocks-and-a-splattering-of-nail-polish.html</loc>
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
@@ -161,10 +182,49 @@
     <loc>/issue-23/everythings-jake.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/aaron-emmel.html</loc>
-    <lastmod>2021-12-20T00:00:00+00:00</lastmod>
+    <loc>/authors/andrew-leon-hudson.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/celine-low.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/david-whitmarsh.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-29/editorial.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/erik-mann.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/gunnar-de-winter.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-29.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/jeffery-scott-sims.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/mandira-pattnaik.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-29/</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/owen-g.-tabard.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-29/contents.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/aaron-emmel.html</loc>
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/chaitanya-murali.html</loc>
@@ -186,9 +246,6 @@
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/mame-bougouma-diene.html</loc>
-    <lastmod>2021-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-28/</loc>
@@ -299,16 +356,10 @@
     <loc>/issue-25/contents.html</loc>
     <lastmod>2021-03-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/andrew-leon-hudson.html</loc>
-    <lastmod>2020-12-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/issue-28/editorial.html</loc>
     <lastmod>2020-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/addison-smith.html</loc>
-    <lastmod>2020-12-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors/david-whitmarsh.html</loc>
     <lastmod>2020-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-24/editorial.html</loc>
@@ -372,9 +423,6 @@
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-23.html</loc>
-    <lastmod>2020-08-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors/jeffery-scott-sims.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/liam-baldwin.html</loc>
