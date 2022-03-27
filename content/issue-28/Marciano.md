@@ -335,4 +335,4 @@ There was never—*never*—going to be an end to Ingmar’s gloating.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Fly Away, Peter** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/390786792842319).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Marciano** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/390786792842319).*
