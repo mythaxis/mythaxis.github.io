@@ -9,7 +9,7 @@ authors:
 copyright: '© Mandira Pattnaik 2022 All Rights Reserved'
 showAuthorFooter: true
 
-description: "Mandira Pattnaik is the fifth Indian author to appear in Mythaxis, and her contribution only adds to the wealth of variety they've brought. We've had lyrical so-called supernatural stalking; extra-terrestrial slapstick horror; hunters for retribution, both mundane and divine; and now, a contemplative, understated ecological fantasy about loss and rebirth."
+description: "Mandira Pattnaik has been published in a startling number of forums around the world, and her work includes poetry, non-fiction, and (fortunately for us!) short stories. Here she provides a contemplative, understated ecological fantasy about loss and rebirth."
 
 image: images/GoldenPlumes.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [nandhukumar](https://pixabay.com/photos/girl-mountain-sunrise-woman-3855529/), [jplenio](https://pixabay.com/photos/grass-autumn-morning-dew-sunset-3765172/), and [VictoryRock](https://pixabay.com/photos/sunset-ocean-sky-clouds-sea-969100/)."
