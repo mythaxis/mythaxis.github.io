@@ -37,7 +37,7 @@ The photograph she knew would be here.
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-{{<glyph>}}“T{{</glyph>}}“This bus is so hot,” said Bert.
+{{<glyph>}}“T{{</glyph>}}his bus is so hot,” said Bert.
 
 Frank Flowers, seated next to Bert, feigned sleep with his eyes closed and head back on the seat rest. This did nothing to compel Bert into quiet.
 
@@ -259,7 +259,7 @@ Her eyes widened and turned hard. “You! I showed you that picture and then the
 
 “I don’t believe that was part of my report,” he said. “But if I caused that, I apologize. That seems heavy handed for the situation.”
 
-“And it *wasn**’t* a goat,” she said. “Everyone on that bus knew it wasn’t a goat. Everyone employed by AGCorp knows that dogs existed.”
+“And it *wasn’t* a goat,” she said. “Everyone on that bus knew it wasn’t a goat. Everyone employed by AGCorp knows that dogs existed.”
 
 Frank did not reply.
 
