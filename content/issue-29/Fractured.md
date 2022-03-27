@@ -9,7 +9,7 @@ authors:
 showAuthorFooter: true
 copyright: '© Gunnar De Winter 2022 All Rights Reserved'
 
-description: "The experiences of the neuroatypical—including of being surrounded by the supposedly monolythically typical—are often depicted as a no-win feedback loop, made worse as much by attempts to bring poor sufferers into the norm as by abandonment to their fate. But context is everything, and if in space no one can hear you scream, perhaps it's because you no longer feel the urge."
+description: "The experiences of the neuroatypical—including of being surrounded by the supposedly monolythically typical—are often depicted as a no-win feedback loop, made worse as much by attempts to bring poor sufferers into the norm as by abandonment to their fate. But Gunnar De Winter's story points out that context is everything, and if in space no one can hear you scream, perhaps it's because you no longer feel the urge."
 
 image: images/Fractured.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [jplenio ](https://pixabay.com/photos/lightning-sky-night-clouds-stars-6675888/) [Lars_Nissen](https://pixabay.com/photos/drone-flying-drone-quadrocopter-3198323/), and [422737](https://pixabay.com/photos/harley-davidson-motorcycles-chrome-459593/)."
@@ -401,4 +401,4 @@ Lightning welcomes me.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Fractured** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Fractured** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/451937123393952).*
