@@ -61,4 +61,4 @@ The Blind Man sighed dreamily, lovingly cradling the ornate object, pressing it 
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **The Cross of Xenophor** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **The Cross of Xenophor** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/451933026727695).*

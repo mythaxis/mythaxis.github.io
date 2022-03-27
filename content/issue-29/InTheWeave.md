@@ -403,4 +403,4 @@ She met my gaze with her two eyes, and then she died.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **In The Weave** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **In The Weave** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/451926923394972).*

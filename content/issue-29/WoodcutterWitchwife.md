@@ -87,4 +87,4 @@ When the moon rose on that longest of nights, and his heart was swelled with hop
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **The Woodcutter and the Witchwife** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **The Woodcutter and the Witchwife** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/451934546727543).*

@@ -177,5 +177,5 @@ Soon, the goldfinches will swoop down again, and come to be in their midst, cooi
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Gold Plumes on Daoodhi Hills** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Gold Plumes on Daoodhi Hills** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/451938173393847).*
 
