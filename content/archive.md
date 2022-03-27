@@ -10,6 +10,7 @@ slug: archive
 
 ## Back Issues
 
+- [Issue&nbsp;28: Winter 2021]({{< relref "/issue-28/__index.md" >}})
 - [Issue&nbsp;27: Autumn 2021]({{< relref "/issue-27/__index.md" >}})
 - [Issue&nbsp;26: Summer 2021]({{< relref "/issue-26/__index.md" >}})
 - [Issue&nbsp;25: Spring 2021]({{< relref "/issue-25/__index.md" >}})
