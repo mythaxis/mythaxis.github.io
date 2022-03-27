@@ -291,7 +291,7 @@ I looked to that sad corner of the nest where Grandmother used to lie.
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-{{<glyph>}}T{{</glyph>}}he stranger returned on the third day. I saw her nest appear in the sky, and descend on a column of fire to rest again in the shelter of the cliff. It’s path erratic as the wind caught and buffeted it, but it came to rest in the same place.
+{{<glyph>}}T{{</glyph>}}he stranger returned on the third day. I saw her nest appear in the sky, and descend on a column of fire to rest again in the shelter of the cliff. Its path erratic as the wind caught and buffeted it, but it came to rest in the same place.
 
 *You come from above the clouds,* I said to her.
 
