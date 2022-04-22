@@ -7,7 +7,7 @@ type: page
 slug: submissions
 ---
 
-***Mythaxis* is currently CLOSED to submissions.**
+***Mythaxis* is currently OPEN to submissions!**
 
 *Mythaxis* is published four times a year, and is open to submissions within the following periods: 
 
@@ -25,7 +25,7 @@ If you do not receive an acknowledgment within 24 hours of submission, please ge
 
 We require **First Print and Digital rights with a six month period of exclusivity** from the date of publication. We also ask permission to potentially include accepted pieces in future anthologies, in event of which an additional full payment and digital copy will be offered in compensation. All other rights remain entirely with the author.
 
-**Simultaneous submissions are not only accepted, they are encouraged**. We merely ask that you notify us of acceptance at another market as soon as possible. In the event that we accept first we would expect a positive confirmation, so we recommend sim-subbing to markets of equivalent status - we won't want to wait for someone else you'd like better to turn you down...
+**Simultaneous submissions are not only accepted, they are encouraged**. Please tell us if you are, and we merely ask that you notify us of acceptance at another market as soon as possible. In the event that we accept first we would expect a positive confirmation, so we recommend sim-subbing to markets of equivalent status - we won't want to wait for someone else you'd like better to turn you down...
 
 **Please wait until receiving a rejection notice before submitting a second time**.
 
@@ -81,6 +81,6 @@ Straightforward manuscript formatting is preferred for editorial convenience. We
 
 If you would like to receive feedback on your story when we respond, please say so and we shall try to provide something constructive to consider. And if you absolutely do *not* want to receive feedback, telling us in advance is just fine too!
 
-If you track your submissions, you can find ***Mythaxis Magazine*** on [The Submissions Grinder](https://thegrinder.diabolicalplots.com/Market?id=10939#).
+If you track your submissions, you can find ***Mythaxis Magazine*** on [The Submissions Grinder](https://thegrinder.diabolicalplots.com/Market?id=10939#) and [Duotrope](https://duotrope.com/listing/10263/mythaxis-magazine).
 
 And finally, if you would like to know more about our editorial policy, [read on here]({{< relref path="editorial policy.md" >}}). Any inquiries can be directed to the editor at the above email address.
