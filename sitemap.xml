@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/issue-30/liminal-spaces.html</loc>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-29/unincorporated.html</loc>
     <lastmod>2022-03-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -22,6 +25,9 @@
   </url><url>
     <loc>/issue-23/newest-profession.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-30/an-odd-recurring-dream.html</loc>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-29/gold-plumes-on-daoodhi-hills.html</loc>
     <lastmod>2022-03-27T00:00:00+00:00</lastmod>
@@ -44,6 +50,9 @@
     <loc>/issue-23/sedona-house.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/issue-30/alonya-and-ivan.html</loc>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-29/fractured.html</loc>
     <lastmod>2022-03-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -64,6 +73,9 @@
   </url><url>
     <loc>/issue-23/curse-midnight.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-30/the-quartermaster-trial.html</loc>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-29/xorais-hand.html</loc>
     <lastmod>2022-03-27T00:00:00+00:00</lastmod>
@@ -107,6 +119,11 @@
     <loc>/issue-23/huntress-conveyor.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/issue-30/jacob-and-the-wolf.html</loc>
+  </url><url>
+    <loc>/issue-30/where-the-heart-is.html</loc>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-29/the-cross-of-xenophor.html</loc>
     <lastmod>2022-03-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -127,6 +144,9 @@
   </url><url>
     <loc>/issue-23/third-martian-dick-temple.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-30/intercalary-time.html</loc>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-29/in-the-weave.html</loc>
     <lastmod>2022-03-27T00:00:00+00:00</lastmod>
@@ -182,11 +202,44 @@
     <loc>/issue-23/everythings-jake.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/authors/alexander-zalben.html</loc>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/authors/andrew-leon-hudson.html</loc>
-    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors.html</loc>
-    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/daniel-ausema.html</loc>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/david-farrow.html</loc>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-30/editorial.html</loc>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/elana-gomel.html</loc>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-30.html</loc>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/james-davidson.html</loc>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-30/</loc>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-30/contents.html</loc>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/thorin-n.-tatge.html</loc>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/celine-low.html</loc>
     <lastmod>2022-03-27T00:00:00+00:00</lastmod>
@@ -210,9 +263,6 @@
     <lastmod>2022-03-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/mandira-pattnaik.html</loc>
-    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2022-03-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-29/</loc>
@@ -413,9 +463,6 @@
     <loc>/authors/christopher-cook.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/daniel-ausema.html</loc>
-    <lastmod>2020-08-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/authors/dennis-mombauer.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
@@ -460,6 +507,8 @@
     <loc>/authors/fabiyas-m.-v..html</loc>
   </url><url>
     <loc>/issues.html</loc>
+  </url><url>
+    <loc>/authors/rina-song.html</loc>
   </url><url>
     <loc>/tags.html</loc>
   </url>
