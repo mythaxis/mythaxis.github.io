@@ -15,7 +15,7 @@ image: images/JacobWolf10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [neshom](https://pixabay.com/photos/door-open-wooden-the-next-doorway-1089638/) and [sandrapetersen](https://pixabay.com/photos/wolf-eye-fur-wild-animal-wildlife-1352242/)."
 
 type: stock
-slug: Jacob-and-the-Wolf
+slug: jacob-and-the-wolf
 weight: 5
 ---
 
