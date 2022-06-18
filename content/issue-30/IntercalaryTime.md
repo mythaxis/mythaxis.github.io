@@ -15,7 +15,7 @@ image: images/IntercalaryTime10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Alexandra_Koch](https://cdn.pixabay.com/photo/2018/02/04/18/56/polaroid-3130567__340.jpg) [videorevive](https://cdn.pixabay.com/photo/2014/10/07/18/36/possum-478162__340.jpg), [StormmillaGirl](https://cdn.pixabay.com/photo/2017/02/06/12/34/reptile-2042906__340.jpg), and [Antranias](https://cdn.pixabay.com/photo/2022/05/25/07/55/boat-7219989__340.jpg)."
 
 type: stock
-slug: Intercalary-Time
+slug: intercalary-time
 weight: 7
 ---
 
