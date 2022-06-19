@@ -9,7 +9,7 @@ authors:
 showAuthorFooter: true
 copyright: '© David Farrow 2022 All Rights Reserved'
 
-description: "If you've had the pleasure of reading David Farrow's 'Neverglades' series, then you'll know he has an affinity for unreliable and ambiguous places, for injecting horror into the mundane world. Here we experience a dislocated life, slipping through the cracks towards whatever waits beyond — but then, maybe the best case scenario would be that life is but a transitional stage…"
+description: "If you've had the pleasure of reading David Farrow's 'Neverglades' series, then you'll know he has an affinity for unreliable and ambiguous places, for injecting horror into the mundane world. Here we experience a dislocated life, slipping through the cracks towards whatever waits beyond — but then, maybe the best case scenario would be that life itself is but a transitional stage…"
 
 image: images/LiminalSpaces10x6.jpg
 imageCopyright: "The title picture was created using a Creative Commons image by [Benjamin Suter](https://www.pexels.com/photo/person-walking-on-street-between-buildings-3617457/) - many thanks!"
