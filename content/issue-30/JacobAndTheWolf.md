@@ -227,4 +227,4 @@ It licked the remaining viscera from its fur and pushed the office chair back un
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Jacob and the Wolf** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Jacob and the Wolf** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/507930317794632).*
