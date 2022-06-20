@@ -239,4 +239,4 @@ The good thing about cabs, you think, is that they have destinations. Maybe this
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Liminal Spaces** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Liminal Spaces** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/507932501127747).*
