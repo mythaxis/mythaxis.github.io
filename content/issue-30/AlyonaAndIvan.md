@@ -183,5 +183,5 @@ I dragged some branches over the body that was not my brother’s. And then I wa
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Alyona and Ivan** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Alyona and Ivan** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/507931441127853).*
 
