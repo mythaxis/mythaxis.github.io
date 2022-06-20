@@ -157,4 +157,4 @@ That night, I dream I’m at the Pleasure Feast, surrounded by the most beautifu
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **An Odd Recurring Dream** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **An Odd Recurring Dream** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/507932287794435).*
