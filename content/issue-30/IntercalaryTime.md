@@ -421,4 +421,4 @@ Trash got up. “You are such a spaz, lady. I love it though.” She gave the ko
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Intercalary Time** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Intercalary Time** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/507929261128071).*
