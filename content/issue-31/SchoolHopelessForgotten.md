@@ -129,4 +129,4 @@ His head was flat against the pillow, yet he felt dizzy. “What are you saying?
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **The School for the Hopeless and Forgotten** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **The School for the Hopeless and Forgotten** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/546522874147370).*
