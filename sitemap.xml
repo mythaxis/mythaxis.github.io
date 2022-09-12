@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/issue-31/boy-with-brick.html</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-30/liminal-spaces.html</loc>
     <lastmod>2022-06-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -25,6 +28,9 @@
   </url><url>
     <loc>/issue-23/newest-profession.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-31/the-gourmets.html</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-30/an-odd-recurring-dream.html</loc>
     <lastmod>2022-06-18T00:00:00+00:00</lastmod>
@@ -50,6 +56,9 @@
     <loc>/issue-23/sedona-house.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/issue-31/nwanebeakwa.html</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-30/alonya-and-ivan.html</loc>
     <lastmod>2022-06-18T00:00:00+00:00</lastmod>
   </url><url>
@@ -73,6 +82,9 @@
   </url><url>
     <loc>/issue-23/curse-midnight.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-31/tyrannosaurus-mechs.html</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-30/the-quartermaster-trial.html</loc>
     <lastmod>2022-06-18T00:00:00+00:00</lastmod>
@@ -98,6 +110,12 @@
     <loc>/issue-23/alight.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/issue-31/nighthawks.html</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-30/jacob-and-the-wolf.html</loc>
+    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-29/the-woodcutter-and-the-witchwife.html</loc>
     <lastmod>2022-03-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -119,7 +137,8 @@
     <loc>/issue-23/huntress-conveyor.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/issue-30/jacob-and-the-wolf.html</loc>
+    <loc>/issue-31/the-school-for-the-hopeless-and-forgotten.html</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-30/where-the-heart-is.html</loc>
     <lastmod>2022-06-18T00:00:00+00:00</lastmod>
@@ -144,6 +163,9 @@
   </url><url>
     <loc>/issue-23/third-martian-dick-temple.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-31/tip-diebaecks-mentha-b-wild.html</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-30/intercalary-time.html</loc>
     <lastmod>2022-06-18T00:00:00+00:00</lastmod>
@@ -202,13 +224,49 @@
     <loc>/issue-23/everythings-jake.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/alexander-zalben.html</loc>
-    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/authors/andrew-leon-hudson.html</loc>
-    <lastmod>2022-06-18T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/anna-zumbro.html</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors.html</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/chinaza-eziaghighala.html</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-31/editorial.html</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/gregory-l.-norris.html</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-31.html</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/jeff-reynolds.html</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/marc-phillips.html</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-31/</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/si-wang.html</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/sydney-sackett.html</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-31/contents.html</loc>
+    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/alexander-zalben.html</loc>
     <lastmod>2022-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/daniel-ausema.html</loc>
@@ -229,10 +287,10 @@
     <loc>/authors/james-davidson.html</loc>
     <lastmod>2022-06-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>/issue-30/</loc>
     <lastmod>2022-06-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/issue-30/</loc>
+    <loc>/authors/rina-song.html</loc>
     <lastmod>2022-06-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-30/contents.html</loc>
@@ -373,9 +431,6 @@
     <loc>/issue-26/contents.html</loc>
     <lastmod>2021-06-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/authors/gregory-l.-norris.html</loc>
-    <lastmod>2021-03-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/issue-25.html</loc>
     <lastmod>2021-03-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -507,8 +562,6 @@
     <loc>/authors/fabiyas-m.-v..html</loc>
   </url><url>
     <loc>/issues.html</loc>
-  </url><url>
-    <loc>/authors/rina-song.html</loc>
   </url><url>
     <loc>/tags.html</loc>
   </url>
