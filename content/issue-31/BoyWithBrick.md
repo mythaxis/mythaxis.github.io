@@ -167,4 +167,4 @@ Brutus rocks the cage harder than any of them, with bleeding palms he cannot pos
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Boy with Brick** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Boy with Brick** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/546528440813480).*
