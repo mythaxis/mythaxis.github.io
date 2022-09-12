@@ -143,6 +143,34 @@ The boy quiets down for the night, but the young man can’t seem to sleep anywa
 
 ![Orbit-sml ><](images/Orbit.svg)
 
+{{<glyph>}}I{{</glyph>}}n a small, upright tube of a ring, filled with water knee-deep, the man faces down a far older one. Scarred and pitted from his brows to his shins, with the rippled tissue on his knuckles marking how many times the docs have stitched him back together, this is an ex-fighter. They have finally put him out for retirement.
+
+The huge man with the iron shoulders and cracked teeth and great millwheel fists is their retirer. Nobody has beaten him in a long time. The fighting and roaring and endless rewards have been dwindling. For the watchers, because he isn’t struggling anymore, he’s started to bore them.
+
+When he’s good enough to take anything they can throw at him, there’s no point throwing it.
+
+“Come on and put your fists up. I’ll give you a freebie,” the man says, without much energy in it. The watchers are baying for something good, something fresh. The scarface is giving him nothing. He can’t blame him. He never had a chance against the king.
+
+“Against those cannons? With my derringers?” says the scarface, with a smile nothing like the blood-grin of the ring. He actually reaches out to squeeze one of the man’s biceps. The watchers laugh, but derisively, impatiently. They fling trash down to bob in the rank water.
+
+“You’ve grown up hard, haven’t you,” says the scarface, with the same sad, warm smile, and something pings in the man’s head, in a place he hasn’t tried to look for a long time, and this is going wrong. He should be sowing this old wreck’s teeth around the ring like corn. But he’s standing here in the cold water, seven feet of scar tissue and muscle, like a goon with nothing in the world but cannons for arms.
+
+“Into what?” he asks, pulse clumsy in his mouth. The watchers are silent. It isn’t supposed to be happening this way. Everything’s gone all wrong. “Grown into what?”
+
+The wiry scarface spreads his arms, old muscle withered and kindly eyes set in a cracked face of so much memory. And he doesn’t have to say it, because the man sees it all in a moment, the terrible train of thought that will end nowhere he wants to go—will end here, in the ring again, when they are tired of him and there is a new arrogant king who will retire him one day like a broken dog—
+
+And he will spread his arms like this, giving the opening, asking to be ended, to be beaten. Nameless and unknown. When he is better than what they can do to him.
+
+“I can’t— ” He staggers, water sloshing sickly around his legs. “I don’t—”
+
+He breaks the scarface’s neck with a simple lock and twist. The body falls into the water without blood, and floats on its front, washing peacefully up and down.
+
+All of them sleeping in a swaying nest, waiting for their turn to drown. And they agree to it.
+
+Nobody cheers for him. The dirty water washes out and soaks the dark floors inside when they open the gate.
+
+![Orbit-sml ><](images/Orbit.svg)
+
 {{<glyph>}}“I{{</glyph>}} want to go home,” the new boy sobs. “I want my daddy. I want my mum. Please let me out of here. *Please."*
 
 “Shut *up,* kid,” Blazer snaps. The ruthless, ruin-faced hunter who can’t see worth twopence but can sniff you out and shred you with the metal shards of his hands. “They can’t hear you. Shut up and just listen.”
