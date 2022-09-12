@@ -29,7 +29,7 @@ All the art in the present issue of *Mythaxis* was created using *Midjourney*, w
 
 A lot is made of how Artificial Intelligence is going to take over all our jobs; how it can already compose music easily mistaken for the work of history's greats; and how its often amusing attempts at creative writing seem less laughable with each new viral report. Ever since our first *visual* experiment with using AI, we behind the scenes at *Mythaxis* have discussed how to further explore the potential of AI in the field of magazine publishing. And, after much debate, we've come to the conclusion that the one expendable participant, the most toothless cog in our machine, the weak link in our chain, the fifth wheel to replace, is...
 
-The Editor.
+*The Editor*.
 
 I won't deny, this came as a bit of a blow. Nevertheless, to this end I enthusiastically joined in plotting my own downfall, and I can confirm that the first step on the path to my own obsolescence has now been taken, because we are indeed training up an AI to replace me. But it's going to have to prove itself before I hand over the reins. And I suspect I've got a little while in the hot seat ahead of me yet.
 
@@ -41,8 +41,8 @@ In fact, of my eight acceptances that window, my so-called replacement rejected 
 
 However, maybe this isn't terribly surprising. It should be noted that seventy-four stories is not a very large sample size. Also, that the characteristics of the stories we publish vary in many different ways: from flash fiction to long shorts, science fiction to fantasy to horror, written in flavours (or flavors) of English from American and British to those influenced by fluency in other languages. There's a lot of complexity, in short—not least, I would hope, in the thing we're actually attempting to simulate here: ***me***.
 
-Therefore, we plan to persist. We plan to refine our strategies, and educate our little monster. We're calling it the **Slushbot**. Starting now, every three months our currently oh-so-limited AI will have a chance to test itself against my judgement. As new submissions come into the slush pile, I will make my choices, and Slushbot will make its. My taste is impeccable; we will see if Slushbot's taste improves.
+Therefore, we shall persist. We plan to refine our strategies, and educate our little monster. We're calling it the **Slushbot**. Starting now, every three months our currently oh-so-limited AI will have a chance to test itself against my judgement. As new submissions come into the slush pile, I will make my choices, and Slushbot will make its. My taste is impeccable; we will see if Slushbot's taste improves.
 
 We do all this with a goal in mind: we hope to be the first magazine edited by an AI. *So, should it ever match my picks from a window's submissions to a sufficiently frightening extent, **Slushbot will get to edit an issue of Mythaxis***. For one window, we will give it the final say over which stories to include, and I will go on holiday.
 
-Guess I'd better start packing my bags... you know, sooner or later. Next year maybe. Or whenever hell freezes over!
+Guess I'd better start packing my bags... you know, sooner or later. Next year maybe. Or whenever hell freezes over. Under a blue moon. As a pig flies over it.
