@@ -1,6 +1,6 @@
 ---
 title: "Jacob and the Wolf"
-date: 2022-06-218
+date: 2022-06-18
 issue: Issue 30
 
 author: Rina Song
