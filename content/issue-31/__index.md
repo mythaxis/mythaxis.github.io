@@ -1,5 +1,5 @@
 ---
-title: "Mythaxis Magazine Issue 30"
+title: "Mythaxis Magazine Issue 31"
 date: 2022-09-12
 slug: index
 layout: section
