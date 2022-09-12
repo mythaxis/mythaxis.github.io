@@ -161,7 +161,7 @@ The wiry scarface spreads his arms, old muscle withered and kindly eyes set in a
 
 And he will spread his arms like this, giving the opening, asking to be ended, to be beaten. Nameless and unknown. When he is better than what they can do to him.
 
-“I can’t— ” He staggers, water sloshing sickly around his legs. “I don’t—”
+“I can’t—” He staggers, water sloshing sickly around his legs. “I don’t—”
 
 He breaks the scarface’s neck with a simple lock and twist. The body falls into the water without blood, and floats on its front, washing peacefully up and down.
 
