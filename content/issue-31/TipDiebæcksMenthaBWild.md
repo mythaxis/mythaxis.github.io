@@ -141,4 +141,4 @@ Please note: you are eligible for a full refund only if you do not open any of t
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Tip Diebæck’s Mentha b. Wild** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Tip Diebæck’s Mentha b. Wild** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/546519367481054).*
