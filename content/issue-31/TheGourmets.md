@@ -9,7 +9,7 @@ authors:
 showAuthorFooter: true
 copyright: '© Jeff Reynolds 2022 All Rights Reserved'
 
-description: "There's supposed to be nothing quite like a good, satisfying meal, but Jeff Reynolds has an appetite-whetting recipe to defy that claim: take one very odd pear — excuse me, 'pair' — and marinade in mixed fantasy, sprinkle on a little humor, add a dash of horror, and then raise the steaks to boiling point — I mean 'stakes' — ah, enough with the puns, you get the idea…"
+description: "There's supposed to be nothing quite like a good, satisfying meal, but Jeff Reynolds has an appetite-whetting recipe to defy that claim: take one very odd pear — excuse me, 'pair' — and marinate in mixed fantasy, sprinkle on a little humor, add a dash of horror, and then raise the steaks to boiling point — I mean 'stakes' — ah, enough with the puns, you get the idea…"
 
 image: images/TheGourmets.jpg
 imageCopyright: "The title picture was composited from three images created using [Midjourney](https://www.midjourney.com/home/), the AI image generator."
