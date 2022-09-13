@@ -51,7 +51,7 @@ No, that was a lie. That was *Lang’s* first memory of Imogen.
 
 Imogen’s first memory of me was when I came home from the lab, wrapped in a thermal blanket. She touched my face and said, “You look exactly like him.” But I would never be the same thing to Imogen as she was to me. Like a river dividing into two, my life had diverged.
 
-I wondered if Imogen finally decided to leave for the communities out in the Sierras. They’d had several fights about it. Did she leave without telling me? She wouldn’t have left without Lang.
+I wondered if Imogen finally decided to leave for the communities out in the Sierras. We've had several fights about it. Did she leave without telling me? She wouldn’t have left without Lang.
 
 ![Orbit-sml ><](images/Orbit.svg)
 
@@ -326,22 +326,6 @@ Amaya stared at Lang for a moment. “You should come with me. Both of you.”
 “You really mean it?”
 
 “Hurry up and get moving before I change my mind.” Amaya wore a smirk that I had never seen Imogen make before, a strange, comforting smile on a familiar face.
-
-Amaya stared at Lang for a moment. “You should come with me. Both of you.”
-
-“But we’ll weigh you down. A fool and a cripple.” Something in me almost wanted to laugh. “Sounds like a Shakespeare tragedy.”
-
-“It’s worth trying for,” Amaya said.
-
-I swallowed. “You really mean it?”
-
-“Hurry up and get moving before I change my mind.” 
-
-I looked down at Lang, who cowered and stared up at us, his eyes welled with tears. I reached out. 
-
-Hesitantly, he took my hand.
-
-When I turned with my arm around him, Amaya wore a smirk that I had never seen Imogen make before, a strange, comforting smile on a familiar face.
 
 ![Orbit-lrg](images/Orbit.svg)
 
