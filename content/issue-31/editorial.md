@@ -31,7 +31,7 @@ A lot is made of how Artificial Intelligence is going to take over all our jobs;
 
 *The Editor*.
 
-I won't deny, this came as a bit of a blow. Nevertheless, to this end I enthusiastically joined in plotting my own downfall, and I can confirm that the first step on the path to my own obsolescence has now been taken, because we are indeed training up an AI to replace me. But it's going to have to prove itself before I hand over the reins. And I suspect I've got a little while in the hot seat ahead of me yet.
+I won't deny, this came as a bit of a blow. Nevertheless, to this end I enthusiastically joined in plotting my own downfall, and I can confirm that the first step on the path to my obsolescence has now been taken, because we are indeed training up an AI to replace me. But it's going to have to prove itself before I hand over the reins. And I suspect I've got a little while in the hot seat ahead of me yet.
 
 Our fledgling experiment went something like this: first, we exposed a learning algorithm to the seventy-plus stories which have previously been published in *Mythaxis* during my editorship, so that it could analyse the material which I considered best amongst the hundreds of submissions we have received. Then, we challenged it to survey the one-hundred and fifty-eight stories which we received in our most recent submission window. If its understanding of *my* taste in fiction was accurate, surely it would rank most highly the stories which I actually selected, no?
 
