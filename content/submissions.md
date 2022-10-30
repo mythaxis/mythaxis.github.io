@@ -7,14 +7,14 @@ type: page
 slug: submissions
 ---
 
-***Mythaxis* is currently OPEN to submissions!**
+***Mythaxis* is currently CLOSED to submissions.**
 
 *Mythaxis* is published four times a year, and is open to submissions within the following periods:
 
 - **January 23rd-30th**
 - **April 23th-30th**
 - **July 23rd-30th**
-- **October 23rd-30th** - that means *now!*
+- **October 23rd-30th**
 
 Submissions received outside of these dates will unfortunately be lost and therefore not responded to. When open, we seek and offer the following:
 
