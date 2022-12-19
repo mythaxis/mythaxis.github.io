@@ -153,4 +153,4 @@ I slip. I’m slit. A piece. Dispersed. I me. A piece. A piece.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Up and Down** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Up and Down** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/653082950158028).*
