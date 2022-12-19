@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/issue-32/jinny-greenteeth.html</loc>
+    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-31/boy-with-brick.html</loc>
     <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -83,6 +86,9 @@
     <loc>/issue-23/curse-midnight.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/issue-32/johnbear-janine-and-i.html</loc>
+    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-31/tyrannosaurus-mechs.html</loc>
     <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -137,6 +143,9 @@
     <loc>/issue-23/huntress-conveyor.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/issue-32/up-and-down.html</loc>
+    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-31/the-school-for-the-hopeless-and-forgotten.html</loc>
     <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
@@ -163,6 +172,9 @@
   </url><url>
     <loc>/issue-23/third-martian-dick-temple.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-32/the-night-parents.html</loc>
+    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-31/tip-diebaecks-mentha-b-wild.html</loc>
     <lastmod>2022-09-12T00:00:00+00:00</lastmod>
@@ -224,13 +236,31 @@
     <loc>/issue-23/everythings-jake.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/authors.html</loc>
+    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/cathy-bryant.html</loc>
+    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/hermester-barrington.html</loc>
+    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-32.html</loc>
+    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/j.-siegal.html</loc>
+    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/valerie-alexander.html</loc>
+    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/authors/andrew-leon-hudson.html</loc>
     <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/anna-zumbro.html</loc>
-    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors.html</loc>
     <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/chinaza-eziaghighala.html</loc>
@@ -249,9 +279,6 @@
     <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/marc-phillips.html</loc>
-    <lastmod>2022-09-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2022-09-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-31/</loc>
@@ -342,9 +369,6 @@
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/e.-saxey.html</loc>
-    <lastmod>2021-12-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors/hermester-barrington.html</loc>
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-28.html</loc>
