@@ -16,6 +16,7 @@
 .ftpquota
 
 .DS_Store
+.ipynb_checkpoints/
 
 # Hugo gen directory
 _gen

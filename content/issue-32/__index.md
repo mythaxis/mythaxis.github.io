@@ -14,26 +14,26 @@ imageCopyright: "The cover art was created by Micah Hyatt using Stable Diffusion
 
 # https://flexboxsheet.com/
 intro:
-  justify_content: flex-start
-  # align_items: flex-end
+  justify_content: flex-end
+  # align_items: baseline
   # align_content: flex-start
   logo:
     # order: 3
     # flex_grow: 2
     # align_self: flex-end
     # align_items: baseline
-    color: '#E8BF25'
+    color: '#D32618'
   subheading:
-    # order: 2
+    # order: 3
     # flex_grow: 1
     # align_self: center
     # align_items: flex-start
   actions:
     # display: none
-    # order: 1
-    flex_grow: 2
-    align_self: flex-start
-    align_items: flex-end
+    # order: 3
+    # flex_grow: 2
+    # align_self: flex-start
+    # align_items: flex-end
 
 ---
 
