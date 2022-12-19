@@ -371,5 +371,5 @@ I can see the ship on the horizon. It is bigger than anything I have ever seen. 
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading—but we'd love feedback! Let us know what you think of **Distant Skies** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading—but we'd love feedback! Let us know what you think of **Distant Skies** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/653085853491071).*
 
