@@ -32,7 +32,7 @@ intro:
     # display: none
     # order: 1
     flex_grow: 2
-    align_self: flex-start
+    align_self: center
     align_items: flex-end
 
 ---
