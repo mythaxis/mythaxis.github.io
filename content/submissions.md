@@ -12,7 +12,7 @@ slug: submissions
 *Mythaxis* is published four times a year, and is open to submissions within the following periods:
 
 - **January 23rd-30th**
-- **April 23th-30th**
+- **~~April 23th-30th~~** (this window closed in 2023)
 - **July 23rd-30th**
 - **October 23rd-30th**
 
