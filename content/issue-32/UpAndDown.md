@@ -119,7 +119,7 @@ Morgan reached into his robe and drew forth his necklace, a marvelous shard of c
 
 “Do you see this crystal?” he said. “It is a structure most miraculous—every atom of it perfectly aligned. It is always in the most sublime stasis. Yet there is power, even one might say *life*, within it.”
 
-I had considered such trifles beneath me, had always scoffed those I saw molesting some stone or other, cooing at a collection of trinkets, scrutinizing tea leaves. A potion had been my desire, but now I found myself entranced. Maybe there was something to this crystal.I would have to possess it.
+I had considered such trifles beneath me, had always scoffed those I saw molesting some stone or other, cooing at a collection of trinkets, scrutinizing tea leaves. A potion had been my desire, but now I found myself entranced. Maybe there was something to this crystal. I would have to possess it.
 
 “Yes,” I said, egging myself on. “I can see how that might be soothing, or steadying, to hang something like that against my chest.” I stood up, knocking over a distressed lamp that crashed angrily to the floor. “How much for the necklace?”
 
