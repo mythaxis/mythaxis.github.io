@@ -287,4 +287,4 @@ I wonder if I can fashion something as a black armband. And if, after a time, Mi
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Greg: Not a People Person** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Greg: Not a People Person** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/744236571042665).*
