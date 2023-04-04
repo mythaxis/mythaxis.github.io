@@ -61,4 +61,4 @@ Ultimately, it is not how well its plot is resolved that makes or breaks *The Th
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of Mattia's thoughts on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of Mattia's thoughts on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/744234841042838).*
