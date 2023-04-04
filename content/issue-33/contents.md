@@ -15,5 +15,5 @@ slug: contents
 - [Greg: Not a People Person]({{< relref path="Greg-NAPP.md" >}}), by L. P. Ring
 - [Touch Wood]({{< relref path="TouchWood.md" >}}), by Sandee Bree Breathnach
 - [Emoticon]({{< relref path="Emoticon.md" >}}), by Barry Charmin
-- [The Think in the Snow, by Sean Adams]({{< relref path="TheThingInTheSnow.md" >}}), an essay review by Mattia Ravasi
+- [The Thing in the Snow, by Sean Adams]({{< relref path="TheThingInTheSnow.md" >}}), an essay review by Mattia Ravasi
 - [Short Reviews]({{< relref path="ShortReviews.md" >}}), by Andrew Leon Hudson
