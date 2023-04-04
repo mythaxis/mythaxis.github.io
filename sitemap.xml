@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/issue-33/a-deer-inheritance.html</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-32/jinny-greenteeth.html</loc>
     <lastmod>2022-12-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -31,6 +34,9 @@
   </url><url>
     <loc>/issue-23/newest-profession.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-33/balk.html</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-32/the-aquarium-is-andrea.html</loc>
     <lastmod>2022-12-19T00:00:00+00:00</lastmod>
@@ -62,6 +68,9 @@
     <loc>/issue-23/sedona-house.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/issue-33/the-day-the-shimm-stood-still.html</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-32/distant-skies.html</loc>
     <lastmod>2022-12-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -91,6 +100,9 @@
   </url><url>
     <loc>/issue-23/curse-midnight.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-33/greg-not-a-people-person.html</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-32/johnbear-janine-and-i.html</loc>
     <lastmod>2022-12-19T00:00:00+00:00</lastmod>
@@ -122,6 +134,9 @@
     <loc>/issue-23/alight.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/issue-33/touch-wood.html</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-32/death-is-like-a-box-of-chocolates.html</loc>
     <lastmod>2022-12-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -151,6 +166,9 @@
   </url><url>
     <loc>/issue-23/huntress-conveyor.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-33/the-thing-in-the-snow-sean-adams-review.html</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-32/up-and-down.html</loc>
     <lastmod>2022-12-19T00:00:00+00:00</lastmod>
@@ -182,6 +200,9 @@
     <loc>/issue-23/third-martian-dick-temple.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/issue-33/short-reviews-spring-2023.html</loc>
+    <lastmod>2023-04-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-32/the-night-parents.html</loc>
     <lastmod>2022-12-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -211,6 +232,9 @@
   </url><url>
     <loc>/issue-23/cartoon.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-33/emoticon.html</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-28/my-amoeboid-romance.html</loc>
     <lastmod>2021-12-20T00:00:00+00:00</lastmod>
@@ -246,10 +270,46 @@
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/andrew-leon-hudson.html</loc>
-    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors.html</loc>
-    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
+    <lastmod>2023-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-33.html</loc>
+    <lastmod>2023-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2023-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/andrew-jensen.html</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/barry-charman.html</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/c.-owen-loftus.html</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-33/editorial.html</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/l.p.-ring.html</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/lucy-zhang.html</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/mattia-ravasi.html</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-33/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/sandee-bree-breathnach.html</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-33/contents.html</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/cathy-bryant.html</loc>
     <lastmod>2022-12-19T00:00:00+00:00</lastmod>
@@ -273,9 +333,6 @@
     <lastmod>2022-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/monte-remer.html</loc>
-    <lastmod>2022-12-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2022-12-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-32/</loc>
