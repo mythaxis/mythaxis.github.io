@@ -409,5 +409,5 @@ I wondered which one of us was the happiest.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **The Day the Shimm Stood Still** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **The Day the Shimm Stood Still** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/744237327709256).*
 
