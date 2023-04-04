@@ -247,4 +247,4 @@ Wickie leans in, her voice an airy whisper. “Before he died, my Granda Ash tol
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Touch Wood** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Touch Wood** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/744235177709471).*
