@@ -341,4 +341,4 @@ When it was truly dark, he prayed, as his father had taught him. If you heard it
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **A Deer's Inheritance** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **A Deer's Inheritance** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/744238057709183).*
