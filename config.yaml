@@ -8,7 +8,7 @@ disableHugoGeneratorInject: true
 languageCode: en-us
 theme: massively
 publishDir: docs
-googleanalytics: 'UA-146012578-1'
+googleanalytics: 'G-HLLJQL5J00'
 disqusShortname: ''
 disableKinds:
   - RSS
