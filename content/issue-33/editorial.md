@@ -27,7 +27,7 @@ In addition to *your* kind return, the style of ***Mythaxis*** itself has return
 
 Unlike the large language models taking our contemporary world by storm, it's safe to say the Slushbot *isn't* shocking its flesh-and-blood masters due to astronomical advances in its sophistication with each new generation. All we're asking is that it demonstrate a comparable taste to my own when confronted with the ***Mythaxis*** slush pile, and frankly, it's doing awful.
 
-On a basic level, it at least rejects more stories than it accepts, so that's something. From 161 submissions in our last window, it passed on 90. That's still enough acceptances to fill nearly three years of the zine, though, and I must say I take issue with what passed muster. It agreed with only **one** of my acceptances, and rated ten of my rejections higher; it's top three picks were, shall we delicately say, *not even remotely my cup of tea*.
+On a basic level, it at least rejects more stories than it accepts, so that's something. From 161 submissions in our last window, it passed on 90. That's still enough acceptances to fill nearly three years of the zine, though, and I must say I take issue with what passed muster. It agreed with only **one** of my acceptances, and rated ten of my rejections higher; its top three picks were, shall we delicately say, *not even remotely my cup of tea*.
 
 It rated somewhat better with regard to my shortlist, in a sense: half of the 28 stories I put aside for further consideration were among its acceptances; none of these was ultimately quite for me, but they were all at least decent subs, and in several cases just plain good. The same cannot be said of the 56 pieces it accepted from the 130 I couldn't wait to finish for all the wrong reasons.
 
