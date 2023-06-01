@@ -83,13 +83,13 @@ Ash promptly seals his mouth shut. Really, he should be used to it by now. Briar
 
 *Newt blinks, slowly taking the shovel.* *“Why?”*
 
-“*Don’t you know how rare wood is?”*
+*“Don’t you know how rare wood is?”*
 
-“*Obviously!”* *H**er face reddens. “I’m not stupid.”*
+*“Obviously!” Her face reddens. “I’m not stupid.”*
 
-“*Then work it out, genius. If we take it home, we can make a wish every single day! Or we could sell it. We could even charge people money to come see it.”*
+*“Then work it out, genius. If we take it home, we can make a wish every single day! Or we could sell it. We could even charge people money to come see it.”*
 
-“*You mean we’ll be rich?”*
+*“You mean we’ll be rich?”*
 
 *Cricket nods, and Newt’s eyes sparkle green.*
 
@@ -141,17 +141,17 @@ The hatchet clanks along the shrapnel-lined ravine, crooked under her straggling
 
 *Numbness washes over Newt’s face, her features stretched and squashed as though she holds a fresh corpse in her hands.*
 
-“*What did you do?” Cricket gawks. “You’ve killed it!”*
+*“What did you do?” Cricket gawks. “You’ve killed it!”*
 
-“*It wasn’t me. It just**—**”*
+*“It wasn’t me. It just—”*
 
-“*You’re going to be in so much trouble!”*
+*“You’re going to be in so much trouble!”*
 
-“*But I didn’t**—**”*
+*“But I didn’t—”*
 
 *Cricket doesn’t listen. He tosses his shovel aside and runs for home. Newt tries to follow, but she can’t keep up with the sapling still in her arms. Won’t let go of it. Its body drags her down, gait swaying until she stumbles to her knees. Tears blur her vision.*
 
-“*I’m sorry,” she sobs, digging her fingers into the dirt until they are red and throbbing. “I didn’t mean to. I’ll fix it. I can plant it again. Don’t worry. I’ll plant it.”*
+*“I’m sorry,” she sobs, digging her fingers into the dirt until they are red and throbbing. “I didn’t mean to. I’ll fix it. I can plant it again. Don’t worry. I’ll plant it.”*
 
 *But there is no soil beneath the crust. Not a drop of water.*
 
@@ -215,7 +215,7 @@ A single acorn falls between his feet.
 
 {{<glyph>}}N{{</glyph>}}*ewt arrives home with bloodied knees, her face smeared with dirt, snot, and tears. Bracing her shoulders, she knocks on the door. It swings open with a sharp gust of wind.*
 
-“*Agnes!” Mrs Quill gasps. Newt winces. “Where on earth have you been? I’ve been worried sick!”*
+*“Agnes!” Mrs Quill gasps. Newt winces. “Where on earth have you been? I’ve been worried sick!”*
 
 *Newt sniffles and coughs into her tattered scarf. She can’t talk through chapped lips and short breaths. Yellow spores stain her sweater, embedded in the soft plucks of cotton.*
 
@@ -247,4 +247,4 @@ Wickie leans in, her voice an airy whisper. “Before he died, my Granda Ash tol
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Touch Wood** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Touch Wood** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/744235177709471).*
