@@ -26,7 +26,7 @@ jobs:
         ref: 'gh-pages'
 
     - name: 📂 Sync files over FTP
-      uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      uses: SamKirkland/FTP-Deploy-Action@4.3.4
       with:
         server: ${{ secrets.FTP_SERVER2 }}
         username: ${{ secrets.FTP_USERNAME2 }}
