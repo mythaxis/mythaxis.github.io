@@ -116,6 +116,31 @@ glyph.small {
 
 
 
+/* Use CSS3 for dropcap styles.
+   This is first used in issue-33.
+   Prior issues use the older TEI <glyph> markup
+*/
+section.post p::first-letter {
+    initial-letter: 2;
+    initial-letter-align: drop;
+    /*font-size: 4em;*/
+    /*line-height: 3;*/
+    font-weight: 600;
+}
+section.post header > p::first-letter,
+section.post p + p::first-letter {
+    initial-letter: initial;
+    initial-letter-align: initial;
+    /*display: initial;*/
+    /*font-size: initial;*/
+    /*line-height: initial;*/
+    font-weight: initial;
+}
+
+
+
+
+
 /* Author footers at end of stock pages */
 footer.author img {
     border: 5px solid #212931a6;

@@ -21,11 +21,13 @@ featured: true
 
 ---
 
-{{<glyph>}}T{{</glyph>}}here was an old man. I call him Asa. He was a hunter, and a butcher, and a prayer. His friends chased game with him, and slaughtered the livestock with him, and sometimes even tried to pray too, but Asa was alone in being only a hunter, a butcher, and a prayer. Most people are many things. Asa was only those. 
+There was an old man. I call him Asa. He was a hunter, and a butcher, and a prayer. His friends chased game with him, and slaughtered the livestock with him, and sometimes even tried to pray too, but Asa was alone in being only a hunter, a butcher, and a prayer. Most people are many things. Asa was only those. 
 
 It’s important you know he was never called that. His family called him the sound hungry children made at seeing he’d caught an animal for them to eat, or the grunt of a stifled wretch when the smell of open guts overwhelmed the one holding the carcass up for him to clean. Sometimes, on sacred days, they just called him by an expectant silence around a bonfire until he burned the animals’ eyes and genitals. Asa’s name was the same word as death and springtime. 
 
 There was a boy, too. He thought of himself as a man, but his limbs were still the wrong lengths and his face was covered in red spots. He was shy, and never married. He was too young to have very many names. I know that no one called him Eze. 
+
+---
 
 Once, after laying in silence with Asa in a tree for five days, waiting for an animal to pass underneath, the boy said, 
 
