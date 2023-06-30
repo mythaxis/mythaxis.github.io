@@ -14,25 +14,25 @@ imageCopyright: "The Chopper by Roman Dubina 2022"
 
 # https://flexboxsheet.com/
 intro:
-  justify_content: flex-end
-  # align_items: baseline
+  justify_content: flex-start
+  # align_items: flex-start
   # align_content: flex-start
   logo:
     # order: 3
     # flex_grow: 2
-    # align_self: flex-end
+    align_self: flex-end
     # align_items: baseline
     color: '#57f3c4'
   subheading:
     # order: 3
     # flex_grow: 1
-    # align_self: center
+    align_self: flex-end
     # align_items: flex-start
   actions:
-    # display: none
+    display: none
     # order: 3
     # flex_grow: 2
-    # align_self: flex-start
+    # align_self: flex-end
     # align_items: flex-end
 
 ---
