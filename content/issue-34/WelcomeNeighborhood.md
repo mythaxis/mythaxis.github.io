@@ -17,7 +17,6 @@ imageCopyright: "The title picture was created using Creative Commons images - m
 type: stock
 slug: welcome-to-the-neighborhood
 weight: 5
-featured: false
 ---
 
 {{<glyph>}}W{{</glyph>}}When we moved to the suburbs, I was ready to enjoy the slower pace of life. Wildlife outside my windows. Tidy yards, bundles of domesticity, and a quaint woodland between our neighborhood and the county reservoir next door where I could walk. I might even be able to convince Jeff to let me get a cat.
