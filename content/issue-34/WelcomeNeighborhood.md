@@ -19,7 +19,7 @@ slug: welcome-to-the-neighborhood
 weight: 5
 ---
 
-{{<glyph>}}W{{</glyph>}}When we moved to the suburbs, I was ready to enjoy the slower pace of life. Wildlife outside my windows. Tidy yards, bundles of domesticity, and a quaint woodland between our neighborhood and the county reservoir next door where I could walk. I might even be able to convince Jeff to let me get a cat.
+{{<glyph>}}W{{</glyph>}}hen we moved to the suburbs, I was ready to enjoy the slower pace of life. Wildlife outside my windows. Tidy yards, bundles of domesticity, and a quaint woodland between our neighborhood and the county reservoir next door where I could walk. I might even be able to convince Jeff to let me get a cat.
 
 Then the Homeowner's Association president, Patty, stopped by to welcome us with brownies and lemon bars, a neighborhood watch invitation, and a reminder that HOA bylaws prohibited garden gnomes.
 
