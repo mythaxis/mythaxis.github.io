@@ -9,7 +9,7 @@ slug: submissions
 
 ***Mythaxis* is currently CLOSED to submissions.**
 
-*Mythaxis* is published four times a year, and is open to submissions within the following periods:
+We are open to submissions within the following periods:
 
 - **January 23rd-30th**
 - **~~April 23th-30th~~** (this window cancelled in 2023)
@@ -18,50 +18,46 @@ slug: submissions
 
 Submissions received outside of these dates will unfortunately be lost and therefore not responded to. When open, we seek and offer the following:
 
-- **Length**: 1,000-7,500 words. This is a firm limit. Generally speaking, the further a story goes beyond 5,000 words the more it will need to impress, but the door is not shut in advance.
-- **Compensation**: $20 on acceptance and return of contract. Please be aware that payment is via PayPal only.
+- **Length**: 1,000-5,000 words. This is a firm upper limit. Generally speaking, the further a story goes beyond 5,000 words the more it will need to impress, but the door is not shut in advance.
+- **Compensation**: €0.01 per word, with a €20 minimum. Please be aware that payment is via PayPal only.
 
 If you do not receive an acknowledgment within 24 hours of submission, please get in touch. We aim to accept or reject within 14 days of acknowledgment, but rl (real life) and rl (reading load) can get in the way. If you do not hear from us after 30 days, feel free to query.
 
-We require **First Print and Digital rights with a six month period of exclusivity** from the date of publication. We also ask permission to potentially include accepted pieces in future anthologies, in event of which an additional full payment and digital copy will be offered in compensation. All other rights remain entirely with the author.
+### REQUIREMENTS
 
-**Simultaneous submissions are not only accepted, they are encouraged**. Please tell us if you are, and we merely ask that you notify us of acceptance at another market as soon as possible. In the event that we accept first we would expect a positive confirmation, so we recommend sim-subbing to markets of equivalent status - we won't want to wait for someone else you'd like better to turn you down...
+We acquire **First Print and Digital rights with a six month period of exclusivity** from the date of publication. We also ask permission to potentially include accepted pieces in future anthologies, in event of which an additional payment and digital copy will be offered in compensation. All other rights remain entirely with the author.
 
-**Please wait until receiving a rejection notice before submitting a second time**.
+**Simultaneous submissions are not only accepted, they are encouraged**. Please tell us if you sim-sub, and we merely ask that you notify us of acceptance at another market as soon as possible. In the event that we accept first, we expect a positive and timely confirmation. Therefore we recommend sim-subbing to markets of equivalent status – we won't wait for someone else you'd like better to turn you down.
 
 **If a story has previously been rejected by *Mythaxis*, please do not resubmit** or inquire regarding doing so, unless explicitly invited to by the editor during the original rejection.
 
-**We do not currently invite reprint submissions**. 
+> **Feedback:** Unfortunately, due to increased submission volume, it is no longer possible for us to offer feedback to all authors requesting it. This is a regretful necessity, but without the time required to say something meaningful, feedback loses its value. We may, however, offer some comments when rejecting strong candidate pieces along with an invitation to revise and resubmit.
+>
+> If you absolutely do *not* want to receive feedback in the event of rejection, informing us during submission is absolutely acceptable.
 
-**All submissions must be the original work of the author**. This is not a market for fan fiction. If your story is a retelling, pastiche, or homage, please mention in your email the source you are alluding to.
+**We do not currently invite reprint submissions**.
+
+**All submissions must be the original work of the author**. This is not a market for fan fiction. If your story is a retelling, pastiche, or homage to an existing work, please mention in your email the source you are alluding to.
+
+> **We are not interested in submissions featuring prose created by artificial intelligence, algorithmic systems, large language models, or similar tools.**
+>
+> The questionable provenance of AI-derived content, and the uncertain legality of claiming "authorship" of the output of AI-tools, means that knowingly signing a contract of sale for an AI-generated submission would be unacceptable. We hope that submitting authors will respect our position on this.
 
 **Content note**: We anticipate an adult readership in the sense of maturity, so reasonable depictions of violence, sexuality, philosophy, or bad language are acceptable. However, this is not a market for pornographic or offensively extreme content, categorisation of which is at the editor's discretion.
 
-**We welcome writers of any and all backgrounds**, be they cultural or personal, and submissions exploring diverse perspectives and experiences, provided they do not seek to attack or demean those of others.
+**We welcome writers of any and all backgrounds**, be they cultural or personal, and encourage submissions exploring diverse perspectives and experiences, provided they do not seek to attack or demean those of others.
 
-We look forward to reading your work... but first:
-
- 
-
-### A friendly word of advice
-
-It's important for authors to understand what they are giving up when they assign "first" publishing rights to a magazine. After we publish your story, you will only be able to offer it elsewhere as a **reprint**, which may mean you can only sell it for less money, or for free - and some markets don't accept reprints at all.
-
-We want to publish great writing but our budget is modest, there are certainly better-paying markets out there. So why not try to land your masterpiece at the big markets first? Nothing ventured, nothing gained, after all - and when they prove themselves blind to your glory, we'll still be here to help you prove them wrong!
-
-Okay, we've said our piece. If you're still keen to roll the dice...
-
- 
+Finally, if you would like to know more about our editorial policy, [read on here]({{< relref path="editorial policy.md" >}}). Any inquiries can be directed to the editor at the above email address.
 
 ### HOW TO SUBMIT
 
 Email files as an attachment to: **MythaxisMagazine@gmail.com**
 
-Please use the email subject line **MYTHAXIS SUBMISSION – *YOUR STORY TITLE*** to evade spam filters (and when we say *"your story title"*, we don't mean that literally...).
+Please use the email subject line **MYTHAXIS SUBMISSION – *YOUR STORY TITLE*** to evade spam filters (and when we say *"your story title"*, we don't mean that literally…).
 
 Feel free to include a concise cover letter and/or author bio, though neither is mandatory. ***Mythaxis*** welcomes authors of all levels of experience. We have a history of publishing first-time authors, and we mean to continue this tradition.
 
- 
+If you track your submissions, you can find ***Mythaxis Magazine*** on [The Submissions Grinder](https://thegrinder.diabolicalplots.com/Market?id=10939#) and [Duotrope](https://duotrope.com/listing/10263/mythaxis-magazine).
 
 ### FORMATTING GUIDELINES
 
@@ -70,17 +66,7 @@ Acceptable document types are DOC, DOCX, and ODT (plus RTF, if you absolutely ha
 Straightforward manuscript formatting is preferred for editorial convenience. We recommend using [Shunn's excellent Modern Manuscript formatting guide](https://www.shunn.net/format/story/), but in particular consider the following:
 
 - Please use an easy-reading font (Times New Roman 12pt is preferred).
-- **Do not manually insert** empty lines between paragraphs, or use tabs for first-line indents. **Use automatic paragraph formatting** to set indents or paragraph breaks.
+- **Do not manually insert** empty lines between paragraphs. **Do not use tabs** for first-line indents. **Use automatic paragraph formatting** to set indents or paragraph breaks.
 - Use a single centred # to represent essential section breaks.
-- Use *italics* for italics, don’t underline instead. Smart (“curly”) punctuation is preferred.
+- Use *italics* for italics, don’t underline. Smart (“curly”) punctuation is preferred, but consistency is preferred more.
 - If your manuscript includes any unusual formatting, please alert the editors when submitting and have a really good, story-related reason.
-
- 
-
-### FINAL CONSIDERATIONS
-
-If you would like to receive feedback on your story when we respond, please say so and we shall try to provide something constructive to consider. And if you absolutely do *not* want to receive feedback, telling us in advance is just fine too!
-
-If you track your submissions, you can find ***Mythaxis Magazine*** on [The Submissions Grinder](https://thegrinder.diabolicalplots.com/Market?id=10939#) and [Duotrope](https://duotrope.com/listing/10263/mythaxis-magazine).
-
-And finally, if you would like to know more about our editorial policy, [read on here]({{< relref path="editorial policy.md" >}}). Any inquiries can be directed to the editor at the above email address.
