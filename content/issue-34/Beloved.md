@@ -37,7 +37,7 @@ The next morning, I wake up with the hint of a headache. As I get into the showe
 
 My vows are filled with coffee dates and summer evenings snuggled by the firepit. His vows describe a life together with Smokey, our half-blind cat, and the dogs we’ll rescue; the children with his name and my smile, growing up surrounded by maples and elms and a big backyard to explore. When I look into his beautiful blue eyes I can almost see it.
 
-The cake is pumpkin spice with cream cheese icing. I catch a mischievous glint in my dear husband’s eyes as we cut into it. *Uh*-*oh*. He said he wouldn’t*.* We talked about this; I explicitly told him no cake smashing. I open my mouth but everything goes black. Cake crumbs tumble down my face, into my cleavage, staining my dress, my *wedding* dress. Laughter erupts around me.
+The cake is pumpkin spice with cream cheese icing. I catch a mischievous glint in my dear husband’s eyes as we cut into it. *Uh*-*oh*. He said he wouldn’t. We talked about this; I explicitly told him no cake smashing. I open my mouth but everything goes black. Cake crumbs tumble down my face, into my cleavage, staining my dress, my *wedding* dress. Laughter erupts around me.
 
 “Now you’ve done it,” Dad chuckles. I can feel eyes on me like mosquitos swarming a Fourth of July cookout.
 
