@@ -16,7 +16,7 @@ imageCopyright: "The title picture was created using Creative Commons images - m
 
 type: stock
 slug: welcome-to-the-neighborhood
-weight: 5
+weight: 8
 featured: true
 ---
 
