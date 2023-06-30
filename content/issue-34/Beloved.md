@@ -11,7 +11,7 @@ copyright: '© Jude Clee 2023 All Rights Reserved'
 
 description: "Part One of the now inevitable Mythaxis Thematic Double Bill. Jude Clee launches us into a whirlwind romance, sweeps us up with anticipation for a lucky someone's Best Life Ever, sucks us into the inevitable troubles in paradise, and then drops us off the cliff of hell is other people."
 
-image: images/Beloved10x6.jpg
+image: images/MyBeloved10x6.jpg
 imageCopyright: "The title picture was created using a Creative Commons image by [Takmeomeo](https://pixabay.com/photos/heart-wedding-marriage-hands-529607/) - many thanks."
 
 type: stock
