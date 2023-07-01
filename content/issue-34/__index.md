@@ -22,7 +22,7 @@ intro:
     # flex_grow: 2
     align_self: flex-end
     # align_items: baseline
-    color: '#57f3c4'
+    color: '#5DFADD'
   subheading:
     # order: 3
     # flex_grow: 1
