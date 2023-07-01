@@ -85,7 +85,7 @@ I reassure him that in the past week Soulscape has made progress on the simulate
 
 “Okay, now the vine. Are there any leaves you can touch?”
 
-“They don’t have texture yet.	It’s just color.”
+“They don’t have texture yet. It’s just color.”
 
 “Focus on the green, honey. Describe the shade of green to me.”
 
@@ -211,7 +211,7 @@ She tells me to pray. Pray to whom? If there’s a creator, it can’t possibly 
 
 I don’t believe in miracles. Jonathan did. The optimist, the happy wanderer, the lucky fool. He trusted that everything would turn out okay. At least for him.
 
-I take the Soulscape contract out of its envelope. I couldn’t bear to read it before, but now I’m ready. So much fine print. I haven’t heard from Jonathan in months. But we’re still married. According to the contract, uploaded beings may still need help from us flesh prisoners occasionally.The contract designates me as the simulation architect should anything go wrong at Soulscape. He trusted me when he signed this.  
+I take the Soulscape contract out of its envelope. I couldn’t bear to read it before, but now I’m ready. So much fine print. I haven’t heard from Jonathan in months. But we’re still married. According to the contract, uploaded beings may still need help from us flesh prisoners occasionally. The contract designates me as the simulation architect should anything go wrong at Soulscape. He trusted me when he signed this.  
 
 I leave Charlie with my mother for the day and show up at Soulscape HQ with extra oxygen canisters. The building is surprisingly empty. Business must not be going well. Or maybe it’s going so great they’re all digital nomads two-point-oh now.
 
