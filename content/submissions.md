@@ -39,10 +39,6 @@ We acquire **First Print and Digital rights with a six month period of exclusivi
 
 **All submissions must be the original work of the author**. This is not a market for fan fiction. If your story is a retelling, pastiche, or homage to an existing work, please mention in your email the source you are alluding to.
 
-> **We are not interested in submissions featuring prose created by artificial intelligence, algorithmic systems, large language models, or similar tools.**
->
-> The questionable provenance of AI-derived content, and the uncertain legality of claiming "authorship" of the output of AI-tools, means that knowingly signing a contract of sale for an AI-generated submission would be unacceptable. We hope that submitting authors will respect our position on this.
-
 **Content note**: We anticipate an adult readership in the sense of maturity, so reasonable depictions of violence, sexuality, philosophy, or bad language are acceptable. However, this is not a market for pornographic or offensively extreme content, categorisation of which is at the editor's discretion.
 
 **We welcome writers of any and all backgrounds**, be they cultural or personal, and encourage submissions exploring diverse perspectives and experiences, provided they do not seek to attack or demean those of others.
@@ -70,3 +66,17 @@ Straightforward manuscript formatting is preferred for editorial convenience. We
 - Use a single centred # to represent essential section breaks.
 - Use *italics* for italics, don’t underline. Smart (“curly”) punctuation is preferred, but consistency is preferred more.
 - If your manuscript includes any unusual formatting, please alert the editors when submitting and have a really good, story-related reason.
+
+## SOME NOTES ON ARTIFICIAL INTELLIGENCE
+
+***Mythaxis*** has both a simple and more complicated relationship with regard to the use of AI tools in fiction and publishing.
+
+- **Submissions**
+> **We are not interested in submissions featuring prose created by generative "artificial intelligence", algorithmic systems, large language models, or similar tools.**  The questionable provenance of AI-derived content, and the uncertain legality of claiming "authorship" of the output of AI-tools, means that knowingly signing a contract of sale for an AI-generated submission would be inappropriate. We hope that submitting authors will respect our position on this.
+
+- **Analytics**
+> **We use a number of data analytics tools to study statistics regarding the material that is submitted to us for consideration.** While these may fall under the label of "AI systems", they are not *generative tools*: they in no way harvest the actual content of other people's work, and are unable to output prose content derived from it.
+
+We fully recognise the importance of authorial ownership when it comes to an individual's rights. This is why we cannot accept AI-derived submissions, and why we ensure our analysis of material is not capable of materially benefiting from it, nor of producing any derivitive creative works.
+
+We hope that our activities will not dissuade authors from submitting, and are of course completely willing to remove authors from our data set should they request it.
