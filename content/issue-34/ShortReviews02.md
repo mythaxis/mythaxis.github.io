@@ -17,7 +17,6 @@ imageCopyright: "The image is by [grandfailure](https://depositphotos.com/368748
 type: stock
 slug: short-reviews-summer-2023
 weight: 8
-featured: true
 ---
 
 {{<glyph>}}O{{</glyph>}}ne of my most self-satisfied experiences as a reviewer of fiction came (*the reviewer of fiction sucks in a horrified breath*) fifteen years ago, fairly shortly after reading a translation of the lipogramatic novel **[A Void](https://cartesiantheatre.wordpress.com/2008/11/07/a-void/)**, by Georges Perec. I won't say why, read the review if you want to know… 
