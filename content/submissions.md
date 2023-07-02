@@ -71,12 +71,12 @@ Straightforward manuscript formatting is preferred for editorial convenience. We
 
 ***Mythaxis*** has both a simple and more complicated relationship with regard to the use of AI tools in fiction and publishing.
 
-- **Submissions**
-> **We are not interested in submissions featuring prose created by generative "artificial intelligence", algorithmic systems, large language models, or similar tools.**  The questionable provenance of AI-derived content, and the uncertain legality of claiming "authorship" of the output of AI-tools, means that knowingly signing a contract of sale for an AI-generated submission would be inappropriate. We hope that submitting authors will respect our position on this.
+### Submissions
+> **We are not interested in submissions featuring prose created by generative "artificial intelligence", algorithmic systems, large language models, or similar tools.** The questionable provenance of AI-derived content, and the uncertain legality of claiming "authorship" of the output of AI tools, means that knowingly signing a contract of sale for an AI-generated submission would be inappropriate. We hope that submitting authors will respect our position on this.
 
-- **Analytics**
-> **We use a number of data analytics tools to study narrative patterns regarding the material that is submitted to us for consideration.** These are experiments to investigate ways to automate and simplifiy our administrative tasks and fall under labels such as "Digital Humanities", "Distant Reading", "Data science" and "Machine learning". They are not *generative tools*: they are in no way used to simulate the actual content of other people's work, and are unable to output prose content derived from it. They are anonymised for strict internal use only, and data is NOT *fed to external AI companies* under any circumstances.
+### Analytics
+> **We use a number of data analytics tools to study narrative patterns regarding the material that is submitted to us for consideration.** These are experiments to investigate ways to automate and simplifiy our administrative tasks and fall under labels such as "Digital Humanities", "Distant Reading", "Data science", and "Machine learning". We do not use *generative tools*: they are in no way used to simulate the actual content of other people's work, and are unable to output prose content derived from it. Data is anonymised for strict internal use only and is NOT fed to external AI companies *under any circumstances*.
 
-We fully recognise the importance of authorial ownership when it comes to an individual's rights. This is why we cannot accept AI-derived submissions, and why we ensure any analysis of material is not capable of materially benefiting from it, nor of producing any derivitive creative works.
+We fully recognise the importance of authorial ownership when it comes to an individual's rights. This is why we cannot accept AI-derived submissions, and why we ensure any analysis of material that we condict is not capable of producing derivitive creative works. If you would like to know more about our activities, we discuss them further [here](https://mythaxis.co.uk/issue-34/artificial-artificial-intelligence.html).
 
-We hope that our digital publishing activities will not dissuade authors from submitting. We are of course completely willing to remove authors from our data set should they request it.
+We hope that our exploration of new possibilities in digital publishing will not dissuade authors from submitting. We are of course completely willing to remove an author's work from our data set should they request it.
