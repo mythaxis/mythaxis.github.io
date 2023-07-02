@@ -25,7 +25,7 @@ Nothing to fear about that.
 
 **One: *non-fiction***
 
-Last issue we welcomed onboard our first longform fiction reviewer, the erudite Mattia Ravasi; this issue we throw the doors wide for our second, the redoubtable Bill Ryan! Both boast admirable track records of literary opinionation, and we look forward to watching them dispense their insights in turn for many issues to come. It might be considered a thrilling back-and-forth between titan warriors of the pen-not-sword, very much history's slowest-paced duel, where it not for that fact that they are in no conflict with each other whatsoever.
+Last issue we welcomed onboard our first longform fiction reviewer, the erudite Mattia Ravasi; this issue we throw the doors wide for our second, the redoubtable Bill Ryan! Both boast admirable track records of literary opinionation, and we look forward to watching them dispense their insights in turn for many issues to come. It might be considered a thrilling back-and-forth between titan warriors of the pen-not-sword, very much history's slowest-paced duel, were it not for that fact that they are in no conflict with each other whatsoever.
 
 So too we continue our other new feature, showcasing newly published fiction from an array of other spec-fic zines via a brief collection of shortform reviews, but now we also present our first interview. This is most likely to be an occasional rather than regular event, but perhaps all the more special for it.
 
