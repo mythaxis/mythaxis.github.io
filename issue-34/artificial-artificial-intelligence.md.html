@@ -110,7 +110,7 @@
 
 
 	<title>Artificial-Artificial Intelligence.md — Mythaxis Magazine Issue 34 — MYTHAXIS MAGAZINE</title>
-	<meta name="generator" content="Hugo 0.115.0">
+	<meta name="generator" content="Hugo 0.115.1">
 	<meta name="keywords" content="Mythaxis Magazine Science Fiction and Fantasy Modern Fiction">
 	<meta name="description" content="Speculative Fiction Without Distraction" />
 	
@@ -223,17 +223,34 @@
 
 ver roughly the last twelve months, the <em><strong>Mythaxis</strong></em> team has been conducting a generally light-hearted experiment in applying AI technology to short fiction publishing. We&rsquo;ve been using the cutting edge tools of the day to create an artificial intelligence so familiar with the tastes of the editor that we can task it with reading story submissions on his (that is, <em>my</em>) behalf. One day, when it&rsquo;s proved itself to our satisfaction, we fully intend to hand over the reins to the &ldquo;Slushbot&rdquo; entirely (though probably just the once) and let it choose the stories that go into an issue of <em><strong>Mythaxis</strong></em>.</p>
 <p>Or at least, that&rsquo;s how we&rsquo;ve framed it.</p>
-<p>In fact, what we&rsquo;ve been doing is somewhat more mundane, though no less interesting from our perspective. So, while you can also read the glamorised version of the story in our recent editorials (issues <a href="https://mythaxis.co.uk/issue-31/editorial.html">31</a>, <a href="https://mythaxis.co.uk/issue-32/editorial.html">32</a>, and <a href="https://mythaxis.co.uk/issue-32/editorial.html">33</a>), I&rsquo;d like to take a moment to discuss exactly what we have, and have not, been doing over the last year.</p>
+<p>We talk about our experiment as if one day it&rsquo;s going to wake up like the AI Pinocchio of online magazine publishing. But that&rsquo;s never going to happen. We&rsquo;re not training an artificial intelligence at all. An <em>artificial</em>-artificial intelligence is closer to the truth. In fact, what we&rsquo;ve been doing is considerably more mundane, though no less interesting from our perspective. So, while you can also read the glamorised version of the story in our recent editorials (issues <a href="https://mythaxis.co.uk/issue-31/editorial.html">31</a>, <a href="https://mythaxis.co.uk/issue-32/editorial.html">32</a>, and <a href="https://mythaxis.co.uk/issue-32/editorial.html">33</a>), I&rsquo;d like to take a moment to discuss exactly what we have, and have not, been doing over the last year.</p>
 <p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p>I&rsquo;ll start with a negative. The world has become both enraptured and outraged by the arrival of Large Language Model (LLM) &ldquo;artificial intelligence&rdquo; text generators – <em>ChatGPT</em> being the most famous – and the visually stunning output of &ldquo;generative&rdquo; image systems, such as <em>Midjourney</em>.</p>
+<p>I&rsquo;ll start with a negative. The world has become both enraptured and/or outraged by the arrival of Large Language Model (LLM) &ldquo;artificial intelligence&rdquo; text generators – <em>ChatGPT</em> being the most famous – and the visually stunning output of &ldquo;generative&rdquo; image systems, such as <em>Midjourney</em>.</p>
 <p>These are not the tools that we are using, and for several good reasons.</p>
 <p>First and foremost, at the current point in the development of such systems there are ethical question marks hanging over them which we find concerning. Generative systems need to be trained on vast quantities of material (millions or billions of images; countless lines of text), and there is at least the possibility that some of that material has been used without permission. The implications of this are far-reaching, not least the question of who can legally be considered the &ldquo;author&rdquo; of a work that is created by a so-called AI. Is it the software developers who coded the tool? Is it, even, the tool itself? Or <em>is</em> it the person who entered a prompt and received what they asked for? Regardless of any of those questions, we should also ask what rights are owed to those whose work the tools were trained upon, with or without their permission.</p>
-<p>Until satisfactory answers can be given, these tools are problematic. Therefore, though we have experimented with image-generating AI tools in the past, we shall not do so again in future. And for similar reasons, we don&rsquo;t invite submissions of AI-generated stories for publication, because it is far from clear who the true author of any such text would be.</p>
-<p>The second reason we don&rsquo;t use generative tools is much simpler: our objective isn&rsquo;t to <em>create</em> anything, at least not in the sense of <em>writing a story</em> or <em>painting a digital picture</em>.</p>
-<p>We want to make a tool, not a product, and it&rsquo;s a tool with only one application: <em>predicting what kind of stories the editor of <strong>Mythaxis</strong> likes to publish</em>.</p>
+<p>Until satisfactory answers can be given, these tools are problematic. Therefore, though we have experimented with image-generating AI tools in our less well informed past, we shall not do so again in future. For similar reasons, we don&rsquo;t invite submissions of AI-generated stories for publication, because it is far from clear who the true author of any such text would be.</p>
+<p>The second reason we don&rsquo;t use generative tools is much simpler: our objective isn&rsquo;t to <em>create</em> anything, at least not in the sense of <em>writing a story</em> or <em>painting a digital picture</em>. We want to make a tool, not a product, and it&rsquo;s a tool with only one application: <em>predicting what kind of stories the editor of <strong>Mythaxis</strong> likes to publish</em>.</p>
 <p>Let&rsquo;s look at how we&rsquo;re doing that.</p>
 <p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
-<p>xxxxxxxxxxxxxxxxxxxx</p>
+<p>Fundamentally, what we are doing is the rollercoaster thrill-ride that is <em>data analytics</em>. We&rsquo;re dipping into the toolkit of academics working in fields such as &ldquo;Digital Humanities&rdquo;, &ldquo;Distant Reading&rdquo;, &ldquo;Data science&rdquo;, and (a label now maybe more familiar to the general reader thanks to events of the last few years) &ldquo;Machine learning&rdquo;.</p>
+<p>So far, I have published exactly 99 stories as editor of Mythaxis. I have rejected approxiamately 20 times more than that in total. This represents the body of data we want to know more about. To do so, the stories are anonymised, analysed individually, and the resulting data is aggregated. And then we analyse <em>that</em>.</p>
+<p>We aggregate the data into three categories of story:</p>
+<ol>
+<li>Acceptances (the stories we decided to publish)</li>
+<li>Rejections (the stories we did not)</li>
+<li>Better-rejections (ones which made our shortlist)</li>
+</ol>
+<p>What we call &ldquo;the Slushbot&rdquo; is really just the statistical output of a number of software tools which look at all that data and try to identify patterns. We&rsquo;ve been doing this for a year, and so far the results are not good. Even a couple of thousand stories is not a big data set. Worse, the texts in that data set vary in increadibly diverse ways: they range in length from 1,000 to over 7,000 words; they use different regional styles and spellings of English; and they represent wildly different subgenres under the general umbrella of &ldquo;speculative fiction&rdquo;. It is hardly surprising that finding even remotely coherent patterns is not proving possible.</p>
+<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
+<p>xxx DIFFERENT TYPES OF TOOL</p>
+<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
+<p>We still have at least the shadow of an elephant in the room, I think.</p>
+<p>There is an admitted similarity between how LLMs are trained and the way we study the story submissions we receive, and authors submitting their work to us for consideration might worry about that fact. Yes, true, in both cases the texts undergo statistical analyses: the tools examine their sources of &ldquo;data&rdquo; in detail, looking for patterns upon which to perform their functions. The critical difference lies in what the ultimate objectives of those functions are.</p>
+<p>LLM generative tools use the statistical data they amass to generate new outputs of a similar kind. If you train them on stories, they become story <em>simulators</em>: machines that make new texts with similar charcteristics. I choose my words carefully here: not to get into the semantics of it, but I don&rsquo;t think they make actual stories at all. Just something&hellip; very story-<em>like</em>.</p>
+<p>By contrast, the tools we use only output the statistics. If you feed them stories, they don&rsquo;t become capable of inventing new story-like texts. They just give us a new way to look at what is actually there. And we want to know whether <em>what is there</em> is a story I will like, or a story I won&rsquo;t.</p>
+<p>Currently we&rsquo;re not yet past the number crunching phase, but in theory here is what we want to do:</p>
+<p>Whenever <em><strong>Mythaxis</strong></em> opens for submissions and new stories arrive, our tool would analyse each one, compare its statistical data with the patterns that it has learned represent <em>acceptances</em> and <em>rejections</em>, and make a prediction about which category it falls into. At the end of the window we compare all its choices with mine, and on the day those results are a perfect match I hang up my boots and retire, safe in the knowledge that my work here is done.</p>
+<p>We&rsquo;ll never succeed in making a tool that can do that. But it would be very, very cool if we did.</p>
 <p><img src="images/Orbit.svg" alt="Orbit-lrg"></p>
 
             
