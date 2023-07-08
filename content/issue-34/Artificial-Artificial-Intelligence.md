@@ -29,7 +29,7 @@ So, while you can also read the glamorised version of the story in our recent ed
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-{{<glyph>}}I{{</glyph>}}'ll start with a negative. The world has become both enraptured and/or outraged by the arrival of Large Language Model (LLM) "artificial intelligence" text generators – *ChatGPT* being the most famous – and the visually stunning output of "generative" image systems, such as *Midjourney*.
+{{<glyph>}}I{{</glyph>}}'ll start with a negative. The world has become [both enraptured and/or outraged](https://medium.com/@emilymenonbender/talking-about-a-schism-is-ahistorical-3c454a77220f) by the arrival of Large Language Model (LLM) "artificial intelligence" text generators – *ChatGPT* being the most famous – and the visually stunning output of "generative" image systems, such as *Midjourney*.
 
 These are not the tools that we are using, and for several good reasons.
 
