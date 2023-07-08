@@ -17,3 +17,4 @@ slug: contents
 - [An Interview with Francesco Verso]({{< relref path="InterviewFrancescoVerso.md" >}}), by Andrew Leon Hudson
 - [Grotesquerie, by Richard Gavin]({{< relref path="GrotesquerieRichardGavin.md" >}}), an essay review by Bill Ryan
 - [Short Reviews – April to June]({{< relref path="ShortReviews02.md" >}}), by Andrew Leon Hudson
+- [Artificial Artificial Intelligence]({{< relref path="Artificial-Artificial-Intelligence.md">}}), by Andrew Leon Hudson
