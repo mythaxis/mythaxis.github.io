@@ -99,6 +99,6 @@ I choose my words carefully here: not to get into the semantics of it, but unles
 
 By contrast, the tools we worked with only output statistics. If you feed them stories, they don't become capable of making story-like texts. They just gave us a new way to look at what was actually there in the slush pile. And, as an editor, what I always want to know is whether *what is there* is a story I will like, or a story I won't.
 
-We probably never would have succeed in making a tool that could tell me that with any accuracy. Maybe it would be cool if we had? But, just as there is no substitute for having humans create works of fiction, there's no substitute for humans reading them either.
+We probably never would have succeeded in making a tool that could tell me that with any accuracy. Maybe it would be cool if we had? But, just as there is no substitute for having humans create works of fiction, there's no substitute for humans reading them either.
 
 ![Orbit-lrg](images/Orbit.svg)
