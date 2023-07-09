@@ -31,7 +31,7 @@ So too we continue our other new feature, showcasing newly published fiction fro
 
 **Two: *artificial intelli...yawn***
 
-We'll spare you another lengthy update about our trials and tribulations with the Slushbot (see past editorials *ad nauseum*); for reasons to be explained, there hasn't been any new material for us to keep training it on. That will change, in a number of ways, but after dancing with (and around) the subject of *AI in publishing* for more than a year, it's at last time to clarify some points regarding this magazine's editorial position.
+No new lengthy update about our trials and tribulations with the Slushbot (see past editorials *ad nauseum*), because after carefully considering the results of our toils we've decided *no more!* We have provided a more serious write-up of that lengthy experiment [here](https://mythaxis.co.uk/issue-34/artificial-artificial-intelligence.html), but – after dancing with (and around) the subject of *AI in publishing* for more than a year – it's at last time to clarify some points regarding this magazine's editorial position.
 
 In the past we've used algorithmic image generators such as DALL-E and Midjourney to illustrate the magazine; but, while their output can be undeniably beautiful, we won't use them again for the foreseeable future. The blackbox approach of training these systems on the work of unknown others raises too many ethical red flags.
 

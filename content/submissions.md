@@ -25,7 +25,7 @@ If you do not receive an acknowledgment within 24 hours of submission, please ge
 
 ### REQUIREMENTS
 
-We acquire **First Print and Digital rights with a six month period of exclusivity** from the date of publication. We also ask permission to potentially include accepted pieces in future anthologies, in event of which an additional payment and digital copy will be offered in compensation. All other rights remain entirely with the author.
+We acquire **First Print and Digital rights with a six month period of exclusivity** from the date of publication. We also ask permission to potentially include accepted pieces in future anthologies; in event of agreement, an additional payment and digital copy will be offered in compensation. All other rights remain entirely with the author.
 
 **Simultaneous submissions are not only accepted, they are encouraged**. Please tell us if you sim-sub, and we merely ask that you notify us of acceptance at another market as soon as possible. In the event that we accept first, we expect a positive and timely confirmation. Therefore we recommend sim-subbing to markets of equivalent status – we won't wait for someone else you'd like better to turn you down.
 
@@ -67,16 +67,11 @@ Straightforward manuscript formatting is preferred for editorial convenience. We
 - Use *italics* for italics, don’t underline. Smart (“curly”) punctuation is preferred, but consistency is preferred more.
 - If your manuscript includes any unusual formatting, please alert the editors when submitting and have a really good, story-related reason.
 
-## SOME NOTES ON ARTIFICIAL INTELLIGENCE
+## A NOTE ON "ARTIFICIAL INTELLIGENCE"
 
-***Mythaxis*** has both a simple and more complicated relationship with regard to the use of AI tools in fiction and publishing.
+**We do not invite submissions featuring prose created by generative "artificial intelligence", algorithmic systems, large language models, or similar tools.** 
 
-### Submissions
-> **We are not interested in submissions featuring prose created by generative "artificial intelligence", algorithmic systems, large language models, or similar tools.** The questionable provenance of AI-derived content, and the uncertain legality of claiming "authorship" of the output of AI tools, means that knowingly signing a contract of sale for an AI-generated submission would be inappropriate. We hope that submitting authors will respect our position on this.
+We recognise the importance of authorial ownership when it comes to an individual's rights. The questionable provenance of AI-derived content, and the uncertain legality of claiming "authorship" of the output of AI tools, means that knowingly signing a contract of sale for an AI-generated submission would be inappropriate. We hope that submitting authors will respect our position.
 
-### Analytics
-> **We use a number of data analytics tools to study narrative patterns regarding the material that is submitted to us for consideration.** These are experiments to investigate ways to automate and simplify our administrative tasks. We do not use *generative* tools: data is in no way used to simulate the actual content of other people's work, and the tools we use are unable to output prose content derived from it. Data is anonymised for strict internal use only, and is not fed to external AI companies *under any circumstances*.
+In the past, ***Mythaxis*** has experimented with generative image tools and used data analytics to investigate the nature of the stories submitted to us. We documented these experiences in a number of editorials (see Issue [28](https://mythaxis.co.uk/issue-28/editorial.html) for art, Issues [31](https://mythaxis.co.uk/issue-31/editorial.html), [32](https://mythaxis.co.uk/issue-32/editorial.html), and [33](https://mythaxis.co.uk/issue-32/editorial.html) for data analysis, plus our final round up [here](https://mythaxis.co.uk/issue-34/artificial-artificial-intelligence.html)). All data analysed was always fully anonymised and never employed tools capable of producing derivative creative works.
 
-We fully recognise the importance of authorial ownership when it comes to an individual's rights. This is why we cannot accept AI-derived submissions, and why we ensure any analysis of material that we conduct is not capable of producing derivative creative works. If you would like to know more about our activities, we discuss them further [here](https://mythaxis.co.uk/issue-34/artificial-artificial-intelligence.html).
-
-We hope that our exploration of new possibilities in digital publishing will not dissuade authors from submitting. We are of course completely willing to remove an author's work from our data set should they request it.
