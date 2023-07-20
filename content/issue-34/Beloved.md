@@ -235,4 +235,4 @@ I grit my teeth, blink back tears, and stare up at the patterns on the ceiling. 
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **My Beloved is Mine** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **My Beloved is Mine** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/835809645218690).*
