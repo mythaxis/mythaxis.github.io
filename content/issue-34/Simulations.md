@@ -239,5 +239,5 @@ I smile and nod. “Yes. With his family.”
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Simulations** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Simulations** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/835809175218737).*
 
