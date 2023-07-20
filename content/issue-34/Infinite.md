@@ -381,4 +381,4 @@ But she hopes there’s somewhere in the vast, endless universe where the odds w
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Infinite** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Infinite** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/835808591885462).*
