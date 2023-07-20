@@ -12,7 +12,7 @@ copyright: '© Elena Sichrovsky 2023 All Rights Reserved'
 description: "Some people consider the fantastical genres to be non-overlapping magisteria: sci-fi is sci-fi; fantasy, fantasy; horror, horror. Others are not merely comfortable with a little bit of bleed-through, they positively revel in it. In our first story Elena Sichrovsky is selling you what looks like straightforward science fiction. Don't be deceived. But do be warned, this one is not for the faint-hearted."
 
 image: images/Embryo10x6.jpg
-imageCopyright: "The title picture was created using images from [photography33](https://depositphotos.com/10518754/stock-photo-woman-practicing-yoga.html) and [StockSpap](https://pixabay.com/photos/white-bed-sheet-blanket-plate-2586703/) - many thanks!"
+imageCopyright: "The title picture was created using images from [photography33](https://depositphotos.com/10518754/stock-photo-woman-practicing-yoga.html) and [StockSnap](https://pixabay.com/photos/white-bed-sheet-blanket-plate-2586703/) - many thanks!"
 
 type: stock
 slug: embryo
