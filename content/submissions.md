@@ -7,7 +7,7 @@ type: page
 slug: submissions
 ---
 
-***Mythaxis* is currently OPEN to submissions!**
+***Mythaxis* is currently CLOSED to submissions.**
 
 We are open to submissions within the following periods:
 
