@@ -1,0 +1,3 @@
+User-agent: GPTBot
+Disallow: /
+# because niel said should :-P~
