@@ -42,4 +42,4 @@ Right, that's it. See you in three more months. With "three" more reviews.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of any of these stories on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of any of these stories on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/889661896500131).*
