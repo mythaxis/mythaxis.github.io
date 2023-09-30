@@ -307,4 +307,4 @@ He nods his head. “Je sais, maman.”
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **La Voix d'un Ange** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **La Voix d'un Ange** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/889664999833154).*
