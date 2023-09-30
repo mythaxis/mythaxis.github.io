@@ -261,4 +261,4 @@ So go on. It’s your turn.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **You Are a Rock God** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **You Are a Rock God** on [Facebook]([https://www.facebook.com/MythaxisMagazine/posts/](https://www.facebook.com/MythaxisMagazine/posts/889665466499774).*
