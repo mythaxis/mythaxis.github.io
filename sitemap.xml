@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/issue-35/you-are-a-rock-god.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-34/embryo.html</loc>
     <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -37,6 +40,9 @@
   </url><url>
     <loc>/issue-23/newest-profession.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-35/la-voix-d-un-ange.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-34/my-beloved-is-mine.html</loc>
     <lastmod>2023-06-30T00:00:00+00:00</lastmod>
@@ -74,6 +80,9 @@
     <loc>/issue-23/sedona-house.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/issue-35/default.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-34/simulations.html</loc>
     <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -109,6 +118,9 @@
   </url><url>
     <loc>/issue-23/curse-midnight.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-35/the-four-bill-club.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-34/infinite.html</loc>
     <lastmod>2023-06-30T00:00:00+00:00</lastmod>
@@ -146,6 +158,9 @@
     <loc>/issue-23/alight.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/issue-35/the-broken-bones_of-summer.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-34/welcome-to-the-neighborhood.html</loc>
     <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -181,6 +196,9 @@
   </url><url>
     <loc>/issue-23/huntress-conveyor.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-35/border-patrol.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-34/francesco-verso-interview.html</loc>
     <lastmod>2023-06-30T00:00:00+00:00</lastmod>
@@ -218,6 +236,9 @@
     <loc>/issue-23/third-martian-dick-temple.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/issue-35/ghost-music-an-yu-review.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-34/grotesquerie-richard-gavin-review.html</loc>
     <lastmod>2023-06-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -253,6 +274,9 @@
   </url><url>
     <loc>/issue-23/cartoon.html</loc>
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-35/short-reviews-autumn-2023.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-34/short-reviews-summer-2023.html</loc>
     <lastmod>2023-06-30T00:00:00+00:00</lastmod>
@@ -297,15 +321,48 @@
     <lastmod>2020-08-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/andrew-leon-hudson.html</loc>
-    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors.html</loc>
-    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/issue-34.html</loc>
-    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
+    <loc>/authors/don-mark-baldridge.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/donald-mccarthy.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-35/editorial.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/elin-olausson.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-35.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/joelle-killian.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/kirk-bueckert.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/mattia-ravasi.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-35/</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-35/contents.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/authors/xan-van-rooyen.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/issue-34.html</loc>
     <lastmod>2023-07-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/bill-ryan.html</loc>
@@ -354,9 +411,6 @@
     <lastmod>2023-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/lucy-zhang.html</loc>
-    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/authors/mattia-ravasi.html</loc>
     <lastmod>2023-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-33/</loc>
