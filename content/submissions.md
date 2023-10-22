@@ -70,18 +70,18 @@ If you track your submissions, you can find ***Mythaxis Magazine*** on [The Subm
 **Attachment labelling:** Please consider using the format **<title><authorname>**.doc to label your attached file. This aids greatly in document management.
 
 ***Good*** examples:
-> **The Very Hungry Caterpiller - Eric Carle**
-> **TheVeryHungryCaterpiller_Carle**
-> **the-very-hungry-caterpiller** (including the author's name on the document is entirely optional)
-> *VeryHungryCaterpiller* (omitting "the" is not a disaster, but for the sake of three letters why not keep it?)
+- **The Very Hungry Caterpiller - Eric Carle**
+- **TheVeryHungryCaterpiller_Carle**
+- **the-very-hungry-caterpiller** (including the author's name on the document is entirely optional)
+- *VeryHungryCaterpiller* (omitting "the" is not a disaster, but for the sake of three letters why not keep it?)
 
 Leading with the author's name, an abreviated title, or any other variation makes tracking down stories harder and risks annoying the editor moments before he reads your work, and why would you want that to happen?
 
 ***Bed*** examples: 
-> *Carle - The Very Hungry Caterpiller* (you know who you are)
-> *Mythaxis - The Very Hungry Caterpiller* (we know who we are)
-> *Caterpiller / Hungry_draft3* / etc
-> *submission_caterpiller / april2023-caterpiller / etc
+- *Carle - The Very Hungry Caterpiller* (you know who you are)
+- *Mythaxis - The Very Hungry Caterpiller* (we know who we are)
+- *Caterpiller / Hungry_draft3* / etc
+- *submission_caterpiller / april2023-caterpiller / etc
 
 The editor knows he is wasting his time suggesting this, but is allowed to dream of a better world.               
 
