@@ -74,7 +74,7 @@ If you track your submissions, you can find ***Mythaxis Magazine*** on [The Subm
 - **the-very-hungry-caterpillar** (including the author in the filename is entirely optional)
 - **VeryHungryCaterpillar** (omitting "the" is not a disaster, but for the sake of three letters why not keep it?)
 
-Filenames that lead with the author's name, use an abbreviated title, or any other variation makes it harder to find stories and risks annoying the editor moments before he reads your work. Examples of **bad** filenames are:
+Filenames that lead with the author's name, use an abbreviated title or other weird variations make them harder to find. This risks annoying the editor moments before he reads your story. Examples of **bad** filenames are:
 
 - *Carle - The Very Hungry Caterpillar* (you know who you are)
 - *Mythaxis - The Very Hungry Caterpillar* (we know who we are)
