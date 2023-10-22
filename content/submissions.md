@@ -67,18 +67,19 @@ If you track your submissions, you can find ***Mythaxis Magazine*** on [The Subm
 - Use *italics* for italics, don’t underline. Smart (“curly”) punctuation is preferred, but consistency is preferred more.
 - If your manuscript includes any unusual formatting, please alert the editors when submitting and have a really good, story-related reason.
 
-**Attachment labelling:** Please consider using the format **/<title>/<authorname>**.doc to label your attached file. This aids greatly in document management. Examples of good labelling are:
+**Attachment filenames:** Please consider using the format ***< title >< authorname >**.doc* for your attachment filename. This aids greatly in alphabetical document management. Examples of **good** filenames are:
 
-- **The Very Hungry Caterpiller - Eric Carle**
-- **TheVeryHungryCaterpiller_Carle**
-- **the-very-hungry-caterpiller** (including the author's name on the document is entirely optional)
-- *VeryHungryCaterpiller* (omitting "the" is not a disaster, but for the sake of three letters why not keep it?)
+- **The Very Hungry Caterpillar - Eric Carle**
+- **TheVeryHungryCaterpillar_Carle**
+- **the-very-hungry-caterpillar** (including the author in the filename is entirely optional)
+- **VeryHungryCaterpillar** (omitting "the" is not a disaster, but for the sake of three letters why not keep it?)
 
-Leading with the author's name, an abreviated title, or any other variation makes it hard to find stories alphabetically and risks annoying the editor moments before he reads your work. Examples of bad labelling are:
+Filenames that lead with the author's name, use an abbreviated title, or any other variation makes it harder to find stories and risks annoying the editor moments before he reads your work. Examples of **bad** filenames are:
 
-- *Carle - The Very Hungry Caterpiller* (you know who you are)
-- *Mythaxis - The Very Hungry Caterpiller* (we know who we are)
-- *Caterpiller / Hungry_draft3 / submission_copy caterpiller / april2023-caterpiller /* etc
+- *Carle - The Very Hungry Caterpillar* (you know who you are)
+- *Mythaxis - The Very Hungry Caterpillar* (we know who we are)
+- *Caterpillar / Hungry_draft3 / submission_copy caterpillar / april2023-caterpillar /* etc
+- *Before the Butter Flies* (use the same title as in your email, damnit)
 
 The editor knows he is wasting his time suggesting this, but is allowed to dream of a better world.               
 
