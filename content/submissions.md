@@ -67,7 +67,7 @@ If you track your submissions, you can find ***Mythaxis Magazine*** on [The Subm
 - Use *italics* for italics, don’t underline. Smart (“curly”) punctuation is preferred, but consistency is preferred more.
 - If your manuscript includes any unusual formatting, please alert the editors when submitting and have a really good, story-related reason.
 
-**Attachment labelling:** Please consider using the format **<title><authorname>**.doc to label your attached file. This aids greatly in document management. Examples of good labelling are:
+**Attachment labelling:** Please consider using the format **/<title>/<authorname>**.doc to label your attached file. This aids greatly in document management. Examples of good labelling are:
 
 - **The Very Hungry Caterpiller - Eric Carle**
 - **TheVeryHungryCaterpiller_Carle**
