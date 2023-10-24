@@ -29,6 +29,8 @@ We acquire **First Print and Digital rights with a six month period of exclusivi
 
 **Simultaneous submissions are not only accepted, they are encouraged**. Please tell us if you sim-sub, and we merely ask that you notify us of acceptance at another market as soon as possible. In the event that we accept first, we expect a positive and timely confirmation. Therefore we recommend sim-subbing to markets of equivalent status – we won't wait for someone else you'd like better to turn you down.
 
+We do not accept multiple submissions. Please wait until your first submission has been rejected before submitting another work.
+
 **If a story has previously been rejected by *Mythaxis*, please do not resubmit** or inquire regarding doing so, unless explicitly invited to by the editor during the original rejection.
 
 > **Feedback:** Unfortunately, due to increased submission volume, it is no longer possible for us to offer feedback to all authors requesting it. This is a regretful necessity, but without the time required to say something meaningful feedback loses its value. We may, however, offer some comments when rejecting strong candidate pieces along with an invitation to revise and resubmit.
