@@ -8,6 +8,11 @@ slug: archive
 
 ---
 
+[Authors index](./authors.html)
+[Stories index](./stories.html)
+
+
+
 ## Back Issues
 
 - [Issue&nbsp;33: Spring 2023]({{< relref "/issue-33/__index.md" >}})

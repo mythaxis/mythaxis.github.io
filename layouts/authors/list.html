@@ -13,7 +13,7 @@
 
 <body>
 	<h1>{{ with .Site.GetPage "section" .Section }}{{ .Title }}{{ end }}</h1>
-default list
+Authors list
  	<ul class="nav nav-pills nav-stacked">
       {{ range .Site.Pages }}
         <li><a href="{{ .Permalink }}">{{ .Params.title | humanize | title }}</a></li>
