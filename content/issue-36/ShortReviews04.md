@@ -46,4 +46,4 @@ And with that, **Mythaxis Magazine** bids farewell to 2023. We wish you the very
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of any of these stories on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of any of these stories on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/952978323501821).*
