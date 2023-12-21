@@ -143,4 +143,4 @@ Alas, we survived another winter. Two pigs down, which isnâ€™t the worst; thereâ
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Summer in Duncanny** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Summer in Duncanny** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/952980216834965).*
