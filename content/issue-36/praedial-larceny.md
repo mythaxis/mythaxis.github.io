@@ -319,4 +319,4 @@ Along the way, he starts singing.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Praedial Larceny** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Praedial Larceny** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/952983953501258).*
