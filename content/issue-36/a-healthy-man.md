@@ -221,4 +221,4 @@ Not like you and like me.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **A Healthy Man** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **A Healthy Man** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/952982603501393).*
