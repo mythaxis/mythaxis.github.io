@@ -8,9 +8,9 @@ This partial template assumes the page context . is passed to it.
 		var ulElement = document.querySelector('.post ul');  // Get the first <ul>
 		var currentDate = new Date(); // Get the current date
 		var submissionStatus = "CLOSED"; // Values (CLOSED|OPEN). default CLOSED.
-		var dateRegex = /(\w+)\s(\d{1,2})..-(\d{1,2})/; // Regex to extract date values
+		var dateRegex = /(\w+)\s(\d{1,2})..-(\d{1,2})/; // Regex to get date from <li>
 
-		// Loop through each list item and extract date range values
+		// Extract date range values from list
 		ulElement.querySelectorAll('li').forEach(function(li) {
 			var matches = li.textContent.match(dateRegex);
 			if (matches) {
