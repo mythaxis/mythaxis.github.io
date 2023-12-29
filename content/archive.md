@@ -15,6 +15,8 @@ slug: archive
 
 ## Back Issues
 
+- [Issue&nbsp;35: Autumn 2023]({{< relref "/issue-35/__index.md" >}})
+- [Issue&nbsp;34: Summer 2023]({{< relref "/issue-34/__index.md" >}})
 - [Issue&nbsp;33: Spring 2023]({{< relref "/issue-33/__index.md" >}})
 - [Issue&nbsp;32: Winter 2022]({{< relref "/issue-32/__index.md" >}})
 - [Issue&nbsp;31: Autumn 2022]({{< relref "/issue-31/__index.md" >}})
@@ -39,7 +41,7 @@ Here you can find not only the more than one hundred-and-fifty pieces of fiction
 
 Here you will find a place for science fiction both hard and soft, fantasy both high and low, horror both harsh and humorous, along with whatever mash-ups or sub-genres can be conceived.
 
-We pay our authors what we can, and offer their stories to you forever free-to-read... enjoy!
+We pay our authors what we can, and offer their stories to you forever free-to-read… enjoy!
 
 - [Issue&nbsp;22: Apr 20](issue-22/index.html)
 - [Issue&nbsp;21: Feb 18](indexissuev21.htm)
