@@ -1,5 +1,6 @@
 ---
 date: 2020-12-07
+type: author
 authors:
 - David Whitmarsh
 name: David Whitmarsh

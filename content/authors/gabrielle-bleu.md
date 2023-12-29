@@ -1,5 +1,6 @@
 ---
 date: 2021-09-15
+type: author
 authors:
 - Gabrielle Bleu
 name: Gabrielle Bleu

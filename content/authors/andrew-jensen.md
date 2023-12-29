@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Andrew Jensen
 name: Andrew Jensen

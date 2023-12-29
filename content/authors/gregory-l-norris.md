@@ -1,5 +1,6 @@
 ---
 date: 2021-09-15
+type: author
 authors:
 - Gregory L. Norris
 name: Gregory L. Norris

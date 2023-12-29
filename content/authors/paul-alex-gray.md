@@ -1,5 +1,6 @@
 ---
 date: 2021-09-15
+type: author
 authors:
 - Paul Alex Gray
 name: Paul Alex Gray

@@ -1,5 +1,6 @@
 ---
 date: 2021-03-15
+type: author
 authors:
 - Pritesh Patil and Percy Wadiwala
 name: Pritesh Patil and Percy Wadiwala

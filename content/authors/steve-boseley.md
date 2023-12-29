@@ -1,5 +1,6 @@
 ---
 date: 2023-12-21
+type: author
 authors:
 - Steve Boseley
 name: Steve Boseley

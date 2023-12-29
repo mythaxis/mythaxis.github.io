@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Daniel Ausema
 name: Daniel Ausema

@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Lucy Zhang
 name: Lucy Zhang

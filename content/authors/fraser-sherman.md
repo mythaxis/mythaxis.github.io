@@ -1,5 +1,6 @@
 ---
 date: 2022-12-19
+type: author
 authors:
 - Fraser Sherman
 name: Fraser Sherman

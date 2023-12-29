@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Andrew Johnston
 name: Andrew Johnston

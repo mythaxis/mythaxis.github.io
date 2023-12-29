@@ -1,5 +1,6 @@
 ---
 date: 2023-06-30
+type: author
 authors:
 - Bill Ryan
 name: Bill Ryan

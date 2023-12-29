@@ -1,5 +1,6 @@
 ---
 date: 2022-06-18
+type: author
 authors:
 - Thorin N. Tatge
 name: Thorin N. Tatge

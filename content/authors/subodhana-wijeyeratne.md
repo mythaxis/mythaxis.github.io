@@ -1,5 +1,6 @@
 ---
 date: 2021-03-15
+type: author
 authors:
 - Subodhana Wijeyeratne
 name: Subodhana Wijeyeratne

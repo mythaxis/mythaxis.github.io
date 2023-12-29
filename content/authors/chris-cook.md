@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Christopher Cook
 name: Christopher Cook

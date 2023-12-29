@@ -1,5 +1,6 @@
 ---
 date: 2022-03-27
+type: author
 authors:
 - Erik Mann
 name: Erik Mann

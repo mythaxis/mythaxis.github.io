@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - C. Owen Loftus
 name: C. Owen Loftus

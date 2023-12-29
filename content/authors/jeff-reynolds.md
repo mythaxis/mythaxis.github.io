@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Jeff Reynolds
 name: Jeff Reynolds

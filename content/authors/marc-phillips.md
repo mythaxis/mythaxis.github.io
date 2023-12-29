@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Marc Phillips
 name: Marc Phillips

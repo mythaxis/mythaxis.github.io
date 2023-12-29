@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Jeffery Scott Sims
 name: Jeffery Scott Sims
