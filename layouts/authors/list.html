@@ -2,22 +2,67 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="author" content="">
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link href="css/style.css" rel="stylesheet">
+  <style>
+    pre {
+      white-space: pre-wrap;       /* Since CSS 2.1 */
+      white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+      white-space: -pre-wrap;      /* Opera 4-6 */
+      white-space: -o-pre-wrap;    /* Opera 7 */
+      word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    }
+  </style>
 </head>
 
 <body>
 	<h1>{{ with .Site.GetPage "section" .Section }}{{ .Title }}{{ end }}</h1>
 Authors list
+
+
+{{/* Combine Hugo pages and xway2 data into content listing dictionary */}}
+{{ $allStories := slice }}
+{{ range (where .Site.Pages ".Type" "stock") }}
+  {{ $story := dict
+      "title" .Title
+      "relurl" .RelPermalink
+      "author" .Params.author
+      "issue" .Params.issue
+      "number" (index (strings.FindRE `\d+?$` .Params.issue) 0)
+      "order" .Params.weight
+      "date" (.Params.publishDate.Format "January 2006")
+  }}
+  {{ $allStories = $allStories | append $story }}
+{{ end }}
+{{ $allStories = $allStories | append (index .Site.Data "xway2-metadata") }}
+
+
+
+
+-allStories-<br/>
+Page stories: {{ len (where .Site.Pages ".Type" "stock") }}<br/>
+Back stories: {{ len (index .Site.Data "xway2-metadata") }}<br/>
+All  stories: {{ len $allStories }}<br/>
+<pre>
+{{ last 80 $allStories }}
+</pre>
+
+
+
+----
+----
+
+<ul>
+  {{ range (sort (sort $allStories "order" "asc") "number" "asc") }}
+    <li>
+      {{ .number }}, {{ .order }}, {{ .issue }}, {{ .title }}
+    </li>
+  {{ end }}
+</ul>
+
  	<ul class="nav nav-pills nav-stacked">
-      {{ range .Site.Pages }}
-        <li><a href="{{ .Permalink }}">{{ .Params.title | humanize | title }}</a></li>
-      {{ end }}
+      {{/* range .Site.Pages */}}
+        <li><a href="{{ .Permalink }}">{{/* .Params.title | humanize | title */}}</a></li>
+      {{/* end */}}
     </ul>
 </body>
 
