@@ -1,5 +1,6 @@
 ---
 date: 2023-12-21
+type: author
 authors:
 - Shaun Anthony McMichael
 name: Shaun Anthony McMichael

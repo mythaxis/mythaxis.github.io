@@ -1,5 +1,7 @@
 ---
 date: 2020-12-07
+type: author
+type: author
 authors:
 - Addison Smith
 name: Addison Smith

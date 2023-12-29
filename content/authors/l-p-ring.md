@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - L.P. Ring
 name: L.P. Ring

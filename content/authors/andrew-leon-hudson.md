@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Andrew Leon Hudson
 name: Andrew Leon Hudson

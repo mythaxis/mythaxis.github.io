@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Anya Josephs
 name: Anya Josephs

@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Sandee Bree Breathnach
 name: Sandee Bree Breathnach

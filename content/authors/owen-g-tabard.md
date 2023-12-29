@@ -1,5 +1,6 @@
 ---
 date: 2022-03-27
+type: author
 authors:
 - Owen G. Tabard
 name: Owen G. Tabard

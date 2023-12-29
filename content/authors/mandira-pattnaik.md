@@ -1,5 +1,6 @@
 ---
 date: 2022-03-27
+type: author
 authors:
 - Mandira Pattnaik
 name: Mandira Pattnaik

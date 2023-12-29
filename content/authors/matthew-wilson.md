@@ -1,5 +1,6 @@
 ---
 date: 2020-12-07
+type: author
 authors:
 - Matthew Wilson
 name: Matthew Wilson

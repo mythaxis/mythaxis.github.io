@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Liam Baldwin
 name: Liam Baldwin

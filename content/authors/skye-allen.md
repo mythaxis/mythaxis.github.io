@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Skye Allen
 name: Skye Allen

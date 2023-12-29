@@ -1,5 +1,6 @@
 ---
 date: 2021-12-20
+type: author
 authors:
 - E. Saxey
 name: E. Saxey

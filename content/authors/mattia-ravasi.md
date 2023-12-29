@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Mattia Ravasi
 name: Mattia Ravasi

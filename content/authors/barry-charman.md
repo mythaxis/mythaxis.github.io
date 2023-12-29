@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Barry Charman
 name: Barry Charman

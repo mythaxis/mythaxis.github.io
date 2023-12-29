@@ -15,55 +15,63 @@
 </head>
 
 <body>
-	<h1>{{ with .Site.GetPage "section" .Section }}{{ .Title }}{{ end }}</h1>
-Authors list
+	<h1>{{ .Title }}</h1>
+  <p>{{ .Content }}</p>
 
 
-{{/* Combine Hugo pages and xway2 data into content listing dictionary */}}
-{{ $allStories := slice }}
-{{ range (where .Site.Pages ".Type" "stock") }}
-  {{ $story := dict
-      "title" .Title
+{{ $allAuthors := slice }}
+
+{{ range where .Site.Pages "Type" "author" }}
+  {{ $author := dict
+      "name" .Params.Name
       "relurl" .RelPermalink
-      "author" .Params.author
-      "issue" .Params.issue
-      "number" (index (strings.FindRE `\d+?$` .Params.issue) 0)
-      "order" .Params.weight
-      "date" (.Params.publishDate.Format "January 2006")
   }}
-  {{ $allStories = $allStories | append $story }}
+  {{ $allAuthors = $allAuthors | append $author }}
 {{ end }}
-{{ $allStories = $allStories | append (index .Site.Data "xway2-metadata") }}
 
+{{ range (index .Site.Data "xway2-metadata") }}
+    {{ $author := dict
+      "name" .author
+      "relurl" ""
+  }}
+  {{ $allAuthors = $allAuthors | append $author }}
+{{ end }}
 
-
-
--allStories-<br/>
-Page stories: {{ len (where .Site.Pages ".Type" "stock") }}<br/>
-Back stories: {{ len (index .Site.Data "xway2-metadata") }}<br/>
-All  stories: {{ len $allStories }}<br/>
-<pre>
-{{ last 80 $allStories }}
-</pre>
 
 
 
 ----
-----
+<h2>authors</h2>
+Full count: {{ len $allAuthors }}<br/>
+Number of authors: {{ len ($allAuthors | uniq)}}
+
+
 
 <ul>
-  {{ range (sort (sort $allStories "order" "asc") "number" "asc") }}
+  {{ range ($allAuthors | uniq) }}
     <li>
-      {{ .number }}, {{ .order }}, {{ .issue }}, {{ .title }}
+      {{ if .relurl }}
+        <a href="{{ .relurl }}">{{ .name }}</a>
+      {{ else }}
+        {{ .name }}
+      {{ end }}
+      ({{ len (where $allAuthors "name" .name) }})
     </li>
   {{ end }}
 </ul>
 
- 	<ul class="nav nav-pills nav-stacked">
-      {{/* range .Site.Pages */}}
-        <li><a href="{{ .Permalink }}">{{/* .Params.title | humanize | title */}}</a></li>
-      {{/* end */}}
-    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>

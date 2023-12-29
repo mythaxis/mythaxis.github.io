@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Celine Low
 name: Celine Low

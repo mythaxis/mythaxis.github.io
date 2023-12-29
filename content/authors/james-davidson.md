@@ -1,5 +1,6 @@
 ---
 date: 2022-06-18
+type: author
 authors:
 - James Davidson
 name: James Davidson

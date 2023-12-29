@@ -1,5 +1,6 @@
 ---
 date: 2021-12-20
+type: author
 authors:
 - Charlotte H. Lee
 name: Charlotte H. Lee

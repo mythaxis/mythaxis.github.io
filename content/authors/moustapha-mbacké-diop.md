@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Moustapha Mbacké Diop
 name: Moustapha Mbacké Diop

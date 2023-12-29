@@ -1,5 +1,6 @@
 ---
 date: 2021-06-30
+type: author
 authors:
 - Annie Percik
 name: Annie Percik

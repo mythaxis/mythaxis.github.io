@@ -1,5 +1,6 @@
 ---
 date: 2023-09-30
+type: author
 authors:
 - Elin Olausson
 name: Elin Olausson

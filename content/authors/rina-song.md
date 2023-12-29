@@ -1,5 +1,6 @@
 ---
 date: 2022-06-18
+type: author
 authors:
 - Rina Song
 name: Rina Song

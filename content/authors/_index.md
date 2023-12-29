@@ -1,5 +1,5 @@
 ---
-title: author _index.md
+title: Authors (content/authors/_index.md)
 ---
 
-asdfsdf
+Authors listings below...

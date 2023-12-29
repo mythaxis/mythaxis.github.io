@@ -1,5 +1,6 @@
 ---
 date: 2021-12-20
+type: author
 authors:
 - Hermester Barrington
 name: Hermester Barrington

@@ -1,5 +1,6 @@
 ---
 date: 2020-12-07
+type: author
 authors:
 - Scott J. Couturier
 name: Scott J. Couturier

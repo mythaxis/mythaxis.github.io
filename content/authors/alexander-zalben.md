@@ -1,5 +1,7 @@
 ---
 date: 2022-06-18
+type: author
+type: author
 authors:
 - Alexander Zalben
 name: Alexander Zalben

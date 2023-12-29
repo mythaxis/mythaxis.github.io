@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Anna Zumbro
 name: Anna Zumbro

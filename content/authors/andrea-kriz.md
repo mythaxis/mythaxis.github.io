@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Andrea Kriz
 name: Andrea Kriz

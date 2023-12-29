@@ -1,5 +1,6 @@
 ---
 date: 2021-06-30
+type: author
 authors:
 - Amanda C. Crowley
 name: Amanda C. Crowley

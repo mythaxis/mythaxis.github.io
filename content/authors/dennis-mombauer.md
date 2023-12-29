@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Dennis Mombauer
 name: Dennis Mombauer

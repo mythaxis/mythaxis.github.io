@@ -1,5 +1,6 @@
 ---
 date: 2021-09-15
+type: author
 authors:
 - Kyle E. Miller
 name: Kyle E. Miller

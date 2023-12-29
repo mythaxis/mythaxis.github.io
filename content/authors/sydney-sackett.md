@@ -1,5 +1,6 @@
 ---
 date: 2022-09-15
+type: author
 authors:
 - Sydney Sackett
 name: Sydney Sackett

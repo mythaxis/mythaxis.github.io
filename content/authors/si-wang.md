@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Si Wang
 name: Si Wang

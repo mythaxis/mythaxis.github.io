@@ -1,4 +1,5 @@
 ---
+type: author
 authors:
 - Micah Hyatt
 name: Micah Hyatt
