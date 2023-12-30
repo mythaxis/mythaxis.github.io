@@ -6,7 +6,6 @@ issue: Issue 23
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 
 imageCopyright: |+
   **ISSUE 23** - ***Thanks and Salutations!*** 

@@ -6,7 +6,6 @@ issue: Issue 30
 authors:
 - Elana Gomel
 copyright: '© Elana Gomel 2022 All Rights Reserved'
-showAuthorFooter: true
 
 description: "Real-world conflict has always provided a rich vein to mine for fiction, though when the conflict is war there can be little doubt that those inspired would prefer not to be. Here, Ukraine-born Elana Gomel bends a striking East-European folktale into a timely parable of terrible loss and sacrifice. Content warning, for horror, familial violence, and sorrow."
 

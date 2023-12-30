@@ -5,7 +5,6 @@ issue: Issue 35
 
 authors:
 - Joelle Killian
-showAuthorFooter: true
 copyright: '© Joelle Killian 2023 All Rights Reserved'
 
 description: "Sex and drugs and rock'n'roll: some permutation of music's answer to The Good, the Bad, and the Ugly, perhaps – only, when you're at the top, everything's 'The Good', right? It's all going to last forever, and nothing can go wrong. Joelle Killian takes us to the top and gives us a glimpse of the bottom – or possibly the other way around. Unless the top was always an illusion. And maybe it would be better if it was."

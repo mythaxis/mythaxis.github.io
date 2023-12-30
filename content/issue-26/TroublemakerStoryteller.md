@@ -6,7 +6,6 @@ issue: Issue 26
 authors:
 - Jonathon Mast
 copyright: '© Jonathon Mast 2021 All Rights Reserved'
-showAuthorFooter: true
 
 description: "'Stories about writers' are a hard sell at Mythaxis, but 'stories about storytellers' isn't exactly the same thing. Jonathon Mast's tale touches on timely themes of female oppression and the struggle against patriarchal corruption, starting with a classic (even classical) damsel-in-distress scenario before the old forms begin to shed their skins — and the power that comes from crafting new narratives is at the heart of it all."
 

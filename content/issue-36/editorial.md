@@ -5,7 +5,6 @@ issue: Issue 36
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 
 image: images/Sanka_Coffee_mob.jpg
 

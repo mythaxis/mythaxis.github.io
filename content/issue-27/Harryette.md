@@ -5,7 +5,6 @@ issue: Issue 27
 
 authors:
 - Daniel Rabuzzi
-showAuthorFooter: true
 copyright: '© Daniel Rabuzzi 2021 All Rights Reserved.'
 
 description: "Ghost stories and romance — what could be a more perfect match? Oh course, there's inevitably the risk of tragedy with such a pairing, but Daniel Rabuzzi gives us reason to hold out hope that love really can conquer all… even across centuries."

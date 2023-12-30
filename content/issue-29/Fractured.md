@@ -5,7 +5,6 @@ issue: Issue 29
 
 authors:
 - Gunnar De Winter
-showAuthorFooter: true
 copyright: '© Gunnar De Winter 2022 All Rights Reserved'
 
 description: "The experiences of the neuroatypical—including of being surrounded by the supposedly monolythically typical—are often depicted as a no-win feedback loop, made worse as much by attempts to bring poor sufferers into the norm as by abandonment to their fate. But Gunnar De Winter's story points out that context is everything, and if in space no one can hear you scream, perhaps it's because you no longer feel the urge."

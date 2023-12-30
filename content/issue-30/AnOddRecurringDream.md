@@ -5,7 +5,6 @@ issue: Issue 30
 
 authors:
 - James Davidson
-showAuthorFooter: true
 copyright: '© James Davidson 2022 All Rights Reserved'
 
 description: "My first experience of being published was at the hands of Mythaxis' original editor, so it's always a pleasure when I find myself able to do the same for someone else. James Davidson's tale presents an intelligibly alien future society and leaves the exact nature of its protagonist carefully uncertain - but they are certainly a person of some kind, within certain constraints."

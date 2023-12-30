@@ -6,7 +6,6 @@ issue: Issue 28
 authors:
 - Uchechukwu Nwaka
 copyright: '© Uchechukwu Nwaka 2021 All Rights Reserved'
-showAuthorFooter: true
 
 description: "The damsel in distress is surely centuries old, but when the damsel in question has no choice but to do her own saving, 'damsel' is just another synonym for 'hero'. Nevertheless, while coming out on top against all odds sounds like a good thing, sadly the world is rarely so conveniently black and white. Uchechukwu Nwaka shows us how a victory can sour even as we’re savouring it."
 

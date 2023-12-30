@@ -6,7 +6,6 @@ issue: Issue 27
 authors:
 - Jalyn Renae Fiske
 copyright: '© Jalyn Renae Fiske 2021 All Rights Reserved'
-showAuthorFooter: true
 
 description: "Here we have the first of two substantial sci-fi pieces with a focus on family, one in which overcoming separation is at the heart of things, the other with gaining independence as the goal - both presenting futures of interplanetary colonisation. Jalyn Renae Fiske takes us very far from home and, against all circumstance, shows that there could be a home there too."
 

@@ -5,7 +5,6 @@ issue: Issue 33
 
 authors:
 - Mattia Ravasi
-showAuthorFooter: true
 copyright: '© Mattia Ravasi 2023 All Rights Reserved'
 
 description: "In this, my third year as Mythaxis Editor, it's time to shake things up around here with the first of two more-or-less non-fiction features. In his guise as 'The Bookchemist', Mattia Ravasi has been vlogging about long-form fiction for almost eight years, and I'm delighted to have him here reviewing contemporary speculative fiction. So, without further ado…"

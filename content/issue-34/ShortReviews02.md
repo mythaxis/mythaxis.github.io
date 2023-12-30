@@ -5,7 +5,6 @@ issue: Issue 34
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 copyright: '© Andrew Leon Hudson 2023 All Rights Reserved'
 
 description: "As the issue draws to a close, we once again invite our readers to use us as a springboard to dive into the fiction offered by other interesting online zines out there. Three new stories from three different publications, all released in the last three months and all very much worth a little of your time."

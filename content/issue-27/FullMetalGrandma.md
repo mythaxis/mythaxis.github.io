@@ -5,7 +5,6 @@ issue: Issue 27
 
 authors:
 - Paul Alex Gray
-showAuthorFooter: true
 copyright: '© Paul Alex Gray 2021 All Rights Reserved'
 
 description: "Social Media - some love it, some hate it, but there is certainly a rich vein to mine in how the contemporary digital landscape will evolve in the future. Paul Alex Gray strikes more than just crypto-currency with this tale of a pre-apocalyptic soldier-for-hire who has to deal with a whole lot worse than online trolls."

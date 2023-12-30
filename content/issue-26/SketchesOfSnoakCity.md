@@ -6,7 +6,6 @@ issue: Issue 26
 authors:
 - Les Sklaroff
 copyright: '© Les Sklaroff 2012 - 2021 All Rights Reserved'
-showAuthorFooter: true
 
 description: "Back in 2012, Les Sklaroff had already been contributing quirky pieces to Mythaxis for several years. Issue 11 introduced us to a variety of unusually named persons — Paeony 3rdfield, Dundro Fappit, a collection of rivals negotiating the maze of someone called 'Foroquont' — all denizens of a single, strange, intriguing city, possibly ancient, possibly future. Over the following eight years we've returned to Snoak City numerous times, but the connections between these moments has never been as clear as now."
 

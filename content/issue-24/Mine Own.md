@@ -5,7 +5,6 @@ issue: Issue 24
 
 authors:
 - Sharon Dawn Selby
-showAuthorFooter: true
 copyright: '© Sharon Dawn Selby 2020 All Rights Reserved'
 
 description: "As a professional specialist in both communication and literature, you might be forgiven for expecting Sharon Dawn Selby to already have a long list of fiction credits to her name - so imagine our surprise and delight to be able to present her first published story, one which underlines the traditional power of language and place, good manners, and proper introductions."

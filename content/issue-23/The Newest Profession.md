@@ -8,7 +8,6 @@ authors:
 copyright: "© Anya Josephs 2020 All Rights Reserved"
 image: images/NewestProfession.png
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [JacksonDavid](https://pixabay.com/photos/african-afro-turban-people-person-5035645/) (several times over), and [Pexels](https://pixabay.com/photos/architecture-building-geometric-1868547/)."
-showAuthorFooter: true
 
 description: "We open the issue with a visit to a plausible near-future, as Anya Josephs presents us with a disturbing glimpse of a world where ordinary people rarely get the chances they dream of, and corporate life is everything. That last is a theme this magazine plans to play host to again - but that's a story for another time. As for this one, well, the title gives it all away. Doesn't it?"
 

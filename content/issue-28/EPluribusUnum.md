@@ -5,7 +5,6 @@ issue: Issue 28
 
 authors:
 - Mame Bougouma Diene
-showAuthorFooter: true
 copyright: '© Mame Bougouma Diene 2021 All Rights Reserved'
 
 description: "It's hard to hate The Other if there isn't An Other to hate. So, in a sense, when it comes to bigotry it always takes two to tango, even if only one participant is actually dancing to the music. Mame Bougouma Diene's elegiac short strongly suggests that this is going to be the case right up until the solo begins."

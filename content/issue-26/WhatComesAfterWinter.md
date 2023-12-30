@@ -5,7 +5,6 @@ issue: Issue 26
 
 authors:
 - Kurt Hunt
-showAuthorFooter: true
 copyright: '© Kurt Hunt 2021 All Rights Reserved'
 
 description: "As promised, here we have a counterpart to the chirpy sf puh-pocalypse of 'Freewheeling'. Via another hard-working protagonist, Kurt Hunt's flash fantasy glimpses a moment of cultural and environmental transition that threatens to overturn an entire way of life. An ecological reckoning now seems an inevitable part of all our futures; maybe the extremes the real world will experience are not the same as these, but one way or another they will have to be accepted. Can we too find some positives in what lies ahead?"

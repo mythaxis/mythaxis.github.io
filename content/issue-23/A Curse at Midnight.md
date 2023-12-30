@@ -8,7 +8,6 @@ authors:
 image: images/CurseMidnight.png
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Pexels](https://pixabay.com/photos/alligator-animal-close-up-crocodile-1851313/), [josephvm](https://pixabay.com/photos/abstract-horror-face-dark-rough-3363956/), [Skitterphoto](https://pixabay.com/photos/flame-fire-inferno-orange-burning-726268/), and [darksouls1](https://pixabay.com/illustrations/fractal-light-light-fractal-fire-1764914/)."
 copyright: "© Moustapha Mbacké Diop 2020 All Rights Reserved"
-showAuthorFooter: true
 
 description: "Afrofuturism is riding a wave of popularity around the world, but that richness which scifi is benefitting from has its roots in traditional stories, myths, and beliefs. Moustapha Mbacké Diop takes us to present day Senegal and shows us that some of those things from the past are alive and well, and very up close."
 

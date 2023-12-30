@@ -5,7 +5,6 @@ issue: Issue 28
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 
 image: images/The-AI-Issue-sml.jpg
 

@@ -5,7 +5,6 @@ issue: Issue 35
 
 authors:
 - Mattia Ravasi
-showAuthorFooter: true
 copyright: '© Mattia Ravasi 2023 All Rights Reserved'
 
 description: "Welcome back to Mattia 'The Book Chemist' Ravasi, who returns after a six-month hiatus with his second longform fiction review. This time he shifts focus from the abstract and oppressive science fictional to the not-exactly hallucinogenic fantastical."

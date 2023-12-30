@@ -5,7 +5,6 @@ issue: Issue 36
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 copyright: '© Andrew Leon Hudson 2023 All Rights Reserved'
 
 description: "In keeping with the issue's theme, we're taking a break from reviewing speculative stories to instead scour the web for free-to-read shortform crime fiction. So here's a trio of pieces published this year by some genre zines not Ellery Queen's."

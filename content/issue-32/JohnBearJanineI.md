@@ -5,7 +5,6 @@ issue: Issue 32
 
 authors:
 - Hermester Barrington
-showAuthorFooter: true
 copyright: '© Hermester Barrington 2022 All Rights Reserved'
 
 description: "We're very pleased to welcome Hermester Barrington to the pages of Mythaxis for a second time—but while his previous visit provided biologically intricate introspection with a dash of the impenetrable academic, here we're given a short, sharp, straightforward slice of the supernatural. Making friends ought to be child's play. Imaginary ones? More so. If that's what they are, of course."

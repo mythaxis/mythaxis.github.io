@@ -6,7 +6,6 @@ issue: Issue 35
 authors:
 - Elin Olausson
 copyright: '© Elin Olausson 2023 All Rights Reserved'
-showAuthorFooter: true
 
 description: "Schools make for strange places in fantastical fiction, but even real schools are strange places: sometimes small, sometimes sprawling, they too often form the individuals of the future by filing away what makes each pupil distinct. Appropriate, then, that if Elin Olausson's story of a strange cohort has a narrator, it is one who identifies as the whole."
 

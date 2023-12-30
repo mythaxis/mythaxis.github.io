@@ -5,7 +5,6 @@ issue: Issue 28
 
 authors:
 - Charlotte H. Lee
-showAuthorFooter: true
 copyright: '© Charlotte H. Lee 2021 All Rights Reserved'
 
 description: "The genesis of speculative fiction may well be 'Utopia', Thomas More's 16th century satire of a perfect society, its name necessarily meaning 'no-place'. The best utopian sf now looks not merely at perfection, but instead shows people striving to build something better, often within worlds that are very far from perfect. Charlotte H. Lee gives us someone on that very path."

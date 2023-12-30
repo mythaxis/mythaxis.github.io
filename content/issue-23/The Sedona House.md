@@ -8,7 +8,6 @@ authors:
 image: images/SedonaHouse.png
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [WindowsObserver](https://pixabay.com/photos/sedona-arizona-red-rocks-351683/), and [422737](https://pixabay.com/photos/fingerprint-traces-pattern-456486/)."
 copyright: "© Jeffery Scott Sims 2020 All Rights Reserved"
-showAuthorFooter: true
 
 description: "Mythaxis is not just about looking to the future. Jeffery Scott Sims delivers a classic yarn with echoes of H. P. Lovecraft to it - courtesy of the kind of roguish problem-solver-for-hire who made the stencilled doors of Private Eyes so much fun to knock on..."
 

@@ -5,7 +5,6 @@ issue: Issue 26
 
 authors:
 - Annie Percik
-showAuthorFooter: true
 copyright: '© Annie Percik 2021 All Rights Reserved'
 
 description: "Another 'first of two' story here, in this case the first of two brief short stories with at least a hint of the apocalyptic to them along with something of an optimistic tone, unusual for that particular genre. In this case, Annie Percik delivers a plucky heroine  determined to stay up-beat in the face all of those little adversities that come with keeping an old folks' home running after the entire world has gone completely to pot."

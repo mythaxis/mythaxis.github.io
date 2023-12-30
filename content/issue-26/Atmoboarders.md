@@ -5,7 +5,6 @@ issue: Issue 26
 
 authors:
 - Martin Zeigler
-showAuthorFooter: true
 copyright: '© Martin Zeigler 2021 All Rights Reserved'
 
 description: "Charm, personality, the gift of the gab — author Martin Zeigler no doubt has all that and more. And so does his narrator here, but quick thinking and a witty turn of phrase are only the foundation of what makes a winning salesperson. Having a killer product on hand is neither here nor there when it comes to landing your catch: you really need to be able to spin them a yarn…"

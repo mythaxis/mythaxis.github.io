@@ -6,7 +6,6 @@ issue: Issue 24
 authors:
 - Scott J. Couturier
 copyright: '© Scott J. Couturier 2020 All Rights Reserved'
-showAuthorFooter: true
 
 description: "There's nothing quite like The Gothic for wrapping a reader in a strange atmosphere: painting with morbid darkness, sinking a chill deep down into the bones, or perhaps too-vivid colour as fangs sink into the richest vein. Scott J. Couturier offers up an incomparable gift in answer to the age-old question, \"What do you give to the man who has, or had, everything?\""
 

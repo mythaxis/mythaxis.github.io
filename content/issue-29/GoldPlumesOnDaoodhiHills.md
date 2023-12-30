@@ -6,7 +6,6 @@ issue: Issue 29
 authors:
 - Mandira Pattnaik
 copyright: '© Mandira Pattnaik 2022 All Rights Reserved'
-showAuthorFooter: true
 
 description: "Mandira Pattnaik has been published in a startling number of forums around the world, and her work includes poetry, non-fiction, and (fortunately for us!) short stories. Here she provides a contemplative, understated ecological fantasy about loss and rebirth that offers a glimmer of optimism for a roughly-treated world, which is at least a starting place."
 

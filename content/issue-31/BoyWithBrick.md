@@ -5,7 +5,6 @@ issue: Issue 31
 
 authors:
 - Sydney Sackett
-showAuthorFooter: true
 copyright: '© Sydney Sackett 2022 All Rights Reserved'
 
 description: "People always seem to make a big deal about 'stories with a twist', but there are other ways for an ending to have impact. In this taut tale of interminable gladiatorial torment, Sydney Sackett gives us something a little different: a story that leads you down a path of expectation, only for it to prove maybe not to be the path you thought it was."

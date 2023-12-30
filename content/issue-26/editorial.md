@@ -5,7 +5,6 @@ issue: Issue 26
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 
 image: images/Finnekus_sml.png
 

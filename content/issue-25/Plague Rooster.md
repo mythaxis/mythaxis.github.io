@@ -5,7 +5,6 @@ issue: Issue 25
 
 authors:
 - Micah Hyatt
-showAuthorFooter: true
 copyright: '© Micah Hyatt 2019 All Rights Reserved. Plague Rooster was originally published in Shock Totem #11, Shock Totem Publications.'
 
 description: "Mythaxis is not typically a home to poetry, nor to reprints, but when we came across this piece while hunting down the author of 'The Third Martian Dick Temple' we were immediately moved, in no small part due to the pandemic gripping the world in early 2020. One year on from the first Covid-19 lockdowns, the world remains profoundly changed from how it was before - but thankfully not this much changed."

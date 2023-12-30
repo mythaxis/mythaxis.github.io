@@ -5,7 +5,6 @@ issue: Issue 26
 
 authors:
 - Mike Adamson
-showAuthorFooter: true
 copyright: '© Mike Adamson 2021 All Rights Reserved.'
 
 description: "Across the long history of storytelling there recur classic themes — rags-to-riches, star-crossed lovers, revenger's tragedies — and, of course, perhaps the most intriguing, those that make us all wonder what we would do: stories of temptation. In style and setting Mike Adamson echoes such famous examples as Aladdin, but that tale takes place at the start of an event-filled life. This begins at the end of one."

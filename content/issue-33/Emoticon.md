@@ -5,7 +5,6 @@ issue: Issue 33
 
 authors:
 - Barry Charman
-showAuthorFooter: true
 copyright: '© Barry Charman 2023 All Rights Reserved'
 
 description: "Whatever else may change, Mythaxis is always going to end on a story. Barry Charman sees us out with a third tale that has more than a hint of alienation to it – though whether alienation is a state of suffering or grace is very much in the eye of the beholder."

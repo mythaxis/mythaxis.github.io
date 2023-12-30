@@ -5,7 +5,6 @@ issue: Issue 34
 
 authors:
 - Chisom Umeh
-showAuthorFooter: true
 copyright: '© Chisom Umeh 2023 All Rights Reserved.'
 
 description: "The notion of the multiverse has been popular in sf for much longer than the current cinematic obsession – and no surprise, because it offers such ripe opportunities for invention. Chisom Umeh super-collides witchcraft and technology to deliver a painful reminder that we rarely get what we expect, and getting what we ask for can be a curse, not a blessing."

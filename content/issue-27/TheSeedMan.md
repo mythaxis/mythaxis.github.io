@@ -5,7 +5,6 @@ issue: Issue 27
 
 authors:
 - Claire Scherzinger
-showAuthorFooter: true
 copyright: '© Claire Scherzinger 2021 All Rights Reserved'
 
 description: "Closing out this issue is our second long sci-fi read, and as previously hinted at, they serve as inverted reflections of each other. In Claire Scherzinger's tale, we focus on a daughter seeking escape rather than a father desperately searching, and while the previous story swiftly departed from a technological environment for a more primitive one, this time it's a seemingly simple way of life being abandoned for an infinitely wider world."

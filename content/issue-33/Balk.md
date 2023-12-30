@@ -5,7 +5,6 @@ issue: Issue 33
 
 authors:
 - Lucy Zhang
-showAuthorFooter: true
 copyright: '© Lucy Zhang 2023 All Rights Reserved'
 
 description: "Issues of Mythaxis do not cleave to themes, and yet sometimes circumstance intervenes, at least in part. Such was the case this time, and Lucy Zhang's solemn sequence of moments and reflections here provides the first of three stories each very distinct, but all of which ring with alienation."

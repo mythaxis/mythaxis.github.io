@@ -5,7 +5,6 @@ issue: Issue 34
 
 authors:
 - Elena Sichrovsky
-showAuthorFooter: true
 copyright: '© Elena Sichrovsky 2023 All Rights Reserved'
 
 description: "Some people consider the fantastical genres to be non-overlapping magisteria: sci-fi is sci-fi; fantasy, fantasy; horror, horror. Others are not merely comfortable with a little bit of bleed-through, they positively revel in it. In our first story Elena Sichrovsky is selling you what looks like straightforward science fiction. Don't be deceived. But do be warned, this one is not for the faint-hearted."

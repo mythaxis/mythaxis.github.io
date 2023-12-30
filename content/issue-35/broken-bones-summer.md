@@ -5,7 +5,6 @@ issue: Issue 35
 
 authors:
 - Xan van Rooyen
-showAuthorFooter: true
 copyright: '© Xan van Rooyen 2023 All Rights Reserved'
 
 description: "There is much to be said for traveling. Expanded horizons expand the mind, and that can only be an advantage in creative endeavours. In relocating from South Africa to Finland, Xan van Rooyen has clearly found some inspiration: this piece of dark fantasy has its origin in the Finnish folklore that gave the calendar months their names…"

@@ -5,7 +5,6 @@ issue: Issue 33
 
 authors:
 - L.P. Ring
-showAuthorFooter: true
 copyright: '© L.P. Ring 2023 All Rights Reserved'
 
 description: "L.P. Ring's story arrived draped in caveats, that it was more psychologically weird than a piece of speculative fiction. Nicely timed, because being also crime fiction it intersected neatly with my urge to extend Mythaxis to include that genre too. Thus we return to our non-theme for a second dose of alienation – or do we? I guess that might be a matter of perspective…"

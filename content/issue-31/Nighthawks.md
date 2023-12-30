@@ -5,7 +5,6 @@ issue: Issue 31
 
 authors:
 - Si Wang
-showAuthorFooter: true
 copyright: '© Si Wang 2022 All Rights Reserved.'
 
 description: "Taking its title from Edward Hopper's iconic 1942 painting, Si Wang's story jumps ahead a hundred years or so and drops us into a dystopia of urban and social decay that is, perhaps, just a bio-technological breakthrough or two away from being entirely plausible."

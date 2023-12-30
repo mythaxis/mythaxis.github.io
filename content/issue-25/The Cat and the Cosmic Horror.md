@@ -6,7 +6,6 @@ issue: Issue 25
 authors:
 - Pritesh Patil and Percy Wadiwala
 copyright: '© Pritesh Patil and Percy Wadiwala 2021 All Rights Reserved'
-showAuthorFooter: true
 
 description: "There's a long tradition of comedy double acts, both in writing and performing. It's always good to have someone to bounce your ideas off, as long as they don't become someone you want to bounce off the wall. Pritesh Patil and Percy Wadiwala provide a fine example of the benefits of the former, but the calamitous duo at the heart of their story may be more like the latter…"
 

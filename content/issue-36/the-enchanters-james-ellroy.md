@@ -5,7 +5,6 @@ issue: Issue 36
 
 authors:
 - Bill Ryan
-showAuthorFooter: true
 copyright: '© Bill Ryan 2023 All Rights Reserved'
 
 description: "For as long as your editor has known him, Bill Ryan has been an eloquent critic of both cinematic and literary crime. When I decided to wrap up the year with our first all-crime issue, there was no-one else I'd turn to for a longform fiction review. I hope you like the hard stuff, and you like it strong."

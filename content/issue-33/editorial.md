@@ -5,7 +5,6 @@ issue: Issue 33
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 
 image: images/Robot-in-Love600.jpg
 

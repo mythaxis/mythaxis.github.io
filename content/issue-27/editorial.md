@@ -5,7 +5,6 @@ issue: Issue 27
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 
 image: images/True-Worship-sml.jpg
 

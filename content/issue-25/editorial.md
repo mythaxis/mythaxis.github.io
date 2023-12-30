@@ -5,7 +5,6 @@ issue: Issue 25
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 
 image: images/Vessavana-sml.jpg
 

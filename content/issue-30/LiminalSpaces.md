@@ -5,7 +5,6 @@ issue: Issue 30
 
 authors:
 - David Farrow
-showAuthorFooter: true
 copyright: '© David Farrow 2022 All Rights Reserved'
 
 description: "If you've had the pleasure of reading David Farrow's 'Neverglades' series, then you'll know he has an affinity for unreliable and ambiguous places, for injecting horror into the mundane world. Here we experience a dislocated life, slipping through the cracks towards whatever waits beyond — but then, maybe the best case scenario would be that life itself is but a transitional stage…"

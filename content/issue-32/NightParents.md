@@ -5,7 +5,6 @@ issue: Issue 32
 
 authors:
 - Valerie Alexander
-showAuthorFooter: true
 copyright: '© Valerie Alexander 2022 All Rights Reserved'
 
 description: "Time is almost up on 2022, but given the twists and turns recent history has thrown our way, who'd risk guessing what's coming in 2023? Fittingly then, for our final story of the year Valerie Alexander gives us a piece that's all about time; the dread, or anticipation, of the unknown; and of change."

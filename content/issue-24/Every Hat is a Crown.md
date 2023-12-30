@@ -5,7 +5,6 @@ issue: Issue 24
 
 authors:
 - Mike Morgan
-showAuthorFooter: true
 copyright: '© Mike Morgan 2020 All Rights Reserved'
 
 description: 'Humour is a many subjective thing, often called the hardest thing to write, but in our opinion Mike Morgan has pulled it off here. Much as his hero demonstrates, you can achieve plenty with recourse to just a little bit of charm - of course, when it comes to fantasy, charm can also be the problem...'

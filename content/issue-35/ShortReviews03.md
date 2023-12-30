@@ -5,7 +5,6 @@ issue: Issue 35
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 copyright: '© Andrew Leon Hudson 2023 All Rights Reserved'
 
 description: "After this issue's editorial you'd think your editor had read quite enough. But no: once more unto the breach, dear friends, to sample the recent output of our peers. Here are three brief recommendations for further reading, available online now. And if we're still unwilling to rein it in at only three? Well tough, the more the merrier!"

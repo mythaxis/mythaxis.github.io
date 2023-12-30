@@ -5,7 +5,6 @@ issue: Issue 35
 
 authors:
 - Donald McCarthy
-showAuthorFooter: true
 copyright: '© Donald McCarthy 2023 All Rights Reserved.'
 
 description: "Environment matters in sf, but entertainment matters too, and short fiction leaves little space for balancing acts. Donald McCarthy doesn't just give good world-building, the kind that carries the scent of what came before and leaves an aftertaste for whatever will follow – he uses it to flavour the story at hand without overwhelming what we're here for now: thrills and spills."

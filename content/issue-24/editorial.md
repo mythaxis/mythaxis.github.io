@@ -5,7 +5,6 @@ issue: Issue 24
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 
 image: images/Dragons_sml.jpg
 

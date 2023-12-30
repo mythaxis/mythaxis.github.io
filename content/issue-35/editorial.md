@@ -5,7 +5,6 @@ issue: Issue 35
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 
 image: images/Afro-futurism800.jpg
 

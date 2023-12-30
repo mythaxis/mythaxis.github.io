@@ -5,7 +5,6 @@ issue: Issue 31
 
 authors:
 - Anna Zumbro
-showAuthorFooter: true
 copyright: '© Anna Zumbro 2022 All Rights Reserved'
 
 description: "High school kids have long been struck with envy at the status of their peers, but Anna Zumbro poses a really thorny question: How much worse would it be if, instead of your social media feed telling you everyone else's life was that much more super, it was on the curriculum?"

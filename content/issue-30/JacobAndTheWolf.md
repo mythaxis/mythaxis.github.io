@@ -5,7 +5,6 @@ issue: Issue 30
 
 authors:
 - Rina Song
-showAuthorFooter: true
 copyright: '© Rina Song 2022 All Rights Reserved.'
 
 description: "Sometimes a story disguises its message. Sometimes a story lets the startling reveal creep up slowly on you. Or, sometimes, a story just straight up announces 'This one is about turning into a werewolf, social commentary attached.' In this case at least, Rina Song is that kind of storyteller. Sometimes, honesty is the best policy…"

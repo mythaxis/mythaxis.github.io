@@ -6,7 +6,6 @@ issue: Issue 32
 authors:
 - Charlotte Ashley
 copyright: '© Charlotte Ashley 2016, 2022 All Rights Reserved'
-showAuthorFooter: true
 
 description: "Some stories arrive with a story of their own behind them. The far future of culture and horticulture depicted in 'Distant Skies' was originally a performance piece, with original music composed by Ivana Popovic and performed by Toronto's Junction Trio, accompanied by Charlotte Ashley's spoken words—now appearing here in black and white."
 

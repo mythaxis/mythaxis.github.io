@@ -5,7 +5,6 @@ issue: Issue 34
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 copyright: '© Andrew Leon Hudson 2023 All Rights Reserved'
 
 description: "For about a year, the team at Mythaxis has experimented with sophisticated software tools in an attempt to understand – and maybe predict – what makes a story catch the editor's eye. So far we've discussed this in the context of the popular/unpopular theme of the day, Artificial Intelligence – but AI is a delicate subject when it comes to writing fiction. So let's take a look at exactly what we got up to."

@@ -5,7 +5,6 @@ issue: Issue 29
 
 authors:
 - Celine Low
-showAuthorFooter: true
 copyright: '© Celine Low 2022 All Rights Reserved.'
 
 description: "The first big read of the issue, Celine Low takes her inspiration from the nomadic civilisations of the Mongolian steppes and delivers a fantastical coming-of-age adventure that melds action and magic, loyalty and friendship, greed and evil, all sprinkled with hints of that most traditional of narrative forms: the passing down of spoken tales from one generation to another."

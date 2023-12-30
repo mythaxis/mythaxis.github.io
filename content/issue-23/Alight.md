@@ -8,7 +8,6 @@ authors:
 image: images/Alight.png
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [1987599](https://pixabay.com/photos/eye-alligator-reptile-nature-1446419/), and [dlonrax](https://pixabay.com/photos/gig-concert-show-music-event-3518406/)."
 copyright: "© Skye Allen 2020 All Rights Reserved"
-showAuthorFooter: true
 
 description: "Depending on her name at the time, Skye Allen either does fantasy fiction or she does music. In the piece she gave us, we get both - along with a stage-side pass to a gig that threatens to go to some very dark places. There's nothing quite like a band that's on fire..."
 

@@ -5,7 +5,6 @@ issue: Issue 29
 
 authors:
 - Jeffery Scott Sims
-showAuthorFooter: true
 copyright: '© Jeffery Scott Sims 2022 All Rights Reserved'
 
 description: "Here we have the first of two returnees to Mythaxis. Jeffery Scott Sims graced i23 with an entertaining blend of the noirish detective and Lovecraftian occult. This time he offers something shorter, but no less sinister: another yarn of seekers after esoteric knowledge not meant for human ken, once again delivered in a classic style."

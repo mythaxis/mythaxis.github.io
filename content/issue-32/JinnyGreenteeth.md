@@ -5,7 +5,6 @@ issue: Issue 32
 
 authors:
 - Cathy Bryant
-showAuthorFooter: true
 copyright: '© Cathy Bryant 2022 All Rights Reserved'
 
 description: "Full confession: when your editor read the first paragraph of our opening story, he thought, 'Hey, this thing is set where I grew up!' It would be wrong to imagine that was the only reason I accepted Cathy Bryant's smart, humorous, grim, characterful, sad, and optimistic tale… but it did make me happy doing it."

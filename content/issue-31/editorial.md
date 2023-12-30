@@ -5,7 +5,6 @@ issue: Issue 31
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 
 image: images/Mythaxis_SML.jpg
 
