@@ -3,7 +3,6 @@ title: "An Interview with Francesco Verso"
 date: 2023-06-30
 issue: Issue 34
 
-author: Andrew Leon Hudson
 authors:
 - Andrew Leon Hudson
 showAuthorFooter: true

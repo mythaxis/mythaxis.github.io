@@ -3,7 +3,6 @@ title: "Infinite"
 date: 2023-06-30
 issue: Issue 34
 
-author: Chisom Umeh
 authors:
 - Chisom Umeh
 showAuthorFooter: true

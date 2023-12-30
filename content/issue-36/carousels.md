@@ -3,7 +3,6 @@ title: "Carousel's"
 date: 2023-12-21
 issue: Issue 36
 
-author: Shaun Anthony McMichael
 authors:
 - Shaun Anthony McMichael
 showAuthorFooter: true

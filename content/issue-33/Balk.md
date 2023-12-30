@@ -3,9 +3,8 @@ title: "Balk"
 date: 2023-04-01
 issue: Issue 33
 
-author: Lucy Zhang
 authors:
-  - Lucy Zhang
+- Lucy Zhang
 showAuthorFooter: true
 copyright: '© Lucy Zhang 2023 All Rights Reserved'
 

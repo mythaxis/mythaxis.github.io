@@ -3,7 +3,6 @@ title: "I Have No Wings and I Must Fly"
 date: 2021-09-15
 issue: Issue 27
 
-author: Kyle E. Miller
 authors:
 - Kyle E. Miller
 showAuthorFooter: true

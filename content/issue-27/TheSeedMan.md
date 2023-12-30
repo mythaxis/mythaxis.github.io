@@ -3,7 +3,6 @@ title: "The Seed Man"
 date: 2021-09-15
 issue: Issue 27
 
-author: Claire Scherzinger
 authors:
 - Claire Scherzinger
 showAuthorFooter: true

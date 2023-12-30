@@ -3,9 +3,8 @@ title: "La Voix d'un Ange"
 date: 2023-09-30
 issue: Issue 35
 
-author: Kirk Bueckert
 authors:
-  - Kirk Bueckert
+- Kirk Bueckert
 showAuthorFooter: true
 copyright: '© Kirk Bueckert 2023 All Rights Reserved'
 

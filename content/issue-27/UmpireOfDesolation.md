@@ -3,7 +3,6 @@ title: "Umpire of Desolation"
 date: 2021-09-15
 issue: Issue 27
 
-author: Hannah Hulbert
 authors:
 - Hannah Hulbert
 showAuthorFooter: true

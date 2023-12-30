@@ -3,9 +3,8 @@ title: "Nwanebeakwa"
 date: 2022-09-12
 issue: Issue 31
 
-author: Chinaza Eziaghighala
 authors:
-    - Chinaza Eziaghighala
+- Chinaza Eziaghighala
 copyright: '© Chinaza Eziaghighala 2022 All Rights Reserved'
 showAuthorFooter: true
 

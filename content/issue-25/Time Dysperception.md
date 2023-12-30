@@ -3,9 +3,8 @@ title: "Time Dysperception"
 date: 2021-03-15
 issue: Issue 25
 
-author: Jack Mackenzie
 authors:
-  - Jack Mackenzie
+- Jack Mackenzie
 showAuthorFooter: true
 copyright: '© Jack Mackenzie 2021 All Rights Reserved'
 

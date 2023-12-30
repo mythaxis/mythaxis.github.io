@@ -3,9 +3,8 @@ title: "Liminal Spaces"
 date: 2022-06-18
 issue: Issue 30
 
-author: David Farrow
 authors:
-  - David Farrow
+- David Farrow
 showAuthorFooter: true
 copyright: '© David Farrow 2022 All Rights Reserved'
 

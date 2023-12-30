@@ -3,9 +3,8 @@ title: "E Pluribus Unum"
 date: 2021-12-20
 issue: Issue 28
 
-author: Mame Bougouma Diene
 authors:
-  - Mame Bougouma Diene
+- Mame Bougouma Diene
 showAuthorFooter: true
 copyright: '© Mame Bougouma Diene 2021 All Rights Reserved'
 

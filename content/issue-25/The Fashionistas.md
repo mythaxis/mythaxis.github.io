@@ -3,7 +3,6 @@ title: "The Fashionistas"
 date: 2021-03-15
 issue: Issue 25
 
-author: Gregory L. Norris
 authors:
 - Gregory L. Norris
 showAuthorFooter: true

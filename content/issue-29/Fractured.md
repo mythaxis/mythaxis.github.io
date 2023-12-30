@@ -3,9 +3,8 @@ title: "Fractured"
 date: 2022-03-27
 issue: Issue 29
 
-author: Gunnar De Winter
 authors:
-  - Gunnar De Winter
+- Gunnar De Winter
 showAuthorFooter: true
 copyright: '© Gunnar De Winter 2022 All Rights Reserved'
 

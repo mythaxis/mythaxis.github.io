@@ -3,7 +3,6 @@ title: "Prometheus’ Kidneys"
 date: 2021-03-15
 issue: Issue 25
 
-author: Meg Candelaria
 authors:
 - Meg Candelaria
 showAuthorFooter: true

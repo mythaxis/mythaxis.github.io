@@ -3,9 +3,8 @@ title: "Sketches of Snoak City"
 date: 2021-06-30
 issue: Issue 26
 
-author: Les Sklaroff
 authors:
-    - Les Sklaroff
+- Les Sklaroff
 copyright: '© Les Sklaroff 2012 - 2021 All Rights Reserved'
 showAuthorFooter: true
 

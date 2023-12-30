@@ -3,7 +3,6 @@ title: "The Thing in the Snow, by Sean Adams"
 date: 2023-04-01
 issue: Issue 33
 
-author: Mattia Ravasi
 authors:
 - Mattia Ravasi
 showAuthorFooter: true

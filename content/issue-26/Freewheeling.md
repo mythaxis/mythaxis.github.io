@@ -3,7 +3,6 @@ title: "Freewheeling"
 date: 2021-06-30
 issue: Issue 26
 
-author: Annie Percik
 authors:
 - Annie Percik
 showAuthorFooter: true

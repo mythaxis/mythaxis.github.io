@@ -3,7 +3,6 @@ title: "Harryette, Brick’d, Belov’d"
 date: 2021-09-15
 issue: Issue 27
 
-author: Daniel Rabuzzi
 authors:
 - Daniel Rabuzzi
 showAuthorFooter: true

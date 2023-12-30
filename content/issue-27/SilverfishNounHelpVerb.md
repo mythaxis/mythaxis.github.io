@@ -3,9 +3,8 @@ title: "Silverfish, Noun; Help, Verb"
 date: 2021-09-15
 issue: Issue 27
 
-author: Gabrielle Bleu
 authors:
-  - Gabrielle Bleu
+- Gabrielle Bleu
 showAuthorFooter: true
 copyright: '© Gabrielle Bleu 2021 All Rights Reserved'
 

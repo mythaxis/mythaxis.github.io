@@ -3,9 +3,8 @@ title: "Troublemaker, Storyteller"
 date: 2021-06-30
 issue: Issue 26
 
-author: Jonathon Mast
 authors:
-  - Jonathon Mast
+- Jonathon Mast
 copyright: '© Jonathon Mast 2021 All Rights Reserved'
 showAuthorFooter: true
 

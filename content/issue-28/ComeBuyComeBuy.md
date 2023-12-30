@@ -3,7 +3,6 @@ title: "Come Buy, Come Buy"
 date: 2021-12-20
 issue: Issue 28
 
-author: E. Saxey
 authors:
 - E. Saxey
 showAuthorFooter: true

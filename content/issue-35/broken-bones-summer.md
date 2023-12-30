@@ -3,7 +3,6 @@ title: "The Broken Bones of Summer"
 date: 2023-09-30
 issue: Issue 35
 
-author: Xan van Rooyen
 authors:
 - Xan van Rooyen
 showAuthorFooter: true

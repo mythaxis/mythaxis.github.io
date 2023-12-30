@@ -3,7 +3,6 @@ title: "Death is Like a Box of Chocolates"
 date: 2022-12-19
 issue: Issue 32
 
-author: Fraser Sherman
 authors:
 - Fraser Sherman
 showAuthorFooter: true

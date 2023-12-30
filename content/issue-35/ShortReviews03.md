@@ -3,7 +3,6 @@ title: "Short Reviews – July to September"
 date: 2023-09-30
 issue: Issue 35
 
-author: Andrew Leon Hudson
 authors:
 - Andrew Leon Hudson
 showAuthorFooter: true

@@ -3,9 +3,8 @@ title: "A Deer's Inheritance"
 date: 2023-04-01
 issue: Issue 33
 
-author: C. Owen Loftus
 authors:
-  - C. Owen Loftus
+- C. Owen Loftus
 showAuthorFooter: true
 copyright: '© C. Owen Loftus 2023 All Rights Reserved'
 

@@ -3,7 +3,6 @@ title: "Where the Heart Is"
 date: 2022-06-18
 issue: Issue 30
 
-author: Alexander Zalben
 authors:
 - Alexander Zalben
 showAuthorFooter: true

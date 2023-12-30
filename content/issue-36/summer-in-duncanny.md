@@ -3,7 +3,6 @@ title: "Summer in Duncanny"
 date: 2023-12-21
 issue: Issue 36
 
-author: Peter Wynd
 authors:
 - Peter Wynd
 showAuthorFooter: true

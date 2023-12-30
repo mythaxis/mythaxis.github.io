@@ -3,7 +3,6 @@ title: "Tyrannosaurus Mechs"
 date: 2022-09-12
 issue: Issue 31
 
-author: Gregory L. Norris
 authors:
 - Gregory L. Norris
 showAuthorFooter: true

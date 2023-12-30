@@ -3,7 +3,6 @@ title: "The Gods Have No Faces"
 date: 2021-03-15
 issue: Issue 25
 
-author: Subodhana Wijeyeratne
 authors:
 - Subodhana Wijeyeratne
 showAuthorFooter: true

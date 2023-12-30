@@ -4,7 +4,6 @@ date: 2020-08-23
 image: images/huy-tran-viet-green-field.jpg
 issue: Issue 23
 
-author: Andrew Leon Hudson
 authors:
 - Andrew Leon Hudson
 showAuthorFooter: true

@@ -3,9 +3,8 @@ title: "First Breath"
 date: 2020-12-15
 issue: Issue 24
 
-author: Addison Smith
 authors:
-  - Addison Smith
+- Addison Smith
 showAuthorFooter: true
 copyright: '© Addison Smith 2020 All Rights Reserved'
 

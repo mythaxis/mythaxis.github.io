@@ -3,7 +3,6 @@ title: "Intercalary Time"
 date: 2022-06-18
 issue: Issue 30
 
-author: Thorin N. Tatge
 authors:
 - Thorin N. Tatge
 showAuthorFooter: true

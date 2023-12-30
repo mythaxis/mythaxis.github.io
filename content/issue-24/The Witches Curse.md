@@ -3,9 +3,8 @@ title: "The Witches Curse"
 date: 2020-12-15
 issue: Issue 24
 
-author: Matthew Wilson
 authors:
-  - Matthew Wilson
+- Matthew Wilson
 copyright: '© Matthew Wilson 2020 All Rights Reserved'
 showAuthorFooter: true
 

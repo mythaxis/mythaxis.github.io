@@ -3,9 +3,8 @@ title: "A Grave of Wind and Leaves"
 date: 2021-09-15
 issue: Issue 27
 
-author: Jalyn Renae Fiske
 authors:
-    - Jalyn Renae Fiske
+- Jalyn Renae Fiske
 copyright: '© Jalyn Renae Fiske 2021 All Rights Reserved'
 showAuthorFooter: true
 

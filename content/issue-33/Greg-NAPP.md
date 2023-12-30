@@ -3,7 +3,6 @@ title: "Greg: Not a People Person"
 date: 2023-04-01
 issue: Issue 33
 
-author: L.P. Ring
 authors:
 - L.P. Ring
 showAuthorFooter: true

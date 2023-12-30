@@ -3,7 +3,6 @@ title: "Tip Diebæck’s Mentha b. Wild"
 date: 2022-09-12
 issue: Issue 31
 
-author: Marc Phillips
 authors:
 - Marc Phillips
 showAuthorFooter: true

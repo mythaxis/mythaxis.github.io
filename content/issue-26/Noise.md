@@ -3,9 +3,8 @@ title: "Noise"
 date: 2021-06-30
 issue: Issue 26
 
-author: Owen Leddy
 authors:
-  - Owen Leddy
+- Owen Leddy
 showAuthorFooter: true
 copyright: '© Owen Leddy 2021 All Rights Reserved'
 

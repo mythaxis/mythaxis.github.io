@@ -3,7 +3,6 @@ title: "The Sedona House"
 date: 2020-08-23
 issue: Issue 23
 
-author: Jeffery Scott Sims
 authors:
 - Jeffery Scott Sims
 image: images/SedonaHouse.png

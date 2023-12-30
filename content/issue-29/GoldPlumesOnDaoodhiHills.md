@@ -3,9 +3,8 @@ title: "Gold Plumes on Daoodhi Hills"
 date: 2022-03-27
 issue: Issue 29
 
-author: Mandira Pattnaik
 authors:
-    - Mandira Pattnaik
+- Mandira Pattnaik
 copyright: '© Mandira Pattnaik 2022 All Rights Reserved'
 showAuthorFooter: true
 

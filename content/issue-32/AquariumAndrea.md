@@ -3,9 +3,8 @@ title: "The Aquarium is Andrea"
 date: 2022-12-19
 issue: Issue 32
 
-author: Monte Remer
 authors:
-  - Monte Remer
+- Monte Remer
 showAuthorFooter: true
 copyright: '© Monte Remer 2022 All Rights Reserved'
 

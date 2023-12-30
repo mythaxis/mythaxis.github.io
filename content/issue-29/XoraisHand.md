@@ -3,7 +3,6 @@ title: "Xorai’s Hand"
 date: 2022-03-27
 issue: Issue 29
 
-author: Celine Low
 authors:
 - Celine Low
 showAuthorFooter: true

@@ -3,7 +3,6 @@ title: "Zamalek, by the Evening Light"
 date: 2021-06-30
 issue: Issue 26
 
-author: Mike Adamson
 authors:
 - Mike Adamson
 showAuthorFooter: true

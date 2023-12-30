@@ -3,7 +3,6 @@ title: "Marciano"
 date: 2021-12-20
 issue: Issue 28
 
-author: Charlotte H. Lee
 authors:
 - Charlotte H. Lee
 showAuthorFooter: true

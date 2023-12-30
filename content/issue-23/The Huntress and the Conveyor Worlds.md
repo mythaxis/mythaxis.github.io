@@ -3,7 +3,6 @@ title: "The Huntress and the Conveyor Worlds"
 date: 2020-08-23
 issue: Issue 23
 
-author: Daniel Ausema
 authors:
 - Daniel Ausema
 image: images/HuntressConveyor.png

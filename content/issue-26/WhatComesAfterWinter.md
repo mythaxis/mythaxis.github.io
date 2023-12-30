@@ -3,7 +3,6 @@ title: "What Comes After Winter"
 date: 2021-06-30
 issue: Issue 26
 
-author: Kurt Hunt
 authors:
 - Kurt Hunt
 showAuthorFooter: true

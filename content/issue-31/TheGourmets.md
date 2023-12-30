@@ -3,9 +3,8 @@ title: "The Gourmets"
 date: 2022-09-12
 issue: Issue 31
 
-author: Jeff Reynolds
 authors:
-  - Jeff Reynolds
+- Jeff Reynolds
 showAuthorFooter: true
 copyright: '© Jeff Reynolds 2022 All Rights Reserved'
 

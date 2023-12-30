@@ -3,7 +3,6 @@ title: "How to Get AI to Like You"
 date: 2021-12-20
 issue: Issue 28
 
-author: Aaron Emmel
 authors:
 - Aaron Emmel
 showAuthorFooter: true

@@ -3,9 +3,8 @@ title: "Alonya and Ivan"
 date: 2022-06-18
 issue: Issue 30
 
-author: Elana Gomel
 authors:
-    - Elana Gomel
+- Elana Gomel
 copyright: '© Elana Gomel 2022 All Rights Reserved'
 showAuthorFooter: true
 

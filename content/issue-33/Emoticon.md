@@ -3,7 +3,6 @@ title: "Emoticon"
 date: 2023-04-01
 issue: Issue 33
 
-author: Barry Charman
 authors:
 - Barry Charman
 showAuthorFooter: true

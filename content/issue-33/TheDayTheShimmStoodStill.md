@@ -3,9 +3,8 @@ title: "The Day the Shimm Stood Still"
 date: 2023-04-01
 issue: Issue 33
 
-author: Andrew Jensen
 authors:
-    - Andrew Jensen
+- Andrew Jensen
 copyright: '© Andrew Jensen 2023 All Rights Reserved'
 showAuthorFooter: true
 
