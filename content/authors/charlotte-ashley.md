@@ -1,10 +1,7 @@
 ---
 date: 2022-12-19
 type: author
-authors:
-- Charlotte Ashley
 name: Charlotte Ashley
-author: Charlotte Ashley
 photo: 'images/CharlotteAshley.jpg'
 avatar: 'images/CharlotteAshley.jpg'
 copyright: "© Charlotte Ashley 2016, 2022 All Rights Reserved"

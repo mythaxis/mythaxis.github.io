@@ -1,10 +1,7 @@
 ---
 date: 2021-06-30
 type: author
-authors:
-- Owen Leddy
 name: Owen Leddy
-author: Owen Leddy
 photo: 'images/OwenLeddy.jpg'
 avatar: 'images/OwenLeddy.jpg'
 copyright: "© Owen Leddy 2021 All Rights Reserved"

@@ -1,10 +1,7 @@
 ---
 date: 2022-03-27
 type: author
-authors:
-- Erik Mann
 name: Erik Mann
-author: Erik Mann
 photo: 'images/ErikMann.jpg'
 avatar: 'images/ErikMann.jpg'
 copyright: "© Erik Mann 2022 All Rights Reserved"

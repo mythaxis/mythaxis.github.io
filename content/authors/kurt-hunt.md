@@ -1,10 +1,7 @@
 ---
 date: 2021-06-30
 type: author
-authors:
-- Kurt Hunt
 name: Kurt Hunt
-author: Kurt Hunt
 photo: 'images/KurtHunt.jpg'
 avatar: 'images/KurtHunt.jpg'
 copyright: "© Kurt Hunt 2021 All Rights Reserved"

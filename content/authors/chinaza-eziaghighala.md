@@ -1,10 +1,7 @@
 ---
 date: 2022-09-15
 type: author
-authors:
-- Chinaza Eziaghighala
 name: Chinaza Eziaghighala
-author: Chinaza Eziaghighala
 photo: 'images/chinaza-eziaghighala.jpg'
 avatar: 'images/chinaza-eziaghighala.jpg'
 copyright: "© Chinaza Eziaghighala 2022 All Rights Reserved"

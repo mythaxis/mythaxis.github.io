@@ -1,10 +1,7 @@
 ---
 date: 2023-09-30
 type: author
-authors:
-- Joelle Killian
 name: Joelle Killian
-author: Joelle Killian
 photo: 'images/joelle_killian.jpg'
 avatar: 'images/joelle_killian.jpg'
 copyright: "© Joelle Killian 2023 All Rights Reserved"

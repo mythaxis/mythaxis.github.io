@@ -1,10 +1,7 @@
 ---
 date: 2023-12-21
 type: author
-authors:
-- Matt Wile
 name: Matt Wile
-author: Matt Wile
 photo: 'images/matt-wile.jpg'
 avatar: 'images/matt-wile.jpg'
 copyright: "© Matt Wile 2023 All Rights Reserved"

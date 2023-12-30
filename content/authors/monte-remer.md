@@ -1,10 +1,7 @@
 ---
 date: 2022-12-19
 type: author
-authors:
-- Monte Remer
 name: Monte Remer
-author: Monte Remer
 photo: 'images/MonteRemer.jpg'
 avatar: 'images/MonteRemer.jpg'
 copyright: "© Monte Remer 2022 All Rights Reserved"

@@ -1,7 +1,6 @@
 ---
+date: 2023-04-04
 type: author
-authors:
-- Andrew Leon Hudson
 name: Andrew Leon Hudson
 photo: 'images/ALH.png'
 avatar: 'images/ALH.png'

@@ -1,7 +1,6 @@
 ---
 date: 2021-12-20
 type: author
-type: author
 authors:
 - Aaron Emmel
 name: Aaron Emmel

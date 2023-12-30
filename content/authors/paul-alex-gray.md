@@ -1,10 +1,7 @@
 ---
 date: 2021-09-15
 type: author
-authors:
-- Paul Alex Gray
 name: Paul Alex Gray
-author: Paul Alex Gray
 photo: 'images/PaulAlexGray.jpg'
 avatar: 'images/PaulAlexGray.jpg'
 copyright: "© Paul Alex Gray 2021 All Rights Reserved"

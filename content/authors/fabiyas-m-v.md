@@ -1,10 +1,7 @@
 ---
 date: 2020-12-07
 type: author
-authors:
-- Fabiyas M. V.
 name: Fabiyas M. V.
-author: Fabiyas M. V.
 photo: 'images/FabiyasMV.png'
 avatar: 'images/FabiyasMV.png'
 copyright: "© Fabiyas M. V. 2020 All Rights Reserved"

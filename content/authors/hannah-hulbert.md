@@ -1,10 +1,7 @@
 ---
 date: 2021-09-15
 type: author
-authors:
-- Hannah Hulbert
 name: Hannah Hulbert
-author: Hannah Hulbert
 photo: 'images/HannahHulbert.jpg'
 avatar: 'images/HannahHulbert.jpg'
 copyright: "© Hannah Hulbert 2021 All Rights Reserved"

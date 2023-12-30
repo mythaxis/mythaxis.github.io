@@ -1,10 +1,7 @@
 ---
 date: 2023-09-30
 type: author
-authors:
-- Elin Olausson
 name: Elin Olausson
-author: Elin Olausson
 photo: 'images/elin_olausson.jpg'
 avatar: 'images/elin_olausson.jpg'
 copyright: "© Elin Olausson 2023 All Rights Reserved"

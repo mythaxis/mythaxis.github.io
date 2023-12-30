@@ -1,10 +1,7 @@
 ---
 date: 2021-09-15
 type: author
-authors:
-- Katie McIvor
 name: Katie McIvor
-author: Katie McIvor
 photo: 'images/KatieMcIvor.jpg'
 avatar: 'images/KatieMcIvor.jpg'
 copyright: "© Katie McIvor 2021 All Rights Reserved"

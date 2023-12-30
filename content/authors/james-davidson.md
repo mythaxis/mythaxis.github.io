@@ -1,10 +1,7 @@
 ---
 date: 2022-06-18
 type: author
-authors:
-- James Davidson
 name: James Davidson
-author: James Davidson
 photo: 'images/JamesDavidson.jpg'
 avatar: 'images/JamesDavidson.jpg'
 copyright: "© James Davidson 2022 All Rights Reserved"

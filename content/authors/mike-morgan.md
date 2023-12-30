@@ -1,10 +1,7 @@
 ---
 date: 2020-12-07
 type: author
-authors:
-- Mike Morgan
 name: Mike Morgan
-author: Mike Morgan
 photo: 'images/MikeMorgan.png'
 avatar: 'images/MikeMorgan.png'
 copyright: "© Mike Morgan 2020 All Rights Reserved"

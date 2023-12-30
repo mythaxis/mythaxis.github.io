@@ -1,10 +1,7 @@
 ---
 date: 2022-12-19
 type: author
-authors:
-- J. Siegal
 name: J. Siegal
-author: J. Siegal
 photo: 'images/JSiegal.jpg'
 avatar: 'images/JSiegal.jpg'
 copyright: "© J. Siegal 2022 All Rights Reserved"

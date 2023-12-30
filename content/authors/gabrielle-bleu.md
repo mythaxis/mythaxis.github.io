@@ -1,10 +1,7 @@
 ---
 date: 2021-09-15
 type: author
-authors:
-- Gabrielle Bleu
 name: Gabrielle Bleu
-author: Gabrielle Bleu
 photo: 'images/GabrielleBleu.jpg'
 avatar: 'images/GabrielleBleu.jpg'
 copyright: "© Gabrielle Bleu 2021 All Rights Reserved"

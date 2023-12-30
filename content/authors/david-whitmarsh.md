@@ -1,10 +1,7 @@
 ---
 date: 2020-12-07
 type: author
-authors:
-- David Whitmarsh
 name: David Whitmarsh
-author: David Whitmarsh
 photo: 'images/DavidWhitmarsh.png'
 avatar: 'images/DavidWhitmarsh.png'
 copyright: "© David Whitmarsh 2020 All Rights Reserved"

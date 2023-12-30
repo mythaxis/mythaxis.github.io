@@ -1,10 +1,7 @@
 ---
 date: 2023-12-21
 type: author
-authors:
-- Steve Boseley
 name: Steve Boseley
-author: Steve Boseley
 photo: 'images/steve-boseley.jpg'
 avatar: 'images/steve-boseley.jpg'
 copyright: "© Steve Boseley 2023 All Rights Reserved"

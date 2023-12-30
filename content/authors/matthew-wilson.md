@@ -1,10 +1,7 @@
 ---
 date: 2020-12-07
 type: author
-authors:
-- Matthew Wilson
 name: Matthew Wilson
-author: Matthew Wilson
 photo: 'images/MatthewWilson.png'
 avatar: 'images/MatthewWilson.png'
 copyright: "© Matthew Wilson 2020 All Rights Reserved"

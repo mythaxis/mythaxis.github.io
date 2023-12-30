@@ -1,10 +1,7 @@
 ---
 date: 2023-06-30
 type: author
-authors:
-- Rebecca Birch
 name: Rebecca Birch
-author: Rebecca Birch
 photo: 'images/RebeccaBirch.jpg'
 avatar: 'images/RebeccaBirch.jpg'
 copyright: "© Rebecca Birch 2023 All Rights Reserved"

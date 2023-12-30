@@ -1,10 +1,7 @@
 ---
 date: 2021-06-30
 type: author
-authors:
-- Jonathon Mast
 name: Jonathon Mast
-author: Jonathon Mast
 photo: 'images/JonathonMast.jpg'
 avatar: 'images/JonathonMast.jpg'
 copyright: "© Jonathon Mast 2021 All Rights Reserved"

@@ -1,10 +1,7 @@
 ---
 date: 2021-12-20
 type: author
-authors:
-- E. Saxey
 name: E. Saxey
-author: E. Saxey
 photo: 'images/ESaxey.jpg'
 avatar: 'images/ESaxey.jpg'
 copyright: "© E.Saxey 2021 All Rights Reserved"

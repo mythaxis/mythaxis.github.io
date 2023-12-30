@@ -1,10 +1,7 @@
 ---
 date: 2021-12-20
 type: author
-authors:
-- Charlotte H. Lee
 name: Charlotte H. Lee
-author: Charlotte H. Lee
 photo: 'images/CharlotteHLee.jpg'
 avatar: 'images/CharlotteHLee.jpg'
 copyright: "© Charlotte H. Lee 2021 All Rights Reserved"

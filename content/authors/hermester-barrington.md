@@ -1,10 +1,7 @@
 ---
 date: 2021-12-20
 type: author
-authors:
-- Hermester Barrington
 name: Hermester Barrington
-author: Hermester Barrington
 photo: 'images/HermesterBarrington.jpg'
 avatar: 'images/HermesterBarrington.jpg'
 copyright: "© Hermester Barrington 2021 All Rights Reserved"

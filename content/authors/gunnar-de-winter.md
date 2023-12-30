@@ -1,10 +1,7 @@
 ---
 date: 2022-03-27
 type: author
-authors:
-- Gunnar De Winter
 name: Gunnar De Winter
-author: Gunnar De Winter
 photo: 'images/GunnarDeWinter.jpg'
 avatar: 'images/GunnarDeWinter.jpg'
 copyright: "© Gunnar De Winter 2022 All Rights Reserved"

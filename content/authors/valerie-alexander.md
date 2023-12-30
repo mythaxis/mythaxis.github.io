@@ -1,10 +1,7 @@
 ---
 date: 2022-12-19
 type: author
-authors:
-- Valerie Alexander
 name: Valerie Alexander
-author: Valerie Alexander
 photo: 'images/ValerieAlexander.jpg'
 avatar: 'images/ValerieAlexander.jpg'
 copyright: "© Valerie Alexander 2022 All Rights Reserved"

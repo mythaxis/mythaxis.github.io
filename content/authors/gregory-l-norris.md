@@ -1,10 +1,7 @@
 ---
 date: 2021-09-15
 type: author
-authors:
-- Gregory L. Norris
 name: Gregory L. Norris
-author: Gregory L. Norris
 photo: 'images/gregory-l-norris.jpg'
 avatar: 'images/gregory-l-norris.jpg'
 copyright: "© Gregory L. Norris 2021-2022 All Rights Reserved"

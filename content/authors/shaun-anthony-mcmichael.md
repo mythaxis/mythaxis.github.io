@@ -1,10 +1,7 @@
 ---
 date: 2023-12-21
 type: author
-authors:
-- Shaun Anthony McMichael
 name: Shaun Anthony McMichael
-author: Shaun Anthony McMichael
 photo: 'images/shaun-mcmichael.jpg'
 avatar: 'images/shaun-mcmichael.jpg'
 copyright: "© Shaun Anthony McMichael 2023 All Rights Reserved"

@@ -1,10 +1,7 @@
 ---
 date: 2020-12-07
 type: author
-authors:
-- Trisha McKee
 name: Trisha McKee
-author: Trisha McKee
 photo: 'images/TrishaMcKee.png'
 avatar: 'images/TrishaMcKee.png'
 copyright: "© Trisha McKee 2020 All Rights Reserved"

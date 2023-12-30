@@ -1,10 +1,7 @@
 ---
 date: 2022-06-18
 type: author
-authors:
-- Thorin N. Tatge
 name: Thorin N. Tatge
-author: Thorin N. Tatge
 photo: 'images/ThorinNTatge.jpg'
 avatar: 'images/ThorinNTatge.jpg'
 copyright: "© Thorin N. Tatge 2022 All Rights Reserved"

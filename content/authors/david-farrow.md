@@ -1,10 +1,7 @@
 ---
 date: 2022-06-18
 type: author
-authors:
-- David Farrow
 name: David Farrow
-author: David Farrow
 photo: 'images/DavidFarrow.jpg'
 avatar: 'images/DavidFarrow.jpg'
 copyright: "© David Farrow 2022 All Rights Reserved"

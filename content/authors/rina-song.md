@@ -1,10 +1,7 @@
 ---
 date: 2022-06-18
 type: author
-authors:
-- Rina Song
 name: Rina Song
-author: Rina Song
 photo: 'images/RinaSong.jpg'
 avatar: 'images/RinaSong.jpg'
 copyright: "© Rina Song 2022 All Rights Reserved"

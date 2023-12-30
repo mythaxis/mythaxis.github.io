@@ -1,10 +1,7 @@
 ---
 date: 2022-06-18
 type: author
-authors:
-- Elana Gomel
 name: Elana Gomel
-author: Elana Gomel
 photo: 'images/ElanaGomel.jpg'
 avatar: 'images/ElanaGomel.jpg'
 copyright: "© Elana Gomel 2022 All Rights Reserved"

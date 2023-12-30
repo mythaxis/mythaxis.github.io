@@ -1,10 +1,7 @@
 ---
 date: 2022-09-15
 type: author
-authors:
-- Sydney Sackett
 name: Sydney Sackett
-author: Sydney Sackett
 photo: 'images/sydney-sackett.jpg'
 avatar: 'images/sydney-sackett.jpg'
 copyright: "© Sydney Sackett 2022 All Rights Reserved"

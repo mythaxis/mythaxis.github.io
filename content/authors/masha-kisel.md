@@ -1,10 +1,7 @@
 ---
 date: 2023-06-30
 type: author
-authors:
-- Masha Kisel
 name: Masha Kisel
-author: Masha Kisel
 photo: 'images/MashaKisel.jpg'
 avatar: 'images/MashaKisel.jpg'
 copyright: "© Masha Kisel 2023 All Rights Reserved"

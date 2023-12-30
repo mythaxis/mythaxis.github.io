@@ -1,11 +1,7 @@
 ---
 date: 2022-06-18
 type: author
-type: author
-authors:
-- Alexander Zalben
 name: Alexander Zalben
-author: Alexander Zalben
 photo: 'images/AlexanderZalben.jpg'
 avatar: 'images/AlexanderZalben.jpg'
 copyright: "© Alexander Zalben 2022 All Rights Reserved"
