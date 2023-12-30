@@ -3,7 +3,7 @@
 <article>
     <header>
         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-        <span>{{ .Params.author }} </span>
+        <span>{{ collections.Delimit .Params.authors ", " }}</span>
     </header>
     
     {{ if .Params.image }}

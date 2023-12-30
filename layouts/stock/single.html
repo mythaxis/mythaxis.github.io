@@ -14,7 +14,7 @@
             <header class="major">
               <img src="{{ "/images/toplist.svg" | safeURL }}" />
               <h1>{{ .Title }}</h1>
-              <p>{{ .Params.author }}</p>
+              <p>{{ collections.Delimit .Params.authors ", " }}</p>
               <img src="{{ "/images/divider.svg" | safeURL }}" />
             </header>
             

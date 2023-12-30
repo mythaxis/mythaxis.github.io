@@ -2,7 +2,7 @@
 {{ $data := index .Site.Data .Site.Language.Lang }}
 <article class="post featured">
     <header class="major">
-        <span>{{ .Params.author }}</span>
+        <span>{{ collections.Delimit .Params.authors ", " }}</span>
         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
     </header>
 
