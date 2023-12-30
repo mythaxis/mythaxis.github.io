@@ -1,10 +1,7 @@
 ---
 date: 2021-12-20
 type: author
-authors:
-- Chaitanya Murali
 name: Chaitanya Murali
-author: Chaitanya Murali
 photo: 'images/ChaitanyaMurali.jpg'
 avatar: 'images/ChaitanyaMurali.jpg'
 copyright: "© Chaitanya Murali 2021 All Rights Reserved"

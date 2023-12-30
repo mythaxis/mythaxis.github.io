@@ -1,10 +1,7 @@
 ---
 date: 2021-12-20
 type: author
-authors:
-- Uchechukwu Nwaka
 name: Uchechukwu Nwaka
-author: Uchechukwu Nwaka
 photo: 'images/UchechukwuNwaka.jpg'
 avatar: 'images/UchechukwuNwaka.jpg'
 copyright: "© Uchechukwu Nwaka 2021 All Rights Reserved"

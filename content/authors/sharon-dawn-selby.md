@@ -1,10 +1,7 @@
 ---
 date: 2020-12-07
 type: author
-authors:
-- Sharon Dawn Selby
 name: Sharon Dawn Selby
-author: Sharon Dawn Selby
 photo: 'images/SharonDawnSelby.png'
 avatar: 'images/SharonDawnSelby.png'
 copyright: "© Sharon Dawn Selby 2020 All Rights Reserved"

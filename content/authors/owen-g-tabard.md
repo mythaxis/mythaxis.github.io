@@ -1,10 +1,7 @@
 ---
 date: 2022-03-27
 type: author
-authors:
-- Owen G. Tabard
 name: Owen G. Tabard
-author: Owen G. Tabard
 photo: 'images/OwenGTabard.jpg'
 avatar: 'images/OwenGTabard.jpg'
 copyright: "© Owen G. Tabard 2022 All Rights Reserved"

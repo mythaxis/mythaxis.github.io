@@ -1,10 +1,7 @@
 ---
 date: 2021-03-15
 type: author
-authors:
-- Pritesh Patil and Percy Wadiwala
 name: Pritesh Patil and Percy Wadiwala
-author: Pritesh Patil and Percy Wadiwala
 photo: 'images/PriteshAndPercy.png'
 avatar: 'images/PriteshAndPercy.png'
 copyright: "© Pritesh Patil and Percy Wadiwala 2021 All Rights Reserved"

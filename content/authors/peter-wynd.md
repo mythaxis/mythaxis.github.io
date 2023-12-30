@@ -1,10 +1,7 @@
 ---
 date: 2023-12-21
 type: author
-authors:
-- Peter Wynd
 name: Peter Wynd
-author: Peter Wynd
 photo: 'images/PeterWynd.jpg'
 avatar: 'images/PeterWynd.jpg'
 copyright: "© Peter Wynd 2023 All Rights Reserved"

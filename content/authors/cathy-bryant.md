@@ -1,10 +1,7 @@
 ---
 date: 2022-12-19
 type: author
-authors:
-- Cathy Bryant
 name: Cathy Bryant
-author: Cathy Bryant
 photo: 'images/CathyBryant.jpg'
 avatar: 'images/CathyBryant.jpg'
 copyright: "© Cathy Bryant 2022 All Rights Reserved"

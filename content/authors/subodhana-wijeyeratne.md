@@ -1,10 +1,7 @@
 ---
 date: 2021-03-15
 type: author
-authors:
-- Subodhana Wijeyeratne
 name: Subodhana Wijeyeratne
-author: Subodhana Wijeyeratne
 photo: 'images/SubodhanaWijeyeratne.png'
 avatar: 'images/SubodhanaWijeyeratne.png'
 copyright: "© Subodhana Wijeyeratne 2021 All Rights Reserved"

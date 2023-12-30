@@ -1,10 +1,7 @@
 ---
 date: 2022-03-27
 type: author
-authors:
-- Mandira Pattnaik
 name: Mandira Pattnaik
-author: Mandira Pattnaik
 photo: 'images/MandiraPattnaik.jpg'
 avatar: 'images/MandiraPattnaik.jpg'
 copyright: "© Mandira Pattnaik 2022 All Rights Reserved"

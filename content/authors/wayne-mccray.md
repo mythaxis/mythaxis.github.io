@@ -1,10 +1,7 @@
 ---
 date: 2023-12-21
 type: author
-authors:
-- Wayne McCray
 name: Wayne McCray
-author: Wayne McCray
 photo: 'images/wayne-mccray.jpg'
 avatar: 'images/wayne-mccray.jpg'
 copyright: "© Wayne McCray 2023 All Rights Reserved"

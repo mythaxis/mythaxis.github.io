@@ -1,10 +1,7 @@
 ---
 date: 2021-06-30
 type: author
-authors:
-- Mike Adamson
 name: Mike Adamson
-author: Mike Adamson
 photo: 'images/MikeAdamson.jpg'
 avatar: 'images/MikeAdamson.jpg'
 copyright: "© Mike Adamson 2021 All Rights Reserved"

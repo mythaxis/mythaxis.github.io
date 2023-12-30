@@ -1,10 +1,7 @@
 ---
 date: 2021-06-30
 type: author
-authors:
-- Amanda C. Crowley
 name: Amanda C. Crowley
-author: Amanda C. Crowley
 photo: 'images/AmandaCrowley.jpg'
 avatar: 'images/AmandaCrowley.jpg'
 copyright: "© Amanda C. Crowley 2021 All Rights Reserved"

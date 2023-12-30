@@ -1,10 +1,7 @@
 ---
 date: 2023-09-30
 type: author
-authors:
-- Don Mark Baldridge
 name: Don Mark Baldridge
-author: Don Mark Baldridge
 photo: 'images/donmark_baldridge.jpg'
 avatar: 'images/donmark_baldridge.jpg'
 copyright: "© Don Mark Baldridge 2023 All Rights Reserved"

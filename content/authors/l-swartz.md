@@ -1,10 +1,7 @@
 ---
 date: 2023-12-21
 type: author
-authors:
-- L Swartz
 name: L Swartz
-author: L Swartz
 photo: 'images/l-swartz.jpg'
 avatar: 'images/l-swartz.jpg'
 copyright: "© L Swartz 2023 All Rights Reserved"

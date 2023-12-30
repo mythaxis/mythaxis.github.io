@@ -1,10 +1,7 @@
 ---
 date: 2023-06-30
 type: author
-authors:
-- Elena Sichrovsky
 name: Elena Sichrovsky
-author: Elena Sichrovsky
 photo: 'images/ElenaSichrovsky.jpg'
 avatar: 'images/ElenaSichrovsky.jpg'
 copyright: "© Elena Sichrovsky 2023 All Rights Reserved"

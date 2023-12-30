@@ -1,10 +1,7 @@
 ---
 date: 2023-06-30
 type: author
-authors:
-- Chisom Umeh
 name: Chisom Umeh
-author: Chisom Umeh
 photo: 'images/ChisomUmeh.jpg'
 avatar: 'images/ChisomUmeh.jpg'
 copyright: "© Chisom Umeh 2023 All Rights Reserved"

@@ -1,10 +1,7 @@
 ---
 date: 2021-03-15
 type: author
-authors:
-- KC Grifant
 name: KC Grifant
-author: KC Grifant
 photo: 'images/KCGrifant.png'
 avatar: 'images/KCGrifant.png'
 copyright: "© KC Grifant 2021 All Rights Reserved"

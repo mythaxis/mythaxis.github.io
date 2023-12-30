@@ -1,10 +1,7 @@
 ---
 date: 2023-06-30
 type: author
-authors:
-- Bill Ryan
 name: Bill Ryan
-author: Bill Ryan
 photo: 'images/BillRyan.jpg'
 avatar: 'images/BillRyan.jpg'
 copyright: "© Bill Ryan 2023 All Rights Reserved"

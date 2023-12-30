@@ -1,10 +1,7 @@
 ---
 date: 2021-06-30
 type: author
-authors:
-- Martin Zeigler
 name: Martin Zeigler
-author: Martin Zeigler
 photo: 'images/MartinZeigler.jpg'
 avatar: 'images/MartinZeigler.jpg'
 copyright: "© Martin Zeigler 2021 All Rights Reserved"

@@ -1,10 +1,7 @@
 ---
 date: 2021-03-15
 type: author
-authors:
-- Jack Mackenzie
 name: Jack Mackenzie
-author: Jack Mackenzie
 photo: 'images/JackMackenzie.png'
 avatar: 'images/JackMackenzie.png'
 copyright: "© Jack Mackenzie 2021 All Rights Reserved"

@@ -1,11 +1,7 @@
 ---
 date: 2020-12-07
 type: author
-type: author
-authors:
-- Addison Smith
 name: Addison Smith
-author: Addison Smith
 photo: 'images/AddisonSmith.png'
 avatar: 'images/AddisonSmith.png'
 copyright: "© Addison Smith 2020 All Rights Reserved"

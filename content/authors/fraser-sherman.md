@@ -1,10 +1,7 @@
 ---
 date: 2022-12-19
 type: author
-authors:
-- Fraser Sherman
 name: Fraser Sherman
-author: Fraser Sherman
 photo: 'images/FraserSherman.jpg'
 avatar: 'images/FraserSherman.jpg'
 copyright: "© Fraser Sherman 2022 All Rights Reserved"

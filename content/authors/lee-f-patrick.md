@@ -1,10 +1,7 @@
 ---
 date: 2020-12-07
 type: author
-authors:
-- Lee F. Patrick
 name: Lee F. Patrick
-author: Lee F. Patrick
 photo: 'images/LeeFPatrick.png'
 avatar: 'images/LeeFPatrick.png'
 copyright: "© Lee F. Patrick 2020 All Rights Reserved"

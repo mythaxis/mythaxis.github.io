@@ -1,10 +1,7 @@
 ---
 date: 2020-12-07
 type: author
-authors:
-- Scott J. Couturier
 name: Scott J. Couturier
-author: Scott J. Couturier
 photo: 'images/ScottJCouturier.png'
 avatar: 'images/ScottJCouturier.png'
 copyright: "© Scott J Couturier 2020 All Rights Reserved"

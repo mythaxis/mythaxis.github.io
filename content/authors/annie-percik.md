@@ -1,10 +1,7 @@
 ---
 date: 2021-06-30
 type: author
-authors:
-- Annie Percik
 name: Annie Percik
-author: Annie Percik
 photo: 'images/AnniePercik.jpg'
 avatar: 'images/AnniePercik.jpg'
 copyright: "© Annie Percik 2021 All Rights Reserved"

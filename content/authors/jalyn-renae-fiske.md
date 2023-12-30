@@ -1,10 +1,7 @@
 ---
 date: 2021-09-15
 type: author
-authors:
-- Jalyn Renae Fiske
 name: Jalyn Renae Fiske
-author: Jalyn Renae Fiske
 photo: 'images/JalynRenaeFiske.jpg'
 avatar: 'images/JalynRenaeFiske.jpg'
 copyright: "© Jalyn Renae Fiske 2021 All Rights Reserved"

@@ -1,10 +1,7 @@
 ---
 date: 2021-09-15
 type: author
-authors:
-- Daniel Rabuzzi
 name: Daniel Rabuzzi
-author: Daniel Rabuzzi
 photo: 'images/DanielRabuzzi.jpg'
 avatar: 'images/DanielRabuzzi.jpg'
 copyright: "© Daniel Rabuzzi 2021 All Rights Reserved"

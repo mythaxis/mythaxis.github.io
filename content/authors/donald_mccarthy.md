@@ -1,10 +1,7 @@
 ---
 date: 2023-09-30
 type: author
-authors:
-- Donald McCarthy
 name: Donald McCarthy
-author: Donald McCarthy
 photo: 'images/donald_mccarthy.jpg'
 avatar: 'images/donald_mccarthy.jpg'
 copyright: "© Donald McCarthy 2023 All Rights Reserved"

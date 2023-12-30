@@ -1,10 +1,7 @@
 ---
 date: 2021-03-15
 type: author
-authors:
-- T. M. Morgan
 name: T. M. Morgan
-author: T. M. Morgan
 photo: 'images/TMMorgan.png'
 avatar: 'images/TMMorgan.png'
 copyright: "© T. M. Morgan 2021 All Rights Reserved"

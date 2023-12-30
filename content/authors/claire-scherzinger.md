@@ -1,10 +1,7 @@
 ---
 date: 2021-09-15
 type: author
-authors:
-- Claire Scherzinger
 name: Claire Scherzinger
-author: Claire Scherzinger
 photo: 'images/ClaireScherzinger.jpg'
 avatar: 'images/ClaireScherzinger.jpg'
 copyright: "© Claire Scherzinger 2021 All Rights Reserved"

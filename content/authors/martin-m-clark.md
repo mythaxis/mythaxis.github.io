@@ -1,10 +1,7 @@
 ---
 date: 2020-12-07
 type: author
-authors:
-- Martin M. Clark
 name: Martin M. Clark
-author: Martin M. Clark
 photo: 'images/MartinMClark.png'
 avatar: 'images/MartinMClark.png'
 copyright: "© Martin M. Clark 2020 All Rights Reserved"

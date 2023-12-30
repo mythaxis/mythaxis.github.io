@@ -1,10 +1,7 @@
 ---
 date: 2021-09-15
 type: author
-authors:
-- Kyle E. Miller
 name: Kyle E. Miller
-author: Kyle E. Miller
 photo: 'images/KyleEMiller.jpg'
 avatar: 'images/KyleEMiller.jpg'
 copyright: "© Kyle E. Miller 2021 All Rights Reserved"

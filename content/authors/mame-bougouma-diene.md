@@ -1,10 +1,7 @@
 ---
 date: 2021-12-20
 type: author
-authors:
-- Mame Bougouma Diene
 name: Mame Bougouma Diene
-author: Mame Bougouma Diene
 photo: 'images/MameBougouma.jpg'
 avatar: 'images/MameBougouma.jpg'
 copyright: "© Mame Bougouma Diene 2021 All Rights Reserved"
