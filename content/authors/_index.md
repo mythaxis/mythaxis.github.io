@@ -1,5 +1,4 @@
 ---
-title: Authors (content/authors/_index.md)
+title: Author
+description: The complete Mythaxis Author index, sorted by surname.
 ---
-
-Authors listings below...

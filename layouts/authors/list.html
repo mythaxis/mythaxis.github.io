@@ -1,77 +1,124 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <link href="css/style.css" rel="stylesheet">
-  <style>
-    pre {
-      white-space: pre-wrap;       /* Since CSS 2.1 */
-      white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
-      white-space: -pre-wrap;      /* Opera 4-6 */
-      white-space: -o-pre-wrap;    /* Opera 7 */
-      word-wrap: break-word;       /* Internet Explorer 5.5+ */
-    }
-  </style>
-</head>
-
-<body>
-	<h1>{{ .Title }}</h1>
-  <p>{{ .Content }}</p>
+{{/* The code below merges two datasources, the site pages and the xway back catalogue,
+     presenting the results as an author sorted index of their published stories. */}}
+{{ $authorIndex := slice }}
+{{ $pages := where .Site.Pages "Type" "stock" }}
+{{ $xway := index .Site.Data "xway2-metadata" }}
 
 
+{{/* Generate unique author name list multiple data sources */}}
 {{ $allAuthors := slice }}
-
 {{ range where .Site.Pages "Type" "author" }}
-  {{ $author := dict
-      "name" .Params.Name
-      "relurl" .RelPermalink
-  }}
-  {{ $allAuthors = $allAuthors | append $author }}
+  {{ $allAuthors = $allAuthors | append .Params.Name }}
 {{ end }}
-
 {{ range (index .Site.Data "xway2-metadata") }}
-    {{ $author := dict
-      "name" .author
-      "relurl" ""
-  }}
-  {{ $allAuthors = $allAuthors | append $author }}
+  {{ $allAuthors = $allAuthors | append .author }}
 {{ end }}
+{{ $allAuthors = $allAuthors | uniq}}
 
 
+{{/* Build the author index dictionary and load it up with the author's stories. */}}
+{{ range $allAuthors }}
 
-
-----
-<h2>authors</h2>
-Full count: {{ len $allAuthors }}<br/>
-Number of authors: {{ len ($allAuthors | uniq)}}
-
-
-
-<ul>
-  {{ range ($allAuthors | uniq) }}
-    <li>
-      {{ if .relurl }}
-        <a href="{{ .relurl }}">{{ .name }}</a>
-      {{ else }}
-        {{ .name }}
-      {{ end }}
-      ({{ len (where $allAuthors "name" .name) }})
-    </li>
+  {{/* Gather each author's stories into a single stocklist */}}
+  {{ $authStockItems := slice }}
+  {{ range (where $pages "Params.authors" "intersect" (slice .)) }}
+    {{ $item := dict
+      "Title" .Title
+      "RelPermalink" .RelPermalink
+      "Issue" .Params.issue
+      "Date" (.Date.Format "January 2006")
+    }}
+    {{ $authStockItems = $authStockItems | append $item }}
   {{ end }}
-</ul>
+
+  {{ range (where $xway "author" "eq" .)  }}
+    {{ $item := dict
+        "Title" .title
+        "RelPermalink" .relurl
+        "Issue" .issue
+        "Date" .date
+    }}
+    {{ $authStockItems = $authStockItems | append $item }} 
+  {{ end }}
+  {{ $authStockItems = sort $authStockItems "Issue" "asc" "Title" "asc" }} 
+
+  {{/* Build author object and add to keyed author index */}}
+  {{ $author := dict
+        "name" .
+        "lastname" (index (last 1 (split . " ")) 0) 
+        "stocklist" $authStockItems
+  }}
+  {{ $authorIndex = $authorIndex | append $author }}
+{{ end }}
+{{ $authorIndex = sort $authorIndex "lastname" "asc" }}
 
 
 
 
 
+<!DOCTYPE HTML>
+<html lang='{{ .Site.Language.Lang | default "en-us" }}'>
+  {{ partial "htmlhead" . }}
+  
+  <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      {{ partial "header" . }}
+      {{ partial "nav" . }}
+
+      <!-- Main -->
+      <div id="main">
+        <section class="post">
+            <header class="major">
+              <img src="{{ "/images/toplist.svg" | safeURL }}" />
+              <h1>{{ .Title }}</h1>
+              <p>{{ .Description }}</p>
+            </header>
+
+            {{ if .Params.image }}
+            <div class="image main">
+              <img src="{{ path.Join .Section .Params.image | relURL }}" alt="Story image for {{ .Title }}" title="Story image for {{ .Title }}" />
+            </div>
+            {{ end }}
+
+
+            {{ .Content }}
+
+
+
+Number of authors: {{ len $authorIndex }}
+
+<table>
+  <thead>
+    <tr>
+      <th>Author</th>
+      <th>Stock info</th>
+    </tr>
+  </thead>
+
+  <tbody class="scroll">
+    {{ range $authorIndex }}
+    <tr>
+      <td>{{ .name }}</td>
+      <td>{{ range .stocklist }}
+          <a href="{{ .RelPermalink | relURL }}">{{ .Title }}</a> ({{ .Date }})<br/>{{ end }}
+      </td>
+    </tr>  
+    {{ end }}
+  </tbody>
+</table>
 
 
 
 
+        </section>
+      </div>
+      
+      {{ partial "copyright" . }}
+      <a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
+    </div>
 
-
-
-
-</body>
-
+    {{ template "_internal/google_analytics.html" . }}
+    {{ partial "scripts/index" . }}
+  </body>
 </html>
