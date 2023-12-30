@@ -75,18 +75,17 @@
               <p>{{ .Description }}</p>
             </header>
 
-            {{ if .Params.image }}
-            <div class="image main">
-              <img src="{{ path.Join .Section .Params.image | relURL }}" alt="Story image for {{ .Title }}" title="Story image for {{ .Title }}" />
-            </div>
-            {{ end }}
-
+            <p>
+              {{ with .Site.GetPage "/archive.html" }}
+                <a href='{{ .RelPermalink | relURL }}'><- Back to archives</a>
+              {{ end }} | 
+              {{ with .Site.GetPage "/catalogue.html" }}
+                <a href='{{ .RelPermalink | relURL }}'>On to catalogue -></a>
+              {{ end }}
+            </p>
 
             {{ .Content }}
 
-
-
-Number of authors: {{ len $authorIndex }}
 
 <table>
   <thead>
@@ -108,6 +107,16 @@ Number of authors: {{ len $authorIndex }}
   </tbody>
 </table>
 
+
+Number of authors: {{ len $authorIndex }}
+            <p>
+              {{ with .Site.GetPage "/archive.html" }}
+                <a href='{{ .RelPermalink | relURL }}'><- Back to archives</a>
+              {{ end }} | 
+              {{ with .Site.GetPage "/catalogue.html" }}
+                <a href='{{ .RelPermalink | relURL }}'>On to catalogue -></a>
+              {{ end }}
+            </p>
 
 
 
