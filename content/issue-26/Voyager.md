@@ -3,7 +3,6 @@ title: "Voyager"
 date: 2021-06-30
 issue: Issue 26
 
-author: Amanda C. Crowley
 authors:
 - Amanda C. Crowley
 showAuthorFooter: true

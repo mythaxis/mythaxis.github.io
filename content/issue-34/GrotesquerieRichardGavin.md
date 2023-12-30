@@ -3,7 +3,6 @@ title: "Grotesquerie, by Richard Gavin"
 date: 2023-06-30
 issue: Issue 34
 
-author: Bill Ryan
 authors:
 - Bill Ryan
 showAuthorFooter: true

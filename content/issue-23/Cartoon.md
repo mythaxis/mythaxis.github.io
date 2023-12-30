@@ -3,7 +3,6 @@ title: "Cartoon"
 date: 2020-08-23
 issue: Issue 23
 
-author: Liam Baldwin
 authors:
 - Liam Baldwin
 copyright: "© Liam Baldwin 2020 All Rights Reserved"

@@ -3,9 +3,8 @@ title: "Boy with Brick"
 date: 2022-09-12
 issue: Issue 31
 
-author: Sydney Sackett
 authors:
-  - Sydney Sackett
+- Sydney Sackett
 showAuthorFooter: true
 copyright: '© Sydney Sackett 2022 All Rights Reserved'
 

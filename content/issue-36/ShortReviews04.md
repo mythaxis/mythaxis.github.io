@@ -3,7 +3,6 @@ title: "Short Reviews – Crime Fiction in 2023"
 date: 2023-12-21
 issue: Issue 36
 
-author: Andrew Leon Hudson
 authors:
 - Andrew Leon Hudson
 showAuthorFooter: true

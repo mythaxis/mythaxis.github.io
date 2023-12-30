@@ -3,7 +3,6 @@ title: "Nancy, Please"
 date: 2023-12-21
 issue: Issue 36
 
-author: Steve Boseley
 authors:
 - Steve Boseley
 showAuthorFooter: true

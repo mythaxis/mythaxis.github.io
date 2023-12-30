@@ -3,7 +3,6 @@ title: "The Four Bill Club"
 date: 2023-09-30
 issue: Issue 35
 
-author: Donald McCarthy
 authors:
 - Donald McCarthy
 showAuthorFooter: true

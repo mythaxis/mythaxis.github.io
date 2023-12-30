@@ -3,9 +3,8 @@ title: "Distant Skies"
 date: 2022-12-19
 issue: Issue 32
 
-author: Charlotte Ashley
 authors:
-    - Charlotte Ashley
+- Charlotte Ashley
 copyright: '© Charlotte Ashley 2016, 2022 All Rights Reserved'
 showAuthorFooter: true
 

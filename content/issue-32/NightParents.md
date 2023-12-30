@@ -3,7 +3,6 @@ title: "The Night Parents"
 date: 2022-12-19
 issue: Issue 32
 
-author: Valerie Alexander
 authors:
 - Valerie Alexander
 showAuthorFooter: true

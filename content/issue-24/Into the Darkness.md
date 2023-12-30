@@ -3,7 +3,6 @@ title: "Into the Darkness"
 date: 2020-12-15
 issue: Issue 24
 
-author: Lee F. Patrick
 authors:
 - Lee F. Patrick
 showAuthorFooter: true

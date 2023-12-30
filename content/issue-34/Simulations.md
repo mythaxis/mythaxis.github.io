@@ -3,9 +3,8 @@ title: "Simulations"
 date: 2023-06-30
 issue: Issue 34
 
-author: Masha Kisel
 authors:
-    - Masha Kisel
+- Masha Kisel
 copyright: '© Masha Kisel 2023 All Rights Reserved'
 showAuthorFooter: true
 

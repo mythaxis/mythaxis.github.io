@@ -3,9 +3,8 @@ title: "Default"
 date: 2023-09-30
 issue: Issue 35
 
-author: Elin Olausson
 authors:
-    - Elin Olausson
+- Elin Olausson
 copyright: '© Elin Olausson 2023 All Rights Reserved'
 showAuthorFooter: true
 

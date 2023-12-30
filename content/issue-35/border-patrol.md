@@ -3,7 +3,6 @@ title: "Border Patrol"
 date: 2023-09-30
 issue: Issue 35
 
-author: Don Mark Baldridge
 authors:
 - Don Mark Baldridge
 showAuthorFooter: true

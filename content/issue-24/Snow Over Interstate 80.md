@@ -3,7 +3,6 @@ title: "Snow Over Interstate 80"
 date: 2020-12-15
 issue: Issue 24
 
-author: Martin M. Clark
 authors:
 - Martin M. Clark
 showAuthorFooter: true

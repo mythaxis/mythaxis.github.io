@@ -3,7 +3,6 @@ title: "The Quartermaster Trial"
 date: 2022-06-18
 issue: Issue 30
 
-author: Daniel Ausema
 authors:
 - Daniel Ausema
 showAuthorFooter: true

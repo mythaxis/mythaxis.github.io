@@ -3,7 +3,6 @@ title: "Welcome to the Neighborhood"
 date: 2023-06-30
 issue: Issue 34
 
-author: Rebecca Birch
 authors:
 - Rebecca Birch
 showAuthorFooter: true

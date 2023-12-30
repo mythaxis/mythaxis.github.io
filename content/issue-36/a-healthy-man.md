@@ -3,9 +3,8 @@ title: "A Healthy Man"
 date: 2023-12-21
 issue: Issue 36
 
-author: Matt Wile
 authors:
-    - Matt Wile
+- Matt Wile
 copyright: '© Matt Wile 2023 All Rights Reserved'
 showAuthorFooter: true
 

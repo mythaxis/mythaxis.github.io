@@ -3,7 +3,6 @@ title: "The School for the Hopeless and Forgotten"
 date: 2022-09-12
 issue: Issue 31
 
-author: Anna Zumbro
 authors:
 - Anna Zumbro
 showAuthorFooter: true

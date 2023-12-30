@@ -5,7 +5,7 @@ issue: Issue XX
 
 authors:
 - Firstname Lastname
-showAuthorFooter: true
+showAuthorFooter: false
 copyright: "© Firstname Lastname 2020 All Rights Reserved"
 
 description: 'The short blurb which appears on the list pages'

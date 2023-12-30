@@ -3,7 +3,6 @@ title: "Winter"
 date: 2020-12-15
 issue: Issue 24
 
-author: David Whitmarsh
 authors:
 - David Whitmarsh
 showAuthorFooter: true

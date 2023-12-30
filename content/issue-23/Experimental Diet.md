@@ -3,7 +3,6 @@ title: "Experimental Diet"
 date: 2020-08-23
 issue: Issue 23
 
-author: Andrew Johnston
 authors:
 - Andrew Johnston
 image: images/ExperimentalDiet.png

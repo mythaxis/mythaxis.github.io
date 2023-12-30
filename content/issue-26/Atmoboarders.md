@@ -3,7 +3,6 @@ title: "Atmoboarders!"
 date: 2021-06-30
 issue: Issue 26
 
-author: Martin Zeigler
 authors:
 - Martin Zeigler
 showAuthorFooter: true

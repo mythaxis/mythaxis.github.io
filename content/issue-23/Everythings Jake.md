@@ -3,7 +3,6 @@ title: "Everything's Jake"
 date: 2020-08-23
 issue: Issue 23
 
-author: Chris Cook
 authors: 
 - Christopher Cook
 image: images/EverythingsJake.png

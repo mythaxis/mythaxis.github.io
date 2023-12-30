@@ -3,9 +3,8 @@ title: "Jinny Greenteeth"
 date: 2022-12-19
 issue: Issue 32
 
-author: Cathy Bryant
 authors:
-  - Cathy Bryant
+- Cathy Bryant
 showAuthorFooter: true
 copyright: '© Cathy Bryant 2022 All Rights Reserved'
 

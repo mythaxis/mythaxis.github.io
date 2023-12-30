@@ -3,7 +3,6 @@ title: "Artificial-Artificial Intelligence"
 date: 2023-07-04
 issue: Issue 34
 
-author: Andrew Leon Hudson
 authors:
 - Andrew Leon Hudson
 showAuthorFooter: true

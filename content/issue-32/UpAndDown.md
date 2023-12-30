@@ -3,7 +3,6 @@ title: "Up and Down"
 date: 2022-12-19
 issue: Issue 32
 
-author: J. Siegal
 authors:
 - J. Siegal
 showAuthorFooter: true

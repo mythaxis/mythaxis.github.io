@@ -3,9 +3,8 @@ title: "An Odd Recurring Dream"
 date: 2022-06-18
 issue: Issue 30
 
-author: James Davidson
 authors:
-  - James Davidson
+- James Davidson
 showAuthorFooter: true
 copyright: '© James Davidson 2022 All Rights Reserved'
 

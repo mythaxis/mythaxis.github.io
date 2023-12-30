@@ -3,7 +3,6 @@ title: "Alight"
 date: 2020-08-23
 issue: Issue 23
 
-author: Skye Allen
 authors:
 - Skye Allen
 image: images/Alight.png

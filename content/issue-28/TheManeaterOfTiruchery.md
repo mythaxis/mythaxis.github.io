@@ -3,9 +3,8 @@ title: "The Maneater of Tiruchery"
 date: 2021-12-20
 issue: Issue 28
 
-author: Chaitanya Murali
 authors:
-    - Chaitanya Murali
+- Chaitanya Murali
 copyright: '© Chaitanya Murali 2021 All Rights Reserved'
 showAuthorFooter: true
 

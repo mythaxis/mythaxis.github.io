@@ -3,7 +3,6 @@ title: "In The Weave"
 date: 2022-03-27
 issue: Issue 28
 
-author: David Whitmarsh
 authors:
 - David Whitmarsh
 showAuthorFooter: true

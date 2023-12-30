@@ -3,9 +3,8 @@ title: "Unincorporated"
 date: 2022-03-27
 issue: Issue 29
 
-author: Erik Mann
 authors:
-  - Erik Mann
+- Erik Mann
 showAuthorFooter: true
 copyright: '© Erik Mann 2022 All Rights Reserved'
 

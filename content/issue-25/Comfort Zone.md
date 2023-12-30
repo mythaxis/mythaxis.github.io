@@ -3,7 +3,6 @@ title: "Comfort Zone"
 date: 2021-03-15
 issue: Issue 25
 
-author: KC Grifant
 authors:
 - KC Grifant
 showAuthorFooter: true

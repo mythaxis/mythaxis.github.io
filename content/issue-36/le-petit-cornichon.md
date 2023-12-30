@@ -3,9 +3,8 @@ title: "Le Petit Cornichon"
 date: 2023-12-21
 issue: Issue 36
 
-author: L Swartz
 authors:
-  - L Swartz
+- L Swartz
 showAuthorFooter: true
 copyright: '© L Swartz 2023 All Rights Reserved'
 

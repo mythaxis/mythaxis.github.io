@@ -3,7 +3,6 @@ title: "The Third Martian Dick Temple"
 date: 2020-08-23
 issue: Issue 23
 
-author: Micah Hyatt
 authors: 
 - Micah Hyatt
 image: images/3MDT.png

@@ -3,9 +3,8 @@ title: "Thy Servant, Death"
 date: 2020-12-15
 issue: Issue 24
 
-author: Scott J. Couturier
 authors:
-    - Scott J. Couturier
+- Scott J. Couturier
 copyright: '© Scott J. Couturier 2020 All Rights Reserved'
 showAuthorFooter: true
 

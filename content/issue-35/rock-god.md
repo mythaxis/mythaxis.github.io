@@ -3,9 +3,8 @@ title: "You Are a Rock God"
 date: 2023-09-30
 issue: Issue 35
 
-author: Joelle Killian
 authors:
-  - Joelle Killian
+- Joelle Killian
 showAuthorFooter: true
 copyright: '© Joelle Killian 2023 All Rights Reserved'
 

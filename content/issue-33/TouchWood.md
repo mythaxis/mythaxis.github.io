@@ -3,7 +3,6 @@ title: "Touch Wood"
 date: 2023-04-01
 issue: Issue 33
 
-author: Sandee Bree Breathnach
 authors:
 - Sandee Bree Breathnach
 showAuthorFooter: true

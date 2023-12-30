@@ -3,7 +3,6 @@ title: "JohnBear, Janine, and I"
 date: 2022-12-19
 issue: Issue 32
 
-author: Hermester Barrington
 authors:
 - Hermester Barrington
 showAuthorFooter: true

@@ -3,7 +3,6 @@ title: "Short Reviews – January to March"
 date: 2023-04-04
 issue: Issue 33
 
-author: Andrew Leon Hudson
 authors:
 - Andrew Leon Hudson
 showAuthorFooter: true

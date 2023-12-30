@@ -3,9 +3,8 @@ title: "Embryo"
 date: 2023-06-30
 issue: Issue 34
 
-author: Elena Sichrovsky
 authors:
-  - Elena Sichrovsky
+- Elena Sichrovsky
 showAuthorFooter: true
 copyright: '© Elena Sichrovsky 2023 All Rights Reserved'
 

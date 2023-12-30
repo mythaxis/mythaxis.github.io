@@ -3,7 +3,6 @@ title: "The Enchanters, by James Ellroy"
 date: 2023-12-21
 issue: Issue 36
 
-author: Bill Ryan
 authors:
 - Bill Ryan
 showAuthorFooter: true

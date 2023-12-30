@@ -3,9 +3,8 @@ title: "Praedial Larceny"
 date: 2023-12-21
 issue: Issue 36
 
-author: Wayne McCray
 authors:
-  - Wayne McCray
+- Wayne McCray
 showAuthorFooter: true
 copyright: '© Wayne McCray 2023 All Rights Reserved'
 

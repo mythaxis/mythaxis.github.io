@@ -3,7 +3,6 @@ title: "A Curse at Midnight"
 date: 2020-08-23
 issue: Issue 23
 
-author: Moustapha Mbacké Diop
 authors:
 - Moustapha Mbacké Diop
 image: images/CurseMidnight.png

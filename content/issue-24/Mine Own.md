@@ -3,7 +3,6 @@ title: "Mine Own"
 date: 2020-12-15
 issue: Issue 24
 
-author: Sharon Dawn Selby
 authors:
 - Sharon Dawn Selby
 showAuthorFooter: true

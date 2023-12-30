@@ -3,7 +3,6 @@ title: "Full Metal Grandma"
 date: 2021-09-15
 issue: Issue 27
 
-author: Paul Alex Gray
 authors:
 - Paul Alex Gray
 showAuthorFooter: true

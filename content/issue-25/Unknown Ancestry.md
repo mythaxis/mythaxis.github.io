@@ -3,9 +3,8 @@ title: "Unknown Ancestry"
 date: 2021-03-15
 issue: Issue 25
 
-author: T. M. Morgan
 authors:
-  - T. M. Morgan
+- T. M. Morgan
 copyright: '© T. M. Morgan 2021 All Rights Reserved'
 showAuthorFooter: true
 

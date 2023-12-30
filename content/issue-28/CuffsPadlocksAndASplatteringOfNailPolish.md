@@ -3,9 +3,8 @@ title: "Cuffs, Padlocks, and a Splattering of Nail Polish"
 date: 2021-12-20
 issue: Issue 28
 
-author: Uchechukwu Nwaka
 authors:
-  - Uchechukwu Nwaka
+- Uchechukwu Nwaka
 copyright: '© Uchechukwu Nwaka 2021 All Rights Reserved'
 showAuthorFooter: true
 

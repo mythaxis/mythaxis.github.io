@@ -3,7 +3,6 @@ title: "My Amoeboid Romance"
 date: 2021-12-20
 issue: Issue 28
 
-author: Hermester Barrington
 authors:
 - Hermester Barrington
 showAuthorFooter: true
