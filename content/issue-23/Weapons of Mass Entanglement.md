@@ -8,7 +8,6 @@ authors:
 copyright: "© Dennis Mombauer 2020 All Rights Reserved"
 image: images/MassEntanglement.png
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Pawel Kadysz](https://unsplash.com/photos/yKPj4oi9m74), [David-Karich](https://pixabay.com/photos/portrait-face-pale-expressive-eyes-358970/), and [Stephanie Mulrooney](https://unsplash.com/photos/X_unyC4Kkyc)."
-showAuthorFooter: true
 
 description: "The only unifying thing Mythaxis seeks is good writing - but we want to bring together a variety of genres, styles, themes, and no two alike is fine by us. Dennis Mombauer answered that call with a vision of the strange, and left us with questions."
 

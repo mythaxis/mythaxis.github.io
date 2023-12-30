@@ -5,7 +5,6 @@ issue: Issue 26
 
 authors:
 - Amanda C. Crowley
-showAuthorFooter: true
 copyright: '© Amanda C. Crowley 2021 All Rights Reserved'
 
 description: "Our issue lead is a fine example of how short speculative fiction doesn't have to travel far to take us far away, and doesn't have to inject grand thrills and spills to keep a reader engaged if everyday characters prove to be quietly engrossing. Amanda Crowley's story doesn't try to hook the reader in with a killer opening line, it just builds and builds towards a simple, moving close. Sometimes we don't notice the powerful moments in life until they've already happened."

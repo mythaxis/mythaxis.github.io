@@ -5,7 +5,6 @@ issue: Issue 28
 
 authors:
 - Aaron Emmel
-showAuthorFooter: true
 copyright: '© Aaron Emmel 2021 All Rights Reserved.'
 
 description: "It would have been a missed opportunity if, in an issue entirely illustrated via artificially intelligent image generation, we didn't include a single story actually featuring AI. Aaron Emmel to the rescue, therefore, with this highly plausible glimpse of the way the future may be heading—in situations, at least, if not solutions…"

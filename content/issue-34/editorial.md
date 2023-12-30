@@ -5,7 +5,6 @@ issue: Issue 34
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 
 image: images/chopper_sml.jpg
 

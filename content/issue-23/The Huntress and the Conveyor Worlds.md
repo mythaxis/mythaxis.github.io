@@ -8,7 +8,6 @@ authors:
 image: images/HuntressConveyor.png
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Pexels](https://pixabay.com/photos/railroad-tracks-jungle-overgrown-1835529/), [bere69](https://pixabay.com/photos/the-jungle-of-chiapas-1865639/), and [TobiasRehbein](https://pixabay.com/photos/train-building-airport-indoors-5150747/)."
 copyright: "© Daniel Ausema 2020 All Rights Reserved"
-showAuthorFooter: true
 
 description: "Fantasy author and speculative poet Daniel Ausema is no stranger to strange lands, strange technologies, strange creatures. Here he takes us on a journey though a selection of the first, and exposes us to the others in ways his heroine - and readers - may be unprepared for."
 

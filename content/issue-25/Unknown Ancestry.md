@@ -6,7 +6,6 @@ issue: Issue 25
 authors:
 - T. M. Morgan
 copyright: '© T. M. Morgan 2021 All Rights Reserved'
-showAuthorFooter: true
 
 description: "What makes a person who they are: Nature or Nurture? Most people would say it's a bit of both, forgetting that musician they like with \"natural talent\", or the monster on the news who was just \"born evil\".  But of course, those are the outliers. For most of us, how and where we're raised makes all the difference. And what about when you learn you're not what you think you are at all — is it Nature or Nurture then?"
 

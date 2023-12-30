@@ -5,7 +5,6 @@ issue: Issue 34
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 copyright: '© Andrew Leon Hudson 2023 All Rights Reserved'
 
 description: "Mythaxis has been proud to feature stories penned by authors from a wide variety of countries in the past, but as an English-language zine it's fair to say that we've barely scratched the surface of what could be done to expose readers to genre writing from different cultures. Step forward Francesco Verso, man of world fiction."

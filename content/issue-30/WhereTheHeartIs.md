@@ -5,7 +5,6 @@ issue: Issue 30
 
 authors:
 - Alexander Zalben
-showAuthorFooter: true
 copyright: '© Alexander Zalben 2022 All Rights Reserved'
 
 description: "Regular Mythaxis readers will be long tired of the editor's observation about stories that seem to come in pairs, but I'm doing it again. Despite their differences, Alexander Zalben's tale feels like a thematic sibling to 'An Odd Recurring Dream' — despite their commonalities, they go in very different ways."

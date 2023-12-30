@@ -5,7 +5,6 @@ issue: Issue 32
 
 authors:
 - J. Siegal
-showAuthorFooter: true
 copyright: '© J. Siegal 2022 All Rights Reserved'
 
 description: "Some people are just annoying. You can try to have sympathy when circumstance works against them, try to be happy for them when things go well, yet there's simply no helping that itch of ill feeling, nor of taking guilty pleasure at even unjust comeuppance. But some suffering exceeds what even the annoying deserve."

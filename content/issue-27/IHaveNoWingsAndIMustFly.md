@@ -5,7 +5,6 @@ issue: Issue 27
 
 authors:
 - Kyle E. Miller
-showAuthorFooter: true
 copyright: '© Kyle E. Miller 2021 All Rights Reserved'
 
 description: "Some stories wear their inspiration on their sleeve, and the title of Kyle E. Miller's wonderlandish excursion through a decaying plane pays clear homage to the Harlan Ellison classic, \"I Have No Mouth, and I Must Scream\". Prepare yourselves for a similarly rich, strange journey, but there the similarities very definitely end..."

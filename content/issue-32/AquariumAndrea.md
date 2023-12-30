@@ -5,7 +5,6 @@ issue: Issue 32
 
 authors:
 - Monte Remer
-showAuthorFooter: true
 copyright: '© Monte Remer 2022 All Rights Reserved'
 
 description: "Time passes fast, and sweeps memories with it. Over twenty years ago (if you can believe it) the movie 'Memento' took the very concept of memory and turned it into an edge-of-the-seat thriller; Monte Remer makes it into a brink-of-tears tragedy about the aliens closest to us. Some stories prick the emotions so strongly it's almost overwhelming. This one is pure pathos."

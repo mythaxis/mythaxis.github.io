@@ -8,7 +8,6 @@ authors:
 image: images/RobotsParis.png
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Pexels](https://pixabay.com/photos/abandoned-alley-building-dark-1850087/), [sergeitokmakov](https://pixabay.com/illustrations/bot-cyborg-helper-robot-android-4877983/), and [DariuszSankowski](https://pixabay.com/photos/war-desert-guns-gunshow-soldier-1447007/)."
 copyright: "© Andrea Kriz 2020 All Rights Reserved"
-showAuthorFooter: true
 
 description: Not only is "Alternate History" a fun source of escapism for the well-informed reader, it can give rise to what we might call "Alternate Future" stories - where we glimpse what might have followed what might have been. Andrea Kriz doesn't say it outright, but we can see what changed here. And what needs to.
 

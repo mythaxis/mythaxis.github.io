@@ -5,7 +5,6 @@ issue: Issue 30
 
 authors:
 - Thorin N. Tatge
-showAuthorFooter: true
 copyright: '© Thorin N. Tatge 2022 All Rights Reserved'
 
 description: "As stated, issues of Mythaxis tend to coalesce in interesting and unpredictable ways. Thorin N. Tatge's tale closes out this issue as the perfect counterpoint to our opener: how better to balance a creeping sense of alienation and the loss of self than with unmitigated exuberance and wholehearted companionship?"

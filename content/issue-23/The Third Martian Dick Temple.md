@@ -8,7 +8,6 @@ authors:
 image: images/3MDT.png
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Layers](https://pixabay.com/illustrations/oil-painting-paint-painting-artist-5285514/), and [tomw77](https://pixabay.com/photos/columns-doorway-stone-arches-452590/)."
 copyright: "© Micah Hyatt 2018 All Rights Reserved. The Third Martian Dick Temple was originally published under a pseudonym in Daily Science Fiction."
-showAuthorFooter: true
 
 description: "Mythaxis generally seeks out unpublished work, but occasionally a story comes along that leaves the kind of impression that you want to land again. Micah Hyatt's perfectly crafted piece of flash fiction is just such a thing: a short, sharp, knock-out punch of a story, with a killer final line."
 

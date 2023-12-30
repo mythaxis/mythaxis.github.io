@@ -5,7 +5,6 @@ issue: Issue 33
 
 authors:
 - C. Owen Loftus
-showAuthorFooter: true
 copyright: '© C. Owen Loftus 2023 All Rights Reserved'
 
 description: "Let's start at the very beginning, well known to be a very good place to start since long before the written word, maybe even since before language itself. C. Owen Loftus gives us a story that is, of course, composed wholly of words, because we poor creatures must resort to clumsy tools in order to express the things that are, in some sense, unspeakable."

@@ -6,7 +6,6 @@ issue: Issue 33
 authors:
 - Andrew Jensen
 copyright: '© Andrew Jensen 2023 All Rights Reserved'
-showAuthorFooter: true
 
 description: "Not every adolescent dynamic is a bleak one, even when events take a turn for the worse. Still, the starkest traumas of childhood can be as simple and commonplace as arising from the gaining and losing of friends. But Andrew Jensen's story suggests that maybe good nature heals all wounds."
 

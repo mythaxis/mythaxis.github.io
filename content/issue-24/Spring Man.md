@@ -6,7 +6,6 @@ issue: Issue 24
 authors:
 - Fabiyas M. V.
 copyright: '© Fabiyas M. V. 2020 All Rights Reserved'
-showAuthorFooter: true
 
 description: "When we first read Fabiyas M. V.\'s submission, we didn\'t know quite what to make of it... other than \"a definite purchase\"! Another piece with distinctive voice, it tells its story with the same blunt directness we find boasted by its unexpected hero, but one which veils a thread of sly humour, right up to the final line."
 

@@ -5,7 +5,6 @@ issue: Issue 34
 
 authors:
 - Rebecca Birch
-showAuthorFooter: true
 copyright: '© Rebecca Birch 2023 All Rights Reserved'
 
 description: "At the end of an often emotionally heavy selection of stories, why not a dash of sugar to help all the bitter medicine go down? Rebecca Birch gives us a short, sweet tale of making a new house into a home – not by starting a family, but by making a few new friends."

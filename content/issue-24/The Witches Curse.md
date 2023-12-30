@@ -6,7 +6,6 @@ issue: Issue 24
 authors:
 - Matthew Wilson
 copyright: '© Matthew Wilson 2020 All Rights Reserved'
-showAuthorFooter: true
 
 description: 'Is it possible that one thing is more important than all the others when it comes to telling a good tale? Hard to say - but what is certainly true is that, whether a story soars or has flaws, a distinctive sense of voice will make amends for whatever sins it might contain. Matthew Wilson gives us sins large and small... and voice as well.'
 

@@ -5,7 +5,6 @@ issue: Issue 33
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 copyright: '© Andrew Leon Hudson 2023 All Rights Reserved'
 
 description: "Our second new feature is a brief collection of further reading recommendations. There are many good magazines out there publishing a lot of great short stories, and it’s far too easy for little gems of both categories to go overlooked. Therefore, in each issue we would like to nominate a trio of recent pieces from around the web that you’ll find well worth sampling."

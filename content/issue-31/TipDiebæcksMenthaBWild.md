@@ -5,7 +5,6 @@ issue: Issue 31
 
 authors:
 - Marc Phillips
-showAuthorFooter: true
 copyright: '© Marc Phillips 2022 All Rights Reserved'
 
 description: "There's a theme in US culture about survivalism, about defending what's yours, from other citizens or the state itself. Marc Phillips' story seems to be one man's oral recounting of just such a future-history, but it might be the exact opposite of that, in one sense at least."

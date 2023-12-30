@@ -6,7 +6,6 @@ issue: Issue 31
 authors:
 - Chinaza Eziaghighala
 copyright: '© Chinaza Eziaghighala 2022 All Rights Reserved'
-showAuthorFooter: true
 
 description: "Chinaza Eziaghighala is like one of those mysterious particles with strange asymmetry: at first glance she is a medical doctor; she turns, and is a filmmaker; turns again, and writes speculative fiction. In this latter orientation she unveils a series of encounters of the most intense kind, at first ecstatic, but all too soon horrific. Warning: this story contains sexual and violent content."
 

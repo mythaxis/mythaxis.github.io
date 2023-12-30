@@ -8,7 +8,6 @@ authors:
 image: images/ExperimentalDiet.png
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Andrea Piacquadio](https://www.pexels.com/photo/woman-in-gray-tank-top-3812731/), [Nesrin Danan](https://www.pexels.com/photo/woman-eating-outside-3193818/), and [Sharon Murillo](https://www.pexels.com/photo/yellow-pasta-on-stainless-steel-bowl-4049953/)."
 copyright: "© Andrew Johnston 2020 All Rights Reserved"
-showAuthorFooter: true
 
 description: "From the beginning there's been a fine tradition of epistolary fiction in the speculative genres - Dracula, for example, told its bloody tale through diaries, letters, newspaper articles, ship's logs... Andrew Johnston tells no less bloody a tale - and if these records glowed on a screen on some distant planet, what of it?"
 

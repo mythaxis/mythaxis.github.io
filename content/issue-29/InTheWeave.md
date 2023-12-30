@@ -5,7 +5,6 @@ issue: Issue 28
 
 authors:
 - David Whitmarsh
-showAuthorFooter: true
 copyright: '© David Whitmarsh 2022 All Rights Reserved'
 
 description: "We wrap up the issue with our second repeat offender. David Whitmarsh's contribution to i25 had notes of the post-apocalyptic to it, but was ultimately about the beginning of someone's story. This piece is laced with endings, and has hints of the pre-apocalyptic lurking within. It also boasts a uniquely alien point of view…"

@@ -5,7 +5,6 @@ issue: Issue 36
 
 authors:
 - Shaun Anthony McMichael
-showAuthorFooter: true
 copyright: '© Shaun Anthony McMichael 2023 All Rights Reserved'
 
 description: "Laws can be written, and rules can be unwritten, and sometimes breaking those rules is more bad form than criminal, and surely breaking some laws hardly rises to the level of 'a crime'… yet the law IS the law, and rules are rules however informal. Transgressions have consequences."

@@ -5,7 +5,6 @@ issue: Issue 32
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 
 image: images/SepukuBot_SML.jpg
 

@@ -6,7 +6,6 @@ issue: Issue 34
 authors:
 - Masha Kisel
 copyright: '© Masha Kisel 2023 All Rights Reserved'
-showAuthorFooter: true
 
 description: "And now sit back for your second speculatively matrimonial feature: Masha Kisel takes us into a pretty near future that feels pretty plausible, unfortunately, be it in the struggle of living day-to-day within a failing ecosphere, or of relating to people as we let technology come between us."
 

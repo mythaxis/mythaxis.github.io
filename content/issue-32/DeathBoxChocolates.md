@@ -5,7 +5,6 @@ issue: Issue 32
 
 authors:
 - Fraser Sherman
-showAuthorFooter: true
 copyright: '© Fraser Sherman 2022 All Rights Reserved.'
 
 description: "Creative reworkings of Greek mythology. To judge by the number submitted to Mythaxis each year, it's a little-known fact that the editor really doesn't like them—especially not Persephone and Hades, by far the most common, and most grating. Yet beware, editor, of ever ruling them out: sometimes new Greek myths come bearing gifts…"

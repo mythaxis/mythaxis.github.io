@@ -5,7 +5,6 @@ issue: Issue 29
 
 authors:
 - Owen G. Tabard
-showAuthorFooter: true
 copyright: '© Owen G. Tabard 2022 All Rights Reserved'
 
 description: "Our next story also has an air of the traditional to it—this time Owen G. Tabard takes us into the territory of the folktale, in which everyman heroes make rash promises in search of glittering rewards, and devastating rules of three (and other fearsome narrative monsters) lie in wait for the misguided."

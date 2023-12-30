@@ -6,7 +6,6 @@ issue: Issue 28
 authors:
 - Chaitanya Murali
 copyright: '© Chaitanya Murali 2021 All Rights Reserved'
-showAuthorFooter: true
 
 description: "This issue's second big story takes us to a rural India of uncertain period—but whether a tale is set in the recent past, the present day, or a near future isn't important when you sit down to enjoy an example of straight-forward adventure storytelling. Chaitanya Murali gives us a man who is as much a part of nature as he is a professional adversary of it… but it's in our nature to change."
 

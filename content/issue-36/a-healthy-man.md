@@ -6,7 +6,6 @@ issue: Issue 36
 authors:
 - Matt Wile
 copyright: '© Matt Wile 2023 All Rights Reserved'
-showAuthorFooter: true
 
 description: "Talented Tom Ripley; avaricious Patrick Bateman; peckish Hannibal Lector; literature has always found focus in aberrant personalities, often as charismatic as they are disturbing. But criminals need not be suave and sophisticated to attract us – the chance to walk in someone awful's shoes, to learn how an unthinkable thinks… our temptations are as hard to resist as theirs."
 

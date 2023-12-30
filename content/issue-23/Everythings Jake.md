@@ -8,7 +8,6 @@ authors:
 image: images/EverythingsJake.png
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [spinheike](https://pixabay.com/photos/meadow-garden-summer-front-yard-115676/), [ArtTower](https://pixabay.com/photos/smoke-background-artwork-swirl-69124/), [Alexas_Fotos](https://pixabay.com/photos/sofa-couch-wall-furniture-pieces-3094153/), [amarjits](https://pixabay.com/photos/leather-sofa-recliner-sofa-furniture-186636/), and [StockSnap](https://pixabay.com/photos/house-interior-design-couch-sofa-2593570/). Plus a special salute to Pier 2Eyes for the most striking [Gangster smoking](https://www.flickr.com/photos/pier-photos/6992325347/)."
 copyright: "© Chris Cook 2020 All Rights Reserved"
-showAuthorFooter: true
 
 description: They say "Always leave them wanting more", and we think the final story of the issue will certainly do that. Chris Cook introduces us to a down-to-earth family man dealing with real world problems... and then introduces him to the quirkiest suburban adventure you're ever likely to come across. Fuggedaboudit.
 

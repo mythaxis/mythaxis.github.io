@@ -5,7 +5,6 @@ issue: Issue 36
 
 authors:
 - Wayne McCray
-showAuthorFooter: true
 copyright: '© Wayne McCray 2023 All Rights Reserved'
 
 description: "How many ways can people do crime? Innumerable. What types of crime do people tend to write about? That's a smaller subset. There are some things common to our depictions of criminality: the vicarious revealing of motive, means, and opportunity for example; but sometimes the explorations go deeper. Stories can examine the impact of crime. They can also examine the impact of our responses to it."

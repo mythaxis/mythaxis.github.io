@@ -6,7 +6,6 @@ issue: Issue 27
 authors:
 - Katie McIvor
 copyright: '© Katie McIvor 2021 All Rights Reserved'
-showAuthorFooter: true
 
 description: "Depression is a kind of war. Oppression is as well. When you find yourself living through intolerable times, just surviving can be a small act of defiance, or even rebellion. But as Katie McIvor's story underlines, there may still come a point at which survival-rebellion isn't enough."
 

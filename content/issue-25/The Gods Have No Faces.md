@@ -5,7 +5,6 @@ issue: Issue 25
 
 authors:
 - Subodhana Wijeyeratne
-showAuthorFooter: true
 copyright: '© Subodhana Wijeyeratne 2021 All Rights Reserved'
 
 description: "One of the great joys of speculative fiction is World Building. As a writer, it's creating new environments from, so to speak, the ground up; as a reader, it's setting off into each one to see what they contain. Subodhana Wijeyeratne has built a world already crumbling when we take our first steps. To know why, ask its creator — but with gods, don't expect to understand whatever answer is forthcoming."

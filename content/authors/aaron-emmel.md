@@ -1,10 +1,7 @@
 ---
 date: 2021-12-20
 type: author
-authors:
-- Aaron Emmel
 name: Aaron Emmel
-author: Aaron Emmel
 photo: 'images/AaronEmmel.jpg'
 avatar: 'images/AaronEmmel.jpg'
 copyright: "© Aaron Emmel 2021 All Rights Reserved"

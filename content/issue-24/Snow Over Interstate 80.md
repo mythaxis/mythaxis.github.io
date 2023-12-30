@@ -5,7 +5,6 @@ issue: Issue 24
 
 authors:
 - Martin M. Clark
-showAuthorFooter: true
 copyright: '© Martin M. Clark 2020 All Rights Reserved'
 
 description: "Martin Clark has been contributing to Mythaxis Magazine since 2010, with and without the \"M\". Twenty-eight pieces have appeared in that time, invariably featuring a variety of hard-bitten heroes and villains locked in conflict, so why not one more for his anniversary? We weren\'t really looking for seasonally themed pieces for the issue, but you have to make an exception when the right someone's nipping at your nose."

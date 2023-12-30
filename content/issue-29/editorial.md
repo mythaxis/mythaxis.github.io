@@ -5,7 +5,6 @@ issue: Issue 29
 
 authors:
 - Andrew Leon Hudson
-showAuthorFooter: true
 
 image: images/music_is_his_oxygen.jpg
 

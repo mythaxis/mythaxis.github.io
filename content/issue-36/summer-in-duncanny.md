@@ -5,7 +5,6 @@ issue: Issue 36
 
 authors:
 - Peter Wynd
-showAuthorFooter: true
 copyright: '© Peter Wynd 2023 All Rights Reserved'
 
 description: "Although we've steered clear of the speculative in this issue, our final piece of the year teeters on the edge, just in that way of being not obviously the real world. And is it crime fiction? Well, you know when someone says of something 'That's criminal, that is' – maybe it's crime fiction like that."

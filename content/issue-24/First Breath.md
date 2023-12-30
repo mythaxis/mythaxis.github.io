@@ -5,7 +5,6 @@ issue: Issue 24
 
 authors:
 - Addison Smith
-showAuthorFooter: true
 copyright: '© Addison Smith 2020 All Rights Reserved'
 
 description: 'Far in the distant past of 2013, the story before you received an honourable mention from Writers of the Future only to slink into the shadows, never to be seen again. Now at long last Addison Smith gets our Winter issue moving with the futuristic tale of a reluctant hero who gradually comes to learn that, much like revenge, rescue is a dish best served cold.'

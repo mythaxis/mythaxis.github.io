@@ -5,7 +5,6 @@ issue: Issue 30
 
 authors:
 - Daniel Ausema
-showAuthorFooter: true
 copyright: '© Daniel Ausema 2022 All Rights Reserved'
 
 description: "The first issue after the Great Mythaxis Facelift featured Daniel Ausema's first appearance here, with a not-exactly road-trip narrative whose heroine travelled a decaying multiverse at the whim of a reality-leaping conveyor belt. Now he returns us to those strange and unfamiliar environs… but with one familiar face at least."

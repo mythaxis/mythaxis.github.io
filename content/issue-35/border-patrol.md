@@ -5,7 +5,6 @@ issue: Issue 35
 
 authors:
 - Don Mark Baldridge
-showAuthorFooter: true
 copyright: '© Don Mark Baldridge 2023 All Rights Reserved'
 
 description: "Don Mark Baldridge prefaced his submission by quoting journalist Nell Greenfieldboyce: 'And it turns out, once that was done, there was still plenty of unexplained light.' Strange. Look it up sometime. In response, and from the same article, we'll quote astronomer Tod Lauer right back at him, because (of this story, just as of space), 'It's still pretty dark.'"

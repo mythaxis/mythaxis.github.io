@@ -5,7 +5,6 @@ issue: Issue 27
 
 authors:
 - Gabrielle Bleu
-showAuthorFooter: true
 copyright: '© Gabrielle Bleu 2021 All Rights Reserved'
 
 description: "You'll find what you're looking where you left it, or so the unhelpfully wise would tell you, forgetting (or ignoring) that this doesn't account for interference from any bad actors out there. Gabrielle Bleu shows that what you might instead need could still be nearby, and yesterday's enemy could be today's friend."

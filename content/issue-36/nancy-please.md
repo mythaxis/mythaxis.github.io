@@ -5,7 +5,6 @@ issue: Issue 36
 
 authors:
 - Steve Boseley
-showAuthorFooter: true
 copyright: '© Steve Boseley 2023 All Rights Reserved.'
 
 description: "Do you care about justice? I'm sure you do. It's not always a very just world, of course, and injustices come in large and small portions, but on the whole we want right to win out over wrong. But that's not always the draw of crime fic, is it? Sometimes we want what feels good, even when we know it's very, very wrong…"

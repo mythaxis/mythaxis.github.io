@@ -5,7 +5,6 @@ issue: Issue 27
 
 authors:
 - Hannah Hulbert
-showAuthorFooter: true
 copyright: '© Hannah Hulbert 2021 All Rights Reserved'
 
 description: "Life Isn't Fair - the formative lesson of childhood, preparing us for the painful reality we're going to have to grow up and live with for seventy years or more, if we're lucky. But while you're learning to accept it, Hannah Hulbert suggests you consider: If life isn't fair, could it be that unlife is?"

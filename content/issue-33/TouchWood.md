@@ -5,7 +5,6 @@ issue: Issue 33
 
 authors:
 - Sandee Bree Breathnach
-showAuthorFooter: true
 copyright: '© Sandee Bree Breathnach 2023 All Rights Reserved.'
 
 description: "'Those who cannot remember the past are condemned to repeat it.' So said the marvellously named Jorge Agustín Nicolás Ruiz de Santayana y Borrás, Yet even the snappiest aphorism does not a story make, so rejoice that Sandee Bree Breathnach put her slightly shorter moniker to this ecofantastical expression of the same."

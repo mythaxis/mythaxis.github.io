@@ -1,4 +1,5 @@
-{{ if .Params.showAuthorFooter }}
+{{ $showFooter := (default true .Params.showAuthorFooter) }}
+{{ if $showFooter }}
 	{{ $authors := where .Site.Pages "Type" "author" }}
 	{{ $stock := . }}
 

@@ -5,7 +5,6 @@ issue: Issue 26
 
 authors:
 - Owen Leddy
-showAuthorFooter: true
 copyright: '© Owen Leddy 2021 All Rights Reserved'
 
 description: "Sometimes stories seem to arrive in pairs. Owen Leddy's 'Noise' felt very much like a companion piece to 'Voyager' for a couple of reasons: both deal with strange visitations, real or imagined, and at times both share an air of weariness, as their protagonists struggle with situations — employment, relationships — that could be familiar experiences to us all, were it not for the potential for these events to be very much out of the ordinary."

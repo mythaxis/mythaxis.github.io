@@ -5,7 +5,6 @@ issue: Issue 35
 
 authors:
 - Kirk Bueckert
-showAuthorFooter: true
 copyright: '© Kirk Bueckert 2023 All Rights Reserved'
 
 description: "Kirk Bueckert delivers something in the classic vein here: echoes of Hammer Horror, Don't Look Now, and other gems of a bygone era of the dark and supernatural. Sit back, as some unsuspecting person finds themselves prised from their normality by inconvenient circumstance that gradually shifts to the disquieting before unexpectedly coming over all unspeakable…"

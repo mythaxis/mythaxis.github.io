@@ -5,7 +5,6 @@ issue: Issue 36
 
 authors:
 - L Swartz
-showAuthorFooter: true
 copyright: '© L Swartz 2023 All Rights Reserved'
 
 description: "Some fairy tales are cautionary, others throw caution to the wind and dive into the nasty stuff with relish. This story is more about The Nasty, if you take my meaning, and the condiments are pickled. If you're reminded of 'The Boy Who Couldn't Shudder' by the Brothers Grimm you're right – though this is more the Brothers Grimy."

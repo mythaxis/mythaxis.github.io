@@ -5,7 +5,6 @@ issue: Issue 29
 
 authors:
 - Erik Mann
-showAuthorFooter: true
 copyright: '© Erik Mann 2022 All Rights Reserved'
 
 description: "The way we work is in flux, as changing social, industrial, political, and environmental factors work their effects, and this makes for a rich resource in speculative fiction that Mythaxis has mined before. Erik Mann's opener gives another glimpse of how employment may feel in the world to come—how for some it may feel already…"

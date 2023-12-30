@@ -5,7 +5,6 @@ issue: Issue 34
 
 authors:
 - Bill Ryan
-showAuthorFooter: true
 copyright: '© Bill Ryan 2023 All Rights Reserved'
 
 description: "Your editor has been a fan of Bill Ryan's review writing for longer than the man himself has been aware of it. His passion for literature and cinema is particularly strong in the crime and horror genres, so it's a great pleasure to be able to welcome him to Mythaxis as our second periodic fiction reviewer. Which shall it be, I wonder…"

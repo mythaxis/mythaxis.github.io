@@ -5,7 +5,6 @@ issue: Issue 31
 
 authors:
 - Gregory L. Norris
-showAuthorFooter: true
 copyright: '© Gregory L. Norris 2022 All Rights Reserved'
 
 description: "Six issues ago, Gregory L. Norris graced our pages with a succinct and sly contemporary horror that skewered the fashion scene, more or less literally. His latest story is a trip to a distant future that evokes a distant past, and it boasts the very highest of high-concept titles."
