@@ -24,11 +24,8 @@
             </div>
             {{ end }}
 
-            {{ .Content }}
-            
-            {{ if .Params.showAuthorFooter }}
-              {{ partial "authorfooter" . }}
-            {{ end }}
+            {{ .Content }}          
+            {{ partial "authorfooter" . }}
             
             <p class="align-center">
                 <img src="{{ "/images/divider.svg" | safeURL }}" />
