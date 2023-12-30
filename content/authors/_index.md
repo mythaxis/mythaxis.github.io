@@ -1,4 +1,4 @@
 ---
-title: Author
-description: The complete Mythaxis Author index, sorted by surname.
+title: "Author index"
+description: Sorted by surname
 ---

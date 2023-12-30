@@ -8,9 +8,6 @@ slug: archive
 
 ---
 
-[Authors index](./authors.html)
-[Stories index](./stories.html)
-
 
 
 ## Back Issues
@@ -29,6 +26,7 @@ slug: archive
 - [Issue&nbsp;24: Winter 2020]({{< relref "/issue-24/__index.md" >}})
 - [Issue&nbsp;23: Autumn 2020]({{< relref "/issue-23/__index.md" >}})
 
+Our complete story archives are also available via the [Authors index](./authors.html) or the [Stock catalogue](./catalogue.html).
 
 
 ## Archives
