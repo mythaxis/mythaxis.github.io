@@ -6,7 +6,9 @@
         "date": "February 2008",
         "title": "Log of the Mustang Sally - Turner",
         "author": "Gil Williamson",
-        "relurl": "./1issue1.htm"
+        "relurl": "./1issue1.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -15,7 +17,9 @@
         "date": "February 2008",
         "title": "Hector",
         "author": "Gil Williamson",
-        "relurl": "./2issue1.htm"
+        "relurl": "./2issue1.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -24,7 +28,9 @@
         "date": "February 2008",
         "title": "Green Bullet",
         "author": "Melanie Manner",
-        "relurl": "./3issue1.htm"
+        "relurl": "./3issue1.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -33,7 +39,9 @@
         "date": "February 2008",
         "title": "Troubles With Word",
         "author": "Matthew Kirshenblatt",
-        "relurl": "./4issue1.htm"
+        "relurl": "./4issue1.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -42,7 +50,9 @@
         "date": "February 2008",
         "title": "The Remarkable Case of Davidson's Eyes",
         "author": "H G Wells",
-        "relurl": "./5issue1.htm"
+        "relurl": "./5issue1.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -51,7 +61,9 @@
         "date": "February 2008",
         "title": "Streaming Video",
         "author": "Ian Thomas",
-        "relurl": "./6issue1.htm"
+        "relurl": "./6issue1.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -60,7 +72,9 @@
         "date": "February 2008",
         "title": "A Sort of Editorial",
         "author": "The Editor",
-        "relurl": "./7issue1.htm"
+        "relurl": "./7issue1.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -69,7 +83,9 @@
         "date": "February 2008",
         "title": "Charlotte Wang Knows Everythang",
         "author": "Chris Lites",
-        "relurl": "./8issue1.htm"
+        "relurl": "./8issue1.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 2 - April 2008",
@@ -78,7 +94,9 @@
         "date": "April 2008",
         "title": "Some Future Date",
         "author": "Callum Graham",
-        "relurl": "./1issue2.htm"
+        "relurl": "./1issue2.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 2 - April 2008",
@@ -87,16 +105,20 @@
         "date": "April 2008",
         "title": "Red Fever",
         "author": "Peter Morrison",
-        "relurl": "./2issue2.htm"
+        "relurl": "./2issue2.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 2 - April 2008",
         "number": "2",
         "order": "3",
         "date": "April 2008",
-        "title": "Eat, Monster Blue Bottle",
-        "author": "Belinda A. Taylor",
-        "relurl": "./3issue2.htm"
+        "title": "Eat, Monster Blue Bottle ",
+        "author": "Belinda A. Taylor ",
+        "relurl": "./3issue2.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 2 - April 2008",
@@ -104,8 +126,10 @@
         "order": "4",
         "date": "April 2008",
         "title": "The American Book of the Dead",
-        "author": "Chris Lites",
-        "relurl": "./4issue2.htm"
+        "author": "Chris Lites ",
+        "relurl": "./4issue2.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 2 - April 2008",
@@ -114,7 +138,9 @@
         "date": "April 2008",
         "title": "Emigration",
         "author": "Liam Baldwin",
-        "relurl": "./5issue2.htm"
+        "relurl": "./5issue2.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 2 - April 2008",
@@ -123,7 +149,9 @@
         "date": "April 2008",
         "title": "Voyage to the Moon",
         "author": "Lucian Loukianos",
-        "relurl": "./6issue2.htm"
+        "relurl": "./6issue2.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 2 - April 2008",
@@ -132,7 +160,9 @@
         "date": "April 2008",
         "title": "New Frankfurt",
         "author": "Grant McDonald Walker",
-        "relurl": "./7issue2.htm"
+        "relurl": "./7issue2.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 2 - April 2008",
@@ -141,7 +171,9 @@
         "date": "April 2008",
         "title": "From The Editor",
         "author": "Gil Williamson",
-        "relurl": "./8issue2.htm"
+        "relurl": "./8issue2.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 3 - June 2008",
@@ -150,7 +182,9 @@
         "date": "June 2008",
         "title": "Blazon",
         "author": "Matthew Kirshenblatt",
-        "relurl": "./1issue3.htm"
+        "relurl": "./1issue3.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 3 - June 2008",
@@ -159,7 +193,9 @@
         "date": "June 2008",
         "title": "The 1002nd Night",
         "author": "Dick Burton",
-        "relurl": "./2issue3.htm"
+        "relurl": "./2issue3.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 3 - June 2008",
@@ -168,7 +204,9 @@
         "date": "June 2008",
         "title": "The Summoning",
         "author": "Chris Penycate",
-        "relurl": "./3issue3.htm"
+        "relurl": "./3issue3.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 3 - June 2008",
@@ -177,7 +215,9 @@
         "date": "June 2008",
         "title": "When Gretchen Met Sally",
         "author": "Peter Morrison",
-        "relurl": "./4issue3.htm"
+        "relurl": "./4issue3.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 3 - June 2008",
@@ -186,7 +226,9 @@
         "date": "June 2008",
         "title": "The Conquest of the Earth by the Moon",
         "author": "Washington Irving",
-        "relurl": "./5issue3.htm"
+        "relurl": "./5issue3.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 3 - June 2008",
@@ -195,7 +237,9 @@
         "date": "June 2008",
         "title": "From The Editor",
         "author": "Gil Williamson",
-        "relurl": "./6issue3.htm"
+        "relurl": "./6issue3.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 4 - 22 Nov 2008",
@@ -204,7 +248,9 @@
         "date": "22 Nov 2008",
         "title": "Hong Kong",
         "author": "Grant McDonald Walker",
-        "relurl": "./1issue4.htm"
+        "relurl": "./1issue4.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 4 - 22 Nov 2008",
@@ -213,7 +259,9 @@
         "date": "22 Nov 2008",
         "title": "Central Casting",
         "author": "Chris Penycate",
-        "relurl": "./2issue4.htm"
+        "relurl": "./2issue4.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 4 - 22 Nov 2008",
@@ -222,7 +270,9 @@
         "date": "22 Nov 2008",
         "title": "Strong Emergence",
         "author": "Jonathan Joseph",
-        "relurl": "./3issue4.htm"
+        "relurl": "./3issue4.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 4 - 22 Nov 2008",
@@ -231,7 +281,9 @@
         "date": "22 Nov 2008",
         "title": "Survivor",
         "author": "Peter Morrison",
-        "relurl": "./4issue4.htm"
+        "relurl": "./4issue4.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 4 - 22 Nov 2008",
@@ -240,7 +292,9 @@
         "date": "22 Nov 2008",
         "title": "By a Lily's Petal",
         "author": "Ian Thomas",
-        "relurl": "./5issue4.htm"
+        "relurl": "./5issue4.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 4 - 22 Nov 2008",
@@ -249,7 +303,9 @@
         "date": "22 Nov 2008",
         "title": "The Ingenious Patriot",
         "author": "Ambrose Bierce",
-        "relurl": "./6issue4.htm"
+        "relurl": "./6issue4.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 4 - 22 Nov 2008",
@@ -258,7 +314,9 @@
         "date": "22 Nov 2008",
         "title": "The Inevitable Editorial",
         "author": "Gil Williamson",
-        "relurl": "./7issue4.htm"
+        "relurl": "./7issue4.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 5 - May 2009",
@@ -267,7 +325,9 @@
         "date": "May 2009",
         "title": "No Survivor",
         "author": "Peter Morrison",
-        "relurl": "./1issue5.htm"
+        "relurl": "./1issue5.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 5 - May 2009",
@@ -276,7 +336,9 @@
         "date": "May 2009",
         "title": "His Fly Undid Him",
         "author": "Matthew Kirshenblatt",
-        "relurl": "./2issue5.htm"
+        "relurl": "./2issue5.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 5 - May 2009",
@@ -285,7 +347,9 @@
         "date": "May 2009",
         "title": "The Extrusion Project",
         "author": "Grant McDonald Walker",
-        "relurl": "./3issue5.htm"
+        "relurl": "./3issue5.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 5 - May 2009",
@@ -294,7 +358,9 @@
         "date": "May 2009",
         "title": "The Enormous Gun",
         "author": "Damon Harkness",
-        "relurl": "./4issue5.htm"
+        "relurl": "./4issue5.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 5 - May 2009",
@@ -303,7 +369,9 @@
         "date": "May 2009",
         "title": "The Curse of Yig",
         "author": "H.P.Lovecraft and Zealia Bishop",
-        "relurl": "./5issue5.htm"
+        "relurl": "./5issue5.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 5 - May 2009",
@@ -312,7 +380,9 @@
         "date": "May 2009",
         "title": "The Now-Traditional Brief Editorial",
         "author": "Gil Williamson",
-        "relurl": "./6issue5.htm"
+        "relurl": "./6issue5.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 6 - August 2009",
@@ -321,7 +391,9 @@
         "date": "August 2009",
         "title": "Neurofinancer",
         "author": "Twilite Minotaur",
-        "relurl": "./1issue6.htm"
+        "relurl": "./1issue6.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 6 - August 2009",
@@ -330,7 +402,9 @@
         "date": "August 2009",
         "title": "The Tale of the Ten Teacups",
         "author": "Tom Davies",
-        "relurl": "./2issue6.htm"
+        "relurl": "./2issue6.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 6 - August 2009",
@@ -339,7 +413,9 @@
         "date": "August 2009",
         "title": "Warriston's Disease",
         "author": "Gil Williamson",
-        "relurl": "./3issue6.htm"
+        "relurl": "./3issue6.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 6 - August 2009",
@@ -348,7 +424,9 @@
         "date": "August 2009",
         "title": "The Skylark of Space",
         "author": "E.E. (Doc) Smith",
-        "relurl": "./4issue6.htm"
+        "relurl": "./4issue6.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 6 - August 2009",
@@ -357,7 +435,9 @@
         "date": "August 2009",
         "title": "A Rambling Editorial",
         "author": "Gil Williamson",
-        "relurl": "./5issue6.htm"
+        "relurl": "./5issue6.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 7 - September 2010",
@@ -366,7 +446,9 @@
         "date": "September 2010",
         "title": "Living on Reputation",
         "author": "Alistair Bain",
-        "relurl": "./1issue7.htm"
+        "relurl": "./1issue7.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 7 - September 2010",
@@ -375,7 +457,9 @@
         "date": "September 2010",
         "title": "The Door with no Key",
         "author": "Gil Williamson",
-        "relurl": "./2issue7.htm"
+        "relurl": "./2issue7.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 7 - September 2010",
@@ -384,7 +468,9 @@
         "date": "September 2010",
         "title": "The Price of Youth",
         "author": "Moon Bhatt",
-        "relurl": "./3issue7.htm"
+        "relurl": "./3issue7.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 7 - September 2010",
@@ -393,7 +479,9 @@
         "date": "September 2010",
         "title": "Blood and Souls",
         "author": "Peter Morrison",
-        "relurl": "./4issue7.htm"
+        "relurl": "./4issue7.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 7 - September 2010",
@@ -402,7 +490,9 @@
         "date": "September 2010",
         "title": "From an Evening at the Cinema",
         "author": "Matthew Kirshenblatt",
-        "relurl": "./5issue7.htm"
+        "relurl": "./5issue7.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 7 - September 2010",
@@ -411,7 +501,9 @@
         "date": "September 2010",
         "title": "Ringside",
         "author": "Martin Clark",
-        "relurl": "./6issue7.htm"
+        "relurl": "./6issue7.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 7 - September 2010",
@@ -420,7 +512,9 @@
         "date": "September 2010",
         "title": "How Manuel Left the Mire",
         "author": "James Branch Cabell",
-        "relurl": "./7issue7.htm"
+        "relurl": "./7issue7.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 7 - September 2010",
@@ -429,7 +523,9 @@
         "date": "September 2010",
         "title": "An Entirely Self-serving Editorial",
         "author": "Gil Williamson",
-        "relurl": "./8issue7.htm"
+        "relurl": "./8issue7.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 8 - February 2011",
@@ -438,7 +534,9 @@
         "date": "February 2011",
         "title": "Editorial",
         "author": "Gil Williamson",
-        "relurl": "./1issue8.htm"
+        "relurl": "./1issue8.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 8 - February 2011",
@@ -447,7 +545,9 @@
         "date": "February 2011",
         "title": "Spawn",
         "author": "Les Sklaroff",
-        "relurl": "./2issue8.htm"
+        "relurl": "./2issue8.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 8 - February 2011",
@@ -456,7 +556,9 @@
         "date": "February 2011",
         "title": "The Great Divide",
         "author": "Martin Clark",
-        "relurl": "./3issue8.htm"
+        "relurl": "./3issue8.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 8 - February 2011",
@@ -465,7 +567,9 @@
         "date": "February 2011",
         "title": "Android 0-CLE5",
         "author": "Lester Linesmith",
-        "relurl": "./4issue8.htm"
+        "relurl": "./4issue8.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 8 - February 2011",
@@ -474,7 +578,9 @@
         "date": "February 2011",
         "title": "The Prophets Speak",
         "author": "Andrew Leon Hudson",
-        "relurl": "./5issue8.htm"
+        "relurl": "./5issue8.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 8 - February 2011",
@@ -483,7 +589,9 @@
         "date": "February 2011",
         "title": "Outpatients",
         "author": "Jonathan Joseph",
-        "relurl": "./6issue8.htm"
+        "relurl": "./6issue8.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 8 - February 2011",
@@ -492,7 +600,9 @@
         "date": "February 2011",
         "title": "Conspiracy Theory",
         "author": "Les Sklaroff",
-        "relurl": "./7issue8.htm"
+        "relurl": "./7issue8.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 9 - June 2011",
@@ -501,7 +611,9 @@
         "date": "June 2011",
         "title": "Editorial",
         "author": "Gil Williamson",
-        "relurl": "./1issue9.htm"
+        "relurl": "./1issue9.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 9 - June 2011",
@@ -510,7 +622,9 @@
         "date": "June 2011",
         "title": "Boffin",
         "author": "Les Sklaroff",
-        "relurl": "./2issue9.htm"
+        "relurl": "./2issue9.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 9 - June 2011",
@@ -519,7 +633,9 @@
         "date": "June 2011",
         "title": "Let Every Voice be Still",
         "author": "Martin Clark",
-        "relurl": "./3issue9.htm"
+        "relurl": "./3issue9.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 9 - June 2011",
@@ -528,7 +644,9 @@
         "date": "June 2011",
         "title": "Stop 17",
         "author": "Matthew Kirshenblatt",
-        "relurl": "./4issue9.htm"
+        "relurl": "./4issue9.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 9 - June 2011",
@@ -537,7 +655,9 @@
         "date": "June 2011",
         "title": "The Ghosts of Cloud City",
         "author": "Twilite Minotaur",
-        "relurl": "./5issue9.htm"
+        "relurl": "./5issue9.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 9 - June 2011",
@@ -546,7 +666,9 @@
         "date": "June 2011",
         "title": "Special Delivery",
         "author": "Gil Williamson",
-        "relurl": "./6issue9.htm"
+        "relurl": "./6issue9.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 9 - June 2011",
@@ -555,7 +677,9 @@
         "date": "June 2011",
         "title": "Postcards",
         "author": "Annabel Banks",
-        "relurl": "./7issue9.htm"
+        "relurl": "./7issue9.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 9 - June 2011",
@@ -564,7 +688,9 @@
         "date": "June 2011",
         "title": "Fiat Lux",
         "author": "Les Sklaroff",
-        "relurl": "./8issue9.htm"
+        "relurl": "./8issue9.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 10 - December 2011",
@@ -573,7 +699,9 @@
         "date": "December 2011",
         "title": "Editorial",
         "author": "Gil Williamson",
-        "relurl": "./1issuev10.htm"
+        "relurl": "./1issuev10.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 10 - December 2011",
@@ -582,7 +710,9 @@
         "date": "December 2011",
         "title": "A Preference for Cheese",
         "author": "Les Sklaroff",
-        "relurl": "./2issuev10.htm"
+        "relurl": "./2issuev10.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 10 - December 2011",
@@ -591,7 +721,9 @@
         "date": "December 2011",
         "title": "All Avenues Closed",
         "author": "Martin Clark",
-        "relurl": "./3issuev10.htm"
+        "relurl": "./3issuev10.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 10 - December 2011",
@@ -600,7 +732,9 @@
         "date": "December 2011",
         "title": "Oh Dreary Me",
         "author": "Matthew Kirshenblatt",
-        "relurl": "./4issuev10.htm"
+        "relurl": "./4issuev10.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 10 - December 2011",
@@ -609,7 +743,9 @@
         "date": "December 2011",
         "title": "Dietrich and the Baby",
         "author": "Tom Davies",
-        "relurl": "./5issuev10.htm"
+        "relurl": "./5issuev10.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 10 - December 2011",
@@ -618,7 +754,9 @@
         "date": "December 2011",
         "title": "Appropriate Technology",
         "author": "Gil Williamson",
-        "relurl": "./6issuev10.htm"
+        "relurl": "./6issuev10.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 10 - December 2011",
@@ -627,7 +765,9 @@
         "date": "December 2011",
         "title": "Flesh Doubt",
         "author": "Andrew Leon Hudson",
-        "relurl": "./7issuev10.htm"
+        "relurl": "./7issuev10.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 10 - December 2011",
@@ -636,7 +776,9 @@
         "date": "December 2011",
         "title": "Warped",
         "author": "Jonathan Joseph",
-        "relurl": "./8issuev10.htm"
+        "relurl": "./8issuev10.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 11 - December 2012",
@@ -645,7 +787,9 @@
         "date": "December 2012",
         "title": "Editorial",
         "author": "Gil Williamson",
-        "relurl": "./1issuev11.htm"
+        "relurl": "./1issuev11.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 11 - December 2012",
@@ -654,7 +798,9 @@
         "date": "December 2012",
         "title": "The Smile of Paeony 3rdfield",
         "author": "Les Sklaroff",
-        "relurl": "./2issuev11.htm"
+        "relurl": "./2issuev11.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 11 - December 2012",
@@ -663,7 +809,9 @@
         "date": "December 2012",
         "title": "Dundro Fappit's Mistake",
         "author": "Les Sklaroff",
-        "relurl": "./3issuev11.htm"
+        "relurl": "./3issuev11.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 11 - December 2012",
@@ -672,7 +820,9 @@
         "date": "December 2012",
         "title": "Something Quirky",
         "author": "Les Sklaroff",
-        "relurl": "./4issuev11.htm"
+        "relurl": "./4issuev11.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 11 - December 2012",
@@ -681,7 +831,9 @@
         "date": "December 2012",
         "title": "Hoolocks and Hellions",
         "author": "Les Sklaroff",
-        "relurl": "./5issuev11.htm"
+        "relurl": "./5issuev11.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 11 - December 2012",
@@ -690,7 +842,9 @@
         "date": "December 2012",
         "title": "Foroquont's Maze",
         "author": "Les Sklaroff",
-        "relurl": "./6issuev11.htm"
+        "relurl": "./6issuev11.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 11 - December 2012",
@@ -699,7 +853,9 @@
         "date": "December 2012",
         "title": "Mindbleed",
         "author": "Andrew Leon Hudson",
-        "relurl": "./7issuev11.htm"
+        "relurl": "./7issuev11.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 11 - December 2012",
@@ -708,7 +864,9 @@
         "date": "December 2012",
         "title": "Sailing to Tarshish",
         "author": "Martin Clark",
-        "relurl": "./8issuev11.htm"
+        "relurl": "./8issuev11.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 11 - December 2012",
@@ -717,7 +875,9 @@
         "date": "December 2012",
         "title": "Unclear Conscience",
         "author": "Martin Clark",
-        "relurl": "./9issuev11.htm"
+        "relurl": "./9issuev11.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 11 - December 2012",
@@ -726,7 +886,9 @@
         "date": "December 2012",
         "title": "The Tale of God's Flotsam",
         "author": "Tom Davies",
-        "relurl": "./10issuev11.htm"
+        "relurl": "./10issuev11.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 11 - December 2012",
@@ -735,7 +897,9 @@
         "date": "December 2012",
         "title": "Ghosts and Aliens",
         "author": "John A. Frochio",
-        "relurl": "./11issuev11.htm"
+        "relurl": "./11issuev11.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 11 - December 2012",
@@ -744,7 +908,9 @@
         "date": "December 2012",
         "title": "Beyond the Sky",
         "author": "Liam Baldwin",
-        "relurl": "./12issuev11.htm"
+        "relurl": "./12issuev11.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 11 - December 2012",
@@ -753,7 +919,9 @@
         "date": "December 2012",
         "title": "A Natural Selection",
         "author": "Matthew Kirshenblatt",
-        "relurl": "./13issuev11.htm"
+        "relurl": "./13issuev11.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 12 - March 2013",
@@ -762,7 +930,9 @@
         "date": "March 2013",
         "title": "Quality Put to the Vote",
         "author": "Gil Williamson",
-        "relurl": "./1issuev12.htm"
+        "relurl": "./1issuev12.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 12 - March 2013",
@@ -771,7 +941,9 @@
         "date": "March 2013",
         "title": "Starbat",
         "author": "Les Sklaroff",
-        "relurl": "./2issuev12.htm"
+        "relurl": "./2issuev12.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 12 - March 2013",
@@ -780,7 +952,9 @@
         "date": "March 2013",
         "title": "The Temple of the Inevitable",
         "author": "Peter Morrison",
-        "relurl": "./3issuev12.htm"
+        "relurl": "./3issuev12.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 12 - March 2013",
@@ -789,7 +963,9 @@
         "date": "March 2013",
         "title": "An Acquisition",
         "author": "Les Sklaroff",
-        "relurl": "./4issuev12.htm"
+        "relurl": "./4issuev12.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 12 - March 2013",
@@ -798,7 +974,9 @@
         "date": "March 2013",
         "title": "I Am What I Am Not",
         "author": "Tom Sheehan",
-        "relurl": "./5issuev12.htm"
+        "relurl": "./5issuev12.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 12 - March 2013",
@@ -807,7 +985,9 @@
         "date": "March 2013",
         "title": "Famous Ashfordians no.1 - James Goodacre",
         "author": "Tom Davies",
-        "relurl": "./6issuev12.htm"
+        "relurl": "./6issuev12.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 12 - March 2013",
@@ -816,7 +996,9 @@
         "date": "March 2013",
         "title": "Quintet for One",
         "author": "Martin Clark",
-        "relurl": "./7issuev12.htm"
+        "relurl": "./7issuev12.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 12 - March 2013",
@@ -825,7 +1007,9 @@
         "date": "March 2013",
         "title": "Tear Drops",
         "author": "Andrew Leon Hudson",
-        "relurl": "./8issuev12.htm"
+        "relurl": "./8issuev12.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 12 - March 2013",
@@ -834,7 +1018,9 @@
         "date": "March 2013",
         "title": "Terminus Machina : Bailout",
         "author": "Twilite Minotaur",
-        "relurl": "./9issuev12.htm"
+        "relurl": "./9issuev12.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 12 - March 2013",
@@ -843,7 +1029,9 @@
         "date": "March 2013",
         "title": "Not Who We Are",
         "author": "Martin Clark",
-        "relurl": "./10issuev12.htm"
+        "relurl": "./10issuev12.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 12 - March 2013",
@@ -852,7 +1040,9 @@
         "date": "March 2013",
         "title": "Day Trip",
         "author": "Gil Williamson",
-        "relurl": "./11issuev12.htm"
+        "relurl": "./11issuev12.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 13 - August 2013",
@@ -861,16 +1051,20 @@
         "date": "August 2013",
         "title": "Editorial",
         "author": "Gil Williamson",
-        "relurl": "./1issuev13.htm"
+        "relurl": "./1issuev13.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 13 - August 2013",
         "number": "13",
         "order": "2",
         "date": "August 2013",
-        "title": "Lies &amp; Other Essentials",
+        "title": "Lies & Other Essentials",
         "author": "Martin Clark",
-        "relurl": "./2issuev13.htm"
+        "relurl": "./2issuev13.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 13 - August 2013",
@@ -879,7 +1073,9 @@
         "date": "August 2013",
         "title": "Smolehive's Anakalyptoscope",
         "author": "Les Sklaroff",
-        "relurl": "./3issuev13.htm"
+        "relurl": "./3issuev13.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 13 - August 2013",
@@ -888,7 +1084,9 @@
         "date": "August 2013",
         "title": "The Tale of the Bone Janitor",
         "author": "Tom Davies",
-        "relurl": "./4issuev13.htm"
+        "relurl": "./4issuev13.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 13 - August 2013",
@@ -897,7 +1095,9 @@
         "date": "August 2013",
         "title": "To Serve",
         "author": "Matthew Kirshenblatt",
-        "relurl": "./5issuev13.htm"
+        "relurl": "./5issuev13.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 13 - August 2013",
@@ -906,7 +1106,9 @@
         "date": "August 2013",
         "title": "Sibyl",
         "author": "Les Sklaroff",
-        "relurl": "./6issuev13.htm"
+        "relurl": "./6issuev13.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 13 - August 2013",
@@ -915,7 +1117,9 @@
         "date": "August 2013",
         "title": "Famous Ashfordians no.2 - Samuel Ohms",
         "author": "Tom Davies",
-        "relurl": "./7issuev13.htm"
+        "relurl": "./7issuev13.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 13 - August 2013",
@@ -924,7 +1128,9 @@
         "date": "August 2013",
         "title": "Prutt's Game  by Thyles Dudoriac.   Fissile, Sprent & Co.",
         "author": "Don B Levitt",
-        "relurl": "./8issuev13.htm"
+        "relurl": "./8issuev13.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 13 - August 2013",
@@ -933,7 +1139,9 @@
         "date": "August 2013",
         "title": "Famous Ashfordians No. 3 -  The Marvellous Marjoram Mouse",
         "author": "Tom Davies",
-        "relurl": "./9issuev13.htm"
+        "relurl": "./9issuev13.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 13 - August 2013",
@@ -942,7 +1150,9 @@
         "date": "August 2013",
         "title": "Toyscape",
         "author": "John A. Frochio",
-        "relurl": "./10issuev13.htm"
+        "relurl": "./10issuev13.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 13 - August 2013",
@@ -951,7 +1161,9 @@
         "date": "August 2013",
         "title": "A Room with a Vu",
         "author": "Martin Clark",
-        "relurl": "./11issuev13.htm"
+        "relurl": "./11issuev13.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 14 - March 2014",
@@ -960,7 +1172,9 @@
         "date": "March 2014",
         "title": "Editorial",
         "author": "Gil Williamson",
-        "relurl": "./1issuev14.htm"
+        "relurl": "./1issuev14.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 14 - March 2014",
@@ -969,7 +1183,9 @@
         "date": "March 2014",
         "title": "A Closer Look at Greeming & Trulph",
         "author": "Les Sklaroff",
-        "relurl": "./2issuev14.htm"
+        "relurl": "./2issuev14.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 14 - March 2014",
@@ -978,7 +1194,9 @@
         "date": "March 2014",
         "title": "An Excursion to Platport",
         "author": "Les Sklaroff",
-        "relurl": "./3issuev14.htm"
+        "relurl": "./3issuev14.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 14 - March 2014",
@@ -987,7 +1205,9 @@
         "date": "March 2014",
         "title": "Yesterday's Spoons",
         "author": "Les Sklaroff",
-        "relurl": "./4issuev14.htm"
+        "relurl": "./4issuev14.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 14 - March 2014",
@@ -996,7 +1216,9 @@
         "date": "March 2014",
         "title": "The Lost World of WW1",
         "author": "Liam Baldwin",
-        "relurl": "./5issuev14.htm"
+        "relurl": "./5issuev14.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 14 - March 2014",
@@ -1005,7 +1227,9 @@
         "date": "March 2014",
         "title": "Mount Elysium",
         "author": "Gil Williamson",
-        "relurl": "./6issuev14.htm"
+        "relurl": "./6issuev14.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 14 - March 2014",
@@ -1014,7 +1238,9 @@
         "date": "March 2014",
         "title": "First In, Last Out",
         "author": "Andrew Leon Hudson",
-        "relurl": "./7issuev14.htm"
+        "relurl": "./7issuev14.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 14 - March 2014",
@@ -1023,7 +1249,9 @@
         "date": "March 2014",
         "title": "Truth and Other Upgrades",
         "author": "Martin Clark",
-        "relurl": "./8issuev14.htm"
+        "relurl": "./8issuev14.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 14 - March 2014",
@@ -1032,7 +1260,9 @@
         "date": "March 2014",
         "title": "Aye-Nay",
         "author": "Jez Patterson",
-        "relurl": "./9issuev14.htm"
+        "relurl": "./9issuev14.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 15 - November 2014",
@@ -1041,7 +1271,9 @@
         "date": "November 2014",
         "title": "Editorial",
         "author": "Gil Williamson",
-        "relurl": "./1issuev15.htm"
+        "relurl": "./1issuev15.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 15 - November 2014",
@@ -1050,7 +1282,9 @@
         "date": "November 2014",
         "title": "Slippage",
         "author": "Les Sklaroff",
-        "relurl": "./2issuev15.htm"
+        "relurl": "./2issuev15.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 15 - November 2014",
@@ -1059,7 +1293,9 @@
         "date": "November 2014",
         "title": "Uneasy Money",
         "author": "Martin Clark",
-        "relurl": "./3issuev15.htm"
+        "relurl": "./3issuev15.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 15 - November 2014",
@@ -1068,7 +1304,9 @@
         "date": "November 2014",
         "title": "The Plains of Abyssinia",
         "author": "Sean Crawford",
-        "relurl": "./4issuev15.htm"
+        "relurl": "./4issuev15.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 15 - November 2014",
@@ -1077,7 +1315,9 @@
         "date": "November 2014",
         "title": "The Man with Bronze Hair",
         "author": "Les Sklaroff",
-        "relurl": "./5issuev15.htm"
+        "relurl": "./5issuev15.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 15 - November 2014",
@@ -1086,7 +1326,9 @@
         "date": "November 2014",
         "title": "The Log of the Mustang Sally - Tazio",
         "author": "Gil Williamson",
-        "relurl": "./6issuev15.htm"
+        "relurl": "./6issuev15.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 15 - November 2014",
@@ -1095,7 +1337,9 @@
         "date": "November 2014",
         "title": "Must Be in the Fifties",
         "author": "Andrew Leon Hudson",
-        "relurl": "./7issuev15.htm"
+        "relurl": "./7issuev15.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 15 - November 2014",
@@ -1104,7 +1348,9 @@
         "date": "November 2014",
         "title": "Adalet",
         "author": "Jez Patterson",
-        "relurl": "./8issuev15.htm"
+        "relurl": "./8issuev15.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 15 - November 2014",
@@ -1113,7 +1359,9 @@
         "date": "November 2014",
         "title": "A Day Like Any Other",
         "author": "Martin Clark",
-        "relurl": "./9issuev15.htm"
+        "relurl": "./9issuev15.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 16 - July 2015",
@@ -1122,7 +1370,9 @@
         "date": "July 2015",
         "title": "Editorial",
         "author": "Gil Williamson",
-        "relurl": "./1issuev16.htm"
+        "relurl": "./1issuev16.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 16 - July 2015",
@@ -1131,7 +1381,9 @@
         "date": "July 2015",
         "title": "Don Juans & Dragoons",
         "author": "Andrew Leon Hudson",
-        "relurl": "./2issuev16.htm"
+        "relurl": "./2issuev16.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 16 - July 2015",
@@ -1140,7 +1392,9 @@
         "date": "July 2015",
         "title": "Thagdar the Immutable",
         "author": "Les Sklaroff",
-        "relurl": "./3issuev16.htm"
+        "relurl": "./3issuev16.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 16 - July 2015",
@@ -1149,7 +1403,9 @@
         "date": "July 2015",
         "title": "A Messenger, Deceased",
         "author": "Martin Clark",
-        "relurl": "./4issuev16.htm"
+        "relurl": "./4issuev16.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 16 - July 2015",
@@ -1158,7 +1414,9 @@
         "date": "July 2015",
         "title": "Proto-J",
         "author": "Christian Miller",
-        "relurl": "./5issuev16.htm"
+        "relurl": "./5issuev16.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 16 - July 2015",
@@ -1167,7 +1425,9 @@
         "date": "July 2015",
         "title": "Border Incident",
         "author": "Gil Williamson",
-        "relurl": "./6issuev16.htm"
+        "relurl": "./6issuev16.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 16 - July 2015",
@@ -1176,7 +1436,9 @@
         "date": "July 2015",
         "title": "A Small Intrusion",
         "author": "Les Sklaroff",
-        "relurl": "./7issuev16.htm"
+        "relurl": "./7issuev16.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 16 - July 2015",
@@ -1185,7 +1447,9 @@
         "date": "July 2015",
         "title": "Playing Around with Arthur",
         "author": "Gil Williamson",
-        "relurl": "./8issuev16.htm"
+        "relurl": "./8issuev16.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 16 - July 2015",
@@ -1194,7 +1458,9 @@
         "date": "July 2015",
         "title": "Baker's Dozen",
         "author": "Martin Clark",
-        "relurl": "./9issuev16.htm"
+        "relurl": "./9issuev16.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 17 - February 2016",
@@ -1203,7 +1469,9 @@
         "date": "February 2016",
         "title": "Editorial",
         "author": "Gil Williamson",
-        "relurl": "./1issuev17.htm"
+        "relurl": "./1issuev17.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 17 - February 2016",
@@ -1212,7 +1480,9 @@
         "date": "February 2016",
         "title": "The Cospauper",
         "author": "Christian Miller",
-        "relurl": "./2issuev17.htm"
+        "relurl": "./2issuev17.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 17 - February 2016",
@@ -1221,7 +1491,9 @@
         "date": "February 2016",
         "title": "Another Change of Plan",
         "author": "Les Sklaroff",
-        "relurl": "./3issuev17.htm"
+        "relurl": "./3issuev17.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 17 - February 2016",
@@ -1230,7 +1502,9 @@
         "date": "February 2016",
         "title": "Bodyfellas",
         "author": "Martin Clark",
-        "relurl": "./4issuev17.htm"
+        "relurl": "./4issuev17.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 17 - February 2016",
@@ -1239,7 +1513,9 @@
         "date": "February 2016",
         "title": "Whistle, Hum, Parp",
         "author": "Jez Patterson",
-        "relurl": "./5issuev17.htm"
+        "relurl": "./5issuev17.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 17 - February 2016",
@@ -1248,16 +1524,20 @@
         "date": "February 2016",
         "title": "A Vacant Chair Beside the Hearth",
         "author": "John A. Frochio",
-        "relurl": "./6issuev17.htm"
+        "relurl": "./6issuev17.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 17 - February 2016",
         "number": "17",
         "order": "7",
         "date": "February 2016",
-        "title": "Supply &amp; Demand",
+        "title": "Supply & Demand",
         "author": "Martin Clark",
-        "relurl": "./7issuev17.htm"
+        "relurl": "./7issuev17.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 17 - February 2016",
@@ -1266,7 +1546,9 @@
         "date": "February 2016",
         "title": "Robot Rover",
         "author": "Jez Patterson",
-        "relurl": "./8issuev17.htm"
+        "relurl": "./8issuev17.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 17 - February 2016",
@@ -1275,7 +1557,9 @@
         "date": "February 2016",
         "title": "Magdalena and the Dragon",
         "author": "Peter Morrison",
-        "relurl": "./9issuev17.htm"
+        "relurl": "./9issuev17.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 17 - February 2016",
@@ -1284,7 +1568,9 @@
         "date": "February 2016",
         "title": "Diplomacy",
         "author": "Liam Baldwin",
-        "relurl": "./10issuev17.htm"
+        "relurl": "./10issuev17.htm",
+        "category": "Comic",
+        "genre": null
     },
     {
         "issue": "Issue 17 - February 2016",
@@ -1293,7 +1579,9 @@
         "date": "February 2016",
         "title": "Iceweb - Interactive Fiction",
         "author": "Gil Williamson",
-        "relurl": "./11issuev17.htm"
+        "relurl": "./11issuev17.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 18 - August 2016",
@@ -1302,7 +1590,9 @@
         "date": "August 2016",
         "title": "Editorial",
         "author": "Gil Williamson",
-        "relurl": "./1issuev18.htm"
+        "relurl": "./1issuev18.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 18 - August 2016",
@@ -1311,16 +1601,20 @@
         "date": "August 2016",
         "title": "Helsinki",
         "author": "Gil Williamson",
-        "relurl": "./2issuev18.htm"
+        "relurl": "./2issuev18.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 18 - August 2016",
         "number": "18",
         "order": "3",
         "date": "August 2016",
-        "title": "Sound &amp; Fury",
+        "title": "Sound & Fury",
         "author": "Martin M. Clark",
-        "relurl": "./3issuev18.htm"
+        "relurl": "./3issuev18.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 18 - August 2016",
@@ -1329,7 +1623,9 @@
         "date": "August 2016",
         "title": "Farny's Place",
         "author": "Les Sklaroff",
-        "relurl": "./4issuev18.htm"
+        "relurl": "./4issuev18.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 18 - August 2016",
@@ -1338,7 +1634,9 @@
         "date": "August 2016",
         "title": "The Last Day of the Mute Ant",
         "author": "Jez Patterson",
-        "relurl": "./5issuev18.htm"
+        "relurl": "./5issuev18.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 18 - August 2016",
@@ -1347,7 +1645,9 @@
         "date": "August 2016",
         "title": "God Blinked",
         "author": "Martin M. Clark",
-        "relurl": "./6issuev18.htm"
+        "relurl": "./6issuev18.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 18 - August 2016",
@@ -1356,7 +1656,9 @@
         "date": "August 2016",
         "title": "Falling Back",
         "author": "Andrew Leon Hudson",
-        "relurl": "./7issuev18.htm"
+        "relurl": "./7issuev18.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 18 - August 2016",
@@ -1365,7 +1667,9 @@
         "date": "August 2016",
         "title": "Distant and Remote",
         "author": "Jez Patterson",
-        "relurl": "./8issuev18.htm"
+        "relurl": "./8issuev18.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 18 - August 2016",
@@ -1374,7 +1678,9 @@
         "date": "August 2016",
         "title": "Atacrast",
         "author": "Les Sklaroff",
-        "relurl": "./9issuev18.htm"
+        "relurl": "./9issuev18.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 18 - August 2016",
@@ -1383,7 +1689,9 @@
         "date": "August 2016",
         "title": "Madras Point",
         "author": "Martin M. Clark",
-        "relurl": "./10issuev18.htm"
+        "relurl": "./10issuev18.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 18 - August 2016",
@@ -1392,7 +1700,9 @@
         "date": "August 2016",
         "title": "A New World Order",
         "author": "John A. Frochio",
-        "relurl": "./11issuev18.htm"
+        "relurl": "./11issuev18.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 18 - August 2016",
@@ -1401,7 +1711,9 @@
         "date": "August 2016",
         "title": "Under the Martian Moonlight",
         "author": "Liam Baldwin",
-        "relurl": "./12issuev18.htm"
+        "relurl": "./12issuev18.htm",
+        "category": "Comic",
+        "genre": null
     },
     {
         "issue": "Issue 19 - February 2017",
@@ -1410,7 +1722,9 @@
         "date": "February 2017",
         "title": "Editorial",
         "author": "Gil Williamson",
-        "relurl": "./1issuev19.htm"
+        "relurl": "./1issuev19.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 19 - February 2017",
@@ -1419,7 +1733,9 @@
         "date": "February 2017",
         "title": "Interlude in Green",
         "author": "Martin M. Clark",
-        "relurl": "./2issuev19.htm"
+        "relurl": "./2issuev19.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 19 - February 2017",
@@ -1428,7 +1744,9 @@
         "date": "February 2017",
         "title": "Timed Out",
         "author": "Jez Patterson",
-        "relurl": "./3issuev19.htm"
+        "relurl": "./3issuev19.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 19 - February 2017",
@@ -1437,7 +1755,9 @@
         "date": "February 2017",
         "title": "Reunion",
         "author": "Les Sklaroff",
-        "relurl": "./4issuev19.htm"
+        "relurl": "./4issuev19.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 19 - February 2017",
@@ -1446,7 +1766,9 @@
         "date": "February 2017",
         "title": "Grave Misfortune",
         "author": "Stephen Heuser",
-        "relurl": "./5issuev19.htm"
+        "relurl": "./5issuev19.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 19 - February 2017",
@@ -1455,7 +1777,9 @@
         "date": "February 2017",
         "title": "Ilysveil: You Can Only Observe",
         "author": "J. H. Zech",
-        "relurl": "./6issuev19.htm"
+        "relurl": "./6issuev19.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 19 - February 2017",
@@ -1464,7 +1788,9 @@
         "date": "February 2017",
         "title": "April the Last",
         "author": "Andrew Leon Hudson",
-        "relurl": "./7issuev19.htm"
+        "relurl": "./7issuev19.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 19 - February 2017",
@@ -1473,7 +1799,9 @@
         "date": "February 2017",
         "title": "Mount Elysium Revisited",
         "author": "Gil Williamson",
-        "relurl": "./8issuev19.htm"
+        "relurl": "./8issuev19.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 19 - February 2017",
@@ -1482,7 +1810,9 @@
         "date": "February 2017",
         "title": "Death plus One",
         "author": "Martin M. Clark",
-        "relurl": "./9issuev19.htm"
+        "relurl": "./9issuev19.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 19 - February 2017",
@@ -1491,7 +1821,9 @@
         "date": "February 2017",
         "title": "Field Support",
         "author": "Liam Baldwin",
-        "relurl": "./10issuev19.htm"
+        "relurl": "./10issuev19.htm",
+        "category": "Comic",
+        "genre": null
     },
     {
         "issue": "Issue 20 - August 2017",
@@ -1500,7 +1832,9 @@
         "date": "August 2017",
         "title": "Editorial",
         "author": "Gil Williamson",
-        "relurl": "./1issuev20.htm"
+        "relurl": "./1issuev20.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 20 - August 2017",
@@ -1509,7 +1843,9 @@
         "date": "August 2017",
         "title": "Padratheleon's Ghosts",
         "author": "Les Sklaroff",
-        "relurl": "./2issuev20.htm"
+        "relurl": "./2issuev20.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 20 - August 2017",
@@ -1518,7 +1854,9 @@
         "date": "August 2017",
         "title": "The Drill Hall Incident",
         "author": "Gil Williamson",
-        "relurl": "./3issuev20.htm"
+        "relurl": "./3issuev20.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 20 - August 2017",
@@ -1527,7 +1865,9 @@
         "date": "August 2017",
         "title": "The Trumpets of Jericho",
         "author": "Martin M. Clark",
-        "relurl": "./4issuev20.htm"
+        "relurl": "./4issuev20.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 20 - August 2017",
@@ -1536,7 +1876,9 @@
         "date": "August 2017",
         "title": "To Erm is Human",
         "author": "Jez Patterson",
-        "relurl": "./5issuev20.htm"
+        "relurl": "./5issuev20.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 20 - August 2017",
@@ -1545,7 +1887,9 @@
         "date": "August 2017",
         "title": "Equus Magna",
         "author": "John A. Frochio",
-        "relurl": "./6issuev20.htm"
+        "relurl": "./6issuev20.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 20 - August 2017",
@@ -1554,7 +1898,9 @@
         "date": "August 2017",
         "title": "The Fountain of Youth",
         "author": "Steve Slavin",
-        "relurl": "./7issuev20.htm"
+        "relurl": "./7issuev20.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 20 - August 2017",
@@ -1563,7 +1909,9 @@
         "date": "August 2017",
         "title": "Sticky Dreams",
         "author": "Mary Hiers",
-        "relurl": "./8issuev20.htm"
+        "relurl": "./8issuev20.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 20 - August 2017",
@@ -1572,7 +1920,9 @@
         "date": "August 2017",
         "title": "Uncle Glussog's Talent Parade, and Other Matters",
         "author": "Les Sklaroff",
-        "relurl": "./9issuev20.htm"
+        "relurl": "./9issuev20.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 20 - August 2017",
@@ -1581,7 +1931,9 @@
         "date": "August 2017",
         "title": "Lost City",
         "author": "D. S. White",
-        "relurl": "./10issuev20.htm"
+        "relurl": "./10issuev20.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 20 - August 2017",
@@ -1590,7 +1942,9 @@
         "date": "August 2017",
         "title": "The Aldous Effect",
         "author": "Martin M. Clark",
-        "relurl": "./11issuev20.htm"
+        "relurl": "./11issuev20.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 21 - February 2018",
@@ -1599,7 +1953,9 @@
         "date": "February 2018",
         "title": "Editorial",
         "author": "Gil Williamson",
-        "relurl": "./1issuev21.htm"
+        "relurl": "./1issuev21.htm",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 21 - February 2018",
@@ -1608,7 +1964,9 @@
         "date": "February 2018",
         "title": "Maximum Law",
         "author": "Martin M. Clark",
-        "relurl": "./2issuev21.htm"
+        "relurl": "./2issuev21.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 21 - February 2018",
@@ -1617,7 +1975,9 @@
         "date": "February 2018",
         "title": "Commedia del'l Venezia",
         "author": "Gil Williamson",
-        "relurl": "./3issuev21.htm"
+        "relurl": "./3issuev21.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 21 - February 2018",
@@ -1626,7 +1986,9 @@
         "date": "February 2018",
         "title": "A Tale of Salt and Oak",
         "author": "Voss McVeigh",
-        "relurl": "./4issuev21.htm"
+        "relurl": "./4issuev21.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 21 - February 2018",
@@ -1635,7 +1997,9 @@
         "date": "February 2018",
         "title": "Mirror, Mirror",
         "author": "Patrick Boylan",
-        "relurl": "./5issuev21.htm"
+        "relurl": "./5issuev21.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 21 - February 2018",
@@ -1644,7 +2008,9 @@
         "date": "February 2018",
         "title": "Are Friends Eclectic",
         "author": "Jez Patterson",
-        "relurl": "./6issuev21.htm"
+        "relurl": "./6issuev21.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 21 - February 2018",
@@ -1653,7 +2019,9 @@
         "date": "February 2018",
         "title": "Good Vibrations",
         "author": "Steve Slavin",
-        "relurl": "./7issuev21.htm"
+        "relurl": "./7issuev21.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 21 - February 2018",
@@ -1662,7 +2030,9 @@
         "date": "February 2018",
         "title": "Ilysveil: Twin Dawn Rising",
         "author": "J. H. Zech",
-        "relurl": "./8issuev21.htm"
+        "relurl": "./8issuev21.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 21 - February 2018",
@@ -1671,7 +2041,9 @@
         "date": "February 2018",
         "title": "Pranswat Passes Through",
         "author": "Les Sklaroff",
-        "relurl": "./9issuev21.htm"
+        "relurl": "./9issuev21.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 21 - February 2018",
@@ -1680,7 +2052,9 @@
         "date": "February 2018",
         "title": "Blood Poisoning",
         "author": "D. S. White",
-        "relurl": "./10issuev21.htm"
+        "relurl": "./10issuev21.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 21 - February 2018",
@@ -1689,7 +2063,9 @@
         "date": "February 2018",
         "title": "Eavesdropping at Quoils",
         "author": "Les Sklaroff",
-        "relurl": "./11issuev21.htm"
+        "relurl": "./11issuev21.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 21 - February 2018",
@@ -1698,7 +2074,9 @@
         "date": "February 2018",
         "title": "Of a Kind",
         "author": "Jez Patterson",
-        "relurl": "./12issuev21.htm"
+        "relurl": "./12issuev21.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 21 - February 2018",
@@ -1707,7 +2085,9 @@
         "date": "February 2018",
         "title": "Maximum Law - Christmas Party",
         "author": "Martin M. Clark",
-        "relurl": "./13issuev21.htm"
+        "relurl": "./13issuev21.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 21 - February 2018",
@@ -1716,7 +2096,9 @@
         "date": "February 2018",
         "title": "Christmas Carole",
         "author": "Martin M. Clark",
-        "relurl": "./14issuev21.htm"
+        "relurl": "./14issuev21.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 21 - February 2018",
@@ -1725,7 +2107,9 @@
         "date": "February 2018",
         "title": "Melkart The Herdsman",
         "author": "Mark Mellon",
-        "relurl": "./15issuev21.htm"
+        "relurl": "./15issuev21.htm",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 22 - May 2018",
@@ -1734,7 +2118,9 @@
         "date": "May 2018",
         "title": "Editorial in memorium",
         "author": "Andrew Leon Hudson",
-        "relurl": "./issue-22/editorial.html"
+        "relurl": "./issue-22/editorial.html",
+        "category": "Editorial",
+        "genre": null
     },
     {
         "issue": "Issue 22 - May 2018",
@@ -1743,7 +2129,9 @@
         "date": "May 2018",
         "title": "Feeling the Heat",
         "author": "Les Sklaroff",
-        "relurl": "./issue-22/feeling-the-heat.html"
+        "relurl": "./issue-22/feeling-the-heat.html",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 22 - May 2018",
@@ -1752,7 +2140,9 @@
         "date": "May 2018",
         "title": "Snryl",
         "author": "Les Sklaroff",
-        "relurl": "./issue-22/snyrl.html"
+        "relurl": "./issue-22/snyrl.html",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 22 - May 2018",
@@ -1761,7 +2151,9 @@
         "date": "May 2018",
         "title": "Behind My Eyes",
         "author": "Martin M. Clark",
-        "relurl": "./issue-22/behind-my-eyes.html"
+        "relurl": "./issue-22/behind-my-eyes.html",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 22 - May 2018",
@@ -1770,7 +2162,9 @@
         "date": "May 2018",
         "title": "Henry",
         "author": "Jez Patterson",
-        "relurl": "./issue-22/henry.html"
+        "relurl": "./issue-22/henry.html",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 22 - May 2018",
@@ -1779,7 +2173,9 @@
         "date": "May 2018",
         "title": "A Comic",
         "author": "Liam Baldwin",
-        "relurl": "./issue-22/a-comic.html"
+        "relurl": "./issue-22/a-comic.html",
+        "category": "Comic",
+        "genre": null
     },
     {
         "issue": "Issue 22 - May 2018",
@@ -1788,7 +2184,9 @@
         "date": "May 2018",
         "title": "His Turn to Remember",
         "author": "John A. Frochio",
-        "relurl": "./issue-22/his-turn-to-remember.html"
+        "relurl": "./issue-22/his-turn-to-remember.html",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 22 - May 2018",
@@ -1797,7 +2195,9 @@
         "date": "May 2018",
         "title": "Ilysveil: Tigers Can Remember",
         "author": "J. H. Zech",
-        "relurl": "./issue-22/ilysveil-tigers-can-remember.html"
+        "relurl": "./issue-22/ilysveil-tigers-can-remember.html",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 22 - May 2018",
@@ -1806,7 +2206,9 @@
         "date": "May 2018",
         "title": "The Parking Ticket",
         "author": "Steve Slavin",
-        "relurl": "./issue-22/the-parking-ticket.html"
+        "relurl": "./issue-22/the-parking-ticket.html",
+        "category": null,
+        "genre": null
     },
     {
         "issue": "Issue 22 - May 2018",
@@ -1815,6 +2217,8 @@
         "date": "May 2018",
         "title": "Good Old Days",
         "author": "Andrew Leon Hudson",
-        "relurl": "./issue-22/good-old-days.html"
+        "relurl": "./issue-22/good-old-days.html",
+        "category": null,
+        "genre": null
     }
 ]

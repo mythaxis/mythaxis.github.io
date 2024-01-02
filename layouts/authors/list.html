@@ -2,7 +2,8 @@
      presenting the results as an author sorted index of their published stories. */}}
 {{ $authorIndex := slice }}
 {{ $pages := where .Site.Pages "Type" "stock" }}
-{{ $xway := index .Site.Data "xway2-metadata" }}
+{{ $xway2metadata := index .Site.Data "xway2metadata" }}
+{{ $xway2metadata = (where $xway2metadata "category" "ne" "Editorial") }}
 
 
 {{/* Generate unique author name list multiple data sources */}}
@@ -10,7 +11,7 @@
 {{ range where .Site.Pages "Type" "author" }}
   {{ $allAuthors = $allAuthors | append .Params.Name }}
 {{ end }}
-{{ range (index .Site.Data "xway2-metadata") }}
+{{ range $xway2metadata }}
   {{ $allAuthors = $allAuthors | append .author }}
 {{ end }}
 {{ $allAuthors = $allAuthors | uniq}}
@@ -31,7 +32,7 @@
     {{ $authStockItems = $authStockItems | append $item }}
   {{ end }}
 
-  {{ range (where $xway "author" "eq" .)  }}
+  {{ range (where $xway2metadata "author" "eq" .)  }}
     {{ $item := dict
         "Title" .title
         "RelPermalink" .relurl
