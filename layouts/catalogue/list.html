@@ -1,21 +1,16 @@
 {{/* Combine Hugo pages and xway2 data into content listing dictionary */}}
 {{ $allStories := slice }}
-{{ range (where .Site.Pages ".Type" "stock") }}
-  {{ $currSection := .Section | default (urlize .Site.Params.currentIssue) }}
-  {{ $currSection := .Site.GetPage "section" (print $currSection "/__index.md") }}
+{{ range (where .Site.AllPages "Type" "stock") }}
   {{ $story := dict
       "title" .Title
       "relurl" .RelPermalink
       "author" (collections.Delimit .Params.authors " and ")
-      
-      "issue"  (print .Params.issue " - " $currSection.Params.subhead)
-      "number" (index (strings.FindRE `\d+?$` .Params.issue) 0)
-      "order" .Params.weight
-      "date" (.Params.publishDate.Format "January 2006")
   }}
   {{ $allStories = $allStories | append $story }}
 {{ end }}
-{{ $allStories = $allStories | append (index .Site.Data "xway2-metadata") }}
+{{ $xway2metadata := index .Site.Data "xway2metadata" }}
+{{ $xway2metadata = (where $xway2metadata "category" "ne" "Editorial") }}
+{{ $allStories = $allStories | append $xway2metadata }}
 
 
 
