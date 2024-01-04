@@ -20,13 +20,11 @@
       <!-- Main -->
       <div id="main">
         <section class="post catalogue">
-          (catalogue editorals) 
             <header class="major">
               <img src="{{ "/images/toplist.svg" | safeURL }}" />
               <h1>{{ .Title }}</h1>
               <p>{{ len $allStories }} {{ .Description }}</p>
             </header>
-
             {{ partial "catalogue-nav" . }}
             {{ .Content }}
 

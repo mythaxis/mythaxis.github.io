@@ -1,6 +1,4 @@
-{{/* Infer current section and lookup __index.md params for theming */}}
-{{ $currSection := .Section | default (urlize .Site.Params.currentIssue) }}
-{{ $currSection := .Site.GetPage "section" (print $currSection "/__index.md") }}
+{{ $currSection := partial "functions/getCurrentTheme" . }}
 
 {{/* Context sensitive meta tag values */}}
 {{ if .IsHome }}

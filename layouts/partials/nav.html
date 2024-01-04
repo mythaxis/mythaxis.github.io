@@ -1,5 +1,5 @@
 {{ $currentPage := . }}
-{{ $currSection := .Section | default (urlize .Site.Params.currentIssue) }}
+{{ $currSection := partial "functions/getCurrentTheme" . }}
 
 <!-- Default Nav for sections-->
 {{ $data := index .Site.Data .Site.Language.Lang }}
@@ -15,9 +15,8 @@
         </li>
         {{ end }}
 
-
         {{/* Inject section specific menu items */}}
-        {{ range where (where .Site.RegularPages "Section" $currSection) "Slug" "in" (slice "editorial" "contents") }}
+        {{ range where (where .Site.RegularPages "Section" $currSection.Section) "Slug" "in" (slice "editorial" "contents") }}
             {{ $active := eq $currentPage.RelPermalink .RelPermalink }}
             <li {{ if $active }}class="active"{{ end }}>
                 <a href="{{ .RelPermalink }}" class="{{ if $active }}active{{ end }}">

@@ -27,13 +27,11 @@
       <!-- Main -->
       <div id="main">
         <section class="post catalogue">
-          (catalogue list) 
             <header class="major">
               <img src="{{ "/images/toplist.svg" | safeURL }}" />
               <h1>{{ .Title }}</h1>
               <p>{{ len $allStories }} {{ .Description }}</p>
             </header>
-
             {{ partial "catalogue-nav" . }}
             {{ .Content }}
 
