@@ -1,15 +1,8 @@
 {{/* Combine Hugo pages and xway2 data into content listing dictionary */}}
 {{ $allStories := slice }}
-{{ range (where .Site.AllPages "Type" "stock") }}
-  {{ $story := dict
-      "title" .Title
-      "relurl" .RelPermalink
-      "author" (collections.Delimit .Params.authors " and ")
-  }}
-  {{ $allStories = $allStories | append $story }}
-{{ end }}
+
 {{ $xway2metadata := index .Site.Data "xway2metadata" }}
-{{ $xway2metadata = (where $xway2metadata "category" "ne" "Editorial") }}
+{{ $xway2metadata = (where $xway2metadata "category" "eq" "Editorial") }}
 {{ $allStories = $allStories | append $xway2metadata }}
 
 
@@ -29,18 +22,22 @@
         <section class="post">
             <header class="major">
               <img src="{{ "/images/toplist.svg" | safeURL }}" />
-              <h1>list {{ .Title }}</h1>
+              <h1>editorals {{ .Title }}</h1>
               <p>{{ .Description }}</p>
             </header>
 
             <p>
               {{ with .Site.GetPage "/archive.html" }}
-                <a href='{{ .RelPermalink | relURL }}'><- Back to archives</a>
+                <a href='{{ .RelPermalink | relURL }}'>Archives</a>
+              {{ end }} | 
+              {{ with .Site.GetPage "/catalogue/editorials.html" }}
+                <a href='{{ .RelPermalink | relURL }}'>Editorials</a>
               {{ end }} | 
               {{ with .Site.GetPage "/catalogue.html" }}
-                <a href='{{ .RelPermalink | relURL }}'>On to catalogue -></a>
+                <a href='{{ .RelPermalink | relURL }}'>Catalogue</a>
               {{ end }}
             </p>
+            Total number of published stories: {{ len $allStories }}<br/>
 
             {{ .Content }}
 
@@ -55,18 +52,7 @@
   </tbody>
 </table>
 
-Total number of published stories: {{ len $allStories }}<br/>
 
-
-
-            <p>
-              {{ with .Site.GetPage "/archive.html" }}
-                <a href='{{ .RelPermalink | relURL }}'><- Back to archives</a>
-              {{ end }} | 
-              {{ with .Site.GetPage "/catalogue.html" }}
-                <a href='{{ .RelPermalink | relURL }}'>On to catalogue -></a>
-              {{ end }}
-            </p>
 
 
 

@@ -78,12 +78,20 @@
 
             <p>
               {{ with .Site.GetPage "/archive.html" }}
-                <a href='{{ .RelPermalink | relURL }}'><- Back to archives</a>
+                <a href='{{ .RelPermalink | relURL }}'>Archives</a>
+              {{ end }} | 
+              {{ with .Site.GetPage "/author.html" }}
+                <a href='{{ .RelPermalink | relURL }}'>Authors</a>
+              {{ end }} | 
+              {{ with .Site.GetPage "/catalogue/editorials.html" }}
+                <a href='{{ .RelPermalink | relURL }}'>Editorials</a>
               {{ end }} | 
               {{ with .Site.GetPage "/catalogue.html" }}
-                <a href='{{ .RelPermalink | relURL }}'>On to catalogue -></a>
+                <a href='{{ .RelPermalink | relURL }}'>Catalogue</a>
               {{ end }}
             </p>
+            Number of authors: {{ len $authorIndex }}
+
 
             {{ .Content }}
 
@@ -109,15 +117,7 @@
 </table>
 
 
-Number of authors: {{ len $authorIndex }}
-            <p>
-              {{ with .Site.GetPage "/archive.html" }}
-                <a href='{{ .RelPermalink | relURL }}'><- Back to archives</a>
-              {{ end }} | 
-              {{ with .Site.GetPage "/catalogue.html" }}
-                <a href='{{ .RelPermalink | relURL }}'>On to catalogue -></a>
-              {{ end }}
-            </p>
+
 
 
 
