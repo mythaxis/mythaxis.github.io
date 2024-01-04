@@ -1,9 +1,24 @@
 {{/* Combine Hugo pages and xway2 data into content listing dictionary */}}
-{{ $allStories := slice }}
+{{ $editorials := slice }}
+
+{{ range .Site.Sections }}
+  {{ $currSection := .Site.GetPage "section" (print .Section "/__index.md") }}
+  {{ range (where (where .Site.Pages "Section" .Section) "Slug" "eq" "editorial") }}
+    {{ $ed := dict
+        "title" .Title
+        "relurl" .RelPermalink
+        "author" (collections.Delimit .Params.authors " and ")
+        "issue"  (print .Params.issue " - " $currSection.Params.subhead)
+        "number" (index (strings.FindRE `\d+?$` .Params.issue) 0)
+        "date" (.Params.publishDate.Format "January 2006")
+    }}
+    {{ $editorials = $editorials | append $ed }}
+  {{ end }}
+{{ end }}
 
 {{ $xway2metadata := index .Site.Data "xway2metadata" }}
 {{ $xway2metadata = (where $xway2metadata "category" "eq" "Editorial") }}
-{{ $allStories = $allStories | append $xway2metadata }}
+{{ $editorials = $editorials | append $xway2metadata }}
 
 
 
@@ -23,7 +38,7 @@
             <header class="major">
               <img src="{{ "/images/toplist.svg" | safeURL }}" />
               <h1>{{ .Title }}</h1>
-              <p>{{ len $allStories }} {{ .Description }}</p>
+              <p>{{ len $editorials }} {{ .Description }}</p>
             </header>
             {{ partial "catalogue-nav" . }}
             {{ .Content }}
@@ -37,7 +52,7 @@
               </thead>
 
               <tbody class="scroll">
-                {{ range (sort $allStories "number" "asc") }}
+                {{ range (sort $editorials "number" "asc") }}
                 <tr>
                   <td class="align-right">{{ .issue }}
                   <td><a href="{{ .relurl | relURL }}">{{ .title }}</a> by {{ .author }}</td>
