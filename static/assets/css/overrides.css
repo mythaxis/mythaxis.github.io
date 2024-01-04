@@ -84,6 +84,11 @@ header > a {
     max-width: 72rem;
 }
 
+/* Catalogue pages use local section navigation bar */
+section.catalogue header.major {
+    margin-bottom:  2rem;
+}
+
 
 
 #wrapper > .bg {

@@ -26,48 +26,29 @@
 
       <!-- Main -->
       <div id="main">
-        <section class="post">
+        <section class="post catalogue">
+          (catalogue list) 
             <header class="major">
               <img src="{{ "/images/toplist.svg" | safeURL }}" />
-              <h1>list {{ .Title }}</h1>
-              <p>{{ .Description }}</p>
+              <h1>{{ .Title }}</h1>
+              <p>{{ len $allStories }} {{ .Description }}</p>
             </header>
 
-            <p>
-              {{ with .Site.GetPage "/archive.html" }}
-                <a href='{{ .RelPermalink | relURL }}'><- Back to archives</a>
-              {{ end }} | 
-              {{ with .Site.GetPage "/catalogue.html" }}
-                <a href='{{ .RelPermalink | relURL }}'>On to catalogue -></a>
-              {{ end }}
-            </p>
-
+            {{ partial "catalogue-nav" . }}
             {{ .Content }}
 
-
-<table>
-  <tbody class="scroll">
-    {{ range (sort $allStories "title" "asc") }}
-    <tr>
-      <td><a href="{{ .relurl | relURL }}">{{ .title }}</a> by {{ .author }}</td>
-    </tr>  
-    {{ end }}
-  </tbody>
-</table>
-
-Total number of published stories: {{ len $allStories }}<br/>
+            <table>
+              <tbody>
+                {{ range (sort $allStories "title" "asc") }}
+                <tr>
+                  <td><a href="{{ .relurl | relURL }}">{{ .title }}</a> by {{ .author }}</td>
+                </tr>  
+                {{ end }}
+              </tbody>
+            </table>
 
 
-
-            <p>
-              {{ with .Site.GetPage "/archive.html" }}
-                <a href='{{ .RelPermalink | relURL }}'><- Back to archives</a>
-              {{ end }} | 
-              {{ with .Site.GetPage "/catalogue.html" }}
-                <a href='{{ .RelPermalink | relURL }}'>On to catalogue -></a>
-              {{ end }}
-            </p>
-
+            {{ partial "catalogue-nav" . }}
 
 
         </section>

@@ -1,0 +1,15 @@
+{{ $currentPage := . }}
+<p class="align-center"><
+  {{ with .Site.GetPage "/archive.md" }}
+    <a href='{{ .RelPermalink | relURL }}'>Archives</a>
+  {{ end }} | 
+  {{ with .Site.GetPage "/authors" }}
+    <a href='{{ .RelPermalink | relURL }}'>Authors</a>
+  {{ end }} | 
+  {{ with .Site.GetPage "/catalogue/editorials.md" }}
+    <a href='{{ .RelPermalink | relURL }}'>Editorials</a>
+  {{ end }} | 
+  {{ with .Site.GetPage "/catalogue/_index.md" }}
+    <a href='{{ .RelPermalink | relURL }}'>Catalogue</a>
+  {{ end }}>
+</p>
