@@ -1,5 +1,6 @@
 {{/* The code below merges two datasources, the site pages and the xway back catalogue,
-     presenting the results as an author sorted index of their published stories. */}}
+     presenting the results as an author index of published stories, sorted alphabetically.
+     The sort is hardcoded because of Ockham's razor. */}}
 {{ $authorIndex := slice }}
 {{ $pages := where .Site.Pages "Type" "stock" }}
 {{ $xway2metadata := index .Site.Data "xway2metadata" }}
@@ -69,57 +70,37 @@
 
       <!-- Main -->
       <div id="main">
-        <section class="post">
+        <section class="post catalogue">
             <header class="major">
               <img src="{{ "/images/toplist.svg" | safeURL }}" />
               <h1>{{ .Title }}</h1>
-              <p>{{ .Description }}</p>
+              <p>{{ len $authorIndex }} {{ .Description }}</p>
             </header>
 
-            <p>
-              {{ with .Site.GetPage "/archive.html" }}
-                <a href='{{ .RelPermalink | relURL }}'>Archives</a>
-              {{ end }} | 
-              {{ with .Site.GetPage "/author.html" }}
-                <a href='{{ .RelPermalink | relURL }}'>Authors</a>
-              {{ end }} | 
-              {{ with .Site.GetPage "/catalogue/editorials.html" }}
-                <a href='{{ .RelPermalink | relURL }}'>Editorials</a>
-              {{ end }} | 
-              {{ with .Site.GetPage "/catalogue.html" }}
-                <a href='{{ .RelPermalink | relURL }}'>Catalogue</a>
-              {{ end }}
-            </p>
-            Number of authors: {{ len $authorIndex }}
-
-
+            {{ partial "catalogue-nav" . }}
             {{ .Content }}
 
+            <table>
+              <thead>
+                <tr>
+                  <th class="align-right">Author</th>
+                  <th>Stock info</th>
+                </tr>
+              </thead>
 
-<table>
-  <thead>
-    <tr>
-      <th>Author</th>
-      <th>Stock info</th>
-    </tr>
-  </thead>
+              <tbody class="scroll">
+                {{ range $authorIndex }}
+                <tr>
+                  <td class="align-right">{{ .name }}</td>
+                  <td>{{ range .stocklist }}
+                      <a href="{{ .RelPermalink | relURL }}">{{ .Title }}</a> ({{ .Date }})<br/>{{ end }}
+                  </td>
+                </tr>  
+                {{ end }}
+              </tbody>
+            </table>
 
-  <tbody class="scroll">
-    {{ range $authorIndex }}
-    <tr>
-      <td>{{ .name }}</td>
-      <td>{{ range .stocklist }}
-          <a href="{{ .RelPermalink | relURL }}">{{ .Title }}</a> ({{ .Date }})<br/>{{ end }}
-      </td>
-    </tr>  
-    {{ end }}
-  </tbody>
-</table>
-
-
-
-
-
+            {{ partial "catalogue-nav" . }}
 
         </section>
       </div>

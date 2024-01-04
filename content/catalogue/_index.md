@@ -3,7 +3,7 @@ layout: catalogue
 type: list
 title: "Catalogue"
 date: 2024-01-01
-description: All stories sorted by title
+description: Stories sorted alphabetically by title
 url: /catalogue.html
 ---
 

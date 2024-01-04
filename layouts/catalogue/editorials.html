@@ -19,42 +19,36 @@
 
       <!-- Main -->
       <div id="main">
-        <section class="post">
+        <section class="post catalogue">
+          (catalogue editorals) 
             <header class="major">
               <img src="{{ "/images/toplist.svg" | safeURL }}" />
-              <h1>editorals {{ .Title }}</h1>
-              <p>{{ .Description }}</p>
+              <h1>{{ .Title }}</h1>
+              <p>{{ len $allStories }} {{ .Description }}</p>
             </header>
 
-            <p>
-              {{ with .Site.GetPage "/archive.html" }}
-                <a href='{{ .RelPermalink | relURL }}'>Archives</a>
-              {{ end }} | 
-              {{ with .Site.GetPage "/catalogue/editorials.html" }}
-                <a href='{{ .RelPermalink | relURL }}'>Editorials</a>
-              {{ end }} | 
-              {{ with .Site.GetPage "/catalogue.html" }}
-                <a href='{{ .RelPermalink | relURL }}'>Catalogue</a>
-              {{ end }}
-            </p>
-            Total number of published stories: {{ len $allStories }}<br/>
-
+            {{ partial "catalogue-nav" . }}
             {{ .Content }}
 
+            <table>
+              <thead>
+                <tr>
+                  <th class="align-right">Issue</th>
+                  <th>Editorial</th>
+                </tr>
+              </thead>
 
-<table>
-  <tbody class="scroll">
-    {{ range (sort $allStories "title" "asc") }}
-    <tr>
-      <td><a href="{{ .relurl | relURL }}">{{ .title }}</a> by {{ .author }}</td>
-    </tr>  
-    {{ end }}
-  </tbody>
-</table>
+              <tbody class="scroll">
+                {{ range (sort $allStories "number" "asc") }}
+                <tr>
+                  <td class="align-right">{{ .issue }}
+                  <td><a href="{{ .relurl | relURL }}">{{ .title }}</a> by {{ .author }}</td>
+                </tr>  
+                {{ end }}
+              </tbody>
+            </table>
 
-
-
-
+            {{ partial "catalogue-nav" . }}
 
         </section>
       </div>

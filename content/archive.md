@@ -26,7 +26,7 @@ slug: archive
 - [Issue&nbsp;24: Winter 2020]({{< relref "/issue-24/__index.md" >}})
 - [Issue&nbsp;23: Autumn 2020]({{< relref "/issue-23/__index.md" >}})
 
-Our complete story archives are also available via the [Authors index](./authors.html) or the [Stock catalogue](./catalogue.html).
+Our complete story archives are also available via the [Stock catalogue](./catalogue.html) and the [Authors index](./authors.html). Additionally a complete [listing of all Editorals is here](/editorials.html).
 
 
 ## Archives
