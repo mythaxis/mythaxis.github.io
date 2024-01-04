@@ -105,6 +105,47 @@
 	}
 </style>
 
+	
+
+
+	<script>
+	document.addEventListener("DOMContentLoaded", function() {
+		var ulElement = document.querySelector('.post ul');  
+		var currentDate = new Date(); 
+		var submissionStatus = "CLOSED"; 
+		var dateRegex = /(\w+)\s(\d{1,2})..-(\d{1,2})/; 
+
+		
+		ulElement.querySelectorAll('li').forEach(function(li) {
+			var matches = li.textContent.match(dateRegex);
+			if (matches) {
+				
+				if (monthToIndex(matches[1]) === currentDate.getMonth()) {
+					if (currentDate.getDate() >= parseInt(matches[2]) &&
+					    currentDate.getDate() <= parseInt(matches[3])) {
+							submissionStatus = "OPEN";
+					}
+				}
+			}
+		});
+
+		
+		var firstParagraph = document.querySelector('.post p strong');
+		var regex = new RegExp('closed', 'gi');
+		var newText = firstParagraph.textContent.replace(regex, submissionStatus);
+		firstParagraph.textContent = newText
+
+		
+		function monthToIndex(monthName) {
+			return ['January', 'February', 'March',
+					'April', 'May', 'June', 'July',
+					'August', 'September', 'October',
+					'November', 'December'].indexOf(monthName);
+		}
+
+	});
+	</script>
+
 
 
 	<title>Submission Guidelines — Mythaxis Magazine Issue 36 — MYTHAXIS MAGAZINE</title>
