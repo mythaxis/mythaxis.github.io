@@ -1,0 +1,43 @@
+{{/* Inject small javascript to change the submissions open/closed message.
+This partial template assumes the page context . is passed to it.
+*/}}
+
+{{ if eq .RelPermalink "/submissions.html" }}
+	<script>
+	document.addEventListener("DOMContentLoaded", function() {
+		var ulElement = document.querySelector('.post ul');  // Get the first <ul>
+		var currentDate = new Date(); // Get the current date
+		var submissionStatus = "CLOSED"; // Values (CLOSED|OPEN). default CLOSED.
+		var dateRegex = /(\w+)\s(\d{1,2})..-(\d{1,2})/; // Regex to get date from <li>
+
+		// Extract date range values from list
+		ulElement.querySelectorAll('li').forEach(function(li) {
+			var matches = li.textContent.match(dateRegex);
+			if (matches) {
+				// Check if the month matches the current month, then check days
+				if (monthToIndex(matches[1]) === currentDate.getMonth()) {
+					if (currentDate.getDate() >= parseInt(matches[2]) &&
+					    currentDate.getDate() <= parseInt(matches[3])) {
+							submissionStatus = "OPEN";
+					}
+				}
+			}
+		});
+
+		// Now select first para and change submissions status text.
+		var firstParagraph = document.querySelector('.post p strong');
+		var regex = new RegExp('closed', 'gi');
+		var newText = firstParagraph.textContent.replace(regex, submissionStatus);
+		firstParagraph.textContent = newText
+
+		// Function to convert month name to index
+		function monthToIndex(monthName) {
+			return ['January', 'February', 'March',
+					'April', 'May', 'June', 'July',
+					'August', 'September', 'October',
+					'November', 'December'].indexOf(monthName);
+		}
+
+	});
+	</script>
+{{ end }}

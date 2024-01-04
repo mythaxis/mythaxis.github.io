@@ -28,6 +28,7 @@
 	<noscript><link rel="stylesheet" href='{{ $noscript.RelPermalink }}' /></noscript>
 	
 	{{ partial "htmlhead-styles-overrides.html" $currSection }}
+	{{ partial "htmlhead-scripts-overrides.html" . }}
 
 
 	<title>{{ .Scratch.Get "pageTitle" }}</title>
