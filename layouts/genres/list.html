@@ -1,0 +1,114 @@
+{{/* The code below merges two datasources, the site pages and the xway back catalogue,
+     presenting the results as an author index of published stories, sorted alphabetically.
+     The sort is hardcoded because of Ockham's razor. */}}
+{{ $authorIndex := slice }}
+{{ $pages := where .Site.Pages "Type" "stock" }}
+{{ $xway2metadata := index .Site.Data "xway2metadata" }}
+{{ $xway2metadata = (where $xway2metadata "category" "ne" "Editorial") }}
+
+
+{{/* Generate unique author name list multiple data sources */}}
+{{ $allAuthors := slice }}
+{{ range where .Site.Pages "Type" "author" }}
+  {{ $allAuthors = $allAuthors | append .Params.Name }}
+{{ end }}
+{{ range $xway2metadata }}
+  {{ $allAuthors = $allAuthors | append .author }}
+{{ end }}
+{{ $allAuthors = $allAuthors | uniq}}
+
+
+{{/* Build the author index dictionary and load it up with the author's stories. */}}
+{{ range $allAuthors }}
+
+  {{/* Gather each author's stories into a single stocklist */}}
+  {{ $authStockItems := slice }}
+  {{ range (where $pages "Params.authors" "intersect" (slice .)) }}
+    {{ $item := dict
+      "Title" .Title
+      "RelPermalink" .RelPermalink
+      "Issue" .Params.issue
+      "Date" (.Date.Format "January 2006")
+    }}
+    {{ $authStockItems = $authStockItems | append $item }}
+  {{ end }}
+
+  {{ range (where $xway2metadata "author" "eq" .)  }}
+    {{ $item := dict
+        "Title" .title
+        "RelPermalink" .relurl
+        "Issue" .issue
+        "Date" .date
+    }}
+    {{ $authStockItems = $authStockItems | append $item }} 
+  {{ end }}
+  {{ $authStockItems = sort $authStockItems "Issue" "asc" "Title" "asc" }} 
+
+  {{/* Build author object and add to keyed author index */}}
+  {{ $author := dict
+        "name" .
+        "lastname" (index (last 1 (split . " ")) 0) 
+        "stocklist" $authStockItems
+  }}
+  {{ $authorIndex = $authorIndex | append $author }}
+{{ end }}
+{{ $authorIndex = sort $authorIndex "lastname" "asc" }}
+
+
+
+
+
+<!DOCTYPE HTML>
+<html lang='{{ .Site.Language.Lang | default "en-us" }}'>
+  {{ partial "htmlhead" . }}
+  
+  <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      {{ partial "header" . }}
+      {{ partial "nav" . }}
+
+      <!-- Main -->
+      <div id="main">
+        <section class="post catalogue">
+            <header class="major">
+              <img src="{{ "/images/toplist.svg" | safeURL }}" />
+              <h1>{{ .Title }}</h1>
+              <p>{{ len $authorIndex }} sdfs{{ .Description }}</p>
+            </header>
+            {{ partial "catalogue-nav" . }}
+            {{ .Content }}
+
+            <table>
+              <thead>
+                <tr>
+                  <th class="align-right">Author</th>
+                  <th>Stock info</th>
+                </tr>
+              </thead>
+
+              <tbody class="scroll">
+                {{ range $authorIndex }}
+                <tr>
+                  <td class="align-right">{{ .name }}</td>
+                  <td>{{ range .stocklist }}
+                      <a href="{{ .RelPermalink | relURL }}">{{ .Title }}</a> ({{ .Date }})<br/>{{ end }}
+                  </td>
+                </tr>  
+                {{ end }}
+              </tbody>
+            </table>
+
+            {{ partial "catalogue-nav" . }}
+
+        </section>
+      </div>
+      
+      {{ partial "copyright" . }}
+      <a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
+    </div>
+
+    {{ template "_internal/google_analytics.html" . }}
+    {{ partial "scripts/index" . }}
+  </body>
+</html>

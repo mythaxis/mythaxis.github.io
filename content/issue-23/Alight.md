@@ -14,6 +14,8 @@ description: "Depending on her name at the time, Skye Allen either does fantasy 
 type: stock
 slug: alight
 weight: 4
+genre: "fantasy"
+
 morelink: 'Watch and listen'
 ---
 

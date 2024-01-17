@@ -21,10 +21,11 @@ staticDir:
 
 
 taxonomies:
-  category: categories
   issue: issues
-  tag: tags
   author: authors
+  category: categories
+  # genre: genres
+  # tag: tags
 
 
 params:

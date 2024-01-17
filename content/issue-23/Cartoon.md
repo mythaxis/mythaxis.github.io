@@ -14,6 +14,7 @@ type: stock
 slug: cartoon
 featured: false
 weight: 7
+genre: "horror"
 
 morelink: 'I would'
 ---

@@ -14,6 +14,7 @@ description: "Afrofuturism is riding a wave of popularity around the world, but 
 type: stock
 slug: curse-midnight
 weight: 3
+genre: "fantasy"
 
 morelink: 'Look closer'
 ---

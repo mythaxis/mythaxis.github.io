@@ -8,7 +8,7 @@
         "author": "Gil Williamson",
         "relurl": "./1issue1.htm",
         "category": null,
-        "genre": null
+        "genre": "horror"
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -19,7 +19,7 @@
         "author": "Gil Williamson",
         "relurl": "./2issue1.htm",
         "category": null,
-        "genre": null
+        "genre": "horror"
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -30,7 +30,7 @@
         "author": "Melanie Manner",
         "relurl": "./3issue1.htm",
         "category": null,
-        "genre": null
+        "genre": "horror"
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -41,7 +41,7 @@
         "author": "Matthew Kirshenblatt",
         "relurl": "./4issue1.htm",
         "category": null,
-        "genre": null
+        "genre": "fantasy"
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -52,7 +52,7 @@
         "author": "H G Wells",
         "relurl": "./5issue1.htm",
         "category": null,
-        "genre": null
+        "genre": "fantasy"
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -63,7 +63,7 @@
         "author": "Ian Thomas",
         "relurl": "./6issue1.htm",
         "category": null,
-        "genre": null
+        "genre": "fantasy"
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -114,8 +114,8 @@
         "number": "2",
         "order": "3",
         "date": "April 2008",
-        "title": "Eat, Monster Blue Bottle ",
-        "author": "Belinda A. Taylor ",
+        "title": "Eat, Monster Blue Bottle",
+        "author": "Belinda A. Taylor",
         "relurl": "./3issue2.htm",
         "category": null,
         "genre": null
@@ -126,7 +126,7 @@
         "order": "4",
         "date": "April 2008",
         "title": "The American Book of the Dead",
-        "author": "Chris Lites ",
+        "author": "Chris Lites",
         "relurl": "./4issue2.htm",
         "category": null,
         "genre": null
