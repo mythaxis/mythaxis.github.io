@@ -353,6 +353,9 @@
     <loc>/editorials.html</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/genres.html</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -383,6 +386,12 @@
     <loc>/authors/bill-ryan.html</loc>
     <lastmod>2023-12-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/genres/crime.html</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/genres/editorial.html</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-36/editorial.html</loc>
     <lastmod>2023-12-21T00:00:00+00:00</lastmod>
   </url><url>
@@ -399,6 +408,9 @@
     <lastmod>2023-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/peter-wynd.html</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/genres/review.html</loc>
     <lastmod>2023-12-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/shaun-anthony-mcmichael.html</loc>
@@ -443,6 +455,12 @@
     <loc>/authors/elin-olausson.html</loc>
     <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/genres/fantasy.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/genres/horror.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-35.html</loc>
     <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -458,6 +476,9 @@
     <loc>/issue-35/</loc>
     <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/genres/science-fiction.html</loc>
+    <lastmod>2023-09-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-35/contents.html</loc>
     <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -465,6 +486,9 @@
     <lastmod>2023-09-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-34.html</loc>
+    <lastmod>2023-07-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/genres/non-fiction.html</loc>
     <lastmod>2023-07-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/bill-ryan.html</loc>
@@ -606,6 +630,9 @@
     <lastmod>2023-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/authors/sandee-bree-breathnach.html</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/genres/slipstream.html</loc>
     <lastmod>2023-04-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-33/contents.html</loc>
@@ -770,6 +797,9 @@
     <loc>/authors/david-whitmarsh.html</loc>
     <lastmod>2022-03-27T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/genres/dystopia.html</loc>
+    <lastmod>2022-03-27T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-29/editorial.html</loc>
     <lastmod>2022-03-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -905,6 +935,12 @@
     <loc>/authors/paul-alex-gray.html</loc>
     <lastmod>2021-09-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/genres/post-apocalyptic.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/genres/romance.html</loc>
+    <lastmod>2021-09-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/issue-27/contents.html</loc>
     <lastmod>2021-09-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -1023,6 +1059,9 @@
     <lastmod>2020-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-24/editorial.html</loc>
+    <lastmod>2020-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/genres/gothic.html</loc>
     <lastmod>2020-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/issue-24.html</loc>
@@ -1147,7 +1186,5 @@
     <loc>/authors/fabiyas-m.-v..html</loc>
   </url><url>
     <loc>/issues.html</loc>
-  </url><url>
-    <loc>/tags.html</loc>
   </url>
 </urlset>
