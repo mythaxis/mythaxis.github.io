@@ -2,12 +2,10 @@
 title: "Touch Wood"
 date: 2023-04-01
 issue: Issue 33
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction, fantasy
-author: Sandee Bree Breathnach
->>>>>>> Stashed changes
+genres:
+- science fiction
+- fantasy
 authors:
 - Sandee Bree Breathnach
 copyright: '© Sandee Bree Breathnach 2023 All Rights Reserved.'

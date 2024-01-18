@@ -2,12 +2,10 @@
 title: "The Sedona House"
 date: 2020-08-23
 issue: Issue 23
-<<<<<<< Updated upstream
 
-=======
-genre: fantasy, horror
-author: Jeffery Scott Sims
->>>>>>> Stashed changes
+genres:
+- fantasy
+- horror
 authors:
 - Jeffery Scott Sims
 image: images/SedonaHouse.png

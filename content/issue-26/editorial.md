@@ -2,7 +2,9 @@
 title: "Editorial"
 date: 2020-06-30
 issue: Issue 26
-genre: editorial
+
+genres:
+- editorial
 authors:
 - Andrew Leon Hudson
 

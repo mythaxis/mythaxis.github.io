@@ -2,12 +2,10 @@
 title: "The Cross of Xenophor"
 date: 2022-03-27
 issue: Issue 29
-<<<<<<< Updated upstream
 
-=======
-genre: fantasy, horror
-author: Jeffery Scott Sims
->>>>>>> Stashed changes
+genres:
+- fantasy
+- horror
 authors:
 - Jeffery Scott Sims
 copyright: '© Jeffery Scott Sims 2022 All Rights Reserved'

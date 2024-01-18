@@ -2,12 +2,10 @@
 title: "Embryo"
 date: 2023-06-30
 issue: Issue 34
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction, horror
-author: Elena Sichrovsky
->>>>>>> Stashed changes
+genres:
+- science fiction
+- horror
 authors:
 - Elena Sichrovsky
 copyright: '© Elena Sichrovsky 2023 All Rights Reserved'

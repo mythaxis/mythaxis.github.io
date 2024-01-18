@@ -2,12 +2,9 @@
 title: "You Are a Rock God"
 date: 2023-09-30
 issue: Issue 35
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction
-author: Joelle Killian
->>>>>>> Stashed changes
+genres:
+- science fiction
 authors:
 - Joelle Killian
 copyright: '© Joelle Killian 2023 All Rights Reserved'

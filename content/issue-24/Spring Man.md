@@ -2,12 +2,9 @@
 title: "Spring Man"
 date: 2020-12-15
 issue: Issue 24
-<<<<<<< Updated upstream
 
-=======
-genre: slipstream
-author: Fabiyas M. V.
->>>>>>> Stashed changes
+genres:
+- slipstream
 authors:
 - Fabiyas M. V.
 copyright: '© Fabiyas M. V. 2020 All Rights Reserved'

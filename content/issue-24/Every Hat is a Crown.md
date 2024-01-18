@@ -2,12 +2,9 @@
 title: "Every Hat is a Crown"
 date: 2020-12-15
 issue: Issue 24
-<<<<<<< Updated upstream
 
-=======
-genre: fantasy
-author: Mike Morgan
->>>>>>> Stashed changes
+genres:
+- fantasy
 authors:
 - Mike Morgan
 copyright: '© Mike Morgan 2020 All Rights Reserved'

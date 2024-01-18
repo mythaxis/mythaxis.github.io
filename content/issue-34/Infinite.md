@@ -2,12 +2,9 @@
 title: "Infinite"
 date: 2023-06-30
 issue: Issue 34
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction
-author: Chisom Umeh
->>>>>>> Stashed changes
+genres:
+- science fiction
 authors:
 - Chisom Umeh
 copyright: '© Chisom Umeh 2023 All Rights Reserved.'

@@ -2,12 +2,10 @@
 title: "The Witches Curse"
 date: 2020-12-15
 issue: Issue 24
-<<<<<<< Updated upstream
 
-=======
-genre: slipstream, horror
-author: Matthew Wilson
->>>>>>> Stashed changes
+genres:
+- slipstream
+- horror
 authors:
 - Matthew Wilson
 copyright: '© Matthew Wilson 2020 All Rights Reserved'

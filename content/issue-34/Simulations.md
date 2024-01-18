@@ -2,12 +2,9 @@
 title: "Simulations"
 date: 2023-06-30
 issue: Issue 34
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction
-author: Masha Kisel
->>>>>>> Stashed changes
+genres:
+- science fiction
 authors:
 - Masha Kisel
 copyright: '© Masha Kisel 2023 All Rights Reserved'

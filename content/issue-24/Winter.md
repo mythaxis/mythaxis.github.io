@@ -2,12 +2,10 @@
 title: "Winter"
 date: 2020-12-15
 issue: Issue 24
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction, post-apocalyptic
-author: David Whitmarsh
->>>>>>> Stashed changes
+genres:
+- science fiction
+- post-apocalyptic
 authors:
 - David Whitmarsh
 copyright: '© David Whitmarsh 2020 All Rights Reserved'

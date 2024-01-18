@@ -1,60 +1,48 @@
-{{/* The code below merges two datasources, the site pages and the xway back catalogue,
-     presenting the results as an author index of published stories, sorted alphabetically.
-     The sort is hardcoded because of Ockham's razor. */}}
-{{ $authorIndex := slice }}
-{{ $pages := where .Site.Pages "Type" "stock" }}
-{{ $xway2metadata := index .Site.Data "xway2metadata" }}
-{{ $xway2metadata = (where $xway2metadata "category" "ne" "Editorial") }}
+{{/*
+  The code below merges two datasources, the site's genre taxonomy and
+  the xway back catalogue, presenting the results as a browsable index of genres.
+*/}}
+{{ $genreIndex := slice }}
+{{ $genreTaxonomy := .Site.Taxonomies.genres }}
+{{ $xway2metadata := where (index .Site.Data "xway2metadata") "genre" "ne" nil }}
 
-
-{{/* Generate unique author name list multiple data sources */}}
-{{ $allAuthors := slice }}
-{{ range where .Site.Pages "Type" "author" }}
-  {{ $allAuthors = $allAuthors | append .Params.Name }}
+{{/* Generate unique term name list from the two data sources */}}
+{{ $allGenres := slice }}
+{{ range $tag, $items := $genreTaxonomy }}
+  {{ $allGenres = $allGenres | append $tag }}
 {{ end }}
 {{ range $xway2metadata }}
-  {{ $allAuthors = $allAuthors | append .author }}
+  {{ $allGenres = $allGenres | append .genre }}
 {{ end }}
-{{ $allAuthors = $allAuthors | uniq}}
+{{ $allGenres = $allGenres | uniq}}
 
 
-{{/* Build the author index dictionary and load it up with the author's stories. */}}
-{{ range $allAuthors }}
+{{/* Build the genre dictionary and load it up with the stories. */}}
+{{ range $allGenres }}
 
-  {{/* Gather each author's stories into a single stocklist */}}
-  {{ $authStockItems := slice }}
-  {{ range (where $pages "Params.authors" "intersect" (slice .)) }}
+  {{/* Gather all stories tagged with this term into a single stocklist */}}
+  {{ $genreStockItems := slice }}
+  {{ range (index $genreTaxonomy .) }}
     {{ $item := dict
-      "Title" .Title
-      "RelPermalink" .RelPermalink
-      "Issue" .Params.issue
-      "Date" (.Date.Format "January 2006")
+      "title" .Title
+      "relurl" .RelPermalink
+      "author" (collections.Delimit .Params.authors " and ")
     }}
-    {{ $authStockItems = $authStockItems | append $item }}
+    {{ $genreStockItems = $genreStockItems | append $item }}
   {{ end }}
 
-  {{ range (where $xway2metadata "author" "eq" .)  }}
+  {{ range (where $xway2metadata "genre" "eq" .)  }}
     {{ $item := dict
-        "Title" .title
-        "RelPermalink" .relurl
-        "Issue" .issue
-        "Date" .date
+        "title" .title
+        "relurl" .relurl
+        "author" .author
     }}
-    {{ $authStockItems = $authStockItems | append $item }} 
+    {{ $genreStockItems = $genreStockItems | append $item }} 
   {{ end }}
-  {{ $authStockItems = sort $authStockItems "Issue" "asc" "Title" "asc" }} 
+  {{ $genreStockItems = sort $genreStockItems "title" "asc" }}
 
-  {{/* Build author object and add to keyed author index */}}
-  {{ $author := dict
-        "name" .
-        "lastname" (index (last 1 (split . " ")) 0) 
-        "stocklist" $authStockItems
-  }}
-  {{ $authorIndex = $authorIndex | append $author }}
+  {{ $genreIndex = merge $genreIndex (dict . $genreStockItems) }}
 {{ end }}
-{{ $authorIndex = sort $authorIndex "lastname" "asc" }}
-
-
 
 
 
@@ -74,58 +62,29 @@
             <header class="major">
               <img src="{{ "/images/toplist.svg" | safeURL }}" />
               <h1>{{ .Title }}</h1>
-              <p>{{ len $authorIndex }} {{ .Description }}</p>
+              <p>{{ len $allGenres }} {{ .Description }}</p>
             </header>
             {{ partial "catalogue-nav" . }}
             {{ .Content }}
 
 
-dddd
-
-{{ $taxo := "genres" }}
-<ul class="{{ $taxo }}">
-  {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
-    {{ range .Pages }}
-      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
-    {{ end }}
-  {{ end }}
-</ul>
-
-ddd
-
-<ul>
-  {{ range .Site.Taxonomies.genres }}
-    <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
-  {{ end }}
-</ul>
-
-Num genres: {{ len .Site.Taxonomies.genres }}
-<br/>
-dddd
+allgenres
+{{ $allGenres }}
 
 
-            <table>
-              <thead>
-                <tr>
-                  <th class="align-right">Author</th>
-                  <th>Stock info</th>
-                </tr>
-              </thead>
 
-              <tbody class="scroll">
-                {{ range $authorIndex }}
-                <tr>
-                  <td class="align-right">{{ .name }}</td>
-                  <td>{{ range .stocklist }}
-                      <a href="{{ .RelPermalink | relURL }}">{{ .Title }}</a> ({{ .Date }})<br/>{{ end }}
-                  </td>
-                </tr>  
-                {{ end }}
-              </tbody>
-            </table>
+            {{ range $genre, $items := $genreIndex }}
+            <h2 id="{{ $genre }}">{{ $genre | strings.Title }} ({{ len $items }})</h2>
+            <ul>
+            {{ range $items }}
+              <li><a href="{{ .relurl | relURL }}">{{ .title }}</a> by {{ .author }}</li>
+            {{ end }}
+            </ul>
+            {{ end }}
+
+
 
             {{ partial "catalogue-nav" . }}
-
         </section>
       </div>
       

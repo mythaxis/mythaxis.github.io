@@ -2,12 +2,9 @@
 title: "Prometheus’ Kidneys"
 date: 2021-03-15
 issue: Issue 25
-<<<<<<< Updated upstream
 
-=======
-genre: fantasy
-author: Meg Candelaria
->>>>>>> Stashed changes
+genres:
+- fantasy
 authors:
 - Meg Candelaria
 copyright: '© Meg Candelaria 2021 All Rights Reserved'

@@ -2,12 +2,9 @@
 title: "Tip Diebæck’s Mentha b. Wild"
 date: 2022-09-12
 issue: Issue 31
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction
-author: Marc Phillips
->>>>>>> Stashed changes
+genres:
+- science fiction
 authors:
 - Marc Phillips
 copyright: '© Marc Phillips 2022 All Rights Reserved'

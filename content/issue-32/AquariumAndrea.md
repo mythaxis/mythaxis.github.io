@@ -2,12 +2,9 @@
 title: "The Aquarium is Andrea"
 date: 2022-12-19
 issue: Issue 32
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction
-author: Monte Remer
->>>>>>> Stashed changes
+genres:
+- science fiction
 authors:
 - Monte Remer
 copyright: '© Monte Remer 2022 All Rights Reserved'

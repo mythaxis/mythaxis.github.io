@@ -2,12 +2,9 @@
 title: "Where the Heart Is"
 date: 2022-06-18
 issue: Issue 30
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction
-author: Alexander Zalben
->>>>>>> Stashed changes
+genres:
+- science fiction
 authors:
 - Alexander Zalben
 copyright: '© Alexander Zalben 2022 All Rights Reserved'

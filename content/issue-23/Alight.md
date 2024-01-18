@@ -2,12 +2,10 @@
 title: "Alight"
 date: 2020-08-23
 issue: Issue 23
-<<<<<<< Updated upstream
 
-=======
-genre: slipstream, horror
-author: Skye Allen
->>>>>>> Stashed changes
+genres:
+- slipstream
+- horror
 authors:
 - Skye Allen
 image: images/Alight.png
@@ -19,7 +17,8 @@ description: "Depending on her name at the time, Skye Allen either does fantasy 
 type: stock
 slug: alight
 weight: 4
-genre: "fantasy"
+genres:
+- "fantasy"
 
 morelink: 'Watch and listen'
 ---

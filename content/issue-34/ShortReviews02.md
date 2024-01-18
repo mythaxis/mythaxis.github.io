@@ -2,12 +2,9 @@
 title: "Short Reviews – April to June"
 date: 2023-06-30
 issue: Issue 34
-<<<<<<< Updated upstream
 
-=======
-genre: review
-author: Andrew Leon Hudson
->>>>>>> Stashed changes
+genres:
+- review
 authors:
 - Andrew Leon Hudson
 copyright: '© Andrew Leon Hudson 2023 All Rights Reserved'

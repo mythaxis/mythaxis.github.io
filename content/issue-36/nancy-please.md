@@ -2,12 +2,9 @@
 title: "Nancy, Please"
 date: 2023-12-21
 issue: Issue 36
-<<<<<<< Updated upstream
 
-=======
-genre: crime
-author: Steve Boseley
->>>>>>> Stashed changes
+genres:
+- crime
 authors:
 - Steve Boseley
 copyright: '© Steve Boseley 2023 All Rights Reserved.'

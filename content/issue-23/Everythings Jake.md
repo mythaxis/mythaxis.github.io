@@ -2,12 +2,9 @@
 title: "Everything's Jake"
 date: 2020-08-23
 issue: Issue 23
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction,
-author: Chris Cook
->>>>>>> Stashed changes
+genres:
+- science fiction
 authors: 
 - Christopher Cook
 image: images/EverythingsJake.png
@@ -19,7 +16,6 @@ description: They say "Always leave them wanting more", and we think the final s
 type: stock
 slug: everythings-jake
 weight: 11
-genre: "scifo"
 
 morelink: 'MORE LINK'
 ---

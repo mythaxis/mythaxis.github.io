@@ -2,12 +2,9 @@
 title: "The School for the Hopeless and Forgotten"
 date: 2022-09-12
 issue: Issue 31
-<<<<<<< Updated upstream
 
-=======
-genre: fantasy
-author: Anna Zumbro
->>>>>>> Stashed changes
+genres:
+- fantasy
 authors:
 - Anna Zumbro
 copyright: '© Anna Zumbro 2022 All Rights Reserved'

@@ -2,12 +2,9 @@
 title: "The Gourmets"
 date: 2022-09-12
 issue: Issue 31
-<<<<<<< Updated upstream
 
-=======
-genre: fantasy
-author: Jeff Reynolds
->>>>>>> Stashed changes
+genres:
+- fantasy
 authors:
 - Jeff Reynolds
 copyright: '© Jeff Reynolds 2022 All Rights Reserved'

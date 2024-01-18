@@ -2,12 +2,9 @@
 title: "Jinny Greenteeth"
 date: 2022-12-19
 issue: Issue 32
-<<<<<<< Updated upstream
 
-=======
-genre: horror
-author: Cathy Bryant
->>>>>>> Stashed changes
+genres:
+- horror
 authors:
 - Cathy Bryant
 copyright: '© Cathy Bryant 2022 All Rights Reserved'

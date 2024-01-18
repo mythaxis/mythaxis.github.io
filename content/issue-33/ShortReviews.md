@@ -2,12 +2,9 @@
 title: "Short Reviews – January to March"
 date: 2023-04-04
 issue: Issue 33
-<<<<<<< Updated upstream
 
-=======
-genre: review
-author: Andrew Leon Hudson
->>>>>>> Stashed changes
+genres:
+- review
 authors:
 - Andrew Leon Hudson
 copyright: '© Andrew Leon Hudson 2023 All Rights Reserved'

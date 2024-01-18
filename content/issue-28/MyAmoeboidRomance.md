@@ -2,12 +2,9 @@
 title: "My Amoeboid Romance"
 date: 2021-12-20
 issue: Issue 28
-<<<<<<< Updated upstream
 
-=======
-genre: slipstream
-author: Hermester Barrington
->>>>>>> Stashed changes
+genres:
+- slipstream
 authors:
 - Hermester Barrington
 copyright: '© Hermester Barrington 2021 All Rights Reserved'

@@ -2,12 +2,9 @@
 title: "JohnBear, Janine, and I"
 date: 2022-12-19
 issue: Issue 32
-<<<<<<< Updated upstream
 
-=======
-genre: fantasy
-author: Hermester Barrington
->>>>>>> Stashed changes
+genres:
+- fantasy
 authors:
 - Hermester Barrington
 copyright: '© Hermester Barrington 2022 All Rights Reserved'

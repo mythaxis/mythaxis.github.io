@@ -2,12 +2,9 @@
 title: "Default"
 date: 2023-09-30
 issue: Issue 35
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction
-author: Elin Olausson
->>>>>>> Stashed changes
+genres:
+- science fiction
 authors:
 - Elin Olausson
 copyright: '© Elin Olausson 2023 All Rights Reserved'

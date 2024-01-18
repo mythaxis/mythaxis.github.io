@@ -2,12 +2,11 @@
 title: "Stranded at the Station"
 date: 2020-12-15
 issue: Issue 24
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction, fantasy, romance
-author: Trisha McKee
->>>>>>> Stashed changes
+genres:
+- science fiction
+- fantasy
+- romance
 authors:
 - Trisha McKee
 copyright: '© Trisha McKee 2020 All Rights Reserved'
