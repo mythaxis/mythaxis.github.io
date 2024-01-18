@@ -2,7 +2,12 @@
 title: "First Breath"
 date: 2020-12-15
 issue: Issue 24
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction
+author: Addison Smith
+>>>>>>> Stashed changes
 authors:
 - Addison Smith
 copyright: '© Addison Smith 2020 All Rights Reserved'

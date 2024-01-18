@@ -2,7 +2,12 @@
 title: "Fungi & Phantoms: Ghost Music, by An Yu"
 date: 2023-09-30
 issue: Issue 35
+<<<<<<< Updated upstream
 
+=======
+genre: review
+author: Mattia Ravasi
+>>>>>>> Stashed changes
 authors:
 - Mattia Ravasi
 copyright: '© Mattia Ravasi 2023 All Rights Reserved'

@@ -2,7 +2,12 @@
 title: "Nighthawks"
 date: 2022-09-12
 issue: Issue 31
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction
+author: Si Wang
+>>>>>>> Stashed changes
 authors:
 - Si Wang
 copyright: '© Si Wang 2022 All Rights Reserved.'

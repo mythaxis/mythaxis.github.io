@@ -2,7 +2,12 @@
 title: "Atmoboarders!"
 date: 2021-06-30
 issue: Issue 26
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction
+author: Martin Zeigler
+>>>>>>> Stashed changes
 authors:
 - Martin Zeigler
 copyright: '© Martin Zeigler 2021 All Rights Reserved'

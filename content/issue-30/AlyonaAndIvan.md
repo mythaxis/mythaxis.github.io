@@ -2,7 +2,12 @@
 title: "Alonya and Ivan"
 date: 2022-06-18
 issue: Issue 30
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction, horror
+author: Elana Gomel
+>>>>>>> Stashed changes
 authors:
 - Elana Gomel
 copyright: '© Elana Gomel 2022 All Rights Reserved'

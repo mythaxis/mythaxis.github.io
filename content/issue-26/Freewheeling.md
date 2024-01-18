@@ -2,7 +2,12 @@
 title: "Freewheeling"
 date: 2021-06-30
 issue: Issue 26
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction, post-apocalyptic
+author: Annie Percik
+>>>>>>> Stashed changes
 authors:
 - Annie Percik
 copyright: '© Annie Percik 2021 All Rights Reserved'

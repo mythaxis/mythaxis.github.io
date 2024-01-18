@@ -2,7 +2,12 @@
 title: "Snow Over Interstate 80"
 date: 2020-12-15
 issue: Issue 24
+<<<<<<< Updated upstream
 
+=======
+genre: fantasy, crime
+author: Martin M. Clark
+>>>>>>> Stashed changes
 authors:
 - Martin M. Clark
 copyright: '© Martin M. Clark 2020 All Rights Reserved'

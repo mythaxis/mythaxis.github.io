@@ -2,7 +2,7 @@
 title: "Editorial"
 date: 2023-12-21
 issue: Issue 36
-
+genre: editorial
 authors:
 - Andrew Leon Hudson
 

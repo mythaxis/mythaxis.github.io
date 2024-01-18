@@ -2,7 +2,12 @@
 title: "E Pluribus Unum"
 date: 2021-12-20
 issue: Issue 28
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction
+author: Mame Bougouma Diene
+>>>>>>> Stashed changes
 authors:
 - Mame Bougouma Diene
 copyright: '© Mame Bougouma Diene 2021 All Rights Reserved'

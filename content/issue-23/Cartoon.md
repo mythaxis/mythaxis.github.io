@@ -2,7 +2,12 @@
 title: "Cartoon"
 date: 2020-08-23
 issue: Issue 23
+<<<<<<< Updated upstream
 
+=======
+genre: non-fiction
+author: Liam Baldwin
+>>>>>>> Stashed changes
 authors:
 - Liam Baldwin
 copyright: "© Liam Baldwin 2020 All Rights Reserved"

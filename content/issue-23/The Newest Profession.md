@@ -2,7 +2,12 @@
 title: "The Newest Profession"
 date: 2020-08-23
 issue: Issue 23
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction
+author: Anya Josephs
+>>>>>>> Stashed changes
 authors:
 - Anya Josephs
 copyright: "© Anya Josephs 2020 All Rights Reserved"
@@ -56,7 +61,7 @@ She doesn’t even stop to think about what this mysterious message could mean, 
 
 > *Hi Danelle!*
 >
-> ​*So great to hear from you—and I couldn’t be more excited! When can I come in?*
+> *So great to hear from you—and I couldn’t be more excited! When can I come in?*
 
 
 Before she’s finished her episode of *Fashion Fights,* she has an answer.

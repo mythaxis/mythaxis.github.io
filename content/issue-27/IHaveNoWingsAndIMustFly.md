@@ -2,7 +2,12 @@
 title: "I Have No Wings and I Must Fly"
 date: 2021-09-15
 issue: Issue 27
+<<<<<<< Updated upstream
 
+=======
+genre: slipstream
+author: Kyle E. Miller
+>>>>>>> Stashed changes
 authors:
 - Kyle E. Miller
 copyright: '© Kyle E. Miller 2021 All Rights Reserved'

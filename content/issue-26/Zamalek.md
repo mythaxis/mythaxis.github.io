@@ -2,7 +2,12 @@
 title: "Zamalek, by the Evening Light"
 date: 2021-06-30
 issue: Issue 26
+<<<<<<< Updated upstream
 
+=======
+genre: fantasy
+author: Mike Adamson
+>>>>>>> Stashed changes
 authors:
 - Mike Adamson
 copyright: '© Mike Adamson 2021 All Rights Reserved.'

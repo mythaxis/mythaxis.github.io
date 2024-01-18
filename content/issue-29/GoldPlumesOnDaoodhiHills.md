@@ -2,7 +2,12 @@
 title: "Gold Plumes on Daoodhi Hills"
 date: 2022-03-27
 issue: Issue 29
+<<<<<<< Updated upstream
 
+=======
+genre: slipstream
+author: Mandira Pattnaik
+>>>>>>> Stashed changes
 authors:
 - Mandira Pattnaik
 copyright: '© Mandira Pattnaik 2022 All Rights Reserved'

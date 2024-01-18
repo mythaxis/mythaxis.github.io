@@ -2,7 +2,12 @@
 title: "Unincorporated"
 date: 2022-03-27
 issue: Issue 29
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction, dystopia
+author: Erik Mann
+>>>>>>> Stashed changes
 authors:
 - Erik Mann
 copyright: '© Erik Mann 2022 All Rights Reserved'
