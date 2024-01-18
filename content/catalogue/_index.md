@@ -1,4 +1,5 @@
 ---
+# Catalogue is a section listing page
 layout: catalogue
 type: list
 title: "Catalogue"
