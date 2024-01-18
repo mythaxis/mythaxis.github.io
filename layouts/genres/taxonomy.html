@@ -74,10 +74,35 @@
             <header class="major">
               <img src="{{ "/images/toplist.svg" | safeURL }}" />
               <h1>{{ .Title }}</h1>
-              <p>{{ len $authorIndex }} sdfs{{ .Description }}</p>
+              <p>{{ len $authorIndex }} {{ .Description }}</p>
             </header>
             {{ partial "catalogue-nav" . }}
             {{ .Content }}
+
+
+dddd
+
+{{ $taxo := "genres" }}
+<ul class="{{ $taxo }}">
+  {{ with ($.Site.GetPage (printf "/%s" $taxo)) }}
+    {{ range .Pages }}
+      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+    {{ end }}
+  {{ end }}
+</ul>
+
+ddd
+
+<ul>
+  {{ range .Site.Taxonomies.genres }}
+    <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
+  {{ end }}
+</ul>
+
+Num genres: {{ len .Site.Taxonomies.genres }}
+<br/>
+dddd
+
 
             <table>
               <thead>

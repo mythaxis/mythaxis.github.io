@@ -1,4 +1,5 @@
 ---
+# Authors is a site taxonomy.
 layout: authors
 title: "Author index"
 description: Authors sorted by surname

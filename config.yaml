@@ -12,6 +12,7 @@ googleanalytics: 'G-HLLJQL5J00'
 disqusShortname: ''
 disableKinds:
   - RSS
+  - terms
 languages:
   en:
     languageName: English
