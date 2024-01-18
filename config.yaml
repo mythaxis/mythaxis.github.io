@@ -24,7 +24,7 @@ taxonomies:
   issue: issues
   author: authors
   category: categories
-  # genre: genres
+  genre: genres
   # tag: tags
 
 
