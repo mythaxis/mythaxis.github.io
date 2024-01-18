@@ -2,7 +2,12 @@
 title: "Unknown Ancestry"
 date: 2021-03-15
 issue: Issue 25
+<<<<<<< Updated upstream
 
+=======
+genre: horror
+author: T. M. Morgan
+>>>>>>> Stashed changes
 authors:
 - T. M. Morgan
 copyright: '© T. M. Morgan 2021 All Rights Reserved'

@@ -2,7 +2,12 @@
 title: "The Cat and the Cosmic Horror"
 date: 2021-03-15
 issue: Issue 25
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction, fantasy, horror
+author: Pritesh Patil and Percy Wadiwala
+>>>>>>> Stashed changes
 authors:
 - Pritesh Patil and Percy Wadiwala
 copyright: '© Pritesh Patil and Percy Wadiwala 2021 All Rights Reserved'

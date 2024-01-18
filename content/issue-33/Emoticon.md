@@ -2,7 +2,12 @@
 title: "Emoticon"
 date: 2023-04-01
 issue: Issue 33
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction
+author: Barry Charman
+>>>>>>> Stashed changes
 authors:
 - Barry Charman
 copyright: '© Barry Charman 2023 All Rights Reserved'

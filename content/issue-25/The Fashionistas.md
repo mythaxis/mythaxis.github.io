@@ -2,7 +2,12 @@
 title: "The Fashionistas"
 date: 2021-03-15
 issue: Issue 25
+<<<<<<< Updated upstream
 
+=======
+genre: fantasy, horror
+author: Gregory L. Norris
+>>>>>>> Stashed changes
 authors:
 - Gregory L. Norris
 copyright: '© Gregory L. Norris 2021 All Rights Reserved'

@@ -2,7 +2,12 @@
 title: "Fly Away, Peter"
 date: 2021-12-20
 issue: Issue 28
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction, fantasy
+author: J. Livermore
+>>>>>>> Stashed changes
 authors:
 - J. Livermore
 copyright: '© J. Livermore 2021 All Rights Reserved'

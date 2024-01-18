@@ -2,7 +2,12 @@
 title: "Comfort Zone"
 date: 2021-03-15
 issue: Issue 25
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction, crime
+author: KC Grifant
+>>>>>>> Stashed changes
 authors:
 - KC Grifant
 copyright: '© KC Grifant 2021 All Rights Reserved'

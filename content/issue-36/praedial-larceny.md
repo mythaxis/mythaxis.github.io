@@ -2,7 +2,12 @@
 title: "Praedial Larceny"
 date: 2023-12-21
 issue: Issue 36
+<<<<<<< Updated upstream
 
+=======
+genre: crime
+author: Wayne McCray
+>>>>>>> Stashed changes
 authors:
 - Wayne McCray
 copyright: '© Wayne McCray 2023 All Rights Reserved'

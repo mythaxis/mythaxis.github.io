@@ -2,7 +2,7 @@
 title: "Editorial"
 date: 2022-12-19
 issue: Issue 32
-
+genre: editorial
 authors:
 - Andrew Leon Hudson
 

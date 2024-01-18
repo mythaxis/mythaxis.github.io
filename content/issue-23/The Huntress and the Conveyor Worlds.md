@@ -2,7 +2,12 @@
 title: "The Huntress and the Conveyor Worlds"
 date: 2020-08-23
 issue: Issue 23
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction, fantasy
+author: Daniel Ausema
+>>>>>>> Stashed changes
 authors:
 - Daniel Ausema
 image: images/HuntressConveyor.png

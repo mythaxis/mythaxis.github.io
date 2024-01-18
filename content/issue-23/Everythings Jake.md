@@ -2,7 +2,12 @@
 title: "Everything's Jake"
 date: 2020-08-23
 issue: Issue 23
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction,
+author: Chris Cook
+>>>>>>> Stashed changes
 authors: 
 - Christopher Cook
 image: images/EverythingsJake.png

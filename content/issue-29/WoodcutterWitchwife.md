@@ -2,7 +2,12 @@
 title: "The Woodcutter and the Witchwife"
 date: 2022-03-27
 issue: Issue 29
+<<<<<<< Updated upstream
 
+=======
+genre: fantasy
+author: Owen G. Tabard
+>>>>>>> Stashed changes
 authors:
 - Owen G. Tabard
 copyright: '© Owen G. Tabard 2022 All Rights Reserved'

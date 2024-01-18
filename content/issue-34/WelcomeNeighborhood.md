@@ -2,7 +2,12 @@
 title: "Welcome to the Neighborhood"
 date: 2023-06-30
 issue: Issue 34
+<<<<<<< Updated upstream
 
+=======
+genre: fantasy
+author: Rebecca Birch
+>>>>>>> Stashed changes
 authors:
 - Rebecca Birch
 copyright: '© Rebecca Birch 2023 All Rights Reserved'
