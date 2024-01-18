@@ -2,7 +2,12 @@
 title: "The Broken Bones of Summer"
 date: 2023-09-30
 issue: Issue 35
+<<<<<<< Updated upstream
 
+=======
+genre: fantasy
+author: Xan van Rooyen
+>>>>>>> Stashed changes
 authors:
 - Xan van Rooyen
 copyright: '© Xan van Rooyen 2023 All Rights Reserved'

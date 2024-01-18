@@ -2,7 +2,12 @@
 title: "Intercalary Time"
 date: 2022-06-18
 issue: Issue 30
+<<<<<<< Updated upstream
 
+=======
+genre: slipstream
+author: Thorin N. Tatge
+>>>>>>> Stashed changes
 authors:
 - Thorin N. Tatge
 copyright: '© Thorin N. Tatge 2022 All Rights Reserved'

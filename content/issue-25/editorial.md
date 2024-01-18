@@ -2,7 +2,7 @@
 title: "Editorial"
 date: 2020-03-15
 issue: Issue 25
-
+genre: editorial
 authors:
 - Andrew Leon Hudson
 

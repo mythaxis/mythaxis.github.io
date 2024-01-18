@@ -2,7 +2,12 @@
 title: "Harryette, Brick’d, Belov’d"
 date: 2021-09-15
 issue: Issue 27
+<<<<<<< Updated upstream
 
+=======
+genre: fantasy, romance
+author: Daniel Rabuzzi
+>>>>>>> Stashed changes
 authors:
 - Daniel Rabuzzi
 copyright: '© Daniel Rabuzzi 2021 All Rights Reserved.'

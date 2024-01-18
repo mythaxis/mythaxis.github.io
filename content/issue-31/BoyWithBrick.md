@@ -2,7 +2,12 @@
 title: "Boy with Brick"
 date: 2022-09-12
 issue: Issue 31
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction
+author: Sydney Sackett
+>>>>>>> Stashed changes
 authors:
 - Sydney Sackett
 copyright: '© Sydney Sackett 2022 All Rights Reserved'

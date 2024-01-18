@@ -2,7 +2,12 @@
 title: "Grotesquerie, by Richard Gavin"
 date: 2023-06-30
 issue: Issue 34
+<<<<<<< Updated upstream
 
+=======
+genre: review
+author: Bill Ryan
+>>>>>>> Stashed changes
 authors:
 - Bill Ryan
 copyright: '© Bill Ryan 2023 All Rights Reserved'

@@ -2,7 +2,12 @@
 title: "Le Petit Cornichon"
 date: 2023-12-21
 issue: Issue 36
+<<<<<<< Updated upstream
 
+=======
+genre: crime
+author: L Swartz
+>>>>>>> Stashed changes
 authors:
 - L Swartz
 copyright: '© L Swartz 2023 All Rights Reserved'

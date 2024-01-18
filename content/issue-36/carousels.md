@@ -2,7 +2,12 @@
 title: "Carousel's"
 date: 2023-12-21
 issue: Issue 36
+<<<<<<< Updated upstream
 
+=======
+genre: crime
+author: Shaun Anthony McMichael
+>>>>>>> Stashed changes
 authors:
 - Shaun Anthony McMichael
 copyright: '© Shaun Anthony McMichael 2023 All Rights Reserved'

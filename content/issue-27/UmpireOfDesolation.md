@@ -2,7 +2,12 @@
 title: "Umpire of Desolation"
 date: 2021-09-15
 issue: Issue 27
+<<<<<<< Updated upstream
 
+=======
+genre: horror
+author: Hannah Hulbert
+>>>>>>> Stashed changes
 authors:
 - Hannah Hulbert
 copyright: '© Hannah Hulbert 2021 All Rights Reserved'

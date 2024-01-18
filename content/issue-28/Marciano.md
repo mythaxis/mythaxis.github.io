@@ -2,7 +2,12 @@
 title: "Marciano"
 date: 2021-12-20
 issue: Issue 28
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction
+author: Charlotte H. Lee
+>>>>>>> Stashed changes
 authors:
 - Charlotte H. Lee
 copyright: '© Charlotte H. Lee 2021 All Rights Reserved'

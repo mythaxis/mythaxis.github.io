@@ -2,7 +2,12 @@
 title: "Full Metal Grandma"
 date: 2021-09-15
 issue: Issue 27
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction, post-apocalyptic
+author: Paul Alex Gray
+>>>>>>> Stashed changes
 authors:
 - Paul Alex Gray
 copyright: '© Paul Alex Gray 2021 All Rights Reserved'

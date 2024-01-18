@@ -2,7 +2,12 @@
 title: "Cuffs, Padlocks, and a Splattering of Nail Polish"
 date: 2021-12-20
 issue: Issue 28
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction
+author: Uchechukwu Nwaka
+>>>>>>> Stashed changes
 authors:
 - Uchechukwu Nwaka
 copyright: '© Uchechukwu Nwaka 2021 All Rights Reserved'

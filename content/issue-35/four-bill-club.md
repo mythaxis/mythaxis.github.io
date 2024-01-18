@@ -2,7 +2,12 @@
 title: "The Four Bill Club"
 date: 2023-09-30
 issue: Issue 35
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction, crime
+author: Donald McCarthy
+>>>>>>> Stashed changes
 authors:
 - Donald McCarthy
 copyright: '© Donald McCarthy 2023 All Rights Reserved.'

@@ -2,7 +2,12 @@
 title: "Robots of Paris"
 date: 2020-08-23
 issue: Issue 23
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction, dystopia
+author: Andrea Kriz
+>>>>>>> Stashed changes
 authors:
 - Andrea Kriz
 image: images/RobotsParis.png

@@ -2,7 +2,12 @@
 title: "The Enchanters, by James Ellroy"
 date: 2023-12-21
 issue: Issue 36
+<<<<<<< Updated upstream
 
+=======
+genre: review
+author: Bill Ryan
+>>>>>>> Stashed changes
 authors:
 - Bill Ryan
 copyright: '© Bill Ryan 2023 All Rights Reserved'

@@ -2,7 +2,12 @@
 title: "Weapons of Mass Entanglement"
 date: 2020-08-23
 issue: Issue 23
+<<<<<<< Updated upstream
 
+=======
+genre: slipstream
+author: Dennis Mombauer
+>>>>>>> Stashed changes
 authors:
 - Dennis Mombauer
 copyright: "© Dennis Mombauer 2020 All Rights Reserved"

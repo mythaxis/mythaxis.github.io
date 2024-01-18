@@ -2,7 +2,12 @@
 title: "Voyager"
 date: 2021-06-30
 issue: Issue 26
+<<<<<<< Updated upstream
 
+=======
+genre: slipstream
+author: Amanda C. Crowley
+>>>>>>> Stashed changes
 authors:
 - Amanda C. Crowley
 copyright: '© Amanda C. Crowley 2021 All Rights Reserved'

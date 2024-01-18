@@ -2,7 +2,12 @@
 title: "Greg: Not a People Person"
 date: 2023-04-01
 issue: Issue 33
+<<<<<<< Updated upstream
 
+=======
+genre: crime
+author: L.P. Ring
+>>>>>>> Stashed changes
 authors:
 - L.P. Ring
 copyright: '© L.P. Ring 2023 All Rights Reserved'

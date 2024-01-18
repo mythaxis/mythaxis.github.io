@@ -2,7 +2,12 @@
 title: "Short Reviews – Crime Fiction in 2023"
 date: 2023-12-21
 issue: Issue 36
+<<<<<<< Updated upstream
 
+=======
+genre: review
+author: Andrew Leon Hudson
+>>>>>>> Stashed changes
 authors:
 - Andrew Leon Hudson
 copyright: '© Andrew Leon Hudson 2023 All Rights Reserved'

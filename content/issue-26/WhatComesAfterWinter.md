@@ -2,7 +2,12 @@
 title: "What Comes After Winter"
 date: 2021-06-30
 issue: Issue 26
+<<<<<<< Updated upstream
 
+=======
+genre: fantasy
+author: Kurt Hunt
+>>>>>>> Stashed changes
 authors:
 - Kurt Hunt
 copyright: '© Kurt Hunt 2021 All Rights Reserved'

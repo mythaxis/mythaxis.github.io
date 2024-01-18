@@ -2,7 +2,12 @@
 title: "Into the Darkness"
 date: 2020-12-15
 issue: Issue 24
+<<<<<<< Updated upstream
 
+=======
+genre: fantasy
+author: Lee F. Patrick
+>>>>>>> Stashed changes
 authors:
 - Lee F. Patrick
 copyright: '© Lee F. Patrick 2020 All Rights Reserved'

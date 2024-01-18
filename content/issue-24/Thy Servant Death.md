@@ -2,7 +2,12 @@
 title: "Thy Servant, Death"
 date: 2020-12-15
 issue: Issue 24
+<<<<<<< Updated upstream
 
+=======
+genre: fantasy, gothic
+author: Scott J. Couturier
+>>>>>>> Stashed changes
 authors:
 - Scott J. Couturier
 copyright: '© Scott J. Couturier 2020 All Rights Reserved'
