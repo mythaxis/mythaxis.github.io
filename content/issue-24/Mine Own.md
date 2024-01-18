@@ -2,7 +2,12 @@
 title: "Mine Own"
 date: 2020-12-15
 issue: Issue 24
+<<<<<<< Updated upstream
 
+=======
+genre: fantasy
+author: Sharon Dawn Selby
+>>>>>>> Stashed changes
 authors:
 - Sharon Dawn Selby
 copyright: '© Sharon Dawn Selby 2020 All Rights Reserved'

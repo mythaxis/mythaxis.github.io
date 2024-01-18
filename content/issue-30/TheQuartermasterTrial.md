@@ -2,7 +2,12 @@
 title: "The Quartermaster Trial"
 date: 2022-06-18
 issue: Issue 30
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction, fantasy
+author: Daniel Ausema
+>>>>>>> Stashed changes
 authors:
 - Daniel Ausema
 copyright: '© Daniel Ausema 2022 All Rights Reserved'

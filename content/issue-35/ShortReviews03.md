@@ -2,7 +2,12 @@
 title: "Short Reviews – July to September"
 date: 2023-09-30
 issue: Issue 35
+<<<<<<< Updated upstream
 
+=======
+genre: review
+author: Andrew Leon Hudson
+>>>>>>> Stashed changes
 authors:
 - Andrew Leon Hudson
 copyright: '© Andrew Leon Hudson 2023 All Rights Reserved'

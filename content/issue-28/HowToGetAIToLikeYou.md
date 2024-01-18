@@ -2,7 +2,12 @@
 title: "How to Get AI to Like You"
 date: 2021-12-20
 issue: Issue 28
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction
+author: Aaron Emmel
+>>>>>>> Stashed changes
 authors:
 - Aaron Emmel
 copyright: '© Aaron Emmel 2021 All Rights Reserved.'

@@ -2,7 +2,12 @@
 title: "My Beloved is Mine"
 date: 2023-06-30
 issue: Issue 34
+<<<<<<< Updated upstream
 
+=======
+genre: horror
+author: Jude Clee
+>>>>>>> Stashed changes
 authors:
 - Jude Clee
 copyright: '© Jude Clee 2023 All Rights Reserved'

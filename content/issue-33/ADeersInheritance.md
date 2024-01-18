@@ -2,7 +2,12 @@
 title: "A Deer's Inheritance"
 date: 2023-04-01
 issue: Issue 33
+<<<<<<< Updated upstream
 
+=======
+genre: slipstream
+author: C. Owen Loftus
+>>>>>>> Stashed changes
 authors:
 - C. Owen Loftus
 copyright: '© C. Owen Loftus 2023 All Rights Reserved'

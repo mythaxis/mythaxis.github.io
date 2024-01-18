@@ -2,7 +2,12 @@
 title: "Noise"
 date: 2021-06-30
 issue: Issue 26
+<<<<<<< Updated upstream
 
+=======
+genre: science fiction
+author: Owen Leddy
+>>>>>>> Stashed changes
 authors:
 - Owen Leddy
 copyright: '© Owen Leddy 2021 All Rights Reserved'

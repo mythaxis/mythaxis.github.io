@@ -2,7 +2,12 @@
 title: "A Curse at Midnight"
 date: 2020-08-23
 issue: Issue 23
+<<<<<<< Updated upstream
 
+=======
+genre: fantasy, horror
+author: Moustapha Mbacké Diop
+>>>>>>> Stashed changes
 authors:
 - Moustapha Mbacké Diop
 image: images/CurseMidnight.png

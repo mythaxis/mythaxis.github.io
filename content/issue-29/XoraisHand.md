@@ -2,7 +2,12 @@
 title: "Xorai’s Hand"
 date: 2022-03-27
 issue: Issue 29
+<<<<<<< Updated upstream
 
+=======
+genre: fantasy
+author: Celine Low
+>>>>>>> Stashed changes
 authors:
 - Celine Low
 copyright: '© Celine Low 2022 All Rights Reserved.'

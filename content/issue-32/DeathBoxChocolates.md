@@ -2,7 +2,12 @@
 title: "Death is Like a Box of Chocolates"
 date: 2022-12-19
 issue: Issue 32
+<<<<<<< Updated upstream
 
+=======
+genre: fantasy
+author: Fraser Sherman
+>>>>>>> Stashed changes
 authors:
 - Fraser Sherman
 copyright: '© Fraser Sherman 2022 All Rights Reserved.'

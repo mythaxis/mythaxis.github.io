@@ -2,7 +2,12 @@
 title: "An Interview with Francesco Verso"
 date: 2023-06-30
 issue: Issue 34
+<<<<<<< Updated upstream
 
+=======
+genre: non-fiction
+author: Andrew Leon Hudson
+>>>>>>> Stashed changes
 authors:
 - Andrew Leon Hudson
 copyright: '© Andrew Leon Hudson 2023 All Rights Reserved'

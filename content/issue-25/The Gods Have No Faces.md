@@ -2,7 +2,12 @@
 title: "The Gods Have No Faces"
 date: 2021-03-15
 issue: Issue 25
+<<<<<<< Updated upstream
 
+=======
+genre: slipstream
+author: Subodhana Wijeyeratne
+>>>>>>> Stashed changes
 authors:
 - Subodhana Wijeyeratne
 copyright: '© Subodhana Wijeyeratne 2021 All Rights Reserved'
