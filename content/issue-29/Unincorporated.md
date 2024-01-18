@@ -4,7 +4,8 @@ date: 2022-03-27
 issue: Issue 29
 
 genres:
-- science fiction, dystopia
+- science fiction
+- dystopia
 authors:
 - Erik Mann
 copyright: '© Erik Mann 2022 All Rights Reserved'

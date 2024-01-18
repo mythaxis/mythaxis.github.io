@@ -3,6 +3,7 @@
   the xway back catalogue, presenting the results as a browsable index of genres.
 */}}
 {{ $genreIndex := slice }}
+{{ $ignoreGenres := slice "editorial" "review" }}
 {{ $genreTaxonomy := .Site.Taxonomies.genres }}
 {{ $xway2metadata := where (index .Site.Data "xway2metadata") "genre" "ne" nil }}
 
@@ -14,7 +15,7 @@
 {{ range $xway2metadata }}
   {{ $allGenres = $allGenres | append .genre }}
 {{ end }}
-{{ $allGenres = $allGenres | uniq}}
+{{ $allGenres = complement $ignoreGenres $allGenres | uniq }}
 
 
 {{/* Build the genre dictionary and load it up with the stories. */}}
@@ -67,11 +68,11 @@
             {{ partial "catalogue-nav" . }}
             {{ .Content }}
 
-
-allgenres
-{{ $allGenres }}
-
-
+            <p class="align-center"><
+            {{ range $key, $value := $allGenres }}
+              <a href='#{{ . }}'>{{ . | strings.Title }}</a>{{ if ne $key (sub (len $allGenres) 1) }} | {{ else }}{{ end }}
+            {{ end }}>
+            </p>
 
             {{ range $genre, $items := $genreIndex }}
             <h2 id="{{ $genre }}">{{ $genre | strings.Title }} ({{ len $items }})</h2>
