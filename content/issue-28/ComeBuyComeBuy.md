@@ -2,12 +2,9 @@
 title: "Come Buy, Come Buy"
 date: 2021-12-20
 issue: Issue 28
-<<<<<<< Updated upstream
 
-=======
-genre: fantasy
-author: E. Saxey
->>>>>>> Stashed changes
+genres:
+- fantasy
 authors:
 - E. Saxey
 copyright: '© E. Saxey 2021 All Rights Reserved'

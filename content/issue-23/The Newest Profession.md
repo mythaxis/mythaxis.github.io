@@ -2,12 +2,9 @@
 title: "The Newest Profession"
 date: 2020-08-23
 issue: Issue 23
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction
-author: Anya Josephs
->>>>>>> Stashed changes
+genres:
+- science fiction
 authors:
 - Anya Josephs
 copyright: "© Anya Josephs 2020 All Rights Reserved"

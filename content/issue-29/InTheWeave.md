@@ -2,12 +2,9 @@
 title: "In The Weave"
 date: 2022-03-27
 issue: Issue 28
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction
-author: David Whitmarsh
->>>>>>> Stashed changes
+genres:
+- science fiction
 authors:
 - David Whitmarsh
 copyright: '© David Whitmarsh 2022 All Rights Reserved'

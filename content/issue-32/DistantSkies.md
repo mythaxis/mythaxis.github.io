@@ -2,12 +2,9 @@
 title: "Distant Skies"
 date: 2022-12-19
 issue: Issue 32
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction
-author: Charlotte Ashley
->>>>>>> Stashed changes
+genres:
+- science fiction
 authors:
 - Charlotte Ashley
 copyright: '© Charlotte Ashley 2016, 2022 All Rights Reserved'

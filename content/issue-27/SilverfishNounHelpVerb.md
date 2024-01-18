@@ -2,12 +2,9 @@
 title: "Silverfish, Noun; Help, Verb"
 date: 2021-09-15
 issue: Issue 27
-<<<<<<< Updated upstream
 
-=======
-genre: fantasy
-author: Gabrielle Bleu
->>>>>>> Stashed changes
+genres:
+- fantasy
 authors:
 - Gabrielle Bleu
 copyright: '© Gabrielle Bleu 2021 All Rights Reserved'

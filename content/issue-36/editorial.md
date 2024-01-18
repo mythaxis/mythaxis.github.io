@@ -2,12 +2,13 @@
 title: "Editorial"
 date: 2023-12-21
 issue: Issue 36
-genre: editorial
+
+genres:
+- editorial
 authors:
 - Andrew Leon Hudson
 
 image: images/Sanka_Coffee_mob.jpg
-
 imageCopyright: "**ISSUE 36** – ***Thanks and Salutations!***
 
 '*When the clock is ticking away the night – and you can't get to sleep – your nerves make you jump at every sound. You find yourself thinking things that would never occur to you in the daylight. What makes you so nervous and uneasy? And why couldn't you get to sleep when you first went to bed?'* It turns out the answer isn't insidious crime but insidious caffeine! The cover image is from an ad for decaffeinated [Sanka Coffee - Was that a burglar downstairs?](https://commons.wikimedia.org/wiki/File:Sanka_Coffee_-_Was_that_a_burglar_downstairs,_1948.jpg), painted in 1948 by [Fritz Siebel](https://en.wikipedia.org/wiki/Fritz_Siebel), more famous for his ['Someone Talked' WWII poster](https://en.wikipedia.org/wiki/Fritz_Siebel#/media/File:SOMEONE_TALKED_-_NARA_-_513672.jpg). Now out of copyright, this particular ad ran in the notorious crime publisher *Ladies' Home Journal*…"

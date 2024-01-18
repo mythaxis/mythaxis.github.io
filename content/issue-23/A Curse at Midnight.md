@@ -2,12 +2,10 @@
 title: "A Curse at Midnight"
 date: 2020-08-23
 issue: Issue 23
-<<<<<<< Updated upstream
 
-=======
-genre: fantasy, horror
-author: Moustapha Mbacké Diop
->>>>>>> Stashed changes
+genres:
+- fantasy
+- horror
 authors:
 - Moustapha Mbacké Diop
 image: images/CurseMidnight.png
@@ -19,7 +17,8 @@ description: "Afrofuturism is riding a wave of popularity around the world, but 
 type: stock
 slug: curse-midnight
 weight: 3
-genre: "fantasy"
+genres:
+- "fantasy"
 
 morelink: 'Look closer'
 ---

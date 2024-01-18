@@ -2,7 +2,9 @@
 title: "Editorial"
 date: 2022-03-27
 issue: Issue 29
-genre: editorial
+
+genres:
+- editorial
 authors:
 - Andrew Leon Hudson
 

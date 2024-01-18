@@ -2,12 +2,9 @@
 title: "Up and Down"
 date: 2022-12-19
 issue: Issue 32
-<<<<<<< Updated upstream
 
-=======
-genre: horror
-author: J. Siegal
->>>>>>> Stashed changes
+genres:
+- horror
 authors:
 - J. Siegal
 copyright: '© J. Siegal 2022 All Rights Reserved'

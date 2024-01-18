@@ -2,12 +2,10 @@
 title: "Sketches of Snoak City"
 date: 2021-06-30
 issue: Issue 26
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction, fantasy
-author: Les Sklaroff
->>>>>>> Stashed changes
+genres:
+- science fiction
+- fantasy
 authors:
 - Les Sklaroff
 copyright: '© Les Sklaroff 2012 - 2021 All Rights Reserved'

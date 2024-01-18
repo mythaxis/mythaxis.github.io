@@ -2,12 +2,9 @@
 title: "The Day the Shimm Stood Still"
 date: 2023-04-01
 issue: Issue 33
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction
-author: Andrew Jensen
->>>>>>> Stashed changes
+genres:
+- science fiction
 authors:
 - Andrew Jensen
 copyright: '© Andrew Jensen 2023 All Rights Reserved'

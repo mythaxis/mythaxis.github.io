@@ -2,12 +2,10 @@
 title: "Utopia is an Island"
 date: 2021-09-15
 issue: Issue 27
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction, dystopia
-author: Katie McIvor
->>>>>>> Stashed changes
+genres:
+- science fiction
+- dystopia
 authors:
 - Katie McIvor
 copyright: '© Katie McIvor 2021 All Rights Reserved'

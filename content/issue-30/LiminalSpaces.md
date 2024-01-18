@@ -2,12 +2,9 @@
 title: "Liminal Spaces"
 date: 2022-06-18
 issue: Issue 30
-<<<<<<< Updated upstream
 
-=======
-genre: slipstream
-author: David Farrow
->>>>>>> Stashed changes
+genres:
+- slipstream
 authors:
 - David Farrow
 copyright: '© David Farrow 2022 All Rights Reserved'

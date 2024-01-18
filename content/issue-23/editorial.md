@@ -3,12 +3,9 @@ title: "Editorial"
 date: 2020-08-23
 image: images/huy-tran-viet-green-field.jpg
 issue: Issue 23
-<<<<<<< Updated upstream
 
-=======
-genre: editorial
-author: Andrew Leon Hudson
->>>>>>> Stashed changes
+genres:
+- editorial
 authors:
 - Andrew Leon Hudson
 

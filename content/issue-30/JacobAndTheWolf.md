@@ -2,12 +2,10 @@
 title: "Jacob and the Wolf"
 date: 2022-06-18
 issue: Issue 30
-<<<<<<< Updated upstream
 
-=======
-genre: fantasy, horror
-author: Rina Song
->>>>>>> Stashed changes
+genres:
+- fantasy
+- horror
 authors:
 - Rina Song
 copyright: '© Rina Song 2022 All Rights Reserved.'

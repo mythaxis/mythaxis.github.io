@@ -2,12 +2,9 @@
 title: "Plague Rooster"
 date: 2021-03-15
 issue: Issue 25
-<<<<<<< Updated upstream
 
-=======
-genre: post-apocalyptic
-author: Micah Hyatt
->>>>>>> Stashed changes
+genres:
+- post-apocalyptic
 authors:
 - Micah Hyatt
 copyright: '© Micah Hyatt 2019 All Rights Reserved. Plague Rooster was originally published in Shock Totem #11, Shock Totem Publications.'

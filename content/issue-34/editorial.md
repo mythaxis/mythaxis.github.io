@@ -2,7 +2,9 @@
 title: "Editorial"
 date: 2023-06-30
 issue: Issue 34
-genre: editorial
+
+genres:
+- editorial
 authors:
 - Andrew Leon Hudson
 

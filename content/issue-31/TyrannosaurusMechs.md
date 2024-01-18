@@ -2,12 +2,9 @@
 title: "Tyrannosaurus Mechs"
 date: 2022-09-12
 issue: Issue 31
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction
-author: Gregory L. Norris
->>>>>>> Stashed changes
+genres:
+- science fiction
 authors:
 - Gregory L. Norris
 copyright: '© Gregory L. Norris 2022 All Rights Reserved'

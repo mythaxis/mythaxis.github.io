@@ -2,12 +2,9 @@
 title: "La Voix d'un Ange"
 date: 2023-09-30
 issue: Issue 35
-<<<<<<< Updated upstream
 
-=======
-genre: horror
-author: Kirk Bueckert
->>>>>>> Stashed changes
+genres:
+- horror
 authors:
 - Kirk Bueckert
 copyright: '© Kirk Bueckert 2023 All Rights Reserved'

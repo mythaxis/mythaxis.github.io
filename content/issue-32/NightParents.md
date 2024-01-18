@@ -2,12 +2,9 @@
 title: "The Night Parents"
 date: 2022-12-19
 issue: Issue 32
-<<<<<<< Updated upstream
 
-=======
-genre: horror
-author: Valerie Alexander
->>>>>>> Stashed changes
+genres:
+- horror
 authors:
 - Valerie Alexander
 copyright: '© Valerie Alexander 2022 All Rights Reserved'

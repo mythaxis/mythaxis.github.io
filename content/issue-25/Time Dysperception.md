@@ -2,12 +2,9 @@
 title: "Time Dysperception"
 date: 2021-03-15
 issue: Issue 25
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction
-author: Jack Mackenzie
->>>>>>> Stashed changes
+genres:
+- science fiction
 authors:
 - Jack Mackenzie
 copyright: '© Jack Mackenzie 2021 All Rights Reserved'

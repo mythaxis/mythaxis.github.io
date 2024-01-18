@@ -2,12 +2,9 @@
 title: "The Seed Man"
 date: 2021-09-15
 issue: Issue 27
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction
-author: Claire Scherzinger
->>>>>>> Stashed changes
+genres:
+- science fiction
 authors:
 - Claire Scherzinger
 copyright: '© Claire Scherzinger 2021 All Rights Reserved'

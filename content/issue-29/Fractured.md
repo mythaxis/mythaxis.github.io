@@ -2,12 +2,9 @@
 title: "Fractured"
 date: 2022-03-27
 issue: Issue 29
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction
-author: Gunnar De Winter
->>>>>>> Stashed changes
+genres:
+- science fiction
 authors:
 - Gunnar De Winter
 copyright: '© Gunnar De Winter 2022 All Rights Reserved'

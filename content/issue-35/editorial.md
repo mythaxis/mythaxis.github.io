@@ -2,12 +2,13 @@
 title: "Editorial"
 date: 2023-09-30
 issue: Issue 35
-genre: editorial
+
+genres:
+- editorial
 authors:
 - Andrew Leon Hudson
 
 image: images/Afro-futurism800.jpg
-
 imageCopyright: "**ISSUE 35** – ***Thanks and Salutations!***
 
 Many thanks to stellar human Lance Tooks for allowing us to use 'Afro-futurism' as our issue's cover! A New Yorker by birth, Madrileño by choice, as an illustrator Lance cut his teeth at Marvel before embarking for Spain and evolving its visual influences into a style all his own. You can see more of his work on [Instagram](https://www.instagram.com/lancetooks/) and (if you know where to look) in Madrid's Barrio de las Letras, where he'll be sketching the world as it walks by."

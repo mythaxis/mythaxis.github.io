@@ -2,12 +2,9 @@
 title: "A Grave of Wind and Leaves"
 date: 2021-09-15
 issue: Issue 27
-<<<<<<< Updated upstream
 
-=======
-genre: science fiction
-author: Jalyn Renae Fiske
->>>>>>> Stashed changes
+genres:
+- science fiction
 authors:
 - Jalyn Renae Fiske
 copyright: '© Jalyn Renae Fiske 2021 All Rights Reserved'

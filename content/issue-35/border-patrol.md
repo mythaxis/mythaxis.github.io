@@ -2,12 +2,9 @@
 title: "Border Patrol"
 date: 2023-09-30
 issue: Issue 35
-<<<<<<< Updated upstream
 
-=======
-genre: horror
-author: Don Mark Baldridge
->>>>>>> Stashed changes
+genres:
+- horror
 authors:
 - Don Mark Baldridge
 copyright: '© Don Mark Baldridge 2023 All Rights Reserved'

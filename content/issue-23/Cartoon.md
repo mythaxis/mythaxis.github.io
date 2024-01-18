@@ -2,12 +2,9 @@
 title: "Cartoon"
 date: 2020-08-23
 issue: Issue 23
-<<<<<<< Updated upstream
 
-=======
-genre: non-fiction
-author: Liam Baldwin
->>>>>>> Stashed changes
+genres:
+- non-fiction
 authors:
 - Liam Baldwin
 copyright: "© Liam Baldwin 2020 All Rights Reserved"
@@ -19,7 +16,8 @@ type: stock
 slug: cartoon
 featured: false
 weight: 7
-genre: "horror"
+genres:
+- "horror"
 
 morelink: 'I would'
 ---

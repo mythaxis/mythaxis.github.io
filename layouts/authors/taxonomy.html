@@ -25,24 +25,24 @@
   {{ $authStockItems := slice }}
   {{ range (where $pages "Params.authors" "intersect" (slice .)) }}
     {{ $item := dict
-      "Title" .Title
-      "RelPermalink" .RelPermalink
-      "Issue" .Params.issue
-      "Date" (.Date.Format "January 2006")
+      "title" .Title
+      "relurl" .RelPermalink
+      "issue" .Params.issue
+      "date" (.Date.Format "January 2006")
     }}
     {{ $authStockItems = $authStockItems | append $item }}
   {{ end }}
 
   {{ range (where $xway2metadata "author" "eq" .)  }}
     {{ $item := dict
-        "Title" .title
-        "RelPermalink" .relurl
-        "Issue" .issue
-        "Date" .date
+        "title" .title
+        "relurl" .relurl
+        "issue" .issue
+        "date" .date
     }}
     {{ $authStockItems = $authStockItems | append $item }} 
   {{ end }}
-  {{ $authStockItems = sort $authStockItems "Issue" "asc" "Title" "asc" }} 
+  {{ $authStockItems = sort $authStockItems "issue" "asc" "title" "asc" }} 
 
   {{/* Build author object and add to keyed author index */}}
   {{ $author := dict
@@ -92,7 +92,7 @@
                 <tr>
                   <td class="align-right">{{ .name }}</td>
                   <td>{{ range .stocklist }}
-                      <a href="{{ .RelPermalink | relURL }}">{{ .Title }}</a> ({{ .Date }})<br/>{{ end }}
+                      <a href="{{ .relurl | relURL }}">{{ .title }}</a> ({{ .date }})<br/>{{ end }}
                   </td>
                 </tr>  
                 {{ end }}

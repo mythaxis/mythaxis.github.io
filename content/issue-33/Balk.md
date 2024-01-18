@@ -2,12 +2,9 @@
 title: "Balk"
 date: 2023-04-01
 issue: Issue 33
-<<<<<<< Updated upstream
 
-=======
-genre: horror
-author: Lucy Zhang
->>>>>>> Stashed changes
+genres:
+- horror
 authors:
 - Lucy Zhang
 copyright: '© Lucy Zhang 2023 All Rights Reserved'

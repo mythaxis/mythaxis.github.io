@@ -2,12 +2,9 @@
 title: "Summer in Duncanny"
 date: 2023-12-21
 issue: Issue 36
-<<<<<<< Updated upstream
 
-=======
-genre: crime
-author: Peter Wynd
->>>>>>> Stashed changes
+genres:
+- crime
 authors:
 - Peter Wynd
 copyright: '© Peter Wynd 2023 All Rights Reserved'

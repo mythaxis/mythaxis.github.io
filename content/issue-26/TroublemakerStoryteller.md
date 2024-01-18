@@ -2,12 +2,9 @@
 title: "Troublemaker, Storyteller"
 date: 2021-06-30
 issue: Issue 26
-<<<<<<< Updated upstream
 
-=======
-genre: fantasy
-author: Jonathon Mast
->>>>>>> Stashed changes
+genres:
+- fantasy
 authors:
 - Jonathon Mast
 copyright: '© Jonathon Mast 2021 All Rights Reserved'

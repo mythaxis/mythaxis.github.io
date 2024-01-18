@@ -2,7 +2,9 @@
 title: "Editorial"
 date: 2020-09-15
 issue: Issue 27
-genre: editorial
+
+genres:
+- editorial
 authors:
 - Andrew Leon Hudson
 
