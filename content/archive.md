@@ -16,13 +16,19 @@ Here you will find a place for science fiction both hard and soft, fantasy both 
 
 ## Navigation Options
 
-Our complete story archives are now available to browse in a variety of ways:
+Our complete story archives are now available to browse in a variety of ways. Click the following to:
 
-- #### Search by [Author](./authors.html)
+- #### [Search by Author](./authors.html)
 
-- #### Search by [Title](./catalogue.html)
+- #### [Search by Title](./catalogue.html)
 
-- #### Search by [Genre](./genres.html)
+- #### [Search by Genre](./genres.html)
+
+#### [Search by Author](./authors.html)
+
+#### [Search by Title](./catalogue.html)
+
+#### [Search by Genre](./genres.html)
 
 You can also find a [listing of our editorials here](/editorials.html), though who would want to browse such a thing is unclear.
 
