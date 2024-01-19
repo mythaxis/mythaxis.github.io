@@ -8,9 +8,29 @@ slug: archive
 
 ---
 
+***Mythaxis Magazine*** has been seeking out quality writing since 2008. We aim to provide a mixture of  speculative fiction in classic and contemporary styles, free from the typical web trappings of click-hungry advertising, and forever free to read.
+
+Here you will find a place for science fiction both hard and soft, fantasy both high and low, horror both harsh and humorous, along with whatever mash-ups or sub-genres our contributors can conceive.
+
+
+
+## Navigation Options
+
+Our complete story archives are now available to browse in a variety of ways:
+
+- #### Search by [Author](./authors.html)
+
+- #### Search by [Title](./catalogue.html)
+
+- #### Search by [Genre](./genres.html)
+
+You can also find a [listing of our editorials here](/editorials.html), though who would want to browse such a thing is unclear.
+
 
 
 ## Back Issues
+
+Since 2020, ***Mythaxis Magazine*** has shifted to a quarterly release schedule with a shiny new design opened its doors to contributors from around the world. You can find our recent back issues here:
 
 - [Issue&nbsp;35: Autumn 2023]({{< relref "/issue-35/__index.md" >}})
 - [Issue&nbsp;34: Summer 2023]({{< relref "/issue-34/__index.md" >}})
@@ -26,20 +46,12 @@ slug: archive
 - [Issue&nbsp;24: Winter 2020]({{< relref "/issue-24/__index.md" >}})
 - [Issue&nbsp;23: Autumn 2020]({{< relref "/issue-23/__index.md" >}})
 
-Our complete story archives are also available via the [Stock catalogue](./catalogue.html), the [Authors index](./authors.html) and the [Genre listing](./genres.html). Additionally a complete [listing of all Editorals is here](/editorials.html).
 
 
-## Archives
 
-*Welcome to the Mythaxis Magazine Archive!*
+## The Original Archive
 
-Here you can find not only the more than one hundred-and-fifty pieces of fiction assembled by the magazine's founder, Gil Williamson, but we've also preserved the hand-coded format of the original zine as a lasting legacy of his varied talents.
-
-*Mythaxis Magazine* has been seeking out quality writing for over a decade. We aim to provide a mixture of classic- and contemporary-styled speculative fiction, free from the typical web trappings of click-hungry advertising.
-
-Here you will find a place for science fiction both hard and soft, fantasy both high and low, horror both harsh and humorous, along with whatever mash-ups or sub-genres can be conceived.
-
-We pay our authors what we can, and offer their stories to you forever free-to-read… enjoy!
+Finally, here you can find the more than one hundred-and-fifty pieces of fiction assembled by ***Mythaxis Magazine***'s founder, [Gil Williamson](issue-22/editorial.html). We've also preserved the hand-coded format of the original zine as a lasting legacy of his varied talents. Enjoy!
 
 - [Issue&nbsp;22: Apr 20](issue-22/index.html)
 - [Issue&nbsp;21: Feb 18](indexissuev21.htm)
