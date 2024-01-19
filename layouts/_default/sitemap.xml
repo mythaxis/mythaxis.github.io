@@ -1,10 +1,12 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  {{ range .Data.Pages }}
+
+{{/* Hide genres and authors, for self-control and person privacy, respectively. */}}
+  {{ range (where .Site.AllPages "Section" "not in" (slice "genres" "authors")) }}
     {{- if .Permalink -}}
   <url>
-    <loc>{{ .Permalink }}</loc>{{ if not .Lastmod.IsZero }}
+    <loc>{{ .RelPermalink }}</loc>{{ if not .Lastmod.IsZero }}
     <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>{{ end }}{{ with .Sitemap.ChangeFreq }}
     <changefreq>{{ . }}</changefreq>{{ end }}{{ if ge .Sitemap.Priority 0.0 }}
     <priority>{{ .Sitemap.Priority }}</priority>{{ end }}{{ if .IsTranslated }}{{ range .Translations }}
@@ -21,4 +23,14 @@
   </url>
     {{- end -}}
   {{ end }}
+
+
+  {{ range (index .Site.Data "xway2metadata") }}
+  <url>
+    <loc>{{ path.Join .Site.BaseURL .relurl | relURL }}</loc>
+    <lastmod>{{ .date }}</lastmod>
+  </url>
+  {{ end }}
+
+
 </urlset>

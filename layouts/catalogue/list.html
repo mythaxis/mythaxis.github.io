@@ -1,13 +1,6 @@
 {{/* Combine Hugo pages and xway2 data into content listing dictionary */}}
 {{ $allStories := slice }}
-{{ range (where .Site.AllPages "Type" "stock") }}
-  {{ $story := dict
-      "title" .Title
-      "relurl" .RelPermalink
-      "author" (collections.Delimit .Params.authors " and ")
-  }}
-  {{ $allStories = $allStories | append $story }}
-{{ end }}
+
 {{ $xway2metadata := index .Site.Data "xway2metadata" }}
 {{ $xway2metadata = (where $xway2metadata "category" "ne" "Editorial") }}
 {{ $allStories = $allStories | append $xway2metadata }}
