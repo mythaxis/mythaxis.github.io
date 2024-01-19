@@ -60,7 +60,7 @@ Feel free to include a concise cover letter and/or author bio in your email, tho
 
 If you track your submissions, you can find ***Mythaxis Magazine*** on [The Submissions Grinder](https://thegrinder.diabolicalplots.com/Market?id=10939#) and [Duotrope](https://duotrope.com/listing/10263/mythaxis-magazine).
 
-> **You can find additional notes regarding our editorial policy and process, what we are and are not looking for in submissions, and recommendations regarding document titles and formatting [here](./editorial-policy.md).**
+> **You can find additional notes regarding our editorial policy and process, what we are and are not looking for in submissions, and recommendations regarding document titles and formatting [here](./editorial-policy.html).**
 
 ## A NOTE ON "ARTIFICIAL INTELLIGENCE"
 
