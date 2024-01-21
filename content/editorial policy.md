@@ -7,8 +7,9 @@ type: page
 slug: editorial-policy
 ---
 
-### How we operate
-{{< details title="Click here for insights into our editorial modus operandi'" open="false">}}
+### Click below for insights into our editorial modus operandi
+
+{{< details title="HOW WE OPERATE" open="false">}}
 
 ***Mythaxis Magazine*** uses a "second opinion" slush reading system. All submissions are first evaluated by the editor, who assembles a shortlist of pieces for further consideration. These are anonymised before being shared with our second reader team, who boast varied tastes and interests and have no fear of telling the editor when they think he's in danger of making a grave mistake. Nevertheless, the editor alone is responsible for the final selections.
 
@@ -18,8 +19,10 @@ After accepting a piece, we will deliver an edited draft of the story for the au
 
 {{< /details >}}
 
-### What we want
-{{< details title="Characteristics we appreciate in a submission'" open="false">}}
+
+### What characteristics do we appreciate in a submission?
+
+{{< details title="WHAT WE WANT" open="false">}}
 
 Some magazines will tell you *read what we've published to learn what we're looking for*. ***Mythaxis*** takes the opposite perspective: go digging through our issues and you'll find what we've published before – the best way to join us is to show us something new.
 
@@ -31,8 +34,10 @@ Ultimately, the editor is a lover of good storytelling, with the emphasis on **s
 
 {{< /details >}}
 
-### What we don't want
-{{< details title="Click here for a short list of areas to avoid'" open="false">}}
+
+### Click below for a short list of things to avoid
+
+{{< details title="WHAT WE DON'T WANT" open="false">}}
 
 There are few subjects which we absolutely will reject out of hand, but there are some which authors may wish to consider looking elsewhere to place:
 
@@ -45,8 +50,10 @@ There are few subjects which we absolutely will reject out of hand, but there ar
 
 {{< /details >}}
 
-### Formatting Guidelines
-{{< details title="Click here for suggestions on how to make the editor like you'" open="false">}}
+
+### Professional-looking submissions make editors like you
+
+{{< details title="FORMATTING GUIDELINES" open="false">}}
 
 We recommend following these guidelines with regard to how your submission document is presented.
 
