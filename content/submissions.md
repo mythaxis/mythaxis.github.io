@@ -56,10 +56,14 @@ Feel free to include a concise cover letter and/or author bio in your email, tho
 
 If you track your submissions, you can find ***Mythaxis Magazine*** on [The Submissions Grinder](https://thegrinder.diabolicalplots.com/Market?id=10939#) and [Duotrope](https://duotrope.com/listing/10263/mythaxis-magazine).
 
-## A NOTE ON "ARTIFICIAL INTELLIGENCE"
+
+
+{{< details title="A NOTE ON 'ARTIFICIAL INTELLIGENCE'" open="true">}}
 
 **We do not invite submissions featuring prose created by generative "artificial intelligence", algorithmic systems, large language models, or similar tools.** 
 
 We recognise the importance of authorial ownership when it comes to an individual's rights. The questionable provenance of AI-derived content, and the uncertain legality of claiming "authorship" of the output of AI tools, means that knowingly signing a contract of sale for an AI-generated submission would be inappropriate. We hope that submitting authors will respect our position.
 
 In the past, ***Mythaxis*** has experimented with generative image tools and used data analytics to investigate the nature of the stories submitted to us. We documented these experiences in a number of editorials (see Issue [28](https://mythaxis.co.uk/issue-28/editorial.html) for art, Issues [31](https://mythaxis.co.uk/issue-31/editorial.html), [32](https://mythaxis.co.uk/issue-32/editorial.html), and [33](https://mythaxis.co.uk/issue-32/editorial.html) for data analysis, plus our final round up [here](https://mythaxis.co.uk/issue-34/artificial-artificial-intelligence.html)). All data analysed was always fully anonymised and never employed tools capable of producing derivative creative works.
+
+{{< /details >}}
