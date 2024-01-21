@@ -7,9 +7,11 @@ type: page
 slug: editorial-policy
 ---
 
-### What is your editorial modus operandi?
+### What is your editorial process?
 
-{{< details title="HOW WE OPERATE" open="false">}}
+{{< details title="What is your editorial process?" open="false">}}
+
+—
 
 ***Mythaxis Magazine*** uses a "second opinion" slush reading system. All submissions are first evaluated by the editor, who assembles a shortlist of pieces for further consideration. These are anonymised before being shared with our second reader team, who boast varied tastes and interests and have no fear of telling the editor when they think he's in danger of making a grave mistake. Nevertheless, the editor alone is responsible for the final selections.
 
@@ -22,7 +24,9 @@ After accepting a piece, we will deliver an edited draft of the story for the au
 
 ### What characteristics do you appreciate in a submission?
 
-{{< details title="WHAT WE WANT" open="false">}}
+{{< details title="What characteristics do you appreciate in a submission?" open="false">}}
+
+—
 
 Some magazines will tell you *read what we've published to learn what we're looking for*. ***Mythaxis*** takes the opposite perspective: go digging through our issues and you'll find what we've published before – the best way to join us is to show us something new.
 
@@ -37,7 +41,9 @@ Ultimately, the editor is a lover of good storytelling, with the emphasis on **s
 
 ### What characteristics do you dislike in a submission?
 
-{{< details title="WHAT WE DON'T WANT" open="false">}}
+{{< details title="What characteristics do you dislike in a submission?" open="false">}}
+
+—
 
 There are few subjects which we absolutely will reject out of hand, but there are some which authors may wish to consider looking elsewhere to place:
 
@@ -51,9 +57,11 @@ There are few subjects which we absolutely will reject out of hand, but there ar
 {{< /details >}}
 
 
-### What advice would you give regarding my submission practices?
+### What advice can you give regarding document formatting?
 
-{{< details title="FORMATTING GUIDELINES" open="false">}}
+{{< details title="What advice can you give regarding document formatting?" open="false">}}
+
+—
 
 Professional-looking documents make editors well-disposed towards a submission before they even start reading, while human nature (editors are humans too, incredibly) means any kind of inconvenience may damage a story's prospects irrepairably. We recommend following these guidelines with regard to how your submission document is presented.
 
