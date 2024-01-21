@@ -33,7 +33,7 @@ We acquire **First Print and Digital rights with a six month period of exclusivi
 
 **If a story has previously been rejected by *Mythaxis*, please do not resubmit** or inquire regarding doing so, unless explicitly invited to by the editor during the original rejection.
 
-> **Feedback:** Unfortunately, due to increased submission volume, it is no longer possible for us to offer feedback on all rejected submissions. This is a regretful necessity, but without the time required to say something meaningful feedback loses its value. We may, however, offer comments on strong candidate pieces along with an invitation to revise and resubmit.
+> **Feedback:** Unfortunately, due to increased submission volume, it is no longer possible for us to offer feedback on all rejected submissions. This is a regretful necessity, but without the time required to say something meaningful feedback loses its value. However, on rejecting strong candidate pieces we may offer constructive comments along with an invitation to revise and resubmit.
 
 **Reprints:** We do not currently invite reprint submissions.
 
@@ -42,8 +42,6 @@ We acquire **First Print and Digital rights with a six month period of exclusivi
 **Content note:** We anticipate an adult readership in the sense of maturity, so reasonable depictions of violence, sexuality, philosophy, or bad language are acceptable. However, this is not a market for pornographic or offensively extreme content, categorisation of which is at the editor's discretion. For additional notes regarding what we **are** and **are not** looking for in submissions, see [here](./editorial-policy.html).
 
 **We welcome writers of any and all backgrounds** and invite submissions exploring diverse perspectives and experiences both cultural and personal, provided they do not seek to attack or demean those of others.
-
-**Queries can be addressed to the editor at the email listed below.**
 
 ### HOW TO SUBMIT
 
@@ -56,14 +54,18 @@ Feel free to include a concise cover letter and/or author bio in your email, tho
 
 If you track your submissions, you can find ***Mythaxis Magazine*** on [The Submissions Grinder](https://thegrinder.diabolicalplots.com/Market?id=10939#) and [Duotrope](https://duotrope.com/listing/10263/mythaxis-magazine).
 
-
-
-{{< details title="A NOTE ON 'ARTIFICIAL INTELLIGENCE'" open="true">}}
+### A NOTE ON 'ARTIFICIAL INTELLIGENCE'
 
 **We do not invite submissions featuring prose created by generative "artificial intelligence", algorithmic systems, large language models, or similar tools.** 
+
+{{< details title="For more insight into our reasons, click here.'" open="false">}}
 
 We recognise the importance of authorial ownership when it comes to an individual's rights. The questionable provenance of AI-derived content, and the uncertain legality of claiming "authorship" of the output of AI tools, means that knowingly signing a contract of sale for an AI-generated submission would be inappropriate. We hope that submitting authors will respect our position.
 
 In the past, ***Mythaxis*** has experimented with generative image tools and used data analytics to investigate the nature of the stories submitted to us. We documented these experiences in a number of editorials (see Issue [28](https://mythaxis.co.uk/issue-28/editorial.html) for art, Issues [31](https://mythaxis.co.uk/issue-31/editorial.html), [32](https://mythaxis.co.uk/issue-32/editorial.html), and [33](https://mythaxis.co.uk/issue-32/editorial.html) for data analysis, plus our final round up [here](https://mythaxis.co.uk/issue-34/artificial-artificial-intelligence.html)). All data analysed was always fully anonymised and never employed tools capable of producing derivative creative works.
 
 {{< /details >}}
+
+### Have a question?
+
+Any queries can be addressed to the editor at **MythaxisMagazine@gmail.com**.
