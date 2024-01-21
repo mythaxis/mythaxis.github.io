@@ -1,0 +1,7 @@
+<p class="align-center">
+	{{ if .IsNamedParams }}
+	<button class="align-center" onclick="var rand = document.querySelectorAll('{{ .Get "selector" | default "section a" }}'); window.open(rand[~~(Math.random() * rand.length)], '_blank');">{{ .Get "label" | default "Give me a story" }}</button>
+	{{ else }}
+	<button onclick="var rand = document.querySelectorAll('{{ .Get 0 | default "section a" }}'); window.open(rand[~~(Math.random() * rand.length)], '_blank');">{{ .Get 1 | default "Give me a story" }}</button>
+	{{ end }}
+</p>
