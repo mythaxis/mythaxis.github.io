@@ -134,6 +134,9 @@
 		var regex = new RegExp('closed', 'gi');
 		var newText = firstParagraph.textContent.replace(regex, submissionStatus);
 		firstParagraph.textContent = newText
+		
+		var howToText = ' – <a href="#how-to-submit">See how to submit</a>'
+		if (submissionStatus == 'OPEN') firstParagraph.innerHTML += howToText;
 
 		
 		function monthToIndex(monthName) {
