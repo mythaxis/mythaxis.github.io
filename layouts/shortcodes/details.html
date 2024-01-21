@@ -1,0 +1,35 @@
+{{/* Count the times we've used this shortcode and load css if it's the first time 
+	@src: https://github.com/martignoni/hugo-notice/blob/master/layouts/shortcodes/notice.html
+*/}}
+{{- if not ($.Page.Scratch.Get "details") -}}
+<style>
+  details {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 0em 1em;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 0.1rem 1rem -0.5rem rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+  }
+  summary {  cursor: zoom-in; }
+  details[open] summary { cursor: zoom-out; }
+  summary::marker { font-size: 1.2em; }
+  details[open] > summary:before { transform: rotate(90deg); }
+  details summary:-webkit-details-marker {  display: none; }
+</style>
+{{- end -}}
+{{- $.Page.Scratch.Add "details" 1 -}}
+
+
+{{ if .IsNamedParams }}
+<details {{ with .Get "open" }}{{ if eq . "true"}}open{{ end }}{{ end }}>
+  <summary>{{ (.Get "title") | markdownify }}</summary>
+  {{ .Inner | markdownify }}
+</details>
+{{ else }}
+<details {{ with .Get 1 }}{{ if eq . "true"}}open{{ end }}{{ end }}>
+  <summary>{{ (.Get 0) | markdownify }}</summary>
+  {{ .Inner | markdownify }}
+</details>
+{{ end }}
