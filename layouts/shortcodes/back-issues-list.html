@@ -1,0 +1,9 @@
+{{ $issues := .Site.Sections.ByDate.Reverse }}
+<ul>
+{{ range .Site.Sections.ByDate.Reverse }}
+  {{ if hasPrefix .Section "issue-" }}
+    {{ $currSection := .Site.GetPage "section" (print .Section "/__index.md") }}
+    <li><a href="{{ $currSection.RelPermalink }}">{{ $currSection.Params.issue }}: {{ $currSection.Params.subhead }}</a></li>
+  {{ end }}
+{{ end }}
+</ul>

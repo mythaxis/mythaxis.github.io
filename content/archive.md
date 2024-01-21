@@ -32,21 +32,7 @@ You can also find a [listing of our editorials here](/editorials.html), though w
 
 Since 2020, ***Mythaxis Magazine*** has shifted to a quarterly release schedule with a shiny new design opened its doors to contributors from around the world. You can find our recent back issues here:
 
-- [Issue&nbsp;35: Autumn 2023]({{< relref "/issue-35/__index.md" >}})
-- [Issue&nbsp;34: Summer 2023]({{< relref "/issue-34/__index.md" >}})
-- [Issue&nbsp;33: Spring 2023]({{< relref "/issue-33/__index.md" >}})
-- [Issue&nbsp;32: Winter 2022]({{< relref "/issue-32/__index.md" >}})
-- [Issue&nbsp;31: Autumn 2022]({{< relref "/issue-31/__index.md" >}})
-- [Issue&nbsp;30: Summer 2022]({{< relref "/issue-30/__index.md" >}})
-- [Issue&nbsp;29: Spring 2022]({{< relref "/issue-29/__index.md" >}})
-- [Issue&nbsp;28: Winter 2021]({{< relref "/issue-28/__index.md" >}})
-- [Issue&nbsp;27: Autumn 2021]({{< relref "/issue-27/__index.md" >}})
-- [Issue&nbsp;26: Summer 2021]({{< relref "/issue-26/__index.md" >}})
-- [Issue&nbsp;25: Spring 2021]({{< relref "/issue-25/__index.md" >}})
-- [Issue&nbsp;24: Winter 2020]({{< relref "/issue-24/__index.md" >}})
-- [Issue&nbsp;23: Autumn 2020]({{< relref "/issue-23/__index.md" >}})
-
-
+{{< back-issues-list >}}
 
 
 ## The Original Archive
