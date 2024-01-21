@@ -8,6 +8,7 @@ slug: editorial-policy
 ---
 
 ### How we operate
+{{< details title="Click here for insights into our editorial modus operandi'" open="false">}}
 
 ***Mythaxis Magazine*** uses a "second opinion" slush reading system. All submissions are first evaluated by the editor, who assembles a shortlist of pieces for further consideration. These are anonymised before being shared with our second reader team, who boast varied tastes and interests and have no fear of telling the editor when they think he's in danger of making a grave mistake. Nevertheless, the editor alone is responsible for the final selections.
 
@@ -15,7 +16,10 @@ If we like a piece but feel it needs more work before it is ready to publish, we
 
 After accepting a piece, we will deliver an edited draft of the story for the author's approval, which may result in a two-way revision process over multiple rounds. When the final draft is agreed, we supply a contract for the author's signature, with payment made immediately on return of a signed copy.
 
+{{< /details >}}
+
 ### What we want
+{{< details title="Characteristics we appreciate in a submission'" open="false">}}
 
 Some magazines will tell you *read what we've published to learn what we're looking for*. ***Mythaxis*** takes the opposite perspective: go digging through our issues and you'll find what we've published before – the best way to join us is to show us something new.
 
@@ -25,7 +29,10 @@ Ultimately, the editor is a lover of good storytelling, with the emphasis on **s
 
 **Special mention:** The editor is enamoured of utopian fiction in the critical mode, as well as depictions of humanity's future that champion progressive attitudes to overcoming social or environmental challenges. Sadly, he receives too little of such things, so why not help change that?
 
+{{< /details >}}
+
 ### What we don't want
+{{< details title="Click here for a short list of areas to avoid'" open="false">}}
 
 There are few subjects which we absolutely will reject out of hand, but there are some which authors may wish to consider looking elsewhere to place:
 
@@ -36,9 +43,12 @@ There are few subjects which we absolutely will reject out of hand, but there ar
 * **Wryness** – any story in which is found the phrase "wry grin" (or any of its close relatives) will earn contempt and vilification. Miraculous acceptances containing such aberrations will not by the time they are published.
 * **AI-generated material** – as stated in the submissions guidelines, we do not accept content produced using "artificial intelligence" tools, including but not limited to LLMs (large language models) such as ChatGPT. Worth saying twice: don't send us anything written by these things, what they make is not good fiction. It stands out for what it is, and we'll stop considering your submissions in future because you're wasting our time.
 
-### Formatting Guidelines
+{{< /details >}}
 
-Finally, we recommend following these guidelines with regard to how your submission document is presented.
+### Formatting Guidelines
+{{< details title="Click here for suggestions on how to make the editor like you'" open="false">}}
+
+We recommend following these guidelines with regard to how your submission document is presented.
 
 **Manuscript formatting:** We recommend using [Shunn's excellent Modern Manuscript formatting guide](https://www.shunn.net/format/story/), but in particular consider the following:
 
@@ -63,3 +73,5 @@ Filenames that lead with the author's name, use an abbreviated title or other we
 - *Before the Butter Flies* (use the same title as in your email, damnit)
 
 The editor knows he is wasting his time suggesting this, but is allowed to dream of a better world.
+
+{{< /details >}}
