@@ -1,5 +1,5 @@
 ---
-title: "Editorial Policy and Advice"
+title: "Seldom Asked Questions"
 date: 2020-08-01
 issue: Issue 23
 
@@ -7,7 +7,7 @@ type: page
 slug: editorial-policy
 ---
 
-### Click below for insights into our editorial modus operandi
+### What is your editorial modus operandi?
 
 {{< details title="HOW WE OPERATE" open="false">}}
 
@@ -20,7 +20,7 @@ After accepting a piece, we will deliver an edited draft of the story for the au
 {{< /details >}}
 
 
-### What characteristics do we appreciate in a submission?
+### What characteristics do you appreciate in a submission?
 
 {{< details title="WHAT WE WANT" open="false">}}
 
@@ -35,7 +35,7 @@ Ultimately, the editor is a lover of good storytelling, with the emphasis on **s
 {{< /details >}}
 
 
-### Click below for a short list of things to avoid
+### What characteristics do you dislike in a submission?
 
 {{< details title="WHAT WE DON'T WANT" open="false">}}
 
@@ -51,11 +51,11 @@ There are few subjects which we absolutely will reject out of hand, but there ar
 {{< /details >}}
 
 
-### Professional-looking submissions make editors like you
+### What advice would you give regarding my submission practices?
 
 {{< details title="FORMATTING GUIDELINES" open="false">}}
 
-We recommend following these guidelines with regard to how your submission document is presented.
+Professional-looking documents make editors well-disposed towards a submission before they even start reading, while human nature (editors are humans too, incredibly) means any kind of inconvenience may damage a story's prospects irrepairably. We recommend following these guidelines with regard to how your submission document is presented.
 
 **Manuscript formatting:** We recommend using [Shunn's excellent Modern Manuscript formatting guide](https://www.shunn.net/format/story/), but in particular consider the following:
 
