@@ -558,7 +558,7 @@
         "author": "Martin Clark",
         "relurl": "./3issue8.htm",
         "category": null,
-        "genre": "science-fiction, crime"
+        "genre": "science-fiction", "crime"
     },
     {
         "issue": "Issue 8 - February 2011",
@@ -635,7 +635,7 @@
         "author": "Martin Clark",
         "relurl": "./3issue9.htm",
         "category": null,
-        "genre": "science-fiction, crime"
+        "genre": ["science-fiction", "crime"]
     },
     {
         "issue": "Issue 9 - June 2011",
@@ -723,7 +723,7 @@
         "author": "Martin Clark",
         "relurl": "./3issuev10.htm",
         "category": null,
-        "genre": "science-fiction, crime"
+        "genre": ["science-fiction", "crime"]
     },
     {
         "issue": "Issue 10 - December 2011",
@@ -899,7 +899,7 @@
         "author": "John A. Frochio",
         "relurl": "./11issuev11.htm",
         "category": null,
-        "genre": "science-fiction, fantasy"
+        "genre": ["science-fiction", "fantasy"]
     },
     {
         "issue": "Issue 11 - December 2012",
@@ -1031,7 +1031,7 @@
         "author": "Martin Clark",
         "relurl": "./10issuev12.htm",
         "category": null,
-        "genre": "science-fiction, crime"
+        "genre": ["science-fiction", "crime"]
     },
     {
         "issue": "Issue 12 - March 2013",
@@ -1064,7 +1064,7 @@
         "author": "Martin Clark",
         "relurl": "./2issuev13.htm",
         "category": null,
-        "genre": "science-fiction, crime"
+        "genre": ["science-fiction", "crime"]
     },
     {
         "issue": "Issue 13 - August 2013",
@@ -1097,7 +1097,7 @@
         "author": "Matthew Kirshenblatt",
         "relurl": "./5issuev13.htm",
         "category": null,
-        "genre": "science-fiction, crime"
+        "genre": ["science-fiction", "crime"]
     },
     {
         "issue": "Issue 13 - August 2013",
@@ -1163,7 +1163,7 @@
         "author": "Martin Clark",
         "relurl": "./11issuev13.htm",
         "category": null,
-        "genre": "science-fiction, crime"
+        "genre": ["science-fiction", "crime"]
     },
     {
         "issue": "Issue 14 - March 2014",
@@ -1647,7 +1647,7 @@
         "author": "Martin M. Clark",
         "relurl": "./6issuev18.htm",
         "category": null,
-        "genre": "science-fiction, fantasy"
+        "genre": "fantasy"
     },
     {
         "issue": "Issue 18 - August 2016",
@@ -1988,7 +1988,7 @@
         "author": "Gil Williamson",
         "relurl": "./3issuev21.htm",
         "category": null,
-        "genre": "science-fiction, crime"
+        "genre": ["science-fiction", "crime"]
     },
     {
         "issue": "Issue 21 - February 2018",
@@ -2098,7 +2098,7 @@
         "author": "Martin M. Clark",
         "relurl": "./13issuev21.htm",
         "category": null,
-        "genre": "fantasy, crime"
+        "genre": ["fantasy", "crime"]
     },
     {
         "issue": "Issue 21 - February 2018",
@@ -2109,7 +2109,7 @@
         "author": "Martin M. Clark",
         "relurl": "./14issuev21.htm",
         "category": null,
-        "genre": "fantasy, crime"
+        "genre": ["fantasy", "crime"]
     },
     {
         "issue": "Issue 21 - February 2018",
@@ -2175,7 +2175,7 @@
         "author": "Martin M. Clark",
         "relurl": "./issue-22/behind-my-eyes.html",
         "category": null,
-        "genre": "science-fiction, crime"
+        "genre": ["science-fiction", "crime"]
     },
     {
         "issue": "Issue 22 - May 2018",
