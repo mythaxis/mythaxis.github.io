@@ -46,7 +46,7 @@ We acquire **First Print and Digital rights with a six month period of exclusivi
 ### HOW TO SUBMIT
 
 * **NEW:** Access our shiny automated [**submissions form here**](https://forms.gle/mCL4MQFbWTWLDzS18) (requires a Google account sign in).
-* Email files as an attachment to: **MythaxisMagazine@gmail.com**. Please use a subject line like **MYTHAXIS SUBMISSION – YOUR STORY TITLE** to evade spam filters (and when we say *"your story title"*, we don't mean that literally…).
+* Or, email files as an attachment to: **MythaxisMagazine@gmail.com**. Please use a subject line like **MYTHAXIS SUBMISSION – YOUR STORY TITLE** to evade spam filters (and when we say *"your story title"*, we don't mean that literally…).
 
 **File types:** Acceptable attachments are DOC, DOCX, and ODT (plus RTF, if you absolutely have to). **Do not submit in PDF format.** For recommendations regarding attachment titles and document formatting that will make the editor well disposed towards your work, see **[here](./editorial-policy.html)**.
 
