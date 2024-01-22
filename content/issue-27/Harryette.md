@@ -5,7 +5,6 @@ issue: Issue 27
 
 genres:
 - fantasy
-- romance
 authors:
 - Daniel Rabuzzi
 copyright: '© Daniel Rabuzzi 2021 All Rights Reserved.'

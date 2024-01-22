@@ -5,7 +5,6 @@ issue: Issue 23
 
 genres:
 - science fiction
-- dystopia
 authors:
 - Andrea Kriz
 image: images/RobotsParis.png

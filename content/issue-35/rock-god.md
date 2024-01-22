@@ -4,7 +4,7 @@ date: 2023-09-30
 issue: Issue 35
 
 genres:
-- science fiction
+- slipstream
 authors:
 - Joelle Killian
 copyright: '© Joelle Killian 2023 All Rights Reserved'

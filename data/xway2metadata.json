@@ -8,7 +8,7 @@
         "author": "Gil Williamson",
         "relurl": "./1issue1.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -19,7 +19,7 @@
         "author": "Gil Williamson",
         "relurl": "./2issue1.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -30,7 +30,7 @@
         "author": "Melanie Manner",
         "relurl": "./3issue1.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -41,7 +41,7 @@
         "author": "Matthew Kirshenblatt",
         "relurl": "./4issue1.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -52,7 +52,7 @@
         "author": "H G Wells",
         "relurl": "./5issue1.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -63,7 +63,7 @@
         "author": "Ian Thomas",
         "relurl": "./6issue1.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction, poetry
     },
     {
         "issue": "Issue 1 - February 2008",
@@ -85,7 +85,7 @@
         "author": "Chris Lites",
         "relurl": "./8issue1.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 2 - April 2008",
@@ -96,7 +96,7 @@
         "author": "Callum Graham",
         "relurl": "./1issue2.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 2 - April 2008",
@@ -107,7 +107,7 @@
         "author": "Peter Morrison",
         "relurl": "./2issue2.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 2 - April 2008",
@@ -118,7 +118,7 @@
         "author": "Belinda A. Taylor",
         "relurl": "./3issue2.htm",
         "category": null,
-        "genre": null
+        "genre": slipstream
     },
     {
         "issue": "Issue 2 - April 2008",
@@ -129,7 +129,7 @@
         "author": "Chris Lites",
         "relurl": "./4issue2.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 2 - April 2008",
@@ -140,7 +140,7 @@
         "author": "Liam Baldwin",
         "relurl": "./5issue2.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 2 - April 2008",
@@ -151,7 +151,7 @@
         "author": "Lucian Loukianos",
         "relurl": "./6issue2.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 2 - April 2008",
@@ -159,10 +159,10 @@
         "order": "7",
         "date": "April 2008",
         "title": "New Frankfurt",
-        "author": "Grant McDonald Walker",
+        "author": "Gil Williamson",
         "relurl": "./7issue2.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 2 - April 2008",
@@ -184,7 +184,7 @@
         "author": "Matthew Kirshenblatt",
         "relurl": "./1issue3.htm",
         "category": null,
-        "genre": null
+        "genre": horror
     },
     {
         "issue": "Issue 3 - June 2008",
@@ -192,10 +192,10 @@
         "order": "2",
         "date": "June 2008",
         "title": "The 1002nd Night",
-        "author": "Dick Burton",
+        "author": Gil Williamson
         "relurl": "./2issue3.htm",
         "category": null,
-        "genre": null
+        "genre": fantasy
     },
     {
         "issue": "Issue 3 - June 2008",
@@ -206,7 +206,7 @@
         "author": "Chris Penycate",
         "relurl": "./3issue3.htm",
         "category": null,
-        "genre": null
+        "genre": fantasy
     },
     {
         "issue": "Issue 3 - June 2008",
@@ -217,7 +217,7 @@
         "author": "Peter Morrison",
         "relurl": "./4issue3.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 3 - June 2008",
@@ -228,7 +228,7 @@
         "author": "Washington Irving",
         "relurl": "./5issue3.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 3 - June 2008",
@@ -247,10 +247,10 @@
         "order": "1",
         "date": "22 Nov 2008",
         "title": "Hong Kong",
-        "author": "Grant McDonald Walker",
+        "author": "Gil Williamson",
         "relurl": "./1issue4.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 4 - 22 Nov 2008",
@@ -261,7 +261,7 @@
         "author": "Chris Penycate",
         "relurl": "./2issue4.htm",
         "category": null,
-        "genre": null
+        "genre": fantasy
     },
     {
         "issue": "Issue 4 - 22 Nov 2008",
@@ -272,7 +272,7 @@
         "author": "Jonathan Joseph",
         "relurl": "./3issue4.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 4 - 22 Nov 2008",
@@ -283,7 +283,7 @@
         "author": "Peter Morrison",
         "relurl": "./4issue4.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 4 - 22 Nov 2008",
@@ -294,7 +294,7 @@
         "author": "Ian Thomas",
         "relurl": "./5issue4.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction, crime
     },
     {
         "issue": "Issue 4 - 22 Nov 2008",
@@ -305,7 +305,7 @@
         "author": "Ambrose Bierce",
         "relurl": "./6issue4.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 4 - 22 Nov 2008",
@@ -327,7 +327,7 @@
         "author": "Peter Morrison",
         "relurl": "./1issue5.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 5 - May 2009",
@@ -338,7 +338,7 @@
         "author": "Matthew Kirshenblatt",
         "relurl": "./2issue5.htm",
         "category": null,
-        "genre": null
+        "genre": horror
     },
     {
         "issue": "Issue 5 - May 2009",
@@ -346,10 +346,10 @@
         "order": "3",
         "date": "May 2009",
         "title": "The Extrusion Project",
-        "author": "Grant McDonald Walker",
+        "author": "Gil Williamson",
         "relurl": "./3issue5.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 5 - May 2009",
@@ -357,10 +357,10 @@
         "order": "4",
         "date": "May 2009",
         "title": "The Enormous Gun",
-        "author": "Damon Harkness",
+        "author": "Gil Williamson",
         "relurl": "./4issue5.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 5 - May 2009",
@@ -371,7 +371,7 @@
         "author": "H.P.Lovecraft and Zealia Bishop",
         "relurl": "./5issue5.htm",
         "category": null,
-        "genre": null
+        "genre": horror
     },
     {
         "issue": "Issue 5 - May 2009",
@@ -393,7 +393,7 @@
         "author": "Twilite Minotaur",
         "relurl": "./1issue6.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 6 - August 2009",
@@ -404,7 +404,7 @@
         "author": "Tom Davies",
         "relurl": "./2issue6.htm",
         "category": null,
-        "genre": null
+        "genre": horror
     },
     {
         "issue": "Issue 6 - August 2009",
@@ -415,7 +415,7 @@
         "author": "Gil Williamson",
         "relurl": "./3issue6.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 6 - August 2009",
@@ -426,7 +426,7 @@
         "author": "E.E. (Doc) Smith",
         "relurl": "./4issue6.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 6 - August 2009",
@@ -448,7 +448,7 @@
         "author": "Alistair Bain",
         "relurl": "./1issue7.htm",
         "category": null,
-        "genre": null
+        "genre": fantasy
     },
     {
         "issue": "Issue 7 - September 2010",
@@ -459,7 +459,7 @@
         "author": "Gil Williamson",
         "relurl": "./2issue7.htm",
         "category": null,
-        "genre": null
+        "genre": fantasy
     },
     {
         "issue": "Issue 7 - September 2010",
@@ -470,7 +470,7 @@
         "author": "Moon Bhatt",
         "relurl": "./3issue7.htm",
         "category": null,
-        "genre": null
+        "genre": horror
     },
     {
         "issue": "Issue 7 - September 2010",
@@ -481,7 +481,7 @@
         "author": "Peter Morrison",
         "relurl": "./4issue7.htm",
         "category": null,
-        "genre": null
+        "genre": horror
     },
     {
         "issue": "Issue 7 - September 2010",
@@ -492,7 +492,7 @@
         "author": "Matthew Kirshenblatt",
         "relurl": "./5issue7.htm",
         "category": null,
-        "genre": null
+        "genre": horror
     },
     {
         "issue": "Issue 7 - September 2010",
@@ -503,7 +503,7 @@
         "author": "Martin Clark",
         "relurl": "./6issue7.htm",
         "category": null,
-        "genre": null
+        "genre": science-fiction
     },
     {
         "issue": "Issue 7 - September 2010",
@@ -514,7 +514,7 @@
         "author": "James Branch Cabell",
         "relurl": "./7issue7.htm",
         "category": null,
-        "genre": null
+        "genre": fantasy
     },
     {
         "issue": "Issue 7 - September 2010",

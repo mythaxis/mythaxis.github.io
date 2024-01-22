@@ -4,7 +4,7 @@ date: 2023-09-30
 issue: Issue 35
 
 genres:
-- science fiction
+- slipstream
 authors:
 - Elin Olausson
 copyright: '© Elin Olausson 2023 All Rights Reserved'
