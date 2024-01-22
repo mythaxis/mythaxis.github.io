@@ -5,7 +5,6 @@ issue: Issue 27
 
 genres:
 - science fiction
-- post-apocalyptic
 authors:
 - Paul Alex Gray
 copyright: '© Paul Alex Gray 2021 All Rights Reserved'

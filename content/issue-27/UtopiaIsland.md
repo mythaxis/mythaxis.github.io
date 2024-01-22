@@ -5,7 +5,6 @@ issue: Issue 27
 
 genres:
 - science fiction
-- dystopia
 authors:
 - Katie McIvor
 copyright: '© Katie McIvor 2021 All Rights Reserved'

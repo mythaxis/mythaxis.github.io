@@ -5,7 +5,6 @@ issue: Issue 29
 
 genres:
 - science fiction
-- dystopia
 authors:
 - Erik Mann
 copyright: '© Erik Mann 2022 All Rights Reserved'

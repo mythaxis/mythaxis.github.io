@@ -4,9 +4,7 @@ date: 2020-12-15
 issue: Issue 24
 
 genres:
-- science fiction
 - fantasy
-- romance
 authors:
 - Trisha McKee
 copyright: '© Trisha McKee 2020 All Rights Reserved'

@@ -5,7 +5,6 @@ issue: Issue 24
 
 genres:
 - fantasy
-- gothic
 authors:
 - Scott J. Couturier
 copyright: '© Scott J. Couturier 2020 All Rights Reserved'

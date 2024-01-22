@@ -5,7 +5,6 @@ issue: Issue 26
 
 genres:
 - science fiction
-- post-apocalyptic
 authors:
 - Annie Percik
 copyright: '© Annie Percik 2021 All Rights Reserved'

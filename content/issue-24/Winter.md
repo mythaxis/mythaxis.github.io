@@ -5,7 +5,6 @@ issue: Issue 24
 
 genres:
 - science fiction
-- post-apocalyptic
 authors:
 - David Whitmarsh
 copyright: '© David Whitmarsh 2020 All Rights Reserved'
