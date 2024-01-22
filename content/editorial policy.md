@@ -7,7 +7,7 @@ type: page
 slug: editorial-policy
 ---
 
-### What is your editorial process?
+Below are some SAQ's...
 
 {{< details title="What is your editorial process?" open="false">}}
 
@@ -19,7 +19,6 @@ After accepting a piece, we will deliver an edited draft of the story for the au
 
 {{< /details >}}
 
-### What characteristics do you appreciate in a submission?
 
 {{< details title="What characteristics do you appreciate in a submission?" open="false">}}
 
@@ -33,7 +32,7 @@ Ultimately, the editor is a lover of good storytelling, with the emphasis on **s
 
 {{< /details >}}
 
-### What characteristics do you dislike in a submission?
+
 
 {{< details title="What characteristics do you dislike in a submission?" open="false">}}
 
@@ -48,7 +47,7 @@ There are few subjects which we absolutely will reject out of hand, but there ar
 
 {{< /details >}}
 
-### What advice can you give regarding document formatting?
+
 
 {{< details title="What advice can you give regarding document formatting?" open="false">}}
 
