@@ -1,0 +1,374 @@
+body {
+    text-align: center;
+    min-width: 600px;
+    color: #666666;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    color: #666666;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 600px;
+    text-align: left;
+}
+
+img {
+    border: 0px none;
+}
+
+.droptemp2 {
+    font: 12pt Georgia, Arial, verdana, sans-serif;
+    width: 100%;
+    text-align: justify;
+    background-color: white;
+}
+
+.droptemp3 {
+    font-weight: 600;
+    background: transparent;
+    font-size: 2.5em;
+    line-height: 0.9em;
+    float: left;
+    width: 0.7em;
+    padding-right: 0.3em;
+}
+
+.droptemp:first-letter {
+    font-weight: 600;
+    background: transparent;
+    font-size: 2.5em;
+    line-height: 0.9em;
+    float: left;
+    width: 0.7em;
+    padding-right: 0.1em;
+}
+
+p.drop:first-letter {
+    font-weight: 600;
+    font-size: 2.5em;
+    float: left;
+    line-height: 0.9em;
+    padding-top: 0px;
+    padding-right: 0.1em;
+    font-family: Georgia, Times, Serif;
+}
+
+.fat {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+p.middle {
+    text-align: center;
+}
+
+p {
+    font: 12pt Georgia, Arial, verdana, sans-serif;
+    width: 100%;
+    text-align: justify;
+}
+
+table {
+    .font: 10pt Georgia, Arial, verdana, sans-serif;
+    text-align: justify;
+}
+
+td {
+    vertical-align: text-top;
+    font: 12pt Georgia, Arial, verdana, sans-serif;
+    width: 100%;
+    text-align: justify;
+    color: #444444
+}
+
+td.trailer {
+    font: 8pt verdana, sans-serif;
+    width: 100%;
+    text-align: justify;
+}
+
+td.index {
+    text-align: left;
+}
+
+tr {
+    font: 10pt verdana, sans-serif;
+    text-align: justify;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.boxtext {
+    padding: 20px;
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+    top: -3;
+    left: -3;
+}
+
+.halfcenter {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.pullquote {
+    float: right;
+    border: 3px solid gray;
+    width: 150;
+    padding: 10px;
+    margin-left: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.topquote {
+    border: 3px solid gray;
+    padding: 10px;
+    margin-left: 10px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: left;
+}
+
+.lpanel {
+    clear: both;
+    float: left;
+    width: 40%;
+    padding: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.rpanel {
+    float: right;
+    width: 40%;
+    padding: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.fullpanel {
+    clear: both;
+    width=70% font-weight: bold;
+    text-align: centre;
+}
+
+.midpanel {
+    clear: both;
+    width=100% font-weight: bold;
+    text-align: centre;
+}
+
+.tinyquote {
+    float: right;
+    border: 3px solid gray;
+    width: 170;
+    padding: 10px;
+    margin-left: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.lpullquote {
+    float: left;
+    border: 3px solid gray;
+    width: 150;
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.plate {
+    display: inline-block;
+    border: 2px solid gray;
+    padding: 2px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.articleheading {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.sidebar {
+    font-weight: bold;
+    text-align: center;
+}
+
+.borderbox {
+    background-color: 777777;
+}
+
+.blankbox {
+    width: 75px;
+    height: 600;
+}
+
+.tdleft {
+    width: 300;
+    display: inline-block;
+    padding: 10;
+    font-weight: bold;
+}
+
+.tdright {
+    display: inline-block;
+    padding: 10;
+}
+
+A:link {
+    text-decoration: underline;
+    color: 666666
+}
+
+A:visited {
+    text-decoration: underline;
+    color: 444444
+}
+
+A:active {
+    text-decoration: underline;
+    color: black
+}
+
+A:hover {
+    text-decoration: underline;
+    color: 888888
+}
+
+.toc {
+    font: 10pt verdana, sans-serif;
+    text-align: left;
+    font-weight: 150;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 0;
+    padding-bottom: 0.2em;
+}
+
+.tocby {
+    font: 10pt verdana, sans-serif;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0.4em;
+}
+
+.copyright {
+    font: 6pt verdana, sans-serif;
+    font-size: 0.3em;
+    font-weight: bold;
+}
+
+
+/* Browser specific (not valid) styles to make preformatted text wrap */
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    white-space: pre-line;
+    /* css-3 */
+    white-space: -moz-pre-wrap !important;
+    ;
+    /* Mozilla, since 1999 */
+    white-space: -pre-wrap;
+    /* Opera 4-6 */
+    white-space: -o-pre-wrap;
+    /* Opera 7 */
+    word-wrap: break-word;
+    /* Internet Explorer 5.5+ */
+    width: 99%;
+}
+
+.t1 {
+    font-family: monospace;
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: left;
+}
+
+.issues {
+    font-family: monospace;
+    font-size: 11pt;
+    text-align: left;
+}
+
+@font-face {
+    font-family: "Cursive";
+    src: url(./MTCORSVA.TTF) format("truetype");
+}
+
+.cursivefont {
+    font-family: "Cursive", Verdana, Tahoma;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Impact";
+    src: url(./impact.ttf) format("truetype");
+}
+
+.impactfont16 {
+    font-family: "Impact", Verdana, Tahoma;
+    font-size: 16pt;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.impactfont18 {
+    font-family: "Impact", Verdana, Tahoma;
+    font-size: 18pt;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.impactfont20 {
+    font-family: "Impact", Verdana, Tahoma;
+    font-size: 20pt;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.impactfont22 {
+    font-family: "Impact", Verdana, Tahoma;
+    font-size: 22pt;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "overrun";
+    src: url("./Videopac.ttf") format("truetype");
+}
+
+.ambrofont {
+    font-family: "overrun";
+    font-size: 18pt;
+    font-weight: bold;
+}

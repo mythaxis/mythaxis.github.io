@@ -1,0 +1,293 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+  
+
+
+
+	
+
+
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	
+	
+	
+	<link rel="stylesheet" href="./assets/css/main.css">
+	
+	
+	
+	<noscript><link rel="stylesheet" href='./assets/css/noscript.css' /></noscript>
+	
+	<link rel="stylesheet" href='./assets/css/overrides.css' />
+<style type="text/css">
+	#wrapper > .bg {
+		  
+		 
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: 
+			linear-gradient(0deg,
+				rgba(255,255,255,1) 5%,
+				rgba(255,255,255,0.50) 10%,
+				rgba(255,255,255,0) 20%
+			)
+			,
+			url(/
+		);
+		background-size: auto, 100% auto;
+		background-position: bottom, top center;
+		background-repeat: no-repeat, no-repeat;
+		background-attachment: no-scroll, scroll;
+	}
+
+
+
+	
+
+	
+</style>
+
+	
+
+
+	<script>
+	document.addEventListener("DOMContentLoaded", function() {
+		var ulElement = document.querySelector('.post ul');  
+		var currentDate = new Date(); 
+		var submissionStatus = "CLOSED"; 
+		var dateRegex = /(\w+)\s(\d{1,2})..-(\d{1,2})/; 
+
+		
+		ulElement.querySelectorAll('li').forEach(function(li) {
+			var matches = li.textContent.match(dateRegex);
+			if (matches) {
+				
+				if (monthToIndex(matches[1]) === currentDate.getMonth()) {
+					if (currentDate.getDate() >= parseInt(matches[2]) &&
+					    currentDate.getDate() <= parseInt(matches[3])) {
+							submissionStatus = "OPEN";
+					}
+				}
+			}
+		});
+
+		
+		var firstParagraph = document.querySelector('.post p strong');
+		var regex = new RegExp('closed', 'gi');
+		var newText = firstParagraph.textContent.replace(regex, submissionStatus);
+		firstParagraph.textContent = newText
+		
+		var howToText = ' – <a href="#how-to-submit">See how to submit</a>'
+		if (submissionStatus == 'OPEN') firstParagraph.innerHTML += howToText;
+
+		
+		function monthToIndex(monthName) {
+			return ['January', 'February', 'March',
+					'April', 'May', 'June', 'July',
+					'August', 'September', 'October',
+					'November', 'December'].indexOf(monthName);
+		}
+
+	});
+	</script>
+
+
+
+	<title>Submission Guidelines —  — MYTHAXIS MAGAZINE</title>
+	<meta name="generator" content="Hugo 0.124.1">
+	<meta name="keywords" content="Mythaxis Magazine Science Fiction and Fantasy Modern Fiction">
+	<meta name="description" content="Speculative Fiction Without Distraction" />
+	
+	<meta name="DC.Title" content="Submission Guidelines —  — MYTHAXIS MAGAZINE" />
+	
+	<meta name="DC.Date" content="2020-08-01" />
+	<meta NAME="DC.Format" content="text/html">
+	<meta NAME="DC.Language" content="en">
+
+	<meta property="og:title" content="Submission Guidelines" />
+	<meta property="og:type" content="website" />
+	
+</head>
+  
+  <body lang='en' class="is-preload">
+    
+    <div id="wrapper">
+      
+
+
+<header id="header">
+	
+	<a href='./Page%28/%29' class="logo">MYTHAXIS MAGAZINE</a>
+	
+</header>
+
+      
+
+
+
+
+<nav id="nav">
+    <ul class="links">
+        
+        
+        
+        <li >
+            <a href="./" class="">
+                <span>Home</span>
+            </a>
+        </li>
+        
+
+        
+        
+
+
+        
+        
+            
+            <li >
+                <a href="./archive.html" class="">
+                    <span>Archive</span>
+                </a>
+            </li>
+        
+            
+            <li class="active">
+                <a href="./submissions.html" class="active">
+                    <span>Submissions</span>
+                </a>
+            </li>
+        
+            
+            <li >
+                <a href="./about.html" class="">
+                    <span>About</span>
+                </a>
+            </li>
+        
+
+    </ul>
+</nav>
+
+
+      
+      <div id="main">
+        <section class="post">
+            <header class="major">
+              <img src="./images/toplist.svg" />
+              <h1>Submission Guidelines</h1>
+              <p></p>
+              <p></p>
+            </header>
+
+            
+
+
+            <p><strong><em>Mythaxis</em> is currently closed to submissions.</strong></p>
+<p>We are open to submissions within the following periods:</p>
+<ul>
+<li><strong>January 23rd-30th</strong></li>
+<li><strong>April 23rd-30th</strong></li>
+<li><strong>July 23rd-30th</strong></li>
+<li><strong>October 23rd-30th</strong></li>
+</ul>
+<p>Submissions received outside of these dates will unfortunately be lost and therefore not responded to. When open, we seek and offer the following:</p>
+<ul>
+<li><strong>Length:</strong> 1,000-5,000 words. These are <em>firm</em> limits. Shorter or longer works will be considered, but the further a story goes outside these bounds the more it will need to impress.</li>
+<li><strong>Compensation:</strong> €0.01 per word, with a €20 minimum. Please be aware that payment is via PayPal only.</li>
+</ul>
+<p>If you do not receive an acknowledgment within 24 hours of submission, please get in touch. We aim to accept or reject within 14 days of acknowledgment, but rl (real life) and rl (reading load) can get in the way. If you do not hear from us after 30 days, feel free to query.</p>
+<h3 id="requirements">REQUIREMENTS</h3>
+<p>We acquire <strong>First Print and Digital rights with a six month period of exclusivity</strong> from the date of publication. We also ask permission to potentially include accepted pieces in future anthologies; in event of agreement, an additional payment and digital copy will be offered in compensation. All other rights remain entirely with the author. See <strong><a href="./editorial-policy.html">here</a></strong> for an overview of our editorial process.</p>
+<p><strong>Simultaneous submissions are not only accepted, they are encouraged.</strong> Please tell us if you sim-sub, and we merely ask that you notify us of acceptance at another market as soon as possible. In the event that we accept first, we expect a positive and timely confirmation. Therefore we recommend sim-subbing to markets of equivalent status – we won&rsquo;t wait for someone else you&rsquo;d like better to turn you down.</p>
+<p><strong>We do not accept multiple submissions.</strong> Please wait until your first submission has been rejected before submitting another work.</p>
+<p><strong>If a story has previously been rejected by <em>Mythaxis</em>, please do not resubmit</strong> or inquire regarding doing so, unless explicitly invited to by the editor during the original rejection.</p>
+<blockquote>
+<p><strong>Feedback:</strong> Unfortunately, due to increased submission volume, it is no longer possible for us to offer feedback on all rejected submissions. This is a regretful necessity, but without the time required to say something meaningful feedback loses its value. However, on rejecting strong candidate pieces we may offer constructive comments along with an invitation to revise and resubmit.</p>
+</blockquote>
+<p><strong>Reprints:</strong> We do not currently invite reprint submissions.</p>
+<p><strong>All submissions must be the original work of the author.</strong> This is not a market for fan fiction. If your story is a retelling, pastiche, or homage to an existing work, please mention the source you are alluding to.</p>
+<p><strong>Content note:</strong> We anticipate an adult readership in the sense of maturity, so reasonable depictions of violence, sexuality, philosophy, or bad language are acceptable. However, this is not a market for pornographic or offensively extreme content, categorisation of which is at the editor&rsquo;s discretion. For additional notes regarding what we <strong>are</strong> and <strong>are not</strong> looking for in submissions, see <strong><a href="./editorial-policy.html">here</a></strong>.</p>
+<p><strong>We welcome writers of any and all backgrounds</strong> and invite submissions exploring diverse perspectives and experiences both cultural and personal, provided they do not seek to attack or demean those of others.</p>
+<h3 id="how-to-submit">HOW TO SUBMIT</h3>
+<ul>
+<li><strong>NEW:</strong> Access our shiny automated <a href="https://forms.gle/mCL4MQFbWTWLDzS18"><strong>submissions form here</strong></a> (requires a Google account sign in).</li>
+<li>Or, email files as an attachment to: <strong><a href="mailto:MythaxisMagazine@gmail.com">MythaxisMagazine@gmail.com</a></strong>. Please use a subject line like <strong>MYTHAXIS SUBMISSION – YOUR STORY TITLE</strong> to evade spam filters (and when we say <em>&ldquo;your story title&rdquo;</em>, we don&rsquo;t mean that literally…).</li>
+</ul>
+<p><strong>File types:</strong> Acceptable attachments are DOC, DOCX, and ODT (plus RTF, if you absolutely have to). <strong>Do not submit in PDF format.</strong> For recommendations regarding attachment titles and document formatting that will make the editor well disposed towards your work, see <strong><a href="./editorial-policy.html">here</a></strong>.</p>
+<p>Feel free to include a concise cover letter and/or author bio in your email, though neither is mandatory. <em><strong>Mythaxis</strong></em> welcomes authors of all levels of experience. We have a history of publishing first-time authors, and we mean to continue this tradition.</p>
+<p>If you track your submissions, you can find <em><strong>Mythaxis Magazine</strong></em> on <a href="https://thegrinder.diabolicalplots.com/Market?id=10939">The Submissions Grinder</a> and <a href="https://duotrope.com/listing/10263/mythaxis-magazine">Duotrope</a>.</p>
+<h3 id="a-note-on-artificial-intelligence">A NOTE ON &lsquo;ARTIFICIAL INTELLIGENCE&rsquo;</h3>
+<p><strong>We do not invite submissions featuring prose created by generative &ldquo;artificial intelligence&rdquo;, algorithmic systems, large language models, or similar tools.</strong></p>
+<p>We recognise the importance of authorial ownership when it comes to an individual&rsquo;s rights. The questionable provenance of AI-derived content, and the uncertain legality of claiming &ldquo;authorship&rdquo; of the output of AI tools, means that knowingly signing a contract of sale for an AI-generated submission would be inappropriate. We hope that submitting authors will respect our position.</p>
+<p>In the past, <em><strong>Mythaxis</strong></em> has experimented with generative image tools and used data analytics to investigate the nature of the stories submitted to us. We documented these experiences in a number of editorials (see Issue <a href="https://mythaxis.co.uk/issue-28/editorial.html">28</a> for art, Issues <a href="https://mythaxis.co.uk/issue-31/editorial.html">31</a>, <a href="https://mythaxis.co.uk/issue-32/editorial.html">32</a>, and <a href="https://mythaxis.co.uk/issue-32/editorial.html">33</a> for data analysis, plus our final round up <a href="https://mythaxis.co.uk/issue-34/artificial-artificial-intelligence.html">here</a>). All data analysed was always fully anonymised and never employed tools capable of producing derivative creative works.</p>
+<h3 id="have-a-question">Have a question?</h3>
+<p>Any queries can be addressed to the editor at <strong><a href="mailto:MythaxisMagazine@gmail.com">MythaxisMagazine@gmail.com</a></strong>.</p>
+
+            
+
+	
+	
+
+	
+            
+        </section>
+      </div>
+      
+      
+<div id="copyright">
+    <ul>
+    	<li>Copyright © Mythaxis Magazine 2024 All Rights Reserved</li>
+    	<li>Portions of this site are copyrighted to third parties</li>
+    	<li>Theme: <a href="https://themes.gohugo.io/hugo-theme-massively/">HTML5 UP Massively</a></li>
+    	<li>This site uses Google analytics</li>
+    </ul>
+</div>
+
+      <a href="#navPanel" id="navPanelToggle">Menu</a>
+    </div>
+
+    
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HLLJQL5J00"></script>
+<script>
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-HLLJQL5J00', { 'anonymize_ip': true });
+}
+</script>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+<script src='./js/jquery.min.js'></script>
+<script src='./js/jquery.scrollex.min.js'></script>
+<script src='./js/jquery.scrolly.min.js'></script>
+<script src='./js/browser.min.js'></script>
+<script src='./js/breakpoints.min.js'></script>
+<script src='./js/util.js'></script>
+<script src='./js/main.js'></script>
+
+
+
+
+
+  </body>
+</html>
