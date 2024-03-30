@@ -9,7 +9,11 @@ authors:
 - Steve Loiaconi
 copyright: '© Steve Loiaconi 2024 All Rights Reserved'
 
+<<<<<<< Updated upstream
 description: "The Muppets have been acting out alongside real people for, would you believe, sixty-nine years, though for me the old puppets-co-existing-with-human-beings chestnut peaked in 2012 with the video for K. Flay's \"We Hate Everyone\". Until now, that is, as Steve Loiaconi does for felt and jail breaks what \"Who Framed Roger Rabbit\" did for cartoons and film noir…"
+=======
+description: "The Muppets have been acting out alongside real people for, would you believe, sixty-nine years, though for me the old puppets-co-existing-with-human-beings chestnut peaked in 2012 with the video for K. Flay's /"We Hate Everyone/". Until now, that is, as Steve Loiaconi does for felt and jail breaks what /"Who Framed Roger Rabbit/" did for cartoons and film noir…"
+>>>>>>> Stashed changes
 
 image: images/PuppetsKindness10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Tahir Osman](https://www.pexels.com/photo/cuddly-toys-behind-bars-10775011/) and [Alexas_Fotos](https://pixabay.com/photos/ernie-stuffed-animal-figure-2772128/)."
