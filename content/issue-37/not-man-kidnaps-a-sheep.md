@@ -9,7 +9,7 @@ authors:
 - Jennifer Jeanne McArdle
 copyright: '© Jennifer Jeanne McArdle 2024 All Rights Reserved.'
 
-description: "'Talking animals' might be the most basic of fantastical tropes, but when done well it touches the commonplace knowledge that in real life animals communicate all the time, even across species – even with the likes of us. Jennifer McArdle does it well enough you'll forget if this is fantasy or not. All the more so when it is not only animals communicating with each other but also those with, perhaps, a foot in both worlds."
+description: "\"Talking animals\" might be the most basic of fantastical tropes, but when done well it touches the commonplace knowledge that in real life animals communicate all the time, even across species – even with the likes of us. Jennifer McArdle does it well enough you'll wondeer whether this is fantasy or not. All the more so when it is not only animals communicating with each other but also those with, perhaps, a foot in both worlds."
 
 image: images/Not-Man10x6.jpg
 imageCopyright: "The title picture was created using a Creative Commons image by [Dziana Hasanbekava](https://www.pexels.com/photo/paintings-on-shabby-rock-wall-5589170/) - many thanks!"
