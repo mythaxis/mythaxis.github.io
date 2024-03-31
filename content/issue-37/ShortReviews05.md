@@ -9,7 +9,7 @@ authors:
 - Andrew Leon Hudson
 copyright: '© Andrew Leon Hudson 2024 All Rights Reserved'
 
-description: "After digressing onto short crime fiction in our last issue, we return to our regular programming with a selection of recommended speculative stories appearing in some of the small but perfectly formed zines out there in the online world."
+description: "After digressing onto short crime fiction in our last issue, we return to our regular programming with a selection of recommended speculative stories appearing in some of the small but perfectly formed zines out there in the online world. The editor promises three, but rarely exercises such restraint."
 
 image: images/ShortReviews01_10x6.jpg
 imageCopyright: "The image is by [grandfailure](https://depositphotos.com/368748152/stock-photo-man-standing-mysterious-library-digital.html) via DepositPhotos.com."
