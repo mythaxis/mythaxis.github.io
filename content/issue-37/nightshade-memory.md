@@ -9,7 +9,7 @@ authors:
 - Micah Hyatt
 copyright: '© Micah Hyatt 2024 All Rights Reserved'
 
-description: "There is another, equal, pleasure to that of welcoming new contributors to Mythaxis, of course: welcoming previous contributors back. Micah Hyatt's writing has twice appeared as reprints, of \"Plague Rooster\" in issues 25 and \"The Third Martian Dick Temple\" in issue 25; joining these, a short, bittersweet rumination on the power of nostalgia and the strength of motivations driven by the thought of what we have lost."
+description: "There is another, equal, pleasure to that of welcoming new contributors to Mythaxis, of course: welcoming previous contributors back. Micah Hyatt's writing has twice appeared here as reprints, of \"Plague Rooster\" in issue 25 and \"The Third Martian Dick Temple\" in issue 25; joining these, a short, bittersweet rumination on the power of nostalgia and the strength of motivations driven by the thought of what we have lost."
 
 image: images/NightshadeMemory10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Grandfailure](https://depositphotos.com/illustration/broken-robot-leaved-abandoned-factory-digital-art-style-illustration-painting-179488244.html) and [ha11ok](https://pixabay.com/photos/tomato-fresh-red-tomato-produce-1205699/)."
