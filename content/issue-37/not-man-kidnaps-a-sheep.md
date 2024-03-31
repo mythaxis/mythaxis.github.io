@@ -151,7 +151,7 @@ Younger Dog whined. I managed to stand up. The sweet stink of the cave rumbled m
 
 “Slow Hawk waits for us.” Younger Dog nudged me with his snout. “The humans are your family.”
 
-“The humans use me for the things my body produces.” I sighed. “The Not-Man, the humans My lamb won’t be born into true freedom no matter what I choose.”
+“The humans use me for the things my body produces.” I sighed. “The Not-Man, the humans. My lamb won’t be born into true freedom no matter what I choose.”
 
 “At least, with the humans, your lamb will get to grow up in the sunshine. You want her to stay in this dank place forever?” Younger Dog sat and stared at me, waiting for my response.
 
