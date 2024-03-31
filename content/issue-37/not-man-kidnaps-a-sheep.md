@@ -19,9 +19,9 @@ slug: not-man-kidnaps-a-sheep
 weight: 2
 ---
 
-{{<glyph>}}Hawk{{</glyph>}}
+# Hawk
 
-Younger Dog begged me for assistance, his delicious brown eyes welling.
+{{<glyph>}}Y{{</glyph>}}ounger Dog begged me for assistance, his delicious brown eyes welling.
 
 “You are herder, not hunter. The sheep is lost. Rescuing her is not worth your time.” I elongated my neck for emphasis.
 
@@ -91,9 +91,9 @@ The dog's tail wagged slightly.
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-{{<glyph>}}Dog{{</glyph>}}
+# Dog
 
-We reached the boulder described by the cat.
+{{<glyph>}}W{{</glyph>}}e reached the boulder described by the cat.
 
 “I see the crevice over there,” said Slow Hawk. “I can’t follow you into the dark. Are you sure you want to go in?”
 
@@ -123,9 +123,9 @@ I whimpered and backed away from Not-Man, the pain in my head enormous – but I
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-{{<glyph>}}Sheep{{</glyph>}}
+# Sheep
 
-I thought I’d seen everything worth tasting or fearing before the Not-Man carried me in his arms, through the forest, the canyons, and into the cave. My face and legs were scraped with little cuts from stray branches and from squeezing me through the crevice. My wool was a mess, uncomfortable, matted, heavy – not good for my old knees.
+{{<glyph>}}I{{</glyph>}} thought I’d seen everything worth tasting or fearing before the Not-Man carried me in his arms, through the forest, the canyons, and into the cave. My face and legs were scraped with little cuts from stray branches and from squeezing me through the crevice. My wool was a mess, uncomfortable, matted, heavy – not good for my old knees.
 
 The mushroom vines offered a soft enough bed. The lamb growing inside me moved often, so she still lived. The animals already living in the cave regarded my arrival with little interest. The bats continued their shrill gossip and daily complaints. The chickens considered me for only a few moments before they went back to chasing cave bugs. The would-be proud goats looked up from their naps before returning to sleep. Goats always called sheep their dull cousins. Yet, here they looked lazy. Bored.
 
@@ -177,9 +177,9 @@ Younger Dog’s tail wagged back and forth, not too quickly.
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-{{<glyph>}}Bat{{</glyph>}}
+# Bat
 
-The Not-Man who moved into our cave had a habit of chatting aloud to us, although we didn’t always understand what he said. Because of the weird mushrooms he grew, the cave was bright all the time. We did not need to use our bat sounds to find our way around the cave anymore because we always had light, but this made sleeping difficult. He pretended to not understand our complaints about the glow. 
+{{<glyph>}}T{{</glyph>}}he Not-Man who moved into our cave had a habit of chatting aloud to us, although we didn’t always understand what he said. Because of the weird mushrooms he grew, the cave was bright all the time. We did not need to use our bat sounds to find our way around the cave anymore because we always had light, but this made sleeping difficult. He pretended to not understand our complaints about the glow. 
 
 Not-Man claimed it was not easy for him to live with humans. They did not want him. We pitied him because he lived alone with no colony. He kidnapped big animals and brought them to our cave, out of loneliness, we guessed. However, he did not groom us, himself, or his animal friends, or supply interesting gossip, so perhaps the humans felt he was poor company. We could not be sure because we do not know human customs well.
 
