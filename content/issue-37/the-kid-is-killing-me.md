@@ -9,7 +9,7 @@ authors:
 - Aubrey Taylor
 copyright: '© Aubrey Taylor 2024 All Rights Reserved'
 
-description: "It's a treat to discover an author you'd never read before whose writing just lights you up. It's always a nice feeling adding debutants the ranks of authors appearing in Mythaxis. But there's something a little extra special when you discover that the story you liked so much will be the author's first ever publication. In my opinion, Aubrey Taylor doesn't so much hit the ground running as not hit the ground at all. She's flying."
+description: "As a reader, it's a treat to discover an author whose writing just lights you up. As editor, it's always a nice feeling adding new names to the ranks of authors appearing in Mythaxis, every issue means more. But there's something a little extra special when you discover that the story you liked so much will be that author's first ever publication. Here's to a great debut! Aubrey Taylor doesn't so much hit the ground running as miss the ground completely and carry on flying."
 
 image: images/KidKillingMe10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Bru-nO](https://pixabay.com/photos/woman-breast-baby-newborn-female-841489/) and [Andrea Piacquadio](https://www.pexels.com/photo/woman-in-gray-tank-top-3812746/)."
