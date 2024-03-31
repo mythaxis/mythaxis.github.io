@@ -14,20 +14,20 @@ imageCopyright: "AstroCats by Michal Kváč"
 
 # https://flexboxsheet.com/
 intro:
-  justify_content: flex-start
-  # align_items: flex-start
-  # align_content: flex-start
+  justify_content: flex-end
+  align_items: center
+  # align_content: flex-end
   logo:
     # order: 3
     # flex_grow: 2
-    align_self: flex-start
+    align_self: flex-end
     # align_items: baseline
-    color: '#f1401d'
+    color: '#D3A04D'
   subheading:
     # order: 3
     # flex_grow: 1
-    align_self: flex-start
-    # align_items: flex-start
+    align_self: flex-end
+    # align_items: flex-end
   actions:
     display: none
     # order: 3
