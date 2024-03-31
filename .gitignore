@@ -22,3 +22,4 @@
 _gen
 content/pending-issue/
 .hugo_build.lock
+docs
