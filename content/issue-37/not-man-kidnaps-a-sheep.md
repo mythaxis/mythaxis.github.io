@@ -19,7 +19,7 @@ slug: not-man-kidnaps-a-sheep
 weight: 2
 ---
 
-## {{<glyph>}}H{{</glyph>}}awk
+## Hawk
 
 Younger Dog begged me for assistance, his delicious brown eyes welling.
 
@@ -91,7 +91,7 @@ The dog's tail wagged slightly.
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-## {{<glyph>}}D{{</glyph>}}og
+## Dog
 
 We reached the boulder described by the cat.
 
@@ -123,7 +123,7 @@ I whimpered and backed away from Not-Man, the pain in my head enormous – but I
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-## {{<glyph>}}S{{</glyph>}}heep
+## Sheep
 
 I thought I’d seen everything worth tasting or fearing before the Not-Man carried me in his arms, through the forest, the canyons, and into the cave. My face and legs were scraped with little cuts from stray branches and from squeezing me through the crevice. My wool was a mess, uncomfortable, matted, heavy – not good for my old knees.
 
@@ -177,7 +177,7 @@ Younger Dog’s tail wagged back and forth, not too quickly.
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-## {{<glyph>}}B{{</glyph>}}at
+## Bat
 
 The Not-Man who moved into our cave had a habit of chatting aloud to us, although we didn’t always understand what he said. Because of the weird mushrooms he grew, the cave was bright all the time. We did not need to use our bat sounds to find our way around the cave anymore because we always had light, but this made sleeping difficult. He pretended to not understand our complaints about the glow. 
 
