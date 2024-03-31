@@ -12,7 +12,7 @@ copyright: '© Emma Burnett 2024 All Rights Reserved'
 description: "With no-one but myself to blame, I sometimes feel like fantasy of the classic style (magical races, epic adventures, character classes, that sort of thing) appears too rarely in Mythaxis. Emma Burnett to the rescue, then, whose sideways take on such quests sprinkles in the odd technological anachronism and cultural observation to give the whole a fun and contemporary air."
 
 image: images/HighPlaces10x6.jpg
-imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Antonio Friedemann](https://www.pexels.com/photo/woman-in-medieval-costume-holding-brown-stick-6848160/), [JJ Jordan](https://www.pexels.com/photo/handsome-man-in-traditional-clothes-looking-at-camera-3729861/), [Konstantin Mishchenko](https://www.pexels.com/photo/portrait-of-a-man-19272854/), [Алексей Вечерин](https://www.pexels.com/photo/man-in-black-jacket-standing-behind-a-post-9562197/),and [Archie Binamira](https://www.pexels.com/photo/selective-focus-photographed-of-green-mountain-913215/)."
+imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Antonio Friedemann](https://www.pexels.com/photo/woman-in-medieval-costume-holding-brown-stick-6848160/), [JJ Jordan](https://www.pexels.com/photo/handsome-man-in-traditional-clothes-looking-at-camera-3729861/), [Konstantin Mishchenko](https://www.pexels.com/photo/portrait-of-a-man-19272854/), [Алексей Вечерин](https://www.pexels.com/photo/man-in-black-jacket-standing-behind-a-post-9562197/), and [Archie Binamira](https://www.pexels.com/photo/selective-focus-photographed-of-green-mountain-913215/)."
 
 type: stock
 slug: friends-in-high-places
