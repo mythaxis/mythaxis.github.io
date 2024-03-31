@@ -12,7 +12,7 @@ copyright: '© Mattia Ravasi 2024 All Rights Reserved'
 description: "Our quarterly cycling between review columnists begins another annual turn, raising Mattia Ravasi to the top of the wheel in this editor's increasingly laboured and probably broken metaphor. Not a problem shared by Mattia – nor by Kelly Link. Does her stellar reputation as a short story writer expand to embrace the long form?"
 
 image: images/BookLoveLink10x6.jpg
-imageCopyright: "The image shows author Kelly Link (from [the author's website](https://kellylink.net/), by [Adrianne Mathiowetz](https://www.adriannemathiowetz.com/) and the novel's cover (designed by [Caroline Cunningham](https://www.penguinrandomhouse.com/books/239722/the-book-of-love-by-kelly-link/))."
+imageCopyright: "The image shows author Kelly Link (from [the author's website](https://kellylink.net/), by [Adrianne Mathiowetz](https://www.adriannemathiowetz.com/)) and the novel's cover (designed by [Caroline Cunningham](https://www.penguinrandomhouse.com/books/239722/the-book-of-love-by-kelly-link/))."
 
 type: stock
 slug: the-book-of-love-kelly-link-review
