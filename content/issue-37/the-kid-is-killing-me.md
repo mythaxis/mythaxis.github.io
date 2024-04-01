@@ -243,4 +243,4 @@ One of us says “Okay,” and it’s only when the girl and I are back in the c
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **The Kid is Killing Me** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/952983953501258).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **The Kid is Killing Me** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1037061655093487).*
