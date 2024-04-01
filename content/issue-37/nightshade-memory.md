@@ -93,4 +93,4 @@ The detective scoops up the inert remains of a man who died trying to remember w
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Nightshade Memory** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/952982603501393).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Nightshade Memory** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1037060538426932).*
