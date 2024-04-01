@@ -247,4 +247,4 @@ The troll looks down at the faerie for a moment, then breaks into a rare smile. 
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Friends in High Places** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/952981610168159).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Friends in High Places** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1037059861760333).*
