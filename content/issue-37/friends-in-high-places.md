@@ -19,6 +19,10 @@ slug: friends-in-high-places
 weight: 4
 ---
 
+> Editor's note: In a first for *Mythaxis Magazine*, Emma Burnett's ***Friends in High Places*** has been [simultaneously released by *Upbeat Tales*](https://upbeattales.com/episodes/2024/friends-in-high-places/) in audio format! Read it here, hear it there!
+
+
+
 {{<glyph>}}A{{</glyph>}} priest, a scribe, and a whore walk into a pub, but none of them is in the mood for a joke.
 
 The priest arrives first. She’s not wearing her priestly robes, but between the tree pendant pinned to her shoulder, the limp, atrophied wings tied down at her back, and the perma-judgement scowl on her face, there’s no question about her job. People avoid eye contact. She stalks through the crowd and claims a suddenly vacant booth at the back.
