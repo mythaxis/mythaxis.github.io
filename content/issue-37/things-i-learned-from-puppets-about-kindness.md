@@ -369,4 +369,4 @@ Maybe I deserve that. Who really knows anything anymore?
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Things I Learned From Puppets About Kindness** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1037059305093722).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Things I Learned From Puppets About Kindness** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1037058635093789).*
