@@ -209,4 +209,4 @@ It was a shame that the Not-Man died with no one to mourn him – a sad fate for
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Not-Man Kidnaps a Sheep** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/952983423501311).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Not-Man Kidnaps a Sheep** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1037061091760210).*
