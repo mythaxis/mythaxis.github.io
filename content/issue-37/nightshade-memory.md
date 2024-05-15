@@ -13,7 +13,7 @@ description: "There is another, equal, pleasure to that of welcoming new contrib
 
 image: images/NightshadeMemory10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Grandfailure](https://depositphotos.com/illustration/broken-robot-leaved-abandoned-factory-digital-art-style-illustration-painting-179488244.html) and [ha11ok](https://pixabay.com/photos/tomato-fresh-red-tomato-produce-1205699/)."
-
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i37/Nightshade.Memory.mp3"
 type: stock
 slug: nightshade-memory
 weight: 3
