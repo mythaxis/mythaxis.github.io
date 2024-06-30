@@ -16,4 +16,4 @@ slug: contents
 - [Headspace]({{< relref path="headspace.md" >}}), by Mark Martin
 - [Dagon, by Fred Chappell]({{< relref path="dagon-fred-chappell.md" >}}), reviewed by Bill Ryan
 - [Short Reviews – April to June 2024]({{< relref path="ShortReviews06.md" >}}), by Andrew Leon Hudson
-- [The Voice of Mythaxis – an interview with Micah Hyatt]({{< relref path="the-voice-of-mythaxis.md" >}})
+- [An interview with Micah Hyatt]({{< relref path="the-voice-of-mythaxis.md" >}}), by Andrew Leon Hudson

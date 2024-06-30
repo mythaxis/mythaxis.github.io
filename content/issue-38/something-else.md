@@ -9,7 +9,7 @@ authors:
 - Dane Erbach
 copyright: '© Dane Erbach 2024 All Rights Reserved.'
 
-description: "The near inevitability of any given Mythaxis issue featuring two stories half-reflecting each other is once more upon us. In our first instalment, Dane Erbach leverages his personal experience of preparing for the unimaginable worst to unsettling effect, delivering a high school nightmare scenario that carries the distant echo of paranoiac genre classics past. Let's not spoil with specifics, but if a episode from the original Twilight Zone and a certain Stephen King novella leap to mind… well, at least YOU aren't alone."
+description: "The near inevitability of any given issue featuring two stories half-reflecting each other is once more upon us. Here, Dane Erbach leverages his personal experience of preparing for the unimaginable worst to unsettling effect in a high school nightmare scenario that carries the distant echo of paranoiac classics past. If a episode from the original Twilight Zone or a certain Stephen King novella leap to mind… well, at least YOU aren't alone."
 
 image: images/SomethingElse10x6.jpg
 imageCopyright: "The title picture was created using a Creative Commons image by [Strange Happenings](https://www.pexels.com/photo/an-empty-dark-hallway-11757079/) - many thanks!"
@@ -245,7 +245,7 @@ Her screams disappear down the hallway.
 
 My first instinct – to retreat deeper into the classroom – smothers my desire to chase Eva down. And instead of running away – my second instinct – I stand frozen in fear, unfocused, a step from the threshold, trying to will myself to do something, anything. Tears boil in my sinuses but refuse to fall. 
 
-When something skids into the doorway, clutches my shoulders, I tense and keen and release all the air in my body at once. I recognize Ms. Anderlik too late. Her dirty hands release me, and all she can get out is *“Run**”* before something rips her away too.
+When something skids into the doorway, clutches my shoulders, I tense and keen and release all the air in my body at once. I recognize Ms. Anderlik too late. Her dirty hands release me, and all she can get out is *“Run”* before something rips her away too.
 
 ![Orbit-sml ><](images/Orbit.svg)
 
@@ -253,7 +253,7 @@ When something skids into the doorway, clutches my shoulders, I tense and keen a
 
 The floor slips beneath me, streaked brown linoleum. The lockers blur in my periphery as I run, turn a sharp corner, quickstep down a flight of stairs.
 
-*For real*, Brett’s voice shudders through my mind, *what the actual* *hell**?*
+*For real*, Brett’s voice shudders through my mind, *what the actual* *hell?*
 
 On the third floor, tiles peel off unpainted cinderblocks dappled with bullet holes. A water fountain hangs off the wall and cold water splashes under my feet. My shoes slide and squeak until I hit a carpeted hall where a sickly sweet scent laces the air, like rotten flowers.
 
@@ -399,7 +399,7 @@ Beneath the warm sunlight a breeze pushes through the swaying trees. It’s all 
 
 *But only because you left Lawrence behind*.
 
-Thoughts materialize like poltergeists, pesky and unwanted. *You left Eva beh**ind, Kayden behind, Braelin, Miranda, Ms. Anderlik behind.* But in the haze of this quiet afternoon, the safety of this faded parking lot, another realization cuts through louder than the last: *Lawrence saved me because I saved him*.
+Thoughts materialize like poltergeists, pesky and unwanted. *You left Eva behind, Kayden behind, Braelin, Miranda, Ms. Anderlik behind.* But in the haze of this quiet afternoon, the safety of this faded parking lot, another realization cuts through louder than the last: *Lawrence saved me because I saved him*.
 
 “Quiet afternoon,” I whisper, wiping my eyes, placing a hand on one of the white squad cars. *Why hasn’t anyone come to collect me, to wrap a blanket around me?*
 

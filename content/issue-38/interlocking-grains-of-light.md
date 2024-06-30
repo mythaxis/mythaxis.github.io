@@ -11,7 +11,7 @@ copyright: '© LM Zaerr 2024 All Rights Reserved'
 
 description: "Every year or so a piece of fiction based on the mythology of Ancient Greece penetrates the barriers erected by Mythaxis' editor, so it's long past time he admitted his claimed abhorrence for this very broad sub-genre is a lie. Do it right, and he's just as happy to read it as he is anything else done right. Doing it right, LM Zaerr ventures into this rich territory with a spin on one of the truly historic takes on the transformative power of love."
 
-image: images/InterlockingGrainsLight10x6
+image: images/InterlockingGrainsLight10x6.jpg
 imageCopyright: "The title picture was created using a Creative Commons image by [Kuan-yu Huang](https://www.pexels.com/photo/sculpture-of-cupid-and-psyche-14068324/) - many thanks!"
 
 type: stock
@@ -205,4 +205,4 @@ Lysander sagged in the threshold. He tangled his fingers into my hair, then drew
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **The Kid is Killing Me** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/952983953501258).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Interlocking Grains of Light** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*

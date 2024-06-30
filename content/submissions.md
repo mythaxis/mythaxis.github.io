@@ -27,7 +27,7 @@ If you do not receive an acknowledgment within 24 hours of submission, please ge
 
 ***Mythaxis*** seeks speculative fiction (sf/f/h) of all stripes for our first three issues each year. We are also interested in submissions of crime fiction for our end-of-year "all crime" issue. All these genres are equally welcome in each submission window.
 
-We acquire **First Print and Digital rights with a six month period of exclusivity** from the date of publication, and will discuss the possibility of an audio format release with interested contributors. We also ask permission to potentially include accepted pieces in future anthologies; in event of agreement, an additional payment and digital copy will be offered in compensation. All other rights remain entirely with the author. See **[here](./editorial-policy.html)** for an overview of our editorial process.
+We acquire **First Print, Digital, and Audio rights with a six month period of exclusivity** from the date of publication. We also ask permission to potentially include accepted pieces in future anthologies; in event of agreement, an additional compensation will be offered. All other rights remain entirely with the author. See **[here](./editorial-policy.html)** for an overview of our editorial process.
 
 **Simultaneous submissions are not only accepted, they are encouraged.** Please tell us if you sim-sub, and we merely ask that you notify us of acceptance at another market as soon as possible. In the event that we accept first, we expect a positive and timely confirmation. Therefore we recommend sim-subbing to markets of equivalent status – we won't wait for someone else you'd like better to turn you down.
 

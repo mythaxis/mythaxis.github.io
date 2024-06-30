@@ -9,7 +9,7 @@ authors:
 - Addison Smith
 copyright: '© Addison Smith 2024 All Rights Reserved'
 
-description: "Welcome back to Addison Smith, who graced our pages four years and fourteen issues ago with his techno thriller /"First Breath/", possibly the least Addison Smith-like piece of fiction in his canon. This time we delve into one of his more typically atypical zones of interest, presenting us with seemingly familiar worlds in which something is (perhaps metaphorically, or perhaps literally) very definitely fishy…"
+description: "Welcome back to Addison Smith, who graced our pages four years and fourteen issues ago with his techno thriller First Breath, possibly the least Addison Smith-like piece of fiction in his canon. This time we delve into one of his more typically atypical zones of interest, presenting us with seemingly familiar worlds in which something is (perhaps metaphorically, or perhaps literally) very definitely fishy…"
 
 image: images/HookLineSinker10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Ben Phillips](https://www.pexels.com/photo/clown-fish-on-white-corals-4781926/), [Dinielle De Veyra](https://www.pexels.com/photo/elegant-young-bearded-businessman-in-suit-and-tie-in-downtown-4195342/), [Tima Miroshnichenko](https://www.pexels.com/photo/tailor-man-measuring-the-man-6765071/), and [Jess Loiterton](https://www.pexels.com/photo/close-up-of-water-bubbles-splashing-5232856/)."

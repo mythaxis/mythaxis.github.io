@@ -14,7 +14,7 @@ imageCopyright: "Plant Workshop 2221 by Tarik Keshen"
 
 # https://flexboxsheet.com/
 intro:
-  justify_content: flex-end
+  justify_content: flex-start
   align_items: flex-start
   # align_content: flex-start
   logo:
