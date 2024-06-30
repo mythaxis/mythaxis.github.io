@@ -141,7 +141,7 @@ I was sleeping when I felt Younger Dog’s nose on my cheek. I bleated awake, my
 
 “Huh?” I asked, not fully understanding the Not-Man. I heard him groan.
 
-“The d-dog wantsss to take YOU home,” he communicated again. Trying to understand his animal voice felt like trying to catch a flea hiding in my wool. “I w-will let YOU maaake choice…” he paused for a few moments “...S-Straight Hoof?”
+“The d-dog wantsss to take YOU home,” he communicated again. Trying to understand his animal voice felt like trying to catch a flea hiding in my wool. “I w-will let YOU maaake choice…” he paused for a few moments “…S-Straight Hoof?”
 
 “Straight *Horn*,” I corrected, gritting my teeth.
 
@@ -209,4 +209,4 @@ It was a shame that the Not-Man died with no one to mourn him – a sad fate for
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Not-Man Kidnaps a Sheep** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1037061091760210).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Not-Man Kidnaps a Sheep** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/952983423501311).*
