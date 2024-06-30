@@ -1,5 +1,5 @@
 ---
-title: "The Voice of Mythaxis - an interview with Micah Hyatt"
+title: "An interview with Micah Hyatt"
 date: 2024-07-01
 issue: Issue 38
 
@@ -9,13 +9,13 @@ authors:
 - Andrew Leon Hudson
 copyright: '© Andrew Leon Hudson 2024 All Rights Reserved'
 
-description: "As you may now well be aware, Mythaxis Magazine is now a platform for audio-format speculative fiction! It's fair to say that there's one man we have to thank for that: Micah Hyatt, a past contributor to these pages with fiction, poetry, and experiments in generative art, so we lured his from the studio long enough to chat a little about himself and his process."
+description: "As you may now be well aware, Mythaxis Magazine is now a platform for audio-format speculative fiction! It's fair to say that there's one man we have to thank for that: Micah Hyatt, a past contributor to these pages with fiction, poetry, and experiments in generative art, so we lured him from the studio long enough to chat a little about himself, and the voice of Mythaxis."
 
 image: images/VoiceMythaxis10x6.jpg
 imageCopyright: "The title picture was created using Micah Hyatt's headshot and a Creative Commons image by [OpenClipart-Vectors](https://pixabay.com/vectors/audio-music-sfa-jazz-sound-wave-1293262/) - many thanks!"
 
 type: stock
-slug: the-voice-of-mythaxis-an-interview-with-micah-hyatt
+slug: an-interview-with-micah-hyatt
 weight: 8
 featured: true
 
@@ -35,7 +35,7 @@ featured: true
 
 Recreationally, I swim as much as possible. I like watching foreign movies. *RRR* is my most recent favorite, followed by *The New King of Comedy* by Stephen Chow. I also enjoy playing video games. *Sekiro* is the best game ever made. This is not up for discussion.
 
-**ALH: **You must mean *Knytt Underground*. Anyway, as well as contributing fiction here you've participated in our brief flirtation with generative art, and now you're providing us with audio! What led you to experiment with these different formats?
+**ALH:** You must mean *Knytt Underground*. Anyway, as well as contributing fiction here you've participated in our brief flirtation with generative art, and now you're providing us with audio! What led you to experiment with these different formats?
 
 **Micah:** I received a master's in English in the Writing Popular Fiction program at Seton Hill University in Pennsylvania. My thesis was a thousand-page military fantasy whalepunk novel. It was pretty good for a thesis novel, not good enough that I'd want to send it out. I've been working on another draft on and off since graduation. While I was at university there was a reading contest every semester, and I took first place every time. People said I had a nice voice. However, as my neurological disorders began to worsen I developed issues speaking, so I decided to start recording stories as a form of therapy to train myself how to speak properly again.
 
@@ -47,7 +47,7 @@ My first attempt was a new edition of the first *Doctor Doolittle* book. It has 
 
 **ALH:** My love of *Spinal Tapp* informs me that's pretty damn small. Oh, right: *feet*. So that's about... 180cm by 250cm?
 
-**Micah:** Sure, why not. I ordered foam panels from Amazon and covered the walls with them. I have a noise-canceling curtain that I slide behind me after I shut the door, and something called a draft blocker the underside of the door. I drilled a hole in the wall between the closet and my daughter's room, and fed all the cables into there. The only electronics I have in the room are silent running – a single widescreen monitor so that I can have the story on one side and the recording software on the other at the same time.
+**Micah:** Sure, why not. I ordered foam panels from Amazon and covered the walls with them. I have a noise-canceling curtain that I slide behind me after I shut the door, and something called a draft blocker for the underside of the door. I drilled a hole in the wall between the closet and my daughter's room, and fed all the cables into there. The only electronics I have in the room are silent running – a single widescreen monitor so that I can have the story on one side and the recording software on the other at the same time.
 
 Reduction of unnecessary heat and sound sources are probably the most important thing, followed by comfort. One thing I quickly realized was that there was no air-conditioning or ventilation in the room at all. For the first year this meant, unless I wanted to be a sweat-drenched monster, I could only record in the winter or the spring. This year I finally had a ventilation duct put in.
 
@@ -65,7 +65,7 @@ Firstly, I just read the story. I note down all the characters with speaking rol
 
 **ALH:** The variety of voice was one of the first things that stood out in your read of *Nightshade Memory*, the robotic effect was really striking.
 
-**Micah:** My own accent is middle to upper class, middle American, pretty close to what you'd expect from a white male reporter on the local news channel in a place like Kansas City or New York. For narration, I use something close to my natural speaking voice, but a little more chesty. This is important, because I don't trigger the neurological stutter if I speak in a false voice or an accent,or if I sing. I try to be clear and add meaningful inflection and emphasis on words in a way that I wouldn't normally do when just speaking conversationally.
+**Micah:** My own accent is middle to upper class, middle American, pretty close to what you'd expect from a white male reporter on the local news channel in a place like Kansas City or New York. For narration, I use something close to my natural speaking voice, but a little more chesty. This is important, because I don't trigger the neurological stutter if I speak in a false voice or an accent, or if I sing. I try to be clear and add meaningful inflection and emphasis on words in a way that I wouldn't normally do when just speaking conversationally.
 
 Sentences have a sort of shape with peaks and valleys, and it varies from culture to culture and accent to accent. For character voices, there's a bunch of little things you can do – speaking from the front of your mouth, the back, the throat, volume control, raspiness, syllable harshness, etc. I'm still a newbie. I'm learning. Female voices, especially when there are multiple characters that need differentiation, are difficult.
 
@@ -75,9 +75,9 @@ I have a series of enhancements I apply over the audio with software. I've manua
 
 **ALH:** So, what projects do you have your eye on for the future?
 
-**Micah:** I'm still working on the aforementioned military fantasy novel. It's called *Lightswallower*. It got too big, and I had to take about a year to restructure and re-outline it. I've been writing the first book, tentatively called *The Penitent Bone*. It's about Galan, an exiled scrimshander priest, who is summoned back to the temple at the Leviathan's Throat. The high priest, Galan's mentor, has died under mysterious circumstances. In a last will and testament carved in whalebone, Galan is absolved of heresy and appointed as the new high priest. Meanwhile, the city comes under siege by a steamwork army whose goal seems to be not as simple as conquest – they want to destroy the secret knowledge hidden in the Leviathan's Throat.   
+**Micah:** I'm still working on the aforementioned military fantasy whalepunk novel. It's called *Lightswallower*. It got too big, and I had to take about a year to restructure and re-outline it. I've been writing the first book, tentatively called *The Penitent Bone*. It's about Galan, an exiled scrimshander priest, who is summoned back to the temple at the Leviathan's Throat. The high priest, Galan's mentor, has died under mysterious circumstances. In a last will and testament carved in whalebone, Galan is absolved of heresy and appointed as the new high priest. Meanwhile, the city comes under siege by a steamwork army whose goal seems to be not as simple as conquest – they want to destroy the secret knowledge hidden in the Leviathan's Throat.   
 
-I've also gotten into writing lyrics and poetry, mainly anti-war and anti-military industrial complex in theme. I use AI to turn it into music. This is more of a therapy thing for me. Long writing sessions can be difficult when I have migraines or other issues, but I still want to be creative, and I love music. I can write an intro or a verse and then workshop it with the AI and hear the results right away. I love being able to play "producer" with a full band and singers at my fingertips. I go by *Leidenfrost Diver* on Spotify and YouTube. It's extremely pleasant and entertaining, and I dearly hope they get the ethics issues solved, because I love the process and the experimentation of it.
+I've also gotten into writing lyrics and poetry, mainly anti-war and anti-military industrial complex in theme. I use AI to turn it into music. This is more of a therapy thing for me. Long writing sessions can be difficult when I have migraines or other issues, but I still want to be creative, and I love music. I can write an intro or a verse and then workshop it with the AI and hear the results right away. I love being able to play "producer" with a full band and singers at my fingertips. I go by *Leidenfrost Diver* on Spotify and YouTube. It's extremely pleasant and entertaining, and I dearly hope the AI scene gets the ethics issues solved, because I love the process and the experimentation of it.
 
 ![Orbit-lrg](images/Orbit.svg)
 

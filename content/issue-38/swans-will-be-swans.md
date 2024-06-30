@@ -9,7 +9,7 @@ authors:
 - Elizabeth Zuckerman
 copyright: '© Elizabeth Zuckerman 2024 All Rights Reserved'
 
-description: "Our second high-school-era offering is, yes, much lighter in tone than its predecessor – difficult not to be – but Elizabeth Zuckerman unquestionably touches on another serious subject as she transplants a classic trope of fantasy, fairy, and folk stories to that most welcoming of contemporary environments. Harassment and bullying makes countless youngsters miserable at a time we're told we'll be nostalgic for the rest of our lives, but a person can come through it, with a little inner strength, and the right support network."
+description: "Our second high school-era offering is much lighter in tone than its predecessor, but Elizabeth Zuckerman touches on another serious subject as she transplants an iconic fairy tale trope to that most fantasy-welcoming of contemporary environments. Countless youngsters are made miserable at a time we're told we'll feel nostalgia over for the rest of our lives, but they can beat it, with a little inner strength, and the right support network."
 
 image: images/Swans10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Alex Lanting](https://unsplash.com/photos/pair-of-blue-and-black-new-balance-cleats-in-the-air-under-teal-sky-with-white-clouds-KEEpi-SOM_s) and [Pranav](https://unsplash.com/photos/a-white-feather-sitting-on-top-of-a-tree-branch-goxVXByT5EU)."

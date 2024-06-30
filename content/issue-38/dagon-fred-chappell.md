@@ -9,7 +9,7 @@ authors:
 - Bill Ryan
 copyright: '© Bill Ryan 2024 All Rights Reserved'
 
-description: "For our second longform review of the year, All Hail He Prophesied Since Times Before Time to Rise from the Depths in All His Awful Glory— excuse me, I merely mean to reintroduce regular columnist Bill Ryan. It's all too easy to let the strangely wide-spread inspiration born of H. P. Lovecraft's sinister fiction to drive a writer to madness (or, at least, to madness of cliché), so what is to be found in Fred Chappell's 1968 Southern Gothic take on the Cthulhu mythos?"
+description: "For our latest longform review of the year, All Hail He Prophesied Since Times Before Time to Rise from the Depths in All His Awful Glory — Bill Ryan. It's easy to let the wide-spread inspiration of H. P. Lovecraft's sinister fiction drive a writer to madness (or, at least, to madness of cliché), so what is to be found in Fred Chappell's 1968 Southern Gothic take on the Cthulhu mythos?"
 
 image: images/Dagon10x6.jpg
 imageCopyright: "The image shows author Fred Chappell (from his biography at the [Greensboro University of North Carolina's website](https://encyclopedia.uncg.edu/fred-chappell/) and the 1968 edition's cover."
