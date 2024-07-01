@@ -85,7 +85,7 @@ All at once, he burst inside me, into a place he had not carved. I arced in ting
 
 "You need food," he said in the morning, and he was right. He put a grape in my mouth. I chewed and swallowed, then spat up milky liquid with bits of grape. It took me a while to learn the trick of eating. Spring water sloshed in new cavities, but it stayed inside me. I nibbled a honey cake, and it rasped down my soft throat. I bit into pomegranate fruit. The seeds between my teeth grounded me in my humanity. When Lysander brought me skewered lamb, I turned away. The meat was too much like my own substance.
 
-My womb grew large. Lysander lay with his hand on my belly, feeling a tiny hand or foot kick against him. "I wish I could see the baby right now," he said, laughing his booming, joyous laugh.
+My womb grew large. Lysander lay with his hand on my belly, feeling a tiny hand or foot kick against him. "I wish I could see the baby right now," he said, laughing in his booming, joyous laugh.
 
 "You'd have to chisel me away," I said.
 
@@ -150,6 +150,8 @@ At dawn the next morning, we woke to Paphos screaming. Lysander jumped out of be
 I hurried after him to the boy's chamber. Paphos huddled against the wall shrieking and pointing at a three-horned monster standing on his bed.
 
 I laughed, though I shouldn't have. The monster was Marmara covered with a sheet. A tripod cooking pot rested upside-down on her head. From then on, Paphos left her alone, but he never loved her.
+
+***
 
 On the day Marmara turned thirteen, the apprentice Kouros arrived, also thirteen. He was slender and whimsical. He tried to show Paphos a shadow game, but our son was now fifteen. He snubbed the younger boy and went off to wrestle with his friends. Paphos was training for war.
 
