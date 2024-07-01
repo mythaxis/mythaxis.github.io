@@ -9,7 +9,7 @@ authors:
 - Andrew Leon Hudson
 copyright: '© Andrew Leon Hudson 2024 All Rights Reserved'
 
-description: "As you may now be well aware, Mythaxis Magazine is now a platform for audio-format speculative fiction! It's fair to say that there's one man we have to thank for that: Micah Hyatt, a past contributor to these pages with fiction, poetry, and experiments in generative art, so we lured him from the studio long enough to chat a little about himself, and the voice of Mythaxis."
+description: "As you may now be well aware, Mythaxis Magazine has become a platform for audio-format speculative fiction! It's fair to say that there's one man we have to thank for that: Micah Hyatt, a past contributor to these pages with fiction, poetry, and experiments in generative art, so we lured him from the studio long enough to chat a little about himself, and the voice of Mythaxis."
 
 image: images/VoiceMythaxis10x6.jpg
 imageCopyright: "The title picture was created using Micah Hyatt's headshot and a Creative Commons image by [OpenClipart-Vectors](https://pixabay.com/vectors/audio-music-sfa-jazz-sound-wave-1293262/) - many thanks!"
@@ -77,7 +77,7 @@ I have a series of enhancements I apply over the audio with software. I've manua
 
 **Micah:** I'm still working on the aforementioned military fantasy whalepunk novel. It's called *Lightswallower*. It got too big, and I had to take about a year to restructure and re-outline it. I've been writing the first book, tentatively called *The Penitent Bone*. It's about Galan, an exiled scrimshander priest, who is summoned back to the temple at the Leviathan's Throat. The high priest, Galan's mentor, has died under mysterious circumstances. In a last will and testament carved in whalebone, Galan is absolved of heresy and appointed as the new high priest. Meanwhile, the city comes under siege by a steamwork army whose goal seems to be not as simple as conquest – they want to destroy the secret knowledge hidden in the Leviathan's Throat.   
 
-I've also gotten into writing lyrics and poetry, mainly anti-war and anti-military industrial complex in theme. I use AI to turn it into music. This is more of a therapy thing for me. Long writing sessions can be difficult when I have migraines or other issues, but I still want to be creative, and I love music. I can write an intro or a verse and then workshop it with the AI and hear the results right away. I love being able to play "producer" with a full band and singers at my fingertips. I go by *Leidenfrost Diver* on Spotify and YouTube. It's extremely pleasant and entertaining, and I dearly hope the AI scene gets the ethics issues solved, because I love the process and the experimentation of it.
+I've also gotten into writing lyrics and poetry, mainly anti-war and anti-military industrial complex in theme. I use AI to turn it into music. This is more of a therapy thing for me. Long writing sessions can be difficult when I have migraines or other issues, but I still want to be creative, and I love music. I can write an intro or a verse and then workshop it with the AI and hear the results right away. I love being able to play "producer" with a full band and singers at my fingertips. I go by *[Leidenfrost Diver](https://distrokid.com/hyperfollow/leidenfrostdiver/the-wmds)* and you can find tracks on Spotify and YouTube. It's extremely pleasant and entertaining, and I dearly hope the AI scene gets the ethics issues solved, because I love the process and the experimentation of it.
 
 ![Orbit-lrg](images/Orbit.svg)
 

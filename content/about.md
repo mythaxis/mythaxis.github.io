@@ -22,5 +22,9 @@ Andrew is a technical writer by day, and is technically a writer by night as wel
 ### Marty Steer - *Digital Huperson*
 Marty is a human-like person who emerged from a Digital Humanities Research Hub at the School of Advanced Study. He likes messing about with humanities data, minimal computing and I also enjoy liminal ideas.
 
+### Micah Hyatt - *the Voice of Mythaxis*
+
+Micah is a veteran soldier, freight train conductor, and graduate of the Seton Hill *Writing Popular Fiction* MFA program. His fiction has been published all across the web, and his light-hearted zombie survival novella, *Eating the Exhibits*, is available through Amazon. He narrates and produces the audio-format of the Mythaxis stories.
+
 ### The Story Oracle - *Fictional Genius*
 Blessed with guru-like serenity, the Story Oracle graciously bestows their wisdom on such editors as who climb to the peak of Slush Mountain and ask, *"Is this thing as good as I think it is?"* Occasionally, the answer is comprehensible.
