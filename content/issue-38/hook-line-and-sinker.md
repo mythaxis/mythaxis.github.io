@@ -19,7 +19,7 @@ slug: hook-line-and-sinker
 weight: 3
 ---
 
-{{<glyph>}}A{{</glyph>}}he man in the mirror has dull, bulbous eyes above a gaping cartilage mouth. Its gills breathe in and out with expanding and contracting motions as I stare into eyes that should be my own. I adjust my tie beneath the faux fish facade.
+{{<glyph>}}T{{</glyph>}}he man in the mirror has dull, bulbous eyes above a gaping cartilage mouth. Its gills breathe in and out with expanding and contracting motions as I stare into eyes that should be my own. I adjust my tie beneath the faux fish facade.
 
 “I wouldn’t worry,” my tailor says. “That’s pretty normal these days.”
 
