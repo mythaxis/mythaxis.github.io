@@ -9,7 +9,7 @@ authors:
 - Mark Martin
 copyright: '© Mark Martin 2024 All Rights Reserved'
 
-description: "Your editor considers himself to have a most varied taste in science fiction, and when Mark Martin's story landed on his virtual desk it provided an infrequent experience to be immediately savoured: the extravegantly not-yet-here presented through the somehow authentic, everyday lives of real people. This contemplation of mortality and its threatened absence is philosophical and interpersonal, and conversational in the best way."
+description: "Your editor considers himself to have a most varied taste in science fiction, and when Mark Martin's story landed on his virtual desk it provided an infrequent experience to be immediately savoured: the extravegantly not-yet-here presented through the somehow authentic, everyday lives of real people. This contemplation of mortality and its threatened absence is philosophical and personal, and conversational in the best way."
 
 image: images/Headspace10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [cottonbro studio](https://www.pexels.com/photo/side-view-photo-of-elderly-man-holding-a-paint-brush-3778998/) and [katerinafil](https://depositphotos.com/vector/separate-pieces-white-puzzle-seamless-illustration-219818584.html)."
