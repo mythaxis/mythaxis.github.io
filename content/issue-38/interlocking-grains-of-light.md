@@ -14,6 +14,8 @@ description: "Every year or so a piece of fiction based on the mythology of Anci
 image: images/InterlockingGrainsLight10x6.jpg
 imageCopyright: "The title picture was created using a Creative Commons image by [Kuan-yu Huang](https://www.pexels.com/photo/sculpture-of-cupid-and-psyche-14068324/) - many thanks!"
 
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i38/Interlocking.Grains.of.Light.by.LM.Zaerr.mp3"
+
 type: stock
 slug: interlocking-grains-of-light
 weight: 1
