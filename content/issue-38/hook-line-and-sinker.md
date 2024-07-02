@@ -65,4 +65,4 @@ I give in to the hook's pull. It's easy and perfectly painless. As I look up, ti
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Hook, Line, and Sinker** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Hook, Line, and Sinker** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1111302391002746).*
