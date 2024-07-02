@@ -211,4 +211,4 @@ Lysander sagged in the threshold. He tangled his fingers into my hair, then drew
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Interlocking Grains of Light** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Interlocking Grains of Light** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1111303757669276).*
