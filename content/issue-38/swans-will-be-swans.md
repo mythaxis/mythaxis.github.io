@@ -197,4 +197,4 @@ She snorted. “You can’t get rid of us that easily, Thomassen. Look, I have q
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Swans Will be Swans** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Swans Will be Swans** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1111301561002829).*
