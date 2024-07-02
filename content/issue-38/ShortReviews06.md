@@ -47,4 +47,4 @@ Begs the question, doesn't it, how does an impossibly distant parent exchange me
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of any of these pieces on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of any of these pieces on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1111299341003051).*
