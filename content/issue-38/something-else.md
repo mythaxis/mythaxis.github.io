@@ -421,4 +421,4 @@ I’m scared. Maybe I have been all along.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Something Else** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Something Else** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1111303184336000).*
