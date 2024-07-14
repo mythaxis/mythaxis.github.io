@@ -317,7 +317,7 @@ Something that shakes its spade-shaped head and turns our way.
 
 ### 12:54 p.m.
 
-Once again, my first instincts are to run and hide – away from Lawrence and from this monster, whose daddy long legs propel it down the hallway so fast it feels like a dream. But my body stalls out when I realize Lawrence is in the mirror spot of where that teacher get snatched only a minute ago.
+Once again, my first instincts are to run and hide – away from Lawrence and from this monster, whose daddy long legs propel it down the hallway so fast it feels like a dream. But my body stalls out when I realize Lawrence is in the mirror spot of where that teacher got snatched only a minute ago.
 
 I don’t want to witness that again.
 
