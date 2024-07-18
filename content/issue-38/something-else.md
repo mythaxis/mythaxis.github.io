@@ -381,8 +381,6 @@ Something heavy slams into the space I just left, shatters another window and co
 
 The steel door buckles like it’s a juice box.
 
-I turn,
-
 I don’t think about the rows of chairs, the empty instrument cases, the music stands toppled over. All I see is the open door, a fire escape, the sun slanting in from the outside, and pale in the brightness a distant barricade of police vehicles, waiting for me.
 
 I run for it, run for freedom and safety.
