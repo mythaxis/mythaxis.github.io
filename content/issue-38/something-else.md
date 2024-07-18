@@ -37,7 +37,7 @@ But I’m not scared. I’ve been here before.
 
 ### 11:18 a.m.
 
-Kayden breaks the silence. “What the fuck?” he growls, stabbing his phone with his thumbs. I look over his shoulder at the alert on his screen: “You are no longer connected to the internet.”
+Kayden breaks the silence. “What the fuck?” he growls, stabbing his phone with his thumbs. I look over his shoulder at the alert on his screen: _You are no longer connected to the internet_.
 
 “Language,” Ms. Anderlik says, but then huffs quietly. Her middle fingers swipe across her laptop’s touchpad, tap too many times. Her eyebrows knot. “Well, looks like the internet’s out,” she says as she calmly folds her laptop closed. “Screens off, everybody. Now. I don’t want to have to tell you again. We have to take this seriously.” 
 
@@ -55,7 +55,7 @@ But then we hear the first shots, and my mouth goes sour and dry anyway.
 
 ### 11:20 a.m.
 
-Some cry and some freeze when they hear the cracks echoing from somewhere deep within the building . Some take calm breaths to distract themselves. My hand finds Eva’s.
+Some cry and some freeze when they hear the cracks echoing from somewhere deep within the building. Some take calm breaths to distract themselves. My hand finds Eva’s.
 
 “Quiet,” Ms. Anderlick whispers. She stands above our huddle, facing the door, prepared to take on whoever tries to invade our space. She no longer looks like an art teacher, fresh out of college, wearing a watercolor print dress. Suddenly, she reminds me of the hero character in a movie that dies at the middle.
 
