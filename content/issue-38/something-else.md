@@ -39,7 +39,7 @@ But I’m not scared. I’ve been here before.
 
 ### 11:18 a.m.
 
-Kayden breaks the silence. “What the fuck?” he growls, stabbing his phone with his thumbs. I look over his shoulder at the alert on his screen: “You are no longer connected to the internet.”
+Kayden breaks the silence. “What the fuck?” he growls, stabbing his phone with his thumbs. I look over his shoulder at the alert on his screen: _You are no longer connected to the internet_.
 
 “Language,” Ms. Anderlik says, but then huffs quietly. Her middle fingers swipe across her laptop’s touchpad, tap too many times. Her eyebrows knot. “Well, looks like the internet’s out,” she says as she calmly folds her laptop closed. “Screens off, everybody. Now. I don’t want to have to tell you again. We have to take this seriously.” 
 
@@ -319,7 +319,7 @@ Something that shakes its spade-shaped head and turns our way.
 
 ### 12:54 p.m.
 
-Once again, my first instincts are to run and hide – away from Lawrence and from this monster, whose daddy long legs propel it down the hallway so fast it feels like a dream. But my body stalls out when I realize Lawrence is in the mirror spot of where that teacher get snatched only a minute ago.
+Once again, my first instincts are to run and hide – away from Lawrence and from this monster, whose daddy long legs propel it down the hallway so fast it feels like a dream. But my body stalls out when I realize Lawrence is in the mirror spot of where that teacher got snatched only a minute ago.
 
 I don’t want to witness that again.
 
@@ -382,8 +382,6 @@ The double-doors are locked, but next to yet another thick smear of blood one of
 Something heavy slams into the space I just left, shatters another window and covers me in shards of glass. The shock knocks the wind out of me, but I scramble to my feet, glass falling from my hair.
 
 The steel door buckles like it’s a juice box.
-
-I turn,
 
 I don’t think about the rows of chairs, the empty instrument cases, the music stands toppled over. All I see is the open door, a fire escape, the sun slanting in from the outside, and pale in the brightness a distant barricade of police vehicles, waiting for me.
 
