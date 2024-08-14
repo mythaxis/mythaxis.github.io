@@ -14,6 +14,8 @@ description: "Welcome back to Addison Smith, who graced our pages four years and
 image: images/HookLineSinker10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Ben Phillips](https://www.pexels.com/photo/clown-fish-on-white-corals-4781926/), [Dinielle De Veyra](https://www.pexels.com/photo/elegant-young-bearded-businessman-in-suit-and-tie-in-downtown-4195342/), [Tima Miroshnichenko](https://www.pexels.com/photo/tailor-man-measuring-the-man-6765071/), and [Jess Loiterton](https://www.pexels.com/photo/close-up-of-water-bubbles-splashing-5232856/)."
 
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i38/Hook.Line.and.Sinker.by.Addison.Smith.mp3"
+
 type: stock
 slug: hook-line-and-sinker
 weight: 3
