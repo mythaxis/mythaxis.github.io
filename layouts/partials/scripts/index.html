@@ -9,7 +9,7 @@
 {{ $js := slice $jQuery $scrollex $scrolly $browser $breakpoints $util $main | resources.Concat "assets/js/bundle.js" }}
 
 <!-- Scripts -->
-{{ if .Site.IsServer }}
+{{ if hugo.IsServer }}
 <script src='{{ $jQuery.RelPermalink }}'></script>
 <script src='{{ $scrollex.RelPermalink }}'></script>
 <script src='{{ $scrolly.RelPermalink }}'></script>
