@@ -14,7 +14,7 @@ description: "Our second high school-era offering is much lighter in tone than i
 image: images/Swans10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images - many thanks to the following creators: [Alex Lanting](https://unsplash.com/photos/pair-of-blue-and-black-new-balance-cleats-in-the-air-under-teal-sky-with-white-clouds-KEEpi-SOM_s) and [Pranav](https://unsplash.com/photos/a-white-feather-sitting-on-top-of-a-tree-branch-goxVXByT5EU)."
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i38/"
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i38/04.Swans.Will.be.Swans.mp3"
 
 type: stock
 slug: swans-will-be-swans
