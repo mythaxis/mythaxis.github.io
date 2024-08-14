@@ -14,7 +14,7 @@ description: "The near inevitability of any given issue featuring two stories ha
 image: images/SomethingElse10x6.jpg
 imageCopyright: "The title picture was created using a Creative Commons image by [Strange Happenings](https://www.pexels.com/photo/an-empty-dark-hallway-11757079/) - many thanks!"
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i38/Something.Else.by.Dane.Erbach.mp3"
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i38/02.Something.Else.mp3"
 
 type: stock
 slug: something-else
