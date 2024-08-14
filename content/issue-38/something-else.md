@@ -14,6 +14,8 @@ description: "The near inevitability of any given issue featuring two stories ha
 image: images/SomethingElse10x6.jpg
 imageCopyright: "The title picture was created using a Creative Commons image by [Strange Happenings](https://www.pexels.com/photo/an-empty-dark-hallway-11757079/) - many thanks!"
 
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i38/Something.Else.by.Dane.Erbach.mp3"
+
 type: stock
 slug: something-else
 weight: 2
@@ -55,7 +57,7 @@ But then we hear the first shots, and my mouth goes sour and dry anyway.
 
 ### 11:20 a.m.
 
-Some cry and some freeze when they hear the cracks echoing from somewhere deep within the building . Some take calm breaths to distract themselves. My hand finds Eva’s.
+Some cry and some freeze when they hear the cracks echoing from somewhere deep within the building. Some take calm breaths to distract themselves. My hand finds Eva’s.
 
 “Quiet,” Ms. Anderlick whispers. She stands above our huddle, facing the door, prepared to take on whoever tries to invade our space. She no longer looks like an art teacher, fresh out of college, wearing a watercolor print dress. Suddenly, she reminds me of the hero character in a movie that dies at the middle.
 
@@ -135,7 +137,7 @@ More rifles discharge on a far end of the school, and the room settles into tens
 
 “The police use AR-15s,” Kayden says.
 
-“The bad guys too, though, right?” Ms. Anderlik asks, her arms crossed over her torso like she’s giving herself a hug, but she doesn’t have to.
+“The bad guys do too, though, right?” Ms. Anderlik asks, her arms crossed over her torso like she’s giving herself a hug, but she doesn’t have to.
 
 “But it sounds like there’s a lot of them. That means the good guys—” Kayden’s answer is interrupted by someone smashing against our locked door, and I find a dark place to hide in my mind.
 
@@ -175,7 +177,7 @@ Open palms press against the window, a silhouette cast by red emergency lighting
 
 “Piper’s right,” Ms. Anderlik says, staring at the silhouette on the window. “It could be a trick.” She swallows hard. One of her thumbnails rakes against the other.
 
-The art room is silent for ten more seconds, save Mark’s open palms patting the safety glass, conspicuously quiet. Shadows hang like cobwebs from the corners of our classroom, spread across the floor, drape across our faces.
+The art room is silent for ten more seconds, save Mark’s open palms patting the safety glass, conspicuously quiet. Shadows hang like cobwebs from the corners of the classroom, spread across the floor, drape across our faces.
 
 “Please,” Mark says again. He grabs the door knob and shakes it. The door clatters in the frame, rattles the pane of glass. 
 
@@ -245,7 +247,7 @@ Her screams disappear down the hallway.
 
 My first instinct – to retreat deeper into the classroom – smothers my desire to chase Eva down. And instead of running away – my second instinct – I stand frozen in fear, unfocused, a step from the threshold, trying to will myself to do something, anything. Tears boil in my sinuses but refuse to fall. 
 
-When something skids into the doorway, clutches my shoulders, I tense and keen and release all the air in my body at once. I recognize Ms. Anderlik too late. Her dirty hands release me, and all she can get out is *“Run”* before something rips her away too.
+When something skids into the doorway, clutches my shoulders, I tense and keen and release all the air in my body at once. I recognize Ms. Anderlik too late. Her dirty hands release me, and all she can get out is *“Run”* before something ripped her away too.
 
 ![Orbit-sml ><](images/Orbit.svg)
 
@@ -283,7 +285,7 @@ As I shake my head, tears loosen from the corners of my eye. My nose draws in lo
 
 I close my eyes, and I’m back in the storage room, where dust motes floated between the stacks of text books. The lock clanked, the door swung open, and a police officer shouldered into the room aiming a shimmering rifle. As he spotted me, his stunned expression looked so sad, so human, that I almost forgot how well armed he was.
 
-No one will save me this time, though. I think of the wall ripped up by bullets. Whatever is out there will kill whoever it finds, armed or not. The only way to survive this time is to escape.
+No one will save me this time, though. I think of the wall ripped up by bullets. Whatever is out there will kill whoever finds it, armed or not. The only way to survive this time is to escape.
 
 I push myself up onto shaky feet and shove my way out of the stall, refusing to make eye contact with my reflection in the mirror. I hold my breath and listen for any sounds on the other side of the locked bathroom door. 
 
@@ -297,9 +299,9 @@ I see details I missed when I return to the hallway: enormous chunks of the drop
 
 I press my finger into one of the holes. Deep and sharp.
 
-Something had slammed through the railing at the top of the stairs, midway down the hall. It bends unnaturally into the open air and the steps beneath it look rough, slick with smeared blood, and something else. I try not to think about what as I tiptoe down.
+Something had slammed through the railing at the top of the stairs, midway down the hall. It bends unnaturally in the open air and the steps beneath it look rough, slick with smeared blood, and something else. I try not to think about what as I tiptoe down.
 
-On the second floor, I peek left into the hallway and see a teacher in his fifties, his oxford shirt untucked, bare feet peeking beneath his khakis. He yanks on each door he walks past, but doesn’t see the silent shadow crawling on the ceiling above him, a mass of writhing muscle.
+On the second floor, I peek left into the hallway and see a teacher in his fifties, his oxford shirt untucked, bare feet peeking beneath his khakis. He yanks on each door he walks past, but he doesn’t see the silent shadow crawling on the ceiling above him, a mass of writhing muscle.
 
 Long, whip-like legs fold down, bending at impossible angles.
 
@@ -327,7 +329,7 @@ Lawrence whines, rubs his shoulder. “Why’d you do that?” he asks.
 
 “Why’d I *save* you?” I screech, then catch myself, literally cover my mouth with both trembling hands.
 
-He stares through me, his lips parted, like he doesn’t understand my question, doesn’t remember me. I can’t tell if his mind is empty or overloaded. He has lost his glasses and his bare faces makes him look like a small child.
+He stares through me, his lips parted, like he doesn’t understand my question, doesn’t remember me. I can’t tell if his mind is empty or overloaded. He has lost his glasses and his bare face makes him look like a small child.
 
 I grab his arm and pull him to his feet. “Follow me. We’re leaving.” 
 
@@ -371,7 +373,7 @@ I race through the black halls, hands out, running them against lockers and pain
 
 I veer right down a hall lit dimly by an exit sign. In the pool of red beneath it is the mouth of another corridor, but I know better than to turn toward it now. Instead, I jog past, to the end, to the band room. I think of Miranda and Leslie, and pray it isn’t locked.
 
-The corridor of the band room is all glass on one side, I guess so people can see right into the soundproofed space. Behind a set of double-doors, beyond a dated vestibule, the band room is lit – not by overhead lights, but daylight streaming in from somewhere to the side.
+The corridor of the band room is all glass on one side, I guess so people can see right into the soundproofed space. Behind a set of double-doors, beyond a dated vestibule, the band room is lit – not by overhead lights, but by daylight streaming in from somewhere to the side.
 
 A way out. Lawrence was right.
 
