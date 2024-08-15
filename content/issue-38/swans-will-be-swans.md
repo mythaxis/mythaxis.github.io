@@ -37,7 +37,7 @@ Amanda had a body like Karlie Kloss. Nobody looked good in Amanda’s clothes bu
 
 He pretended to think about it. “Trade you the shirt for the panties.”
 
-I turned left so sharply you could have cut your fingers on it. He didn’t follow, but he called down the block, “I think your nip’s hanging out!”
+I turned left so sharply you could have cut your finger on it. He didn’t follow, but he called down the block, “I think your nip’s hanging out!”
 
 I wouldn’t give him the satisfaction of checking. So I walked the extra block of my alternate route with fury boiling in my stomach, my jaw sore from clenching it too hard, and my shoulders stiff with irrational panic that the cutouts in Amanda’s black top might in fact show my tiny braless breasts.
 
@@ -57,7 +57,7 @@ And here’s the worst part of it all. I was an hour removed from the bullshit, 
 
 And then I got so mad all over again that I burst out crying.
 
-I hiccupped the story out between sobs and wordless yells. When I got to the part about walking down the block with him, Mom got up and poured another tequila shot. In fairness, she offered it to me first. “I got her,” Gramma said. “That one’s yours, Katie.” Mom threw back the shot without salt or lime, grabbed a new box of tissues, and squeezed into the nest chair with me so I could get snot and tears all over her gray wool blazer. I could feel her anger coiling under her skin as she held me, her arms getting tenser and her breath coming shallow.
+I hiccupped the story out between sobs and wordless yells. When I got to the part about walking down the block with him, Mom got up and poured another tequila shot. In fairness, she offered it to me first. “I got her,” Gramma said. “That one’s yours, Katie.” Mom threw back the shot without salt or lime, grabbed a new box of tissues, and squeezed into the nest chair with me so I could get snot and tears all over her gray wool blazer. I could feel anger coiling under her skin as she held me, her arms getting tenser and her breath coming shallow.
 
 But when I finished talking and blew my nose again and scrubbed at my itching eyes, she only asked, “What do you want to do about it, Olivia?”
 
@@ -131,7 +131,7 @@ Close enough. “I’ve got a plan,” I said. “But I really super need you no
 
 {{<glyph>}}H{{</glyph>}}e came to the game that Friday. All according to plan, but I still felt hunted every time I chased the ball past the section where Trey Riley sat. The team tried to be thoughtful and didn’t pass to me on that part of the field. I gritted my teeth and did the best I could.
 
-We tied, 2-2. “If we don’t make it to the finals this season, I’m blaming him,” Lauren grumbled as we headed off the field. “You ready?”
+We tied, 2-2. “If we don’t make finals this season, I’m blaming him,” Lauren grumbled as we headed off the field. “You ready?”
 
 I swallowed down the nerves roiling in my stomach. “Enough,” I said. “Could someone else text him? I don’t want him having my number.”
 
@@ -161,7 +161,7 @@ Lauren stepped back, eyes like saucers, hands raised. Trey staggered to his one 
 
 Swans can give you a hell of a bruise, but they aren’t actually strong enough to break human bone. Well. Not normal swans. But the kind of swan whose body mass is a human concentrated down, who spends most of her life in flesh rather than feathers, who knows about language and strategy and hate? Oh yeah. Watch your fucking back. Just when you think you’ve snared your prey, she’ll put on her fragile feathery armor and go for your throat.
 
-He kept screaming as I chased him onto the field. He tried to shake me by climbing up in the stands. *Hello, jackass, I have wings, you can’t get away*. With his ankle fractured and panic shutting down whatever intelligence he had, he couldn’t strategize. I just had to swoop down, open my wings, and hiss like Satan had kids with a cat, and I could herd him anywhere. People were yelling around the stands, getting out of my way, getting out their phones. I drove him toward a few of them, enough to make sure they got his face in close-up. By then, he looked so exhausted he couldn’t even cry anymore.
+He kept screaming as I chased him onto the field. He tried to shake me by climbing up in the stands. *Hello, jackass, I have wings, you can’t get away*. With his ankle fractured and panic shutting down whatever intelligence he had, he couldn’t strategize. I just had to swoop down, open my wings, and hiss like Satan had kids with a cat, and I could herd him anywhere. People were yelling all around the stands, getting out of my way, getting out their phones. I drove him toward a few of them, enough to make sure they got his face in close-up. By then, he looked so exhausted he couldn’t even cry anymore.
 
 I thought for a second about being merciful.
 
