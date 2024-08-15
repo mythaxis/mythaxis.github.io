@@ -31,15 +31,15 @@ Just hearing him on the subject triggered an insistent throbbing behind my templ
 
 “She doesn’t live far from you. But, location aside, she might be the person best suited to allaying your concerns. She’s a very smart young woman who pursues the kind of quiet pastimes you’ll appreciate.”
 
-“I’m sure she’s a regular, everyday reincarnated heiress of the ultrarich. What did she die of?” The question was blunt as a cudgel, but my head hurt.
+“I’m sure she’s a regular, everyday reincarnated heiress to the ultrarich. What did she die of?” The question was blunt as a cudgel, but my head hurt.
 
-The doctor was unfazed. “An unusual aggressive form of cancer that was caught very late in the day. Just like your own case.” 
+The doctor was unfazed. “An unusually aggressive form of cancer that was caught very late in the day. Just like your own case.” 
 
 I nodded, noncommittal. Had I been diagnosed when I was Candace’s age, I would have been dead long ago. These days, medical advances appear so frequently a terminal diagnosis is likely to strike any patient as provisional, and immuno-therapy had extended my life expectancy from months to years, but the new treatments still come with pain and risk.
 
 There was a bone sickness that left me jack-knifed on occasion. I frequently suffered the wracking nausea of pitiless migraines – and thinking too deeply about the prospect of isomorphism was always likely to set one off. One salvo of therapeutic chemicals had turned every hair on my body milk-white, even my eyelashes. When my natural colour finally came back a couple of months ago, Charlotte smilingly ran her fingers through my restored dark beard. I had to laugh; she had claimed to prefer the snow fox look.
 
-Dr Constance’s voice intruded on my own thoughts. “Candace travelled a long hard road before the procedure, and it was rough going on the other side as an isomorph. It’ll be the same for you.” He cleared his throat. Recently, he had taken to brushing away my symptoms with a nonchalance that made me wonder if he had grown tired of my endless prevarication and would as happily see me dead as isomorphic.
+Dr Constance’s voice intruded on my thoughts. “Candace travelled a long hard road before the procedure, and it was rough going on the other side as an isomorph. It’ll be the same for you.” He cleared his throat. Recently, he had taken to brushing away my symptoms with a nonchalance that made me wonder if he had grown tired of my endless prevarication and would as happily see me dead as isomorphic.
 
 As he explained many times, cancer would get me in the end unless I made the leap. If its final assault made a beachhead in my brain, I would lose the option to become an isomorph altogether. “And,” as he had observed in our very first consultation, “how many people in your position have an opportunity such as this? It is quite a gift.”
 
@@ -59,7 +59,7 @@ Jan’s answer was simple. If there were two versions, and ownership of both was
 
 So much for ontological niceties. Jan cut the Gordian knot, laughing at the idiocy of eye-rolling undergrads baffled by age-old word games. Was he the most advanced of my students or the most obtuse?
 
-These events instantly came to mind when I first heard of Jan’s unsurpassed flaunting of scientific taboo. And they of course came back to me again when I got off the call in which he offered to transform my life in the most profound of ways through the magic trick of keeping it exactly the same.
+These events instantly came to mind when I first heard of Jan’s unsurpassable flaunting of scientific taboo. And they of course came back to me again when I got off the call in which he offered to transform my life in the most profound of ways through the magic trick of keeping it exactly the same.
 
 ![Orbit-sml ><](images/Orbit.svg)
 
@@ -91,11 +91,19 @@ Jacqueline smiled. “Spend the weekend with us at the farmhouse. You’ll be ve
 
 A snatch of verse swooped pleasantly through my thoughts:
 
-*Little soul, charming wanderer,*\
-*Guest-companion of my flesh,*\
-*Dear departing pallid loner,*\
-*Heed the time and stay no longer.*\
+
+
+*Little soul, charming wanderer,*
+
+*Guest-companion of my flesh,*
+
+*Dear departing pallid loner,*
+
+*Heed the time and stay no longer.*
+
 *Your jokes will fall on ears grown deaf.*
+
+
 
 The Emperor Hadrian wrote those words on his deathbed around nineteen hundred years ago (any faults in the translation are mine), addressing his soul as if it were a separate being. The independence of his ‘little soul’ struck me as peculiar. Did it possess anything of the character of its host, or was it just an animating spark? A force of nature doesn’t normally suggest something ‘charming’ and inclined to jokes. But who knows? 
 
@@ -111,7 +119,7 @@ Are the finer feelings of existence happy accidents, the equivalent of being wok
 
 I had expected some domestic lickspittle to greet me. Instead there was Candace’s grey-bearded father, Beau. He jogged gamely down the glass-and-steel stairs, shawl-collared cardigan trailing like a cape. Soft-spoken and solicitous, he showed me where to park and charge my car. Inside, we moved along a wood-panelled corridor decorated with reassuring family portraits to a cavernous central living space. We might have been the building’s sole occupants.
 
-In deference to my English origins, Beau produced a steaming pot of coffee and laid out snacks that looked homemade. We settled in what he called the ‘conversation pit’, a square of seating recessed into the floor beneath the steepling windows of the living room. Before us a meadow declined toward a paddock. All of this was invisible to the electric eyes long-established in the heavens.
+In deference to my English origins, Beau produced a steaming pot of tea and laid out snacks that looked homemade. We settled in what he called the ‘conversation pit’, a square of seating recessed into the floor beneath the steepling windows of the living room. Before us a meadow declined toward a paddock. All of this was invisible to the electric eyes long-established in the heavens.
 
 “I understand one of the Jan Drivers has offered to pay for the procedure?” Beau said, pouring the tea. He might have been asking about my holiday plans.
 
