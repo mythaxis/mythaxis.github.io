@@ -15,7 +15,7 @@ description: "The editor has often (too often) argued the case that speculative 
 image: images/TintypeTrolls10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Adrian Kirby](https://pixabay.com/photos/iceland-akureyri-troll-nordic-1223012/), [Polina Tankilevitch](https://www.pexels.com/photo/close-up-photo-of-screws-and-nylon-fixers-5583051/), [Tama66](https://pixabay.com/photos/fairy-tale-gnome-troll-1662427/), and [4175959](https://pixabay.com/photos/goblin-troll-stone-fantasy-2771126/) - many thanks!"
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i38/Interlocking.Grains.of.Light.by.LM.Zaerr.mp3"
+audio: ""
 
 type: stock
 slug: tintype-trolls
