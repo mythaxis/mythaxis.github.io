@@ -19,7 +19,7 @@ slug: editorial
 
 Greetings, reader!
 
-Since our last issue, ***Mythaxis***' editor has travelled to visit his ancestral seat (imagine a ruined croft with a stunted tree growing out of it on the north coast of Scotland), also to attend his first **WorldCon**, *Glasgow 2024*. A fun experience, though amidst the many (too many!) events at hand the fondest memories I returned with were meeting faces familiar and new, including cohabitations and catching-ups with a handful of friendly authors, plus an editorial lunch with several far-flung peers from other platformers of speculative fiction.
+Since our last issue, ***Mythaxis***' editor has travelled to visit his ancestral seat (imagine a ruined croft with a stunted tree growing out of it on the north coast of Scotland), also to attend his first **WorldCon**, *Glasgow 2024*. Quite the experience, though amidst the many (even too many!) events at hand the fondest memories I returned with were meeting faces familiar and new, including cohabitations and catching-ups with a handful of friendly authors, plus an editorial lunch with several far-flung peers from other platformers of speculative fiction.
 
 And what more reason do I need to throw in a quick plug for *[Sci Phi Journal](https://www.sciphijournal.org/)*, *[Shoreline of Infinity](https://www.shorelineofinfinity.com/)*, and the currently-on-sabbatical *[Little Blue Marble](https://littlebluemarble.ca/)*? None whatsoever. But maybe scratch your reading itch here before you go hunting for more good stuff there, hmm?
 
