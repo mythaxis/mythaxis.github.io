@@ -12,7 +12,7 @@ copyright: '© Emma Burnett 2024 All Rights Reserved'
 description: "'What is this thing you humans call X?' A question structure as old as Star Trek itself, if not even older. Not to continue harping on about how great spec-fic is, but is there a better way to explore emotions than through someone who, supposedly, has none? Emma Burnett adds more bittersweet evidence to the pile."
 
 image: images/WithNothingLeft10x6.jpg
-imageCopyright: "The title picture was created using Creative Commons images -by [Alla Serabrina](https://depositphotos.com/photo/people-dancing-in-nightclub-173627840.html), [iakovenko123](https://depositphotos.com/photo/emotional-elderly-woman-wearing-sunglasses-144674377.html), and [Designecologist](https://www.pexels.com/photo/person-s-left-hand-near-gray-cinder-bricks-948479/) - many thanks!"
+imageCopyright: "The title picture was created using Creative Commons images by [Alla Serabrina](https://depositphotos.com/photo/people-dancing-in-nightclub-173627840.html), [iakovenko123](https://depositphotos.com/photo/emotional-elderly-woman-wearing-sunglasses-144674377.html), and [Designecologist](https://www.pexels.com/photo/person-s-left-hand-near-gray-cinder-bricks-948479/) - many thanks!"
 
 type: stock
 slug: with-nothing-left
