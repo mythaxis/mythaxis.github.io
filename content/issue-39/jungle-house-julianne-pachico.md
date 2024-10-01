@@ -43,4 +43,4 @@ All of the characters are crafted with terrific precision and complexity, showin
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of Mattia's thoughts on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of Mattia's thoughts on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1188621596604158).*
