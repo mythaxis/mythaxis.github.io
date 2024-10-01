@@ -41,4 +41,4 @@ And while that's more or less what's on the cards for you with Tim Hanlon's **[T
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of any of these pieces on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of any of these pieces on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1188620846604233).*
