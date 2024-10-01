@@ -212,4 +212,4 @@ Every happily-ever-after should be continued with “and then…,” which would
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Tintype Trolls** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Tintype Trolls** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1188624136603904).*
