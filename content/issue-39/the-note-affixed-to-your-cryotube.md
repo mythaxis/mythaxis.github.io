@@ -14,6 +14,8 @@ description: "There's always a place for epistolary fiction at Mythaxis – ther
 image: images/Cryotube10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Rodlon Kutsalev](https://www.pexels.com/photo/white-and-brown-round-frame-7911758/), [Maria Orlova](https://www.pexels.com/photo/old-shabby-cabin-with-combination-lock-and-round-windows-4947133/), [Ron Lach](https://www.pexels.com/photo/a-palm-behind-the-smoke-glass-8259335/), and [Pixabay](https://www.pexels.com/photo/white-card-on-gray-denim-pants-pouch-164605/) - many thanks!"
 
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i39/02.The.Note.Affixed.to.Your.Cryotube.mp3"
+
 type: stock
 slug: the-note-affixed-to-your-cryotube
 weight: 2
