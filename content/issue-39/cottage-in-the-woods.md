@@ -35,7 +35,7 @@ Rebecca found it almost impossible to sleep with others in the cottage. The chil
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-{{<glyph>}}"W"{{</glyph>}}here are your parents?” Rebecca asked, as the children wolfed down breakfast.
+{{<glyph>}}“W{{</glyph>}}here are your parents?” Rebecca asked, as the children wolfed down breakfast.
 
 A pause. A shrug. Rebecca sensed their pain and did not push. Many children were abandoned. Sometimes, there were just too many mouths to feed. And yet their clothes, torn and mud-stained, were well-made.
 
@@ -51,7 +51,7 @@ Lying in bed, watching the wall as if she could see through it to where they sle
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-{{<glyph>}}"T"{{</glyph>}}hank you.”
+{{<glyph>}}“T{{</glyph>}}hank you.”
 
 It was the first time the boy had spoken. Rebecca could not have been more surprised if he had sprouted from the earth like a beanstalk. She studied him for signs of what she feared most. His eyes were broad and honest, his smile shy but true. His fingers curled and uncurled nervously. Even now, after almost a week, he was frightened. 
 
@@ -63,7 +63,7 @@ But the boy was not a man. Not yet. Perhaps he would not turn out like others sh
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-{{<glyph>}}"W"{{</glyph>}}hat plant is this?” asked the boy, running his fingers through a circle of purple petals. His nails were chewed to the quick and rimed with blood. Rebecca washed them every night before bed, but at breakfast they were always the same.
+{{<glyph>}}“W{{</glyph>}}hat plant is this?” asked the boy, running his fingers through a circle of purple petals. His nails were chewed to the quick and rimed with blood. Rebecca washed them every night before bed, but at breakfast they were always the same.
 
 “Echinacea.”
 
