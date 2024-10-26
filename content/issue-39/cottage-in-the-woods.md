@@ -14,6 +14,8 @@ description: "Stories change with the telling, even those that find their origin
 image: images/CottageWoods10x6.jpg
 imageCopyright: "The title picture was based on a free-to-use image by [Szabolcs Toth](https://www.pexels.com/photo/a-wooden-cabin-in-the-forest-by-the-lake-8374690/) - many thanks!"
 
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i39/03.Cottage.in.the.Woods.mp3"
+
 type: stock
 slug: cottage-in-the-woods
 weight: 3
