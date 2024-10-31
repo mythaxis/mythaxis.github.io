@@ -14,6 +14,8 @@ description: "'What is this thing you humans call X?' A question structure as ol
 image: images/WithNothingLeft10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Alla Serabrina](https://depositphotos.com/photo/people-dancing-in-nightclub-173627840.html), [iakovenko123](https://depositphotos.com/photo/emotional-elderly-woman-wearing-sunglasses-144674377.html), and [Designecologist](https://www.pexels.com/photo/person-s-left-hand-near-gray-cinder-bricks-948479/) - many thanks!"
 
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i39/04.With.Nothing.Left.mp3"
+
 type: stock
 slug: with-nothing-left
 weight: 4
