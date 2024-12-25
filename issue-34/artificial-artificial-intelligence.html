@@ -111,7 +111,7 @@
 
 
 	<title>Artificial-Artificial Intelligence — Mythaxis Magazine Issue 34 — MYTHAXIS MAGAZINE</title>
-	<meta name="generator" content="Hugo 0.139.3">
+	<meta name="generator" content="Hugo 0.140.1">
 	<meta name="keywords" content="Mythaxis Magazine Science Fiction and Fantasy Modern Fiction">
 	<meta name="description" content="Speculative Fiction Without Distraction" />
 	
@@ -225,7 +225,7 @@ ver roughly the last twelve months, the <em><strong>Mythaxis</strong></em> team 
 <p>Or at least, that&rsquo;s how we framed it.</p>
 <p>We talked about our experiment as if one day it&rsquo;s going to wake up like the AI-Pinocchio of online magazine publishing. But that was never going to happen. We weren&rsquo;t training an artificial intelligence at all, an <em>artificial</em>-artificial intelligence would be closer to the truth. In fact, what we did was considerably more mundane, though still interesting from our perspective.</p>
 <p>So, while you can also read the glamorised version of the story in our recent editorials (see Issues <a href="https://mythaxis.co.uk/issue-31/editorial.html">31</a>, <a href="https://mythaxis.co.uk/issue-32/editorial.html">32</a>, and <a href="https://mythaxis.co.uk/issue-32/editorial.html">33</a>), I&rsquo;d like to take a moment to discuss more seriously what we were, and were not, doing behind the scenes during the last year.</p>
-<p><img alt="Orbit-sml &gt;&lt;" src="images/Orbit.svg"></p>
+<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
 <p><glyph >I</glyph>
 
 &rsquo;ll start with a negative. The world has become <a href="https://medium.com/@emilymenonbender/talking-about-a-schism-is-ahistorical-3c454a77220f">both enraptured and/or outraged</a> by the arrival of Large Language Model (LLM) &ldquo;artificial intelligence&rdquo; text generators – <em>ChatGPT</em> being the most famous – and the visually stunning output of &ldquo;generative&rdquo; image systems, such as <em>Midjourney</em>.</p>
@@ -235,7 +235,7 @@ ver roughly the last twelve months, the <em><strong>Mythaxis</strong></em> team 
 <p>Until satisfactory answers are provided, LLMs and art-gen tools are problematic. Therefore, though we have experimented with image-generating AI tools in our less well informed past, we shall not do so again in future. For similar reasons, we don&rsquo;t invite submissions of AI-generated stories for publication, because it is far from clear who the true author of any such text would be.</p>
 <p>The second reason we didn&rsquo;t use generative tools is much simpler: our objective wasn&rsquo;t to create anything, at least not in the sense of <em>writing a story</em> or <em>painting a digital picture</em>. We wanted to make a tool, not a product, a tool with only one application: <em>predicting what kind of stories the editor of <strong>Mythaxis</strong> likes to publish</em>.</p>
 <p>Let&rsquo;s take a look at how we tried. And failed.</p>
-<p><img alt="Orbit-sml &gt;&lt;" src="images/Orbit.svg"></p>
+<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
 <p><glyph >F</glyph>
 
 undamentally, what we dipped into was the rollercoaster thrill-ride called <em>data analytics</em>. This is the toolkit of academics working in fields such as &ldquo;digital humanities&rdquo;, &ldquo;distant reading&rdquo;, &ldquo;data science&rdquo;, and (a label now maybe more familiar to the general reader thanks to events of the last few years) &ldquo;machine learning&rdquo;.</p>
@@ -255,18 +255,18 @@ undamentally, what we dipped into was the rollercoaster thrill-ride called <em>d
 <p>So, we tried this for about a year, and&hellip; to say the least, the results were not good. Instead of identifying the mere seven or so stories that would make the final cut in each window, it would routinely categorise as many as half the submissions as &ldquo;acceptances&rdquo;, which would have led to issues featuring around a hundred stories each. As for its assessment of my actual selections, they were more often rejected than not, according to the data.</p>
 <p>There are reasons for this, of course. Even a couple of thousand stories is not a big data set. Still worse for our analysis, the kinds of stories that get submitted to us can vary in incredibly diverse ways: they range in length from 1,000 to over 7,000 words; they use different regional styles and spellings of English; they represent wildly different subgenres under the general umbrella of &ldquo;speculative fiction&rdquo;.</p>
 <p>It is hardly surprising that even remotely coherent patterns were not forthcoming.</p>
-<p><img alt="Orbit-sml &gt;&lt;" src="images/Orbit.svg"></p>
+<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
 <p><glyph >W</glyph>
 
 e used a number of different software tools for our analysis. Our original attempt used <a href="https://github.com/huggingface/setfit">SetFit</a>, a machine learning classifier; then we turned to <a href="https://sbert.net/">SBERT</a> to explore &ldquo;embeddings&rdquo;, a mathematical representation of data, in our case linguistic data, such that each word, sentence, or paragraph can be compared against others to determine a degree of similarity or association. It is these associations that (we hoped, in vain) would allow distinctions to be identified between the categories we chose.</p>
 <p>We also used <a href="https://orangedatamining.com/">Orange Data Mining</a> and the research methodology of <a href="https://en.wikipedia.org/wiki/Distant_reading">distant reading</a> (see also <a href="https://www.digitalhumanities.org/dhq/vol/11/2/000317/000317.html">here</a>) to explore and visualise a variety of linguistic patterns in the data. In all cases, we were careful to work with these tools locally, never sharing data with organisations that could put it to uses outside of our control.</p>
 <p>Arguably our most encouraging find was <a href="https://www.liwc.app/">LIWC-22</a>, a linguistic analysis software used to help identify which narrative qualities <em><strong>Mythaxis</strong></em> &ldquo;looks for&rdquo; when accepting or rejecting a story submission. This involves focusing down on how different parts of language and language use (verbs, pronouns, punctuation, speech acts, narrative tone, cognitive tension, story tropes, categories and topics, etc) feature in a text.</p>
 <p>One thing which many of these tools have in common is, at least to my unskilled eye, <em>incomprehensibility</em>. The following image gives you a very general sense of what working with them looks like, and I&rsquo;m glad that side of things is safely in the hands of my technical partner at the zine, Marty Steer:</p>
-<p><img src="images/analysis-collage.png"></p>
+<p><img src="images/analysis-collage.png" alt=""></p>
 <p>Fortunately for me, LIWC stood out for the relative accessibility of its information output, being able to produce simple graphs suitable for an <a href="https://mythaxis.co.uk/issue-33/editorial.html">editor-level degree of interpretation</a>:</p>
-<p><img src="images/Accepted-vs-rejected.png"></p>
+<p><img src="images/Accepted-vs-rejected.png" alt=""></p>
 <p>Whether my interpretations were correct or not is another matter entirely!</p>
-<p><img alt="Orbit-sml &gt;&lt;" src="images/Orbit.svg"></p>
+<p><img src="images/Orbit.svg" alt="Orbit-sml &gt;&lt;"></p>
 <p><glyph >W</glyph>
 
 e&rsquo;ve now decided to draw a line under our little experiment. We went into it more to investigate a fun possibility than with any realistic expectations of success; but there comes a time when the futility takes the edge off that fun – and, frankly, framing our experiment in the context of AI became less and less satisfying as the potential social impact of contemporary technology made itself clearer. And with that said, we still have at least the shadow of an elephant in the room, I think.</p>
@@ -275,7 +275,7 @@ e&rsquo;ve now decided to draw a line under our little experiment. We went into 
 <p>I choose my words carefully here: not to get into the semantics of it, but unless a human agent is directing them very closely, I don&rsquo;t think LLMs make actual <em>stories</em> at all – just something very story-<em>like</em>. Even given a human agent in that directing role, as we&rsquo;ve said, the question of whether that person really is &ldquo;the author of the text&rdquo; is debatable at best.</p>
 <p>By contrast, the tools we worked with only output statistics. If you feed them stories, they don&rsquo;t become capable of making story-like texts. They just gave us a new way to look at what was actually there in the slush pile. And, as an editor, what I always want to know is whether <em>what is there</em> is a story I will like, or a story I won&rsquo;t.</p>
 <p>We probably never would have succeeded in making a tool that could tell me that with any accuracy. Maybe it would be cool if we had? But, just as there is no substitute for having humans create works of fiction, there&rsquo;s no substitute for humans reading them either.</p>
-<p><img alt="Orbit-lrg" src="images/Orbit.svg"></p>
+<p><img src="images/Orbit.svg" alt="Orbit-lrg"></p>
           
             
 
