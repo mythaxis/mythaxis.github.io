@@ -38,7 +38,7 @@ That last (actually, penultimate) perhaps carries a lot of weight, though. The f
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-{{<glyph>}}M{{</glyph>}}ichelle Tang provides our last main rec for the year in **[Rustic Getaway](https://shotgunhoney.com/fiction/rustic-getaway-by-michelle-tang/)** at Shotgun Honey, going all in on the social media format with episodic epistolary updates that skirt around something iffy going on in the background.
+{{<glyph>}}M{{</glyph>}}ichelle Tang provides our last main rec for the year in **[Rustic Getaway](https://shotgunhoney.com/fiction/rustic-getaway-by-michelle-tang/)** at [Shotgun Honey](https://shotgunhoney.com/), going all in on the social media format with episodic epistolary updates that skirt around something iffy going on in the background.
 
 Influencer Samantha *@Ain’t_Chiu_Pretty* Chiu is going all but off the grid with her man Jared to meet his clan and, she anticipates, have him finally pop the question. All good for her clicks and comments, nothing like an engagement to boost audience engagement, etc. Of course, things don't quite meet her expectations, though there's a chance that the relentlessly upbeat Sam comes through things entirely oblivious as to how close she came to having her account cancelled, like the lucky headphone wearer who stops to pick up a quarter and so doesn't get hit by the falling piano. Wholesome silly fun.
 
