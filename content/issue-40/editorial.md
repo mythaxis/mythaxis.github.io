@@ -25,9 +25,7 @@ Add to this a smattering of opinion, with Bill Ryan's latest longform essay and 
 
 …
 
-…oh, hmm, hello, well, since you’re still here: I'm going to break with untold years of ***Mythaxis*** tradition and engage in a little shameless self-promotion. And the reason? Well, almost exactly one month ago, I learned that my first dedicated crime short story had been accepted into the forthcoming anthology **Motives Unknown**, featuring twelve stories by authors with a connection to the north of England.
-
-It's to be released by plucky indie publishers *Dead Ink Books* in May 2025, and you can check out the cover (and maybe even order a copy) [here](https://deadinkbooks.com/product/motives-unknown-a-northern-crime-anthology/). I’m sure I won’t be so crass as to review my own work in next year’s crime-fic round up…
+…oh, hmm, hello, well, since you’re still here: I'm going to break with untold years of ***Mythaxis*** tradition and engage in a little shameless self-promotion. And the reason? Well, almost exactly one month ago, I learned that my first dedicated crime short story had been accepted into the forthcoming anthology **Motives Unknown**, featuring twelve stories by authors with a connection to the north of England. It's to be released by plucky indie publishers *Dead Ink Books* in May 2025, and you can check out the cover (and maybe even order a copy) *[here](https://deadinkbooks.com/product/motives-unknown-a-northern-crime-anthology/)*. I’m sure I wouldn’t be so crass as to review my own work in next year’s crime-fic round up…
 
 …well, *reasonably* sure.
 
