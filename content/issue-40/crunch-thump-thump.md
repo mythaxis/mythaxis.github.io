@@ -15,7 +15,7 @@ description: "When your friend stands at the cliff's edge, do you ever feel the 
 image: images/CrunchCrunchThump10x6.jpg
 imageCopyright: "The title picture was based on a free-to-use image by [Vyacheslav Bobin](https://www.pexels.com/photo/green-and-red-light-in-dark-room-9578505/) - many thanks!"
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i39/01.TinType.Trolls.mp3"
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i40/4.Crunch.Thump.Thump.mp3"
 
 type: stock
 slug: crunch-thump-thump

@@ -14,7 +14,7 @@ description: "From classic greats like Freaks and Nightmare Alley we get the ent
 image: images/Mermaid10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Kuriakose John](https://www.pexels.com/photo/mural-of-siren-12810768/) and [Ann H](https://www.pexels.com/photo/striped-circus-tent-under-blue-sky-28679253/) - many thanks!"
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i39/01.TinType.Trolls.mp3"
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i40/3.The.Amazing.Mermaid.mp3"
 
 type: stock
 slug: the-amazing-mermaid
