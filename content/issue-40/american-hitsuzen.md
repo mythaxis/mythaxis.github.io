@@ -14,7 +14,7 @@ description: "American creatives… always slotting the word ‘American’ into
 image: images/Hitsuzen10x6.jpg 
 imageCopyright: "The title picture was based on a free-to-use image by [Kelly](https://www.pexels.com/photo/ford-mustang-coupe-3065602/) - many thanks!"
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i39/01.TinType.Trolls.mp3"
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i40/5.American.Hitzusen.mp3"
 
 type: stock
 slug: american-hitsuzen

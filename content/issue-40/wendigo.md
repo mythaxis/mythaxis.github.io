@@ -14,7 +14,7 @@ description: "One of the things the editor enjoys in a good horror story, partic
 image: images/Wendigo10x6.jpg
 imageCopyright: "The title picture was based on a free-to-use image by [Prayatna Maharjan](https://www.pexels.com/photo/dramatic-black-and-white-eye-close-up-29651661/) - many thanks!"
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i39/01.TinType.Trolls.mp3"
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i40/6.Wendigo.mp3"
 
 type: stock
 slug: wendigo

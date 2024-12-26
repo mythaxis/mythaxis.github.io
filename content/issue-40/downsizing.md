@@ -15,7 +15,7 @@ description: "Startups are the crucible of the modern business world, where futu
 image: images/Downsizing10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [cottonbro studio](https://www.pexels.com/photo/men-looking-inside-the-brown-box-8371739/), [Angelina Sarycheva](https://unsplash.com/photos/a-man-sitting-on-a-yoga-mat-with-his-hands-in-his-pockets-hFwUotV-PsY), and [Andrea Piacquadio](https://www.pexels.com/photo/photo-of-man-holding-black-eyeglasses-3760137/) - many thanks!"
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i39/01.TinType.Trolls.mp3"
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i40/1.Downsizing.mp3"
 
 type: stock
 slug: downsizing
