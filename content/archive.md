@@ -30,14 +30,14 @@ You can also find a [listing of our editorials here](/editorials.html), though w
 
 ## Back Issues
 
-Since 2020, ***Mythaxis Magazine*** has shifted to a quarterly release schedule with a shiny new design opened its doors to contributors from around the world. You can find our recent back issues here:
+Since 2020, ***Mythaxis Magazine*** has shifted to a quarterly release schedule with a shiny new design and opened its doors to contributors from around the world. You can find our recent back issues here:
 
 {{< back-issues-list >}}
 
 
 ## The Original Archive
 
-Finally, here you can find the more than one hundred-and-fifty pieces of fiction assembled by ***Mythaxis Magazine***'s founder, [Gil Williamson](issue-22/editorial.html). We've also preserved the hand-coded format of the original zine as a lasting legacy of his varied talents. Enjoy!
+Finally, here you can find the more than one hundred-and-fifty pieces of fiction assembled by ***Mythaxis Magazine***'s founder, [Gil Williamson](issue-22/editorial.html), as well as our memorial issue to celebrate his memory. We've also preserved the hand-coded format of the original zine as a lasting testimony to his varied talents. Enjoy!
 
 - [Issue&nbsp;22: Apr 20](issue-22/index.html)
 - [Issue&nbsp;21: Feb 18](indexissuev21.htm)
