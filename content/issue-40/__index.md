@@ -9,7 +9,7 @@ subhead: Winter 2024
 
 editor: Andrew Leon Hudson
 image: images/Sanka_Coffee2_squashed.jpg
-imageMobile: images/sSanka_Coffee2_mob.jpg
+imageMobile: images/Sanka_Coffee2_mob.jpg
 imageCopyright: "Was that someone at the window? by Fritz Siebel"
 
 # https://flexboxsheet.com/
