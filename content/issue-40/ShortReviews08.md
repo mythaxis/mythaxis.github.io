@@ -34,7 +34,7 @@ Anyway, Dundas's story is **[Some Form of Promotion](https://theyardcrimeblog.co
 
 {{<glyph>}}B{{</glyph>}}efore *Tough* relocated itself to pastures new halfway through the year it hosted a bunch of stories, one of which in particular stood out: **[Mine](http://www.toughcrime.com/2024/04/mine-fiction-by-eleanor-keisman.html)** by Eleanor Keisman, a bleakly engrossing portrait of an unstable mind. What begins with the sour but harmless observation of a happy soon-to-be-mother by a woman rendered unhappy by the path of her own life ever so gently escalates, first perhaps to voyeurism, then perhaps to stalking, then - perhaps - to something much, much worse.
 
-That last (actually, penultimate) perhaps carries a lot of weight, though. The finale of *Mine* is striking and viceral and, one must no question admit, quite possibly not happening at all. Or, *perhaps*, what we get is very much a "romanticised" version of something equally grim if not quite so fantastical. Either way, it really stuck with me this year.
+That last (actually, penultimate) perhaps carries a lot of weight, though. The finale of **Mine** is striking and viceral and, one must no question admit, quite possibly not happening at all. Or, *perhaps*, what we get is very much a "romanticised" version of something equally grim if not quite so fantastical. Either way, it really stuck with me this year.
 
 ![Orbit-sml ><](images/Orbit.svg)
 
