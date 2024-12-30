@@ -46,6 +46,6 @@ I'll leave you with a couple of parting nods to close out the issue, starting wi
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of any of these pieces on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of any of these pieces on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1269598765173107).*
 
 And with that, we at ***Mythaxis*** would like to wish you all the best for the coming year!
