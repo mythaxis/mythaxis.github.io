@@ -65,4 +65,4 @@ There is something savagely appealing about the premise of *Cruel is the Night*.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of Bill's thoughts on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of Bill's thoughts on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1269601235172860).*
