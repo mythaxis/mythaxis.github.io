@@ -9,7 +9,7 @@ authors:
 - Kirk Bueckert
 copyright: '© Kirk Bueckert 2024 All Rights Reserved'
 
-description: "One of the things the editor enjoys in a good horror story, particularly in horror films, is uncertainty regarding the how real the horror is. Was Jack Torrance haunted by the Overlook Hotel, or merely an unstable man descending into murderous psychopathy? Well, bad example maybe, but stripped of its supernatural trappings The Shining would be a crime story - and here Kirk Bueckert gives us a similarly borderline case study to consider."
+description: "One of the things the editor enjoys in a good horror story is uncertainty regarding the how real the horror is. Was Jack Torrance haunted by the Overlook Hotel, or merely an unstable man descending into murderous psychopathy? Stripped of its supernatural trappings The Shining would be a crime story - and here Kirk Bueckert gives us a similarly borderline case study to consider."
 
 image: images/Wendigo10x6.jpg
 imageCopyright: "The title picture was based on a free-to-use image by [Prayatna Maharjan](https://www.pexels.com/photo/dramatic-black-and-white-eye-close-up-29651661/) - many thanks!"
