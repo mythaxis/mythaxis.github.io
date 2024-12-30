@@ -9,7 +9,7 @@ authors:
 - Arlen Feldman
 copyright: '© Arlen Feldman 2024 All Rights Reserved'
 
-description: "From classic greats like Freaks and Nightmare Alley we get the enticing notion of the travelling carnival as a home to the abandoned, the desperate, the reviled, the unloved: a found family of outsiders, who in turn treat as outsiders the punters they lure in with promises of salacious thrills. Arlen Feldmen mines these rich depths to strike a tragic vein, as one person's opportunity to build a new life only leaves 'em wanting more…"
+description: "From classic greats like Freaks and Nightmare Alley we get the enticing notion of the travelling carnival as a home to the abandoned, the desperate, the reviled, the unloved: a found family of outsiders, who in turn treat as outsiders the punters they lure in with promises of salacious thrills. Arlen Feldmen mines these rich depths to strike a tragic vein, as one person’s opportunity to build a new life only leaves ’em wanting more…"
 
 image: images/Mermaid10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Kuriakose John](https://www.pexels.com/photo/mural-of-siren-12810768/) and [Ann H](https://www.pexels.com/photo/striped-circus-tent-under-blue-sky-28679253/) - many thanks!"
