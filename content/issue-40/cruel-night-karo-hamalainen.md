@@ -48,7 +48,9 @@ A further disappointment came when it was revealed why any of this was happening
 Elise is another problem. She’s completely vapid, and is intended to be, but the writing of her narrated chapters is often absurd. Her first chapter ends like this:
 
 > The flowers were cheery.
+>
 > I smelled them.
+> 
 > They were white.
 
 In other words, Elise is just a cartoon character. Her chapters are filled with this sort of thing. She doesn’t read as a person in danger, but rather as someone whom Hämäläinen will eventually label “dead” and then stop writing about her.
