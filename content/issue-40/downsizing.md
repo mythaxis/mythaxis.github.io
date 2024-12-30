@@ -10,7 +10,7 @@ authors:
 - Jess Simms
 copyright: '© Jess Simms 2024 All Rights Reserved'
 
-description: "Startups are the crucible of the modern business world, where futures are forged, fortunes are made and lost, careers take off or go down in flames, and pressure can be both the fuel and the fire. Jess Simms takes us to another fledgling C-suite, the place where the hard decisions have to be made. You know, you can't spell 'executive' without… breaking a few eggs."
+description: "Startups are the crucible of the modern business world, where futures are forged, fortunes are made and lost, careers take off or go down in flames, and pressure can be both the fuel and the fire. Jess Simms takes us to another fledgling C-suite, the place where the hard decisions have to be made. You know, you can't spell ‘executive’ without… breaking a few eggs."
 
 image: images/Downsizing10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [cottonbro studio](https://www.pexels.com/photo/men-looking-inside-the-brown-box-8371739/), [Angelina Sarycheva](https://unsplash.com/photos/a-man-sitting-on-a-yoga-mat-with-his-hands-in-his-pockets-hFwUotV-PsY), and [Andrea Piacquadio](https://www.pexels.com/photo/photo-of-man-holding-black-eyeglasses-3760137/) - many thanks!"
