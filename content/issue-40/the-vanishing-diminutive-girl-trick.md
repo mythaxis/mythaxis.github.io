@@ -9,7 +9,7 @@ authors:
 - David Sheskin
 copyright: '© David Sheskin 2024 All Rights Reserved.'
 
-description: "Sometimes you hear the voice of a story in your head as you're reading. Never was there a stronger example of that magic than David Sheskin's short, sly, wall-of-text yarn, which packs more into a piece of flash fiction that words have any right to. For more evidence, I give you our audio version: passed from editor to producer with narry a note, and it sounds exactly the way I imagined it."
+description: "Sometimes you hear the voice of a story in your head as you're reading. Never was there a stronger example of that magic than David Sheskin's short, sly, wall-of-text yarn, which packs more into a piece of flash fiction than words have any right to. For more evidence, I give you our audio version: passed from editor to producer with narry a note, and it sounds exactly the way I imagined it."
 
 image: images/VanishingGirlTrick10x6.jpg
 imageCopyright: "The title picture was based on a free-to-use image by [Pixabay](https://www.pexels.com/photo/rock-formation-414110/) - many thanks!"
