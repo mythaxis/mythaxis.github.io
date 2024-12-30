@@ -9,7 +9,7 @@ authors:
 - Andrew Leon Hudson
 copyright: '© Andrew Leon Hudson 2024 All Rights Reserved'
 
-description: "Bringing both our issue and the year to a resounding close, it is the editor's pleasure to introduce a number more crime stories published elsewhere in 2024 to the reader's attention. So, if the six tales you've found here have but whet your appetite, let's make it an even dozen with four firm recommendations and a couple of not-bads!"
+description: "Bringing both our issue and the year to a resounding close, it is the editor’s pleasure to introduce a number more crime stories published elsewhere in 2024 to the reader’s attention. So, if the six tales you’ve found here have but whet your appetite, let’s make it an even dozen with four firm recommendations and a couple of not-bads!"
 
 image: images/ShortCrimeReviews10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images – many thanks to [Darcy Lawrey](https://www.pexels.com/photo/photo-of-books-1117153/) and [Luis Quintero](https://www.pexels.com/photo/black-book-2294881/)."
