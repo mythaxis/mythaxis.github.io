@@ -9,7 +9,7 @@ authors:
 - Bill Ryan
 copyright: '© Bill Ryan 2024 All Rights Reserved'
 
-description: "Bill Ryan's biannual sojourn returns him to these shores to receive a seasonally warm welcome, once again to expose us to his thoughts on an example of crime novel writing – or should that be 'criminal'? Best let him decide."
+description: "Bill Ryan’s biannual sojourn returns him to these shores to receive a seasonally warm welcome, once again to expose us to his thoughts on an example of crime novel writing – or should that be ‘criminal’? Best let him decide."
 
 image: images/CruelNight10x6.jpg
 imageCopyright: "The image shows author Karo Hämäläinen and the book's cover, both as seen on [the Soho Press website](https://sohopress.com/authors/karo-hamalainen/)."
