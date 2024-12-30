@@ -224,4 +224,4 @@ It wasn’t a bad deal all things considered, we decided. Our trail of failures 
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Downsizing** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Downsizing** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1269613838504933).*
