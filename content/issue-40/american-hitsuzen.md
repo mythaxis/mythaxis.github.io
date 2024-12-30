@@ -229,4 +229,4 @@ Maybe we can treat Giles to one last spin in his long lost wheels. Just for old 
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **American Hitsuzen** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **American Hitsuzen** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1269610588505258).*
