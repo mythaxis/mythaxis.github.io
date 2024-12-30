@@ -263,4 +263,4 @@ Brandon looks into the jar and smiles. “Yes,” he says. “You’ll run. You�
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Wendigo** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Wendigo** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1269603031839347).*
