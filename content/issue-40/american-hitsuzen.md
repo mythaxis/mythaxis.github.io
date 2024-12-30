@@ -9,7 +9,7 @@ authors:
 - Michael Bettendorf
 copyright: '© Michael Bettendorf 2024 All Rights Reserved'
 
-description: "American creatives… always slotting the word ‘American’ into their titles. Psycho. Graffiti. Hustle. Idiot. Why do they do it? We’ll never know. And in this case? Well, it turns out ‘hitsuzen’ is a Japanese term more or less meaning “according to a plan’. So when Michael Bettendorf calls this ‘American Hitsuzen’, is he saying…? No. No, he couldn’t be."
+description: "American creatives… always slotting the word ‘American’ into their titles. Psycho. Graffiti. Hustle. Idiot. Why do they do it? We’ll never know. And in this case? Well, it turns out ‘hitsuzen’ is a Japanese term more or less meaning ‘according to a plan’. So when Michael Bettendorf calls this ‘American Hitsuzen’, is he saying…? No. No, he couldn’t be."
 
 image: images/Hitsuzen10x6.jpg 
 imageCopyright: "The title picture was based on a free-to-use image by [Kelly](https://www.pexels.com/photo/ford-mustang-coupe-3065602/) - many thanks!"
