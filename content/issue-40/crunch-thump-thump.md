@@ -72,4 +72,4 @@ Then I closed my eyes and fell asleep.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Crunch Thump Thump** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Crunch Thump Thump** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1269612168505100).*
