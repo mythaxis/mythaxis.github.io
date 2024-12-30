@@ -10,7 +10,7 @@ authors:
 - P. R. O’Leary
 copyright: '© P. R. O’Leary 2024 All Rights Reserved'
 
-description: "When your friend stands at the cliff's edge, do you ever feel the echo of an urge to push, though you never would? When the wedding gets to 'speak now or forever hold your peace' are you tempted to raise your voice, even if you have no reason to? Could be everyone experiences something like that at a point in their life – P. R. O’Leary maybe more often than many."
+description: "When your friend stands at the cliff’s edge, do you ever feel the echo of an urge to push, though you never would? When the wedding gets to ‘speak now or forever hold your peace’ are you tempted to raise your voice, even if you have no reason to? Could be everyone experiences something like that at a point in their life – P. R. O’Leary maybe more often than many."
 
 image: images/CrunchCrunchThump10x6.jpg
 imageCopyright: "The title picture was based on a free-to-use image by [Vyacheslav Bobin](https://www.pexels.com/photo/green-and-red-light-in-dark-room-9578505/) - many thanks!"
