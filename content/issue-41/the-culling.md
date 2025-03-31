@@ -15,7 +15,7 @@ description: "Introducing new writers to your audience is always rewarding for a
 image: images/TheCulling10x6.jpg
 imageCopyright: "The title picture was created using two Creative Commons images by [Charles](https://www.pexels.com/photo/kids-trick-or-treating-in-halloween-costumes-near-house-entrance-5859424/) [Parker](https://www.pexels.com/photo/multiracial-kids-in-halloween-costumes-near-decorations-5859379/) - many thanks!"
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i40/3.The.Culling.mp3"
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i41/3.The.Culling.mp3"
 
 type: stock
 slug: the-culling
