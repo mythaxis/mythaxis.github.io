@@ -15,7 +15,7 @@ description: "Queue the annual moan about Things The Editor Hates To Find In The
 image: images/Seal-Skin10x6.png 
 imageCopyright: "The title picture was created using Creative Commons images by [ELG21](https://pixabay.com/photos/blackhouse-cabin-storm-5796711/) and [jplenio](https://pixabay.com/photos/forest-conifers-coniferous-forest-3082836/) - many thanks!"
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i40/5.SealSkin.mp3"
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i41/5.SealSkin.mp3"
 
 type: stock
 slug: seal-skin

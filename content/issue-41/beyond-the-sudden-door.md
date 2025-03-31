@@ -15,7 +15,7 @@ description: "Animals make for useful subjects when an author's real subject is 
 image: images/SuddenDoor10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Marcelo Jaboo](https://www.pexels.com/photo/brown-wooden-armchair-on-brown-wooden-floor-696407/) and [SamuelFJohanns](https://pixabay.com/photos/rat-mouse-laboratory-research-6848160/) - many thanks!"
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i40/4.Beyond.the.Sudden.Door.mp3"
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i41/4.Beyond.the.Sudden.Door.mp3"
 
 type: stock
 slug: beyond-the-sudden-door

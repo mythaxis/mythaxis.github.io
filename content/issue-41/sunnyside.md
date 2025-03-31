@@ -15,7 +15,7 @@ description: "One of the editor's favourite approaches to speculative fiction is
 image: images/Sunnyside10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Philip Warp](https://www.pexels.com/photo/bridge-and-city-at-night-11013334/) and [Valerii Golovatenko](https://www.pexels.com/photo/a-grayscale-photo-of-buildings-in-new-york-city-7131156/) - many thanks!"
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i40/2.Sunnyside.mp3"
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i41/2.Sunnyside.mp3"
 
 type: stock
 slug: sunnyside
