@@ -110,4 +110,4 @@ And so I take a deep breath, hesitate for just a moment, and then take my blindf
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Safe in the Dark** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Safe in the Dark** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

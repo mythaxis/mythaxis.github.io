@@ -490,4 +490,4 @@ Luisa instinctively looks out at the city’s controlled chaos.
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Sunnyside** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Sunnyside** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*
