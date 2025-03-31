@@ -142,4 +142,4 @@ Old awakes in her hammock. She is sleeping on top of Spots. The younger rat’s 
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Beyond the Sudden Door** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Beyond the Sudden Door** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

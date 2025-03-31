@@ -42,4 +42,4 @@ Ultimately, the wondrous paradox of *Metallic Realms* is that it creates exactly
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of Mattia's thoughts on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of Mattia's thoughts at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

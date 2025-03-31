@@ -272,4 +272,4 @@ Dhuni watches until she can no longer see the dust kicked up by their mules, unt
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Dhuni, Murderess of Mountains** on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of **Dhuni, Murderess of Mountains** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

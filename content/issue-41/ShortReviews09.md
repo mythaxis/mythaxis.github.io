@@ -48,4 +48,4 @@ A **Bad Space** book is currently in the works, and coincidentally the very firs
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of any of these pieces on [Facebook](https://www.facebook.com/MythaxisMagazine/posts/1269598765173107).*
+*Thanks for reading - but we'd love feedback! Let us know what you think of any of these pieces at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*
