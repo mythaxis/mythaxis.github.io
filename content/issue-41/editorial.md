@@ -11,7 +11,7 @@ authors:
 image: images/Water-buffalo_sml.jpg
 imageCopyright: "**ISSUE 41** – ***Thanks and Salutations!***
 
-Almost five years ago, digital artist Huy Tran Viet provided the first cover art of Mythaxis Magazine's new design era, and we're delighted to feature his work again! Huy is a freelance concept artist and illustrator from Danang, Vietnam, and this time we have a striking blend of historical tradition and futuristic technology in *Year of the Water Buffalo*. You can see more of his work at [Cara](https://cara.app/novaillusionvda), a platform for artists and art enthusiasts.
+Almost five years ago, digital artist Huy Tran Viet provided the first cover art of Mythaxis Magazine's new design era, and we're delighted to feature his work again! Huy is a freelance concept artist and illustrator from Danang, Vietnam, and this time we have a striking blend of historical tradition and futuristic technology in *Year of the Water Buffalo*. You can see more of his work at [Cara](https://cara.app/novaillusionvda), a platform for artists and art enthusiasts."
 
 type: page
 slug: editorial
