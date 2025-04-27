@@ -11,14 +11,14 @@ on:
 
 jobs:
   printInputs:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
     - run: |
         echo "Log level: ${{ github.event.inputs.logLevel }}"
 
   FTP-Deploy-Action:
     name: 🎉 FTP-Deploy-Action
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-24.04
     steps:
     - name: 🚚 Get latest gh-pages content
       uses: actions/checkout@v3
