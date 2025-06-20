@@ -9,14 +9,9 @@ slug: submissions
 
 ***Mythaxis* is currently closed to submissions.**
 
-We are open to submissions within the following periods:
+**SUBMISSIONS NOTICE:** *Mythaxis* will be closed to new submissions until 2026. Any authors who have been invited to resubmit may still do so at their convenience.
 
-- **January 23rd-30th**
-- **April 23rd-30th**
-- **July 23rd-30th**
-- **October 23rd-30th**
-
-Submissions received outside of these dates will unfortunately be lost and therefore not responded to. When open, we seek and offer the following:
+Our guidelines page is maintained for future reference. When open, we seek and offer the following:
 
 - **Length:** 1,000-5,000 words. These are *firm* limits. Shorter or longer works will be considered, but the further a story goes outside these bounds the more it will need to impress.
 - **Compensation:** €0.01 per word, with a €20 minimum. Please be aware that payment is via PayPal only. 
