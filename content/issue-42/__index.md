@@ -1,11 +1,11 @@
 ---
-title: "Mythaxis Magazine Issue 41"
-date: 2025-04-01
+title: "Mythaxis Magazine Issue 42"
+date: 2025-07-01
 slug: index
 layout: section
 
-issue: Issue 41
-subhead: Spring 2025
+issue: Issue 42
+subhead: Summer 2025
 
 editor: Andrew Leon Hudson
 image: images/Water-buffalo.jpg
