@@ -8,9 +8,9 @@ issue: Issue 42
 subhead: Summer 2025
 
 editor: Andrew Leon Hudson
-image: images/Water-buffalo.jpg
-imageMobile: images/Water-buffalo_mob.jpg
-imageCopyright: "Year of the Water Buffalo by Huy Viet Tran"
+image: images/a_diazsignacio.jpg
+imageMobile: images/a_diazsignacio_mob.jpg
+imageCopyright: "a by Huy Viet Tran"
 
 # https://flexboxsheet.com/
 intro:
@@ -22,7 +22,7 @@ intro:
     # flex_grow: 2
     align_self: flex-start
     # align_items: baseline
-    color: '#bd221a'
+    color: '#01ff0b'
   subheading:
     # order: 3
     # flex_grow: 1
