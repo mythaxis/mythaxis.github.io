@@ -8,10 +8,10 @@ genres:
 authors:
 - Andrew Leon Hudson
 
-image: images/Water-buffalo_sml.jpg
+image: images/a_diazsignacio_sml.jpg
 imageCopyright: "**ISSUE 42** – ***Thanks and Salutations.***
 
-Almost five years ago, digital artist Huy Tran Viet provided the first cover art of Mythaxis Magazine's new design era, and we're delighted to feature his work again! Huy is a freelance concept artist and illustrator from Danang, Vietnam, and this time we have a striking blend of historical tradition and futuristic technology in *Year of the Water Buffalo*. You can see more of his work at [Cara](https://cara.app/novaillusionvda), a platform for artists and art enthusiasts."
+So, in the end this issue did not lean into forty-twoness the way it might have. Nevertheless, I think the off-kilter, alien-abductionish edge to our cover art would raise a smile for galactic hitchhikers everywhere. Minimalistically entitled 'a', it comes courtesy of Ignacio Diazs, a background artist from Santiago, Chile. You can see more of his work – which often shares this mix of every-day scenes with quirky dimensions – on [Instagram](https://www.instagram.com/diazs.ignacio/), [DeviantArt](https://www.deviantart.com/diazsignacio), and [Cara](https://cara.app/diazsignacio). Many thanks, Ignacio!"
 
 type: page
 slug: editorial
