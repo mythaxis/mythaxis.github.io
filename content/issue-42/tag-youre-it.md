@@ -24,10 +24,6 @@ featured: true
 
 ---
 
-{{<glyph>}}X{{</glyph>}}XXX
-
-![Orbit-sml ><](images/Orbit.svg)
-
 “Upload selected photos to a new album.”
 
 > *Fifteen photos have been uploaded.*
