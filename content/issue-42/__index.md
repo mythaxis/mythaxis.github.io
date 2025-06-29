@@ -10,7 +10,7 @@ subhead: Summer 2025
 editor: Andrew Leon Hudson
 image: images/a_diazsignacio.jpg
 imageMobile: images/a_diazsignacio_mob.jpg
-imageCopyright: "a by Huy Viet Tran"
+imageCopyright: "a by Ignacio Diazs"
 
 # https://flexboxsheet.com/
 intro:
