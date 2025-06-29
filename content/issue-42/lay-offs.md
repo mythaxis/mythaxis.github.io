@@ -13,7 +13,7 @@ copyright: '© Anna Ziegelhof 2025 All Rights Reserved'
 description: "One of my all-time editorial bugbears is writers writing stories about someone being a writer – sets my teeth right on edge, I'd sooner chew a mouthful of tin foil than read such a thing. However, for no reason that I can consciously explain, I absolutely adore speculative fiction about employment… I guess being a writer just can't be a proper job. Anyway, while the short genre fiction community sharpens its pitchfork collection, let's celebrate the fact that Anna Ziegelhof delivered the right kind of story."
 
 image: images/Lay-Offs10x6.jpg
-imageCopyright: "The title picture was created using Creative Commons images by [XXX](https://YYY), [XXX](https://YYY), and [XXX](https://YYY) - many thanks!"
+imageCopyright: "The title picture was created using Creative Commons images by [StockSnap](https://pixabay.com/photos/woman-sad-depression-skin-headache-2609115/), [JayMantri](https://pixabay.com/photos/table-wood-cup-mug-metal-pattern-438422/), and [saylowe](https://pixabay.com/illustrations/ear-anatomy-ear-3d-anatomy-anatomy-2146396/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i42/3.Lay-offs.mp3"
 

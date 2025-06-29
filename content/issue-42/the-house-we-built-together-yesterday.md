@@ -13,7 +13,7 @@ copyright: '© Charlie Winter 2025 All Rights Reserved'
 description: "You'll have to bear with me here, and forgive me for the confusion, but one of my all-time favourite films is John Carpenter's THE THING. And if you told me Charlie Winter's gentle, warm-hearted yarn is surely as far removed as anything could be from that, so too the strange beasts that come to populate it, I'd largely agree. Yet both look at men living in isolation, their world devoid of women, which is interesting. And, in this case, also lovely."
 
 image: images/TogetherYesterday10x6.jpg
-imageCopyright: "The title picture was created using Creative Commons images by [ELG21](https://pixabay.com/photos/blackhouse-cabin-storm-5796711/) and [jplenio](https://pixabay.com/photos/forest-conifers-coniferous-forest-3082836/) - many thanks!"
+imageCopyright: "The title picture was created using Creative Commons images by [Pixabay](https://www.pexels.com/photo/person-wearing-red-dress-45178/), [amayaeguizabal](https://pixabay.com/photos/hedgehog-cute-animal-little-nature-1215140/) and [unknown](https://pixabay.com/photos/scheepmakers-crowned-pigeon-bird-3373811/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i42/5.The.House.We.Built.Together.Yesterday.mp3"
 
