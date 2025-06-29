@@ -10,7 +10,7 @@ authors:
 - Sean MacKendrick
 copyright: '© Sean MacKendrick 2025 All Rights Reserved'
 
-description: "xxxx"
+description: "It's always a challenge to finalize each issue of Mythaxis. I try to present a table of contents with a deliberate structure, to place stories in relation to each other in a way that satisfies my editorial OCD (even if our readers remain blissfully oblivious to any such efforts going on behind the scenes). Usually picking a lead story is easy, though, since that's a different problem. The first one has to stand alone, it's the first thing the reader sees, after all – but this time that's not exactly the case. For while Sean MacKendrick's timely and sinister duologue absolutely works on the page, wait until you get a load of the audio play…"
 
 image: images/TagYoureIt10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Pix-Off](https://pixabay.com/photos/desert-acacia-bush-grass-shrubs-7529634/) and [Pexels](https://pixabay.com/photos/mountain-water-peak-summit-iceland-1851126/) - many thanks!"
@@ -318,4 +318,4 @@ featured: true
 
 ![Orbit-lrg](images/Orbit.svg)
 
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Tag, You're It** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*
+*Thanks for reading – but we'd love feedback! Let us know what you think of **Tag, You're It** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

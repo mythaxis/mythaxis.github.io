@@ -10,10 +10,10 @@ authors:
 - Josh Pearce
 copyright: '© Josh Pearce 2025 All Rights Reserved'
 
-description: "xxx."
+description: "Mythaxis is a home to all the speculative genres, though I feel that horror is the hardest sell, despite for many years being my first choice in recreational reading. And I mention this because what Josh Pearce is giving you here, it's very definitely sci-fi. But, as is proven by more than one story in our archives, sci-fi isn't always for the faint at heart. Fair warning, this story has edges."
 
 image: images/StealYourCarbon10x6.jpg
-imageCopyright: "The title picture was created using Creative Commons images by [Susanne Jutzeler, suju-foto](https://www.pexels.com/photo/charming-rustic-kitchen-with-vintage-decor-30117466/), [Irene63](https://pixabay.com/photos/yellow-material-structure-bright-1812169/), and [SookyungAn](https://pixabay.com/photos/palm-finger-hand-let-2704015/) - many thanks!"
+imageCopyright: "The title picture was created using an image by [Steve_Allen](https://depositphotos.com/photo/human-fetus-approx-weeks-485258062.html) at DepositPhotos.com - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i42/6.Someday.Someones.Gonna.Steal.Your.Carbon.mp3"
 

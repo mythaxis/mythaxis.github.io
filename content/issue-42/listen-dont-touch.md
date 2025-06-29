@@ -10,10 +10,10 @@ authors:
 - Cheryl S. Ntumy
 copyright: '© Cheryl S. Ntumy 2025 All Rights Reserved.'
 
-description: "xxx"
+description: "The Sauútiverse is a science-fantasy shared world project set in a binary star system whose civilisation is rooted deeply in the mythologies, languages, and cultures of Africa and features an intricate magic system based on sound, oral traditions, and music. I'm delighted to present Cheryl Ntumy's latest, and most emblematic contribution to that cannon – you see, the name Sauúti is taken from the Swahili word for 'voice', and if there's one thing this story is about… well, if there's maybe two things…"
 
 image: images/ListenDontTouch10x6.jpg
-imageCopyright: "The title picture was created using Creative Commons images by [Philip Warp](https://www.pexels.com/photo/bridge-and-city-at-night-11013334/) and [Valerii Golovatenko](https://www.pexels.com/photo/a-grayscale-photo-of-buildings-in-new-york-city-7131156/) - many thanks!"
+imageCopyright: "The title picture was created using Creative Commons images by [eroyka](https://pixabay.com/photos/buddhist-monk-talk-mobile-religion-2052802/), [laurajuarez](https://pixabay.com/photos/yoga-meditation-fitness-mindfulness-4595164/), [pieonane](https://pixabay.com/photos/foreshore-mud-soil-nature-sand-3722957/), [gamagapix](https://pixabay.com/photos/mouflon-wild-sheep-horns-imposing-4750035/), [HPUweKlein](https://pixabay.com/photos/nature-animal-goat-wildlife-horned-3328876/), [innamykytas](https://pixabay.com/photos/sensual-person-posing-body-girl-5148187/), and [unknown](https://pixabay.com/photos/man-model-fitness-body-builder-2378994/), and also by [Krakenimages.com](https://depositphotos.com/photo/beautiful-young-african-american-woman-isolated-background-covering-ears-fingers-234055624.html) at DepositPhotos.com - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i42/2.Listen.Dont.Touch.mp3"
 

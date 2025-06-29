@@ -10,7 +10,7 @@ authors:
 - Bill Ryan
 copyright: '© Bill Ryan 2025 All Rights Reserved'
 
-description: "xxx…"
+description: "And speaking of that darkest of genres, possibly, let us turn now to Japan's latest contribution to horror— well, or perhaps it's the uncanny… the unsettling? The absurd? I'm not sure I can say. Come to that, I'm not even sure how confident horror reviewer extraordinaire Bill Ryan is with regard to the case at hand, and that alone should be enough to send a shiver up your spine."
 
 image: images/StrangePictures10x6.jpg
 imageCopyright: "The image shows author [Uketsu](https://pushkinpress.com/our-authors/uketsu/) and [the book's cover](https://pushkinpress.com/book/strange-pictures/), both from the [Pushkin Press website](https://pushkinpress.com/)."
