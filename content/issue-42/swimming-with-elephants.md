@@ -10,7 +10,7 @@ authors:
 - Travis Ezell
 copyright: '© Travis Ezell 2025 All Rights Reserved'
 
-description: "xxx"
+description: "Before you read on, a quick shout out to SFFWorld.com, within whose supportive community forum your editor cut his teeth as a short fiction writer, sharing work and gaining feedback. I didn't mention it in our last issue, but I encountered Helen French's flash fiction Safe in the Dark right there, and enjoyed it so much I asked to take it for Mythaxis more or less on the spot – and so too this great piece of possibly prescient sci-fi by Travis Ezell, who really brings it all bittersweet home in the closing words."
 
 image: images/SwimmingWithElephants10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Marcelo Jaboo](https://www.pexels.com/photo/brown-wooden-armchair-on-brown-wooden-floor-696407/) and [SamuelFJohanns](https://pixabay.com/photos/rat-mouse-laboratory-research-6848160/) - many thanks!"
