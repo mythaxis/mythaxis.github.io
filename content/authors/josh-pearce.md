@@ -1,5 +1,5 @@
 ---
-date: 2025-07-01
+date: 2025-06-30
 type: author
 name: Josh Pearce
 photo: 'images/josh-pearce.jpg'

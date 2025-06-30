@@ -1,5 +1,5 @@
 ---
-date: 2025-07-01
+date: 2025-06-30
 type: author
 name: Cheryl S. Ntumy
 photo: 'images/cheryl-s-ntumy.jpg'

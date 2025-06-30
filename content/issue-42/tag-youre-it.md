@@ -1,7 +1,7 @@
 ---
 title: "Tag, You're It"
 
-date: 2025-07-01
+date: 2025-06-30
 issue: Issue 42
 
 genres:

@@ -1,6 +1,6 @@
 ---
 title: "Mythaxis Magazine Issue 42"
-date: 2025-07-01
+date: 2025-06-30
 slug: index
 layout: section
 
