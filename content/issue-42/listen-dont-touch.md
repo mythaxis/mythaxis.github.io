@@ -54,7 +54,7 @@ Kwa-Nxi’s relief is palpable. *Yes! Yes. Let’s keep trying*.
 
 The uroh-ogi sighs again. She does it a lot. “It’s not going to work. You know how the disease alters Aq’pa voices. There’s no point—”
 
-My mate holds up his hands for silence*. Please give us a moment. We don’t want you swooning on our floor.*
+My mate holds up his hands for silence. *Please give us a moment. We don’t want you swooning on our floor.*
 
 Her expression sour, the uroh-ogi gets up and steps out into the open air. I hear the subtle crackle that indicates that a sonic veil has dropped over our den, trapping all the sounds within to shield her from their intensity. Casting an intense gaze on my face, Kwa-Nxi growls. The sound sets my teeth on edge, but I force myself to let out a tentative hiss in return. He tries hard to keep his expression impassive, but after a moment he doubles over, dry retching onto the floor.
 
