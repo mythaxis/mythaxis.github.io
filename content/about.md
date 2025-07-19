@@ -8,9 +8,9 @@ slug: about
 ---
 
 
-Established in 2008 by Gil Williamson, *Mythaxis* has always been focused on the fiction, with as little distraction as possible - no ads, no clutter, just words on the page to transport you somewhere else.
+Established in 2008 by Gil Williamson, *Mythaxis* began as a self-coded webzine with an unpredictable release schedule and a close-nit group of regular contributors. Edited by Andrew Leon Hudson since 2020, the magazine is now a clockwork-quarterly publication and welcomes new writers from around the world and shares their work in audio too! But some things never change: *Mythaxis* has always been focused on the fiction, with as little distraction as possible - no ads, no clutter, just quality stories to transport you somewhere else.
 
-You can follow *Mythaxis* on [Bluesky](https://bsky.app/profile/mythaxis.bsky.social), [Facebook](https://www.facebook.com/MythaxisMagazine), and [Twitter](https://twitter.com/mythaxis), and to receive each new issue's Table of Contents in your inbox, you can sign up at editor Andrew Leon Hudson's very infrequent and utterly non-spammy [mailing list](http://eepurl.com/hdhvMT).
+For a "subscription" to *Mythaxis*, sign up **[here](http://eepurl.com/hdhvMT)** to receive each new issue's Table of Contents in your inbox on release. You can also follow us on [Bluesky](https://bsky.app/profile/mythaxis.bsky.social) and [Facebook](https://www.facebook.com/MythaxisMagazine).
 
 *Mythaxis* is forever free-to-read, but if you would like to support the magazine [you could always buy us a coffee](https://ko-fi.com/mythaxismagazine/).
 
