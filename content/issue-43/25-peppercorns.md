@@ -10,7 +10,7 @@ authors:
 - Emma Burnett
 copyright: '© Emma Burnett 2025 All Rights Reserved'
 
-description: "This is Emma Burnett's third contribution to our pages, each more weighty than the one before. Here she tackles timely and challenging subject matter: how the suffering our forbearers endured goes on to affect those who follow them, forging links in a chain that seems inevitably to bind us to more pain in the future. Here's to breaking that chain."
+description: "This is Emma Burnett's third contribution to our pages, each more weighty than the one before. Here she tackles timely and challenging subject matter: how the suffering our forbearers endured goes on to affect those who follow them, forging links in a chain that seems inevitably to bind us to more pain in the future. Here's to breaking that chain. Editorial note: although Mythaxis doesn't use trigger warnings, readers may appreciate knowing that this story makes reference to the legacy of historical attrocities including the Holocaust."
 
 image: images/Peppercorns10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Berna T.](https://www.pexels.com/photo/powder-from-lotion-on-hands-26792271/), [Lukas](https://www.pexels.com/photo/silver-knife-near-beans-616358/), and [Kaboompics.com](https://www.pexels.com/photo/a-close-up-shot-of-a-spoon-of-spices-4871091/) - many thanks!"
