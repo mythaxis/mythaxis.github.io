@@ -13,7 +13,7 @@ copyright: '© Emma Burnett 2025 All Rights Reserved'
 description: "This is Emma Burnett's third contribution to our pages, each more weighty than the one before. Here she tackles timely and challenging subject matter: how the suffering our forbearers endured goes on to affect those who follow them, forging links in a chain that seems inevitably to bind us to more pain in the future. Here's to breaking that chain."
 
 image: images/Peppercorns10x6.jpg
-imageCopyright: "The title picture was created using Creative Commons images by [StockSnap](https://pixabay.com/photos/woman-sad-depression-skin-headache-2609115/), [JayMantri](https://pixabay.com/photos/table-wood-cup-mug-metal-pattern-438422/), and [saylowe](https://pixabay.com/illustrations/ear-anatomy-ear-3d-anatomy-anatomy-2146396/) - many thanks!"
+imageCopyright: "The title picture was created using Creative Commons images by [Berna T.](https://www.pexels.com/photo/powder-from-lotion-on-hands-26792271/), [Lukas](https://www.pexels.com/photo/silver-knife-near-beans-616358/), and [Kaboompics.com](https://www.pexels.com/photo/a-close-up-shot-of-a-spoon-of-spices-4871091/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i43/1.25.Peppercorns.mp3"
 

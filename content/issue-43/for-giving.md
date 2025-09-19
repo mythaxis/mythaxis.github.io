@@ -13,7 +13,7 @@ copyright: '© Olufunmilayo Makinde 2025 All Rights Reserved'
 description: "Olufunmilayo Makinde provides us with a classic: the good old-fashioned ghost story. Adjacent to a recurring theme in this issue, here we again see someone dealing with trauma from the past, this time which has its roots in that person's own actions. Would they, could they, do things differently?"
 
 image: images/ForGiving10x6.jpg
-imageCopyright: "The title picture was created using an image by [Steve_Allen](https://depositphotos.com/photo/human-fetus-approx-weeks-485258062.html) at DepositPhotos.com - many thanks!"
+imageCopyright: "The title picture was created using Creative Commons images by [Abdulkadir Pai](https://www.pexels.com/photo/elegant-graduation-portrait-of-nigerian-student-31437215/), [SamTheShutterSmith](https://www.pexels.com/photo/african-student-in-school-uniform-smiling-outdoors-31118300/), [Hoàng Tiến Anh](https://www.pexels.com/photo/empty-school-hallway-with-chair-and-windows-32911185/), and [Josh Sorenson](https://www.pexels.com/photo/abandoned-building-154135/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i43/4.For.Giving.mp3"
 

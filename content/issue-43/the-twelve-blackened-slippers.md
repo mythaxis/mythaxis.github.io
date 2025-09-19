@@ -13,7 +13,7 @@ copyright: '© Siobhan Ekeh 2025 All Rights Reserved'
 description: "As an appropriate bookend to this issue's fiction offering we return to the theme we opened with, of how trauma can travel across generations. Siobhan Ekeh's story looks in a different direction and recounts what it sees in a different style, a strangely magical encounter with the past that affects those who remember it and those who don't in distinct but equally powerful ways."
 
 image: images/TwelveSlippers10x6.jpg
-imageCopyright: "The title picture was created using Creative Commons images by [Kritsada Seekham](https://www.pexels.com/photo/elephant-swimming-in-blue-water-7836299/), [Brett Sayles](https://www.pexels.com/photo/collection-of-colorful-photo-collage-on-wall-at-home-3816395/) and [Inga Seliverstova](https://www.pexels.com/photo/collage-with-different-pictures-4066761/) - many thanks!"
+imageCopyright: "The title picture was created using one Creative Commons image by [Sahan Narampanawa](https://www.pexels.com/photo/black-land-rover-driving-off-road-9023626/) and [three by](https://www.pexels.com/photo/woman-in-white-sleepers-standing-on-brown-rug-6976901/) [Katrin](https://www.pexels.com/photo/close-up-woman-wearing-comfortable-fluffy-slides-6976560/) [Bolovtsova](https://www.pexels.com/photo/slippers-of-a-woman-in-blue-dress-6976549/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i43/6.The.Twelve.Blackened.Slippers.mp3"
 

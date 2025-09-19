@@ -13,7 +13,7 @@ copyright: '© Anna Koltes 2025 All Rights Reserved'
 description: "There's intergenerational trauma, and there's interpersonal trauma as well. Anna Koltes's story manifests the agony of relationships right there in the flesh, the kind of metaphor you feel like a missing limb. Doesn't you find it seems like you just give and give and give, while others only take?"
 
 image: images/BodyParts10x6.jpg
-imageCopyright: "The title picture was created using Creative Commons images by [StockSnap](https://pixabay.com/photos/woman-sad-depression-skin-headache-2609115/), [JayMantri](https://pixabay.com/photos/table-wood-cup-mug-metal-pattern-438422/), and [saylowe](https://pixabay.com/illustrations/ear-anatomy-ear-3d-anatomy-anatomy-2146396/) - many thanks!"
+imageCopyright: "The title picture was created using Creative Commons images by [Vitaly Gorbachev](https://www.pexels.com/photo/silhouette-of-woman-dancing-on-street-12657054/) and [cottonbro studio](https://www.pexels.com/photo/silhouette-of-a-woman-standing-near-the-window-8862280/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i43/3.Body.Parts.mp3"
 

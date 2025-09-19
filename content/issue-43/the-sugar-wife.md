@@ -13,7 +13,7 @@ copyright: '© Christina Ladd 2025 All Rights Reserved'
 description: "There's nothing better than a good fairy tale – unless it's a wince-inducing horror story wearing the skin of one! Christina Ladd serves up a sweet-toothed delight for those with a taste for the macabre. Hard to say whether or not it will leave you hungry for more…"
 
 image: images/SugarWife10x6.jpg
-imageCopyright: "The title picture was created using Creative Commons images by [Pixabay](https://www.pexels.com/photo/person-wearing-red-dress-45178/), [amayaeguizabal](https://pixabay.com/photos/hedgehog-cute-animal-little-nature-1215140/) and [unknown](https://pixabay.com/photos/scheepmakers-crowned-pigeon-bird-3373811/) - many thanks!"
+imageCopyright: "The title picture was created using Creative Commons images by [Shiny Diamond](https://www.pexels.com/photo/woman-with-red-lipstick-smiling-3762453/) and [Fernando Lacerda Branco](https://www.pexels.com/photo/man-hands-showing-horse-teeth-12887955/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i43/5.The.Sugar.Wife.mp3"
 

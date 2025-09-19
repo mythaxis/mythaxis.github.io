@@ -13,7 +13,7 @@ copyright: '© A.M. Sutter 2025 All Rights Reserved.'
 description: "Horror can find great potency against the context of the ordinary, but the everyday world can also be extraordinary, like the hypnotically flowing aerial dances which flocking birds take part in. A.M. Sutter looks to this phenomena and sees something in the patterns… but not something good."
 
 image: images/Murmurations10x6.jpg
-imageCopyright: "The title picture was created using Creative Commons images by [eroyka](https://pixabay.com/photos/buddhist-monk-talk-mobile-religion-2052802/), [laurajuarez](https://pixabay.com/photos/yoga-meditation-fitness-mindfulness-4595164/), [pieonane](https://pixabay.com/photos/foreshore-mud-soil-nature-sand-3722957/), [gamagapix](https://pixabay.com/photos/mouflon-wild-sheep-horns-imposing-4750035/), [HPUweKlein](https://pixabay.com/photos/nature-animal-goat-wildlife-horned-3328876/), [innamykytas](https://pixabay.com/photos/sensual-person-posing-body-girl-5148187/), and [unknown](https://pixabay.com/photos/man-model-fitness-body-builder-2378994/), and also by [Krakenimages.com](https://depositphotos.com/photo/beautiful-young-african-american-woman-isolated-background-covering-ears-fingers-234055624.html) at DepositPhotos.com - many thanks!"
+imageCopyright: "The title picture was created using a Creative Commons image by [Darius Krause](https://www.pexels.com/photo/silhouette-of-trees-during-golden-hour-2305946/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i43/2.Murmurations.mp3"
 
