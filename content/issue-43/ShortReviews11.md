@@ -43,9 +43,9 @@ And it was no slip to say "not most", by the way. The twist in the tale gives th
 
 ![Orbit-sml ><](images/Orbit.svg)
 
-{{<glyph>}}L{{</glyph>}}ast but by no means least, a story we would reluctantly have had to turn down at *Mythaxis*, since we go entirely advertising-free. But our painful loss is [Metastellar]()'s gain!
+{{<glyph>}}L{{</glyph>}}ast but by no means least, we turn to [Metastellar](https://www.metastellar.com/), whose writers and readers are encouraged to "wander to the limits of what could be". Rick Danforth responded to this boundless invitation by sticking to the worryingly probable, with a story we would have had to turn down at *Mythaxis* since we go entirely advertising-free.
 
-**[Adverts](https://www.metastellar.com/fiction/flash-fiction/adverts/)** by Rick Danforth takes place between stations on a subway somewhere in a future that is surely just a matter of time. As anyone who uses it knows, public transport has long been a key ecological niche for ads to flourish in – there's no audience as appealing to a marketeer as one with no choice but to sit there and take it. The real trick is achieving engagement, and if this story proves prophetic then some ground-breaking campaign might even make that the next step… literally.
+**[Adverts](https://www.metastellar.com/fiction/flash-fiction/adverts/)** takes place between stations on a subway somewhere in a future that is surely just a matter of time. As anyone who uses it knows, public transport has long been a key ecological niche for ads to flourish in – there's no audience as appealing to a marketeer as one with no choice but to sit there and take it. The real trick is achieving engagement; if this story proves prophetic, then some ground-breaking campaign might even make that the next step… literally.
 
 ![Orbit-lrg](images/Orbit.svg)
 
