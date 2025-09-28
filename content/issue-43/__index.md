@@ -1,6 +1,6 @@
 ---
 title: "Mythaxis Magazine Issue 43"
-date: 2025-09-29
+date: 2025-09-28
 slug: index
 layout: section
 
