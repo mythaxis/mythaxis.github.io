@@ -29,9 +29,11 @@ The problem is, once you start down the write-an-editorial path, it's hard to ge
 
 Now there's a thought.
 
-Because it has occurred to me, as I've worked on this year's issues, that ***Mythaxis*** and myself approach a little milestone. Although Gil Williamson comfortably remains our longest-serving editor, founding the magazine in 2008 and helming it for exactly a decade, it was always published on a when-the-urge-took-him schedule. When he handed the reins to me (an act that genuinely changed my life! *So much submissions reading! So many editorials!*), I decided to aim for regularity instead. As a result, as of today, I have overseen more issues than Gil did. By one. Come the end of 2025, by two.
+Because it has occurred to me, as I've worked on this year's issues, that ***Mythaxis*** and myself approach a little milestone. Although Gil Williamson comfortably remains our longest-serving editor, founding the magazine in 2008 and helming it for exactly a decade, it was always published on a when-the-urge-took-him schedule. When he handed the reins to me (an act that genuinely changed my life!), I decided to aim for regularity instead. As a result, as of today, I have overseen more issues than Gil did. By one. Come the end of 2025, by two.
 
-These two eras of ***Mythaxis*** history have basically presented different faces to the world (as you can see for yourself if you check out our [**Back Issues** and **The Original Archive**](https://mythaxis.co.uk/archive.html)). Therefore, why not launch our first issue of 2026 with another new look? Why not commission a new logo? Why not a whole host of them?
+These two eras of ***Mythaxis*** history have basically presented different faces to the world (as you can see for yourself if you check out our [**Back Issues** and **The Original Archive**](https://mythaxis.co.uk/archive.html)). However, we did carry over the style of the original title. Therefore, starting in 2026, why not launch a third era with completely new look? As well as a general redesign of the site, why not commission a brand new logo?
+
+*Why not a whole host of them?*
 
 I think I shall!
 
