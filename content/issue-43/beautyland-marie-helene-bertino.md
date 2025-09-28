@@ -1,7 +1,7 @@
 ---
 title: "Beautyland, by Marie-Helene Bertino"
 
-date: 2025-09-29
+date: 2025-09-28
 issue: Issue 43
 
 genre:
