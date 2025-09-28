@@ -10,7 +10,7 @@ authors:
 - Anna Koltes
 copyright: '© Anna Koltes 2025 All Rights Reserved'
 
-description: "There's intergenerational trauma, and there's interpersonal trauma as well. Anna Koltes's story manifests the agony of relationships right there in the flesh, the kind of metaphor you feel like a missing limb. Doesn't you find it seems like you just give and give and give, while others only take?"
+description: "There's intergenerational trauma, and there's interpersonal trauma as well. Anna Koltes's story manifests the agony of relationships right there in the flesh, the kind of metaphor you feel like a missing limb. Don't you find it seems like you just give and give and give, while others only take?"
 
 image: images/BodyParts10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Vitaly Gorbachev](https://www.pexels.com/photo/silhouette-of-woman-dancing-on-street-12657054/) and [cottonbro studio](https://www.pexels.com/photo/silhouette-of-a-woman-standing-near-the-window-8862280/) - many thanks!"
