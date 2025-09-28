@@ -1,7 +1,7 @@
 ---
 title: "The Sugar Wife"
 
-date: 2025-09-29
+date: 2025-09-28
 issue: Issue 43
 
 genres:
