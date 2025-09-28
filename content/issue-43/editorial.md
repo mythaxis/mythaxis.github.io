@@ -18,6 +18,7 @@ slug: editorial
 While casting about for a subject for this issue's editorial, a friend proposed the topic *"Why I think writing an editorial for my incredible magazine whose quality fiction speaks for itself is more important than writing my own incredible fiction"*. They went on to observe that, *seriously, editorials are boring and pointless*, asserting that *nobody reads them* (dissenters to this claim being a statistical anomoly, likely akin to the one suggesting that there is intelligent life in the universe), before wrapping up their position with a concrete suggestion for the editorial's full content:
 
 > What are you doing reading this bit? Go on, shoo! Go read the stories! Go on, get out of here! Shoo!
+> 
 > Signed, the Editor
 
 The problem is, once you start down the write-an-editorial path, it's hard to get off it again. I mean, the tab's right there in our masthead banner options thingie, it'd be silly to waste it. Plus I need a place to thank our cover artists for their generosity, can't skip that (on which subject see below why not). There's not a lot we can do without completely overhauling the magazine's whole design really, is ther—
