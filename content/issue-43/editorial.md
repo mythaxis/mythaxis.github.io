@@ -21,13 +21,17 @@ While casting about for a subject for this issue's editorial, a friend proposed 
 > 
 > Signed, the Editor
 
-The problem is, once you start down the write-an-editorial path, it's hard to get off it again. I mean, the tab's right there in our masthead banner options thingie, it'd be silly to waste it. Plus I need a place to thank our cover artists for their generosity, can't skip that (on which subject see below why not). There's not a lot we can do without completely overhauling the magazine's whole design really, is ther—
+The problem is, once you start down the write-an-editorial path, it's hard to get off it again. I mean, the tab's right there in our masthead banner options thingie, it'd be silly to waste it. Plus I need a place to thank our cover artists for their generosity, can't skip that (on which subject see below why not). So, onerous though it is to think of something new to scream into the unheeding wind every three months, there's not a lot we can do without completely overhauling the magazine's whole design really—
 
-…oh. *Hmm.* Now there's a thought.
+…oh.
 
-Because it has occurred to me, as I've worked on this year's issues, that ***Mythaxis*** and myself approach a little milestone. Although Gil Williamson comfortably remains our longest-serving editor, founding the magazine in 2008 and helming it for exactly a decade, it was always published on a when-the-urge-took-him schedule. When he handed me the reins (an act that has genuinely changed my life!) I decided to aim for regularity instead. As a result, as of today, I have overseen more issues than Gil did. By one. Come the end of 2025, by two.
+*Hmm.*
 
-These two eras of ***Mythaxis*** history have basically presented different faces to the world (as you can see for yourself if you check out the **Back Issues** and **The Original Archive** on our [Archive page](https://mythaxis.co.uk/archive.html)). Therefore, why not launch our first issue of 2026 with another new look? Why not commission a new logo? Why not a whole host of them? 
+Now there's a thought.
+
+Because it has occurred to me, as I've worked on this year's issues, that ***Mythaxis*** and myself approach a little milestone. Although Gil Williamson comfortably remains our longest-serving editor, founding the magazine in 2008 and helming it for exactly a decade, it was always published on a when-the-urge-took-him schedule. When he handed the reins to me (an act that genuinely changed my life! *So much submissions reading! So many editorials!*), I decided to aim for regularity instead. As a result, as of today, I have overseen more issues than Gil did. By one. Come the end of 2025, by two.
+
+These two eras of ***Mythaxis*** history have basically presented different faces to the world (as you can see for yourself if you check out our [**Back Issues** and **The Original Archive**](https://mythaxis.co.uk/archive.html)). Therefore, why not launch our first issue of 2026 with another new look? Why not commission a new logo? Why not a whole host of them?
 
 I think I shall!
 
