@@ -15,7 +15,7 @@ type: page
 slug: editorial
 ---
 
-While casting about for a subject for this issue's editorial, a friend proposed the topic *"Why I think writing an editorial for my incredible magazine whose quality fiction speaks for itself is more important than writing my own incredible fiction"*. They went on to observe that, *seriously, editorials are boring and pointless*, asserting that *nobody reads them* (dissenters to this claim being a statistical anomoly, likely akin to the one suggesting that there is intelligent life in the universe), before wrapping up their position with a concrete suggestion for the editorial's full content:
+While casting about for a subject for this issue's editorial, a friend proposed the topic *Why I think writing an editorial for my incredible magazine whose quality fiction speaks for itself is more important than writing my own incredible fiction*. They went on to observe that, *seriously, editorials are boring and pointless*, asserting that *nobody reads them* (dissenters to this claim being a statistical anomoly, likely akin to the one suggesting that there is intelligent life in the universe), before wrapping up their position with a concrete suggestion for the editorial's full content:
 
 > What are you doing reading this bit? Go on, shoo! Go read the stories! Go on, get out of here! Shoo!
 > 
@@ -23,17 +23,11 @@ While casting about for a subject for this issue's editorial, a friend proposed 
 
 The problem is, once you start down the write-an-editorial path, it's hard to get off it again. I mean, the tab's right there in our masthead banner options thingie, it'd be silly to waste it. Plus I need a place to thank our cover artists for their generosity, can't skip that (on which subject see below why not). So, onerous though it is to think of something new to scream into the unheeding wind every three months, there's not a lot we can do without completely overhauling the magazine's whole design really—
 
-…oh.
-
-*Hmm.*
-
-Now there's a thought.
+…oh. *Hmm.* Now there's a thought.
 
 Because it has occurred to me, as I've worked on this year's issues, that ***Mythaxis*** and myself approach a little milestone. Although Gil Williamson comfortably remains our longest-serving editor, founding the magazine in 2008 and helming it for exactly a decade, it was always published on a when-the-urge-took-him schedule. When he handed the reins to me (an act that genuinely changed my life!), I decided to aim for regularity instead. As a result, as of today, I have overseen more issues than Gil did. By one. Come the end of 2025, by two.
 
-These two eras of ***Mythaxis*** history have basically presented different faces to the world (as you can see for yourself if you check out our [**Back Issues** and **The Original Archive**](https://mythaxis.co.uk/archive.html)). However, we did carry over the style of the original title. Therefore, starting in 2026, why not launch a third era with completely new look? As well as a general redesign of the site, why not commission a brand new logo?
-
-*Why not a whole host of them?*
+These two eras of ***Mythaxis*** history have basically presented different faces to the world (as you can see for yourself if you check out our [Back Issues and The Original Archive](https://mythaxis.co.uk/archive.html)). However, we did carry over the style of the original title. Therefore, starting in 2026, why not launch a third era with completely new look? As well as a general redesign of the site, why not commission a brand new logo? *Why not a whole host of them?*
 
 I think I shall!
 
