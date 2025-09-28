@@ -1,5 +1,5 @@
 ---
-date: 2025-09-29
+date: 2025-09-28
 type: author
 name: Christina Ladd
 photo: 'images/ChristinaLadd.jpg'
