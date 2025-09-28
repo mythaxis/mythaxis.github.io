@@ -1,7 +1,7 @@
 ---
 title: "Short Reviews – July to September, 2025"
 
-date: 2025-09-29
+date: 2025-09-28
 issue: Issue 43
 
 genres:
