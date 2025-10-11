@@ -9,18 +9,22 @@ slug: submissions
 
 ***Mythaxis* is currently closed to submissions.**
 
-**SUBMISSIONS NOTICE:** *Mythaxis* will be closed to new submissions until 2026. Any authors who have been invited to resubmit may still do so at their convenience.
+**SUBMISSIONS NOTICE:** *Mythaxis* is closed to new submissions until 2026.
 
-Our guidelines page is maintained for future reference. When open, we seek and offer the following:
+Our guidelines page is maintained for future reference. When open, we seek the following:
 
-- **Length:** 1,000-5,000 words. These are *firm* limits. Shorter or longer works will be considered, but the further a story goes outside these bounds the more it will need to impress.
-- **Compensation:** €0.01 per word, with a €20 minimum. Please be aware that payment is via PayPal only. 
+- **Flash fiction:** 500–2,000 words (we do not receive as many flash submissions as we would like to! Please send more!)
+- **Short fiction:** 2,000–5,000 words (the sweet spot is 2k–4k)
 
-If you do not receive an acknowledgment within 24 hours of submission, please get in touch. We aim to accept or reject within 14 days of acknowledgment, but rl (real life) and rl (reading load) can get in the way. If you do not hear from us after 30 days, feel free to query.
+Word counts are *firm* limits. Shorter or longer works are considered, but the further a story goes outside these bounds the more it will need to impress. 
+
+**Compensation:** €0.01 per word, with a €20 minimum. Please be aware before submitting that payment is via PayPal only.
+
+If you do not receive an acknowledgment within 24 hours of submission, please get in touch. We aim to accept or reject within 30 days of acknowledgment, but rl (real life) and rl (reading load) can get in the way. If you do not hear from us after 60 days, feel free to query.
 
 ### REQUIREMENTS
 
-***Mythaxis*** seeks speculative fiction (sf/f/h) of all stripes for our first three issues each year. We are also interested in submissions of crime fiction for our end-of-year "all crime" issue. All these genres are equally welcome in each submission window.
+***Mythaxis*** seeks speculative fiction (sf/f/h/weird/slipstream/…), crime (also including police procedural/detective/mystery/cosy/…) and mashups of any and all. All genres are equally welcome in each submission window. We don't receive enough crime fiction, so if that's your bag we're always eager!
 
 We acquire **First Print, Digital, and Audio rights with a six month period of exclusivity** from the date of publication. We also ask permission to potentially include accepted pieces in future anthologies; in event of agreement, an additional compensation will be offered. All other rights remain entirely with the author. See **[here](./editorial-policy.html)** for an overview of our editorial process.
 
