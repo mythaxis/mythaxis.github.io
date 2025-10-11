@@ -24,7 +24,7 @@ If you do not receive an acknowledgment within 24 hours of submission, please ge
 
 ### REQUIREMENTS
 
-***Mythaxis*** seeks speculative fiction (sf/f/h/weird/slipstream/…), crime (also including police procedural/detective/mystery/cosy/…) and mashups of any and all. All genres are equally welcome in each submission window. We don't receive enough crime fiction, so if that's your bag we're always eager!
+***Mythaxis*** seeks speculative fiction (sf/f/h/weird/slipstream/…), crime (also including police procedural/detective/mystery/cosy/…) and mashups of the same. All genres are equally welcome in each submission window. We don't receive enough crime fiction, so if that's your bag we're always eager!
 
 We acquire **First Print, Digital, and Audio rights with a six month period of exclusivity** from the date of publication. We also ask permission to potentially include accepted pieces in future anthologies; in event of agreement, an additional compensation will be offered. All other rights remain entirely with the author. See **[here](./editorial-policy.html)** for an overview of our editorial process.
 
