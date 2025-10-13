@@ -16,7 +16,7 @@ Our guidelines page is maintained for future reference. When open, we seek the f
 - **Flash fiction:** 500–2,000 words (we do not receive enough flash submissions! Please send more!)
 - **Short fiction:** 2,000–5,000 words (the sweet spot is 2k–4k)
 
-Word counts are *firm* limits. Shorter or longer works are considered, but the further a story goes outside these bounds the more it will need to impress. 
+Our overall upper and lower word counts are *firm* limits. Shorter or longer works are considered, but the further a story goes outside these bounds the more it will need to impress. 
 
 **Compensation:** $0.01 per word, with a $20 minimum. Please be aware before submitting that payment is via PayPal only.
 
