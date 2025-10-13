@@ -18,7 +18,7 @@ Our guidelines page is maintained for future reference. When open, we seek the f
 
 Word counts are *firm* limits. Shorter or longer works are considered, but the further a story goes outside these bounds the more it will need to impress. 
 
-**Compensation:** €0.01 per word, with a €20 minimum. Please be aware before submitting that payment is via PayPal only.
+**Compensation:** $0.01 per word, with a $20 minimum. Please be aware before submitting that payment is via PayPal only.
 
 If you do not receive an acknowledgment within 24 hours of submission, please get in touch. We aim to accept or reject within 30 days of acknowledgment, but rl (real life) and rl (reading load) can get in the way. If you do not hear from us after 60 days, feel free to query.
 
