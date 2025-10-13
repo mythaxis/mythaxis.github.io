@@ -13,7 +13,7 @@ slug: submissions
 
 Our guidelines page is maintained for future reference. When open, we seek the following:
 
-- **Flash fiction:** 500–2,000 words (we do not receive as many flash submissions as we would like to! Please send more!)
+- **Flash fiction:** 500–2,000 words (we do not receive enough flash submissions! Please send more!)
 - **Short fiction:** 2,000–5,000 words (the sweet spot is 2k–4k)
 
 Word counts are *firm* limits. Shorter or longer works are considered, but the further a story goes outside these bounds the more it will need to impress. 
