@@ -47,7 +47,15 @@
       <nav class="toc-list" aria-label="Table of Contents">
         <ul>
           {{ range $stories }}
-            <li class="toc-item" data-story-id="{{ .File.UniqueID }}">
+            <li class="toc-item"
+                data-story-id="{{ .File.UniqueID }}"
+                data-story-url="{{ .RelPermalink }}"
+                data-story-title="{{ .Title }}"
+                data-story-authors="{{ delimit .Params.authors ", " }}"
+                data-story-issue="{{ .Parent.Title }}"
+                data-story-genre="{{ .Params.genre }}"
+                data-story-abstract="{{ .Params.abstract }}"
+                data-has-card="true">
               <a href="{{ .RelPermalink }}" class="story-link">
                 <span class="story-title">{{ .Title }}</span>
                 <span class="story-author">by {{ delimit .Params.authors ", " }}</span>
@@ -62,6 +70,13 @@
     <footer class="frontpage-footer">
       {{ partial "copyright" . }}
     </footer>
+
+    {{/* Story card overlay container */}}
+    <div class="story-card-overlay" hidden>
+      <div class="story-card-wrapper">
+        {{/* Cards will be injected here by JavaScript */}}
+      </div>
+    </div>
   </div>
 {{ end }}
 
