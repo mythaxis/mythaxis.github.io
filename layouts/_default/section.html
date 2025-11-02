@@ -1,53 +1,21 @@
 <!DOCTYPE HTML>
 <html lang='{{ .Site.Language.Lang | default "en-us" }}'>
   {{ partial "htmlhead" . }}
-  
+
   <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
-    {{/* Infer current section and lookup __index.md params for theming */}}
-    {{ $currSection := .Section | default (urlize .Site.Params.currentIssue) }}
-    {{ $currSection := .Site.GetPage "section" (print $currSection "/__index.md") }}
-    
-    {{/*  Get all stock pages for the current issue */}}
-    {{ $posts := where (where .Site.Pages "Section" $currSection.Section) ".Type" "stock" }}
+    {{/*
+      section.html (Issue Landing Page)
 
-    {{/* Get first featured story and remove it from paging list */}}
-    {{ $firstPost := first 1 (where $posts ".Params.featured" true) }}
-    {{ $posts := $posts | complement $firstPost }}
+      Routes to appropriate issue landing partial based on issue's layout param.
+    */}}
+    {{ $layout := partial "functions/resolveLayout.html" . }}
 
-    {{/* Get last featured story and remove from paging list */}}
-    {{ $lastPost := last 1 (where $posts ".Params.featured" true) }}
-    {{ $posts := $posts | complement $lastPost }}
-    
-    <!-- Wrapper -->
-    <div id="wrapper" class="fade-in">
-      {{ partial "intro.html" . }}
-      {{ partial "header" . }}
-      {{ partial "nav" . }}
-
-      <!-- Main -->
-      <div id="main">
-        {{ range $firstPost }}
-          {{ .Render "featured" }}
-        {{ end }}
-
-        <section class="posts">
-          {{ range $posts }}
-            {{ .Render "list" }}
-          {{ end }}
-        </section>
-        
-        {{ if $lastPost }}
-          {{ range $lastPost }}
-            {{ .Render "featured" }}
-          {{ end }}
-        {{ end }}
-      </div>
-
-      {{ partial "copyright" . }}
-      <a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
-    </div>
-
-    {{ template "_internal/google_analytics.html" . }}
-    {{ partial "scripts/index" . }}
+    {{ if eq $layout "nebula2026" }}
+      {{/* New design issue landing */}}
+      {{ partial "nebula2026/issue-landing.html" . }}
+    {{ else }}
+      {{/* Legacy design issue landing (default) */}}
+      {{ partial "horizon2020/issue-landing.html" . }}
+    {{ end }}
   </body>
 </html>
