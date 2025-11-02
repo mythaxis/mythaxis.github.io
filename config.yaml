@@ -40,6 +40,13 @@ params:
   # which are not in a specific section (homepage, about, etc.)
   currentIssue: Issue 43
 
+  # Nebula 2026 defaults
+  defaultRoundel: "orbit"
+  defaultChapterMarker: "orbit"
+  colorScheme:
+    primary: "#3a5f7d"
+    secondary: "#8b6f4e"
+
 
 menu:
   main:
