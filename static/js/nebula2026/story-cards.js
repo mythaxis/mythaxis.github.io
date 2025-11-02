@@ -58,6 +58,9 @@
         showCard(index);
       });
     });
+
+    // Attach swipe listeners to overlay
+    attachSwipeListeners();
   }
 
   /**
@@ -228,6 +231,40 @@
       showCard(0);
     } else {
       showCard(newIndex);
+    }
+  }
+
+  /**
+   * Attach swipe gesture listeners for mobile
+   */
+  function attachSwipeListeners() {
+    let touchStartX = 0;
+    let touchEndX = 0;
+    const swipeThreshold = 50; // Minimum distance for swipe (pixels)
+
+    overlay.addEventListener('touchstart', (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+
+    overlay.addEventListener('touchend', (e) => {
+      touchEndX = e.changedTouches[0].screenX;
+      handleSwipe();
+    }, { passive: true });
+
+    function handleSwipe() {
+      const diff = touchStartX - touchEndX;
+
+      if (Math.abs(diff) < swipeThreshold) {
+        return; // Not a swipe, just a tap
+      }
+
+      if (diff > 0) {
+        // Swiped left - next card
+        navigateCard('next');
+      } else {
+        // Swiped right - previous card
+        navigateCard('prev');
+      }
     }
   }
 
