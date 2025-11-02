@@ -15,6 +15,16 @@
         </div>
       {{ end }}
 
+      {{/* Audio player if audio file provided */}}
+      {{ if .Params.audio }}
+        <div class="story-audio">
+          <audio controls>
+            <source src="{{ .Params.audio }}" type="audio/mpeg">
+            Your browser does not support the audio tag.
+          </audio>
+        </div>
+      {{ end }}
+
       <div class="story-meta">
         <p class="story-issue">{{ .Parent.Title }}</p>
         <h1 class="story-title">{{ .Title }}</h1>
