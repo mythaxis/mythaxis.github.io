@@ -20,6 +20,7 @@
   let overlay = null;
   let cardFixed = false; // Track if card is "fixed" open
   let hideTimer = null; // Timer for delayed hide on desktop
+  let overlayListenersAttached = false; // Track if overlay listeners are attached
 
   /**
    * Initialize card system
@@ -33,6 +34,9 @@
     stories = Array.from(storyItems);
 
     if (stories.length === 0) return;
+
+    // Remove any existing overlay listeners to prevent duplicates
+    removeOverlayListeners();
 
     // Attach event listeners based on platform
     if (isMobile()) {
@@ -61,6 +65,24 @@
 
     // Attach swipe listeners to overlay
     attachSwipeListeners();
+  }
+
+  // Store references to overlay listeners so we can remove them
+  let overlayMouseEnter = null;
+  let overlayMouseLeave = null;
+
+  /**
+   * Remove overlay event listeners
+   */
+  function removeOverlayListeners() {
+    if (overlayMouseEnter) {
+      overlay.removeEventListener('mouseenter', overlayMouseEnter);
+      overlayMouseEnter = null;
+    }
+    if (overlayMouseLeave) {
+      overlay.removeEventListener('mouseleave', overlayMouseLeave);
+      overlayMouseLeave = null;
+    }
   }
 
   /**
@@ -98,18 +120,22 @@
     });
 
     // Add hover listeners to overlay (cancel hide when hovering card)
-    overlay.addEventListener('mouseenter', cancelHide);
-    overlay.addEventListener('mouseleave', () => {
+    overlayMouseEnter = cancelHide;
+    overlayMouseLeave = () => {
       if (!cardFixed) {
         scheduleHide();
       }
-    });
+    };
+
+    overlay.addEventListener('mouseenter', overlayMouseEnter);
+    overlay.addEventListener('mouseleave', overlayMouseLeave);
   }
 
   /**
    * Schedule card hide with delay (for desktop hover)
    */
   function scheduleHide() {
+    console.log('scheduleHide called, isMobile:', isMobile());
     clearTimeout(hideTimer);
     hideTimer = setTimeout(() => {
       if (!cardFixed) {
@@ -149,6 +175,7 @@
    * Hide card
    */
   function hideCard() {
+    console.log('hideCard called, isMobile:', isMobile(), 'cardFixed:', cardFixed);
     overlay.setAttribute('hidden', '');
     cardFixed = false;
   }
