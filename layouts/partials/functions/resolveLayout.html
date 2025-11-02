@@ -11,9 +11,13 @@
 {{/* Check current page for layout param */}}
 {{ with .Params.layout }}
   {{ $layout = . }}
-{{ else with .Parent.Params.layout }}
-  {{/* Fallback to parent (issue) layout param */}}
-  {{ $layout = . }}
+{{ else }}
+  {{ if .Parent }}
+    {{ with .Parent.Params.layout }}
+      {{/* Fallback to parent (issue) layout param */}}
+      {{ $layout = . }}
+    {{ end }}
+  {{ end }}
 {{ end }}
 
 {{ return $layout }}

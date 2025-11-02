@@ -26,9 +26,13 @@
       {{ end }}
 
       <div class="story-meta">
-        <p class="story-issue">{{ .Parent.Title }}</p>
+        {{ if .Parent }}
+          <p class="story-issue">{{ .Parent.Title }}</p>
+        {{ end }}
         <h1 class="story-title">{{ .Title }}</h1>
-        <p class="story-author">by {{ delimit .Params.authors ", " }}</p>
+        {{ with .Params.authors }}
+          <p class="story-author">by {{ delimit . ", " }}</p>
+        {{ end }}
         {{ with .Params.genre }}
           <p class="story-genre">{{ . }}</p>
         {{ end }}
@@ -60,7 +64,9 @@
 
       {{/* Navigation */}}
       <nav class="story-nav">
-        <a href="{{ .Parent.RelPermalink }}" class="back-to-issue">← Back to {{ .Parent.Title }}</a>
+        {{ if .Parent }}
+          <a href="{{ .Parent.RelPermalink }}" class="back-to-issue">← Back to {{ .Parent.Title }}</a>
+        {{ end }}
         <a href="/" class="back-home">Home</a>
       </nav>
     </footer>

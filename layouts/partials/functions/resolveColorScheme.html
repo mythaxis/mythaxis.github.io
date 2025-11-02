@@ -14,10 +14,14 @@
 {{ with .Params.colorScheme }}
   {{ $primary = .primary | default $primary }}
   {{ $secondary = .secondary | default $secondary }}
-{{ else with .Parent.Params.colorScheme }}
-  {{/* Fallback to parent (issue) colorScheme */}}
-  {{ $primary = .primary | default $primary }}
-  {{ $secondary = .secondary | default $secondary }}
+{{ else }}
+  {{ if .Parent }}
+    {{ with .Parent.Params.colorScheme }}
+      {{/* Fallback to parent (issue) colorScheme */}}
+      {{ $primary = .primary | default $primary }}
+      {{ $secondary = .secondary | default $secondary }}
+    {{ end }}
+  {{ end }}
 {{ end }}
 
 {{ return (dict "primary" $primary "secondary" $secondary) }}
