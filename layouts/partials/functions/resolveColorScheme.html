@@ -1,0 +1,23 @@
+{{/*
+  resolveColorScheme.html
+
+  Returns color scheme (primary, secondary) for the current page.
+  Checks page/parent frontmatter first, then falls back to site defaults.
+
+  Usage: {{ $colors := partial "functions/resolveColorScheme.html" . }}
+         Access: $colors.primary, $colors.secondary
+*/}}
+{{ $primary := .Site.Params.colorScheme.primary | default "#3a5f7d" }}
+{{ $secondary := .Site.Params.colorScheme.secondary | default "#8b6f4e" }}
+
+{{/* Check current page for colorScheme */}}
+{{ with .Params.colorScheme }}
+  {{ $primary = .primary | default $primary }}
+  {{ $secondary = .secondary | default $secondary }}
+{{ else with .Parent.Params.colorScheme }}
+  {{/* Fallback to parent (issue) colorScheme */}}
+  {{ $primary = .primary | default $primary }}
+  {{ $secondary = .secondary | default $secondary }}
+{{ end }}
+
+{{ return (dict "primary" $primary "secondary" $secondary) }}
