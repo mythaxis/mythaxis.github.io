@@ -1,23 +1,69 @@
 {{/*
   nebula2026/frontpage.html
 
-  Nebula 2026 frontpage layout (2026 redesign).
-  Mobile-first, progressive interface with roundel-based navigation.
-
-  PLACEHOLDER: To be implemented in Phase 2 (Page Templates).
-  Currently returns basic structure to enable routing setup.
+  Frontpage for Nebula 2026 design.
+  Shows current issue cover art + table of contents.
 */}}
-<!DOCTYPE html>
-<html lang="{{ .Site.Language }}">
-{{ partial "htmlhead" . }}
-<body lang="{{ .Site.Language }}" class="nebula2026">
-  <main>
-    <div class="placeholder-notice">
-      <h1>Nebula 2026 Frontpage</h1>
-      <p><strong>Under Construction</strong></p>
-      <p>This layout is being developed in Phase 2 (Page Templates).</p>
-      <p>Current issue: <em>{{ with .Site.Params.currentIssue }}{{ . }}{{ else }}Not configured{{ end }}</em></p>
-    </div>
-  </main>
-</body>
-</html>
+{{ define "nebula-content" }}
+  {{/* Get current issue from site config */}}
+  {{ $currentIssue := .Site.GetPage (printf "/%s" (urlize .Site.Params.currentIssue)) }}
+
+  {{/* Get all stories for current issue */}}
+  {{ $stories := where .Site.Pages "Section" $currentIssue.Section }}
+  {{ $stories := where $stories ".Type" "stock" }}
+
+  <div class="nebula-main">
+    {{/* Hero section with cover art */}}
+    <section class="frontpage-hero">
+      {{ if $currentIssue.Params.coverArt }}
+        <img src="{{ $currentIssue.Params.coverArt | relURL }}"
+             alt="{{ $currentIssue.Title }} Cover Art"
+             class="cover-art">
+      {{ end }}
+
+      {{/* Branding */}}
+      <div class="frontpage-branding">
+        <h1 class="site-title">MYTH(O)AXIS</h1>
+        <p class="site-tagline">{{ .Site.Params.description }}</p>
+      </div>
+
+      {{/* Roundel navigation button */}}
+      <div class="roundel-nav">
+        <button class="roundel-button" aria-label="View table of contents">
+          <span class="roundel-icon">⊗</span>
+        </button>
+      </div>
+    </section>
+
+    {{/* Table of Contents section */}}
+    <section class="frontpage-toc">
+      <header class="toc-header">
+        <h2>{{ $currentIssue.Title }}</h2>
+        {{ with $currentIssue.Params.season }}
+          <p class="issue-season">{{ . }} {{ $currentIssue.Params.year }}</p>
+        {{ end }}
+      </header>
+
+      <nav class="toc-list" aria-label="Table of Contents">
+        <ul>
+          {{ range $stories }}
+            <li class="toc-item" data-story-id="{{ .File.UniqueID }}">
+              <a href="{{ .RelPermalink }}" class="story-link">
+                <span class="story-title">{{ .Title }}</span>
+                <span class="story-author">by {{ delimit .Params.authors ", " }}</span>
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </nav>
+    </section>
+
+    {{/* Footer */}}
+    <footer class="frontpage-footer">
+      {{ partial "copyright" . }}
+    </footer>
+  </div>
+{{ end }}
+
+{{/* Render using base template */}}
+{{ partial "nebula2026/base.html" . }}
