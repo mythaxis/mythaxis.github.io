@@ -1,0 +1,56 @@
+{{/*
+  nebula2026/story-card.html
+
+  Story preview card component.
+  Displays story metadata, art, and abstract in an interactive card.
+  Used for both mobile (full-screen overlay) and desktop (hover popup).
+
+  Expected context: A story page object
+*/}}
+<div class="story-card" data-story-id="{{ .File.UniqueID }}" data-genre="{{ .Params.genre }}">
+  {{/* Close button */}}
+  <button class="card-close" aria-label="Close card">×</button>
+
+  {{/* Story artwork */}}
+  {{ if .Params.image }}
+    <div class="card-art">
+      <img src="{{ path.Join .Section .Params.image | relURL }}"
+           alt="{{ .Title }}">
+    </div>
+  {{ end }}
+
+  {{/* Story metadata */}}
+  <div class="card-content">
+    {{/* Issue context */}}
+    <p class="card-issue">{{ .Parent.Title }}</p>
+
+    {{/* Story title */}}
+    <h3 class="card-title">
+      <a href="{{ .RelPermalink }}" class="card-link">{{ .Title }}</a>
+    </h3>
+
+    {{/* Author */}}
+    <p class="card-author">by {{ delimit .Params.authors ", " }}</p>
+
+    {{/* Genre */}}
+    {{ with .Params.genre }}
+      <p class="card-genre">{{ . }}</p>
+    {{ end }}
+
+    {{/* Abstract/teaser */}}
+    {{ with .Params.abstract }}
+      <p class="card-abstract">{{ . }}</p>
+    {{ end }}
+  </div>
+
+  {{/* Navigation buttons (mobile) */}}
+  <div class="card-nav">
+    <button class="card-nav-prev" aria-label="Previous story">‹</button>
+    <button class="card-nav-next" aria-label="Next story">›</button>
+  </div>
+
+  {{/* Read button */}}
+  <div class="card-actions">
+    <a href="{{ .RelPermalink }}" class="card-read-button">READ</a>
+  </div>
+</div>
