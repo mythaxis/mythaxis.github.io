@@ -3,51 +3,20 @@
   {{ partial "htmlhead" . }}
 
   <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
-    <!-- Wrapper -->
-    <div id="wrapper">
-      {{ partial "header" . }}
-      {{ partial "nav" . }}
+    {{/*
+      stock/single.html (Story Page)
 
-      <!-- Main -->
-      <div id="main">
-        <section class="post">
-            <header class="major">
-              <img src="{{ "/images/toplist.svg" | safeURL }}" />
-              <h1>{{ .Title }}</h1>
-              <p>{{ collections.Delimit .Params.authors ", " }}</p>
-              <img src="{{ "/images/divider.svg" | safeURL }}" />
-            </header>
-            
-            {{ if .Params.image }}
-            <div class="image main">
-              <img src="{{ path.Join .Section .Params.image | relURL }}" alt="Story image for {{ .Title }} by {{ .Params.author }}" title="Story image for {{ .Title }} by {{ .Params.author }}"/>
-            </div>
-            {{ end }}
+      Routes to appropriate story partial based on parent issue's layout param.
+      Stories inherit layout from their parent issue.
+    */}}
+    {{ $layout := partial "functions/resolveLayout.html" . }}
 
-            {{ if .Params.audio }}
-            <audio controls>
-              <source src="{{ .Params.audio }}" type="audio/mpeg">
-              Your browser does not support the audio tag.
-            </audio>
-            {{ end }}
-
-            {{ .Content }}          
-            {{ partial "authorfooter" . }}
-            
-            <p class="align-center">
-                <img src="{{ "/images/divider.svg" | safeURL }}" />
-            </p>
-            <p class="align-center"><strong>Mythaxis</strong> is forever free to read, but if you'd like to support us you can do so <a href="https://ko-fi.com/mythaxismagazine">here</a> (but only if you <em>really</em> want to!)</p>
-
-
-        </section>
-      </div>
-
-      {{ partial "copyright" . }}
-      <a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
-    </div>
-
-    {{ template "_internal/google_analytics.html" . }}
-    {{ partial "scripts/index" . }}
+    {{ if eq $layout "nebula2026" }}
+      {{/* New design story page */}}
+      {{ partial "nebula2026/story-page.html" . }}
+    {{ else }}
+      {{/* Legacy design story page (default) */}}
+      {{ partial "horizon2020/story-page.html" . }}
+    {{ end }}
   </body>
 </html>
