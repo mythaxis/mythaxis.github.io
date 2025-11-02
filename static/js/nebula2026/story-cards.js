@@ -96,6 +96,14 @@
         cardFixed = true;
       });
     });
+
+    // Add hover listeners to overlay (cancel hide when hovering card)
+    overlay.addEventListener('mouseenter', cancelHide);
+    overlay.addEventListener('mouseleave', () => {
+      if (!cardFixed) {
+        scheduleHide();
+      }
+    });
   }
 
   /**
@@ -132,16 +140,6 @@
 
     // Attach event listeners to card controls
     attachCardListeners();
-
-    // Add hover listeners for desktop (cancel hide when hovering card)
-    if (!isMobile()) {
-      overlay.addEventListener('mouseenter', cancelHide);
-      overlay.addEventListener('mouseleave', () => {
-        if (!cardFixed) {
-          scheduleHide();
-        }
-      });
-    }
 
     // Show overlay
     overlay.removeAttribute('hidden');
