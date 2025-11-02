@@ -1,0 +1,17 @@
+{{/*
+  nebula2026/menu.html
+
+  Simple navigation menu for nebula2026 layouts.
+  Will be styled as hamburger menu in Phase 4.
+*/}}
+<nav class="nebula-menu" aria-label="Main navigation">
+  <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+  <ul class="menu-items">
+    {{ range .Site.Menus.main }}
+      <li class="menu-item">
+        <a href="{{ .URL }}" class="menu-link">{{ .Name }}</a>
+      </li>
+    {{ end }}
+  </ul>
+</nav>
