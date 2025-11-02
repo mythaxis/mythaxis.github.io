@@ -1,0 +1,72 @@
+{{/*
+  nebula2026/base.html
+
+  Base HTML structure for nebula2026 layouts.
+  Provides consistent head, body wrapper, and script includes.
+*/}}
+<!DOCTYPE HTML>
+<html lang='{{ .Site.Language.Lang | default "en-us" }}'>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+
+  {{/* Basic meta tags */}}
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <meta name="keywords" content="{{ .Site.Params.keywords }}">
+
+  {{/* Inject issue-specific colors as CSS custom properties */}}
+  {{ $colors := partial "functions/resolveColorScheme.html" . }}
+  <style>
+    :root {
+      --color-primary: {{ $colors.primary }};
+      --color-secondary: {{ $colors.secondary }};
+    }
+
+    /* Minimal structure-only CSS */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .nebula-wrapper {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .nebula-main {
+      flex: 1;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    a {
+      color: var(--color-primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body class="nebula2026">
+  <div class="nebula-wrapper">
+    {{ block "nebula-content" . }}{{ end }}
+  </div>
+
+  {{/* Analytics */}}
+  {{ template "_internal/google_analytics.html" . }}
+</body>
+</html>
