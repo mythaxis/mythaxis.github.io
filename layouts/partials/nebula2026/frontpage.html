@@ -1,0 +1,23 @@
+{{/*
+  nebula2026/frontpage.html
+
+  Nebula 2026 frontpage layout (2026 redesign).
+  Mobile-first, progressive interface with roundel-based navigation.
+
+  PLACEHOLDER: To be implemented in Phase 2 (Page Templates).
+  Currently returns basic structure to enable routing setup.
+*/}}
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+{{ partial "htmlhead" . }}
+<body lang="{{ .Site.Language }}" class="nebula2026">
+  <main>
+    <div class="placeholder-notice">
+      <h1>Nebula 2026 Frontpage</h1>
+      <p><strong>Under Construction</strong></p>
+      <p>This layout is being developed in Phase 2 (Page Templates).</p>
+      <p>Current issue: <em>{{ with .Site.Params.currentIssue }}{{ . }}{{ else }}Not configured{{ end }}</em></p>
+    </div>
+  </main>
+</body>
+</html>
