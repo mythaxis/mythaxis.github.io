@@ -105,6 +105,9 @@
     {{ block "nebula-content" . }}{{ end }}
   </div>
 
+  {{/* Nebula 2026 JavaScript */}}
+  <script src="{{ "/js/nebula2026/story-cards.js" | relURL }}"></script>
+
   {{/* Analytics */}}
   {{ template "_internal/google_analytics.html" . }}
 </body>
