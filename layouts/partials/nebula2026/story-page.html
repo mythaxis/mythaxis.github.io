@@ -1,36 +1,61 @@
 {{/*
   nebula2026/story-page.html
 
-  New story page layout (Nebula 2026 redesign).
-  PLACEHOLDER: Will be implemented in Phase 2.
+  Story reading page for Nebula 2026 design.
+  Features progressive interface (header slides off on scroll).
 */}}
-<!DOCTYPE HTML>
-<html lang='{{ .Site.Language.Lang | default "en-us" }}'>
-<head>
-  <meta charset="UTF-8">
-  <title>{{ .Title }} - {{ .Site.Title }}</title>
-</head>
-<body>
-  <article>
-    <header>
-      <h1>{{ .Title }}</h1>
-      <p>by {{ delimit .Params.authors ", " }}</p>
-      <p><em>{{ .Parent.Title }}</em></p>
+{{ define "nebula-content" }}
+  <div class="nebula-main story-page">
+    {{/* Story header (slides off on scroll) */}}
+    <header class="story-header">
+      {{ if .Params.image }}
+        <div class="story-art">
+          <img src="{{ path.Join .Section .Params.image | relURL }}"
+               alt="{{ .Title }}">
+        </div>
+      {{ end }}
+
+      <div class="story-meta">
+        <p class="story-issue">{{ .Parent.Title }}</p>
+        <h1 class="story-title">{{ .Title }}</h1>
+        <p class="story-author">by {{ delimit .Params.authors ", " }}</p>
+        {{ with .Params.genre }}
+          <p class="story-genre">{{ . }}</p>
+        {{ end }}
+        {{ with .Params.abstract }}
+          <p class="story-abstract">{{ . }}</p>
+        {{ end }}
+      </div>
     </header>
 
-    {{ if .Params.image }}
-    <img src="{{ path.Join .Section .Params.image | relURL }}" alt="{{ .Title }}" style="max-width: 100%;">
-    {{ end }}
-
-    <div class="story-content">
+    {{/* Story content */}}
+    <article class="story-content" data-chapter-marker="{{ .Params.chapterMarker | default .Site.Params.defaultChapterMarker }}">
       {{ .Content }}
-    </div>
+    </article>
 
-    <footer>
-      <hr>
-      <p><strong>Nebula 2026 Layout - Story Page</strong></p>
-      <p><em>This is a placeholder. Phase 2 will implement progressive interface with story art.</em></p>
+    {{/* Story footer */}}
+    <footer class="story-footer">
+      {{/* Story-end marker placeholder (Phase 5 will add roundel) */}}
+      <div class="story-end-marker">
+        <p>⊗</p>
+      </div>
+
+      {{/* Author information */}}
+      {{ partial "authorfooter" . }}
+
+      {{/* Support message */}}
+      <div class="support-message">
+        <p><strong>Mythaxis</strong> is forever free to read, but if you'd like to support us you can do so <a href="https://ko-fi.com/mythaxismagazine">here</a> (but only if you <em>really</em> want to!)</p>
+      </div>
+
+      {{/* Navigation */}}
+      <nav class="story-nav">
+        <a href="{{ .Parent.RelPermalink }}" class="back-to-issue">← Back to {{ .Parent.Title }}</a>
+        <a href="/" class="back-home">Home</a>
+      </nav>
     </footer>
-  </article>
-</body>
-</html>
+  </div>
+{{ end }}
+
+{{/* Render using base template */}}
+{{ partial "nebula2026/base.html" . }}
