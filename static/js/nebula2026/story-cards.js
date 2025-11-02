@@ -18,6 +18,8 @@
   let currentStoryIndex = 0;
   let stories = [];
   let overlay = null;
+  let cardFixed = false; // Track if card is "fixed" open
+  let hideTimer = null; // Timer for delayed hide on desktop
 
   /**
    * Initialize card system
@@ -69,15 +71,47 @@
       const link = item.querySelector('.story-link');
       if (!link) return;
 
+      // Hover to show card
       link.addEventListener('mouseenter', () => {
+        if (!cardFixed) {
+          clearTimeout(hideTimer);
+          showCard(index);
+        }
+      });
+
+      // Start hide timer when leaving link
+      link.addEventListener('mouseleave', () => {
+        if (!cardFixed) {
+          scheduleHide();
+        }
+      });
+
+      // Click to fix card open
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
         showCard(index);
+        cardFixed = true;
       });
     });
+  }
 
-    // Close card on mouse leave overlay
-    overlay.addEventListener('mouseleave', () => {
-      hideCard();
-    });
+  /**
+   * Schedule card hide with delay (for desktop hover)
+   */
+  function scheduleHide() {
+    clearTimeout(hideTimer);
+    hideTimer = setTimeout(() => {
+      if (!cardFixed) {
+        hideCard();
+      }
+    }, 300); // 300ms delay
+  }
+
+  /**
+   * Cancel scheduled hide
+   */
+  function cancelHide() {
+    clearTimeout(hideTimer);
   }
 
   /**
@@ -96,6 +130,16 @@
     // Attach event listeners to card controls
     attachCardListeners();
 
+    // Add hover listeners for desktop (cancel hide when hovering card)
+    if (!isMobile()) {
+      overlay.addEventListener('mouseenter', cancelHide);
+      overlay.addEventListener('mouseleave', () => {
+        if (!cardFixed) {
+          scheduleHide();
+        }
+      });
+    }
+
     // Show overlay
     overlay.removeAttribute('hidden');
   }
@@ -105,6 +149,7 @@
    */
   function hideCard() {
     overlay.setAttribute('hidden', '');
+    cardFixed = false;
   }
 
   /**
