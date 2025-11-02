@@ -1,34 +1,66 @@
 {{/*
   nebula2026/issue-landing.html
 
-  New issue landing page (Nebula 2026 redesign).
-  PLACEHOLDER: Will be implemented in Phase 2.
+  Issue landing page for Nebula 2026 design.
+  Shows issue cover art + table of contents.
 */}}
-<!DOCTYPE HTML>
-<html lang='{{ .Site.Language.Lang | default "en-us" }}'>
-<head>
-  <meta charset="UTF-8">
-  <title>{{ .Title }} - {{ .Site.Title }}</title>
-</head>
-<body>
-  <h1>MYTHAXIS MAGAZINE</h1>
-  <h2>Nebula 2026 Layout - Issue Landing</h2>
-
-  <h3>{{ .Title }}</h3>
-
+{{ define "nebula-content" }}
   {{/* Get all stories for this issue */}}
   {{ $stories := where .Site.Pages "Section" .Section }}
   {{ $stories := where $stories ".Type" "stock" }}
 
-  <p><strong>Table of Contents:</strong></p>
-  <ul>
-    {{ range $stories }}
-      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> by {{ delimit .Params.authors ", " }}</li>
-    {{ end }}
-  </ul>
+  <div class="nebula-main">
+    {{/* Hero section with cover art */}}
+    <section class="issue-hero">
+      {{ if .Params.coverArt }}
+        <img src="{{ .Params.coverArt | relURL }}"
+             alt="{{ .Title }} Cover Art"
+             class="cover-art">
+      {{ end }}
 
-  <hr>
+      {{/* Issue branding */}}
+      <div class="issue-branding">
+        <h1 class="issue-title">{{ .Title }}</h1>
+        {{ with .Params.season }}
+          <p class="issue-season">{{ . }} {{ $.Params.year }}</p>
+        {{ end }}
+      </div>
 
-  <p><em>This is a placeholder. Phase 2 will implement the full cover art + TOC design.</em></p>
-</body>
-</html>
+      {{/* Roundel separator */}}
+      <div class="roundel-separator">
+        <span class="roundel-icon">⊗</span>
+      </div>
+    </section>
+
+    {{/* Table of Contents */}}
+    <section class="issue-toc">
+      <h2 class="toc-heading">Contents</h2>
+
+      <nav class="toc-list" aria-label="Table of Contents">
+        <ul>
+          {{ range $stories }}
+            <li class="toc-item" data-story-id="{{ .File.UniqueID }}">
+              <a href="{{ .RelPermalink }}" class="story-link">
+                <span class="story-title">{{ .Title }}</span>
+                <span class="story-author">by {{ delimit .Params.authors ", " }}</span>
+              </a>
+            </li>
+          {{ end }}
+        </ul>
+      </nav>
+    </section>
+
+    {{/* Navigation back to home */}}
+    <nav class="issue-nav">
+      <a href="/" class="back-home">← Back to Home</a>
+    </nav>
+
+    {{/* Footer */}}
+    <footer class="issue-footer">
+      {{ partial "copyright" . }}
+    </footer>
+  </div>
+{{ end }}
+
+{{/* Render using base template */}}
+{{ partial "nebula2026/base.html" . }}
