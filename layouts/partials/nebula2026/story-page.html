@@ -1,0 +1,36 @@
+{{/*
+  nebula2026/story-page.html
+
+  New story page layout (Nebula 2026 redesign).
+  PLACEHOLDER: Will be implemented in Phase 2.
+*/}}
+<!DOCTYPE HTML>
+<html lang='{{ .Site.Language.Lang | default "en-us" }}'>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Title }} - {{ .Site.Title }}</title>
+</head>
+<body>
+  <article>
+    <header>
+      <h1>{{ .Title }}</h1>
+      <p>by {{ delimit .Params.authors ", " }}</p>
+      <p><em>{{ .Parent.Title }}</em></p>
+    </header>
+
+    {{ if .Params.image }}
+    <img src="{{ path.Join .Section .Params.image | relURL }}" alt="{{ .Title }}" style="max-width: 100%;">
+    {{ end }}
+
+    <div class="story-content">
+      {{ .Content }}
+    </div>
+
+    <footer>
+      <hr>
+      <p><strong>Nebula 2026 Layout - Story Page</strong></p>
+      <p><em>This is a placeholder. Phase 2 will implement progressive interface with story art.</em></p>
+    </footer>
+  </article>
+</body>
+</html>
