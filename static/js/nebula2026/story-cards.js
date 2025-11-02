@@ -135,7 +135,6 @@
    * Schedule card hide with delay (for desktop hover)
    */
   function scheduleHide() {
-    console.log('scheduleHide called, isMobile:', isMobile());
     clearTimeout(hideTimer);
     hideTimer = setTimeout(() => {
       if (!cardFixed) {
@@ -175,7 +174,6 @@
    * Hide card
    */
   function hideCard() {
-    console.log('hideCard called, isMobile:', isMobile(), 'cardFixed:', cardFixed);
     overlay.setAttribute('hidden', '');
     cardFixed = false;
   }
