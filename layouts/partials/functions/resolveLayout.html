@@ -1,0 +1,19 @@
+{{/*
+  resolveLayout.html
+
+  Returns the layout name for the current page.
+  Checks page params first, then parent params, defaults to "horizon2020".
+
+  Usage: {{ $layout := partial "functions/resolveLayout.html" . }}
+*/}}
+{{ $layout := "horizon2020" }}
+
+{{/* Check current page for layout param */}}
+{{ with .Params.layout }}
+  {{ $layout = . }}
+{{ else with .Parent.Params.layout }}
+  {{/* Fallback to parent (issue) layout param */}}
+  {{ $layout = . }}
+{{ end }}
+
+{{ return $layout }}
