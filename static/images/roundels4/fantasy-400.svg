@@ -1,0 +1,150 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fantasy 400: Complex interlacing with multiple nested patterns -->
+  <defs>
+    <radialGradient id="f400-emerald">
+      <stop offset="0%" stop-color="#a7f3d0"/>
+      <stop offset="50%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </radialGradient>
+    <radialGradient id="f400-sapphire">
+      <stop offset="0%" stop-color="#bfdbfe"/>
+      <stop offset="50%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </radialGradient>
+    <radialGradient id="f400-gold">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </radialGradient>
+    <radialGradient id="f400-violet">
+      <stop offset="0%" stop-color="#ddd6fe"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#5b21b6"/>
+    </radialGradient>
+    <radialGradient id="f400-turquoise">
+      <stop offset="0%" stop-color="#99f6e4"/>
+      <stop offset="50%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </radialGradient>
+    <linearGradient id="f400-shimmer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ee7b7"/>
+      <stop offset="25%" stop-color="#93c5fd"/>
+      <stop offset="50%" stop-color="#fde047"/>
+      <stop offset="75%" stop-color="#c4b5fd"/>
+      <stop offset="100%" stop-color="#5eead4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Multiple outer protective circles -->
+  <circle cx="200" cy="200" r="192" fill="none" stroke="url(#f400-emerald)" stroke-width="6"/>
+  <circle cx="200" cy="200" r="184" fill="none" stroke="url(#f400-shimmer)" stroke-width="2" opacity="0.7"/>
+  <circle cx="200" cy="200" r="176" fill="none" stroke="url(#f400-sapphire)" stroke-width="3" opacity="0.6"/>
+
+  <!-- Large primary trinity circles -->
+  <circle cx="200" cy="120" r="70" fill="none" stroke="url(#f400-emerald)" stroke-width="10"/>
+  <circle cx="200" cy="122" r="68" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+
+  <circle cx="140" cy="220" r="70" fill="none" stroke="url(#f400-sapphire)" stroke-width="10"/>
+  <circle cx="142" cy="220" r="68" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+
+  <circle cx="260" cy="220" r="70" fill="none" stroke="url(#f400-gold)" stroke-width="10"/>
+  <circle cx="260" cy="222" r="68" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5"/>
+
+  <!-- Secondary interlocking rings -->
+  <circle cx="200" cy="200" r="90" fill="none" stroke="url(#f400-violet)" stroke-width="5" opacity="0.75"/>
+  <circle cx="200" cy="200" r="75" fill="none" stroke="url(#f400-turquoise)" stroke-width="4" opacity="0.7"/>
+  <circle cx="200" cy="200" r="60" fill="none" stroke="url(#f400-gold)" stroke-width="4" opacity="0.7"/>
+
+  <!-- Complex weave ellipses - multiple layers -->
+  <ellipse cx="200" cy="150" rx="50" ry="30" fill="none" stroke="url(#f400-emerald)" stroke-width="5" transform="rotate(30 200 150)"/>
+  <ellipse cx="200" cy="150" rx="48" ry="28" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.5" transform="rotate(30 200 150)"/>
+
+  <ellipse cx="160" cy="210" rx="50" ry="30" fill="none" stroke="url(#f400-sapphire)" stroke-width="5" transform="rotate(-30 160 210)"/>
+  <ellipse cx="160" cy="210" rx="48" ry="28" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.5" transform="rotate(-30 160 210)"/>
+
+  <ellipse cx="240" cy="210" rx="50" ry="30" fill="none" stroke="url(#f400-gold)" stroke-width="5" transform="rotate(30 240 210)"/>
+  <ellipse cx="240" cy="210" rx="48" ry="28" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.5" transform="rotate(30 240 210)"/>
+
+  <!-- Additional decorative weaves -->
+  <ellipse cx="175" cy="175" rx="40" ry="25" fill="none" stroke="url(#f400-violet)" stroke-width="4" transform="rotate(45 175 175)" opacity="0.7"/>
+  <ellipse cx="225" cy="175" rx="40" ry="25" fill="none" stroke="url(#f400-turquoise)" stroke-width="4" transform="rotate(-45 225 175)" opacity="0.7"/>
+  <ellipse cx="175" cy="225" rx="40" ry="25" fill="none" stroke="url(#f400-turquoise)" stroke-width="4" transform="rotate(-45 175 225)" opacity="0.7"/>
+  <ellipse cx="225" cy="225" rx="40" ry="25" fill="none" stroke="url(#f400-violet)" stroke-width="4" transform="rotate(45 225 225)" opacity="0.7"/>
+
+  <!-- Primary trinity nodes with detail -->
+  <circle cx="200" cy="140" r="15" fill="url(#f400-emerald)"/>
+  <circle cx="200" cy="140" r="10" fill="#ffffff" opacity="0.9"/>
+  <circle cx="200" cy="140" r="5" fill="url(#f400-emerald)"/>
+
+  <circle cx="155" cy="210" r="15" fill="url(#f400-sapphire)"/>
+  <circle cx="155" cy="210" r="10" fill="#ffffff" opacity="0.9"/>
+  <circle cx="155" cy="210" r="5" fill="url(#f400-sapphire)"/>
+
+  <circle cx="245" cy="210" r="15" fill="url(#f400-gold)"/>
+  <circle cx="245" cy="210" r="10" fill="#ffffff" opacity="0.9"/>
+  <circle cx="245" cy="210" r="5" fill="url(#f400-gold)"/>
+
+  <!-- Trinity connection threads -->
+  <line x1="200" y1="140" x2="155" y2="210" stroke="url(#f400-shimmer)" stroke-width="4" opacity="0.6"/>
+  <line x1="200" y1="140" x2="245" y2="210" stroke="url(#f400-shimmer)" stroke-width="4" opacity="0.6"/>
+  <line x1="155" y1="210" x2="245" y2="210" stroke="url(#f400-shimmer)" stroke-width="4" opacity="0.6"/>
+
+  <!-- Secondary threads -->
+  <path d="M 200 140 Q 190 170 180 200" fill="none" stroke="url(#f400-emerald)" stroke-width="2" opacity="0.6"/>
+  <path d="M 200 140 Q 210 170 220 200" fill="none" stroke="url(#f400-gold)" stroke-width="2" opacity="0.6"/>
+  <path d="M 155 210 Q 170 200 185 190" fill="none" stroke="url(#f400-sapphire)" stroke-width="2" opacity="0.6"/>
+  <path d="M 245 210 Q 230 200 215 190" fill="none" stroke="url(#f400-gold)" stroke-width="2" opacity="0.6"/>
+
+  <!-- Central nexus with layers -->
+  <circle cx="200" cy="190" r="25" fill="url(#f400-violet)"/>
+  <circle cx="200" cy="190" r="20" fill="#ffffff"/>
+  <circle cx="200" cy="190" r="15" fill="url(#f400-gold)"/>
+  <circle cx="200" cy="190" r="10" fill="url(#f400-sapphire)"/>
+  <circle cx="200" cy="190" r="5" fill="#ffffff"/>
+
+  <!-- Radiating luminous threads -->
+  <line x1="200" y1="140" x2="200" y2="60" stroke="url(#f400-emerald)" stroke-width="2.5" opacity="0.6"/>
+  <line x1="155" y1="210" x2="90" y2="250" stroke="url(#f400-sapphire)" stroke-width="2.5" opacity="0.6"/>
+  <line x1="245" y1="210" x2="310" y2="250" stroke="url(#f400-gold)" stroke-width="2.5" opacity="0.6"/>
+
+  <!-- Cardinal direction threads -->
+  <line x1="200" y1="190" x2="200" y2="90" stroke="url(#f400-shimmer)" stroke-width="1.5" opacity="0.5"/>
+  <line x1="200" y1="190" x2="310" y2="190" stroke="url(#f400-shimmer)" stroke-width="1.5" opacity="0.5"/>
+  <line x1="200" y1="190" x2="200" y2="310" stroke="url(#f400-shimmer)" stroke-width="1.5" opacity="0.5"/>
+  <line x1="200" y1="190" x2="90" y2="190" stroke="url(#f400-shimmer)" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Outer power nodes -->
+  <circle cx="200" cy="30" r="10" fill="url(#f400-emerald)" opacity="0.9"/>
+  <circle cx="200" cy="30" r="6" fill="#ffffff"/>
+
+  <circle cx="370" cy="200" r="10" fill="url(#f400-sapphire)" opacity="0.9"/>
+  <circle cx="370" cy="200" r="6" fill="#ffffff"/>
+
+  <circle cx="200" cy="370" r="10" fill="url(#f400-gold)" opacity="0.9"/>
+  <circle cx="200" cy="370" r="6" fill="#ffffff"/>
+
+  <circle cx="30" cy="200" r="10" fill="url(#f400-violet)" opacity="0.9"/>
+  <circle cx="30" cy="200" r="6" fill="#ffffff"/>
+
+  <!-- Intermediate nodes -->
+  <circle cx="270" cy="130" r="8" fill="url(#f400-turquoise)" opacity="0.85"/>
+  <circle cx="270" cy="270" r="8" fill="url(#f400-emerald)" opacity="0.85"/>
+  <circle cx="130" cy="270" r="8" fill="url(#f400-sapphire)" opacity="0.85"/>
+  <circle cx="130" cy="130" r="8" fill="url(#f400-gold)" opacity="0.85"/>
+
+  <!-- Decorative spiral paths -->
+  <path d="M 200 190 Q 210 180 220 180 Q 230 180 235 190" fill="none" stroke="url(#f400-violet)" stroke-width="2.5" opacity="0.6"/>
+  <path d="M 200 190 Q 190 200 180 200 Q 170 200 165 190" fill="none" stroke="url(#f400-turquoise)" stroke-width="2.5" opacity="0.6"/>
+
+  <!-- Celtic loop decorations -->
+  <ellipse cx="150" cy="150" rx="20" ry="12" fill="none" stroke="url(#f400-emerald)" stroke-width="2.5" transform="rotate(-45 150 150)" opacity="0.7"/>
+  <ellipse cx="250" cy="150" rx="20" ry="12" fill="none" stroke="url(#f400-sapphire)" stroke-width="2.5" transform="rotate(45 250 150)" opacity="0.7"/>
+  <ellipse cx="250" cy="250" rx="20" ry="12" fill="none" stroke="url(#f400-gold)" stroke-width="2.5" transform="rotate(-45 250 250)" opacity="0.7"/>
+  <ellipse cx="150" cy="250" rx="20" ry="12" fill="none" stroke="url(#f400-violet)" stroke-width="2.5" transform="rotate(45 150 250)" opacity="0.7"/>
+
+  <!-- Small luminous particles -->
+  <circle cx="185" cy="165" r="3" fill="#6ee7b7" opacity="0.8"/>
+  <circle cx="215" cy="165" r="3" fill="#93c5fd" opacity="0.8"/>
+  <circle cx="215" cy="215" r="3" fill="#fde047" opacity="0.8"/>
+  <circle cx="185" cy="215" r="3" fill="#c4b5fd" opacity="0.8"/>
+</svg>

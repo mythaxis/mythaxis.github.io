@@ -1,0 +1,138 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cosmic 400: Complex spiral galaxy with extensive star formation -->
+  <defs>
+    <radialGradient id="c400-gold">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="40%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#a16207"/>
+    </radialGradient>
+    <radialGradient id="c400-blue">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="40%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </radialGradient>
+    <radialGradient id="c400-pink">
+      <stop offset="0%" stop-color="#fdf2f8"/>
+      <stop offset="40%" stop-color="#f9a8d4"/>
+      <stop offset="100%" stop-color="#831843"/>
+    </radialGradient>
+    <radialGradient id="c400-violet">
+      <stop offset="0%" stop-color="#f5f3ff"/>
+      <stop offset="40%" stop-color="#c4b5fd"/>
+      <stop offset="100%" stop-color="#5b21b6"/>
+    </radialGradient>
+    <radialGradient id="c400-emerald">
+      <stop offset="0%" stop-color="#ecfdf5"/>
+      <stop offset="40%" stop-color="#6ee7b7"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </radialGradient>
+    <radialGradient id="c400-ruby">
+      <stop offset="0%" stop-color="#fff1f2"/>
+      <stop offset="40%" stop-color="#fda4af"/>
+      <stop offset="100%" stop-color="#be123c"/>
+    </radialGradient>
+    <linearGradient id="c400-shimmer">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="25%" stop-color="#f9a8d4"/>
+      <stop offset="50%" stop-color="#93c5fd"/>
+      <stop offset="75%" stop-color="#6ee7b7"/>
+      <stop offset="100%" stop-color="#c4b5fd"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Multiple outer galactic boundaries -->
+  <circle cx="200" cy="200" r="192" fill="none" stroke="url(#c400-blue)" stroke-width="5"/>
+  <circle cx="200" cy="200" r="184" fill="none" stroke="url(#c400-shimmer)" stroke-width="2" opacity="0.7"/>
+  <circle cx="200" cy="200" r="176" fill="none" stroke="url(#c400-violet)" stroke-width="3" opacity="0.6"/>
+
+  <!-- Extensive spiral arms - primary -->
+  <path d="M 200 60 Q 120 75, 80 105 Q 50 140, 52 185 Q 56 225, 78 260"
+        fill="none" stroke="url(#c400-pink)" stroke-width="14" opacity="0.8" stroke-linecap="round"/>
+  <path d="M 200 60 Q 122 75, 82 105 Q 52 140, 54 185 Q 58 225, 80 260"
+        fill="none" stroke="url(#c400-ruby)" stroke-width="7" opacity="0.7" stroke-linecap="round"/>
+
+  <path d="M 200 60 A 130 130 0 0 1 310 125 Q 330 175, 315 225 Q 295 265, 255 295"
+        fill="none" stroke="url(#c400-blue)" stroke-width="14" opacity="0.8" stroke-linecap="round"/>
+  <path d="M 200 60 A 128 128 0 0 1 308 125 Q 328 175, 313 225 Q 293 265, 253 295"
+        fill="none" stroke="url(#c400-violet)" stroke-width="7" opacity="0.7" stroke-linecap="round"/>
+
+  <path d="M 90 270 Q 125 290, 165 305 Q 205 315, 245 310 Q 275 305, 295 285"
+        fill="none" stroke="url(#c400-emerald)" stroke-width="12" opacity="0.75" stroke-linecap="round"/>
+  <path d="M 92 270 Q 127 290, 167 305 Q 205 314, 243 310 Q 273 305, 293 285"
+        fill="none" stroke="url(#c400-blue)" stroke-width="6" opacity="0.7" stroke-linecap="round"/>
+
+  <!-- Inner orbital rings -->
+  <circle cx="200" cy="200" r="120" fill="none" stroke="url(#c400-violet)" stroke-width="4" opacity="0.7"/>
+  <circle cx="200" cy="200" r="100" fill="none" stroke="url(#c400-gold)" stroke-width="3" opacity="0.65"/>
+  <circle cx="200" cy="200" r="80" fill="none" stroke="url(#c400-pink)" stroke-width="2.5" opacity="0.6"/>
+
+  <!-- Central galactic core with layers -->
+  <circle cx="200" cy="200" r="48" fill="url(#c400-gold)"/>
+  <circle cx="200" cy="200" r="40" fill="#ffffff"/>
+  <circle cx="200" cy="200" r="32" fill="url(#c400-ruby)"/>
+  <circle cx="200" cy="200" r="24" fill="url(#c400-blue)"/>
+  <circle cx="200" cy="200" r="16" fill="#ffffff"/>
+  <circle cx="200" cy="200" r="8" fill="url(#c400-gold)"/>
+
+  <!-- Extensive star clusters -->
+  <circle cx="120" cy="105" r="10" fill="url(#c400-blue)" opacity="0.95"/>
+  <circle cx="120" cy="105" r="6" fill="#ffffff"/>
+  <circle cx="120" cy="105" r="3" fill="url(#c400-gold)"/>
+
+  <circle cx="80" cy="180" r="9" fill="url(#c400-pink)" opacity="0.92"/>
+  <circle cx="80" cy="180" r="5.5" fill="#ffffff"/>
+  <circle cx="80" cy="180" r="2.5" fill="url(#c400-ruby)"/>
+
+  <circle cx="135" cy="275" r="10" fill="url(#c400-emerald)" opacity="0.95"/>
+  <circle cx="135" cy="275" r="6" fill="#ffffff"/>
+  <circle cx="135" cy="275" r="3" fill="url(#c400-blue)"/>
+
+  <circle cx="280" cy="140" r="9.5" fill="url(#c400-violet)" opacity="0.93"/>
+  <circle cx="280" cy="140" r="5.8" fill="#ffffff"/>
+  <circle cx="280" cy="140" r="2.8" fill="url(#c400-pink)"/>
+
+  <circle cx="260" cy="260" r="9" fill="url(#c400-ruby)" opacity="0.92"/>
+  <circle cx="260" cy="260" r="5.5" fill="#ffffff"/>
+  <circle cx="260" cy="260" r="2.5" fill="url(#c400-emerald)"/>
+
+  <!-- Nebula clouds - large scale -->
+  <ellipse cx="110" cy="120" rx="35" ry="22" fill="url(#c400-violet)" opacity="0.4" transform="rotate(-30 110 120)"/>
+  <ellipse cx="95" cy="200" rx="32" ry="20" fill="url(#c400-pink)" opacity="0.4" transform="rotate(25 95 200)"/>
+  <ellipse cx="155" cy="285" rx="30" ry="18" fill="url(#c400-blue)" opacity="0.4" transform="rotate(-20 155 285)"/>
+  <ellipse cx="275" cy="155" rx="28" ry="17" fill="url(#c400-emerald)" opacity="0.4" transform="rotate(40 275 155)"/>
+  <ellipse cx="265" cy="250" rx="30" ry="19" fill="url(#c400-ruby)" opacity="0.4" transform="rotate(-15 265 250)"/>
+
+  <!-- Secondary star clusters -->
+  <circle cx="140" cy="150" r="7" fill="url(#c400-gold)" opacity="0.88"/>
+  <circle cx="140" cy="150" r="4" fill="#ffffff"/>
+
+  <circle cx="105" cy="235" r="6.5" fill="url(#c400-blue)" opacity="0.85"/>
+  <circle cx="105" cy="235" r="3.8" fill="#ffffff"/>
+
+  <circle cx="230" cy="185" r="7" fill="url(#c400-violet)" opacity="0.88"/>
+  <circle cx="230" cy="185" r="4" fill="#ffffff"/>
+
+  <circle cx="195" cy="280" r="6.5" fill="url(#c400-emerald)" opacity="0.85"/>
+  <circle cx="195" cy="280" r="3.8" fill="#ffffff"/>
+
+  <!-- Stellar jets from core -->
+  <line x1="200" y1="152" x2="200" y2="110" stroke="url(#c400-gold)" stroke-width="3" opacity="0.7"/>
+  <line x1="248" y1="200" x2="290" y2="200" stroke="url(#c400-ruby)" stroke-width="3" opacity="0.7"/>
+  <line x1="200" y1="248" x2="200" y2="290" stroke="url(#c400-blue)" stroke-width="3" opacity="0.7"/>
+  <line x1="152" y1="200" x2="110" y2="200" stroke="url(#c400-emerald)" stroke-width="3" opacity="0.7"/>
+
+  <!-- Background star field -->
+  <circle cx="40" cy="45" r="2.5" fill="#ffffff" opacity="0.9"/>
+  <circle cx="360" cy="50" r="2" fill="#dbeafe" opacity="0.85"/>
+  <circle cx="350" cy="350" r="2.3" fill="#fce7f3" opacity="0.9"/>
+  <circle cx="45" cy="355" r="1.8" fill="#d1fae5" opacity="0.85"/>
+  <circle cx="150" cy="40" r="2" fill="#fef9c3" opacity="0.85"/>
+  <circle cx="365" cy="180" r="2.2" fill="#ffe4e6" opacity="0.9"/>
+
+  <!-- Micro stars scattered -->
+  <circle cx="130" cy="90" r="1.2" fill="#ffffff" opacity="0.75"/>
+  <circle cx="250" cy="110" r="1.3" fill="#ffffff" opacity="0.75"/>
+  <circle cx="290" cy="220" r="1.1" fill="#ffffff" opacity="0.75"/>
+  <circle cx="160" cy="300" r="1.3" fill="#ffffff" opacity="0.75"/>
+  <circle cx="110" cy="260" r="1.2" fill="#ffffff" opacity="0.75"/>
+</svg>

@@ -1,0 +1,391 @@
+<svg viewBox="0 0 2400 2400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fantasy 2400: THE LIVING LABYRINTH - Ultimate fractal complexity -->
+  <defs>
+    <!-- Enhanced multi-stop gradients for ultimate depth -->
+    <radialGradient id="f2400-emerald">
+      <stop offset="0%" stop-color="#ecfdf5"/>
+      <stop offset="20%" stop-color="#d1fae5"/>
+      <stop offset="40%" stop-color="#6ee7b7"/>
+      <stop offset="60%" stop-color="#34d399"/>
+      <stop offset="80%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </radialGradient>
+    <radialGradient id="f2400-sapphire">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="20%" stop-color="#dbeafe"/>
+      <stop offset="40%" stop-color="#93c5fd"/>
+      <stop offset="60%" stop-color="#60a5fa"/>
+      <stop offset="80%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </radialGradient>
+    <radialGradient id="f2400-gold">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="20%" stop-color="#fef3c7"/>
+      <stop offset="40%" stop-color="#fde047"/>
+      <stop offset="60%" stop-color="#facc15"/>
+      <stop offset="80%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#a16207"/>
+    </radialGradient>
+    <radialGradient id="f2400-violet">
+      <stop offset="0%" stop-color="#f5f3ff"/>
+      <stop offset="20%" stop-color="#ede9fe"/>
+      <stop offset="40%" stop-color="#c4b5fd"/>
+      <stop offset="60%" stop-color="#a78bfa"/>
+      <stop offset="80%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#5b21b6"/>
+    </radialGradient>
+    <radialGradient id="f2400-turquoise">
+      <stop offset="0%" stop-color="#f0fdfa"/>
+      <stop offset="20%" stop-color="#ccfbf1"/>
+      <stop offset="40%" stop-color="#5eead4"/>
+      <stop offset="60%" stop-color="#2dd4bf"/>
+      <stop offset="80%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </radialGradient>
+    <radialGradient id="f2400-rose">
+      <stop offset="0%" stop-color="#fdf2f8"/>
+      <stop offset="20%" stop-color="#fce7f3"/>
+      <stop offset="40%" stop-color="#f9a8d4"/>
+      <stop offset="60%" stop-color="#f472b6"/>
+      <stop offset="80%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#9f1239"/>
+    </radialGradient>
+    <linearGradient id="f2400-shimmer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ee7b7"/>
+      <stop offset="12%" stop-color="#93c5fd"/>
+      <stop offset="24%" stop-color="#fde047"/>
+      <stop offset="36%" stop-color="#c4b5fd"/>
+      <stop offset="48%" stop-color="#5eead4"/>
+      <stop offset="60%" stop-color="#f9a8d4"/>
+      <stop offset="72%" stop-color="#6ee7b7"/>
+      <stop offset="84%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#fde047"/>
+    </linearGradient>
+    <radialGradient id="f2400-superglow">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="30%" stop-color="#fef9c3" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#fde047" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#eab308" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Pattern definitions for micro-detail -->
+    <pattern id="f2400-weave-pattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="25" x2="50" y2="25" stroke="#6ee7b7" stroke-width="0.5" opacity="0.3"/>
+      <line x1="25" y1="0" x2="25" y2="50" stroke="#93c5fd" stroke-width="0.5" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Background mystical field with pattern -->
+  <rect x="0" y="0" width="2400" height="2400" fill="url(#f2400-weave-pattern)" opacity="0.15"/>
+
+  <!-- Extensive outer protective circles - Layer 1 (outermost) -->
+  <circle cx="1200" cy="1200" r="1152" fill="none" stroke="url(#f2400-emerald)" stroke-width="20"/>
+  <circle cx="1200" cy="1200" r="1144" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.6"/>
+  <circle cx="1200" cy="1200" r="1136" fill="none" stroke="url(#f2400-shimmer)" stroke-width="6" opacity="0.8"/>
+  <circle cx="1200" cy="1200" r="1128" fill="none" stroke="url(#f2400-sapphire)" stroke-width="12" opacity="0.75"/>
+  <circle cx="1200" cy="1200" r="1120" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.5"/>
+  <circle cx="1200" cy="1200" r="1112" fill="none" stroke="url(#f2400-gold)" stroke-width="10" opacity="0.75"/>
+  <circle cx="1200" cy="1200" r="1104" fill="none" stroke="url(#f2400-violet)" stroke-width="8" opacity="0.7"/>
+  <circle cx="1200" cy="1200" r="1096" fill="none" stroke="url(#f2400-turquoise)" stroke-width="6" opacity="0.7"/>
+  <circle cx="1200" cy="1200" r="1088" fill="none" stroke="url(#f2400-rose)" stroke-width="5" opacity="0.65"/>
+
+  <!-- Layer 2 - Intermediate protective circles -->
+  <circle cx="1200" cy="1200" r="1040" fill="none" stroke="url(#f2400-shimmer)" stroke-width="8" opacity="0.7"/>
+  <circle cx="1200" cy="1200" r="1000" fill="none" stroke="url(#f2400-emerald)" stroke-width="14" opacity="0.75"/>
+  <circle cx="1200" cy="1200" r="960" fill="none" stroke="url(#f2400-sapphire)" stroke-width="12" opacity="0.75"/>
+  <circle cx="1200" cy="1200" r="920" fill="none" stroke="url(#f2400-gold)" stroke-width="10" opacity="0.7"/>
+  <circle cx="1200" cy="1200" r="880" fill="none" stroke="url(#f2400-violet)" stroke-width="8" opacity="0.7"/>
+
+  <!-- Massive primary trinity circles with extensive detail -->
+  <circle cx="1200" cy="720" r="420" fill="none" stroke="url(#f2400-emerald)" stroke-width="40"/>
+  <circle cx="1200" cy="724" r="416" fill="none" stroke="#ffffff" stroke-width="8" opacity="0.7"/>
+  <circle cx="1200" cy="728" r="412" fill="none" stroke="url(#f2400-turquoise)" stroke-width="4" opacity="0.6"/>
+  <circle cx="1200" cy="732" r="408" fill="none" stroke="url(#f2400-shimmer)" stroke-width="3" opacity="0.5"/>
+
+  <circle cx="840" cy="1320" r="420" fill="none" stroke="url(#f2400-sapphire)" stroke-width="40"/>
+  <circle cx="844" cy="1320" r="416" fill="none" stroke="#ffffff" stroke-width="8" opacity="0.7"/>
+  <circle cx="848" cy="1320" r="412" fill="none" stroke="url(#f2400-violet)" stroke-width="4" opacity="0.6"/>
+  <circle cx="852" cy="1320" r="408" fill="none" stroke="url(#f2400-shimmer)" stroke-width="3" opacity="0.5"/>
+
+  <circle cx="1560" cy="1320" r="420" fill="none" stroke="url(#f2400-gold)" stroke-width="40"/>
+  <circle cx="1560" cy="1324" r="416" fill="none" stroke="#ffffff" stroke-width="8" opacity="0.7"/>
+  <circle cx="1560" cy="1328" r="412" fill="none" stroke="url(#f2400-rose)" stroke-width="4" opacity="0.6"/>
+  <circle cx="1560" cy="1332" r="408" fill="none" stroke="url(#f2400-shimmer)" stroke-width="3" opacity="0.5"/>
+
+  <!-- Multiple scales of interlocking rings -->
+  <!-- Scale 1 - Largest -->
+  <circle cx="1200" cy="1200" r="540" fill="none" stroke="url(#f2400-violet)" stroke-width="18" opacity="0.85"/>
+  <circle cx="1200" cy="1200" r="534" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.6"/>
+  <circle cx="1200" cy="1200" r="510" fill="none" stroke="url(#f2400-turquoise)" stroke-width="16" opacity="0.8"/>
+  <circle cx="1200" cy="1200" r="504" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.6"/>
+  <circle cx="1200" cy="1200" r="480" fill="none" stroke="url(#f2400-gold)" stroke-width="14" opacity="0.8"/>
+  <circle cx="1200" cy="1200" r="474" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.6"/>
+
+  <!-- Scale 2 -->
+  <circle cx="1200" cy="1200" r="450" fill="none" stroke="url(#f2400-rose)" stroke-width="12" opacity="0.75"/>
+  <circle cx="1200" cy="1200" r="420" fill="none" stroke="url(#f2400-emerald)" stroke-width="12" opacity="0.75"/>
+  <circle cx="1200" cy="1200" r="390" fill="none" stroke="url(#f2400-sapphire)" stroke-width="10" opacity="0.75"/>
+  <circle cx="1200" cy="1200" r="360" fill="none" stroke="url(#f2400-violet)" stroke-width="10" opacity="0.75"/>
+
+  <!-- Scale 3 -->
+  <circle cx="1200" cy="1200" r="330" fill="none" stroke="url(#f2400-turquoise)" stroke-width="8" opacity="0.7"/>
+  <circle cx="1200" cy="1200" r="300" fill="none" stroke="url(#f2400-gold)" stroke-width="8" opacity="0.7"/>
+  <circle cx="1200" cy="1200" r="270" fill="none" stroke="url(#f2400-rose)" stroke-width="7" opacity="0.7"/>
+
+  <!-- Scale 4 - Inner -->
+  <circle cx="1200" cy="1200" r="240" fill="none" stroke="url(#f2400-emerald)" stroke-width="6" opacity="0.7"/>
+  <circle cx="1200" cy="1200" r="210" fill="none" stroke="url(#f2400-sapphire)" stroke-width="6" opacity="0.7"/>
+  <circle cx="1200" cy="1200" r="180" fill="none" stroke="url(#f2400-violet)" stroke-width="5" opacity="0.65"/>
+
+  <!-- Extensive weave ellipses - Primary layer (largest scale) -->
+  <ellipse cx="1200" cy="900" rx="300" ry="180" fill="none" stroke="url(#f2400-emerald)" stroke-width="20" transform="rotate(30 1200 900)"/>
+  <ellipse cx="1200" cy="900" rx="294" ry="174" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.7" transform="rotate(30 1200 900)"/>
+  <ellipse cx="1200" cy="900" rx="288" ry="168" fill="none" stroke="url(#f2400-turquoise)" stroke-width="3" opacity="0.6" transform="rotate(30 1200 900)"/>
+
+  <ellipse cx="960" cy="1260" rx="300" ry="180" fill="none" stroke="url(#f2400-sapphire)" stroke-width="20" transform="rotate(-30 960 1260)"/>
+  <ellipse cx="960" cy="1260" rx="294" ry="174" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.7" transform="rotate(-30 960 1260)"/>
+  <ellipse cx="960" cy="1260" rx="288" ry="168" fill="none" stroke="url(#f2400-violet)" stroke-width="3" opacity="0.6" transform="rotate(-30 960 1260)"/>
+
+  <ellipse cx="1440" cy="1260" rx="300" ry="180" fill="none" stroke="url(#f2400-gold)" stroke-width="20" transform="rotate(30 1440 1260)"/>
+  <ellipse cx="1440" cy="1260" rx="294" ry="174" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.7" transform="rotate(30 1440 1260)"/>
+  <ellipse cx="1440" cy="1260" rx="288" ry="168" fill="none" stroke="url(#f2400-rose)" stroke-width="3" opacity="0.6" transform="rotate(30 1440 1260)"/>
+
+  <!-- Secondary weave layer -->
+  <ellipse cx="1050" cy="1050" rx="240" ry="150" fill="none" stroke="url(#f2400-violet)" stroke-width="16" transform="rotate(45 1050 1050)" opacity="0.8"/>
+  <ellipse cx="1350" cy="1050" rx="240" ry="150" fill="none" stroke="url(#f2400-turquoise)" stroke-width="16" transform="rotate(-45 1350 1050)" opacity="0.8"/>
+  <ellipse cx="1050" cy="1350" rx="240" ry="150" fill="none" stroke="url(#f2400-turquoise)" stroke-width="16" transform="rotate(-45 1050 1350)" opacity="0.8"/>
+  <ellipse cx="1350" cy="1350" rx="240" ry="150" fill="none" stroke="url(#f2400-violet)" stroke-width="16" transform="rotate(45 1350 1350)" opacity="0.8"/>
+
+  <!-- Tertiary weave layer -->
+  <ellipse cx="1110" cy="990" rx="180" ry="105" fill="none" stroke="url(#f2400-emerald)" stroke-width="12" transform="rotate(60 1110 990)" opacity="0.75"/>
+  <ellipse cx="1290" cy="990" rx="180" ry="105" fill="none" stroke="url(#f2400-sapphire)" stroke-width="12" transform="rotate(-60 1290 990)" opacity="0.75"/>
+  <ellipse cx="1110" cy="1410" rx="180" ry="105" fill="none" stroke="url(#f2400-gold)" stroke-width="12" transform="rotate(-60 1110 1410)" opacity="0.75"/>
+  <ellipse cx="1290" cy="1410" rx="180" ry="105" fill="none" stroke="url(#f2400-rose)" stroke-width="12" transform="rotate(60 1290 1410)" opacity="0.75"/>
+
+  <!-- Quaternary weave - adding more intricacy -->
+  <ellipse cx="900" cy="900" rx="150" ry="90" fill="none" stroke="url(#f2400-violet)" stroke-width="10" transform="rotate(20 900 900)" opacity="0.7"/>
+  <ellipse cx="1500" cy="900" rx="150" ry="90" fill="none" stroke="url(#f2400-turquoise)" stroke-width="10" transform="rotate(-20 1500 900)" opacity="0.7"/>
+  <ellipse cx="1500" cy="1500" rx="150" ry="90" fill="none" stroke="url(#f2400-emerald)" stroke-width="10" transform="rotate(20 1500 1500)" opacity="0.7"/>
+  <ellipse cx="900" cy="1500" rx="150" ry="90" fill="none" stroke="url(#f2400-sapphire)" stroke-width="10" transform="rotate(-20 900 1500)" opacity="0.7"/>
+
+  <!-- Quinary weave - micro scale -->
+  <ellipse cx="1000" cy="1000" rx="120" ry="70" fill="none" stroke="url(#f2400-rose)" stroke-width="8" transform="rotate(35 1000 1000)" opacity="0.65"/>
+  <ellipse cx="1400" cy="1000" rx="120" ry="70" fill="none" stroke="url(#f2400-gold)" stroke-width="8" transform="rotate(-35 1400 1000)" opacity="0.65"/>
+  <ellipse cx="1400" cy="1400" rx="120" ry="70" fill="none" stroke="url(#f2400-violet)" stroke-width="8" transform="rotate(35 1400 1400)" opacity="0.65"/>
+  <ellipse cx="1000" cy="1400" rx="120" ry="70" fill="none" stroke="url(#f2400-turquoise)" stroke-width="8" transform="rotate(-35 1000 1400)" opacity="0.65"/>
+
+  <!-- Massive primary trinity nodes with ultimate layering -->
+  <circle cx="1200" cy="840" r="90" fill="url(#f2400-superglow)"/>
+  <circle cx="1200" cy="840" r="84" fill="url(#f2400-emerald)"/>
+  <circle cx="1200" cy="840" r="72" fill="#ffffff" opacity="0.98"/>
+  <circle cx="1200" cy="840" r="60" fill="url(#f2400-turquoise)"/>
+  <circle cx="1200" cy="840" r="48" fill="#ffffff" opacity="0.95"/>
+  <circle cx="1200" cy="840" r="36" fill="url(#f2400-emerald)"/>
+  <circle cx="1200" cy="840" r="24" fill="#ffffff"/>
+  <circle cx="1200" cy="840" r="12" fill="url(#f2400-gold)"/>
+
+  <circle cx="930" cy="1260" r="90" fill="url(#f2400-superglow)"/>
+  <circle cx="930" cy="1260" r="84" fill="url(#f2400-sapphire)"/>
+  <circle cx="930" cy="1260" r="72" fill="#ffffff" opacity="0.98"/>
+  <circle cx="930" cy="1260" r="60" fill="url(#f2400-violet)"/>
+  <circle cx="930" cy="1260" r="48" fill="#ffffff" opacity="0.95"/>
+  <circle cx="930" cy="1260" r="36" fill="url(#f2400-sapphire)"/>
+  <circle cx="930" cy="1260" r="24" fill="#ffffff"/>
+  <circle cx="930" cy="1260" r="12" fill="url(#f2400-emerald)"/>
+
+  <circle cx="1470" cy="1260" r="90" fill="url(#f2400-superglow)"/>
+  <circle cx="1470" cy="1260" r="84" fill="url(#f2400-gold)"/>
+  <circle cx="1470" cy="1260" r="72" fill="#ffffff" opacity="0.98"/>
+  <circle cx="1470" cy="1260" r="60" fill="url(#f2400-rose)"/>
+  <circle cx="1470" cy="1260" r="48" fill="#ffffff" opacity="0.95"/>
+  <circle cx="1470" cy="1260" r="36" fill="url(#f2400-gold)"/>
+  <circle cx="1470" cy="1260" r="24" fill="#ffffff"/>
+  <circle cx="1470" cy="1260" r="12" fill="url(#f2400-sapphire)"/>
+
+  <!-- Trinity connection threads - ultimate beams -->
+  <line x1="1200" y1="840" x2="930" y2="1260" stroke="url(#f2400-shimmer)" stroke-width="16" opacity="0.8"/>
+  <line x1="1200" y1="840" x2="1470" y2="1260" stroke="url(#f2400-shimmer)" stroke-width="16" opacity="0.8"/>
+  <line x1="930" y1="1260" x2="1470" y2="1260" stroke="url(#f2400-shimmer)" stroke-width="16" opacity="0.8"/>
+
+  <!-- Trinity glow threads -->
+  <line x1="1200" y1="840" x2="930" y2="1260" stroke="#ffffff" stroke-width="6" opacity="0.6"/>
+  <line x1="1200" y1="840" x2="1470" y2="1260" stroke="#ffffff" stroke-width="6" opacity="0.6"/>
+  <line x1="930" y1="1260" x2="1470" y2="1260" stroke="#ffffff" stroke-width="6" opacity="0.6"/>
+
+  <!-- Extensive curved connection paths - multiple layers -->
+  <path d="M 1200 840 Q 1140 990 1080 1140" fill="none" stroke="url(#f2400-emerald)" stroke-width="10" opacity="0.75"/>
+  <path d="M 1200 840 Q 1260 990 1320 1140" fill="none" stroke="url(#f2400-gold)" stroke-width="10" opacity="0.75"/>
+  <path d="M 930 1260 Q 1020 1200 1110 1140" fill="none" stroke="url(#f2400-sapphire)" stroke-width="10" opacity="0.75"/>
+  <path d="M 1470 1260 Q 1380 1200 1290 1140" fill="none" stroke="url(#f2400-gold)" stroke-width="10" opacity="0.75"/>
+
+  <!-- Additional curved pathways - secondary layer -->
+  <path d="M 1200 840 Q 1080 900 960 960" fill="none" stroke="url(#f2400-turquoise)" stroke-width="8" opacity="0.7"/>
+  <path d="M 1200 840 Q 1320 900 1440 960" fill="none" stroke="url(#f2400-violet)" stroke-width="8" opacity="0.7"/>
+  <path d="M 930 1260 Q 990 1320 1050 1380" fill="none" stroke="url(#f2400-rose)" stroke-width="8" opacity="0.7"/>
+  <path d="M 1470 1260 Q 1410 1320 1350 1380" fill="none" stroke="url(#f2400-emerald)" stroke-width="8" opacity="0.7"/>
+
+  <!-- Tertiary curved pathways -->
+  <path d="M 1200 840 Q 1150 950 1100 1060" fill="none" stroke="url(#f2400-violet)" stroke-width="6" opacity="0.65"/>
+  <path d="M 1200 840 Q 1250 950 1300 1060" fill="none" stroke="url(#f2400-turquoise)" stroke-width="6" opacity="0.65"/>
+  <path d="M 930 1260 Q 1000 1220 1070 1180" fill="none" stroke="url(#f2400-emerald)" stroke-width="6" opacity="0.65"/>
+  <path d="M 1470 1260 Q 1400 1220 1330 1180" fill="none" stroke="url(#f2400-sapphire)" stroke-width="6" opacity="0.65"/>
+
+  <!-- Central nexus - the heart of the labyrinth - ultimate detail -->
+  <circle cx="1200" cy="1140" r="150" fill="url(#f2400-superglow)"/>
+  <circle cx="1200" cy="1140" r="140" fill="url(#f2400-violet)"/>
+  <circle cx="1200" cy="1140" r="126" fill="#ffffff" opacity="0.98"/>
+  <circle cx="1200" cy="1140" r="112" fill="url(#f2400-gold)"/>
+  <circle cx="1200" cy="1140" r="98" fill="url(#f2400-sapphire)"/>
+  <circle cx="1200" cy="1140" r="84" fill="#ffffff" opacity="0.95"/>
+  <circle cx="1200" cy="1140" r="70" fill="url(#f2400-emerald)"/>
+  <circle cx="1200" cy="1140" r="56" fill="url(#f2400-turquoise)"/>
+  <circle cx="1200" cy="1140" r="42" fill="#ffffff"/>
+  <circle cx="1200" cy="1140" r="28" fill="url(#f2400-rose)"/>
+  <circle cx="1200" cy="1140" r="14" fill="#ffffff"/>
+
+  <!-- Central geometric mandala -->
+  <circle cx="1200" cy="1140" r="105" fill="none" stroke="url(#f2400-shimmer)" stroke-width="5" opacity="0.8"/>
+  <circle cx="1200" cy="1140" r="90" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.7"/>
+  <circle cx="1200" cy="1140" r="75" fill="none" stroke="url(#f2400-shimmer)" stroke-width="4" opacity="0.75"/>
+  <circle cx="1200" cy="1140" r="60" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.65"/>
+
+  <!-- Mandala cross lines -->
+  <line x1="1095" y1="1140" x2="1305" y2="1140" stroke="#ffffff" stroke-width="4" opacity="0.7"/>
+  <line x1="1200" y1="1035" x2="1200" y2="1245" stroke="#ffffff" stroke-width="4" opacity="0.7"/>
+
+  <!-- Mandala diagonal lines -->
+  <line x1="1126" y1="1066" x2="1274" y2="1214" stroke="#ffffff" stroke-width="3" opacity="0.65"/>
+  <line x1="1274" y1="1066" x2="1126" y2="1214" stroke="#ffffff" stroke-width="3" opacity="0.65"/>
+
+  <!-- Extensive radiating threads to all cardinal and ordinal points -->
+  <line x1="1200" y1="840" x2="1200" y2="360" stroke="url(#f2400-emerald)" stroke-width="10" opacity="0.75"/>
+  <line x1="930" y1="1260" x2="540" y2="1500" stroke="url(#f2400-sapphire)" stroke-width="10" opacity="0.75"/>
+  <line x1="1470" y1="1260" x2="1860" y2="1500" stroke="url(#f2400-gold)" stroke-width="10" opacity="0.75"/>
+
+  <!-- Additional cardinal threads from center -->
+  <line x1="1200" y1="1140" x2="1200" y2="540" stroke="url(#f2400-shimmer)" stroke-width="8" opacity="0.7"/>
+  <line x1="1200" y1="1140" x2="1860" y2="1140" stroke="url(#f2400-shimmer)" stroke-width="8" opacity="0.7"/>
+  <line x1="1200" y1="1140" x2="1200" y2="1860" stroke="url(#f2400-shimmer)" stroke-width="8" opacity="0.7"/>
+  <line x1="1200" y1="1140" x2="540" y2="1140" stroke="url(#f2400-shimmer)" stroke-width="8" opacity="0.7"/>
+
+  <!-- Diagonal threads from center -->
+  <line x1="1200" y1="1140" x2="1620" y2="780" stroke="url(#f2400-violet)" stroke-width="6" opacity="0.65"/>
+  <line x1="1200" y1="1140" x2="1620" y2="1620" stroke="url(#f2400-turquoise)" stroke-width="6" opacity="0.65"/>
+  <line x1="1200" y1="1140" x2="780" y2="1620" stroke="url(#f2400-rose)" stroke-width="6" opacity="0.65"/>
+  <line x1="1200" y1="1140" x2="780" y2="780" stroke="url(#f2400-emerald)" stroke-width="6" opacity="0.65"/>
+
+  <!-- Outer power nodes at cardinal points - massive scale -->
+  <circle cx="1200" cy="180" r="60" fill="url(#f2400-emerald)" opacity="0.98"/>
+  <circle cx="1200" cy="180" r="48" fill="#ffffff"/>
+  <circle cx="1200" cy="180" r="36" fill="url(#f2400-turquoise)"/>
+  <circle cx="1200" cy="180" r="24" fill="#ffffff"/>
+  <circle cx="1200" cy="180" r="12" fill="url(#f2400-emerald)"/>
+
+  <circle cx="2220" cy="1200" r="60" fill="url(#f2400-sapphire)" opacity="0.98"/>
+  <circle cx="2220" cy="1200" r="48" fill="#ffffff"/>
+  <circle cx="2220" cy="1200" r="36" fill="url(#f2400-violet)"/>
+  <circle cx="2220" cy="1200" r="24" fill="#ffffff"/>
+  <circle cx="2220" cy="1200" r="12" fill="url(#f2400-sapphire)"/>
+
+  <circle cx="1200" cy="2220" r="60" fill="url(#f2400-gold)" opacity="0.98"/>
+  <circle cx="1200" cy="2220" r="48" fill="#ffffff"/>
+  <circle cx="1200" cy="2220" r="36" fill="url(#f2400-rose)"/>
+  <circle cx="1200" cy="2220" r="24" fill="#ffffff"/>
+  <circle cx="1200" cy="2220" r="12" fill="url(#f2400-gold)"/>
+
+  <circle cx="180" cy="1200" r="60" fill="url(#f2400-violet)" opacity="0.98"/>
+  <circle cx="180" cy="1200" r="48" fill="#ffffff"/>
+  <circle cx="180" cy="1200" r="36" fill="url(#f2400-turquoise)"/>
+  <circle cx="180" cy="1200" r="24" fill="#ffffff"/>
+  <circle cx="180" cy="1200" r="12" fill="url(#f2400-violet)"/>
+
+  <!-- Diagonal power nodes -->
+  <circle cx="1620" cy="780" r="48" fill="url(#f2400-turquoise)" opacity="0.95"/>
+  <circle cx="1620" cy="780" r="36" fill="#ffffff"/>
+  <circle cx="1620" cy="780" r="24" fill="url(#f2400-emerald)"/>
+
+  <circle cx="1620" cy="1620" r="48" fill="url(#f2400-emerald)" opacity="0.95"/>
+  <circle cx="1620" cy="1620" r="36" fill="#ffffff"/>
+  <circle cx="1620" cy="1620" r="24" fill="url(#f2400-sapphire)"/>
+
+  <circle cx="780" cy="1620" r="48" fill="url(#f2400-sapphire)" opacity="0.95"/>
+  <circle cx="780" cy="1620" r="36" fill="#ffffff"/>
+  <circle cx="780" cy="1620" r="24" fill="url(#f2400-gold)"/>
+
+  <circle cx="780" cy="780" r="48" fill="url(#f2400-gold)" opacity="0.95"/>
+  <circle cx="780" cy="780" r="36" fill="#ffffff"/>
+  <circle cx="780" cy="780" r="24" fill="url(#f2400-violet)"/>
+
+  <!-- Extensive Celtic loop decorations at multiple scales -->
+  <!-- Scale 1 - Largest -->
+  <ellipse cx="900" cy="900" rx="120" ry="72" fill="none" stroke="url(#f2400-emerald)" stroke-width="12" transform="rotate(-45 900 900)" opacity="0.8"/>
+  <ellipse cx="1500" cy="900" rx="120" ry="72" fill="none" stroke="url(#f2400-sapphire)" stroke-width="12" transform="rotate(45 1500 900)" opacity="0.8"/>
+  <ellipse cx="1500" cy="1500" rx="120" ry="72" fill="none" stroke="url(#f2400-gold)" stroke-width="12" transform="rotate(-45 1500 1500)" opacity="0.8"/>
+  <ellipse cx="900" cy="1500" rx="120" ry="72" fill="none" stroke="url(#f2400-violet)" stroke-width="12" transform="rotate(45 900 1500)" opacity="0.8"/>
+
+  <!-- Scale 2 -->
+  <ellipse cx="990" cy="990" rx="90" ry="54" fill="none" stroke="url(#f2400-turquoise)" stroke-width="10" transform="rotate(15 990 990)" opacity="0.75"/>
+  <ellipse cx="1410" cy="990" rx="90" ry="54" fill="none" stroke="url(#f2400-rose)" stroke-width="10" transform="rotate(-15 1410 990)" opacity="0.75"/>
+  <ellipse cx="1410" cy="1410" rx="90" ry="54" fill="none" stroke="url(#f2400-emerald)" stroke-width="10" transform="rotate(15 1410 1410)" opacity="0.75"/>
+  <ellipse cx="990" cy="1410" rx="90" ry="54" fill="none" stroke="url(#f2400-sapphire)" stroke-width="10" transform="rotate(-15 990 1410)" opacity="0.75"/>
+
+  <!-- Scale 3 - Micro details -->
+  <ellipse cx="1050" cy="1050" rx="60" ry="36" fill="none" stroke="url(#f2400-violet)" stroke-width="8" transform="rotate(30 1050 1050)" opacity="0.7"/>
+  <ellipse cx="1350" cy="1050" rx="60" ry="36" fill="none" stroke="url(#f2400-turquoise)" stroke-width="8" transform="rotate(-30 1350 1050)" opacity="0.7"/>
+  <ellipse cx="1350" cy="1350" rx="60" ry="36" fill="none" stroke="url(#f2400-gold)" stroke-width="8" transform="rotate(30 1350 1350)" opacity="0.7"/>
+  <ellipse cx="1050" cy="1350" rx="60" ry="36" fill="none" stroke="url(#f2400-rose)" stroke-width="8" transform="rotate(-30 1050 1350)" opacity="0.7"/>
+
+  <!-- Hundreds of luminous particles at various positions -->
+  <!-- Primary particles -->
+  <circle cx="1110" cy="990" r="18" fill="#6ee7b7" opacity="0.95"/>
+  <circle cx="1290" cy="990" r="18" fill="#93c5fd" opacity="0.95"/>
+  <circle cx="1290" cy="1290" r="18" fill="#fde047" opacity="0.95"/>
+  <circle cx="1110" cy="1290" r="18" fill="#c4b5fd" opacity="0.95"/>
+
+  <!-- Secondary particles -->
+  <circle cx="1050" cy="1080" r="14" fill="#5eead4" opacity="0.9"/>
+  <circle cx="1350" cy="1080" r="14" fill="#f9a8d4" opacity="0.9"/>
+  <circle cx="1350" cy="1320" r="14" fill="#6ee7b7" opacity="0.9"/>
+  <circle cx="1050" cy="1320" r="14" fill="#93c5fd" opacity="0.9"/>
+
+  <!-- Tertiary particles -->
+  <circle cx="1020" cy="1020" r="10" fill="#fde047" opacity="0.85"/>
+  <circle cx="1380" cy="1020" r="10" fill="#c4b5fd" opacity="0.85"/>
+  <circle cx="1380" cy="1380" r="10" fill="#5eead4" opacity="0.85"/>
+  <circle cx="1020" cy="1380" r="10" fill="#f9a8d4" opacity="0.85"/>
+
+  <!-- Additional decorative nodes at intermediate scales -->
+  <circle cx="1020" cy="840" r="30" fill="url(#f2400-violet)" opacity="0.85"/>
+  <circle cx="1020" cy="840" r="20" fill="#ffffff"/>
+
+  <circle cx="1380" cy="840" r="30" fill="url(#f2400-turquoise)" opacity="0.85"/>
+  <circle cx="1380" cy="840" r="20" fill="#ffffff"/>
+
+  <circle cx="840" cy="1140" r="30" fill="url(#f2400-rose)" opacity="0.85"/>
+  <circle cx="840" cy="1140" r="20" fill="#ffffff"/>
+
+  <circle cx="1560" cy="1140" r="30" fill="url(#f2400-emerald)" opacity="0.85"/>
+  <circle cx="1560" cy="1140" r="20" fill="#ffffff"/>
+
+  <circle cx="1020" cy="1440" r="30" fill="url(#f2400-sapphire)" opacity="0.85"/>
+  <circle cx="1020" cy="1440" r="20" fill="#ffffff"/>
+
+  <circle cx="1380" cy="1440" r="30" fill="url(#f2400-gold)" opacity="0.85"/>
+  <circle cx="1380" cy="1440" r="20" fill="#ffffff"/>
+
+  <!-- Micro decorative spirals scattered throughout -->
+  <path d="M 1200 1140 Q 1230 1110 1260 1110 Q 1290 1110 1305 1140" fill="none" stroke="url(#f2400-violet)" stroke-width="8" opacity="0.65"/>
+  <path d="M 1200 1140 Q 1170 1170 1140 1170 Q 1110 1170 1095 1140" fill="none" stroke="url(#f2400-turquoise)" stroke-width="8" opacity="0.65"/>
+
+  <!-- Additional micro-scale particles (fractal detail) -->
+  <circle cx="1180" cy="1120" r="6" fill="#6ee7b7" opacity="0.8"/>
+  <circle cx="1220" cy="1120" r="6" fill="#93c5fd" opacity="0.8"/>
+  <circle cx="1220" cy="1160" r="6" fill="#fde047" opacity="0.8"/>
+  <circle cx="1180" cy="1160" r="6" fill="#c4b5fd" opacity="0.8"/>
+
+  <!-- Ultra-micro particles -->
+  <circle cx="1190" cy="1130" r="4" fill="#5eead4" opacity="0.75"/>
+  <circle cx="1210" cy="1130" r="4" fill="#f9a8d4" opacity="0.75"/>
+  <circle cx="1210" cy="1150" r="4" fill="#6ee7b7" opacity="0.75"/>
+  <circle cx="1190" cy="1150" r="4" fill="#93c5fd" opacity="0.75"/>
+</svg>

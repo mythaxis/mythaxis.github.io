@@ -1,0 +1,38 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fantasy 100: Simple trinity knot foundation -->
+  <defs>
+    <radialGradient id="f100-emerald">
+      <stop offset="0%" stop-color="#6ee7b7"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </radialGradient>
+    <radialGradient id="f100-sapphire">
+      <stop offset="0%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </radialGradient>
+    <radialGradient id="f100-gold">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Simple outer circle -->
+  <circle cx="50" cy="50" r="48" fill="none" stroke="url(#f100-emerald)" stroke-width="3"/>
+
+  <!-- Basic trinity knot - three interlocking circles -->
+  <circle cx="50" cy="35" r="18" fill="none" stroke="url(#f100-emerald)" stroke-width="4"/>
+  <circle cx="35" cy="58" r="18" fill="none" stroke="url(#f100-sapphire)" stroke-width="4"/>
+  <circle cx="65" cy="58" r="18" fill="none" stroke="url(#f100-gold)" stroke-width="4"/>
+
+  <!-- Central trinity nodes -->
+  <circle cx="50" cy="42" r="5" fill="url(#f100-emerald)"/>
+  <circle cx="42" cy="55" r="5" fill="url(#f100-sapphire)"/>
+  <circle cx="58" cy="55" r="5" fill="url(#f100-gold)"/>
+
+  <!-- Connection threads -->
+  <line x1="50" y1="42" x2="42" y2="55" stroke="#ffffff" stroke-width="2" opacity="0.6"/>
+  <line x1="50" y1="42" x2="58" y2="55" stroke="#ffffff" stroke-width="2" opacity="0.6"/>
+  <line x1="42" y1="55" x2="58" y2="55" stroke="#ffffff" stroke-width="2" opacity="0.6"/>
+
+  <!-- Central light -->
+  <circle cx="50" cy="50" r="3" fill="#ffffff"/>
+</svg>

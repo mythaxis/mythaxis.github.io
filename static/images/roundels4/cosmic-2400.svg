@@ -1,0 +1,159 @@
+<svg viewBox="0 0 2400 2400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cosmic 2400: THE INFINITE MANDALA - Ultimate galactic cluster with fractal complexity -->
+  <defs>
+    <radialGradient id="c2400-gold">
+      <stop offset="0%" stop-color="#fffbeb"/><stop offset="20%" stop-color="#fef9c3"/><stop offset="40%" stop-color="#fde047"/><stop offset="60%" stop-color="#facc15"/><stop offset="80%" stop-color="#eab308"/><stop offset="100%" stop-color="#92400e"/>
+    </radialGradient>
+    <radialGradient id="c2400-blue">
+      <stop offset="0%" stop-color="#eff6ff"/><stop offset="20%" stop-color="#dbeafe"/><stop offset="40%" stop-color="#93c5fd"/><stop offset="60%" stop-color="#60a5fa"/><stop offset="80%" stop-color="#3b82f6"/><stop offset="100%" stop-color="#1e3a8a"/>
+    </radialGradient>
+    <radialGradient id="c2400-pink">
+      <stop offset="0%" stop-color="#fdf2f8"/><stop offset="20%" stop-color="#fce7f3"/><stop offset="40%" stop-color="#f9a8d4"/><stop offset="60%" stop-color="#f472b6"/><stop offset="80%" stop-color="#ec4899"/><stop offset="100%" stop-color="#831843"/>
+    </radialGradient>
+    <radialGradient id="c2400-violet">
+      <stop offset="0%" stop-color="#f5f3ff"/><stop offset="20%" stop-color="#ede9fe"/><stop offset="40%" stop-color="#c4b5fd"/><stop offset="60%" stop-color="#a78bfa"/><stop offset="80%" stop-color="#8b5cf6"/><stop offset="100%" stop-color="#4c1d95"/>
+    </radialGradient>
+    <radialGradient id="c2400-emerald">
+      <stop offset="0%" stop-color="#ecfdf5"/><stop offset="20%" stop-color="#d1fae5"/><stop offset="40%" stop-color="#6ee7b7"/><stop offset="60%" stop-color="#34d399"/><stop offset="80%" stop-color="#10b981"/><stop offset="100%" stop-color="#065f46"/>
+    </radialGradient>
+    <radialGradient id="c2400-ruby">
+      <stop offset="0%" stop-color="#fff1f2"/><stop offset="20%" stop-color="#ffe4e6"/><stop offset="40%" stop-color="#fda4af"/><stop offset="60%" stop-color="#fb7185"/><stop offset="80%" stop-color="#f43f5e"/><stop offset="100%" stop-color="#9f1239"/>
+    </radialGradient>
+    <radialGradient id="c2400-amber">
+      <stop offset="0%" stop-color="#fffbeb"/><stop offset="20%" stop-color="#fef3c7"/><stop offset="40%" stop-color="#fde68a"/><stop offset="60%" stop-color="#fcd34d"/><stop offset="80%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#b45309"/>
+    </radialGradient>
+    <linearGradient id="c2400-shimmer">
+      <stop offset="0%" stop-color="#fde047"/><stop offset="12%" stop-color="#f9a8d4"/><stop offset="24%" stop-color="#93c5fd"/><stop offset="36%" stop-color="#c4b5fd"/><stop offset="48%" stop-color="#6ee7b7"/><stop offset="60%" stop-color="#fda4af"/><stop offset="72%" stop-color="#fde047"/><stop offset="84%" stop-color="#f9a8d4"/><stop offset="100%" stop-color="#93c5fd"/>
+    </linearGradient>
+    <radialGradient id="c2400-superglow">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/><stop offset="30%" stop-color="#fef9c3" stop-opacity="0.9"/><stop offset="60%" stop-color="#fde047" stop-opacity="0.5"/><stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Extensive outer boundaries - The edge of the observable mandala -->
+  <circle cx="1200" cy="1200" r="1152" fill="none" stroke="url(#c2400-blue)" stroke-width="20"/>
+  <circle cx="1200" cy="1200" r="1144" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.7"/>
+  <circle cx="1200" cy="1200" r="1136" fill="none" stroke="url(#c2400-shimmer)" stroke-width="8" opacity="0.85"/>
+  <circle cx="1200" cy="1200" r="1128" fill="none" stroke="url(#c2400-violet)" stroke-width="14" opacity="0.8"/>
+  <circle cx="1200" cy="1200" r="1120" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.6"/>
+  <circle cx="1200" cy="1200" r="1112" fill="none" stroke="url(#c2400-pink)" stroke-width="12" opacity="0.8"/>
+  <circle cx="1200" cy="1200" r="1104" fill="none" stroke="url(#c2400-emerald)" stroke-width="10" opacity="0.75"/>
+  <circle cx="1200" cy="1200" r="1096" fill="none" stroke="url(#c2400-ruby)" stroke-width="8" opacity="0.75"/>
+  <circle cx="1200" cy="1200" r="1088" fill="none" stroke="url(#c2400-amber)" stroke-width="6" opacity="0.7"/>
+
+  <!-- Secondary boundary layer -->
+  <circle cx="1200" cy="1200" r="1040" fill="none" stroke="url(#c2400-shimmer)" stroke-width="10" opacity="0.75"/>
+  <circle cx="1200" cy="1200" r="1000" fill="none" stroke="url(#c2400-blue)" stroke-width="16" opacity="0.8"/>
+  <circle cx="1200" cy="1200" r="960" fill="none" stroke="url(#c2400-violet)" stroke-width="14" opacity="0.8"/>
+  <circle cx="1200" cy="1200" r="920" fill="none" stroke="url(#c2400-pink)" stroke-width="12" opacity="0.75"/>
+  <circle cx="1200" cy="1200" r="880" fill="none" stroke="url(#c2400-emerald)" stroke-width="10" opacity="0.75"/>
+
+  <!-- Massive spiral arms - primary galaxy structure -->
+  <path d="M 1200 360 Q 690 435, 465 615 Q 285 825, 300 1080 Q 330 1335, 456 1545" fill="none" stroke="url(#c2400-pink)" stroke-width="60" opacity="0.88" stroke-linecap="round"/>
+  <path d="M 1200 360 Q 696 435, 471 615 Q 291 825, 306 1080 Q 336 1335, 462 1545" fill="none" stroke="url(#c2400-ruby)" stroke-width="30" opacity="0.8" stroke-linecap="round"/>
+  <path d="M 1200 360 Q 702 435, 477 615 Q 297 825, 312 1080 Q 342 1335, 468 1545" fill="none" stroke="#ffffff" stroke-width="8" opacity="0.6" stroke-linecap="round"/>
+
+  <path d="M 1200 360 A 780 780 0 0 1 1845 735 Q 1965 1035, 1875 1335 Q 1755 1575, 1515 1755" fill="none" stroke="url(#c2400-blue)" stroke-width="60" opacity="0.88" stroke-linecap="round"/>
+  <path d="M 1200 360 A 778 778 0 0 1 1843 735 Q 1963 1035, 1873 1335 Q 1753 1575, 1513 1755" fill="none" stroke="url(#c2400-violet)" stroke-width="30" opacity="0.8" stroke-linecap="round"/>
+  <path d="M 1200 360 A 776 776 0 0 1 1841 735 Q 1961 1035, 1871 1335 Q 1751 1575, 1511 1755" fill="none" stroke="#ffffff" stroke-width="8" opacity="0.6" stroke-linecap="round"/>
+
+  <path d="M 525 1605 Q 735 1725, 975 1815 Q 1215 1875, 1455 1845 Q 1635 1815, 1755 1695" fill="none" stroke="url(#c2400-emerald)" stroke-width="54" opacity="0.85" stroke-linecap="round"/>
+  <path d="M 531 1605 Q 741 1725, 981 1815 Q 1215 1873, 1452 1845 Q 1632 1815, 1752 1695" fill="none" stroke="url(#c2400-blue)" stroke-width="28" opacity="0.8" stroke-linecap="round"/>
+  <path d="M 537 1605 Q 747 1725, 987 1815 Q 1215 1871, 1449 1845 Q 1629 1815, 1749 1695" fill="none" stroke="#ffffff" stroke-width="8" opacity="0.6" stroke-linecap="round"/>
+
+  <!-- Secondary spiral layer -->
+  <path d="M 1200 480 Q 840 540, 660 720 Q 540 900, 552 1140 Q 576 1380, 696 1560" fill="none" stroke="url(#c2400-amber)" stroke-width="42" opacity="0.75" stroke-linecap="round"/>
+  <path d="M 1200 480 A 600 600 0 0 1 1620 900 Q 1680 1080, 1620 1320 Q 1560 1500, 1380 1620" fill="none" stroke="url(#c2400-ruby)" stroke-width="42" opacity="0.75" stroke-linecap="round"/>
+
+  <!-- Multiple inner orbital rings -->
+  <circle cx="1200" cy="1200" r="720" fill="none" stroke="url(#c2400-violet)" stroke-width="16" opacity="0.8"/>
+  <circle cx="1200" cy="1200" r="690" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.6"/>
+  <circle cx="1200" cy="1200" r="630" fill="none" stroke="url(#c2400-gold)" stroke-width="14" opacity="0.75"/>
+  <circle cx="1200" cy="1200" r="600" fill="none" stroke="url(#c2400-pink)" stroke-width="12" opacity="0.75"/>
+  <circle cx="1200" cy="1200" r="540" fill="none" stroke="url(#c2400-emerald)" stroke-width="12" opacity="0.75"/>
+  <circle cx="1200" cy="1200" r="480" fill="none" stroke="url(#c2400-blue)" stroke-width="10" opacity="0.7"/>
+  <circle cx="1200" cy="1200" r="420" fill="none" stroke="url(#c2400-ruby)" stroke-width="10" opacity="0.7"/>
+  <circle cx="1200" cy="1200" r="360" fill="none" stroke="url(#c2400-amber)" stroke-width="8" opacity="0.7"/>
+
+  <!-- Central supermassive core - The singularity -->
+  <circle cx="1200" cy="1200" r="288" fill="url(#c2400-superglow)"/>
+  <circle cx="1200" cy="1200" r="264" fill="url(#c2400-gold)"/>
+  <circle cx="1200" cy="1200" r="228" fill="#ffffff" opacity="0.98"/>
+  <circle cx="1200" cy="1200" r="192" fill="url(#c2400-ruby)"/>
+  <circle cx="1200" cy="1200" r="156" fill="url(#c2400-blue)"/>
+  <circle cx="1200" cy="1200" r="120" fill="#ffffff" opacity="0.95"/>
+  <circle cx="1200" cy="1200" r="84" fill="url(#c2400-emerald)"/>
+  <circle cx="1200" cy="1200" r="48" fill="#ffffff"/>
+
+  <!-- Central mandala geometric pattern -->
+  <circle cx="1200" cy="1200" r="240" fill="none" stroke="url(#c2400-shimmer)" stroke-width="8" opacity="0.85"/>
+  <circle cx="1200" cy="1200" r="210" fill="none" stroke="#ffffff" stroke-width="5" opacity="0.75"/>
+  <circle cx="1200" cy="1200" r="180" fill="none" stroke="url(#c2400-shimmer)" stroke-width="6" opacity="0.8"/>
+  <circle cx="1200" cy="1200" r="150" fill="none" stroke="#ffffff" stroke-width="4" opacity="0.7"/>
+
+  <!-- Mandala cardinal lines -->
+  <line x1="960" y1="1200" x2="1440" y2="1200" stroke="#ffffff" stroke-width="8" opacity="0.75"/>
+  <line x1="1200" y1="960" x2="1200" y2="1440" stroke="#ffffff" stroke-width="8" opacity="0.75"/>
+  <line x1="1030" y1="1030" x2="1370" y2="1370" stroke="#ffffff" stroke-width="6" opacity="0.7"/>
+  <line x1="1370" y1="1030" x2="1030" y2="1370" stroke="#ffffff" stroke-width="6" opacity="0.7"/>
+
+  <!-- Massive star clusters - the nodes of creation -->
+  <circle cx="690" cy="615" r="54" fill="url(#c2400-blue)" opacity="0.98"/><circle cx="690" cy="615" r="36" fill="#ffffff"/><circle cx="690" cy="615" r="18" fill="url(#c2400-gold)"/>
+  <circle cx="465" cy="1065" r="48" fill="url(#c2400-pink)" opacity="0.96"/><circle cx="465" cy="1065" r="32" fill="#ffffff"/><circle cx="465" cy="1065" r="16" fill="url(#c2400-ruby)"/>
+  <circle cx="795" cy="1635" r="54" fill="url(#c2400-emerald)" opacity="0.98"/><circle cx="795" cy="1635" r="36" fill="#ffffff"/><circle cx="795" cy="1635" r="18" fill="url(#c2400-blue)"/>
+  <circle cx="1665" cy="825" r="50" fill="url(#c2400-violet)" opacity="0.97"/><circle cx="1665" cy="825" r="33" fill="#ffffff"/><circle cx="1665" cy="825" r="16.5" fill="url(#c2400-pink)"/>
+  <circle cx="1545" cy="1545" r="48" fill="url(#c2400-ruby)" opacity="0.96"/><circle cx="1545" cy="1545" r="32" fill="#ffffff"/><circle cx="1545" cy="1545" r="16" fill="url(#c2400-emerald)"/>
+
+  <!-- Extensive nebula complexes -->
+  <ellipse cx="645" cy="705" rx="204" ry="126" fill="url(#c2400-violet)" opacity="0.5" transform="rotate(-30 645 705)"/>
+  <ellipse cx="555" cy="1185" rx="186" ry="114" fill="url(#c2400-pink)" opacity="0.5" transform="rotate(28 555 1185)"/>
+  <ellipse cx="915" cy="1695" rx="174" ry="105" fill="url(#c2400-blue)" opacity="0.5" transform="rotate(-18 915 1695)"/>
+  <ellipse cx="1635" cy="915" rx="162" ry="96" fill="url(#c2400-emerald)" opacity="0.5" transform="rotate(42 1635 915)"/>
+  <ellipse cx="1575" cy="1485" rx="174" ry="108" fill="url(#c2400-ruby)" opacity="0.5" transform="rotate(-14 1575 1485)"/>
+
+  <!-- Secondary star clusters throughout -->
+  <circle cx="825" cy="885" r="39" fill="url(#c2400-gold)" opacity="0.92"/><circle cx="825" cy="885" r="26" fill="#ffffff"/>
+  <circle cx="615" cy="1395" r="36" fill="url(#c2400-blue)" opacity="0.9"/><circle cx="615" cy="1395" r="24" fill="#ffffff"/>
+  <circle cx="1365" cy="1095" r="39" fill="url(#c2400-violet)" opacity="0.92"/><circle cx="1365" cy="1095" r="26" fill="#ffffff"/>
+  <circle cx="1155" cy="1665" r="36" fill="url(#c2400-emerald)" opacity="0.9"/><circle cx="1155" cy="1665" r="24" fill="#ffffff"/>
+
+  <!-- Stellar jets from supermassive core -->
+  <line x1="1200" y1="912" x2="1200" y2="660" stroke="url(#c2400-gold)" stroke-width="14" opacity="0.8"/>
+  <line x1="1488" y1="1200" x2="1740" y2="1200" stroke="url(#c2400-ruby)" stroke-width="14" opacity="0.8"/>
+  <line x1="1200" y1="1488" x2="1200" y2="1740" stroke="url(#c2400-blue)" stroke-width="14" opacity="0.8"/>
+  <line x1="912" y1="1200" x2="660" y2="1200" stroke="url(#c2400-emerald)" stroke-width="14" opacity="0.8"/>
+
+  <!-- Extensive background star field -->
+  <circle cx="120" cy="135" r="9" fill="#ffffff" opacity="0.95"/>
+  <circle cx="2280" cy="150" r="8" fill="#dbeafe" opacity="0.9"/>
+  <circle cx="2250" cy="2250" r="9.5" fill="#fce7f3" opacity="0.95"/>
+  <circle cx="135" cy="2265" r="7.5" fill="#d1fae5" opacity="0.9"/>
+  <circle cx="900" cy="120" r="8.5" fill="#fef9c3" opacity="0.9"/>
+  <circle cx="2295" cy="1080" r="9" fill="#ffe4e6" opacity="0.95"/>
+
+  <!-- Hundreds of micro stars scattered throughout the mandala -->
+  <circle cx="750" cy="540" r="7.5" fill="#ffffff" opacity="0.85"/>
+  <circle cx="1470" cy="630" r="7.2" fill="#ffffff" opacity="0.85"/>
+  <circle cx="1725" cy="1290" r="7.8" fill="#ffffff" opacity="0.85"/>
+  <circle cx="945" cy="1785" r="7.4" fill="#ffffff" opacity="0.85"/>
+  <circle cx="645" cy="1545" r="7.5" fill="#ffffff" opacity="0.85"/>
+
+  <!-- Quasar activity markers -->
+  <circle cx="1110" cy="1110" r="12" fill="url(#c2400-emerald)" opacity="0.7"/>
+  <circle cx="1290" cy="1110" r="12" fill="url(#c2400-ruby)" opacity="0.7"/>
+  <circle cx="1290" cy="1290" r="12" fill="url(#c2400-blue)" opacity="0.7"/>
+  <circle cx="1110" cy="1290" r="12" fill="url(#c2400-amber)" opacity="0.7"/>
+
+  <!-- Gamma ray bursts -->
+  <circle cx="1584" cy="816" r="15" fill="url(#c2400-emerald)" opacity="0.85"/>
+  <line x1="1584" y1="816" x2="1599" y2="801" stroke="#6ee7b7" stroke-width="3" opacity="0.75"/>
+  <line x1="1584" y1="816" x2="1569" y2="801" stroke="#6ee7b7" stroke-width="3" opacity="0.75"/>
+  <line x1="1584" y1="816" x2="1599" y2="831" stroke="#6ee7b7" stroke-width="2.5" opacity="0.7"/>
+  <line x1="1584" y1="816" x2="1569" y2="831" stroke="#6ee7b7" stroke-width="2.5" opacity="0.7"/>
+
+  <!-- Fractal recursion - the pattern repeats -->
+  <circle cx="900" cy="900" r="180" fill="none" stroke="url(#c2400-violet)" stroke-width="4" opacity="0.5"/>
+  <circle cx="1500" cy="900" r="180" fill="none" stroke="url(#c2400-blue)" stroke-width="4" opacity="0.5"/>
+  <circle cx="1500" cy="1500" r="180" fill="none" stroke="url(#c2400-emerald)" stroke-width="4" opacity="0.5"/>
+  <circle cx="900" cy="1500" r="180" fill="none" stroke="url(#c2400-pink)" stroke-width="4" opacity="0.5"/>
+</svg>
