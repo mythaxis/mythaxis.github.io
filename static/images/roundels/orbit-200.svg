@@ -1,0 +1,20 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Orbit roundel (larger, more detailed version) -->
+  <circle cx="100" cy="100" r="96" fill="none" stroke="#333" stroke-width="3"/>
+  <circle cx="100" cy="100" r="75" fill="none" stroke="#333" stroke-width="2.5"/>
+  <circle cx="100" cy="100" r="54" fill="none" stroke="#333" stroke-width="2"/>
+  <circle cx="100" cy="100" r="33" fill="none" stroke="#333" stroke-width="1.5"/>
+  <circle cx="100" cy="100" r="10" fill="#333"/>
+
+  <!-- Orbital particles on each ring -->
+  <circle cx="100" cy="4" r="5" fill="#333"/>
+  <circle cx="196" cy="100" r="5" fill="#333"/>
+  <circle cx="100" cy="196" r="5" fill="#333"/>
+  <circle cx="4" cy="100" r="5" fill="#333"/>
+
+  <!-- Diagonal orbital particles -->
+  <circle cx="154" cy="46" r="4" fill="#666"/>
+  <circle cx="46" cy="154" r="4" fill="#666"/>
+  <circle cx="46" cy="46" r="4" fill="#666"/>
+  <circle cx="154" cy="154" r="4" fill="#666"/>
+</svg>

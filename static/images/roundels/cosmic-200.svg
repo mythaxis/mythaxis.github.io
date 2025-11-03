@@ -1,0 +1,31 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cosmic roundel: Swirling galaxy (large) -->
+  <circle cx="100" cy="100" r="96" fill="none" stroke="#333" stroke-width="3"/>
+
+  <!-- Galaxy spiral arms -->
+  <path d="M 100 100 Q 110 80, 120 70 T 140 60"
+        fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 100 100 Q 80 110, 70 120 T 60 140"
+        fill="none" stroke="#333" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 100 100 Q 90 120, 80 130 T 60 150"
+        fill="none" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 100 100 Q 120 90, 130 80 T 150 60"
+        fill="none" stroke="#333" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Additional spiral detail -->
+  <path d="M 100 100 Q 105 115, 110 125 T 120 145"
+        fill="none" stroke="#666" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 100 100 Q 115 105, 125 110 T 145 120"
+        fill="none" stroke="#666" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Stars and center -->
+  <circle cx="100" cy="100" r="6" fill="#333"/>
+  <circle cx="50" cy="60" r="3" fill="#666"/>
+  <circle cx="140" cy="50" r="3" fill="#666"/>
+  <circle cx="150" cy="140" r="3" fill="#666"/>
+  <circle cx="60" cy="150" r="3" fill="#666"/>
+  <circle cx="120" cy="100" r="2" fill="#666"/>
+  <circle cx="80" cy="100" r="2" fill="#666"/>
+  <circle cx="100" cy="80" r="2" fill="#666"/>
+  <circle cx="100" cy="120" r="2" fill="#666"/>
+</svg>

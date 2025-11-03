@@ -1,0 +1,20 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- SciFi roundel: UFO abduction scene (large) -->
+  <circle cx="100" cy="100" r="96" fill="none" stroke="#333" stroke-width="3"/>
+
+  <!-- UFO -->
+  <ellipse cx="100" cy="50" rx="40" ry="12" fill="#333"/>
+  <ellipse cx="100" cy="50" rx="24" ry="16" fill="#666"/>
+  <circle cx="100" cy="50" r="6" fill="#fff"/>
+
+  <!-- Abduction beam -->
+  <path d="M 80 62 L 70 140 L 130 140 L 120 62 Z" fill="#666" opacity="0.3"/>
+  <line x1="80" y1="62" x2="70" y2="140" stroke="#666" stroke-width="2"/>
+  <line x1="120" y1="62" x2="130" y2="140" stroke="#666" stroke-width="2"/>
+
+  <!-- Person being abducted -->
+  <circle cx="100" cy="120" r="8" fill="#333"/>
+  <rect x="96" y="128" width="8" height="16" fill="#333"/>
+  <rect x="90" y="136" width="6" height="2" fill="#333"/>
+  <rect x="104" y="136" width="6" height="2" fill="#333"/>
+</svg>

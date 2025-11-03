@@ -1,4 +1,111 @@
 /**
- * Typography Styles - placeholder for now
- * Will be expanded in Task 2
+ * Typography System
+ * Bold branding typography + clean reading experience
  */
+
+/* ========================================
+   HEADINGS
+   ======================================== */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: var(--space-sm);
+  color: var(--color-text);
+}
+
+h1 {
+  font-size: var(--font-size-4xl);
+  letter-spacing: 0.02em;
+}
+
+h2 {
+  font-size: var(--font-size-3xl);
+}
+
+h3 {
+  font-size: var(--font-size-2xl);
+}
+
+h4 {
+  font-size: var(--font-size-xl);
+}
+
+h5, h6 {
+  font-size: var(--font-size-lg);
+}
+
+/* ========================================
+   BODY TEXT
+   ======================================== */
+
+p {
+  margin-bottom: var(--space-sm);
+  line-height: 1.7;
+}
+
+/* Reading content (story articles) */
+article p {
+  font-size: var(--font-size-lg);
+  line-height: 1.8;
+  margin-bottom: var(--space-md);
+  font-family: var(--font-serif);
+}
+
+/* ========================================
+   BRANDING TYPOGRAPHY
+   ======================================== */
+
+.site-title {
+  font-family: var(--font-sans);
+  font-size: clamp(3rem, 10vw, 5rem);
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  line-height: 0.9;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.site-tagline {
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.issue-title {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: var(--space-xs);
+}
+
+.issue-season {
+  font-size: var(--font-size-sm);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-light);
+  text-align: center;
+}
+
+/* ========================================
+   RESPONSIVE TYPOGRAPHY
+   ======================================== */
+
+@media (min-width: 768px) {
+  :root {
+    --font-size-base: 1.125rem;
+    --font-size-lg: 1.25rem;
+  }
+
+  h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+  }
+}

@@ -1,0 +1,16 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fantasy roundel: Celtic knot pattern -->
+  <circle cx="50" cy="50" r="48" fill="none" stroke="#333" stroke-width="2"/>
+
+  <!-- Simplified Celtic knot -->
+  <path d="M 25 50 Q 25 25, 50 25 T 75 50 T 50 75 T 25 50 Z"
+        fill="none" stroke="#333" stroke-width="3"/>
+  <circle cx="50" cy="25" r="6" fill="none" stroke="#333" stroke-width="3"/>
+  <circle cx="75" cy="50" r="6" fill="none" stroke="#333" stroke-width="3"/>
+  <circle cx="50" cy="75" r="6" fill="none" stroke="#333" stroke-width="3"/>
+  <circle cx="25" cy="50" r="6" fill="none" stroke="#333" stroke-width="3"/>
+
+  <!-- Center interwoven design -->
+  <path d="M 40 40 L 60 60 M 60 40 L 40 60"
+        stroke="#333" stroke-width="3" stroke-linecap="round"/>
+</svg>

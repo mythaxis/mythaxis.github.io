@@ -1,0 +1,18 @@
+{{/*
+  nebula2026/story-end-marker.html
+
+  Displays the story-end roundel marker (200px).
+  Uses issue roundel if set, otherwise site default.
+*/}}
+{{ $roundel := .Site.Params.defaultRoundel | default "orbit" }}
+{{ with .Parent.Params.issueRoundel }}
+  {{ $roundel = . }}
+{{ end }}
+
+<div class="story-end-marker-container">
+  <img src="/images/roundels/{{ $roundel }}-200.svg"
+       class="story-end-marker"
+       alt="End of story"
+       width="200"
+       height="200">
+</div>
