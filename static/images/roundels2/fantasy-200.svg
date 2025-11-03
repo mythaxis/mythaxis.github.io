@@ -1,0 +1,57 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Elaborate Celtic endless knot with mystical illumination -->
+  <defs>
+    <clipPath id="ring-large"><circle cx="100" cy="100" r="96"/></clipPath>
+    <radialGradient id="mystical-glow">
+      <stop offset="0%" stop-color="#4a4a4a" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1a1a1a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Outer rings with decorative elements -->
+  <circle cx="100" cy="100" r="96" fill="none" stroke="#2a2a2a" stroke-width="3"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="#3a3a3a" stroke-width="1" stroke-dasharray="4,4"/>
+  <circle cx="100" cy="100" r="80" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+
+  <!-- Mystical glow background -->
+  <circle cx="100" cy="100" r="75" fill="url(#mystical-glow)"/>
+
+  <g clip-path="url(#ring-large)">
+    <!-- Elaborate interlocking loops -->
+    <path d="M 100 30 Q 60 50, 50 80 Q 40 110, 60 140 Q 80 160, 100 170 Q 120 160, 140 140 Q 160 110, 150 80 Q 140 50, 100 30 Z"
+          fill="none" stroke="#1a1a1a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Inner knot work -->
+    <path d="M 70 60 Q 85 75, 100 75 Q 115 75, 130 60"
+          fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 70 140 Q 85 125, 100 125 Q 115 125, 130 140"
+          fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 60 100 Q 75 85, 75 70"
+          fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 140 100 Q 125 85, 125 70"
+          fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Center triquetra -->
+    <circle cx="100" cy="100" r="20" fill="none" stroke="#1a1a1a" stroke-width="4"/>
+    <circle cx="100" cy="100" r="12" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+    <circle cx="100" cy="100" r="6" fill="#1a1a1a"/>
+
+    <!-- Eight mystical nodes -->
+    <circle cx="100" cy="20" r="6" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+    <circle cx="141" cy="41" r="6" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+    <circle cx="162" cy="82" r="6" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+    <circle cx="162" cy="118" r="6" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+    <circle cx="141" cy="159" r="6" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+    <circle cx="100" cy="180" r="6" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+    <circle cx="59" cy="159" r="6" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+    <circle cx="38" cy="118" r="6" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+    <circle cx="38" cy="82" r="6" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+    <circle cx="59" cy="41" r="6" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+
+    <!-- Ancient runes -->
+    <text x="100" y="15" font-family="serif" font-size="12" text-anchor="middle" fill="#2a2a2a">✦</text>
+    <text x="15" y="103" font-family="serif" font-size="12" text-anchor="middle" fill="#2a2a2a">✦</text>
+    <text x="185" y="103" font-family="serif" font-size="12" text-anchor="middle" fill="#2a2a2a">✦</text>
+    <text x="100" y="192" font-family="serif" font-size="12" text-anchor="middle" fill="#2a2a2a">✦</text>
+  </g>
+</svg>

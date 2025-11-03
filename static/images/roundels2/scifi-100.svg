@@ -1,0 +1,53 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Intricate circuit board with data pathways -->
+  <defs>
+    <clipPath id="circuit-clip"><circle cx="50" cy="50" r="48"/></clipPath>
+  </defs>
+
+  <!-- Outer tech ring -->
+  <circle cx="50" cy="50" r="48" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+  <circle cx="50" cy="50" r="44" fill="none" stroke="#3a3a3a" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <g clip-path="url(#circuit-clip)">
+    <!-- Central processor -->
+    <rect x="42" y="42" width="16" height="16" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+    <rect x="45" y="45" width="10" height="10" fill="#2a2a2a"/>
+    <circle cx="50" cy="50" r="3" fill="#1a1a1a"/>
+
+    <!-- Data pathways radiating outward -->
+    <path d="M 50 58 L 50 70 M 48 70 L 52 70" stroke="#1a1a1a" stroke-width="1.5" fill="none"/>
+    <path d="M 50 42 L 50 30 M 48 30 L 52 30" stroke="#1a1a1a" stroke-width="1.5" fill="none"/>
+    <path d="M 58 50 L 70 50 M 70 48 L 70 52" stroke="#1a1a1a" stroke-width="1.5" fill="none"/>
+    <path d="M 42 50 L 30 50 M 30 48 L 30 52" stroke="#1a1a1a" stroke-width="1.5" fill="none"/>
+
+    <!-- Diagonal connections -->
+    <path d="M 56 56 L 65 65" stroke="#2a2a2a" stroke-width="1"/>
+    <path d="M 44 44 L 35 35" stroke="#2a2a2a" stroke-width="1"/>
+    <path d="M 56 44 L 65 35" stroke="#2a2a2a" stroke-width="1"/>
+    <path d="M 44 56 L 35 65" stroke="#2a2a2a" stroke-width="1"/>
+
+    <!-- Circuit nodes -->
+    <circle cx="50" cy="25" r="3" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+    <circle cx="50" cy="75" r="3" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+    <circle cx="25" cy="50" r="3" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+    <circle cx="75" cy="50" r="3" fill="none" stroke="#1a1a1a" stroke-width="1.5"/>
+
+    <!-- Micro-components -->
+    <rect x="72" y="22" width="4" height="4" fill="#2a2a2a"/>
+    <rect x="22" y="22" width="4" height="4" fill="#2a2a2a"/>
+    <rect x="22" y="72" width="4" height="4" fill="#2a2a2a"/>
+    <rect x="72" y="72" width="4" height="4" fill="#2a2a2a"/>
+
+    <!-- Data flow indicators -->
+    <path d="M 50 35 L 48 37 L 52 37 Z" fill="#1a1a1a"/>
+    <path d="M 50 65 L 48 63 L 52 63 Z" fill="#1a1a1a"/>
+    <path d="M 35 50 L 37 48 L 37 52 Z" fill="#1a1a1a"/>
+    <path d="M 65 50 L 63 48 L 63 52 Z" fill="#1a1a1a"/>
+
+    <!-- Tech details -->
+    <line x1="15" y1="15" x2="20" y2="15" stroke="#3a3a3a" stroke-width="0.5"/>
+    <line x1="15" y1="85" x2="20" y2="85" stroke="#3a3a3a" stroke-width="0.5"/>
+    <line x1="85" y1="15" x2="80" y2="15" stroke="#3a3a3a" stroke-width="0.5"/>
+    <line x1="85" y1="85" x2="80" y2="85" stroke="#3a3a3a" stroke-width="0.5"/>
+  </g>
+</svg>

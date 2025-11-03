@@ -1,0 +1,85 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Elaborate eldritch eye - the watcher in the void -->
+  <defs>
+    <clipPath id="horror-clip-large"><circle cx="100" cy="100" r="96"/></clipPath>
+    <radialGradient id="iris-gradient-large">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="50%" stop-color="#2a2a2a"/>
+      <stop offset="100%" stop-color="#4a4a4a"/>
+    </radialGradient>
+    <radialGradient id="void-gradient">
+      <stop offset="0%" stop-color="#1a1a1a" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0a0a0a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Outer disturbed reality -->
+  <circle cx="100" cy="100" r="96" fill="none" stroke="#2a2a2a" stroke-width="3"/>
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#2a2a2a" stroke-width="1" stroke-dasharray="2,6"/>
+  <circle cx="100" cy="100" r="84" fill="none" stroke="#3a3a3a" stroke-width="0.5"/>
+
+  <!-- Void background -->
+  <circle cx="100" cy="100" r="80" fill="url(#void-gradient)"/>
+
+  <g clip-path="url(#horror-clip-large)">
+    <!-- Creeping tendrils of madness -->
+    <path d="M 20 30 Q 40 50, 60 65" fill="none" stroke="#2a2a2a" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
+    <path d="M 180 30 Q 160 50, 140 65" fill="none" stroke="#2a2a2a" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
+    <path d="M 20 170 Q 40 150, 60 135" fill="none" stroke="#2a2a2a" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
+    <path d="M 180 170 Q 160 150, 140 135" fill="none" stroke="#2a2a2a" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
+
+    <!-- Secondary writhing paths -->
+    <path d="M 100 20 Q 90 45, 80 60" fill="none" stroke="#3a3a3a" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,2"/>
+    <path d="M 100 180 Q 110 155, 120 140" fill="none" stroke="#3a3a3a" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,2"/>
+    <path d="M 20 100 Q 45 95, 65 92" fill="none" stroke="#3a3a3a" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,2"/>
+    <path d="M 180 100 Q 155 105, 135 108" fill="none" stroke="#3a3a3a" stroke-width="1.5" opacity="0.5" stroke-dasharray="4,2"/>
+
+    <!-- Tertiary corruption patterns -->
+    <path d="M 40 60 Q 55 75, 65 85" fill="none" stroke="#3a3a3a" stroke-width="1" opacity="0.4"/>
+    <path d="M 160 60 Q 145 75, 135 85" fill="none" stroke="#3a3a3a" stroke-width="1" opacity="0.4"/>
+    <path d="M 40 140 Q 55 125, 65 115" fill="none" stroke="#3a3a3a" stroke-width="1" opacity="0.4"/>
+    <path d="M 160 140 Q 145 125, 135 115" fill="none" stroke="#3a3a3a" stroke-width="1" opacity="0.4"/>
+
+    <!-- The eye - vast and terrible -->
+    <ellipse cx="100" cy="100" rx="55" ry="38" fill="none" stroke="#1a1a1a" stroke-width="4"/>
+
+    <!-- Extensive bloodshot veining -->
+    <path d="M 48 72 L 70 88" stroke="#4a3a3a" stroke-width="1.2" opacity="0.7"/>
+    <path d="M 152 112 L 130 104" stroke="#4a3a3a" stroke-width="1.2" opacity="0.7"/>
+    <path d="M 55 65 L 75 80" stroke="#4a3a3a" stroke-width="1" opacity="0.6"/>
+    <path d="M 145 135 L 125 120" stroke="#4a3a3a" stroke-width="1" opacity="0.6"/>
+    <path d="M 50 98 L 72 97" stroke="#4a3a3a" stroke-width="1" opacity="0.6"/>
+    <path d="M 150 102 L 128 103" stroke="#4a3a3a" stroke-width="1" opacity="0.6"/>
+    <path d="M 52 82 L 70 92" stroke="#4a3a3a" stroke-width="0.8" opacity="0.5"/>
+    <path d="M 148 118 L 130 108" stroke="#4a3a3a" stroke-width="0.8" opacity="0.5"/>
+
+    <!-- Iris - complex and hypnotic -->
+    <circle cx="100" cy="100" r="24" fill="url(#iris-gradient-large)"/>
+    <circle cx="100" cy="100" r="26" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+    <circle cx="100" cy="100" r="20" fill="none" stroke="#2a2a2a" stroke-width="1.5" opacity="0.6"/>
+    <circle cx="100" cy="100" r="14" fill="none" stroke="#3a3a3a" stroke-width="1" opacity="0.4"/>
+
+    <!-- Dilated pupil - gateway to the void -->
+    <ellipse cx="100" cy="100" rx="12" ry="16" fill="#000000"/>
+
+    <!-- Unnatural reflections of other realms -->
+    <ellipse cx="96" cy="92" rx="4" ry="6" fill="#6a6a6a" opacity="0.7"/>
+    <ellipse cx="105" cy="97" rx="2" ry="3" fill="#5a5a5a" opacity="0.5"/>
+
+    <!-- Eyelid structures -->
+    <path d="M 45 100 Q 65 82, 100 76" fill="none" stroke="#2a2a2a" stroke-width="1.5" opacity="0.5"/>
+    <path d="M 155 100 Q 135 118, 100 124" fill="none" stroke="#2a2a2a" stroke-width="1.5" opacity="0.5"/>
+
+    <!-- Disturbing reality fractures -->
+    <circle cx="50" cy="50" r="2" fill="#2a2a2a" opacity="0.6"/>
+    <circle cx="150" cy="150" r="2" fill="#2a2a2a" opacity="0.6"/>
+    <circle cx="150" cy="50" r="2" fill="#2a2a2a" opacity="0.6"/>
+    <circle cx="50" cy="150" r="2" fill="#2a2a2a" opacity="0.6"/>
+
+    <!-- Additional void touches -->
+    <circle cx="70" cy="70" r="1.5" fill="#1a1a1a" opacity="0.4"/>
+    <circle cx="130" cy="130" r="1.5" fill="#1a1a1a" opacity="0.4"/>
+    <circle cx="130" cy="70" r="1.5" fill="#1a1a1a" opacity="0.4"/>
+    <circle cx="70" cy="130" r="1.5" fill="#1a1a1a" opacity="0.4"/>
+  </g>
+</svg>

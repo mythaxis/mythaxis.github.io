@@ -1,0 +1,68 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Intricate spiral galaxy with nebula wisps -->
+  <defs>
+    <clipPath id="cosmic-clip"><circle cx="50" cy="50" r="48"/></clipPath>
+    <radialGradient id="galactic-core">
+      <stop offset="0%" stop-color="#4a4a4a"/>
+      <stop offset="50%" stop-color="#2a2a2a"/>
+      <stop offset="100%" stop-color="#1a1a1a" stop-opacity="0.5"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Outer cosmic boundary -->
+  <circle cx="50" cy="50" r="48" fill="none" stroke="#2a2a2a" stroke-width="2"/>
+  <circle cx="50" cy="50" r="45" fill="none" stroke="#3a3a3a" stroke-width="0.5" stroke-dasharray="1,2" opacity="0.5"/>
+
+  <g clip-path="url(#cosmic-clip)">
+    <!-- Galactic core -->
+    <circle cx="50" cy="50" r="15" fill="url(#galactic-core)"/>
+    <circle cx="50" cy="50" r="8" fill="#3a3a3a"/>
+    <circle cx="50" cy="50" r="4" fill="#1a1a1a"/>
+
+    <!-- Spiral arms -->
+    <path d="M 50 50 Q 58 42, 68 38 T 80 35"
+          fill="none" stroke="#2a2a2a" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 50 50 Q 42 58, 32 62 T 20 65"
+          fill="none" stroke="#2a2a2a" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 50 50 Q 45 62, 38 70 T 28 78"
+          fill="none" stroke="#2a2a2a" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 50 50 Q 62 45, 70 38 T 78 28"
+          fill="none" stroke="#2a2a2a" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Secondary spiral details -->
+    <path d="M 50 50 Q 54 55, 60 62"
+          fill="none" stroke="#3a3a3a" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    <path d="M 50 50 Q 46 45, 40 38"
+          fill="none" stroke="#3a3a3a" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+
+    <!-- Nebula wisps -->
+    <path d="M 65 30 Q 70 32, 72 28"
+          fill="none" stroke="#4a4a4a" stroke-width="1" opacity="0.4" stroke-linecap="round"/>
+    <path d="M 28 65 Q 25 68, 27 72"
+          fill="none" stroke="#4a4a4a" stroke-width="1" opacity="0.4" stroke-linecap="round"/>
+
+    <!-- Stars - various sizes -->
+    <circle cx="75" cy="25" r="2" fill="#3a3a3a"/>
+    <circle cx="25" cy="75" r="2" fill="#3a3a3a"/>
+    <circle cx="30" cy="30" r="1.5" fill="#4a4a4a"/>
+    <circle cx="70" cy="70" r="1.5" fill="#4a4a4a"/>
+    <circle cx="85" cy="50" r="1" fill="#3a3a3a"/>
+    <circle cx="15" cy="50" r="1" fill="#3a3a3a"/>
+    <circle cx="50" cy="15" r="1" fill="#3a3a3a"/>
+    <circle cx="50" cy="85" r="1" fill="#3a3a3a"/>
+
+    <!-- Distant stars -->
+    <circle cx="38" cy="22" r="0.8" fill="#4a4a4a" opacity="0.7"/>
+    <circle cx="62" cy="78" r="0.8" fill="#4a4a4a" opacity="0.7"/>
+    <circle cx="18" cy="38" r="0.8" fill="#4a4a4a" opacity="0.7"/>
+    <circle cx="82" cy="62" r="0.8" fill="#4a4a4a" opacity="0.7"/>
+    <circle cx="62" cy="38" r="0.8" fill="#4a4a4a" opacity="0.7"/>
+    <circle cx="38" cy="62" r="0.8" fill="#4a4a4a" opacity="0.7"/>
+
+    <!-- Stellar formations -->
+    <circle cx="68" cy="50" r="1.2" fill="#2a2a2a"/>
+    <circle cx="32" cy="50" r="1.2" fill="#2a2a2a"/>
+    <circle cx="50" cy="32" r="1.2" fill="#2a2a2a"/>
+    <circle cx="50" cy="68" r="1.2" fill="#2a2a2a"/>
+  </g>
+</svg>

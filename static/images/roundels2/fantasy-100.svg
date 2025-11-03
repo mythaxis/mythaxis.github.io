@@ -1,0 +1,38 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Intricate Celtic Trinity Knot with mystical elements -->
+  <defs>
+    <clipPath id="ring"><circle cx="50" cy="50" r="48"/></clipPath>
+  </defs>
+
+  <!-- Outer decorative ring -->
+  <circle cx="50" cy="50" r="48" fill="none" stroke="#2a2a2a" stroke-width="1.5"/>
+  <circle cx="50" cy="50" r="44" fill="none" stroke="#2a2a2a" stroke-width="0.5" stroke-dasharray="2,2"/>
+
+  <!-- Trinity knot - three interlocking loops -->
+  <g clip-path="url(#ring)">
+    <!-- Center triquetra -->
+    <path d="M 50 25 Q 35 35, 35 50 Q 35 65, 50 75 Q 65 65, 65 50 Q 65 35, 50 25 Z"
+          fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 50 25 Q 65 35, 65 50"
+          fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 35 50 Q 42.5 62.5, 50 75"
+          fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 65 50 Q 57.5 62.5, 50 75"
+          fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Interlacing details -->
+    <circle cx="50" cy="50" r="8" fill="none" stroke="#1a1a1a" stroke-width="2.5"/>
+    <circle cx="50" cy="50" r="4" fill="#1a1a1a"/>
+
+    <!-- Three outer nodes -->
+    <circle cx="50" cy="18" r="4" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+    <circle cx="29" cy="68" r="4" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+    <circle cx="71" cy="68" r="4" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+
+    <!-- Mystical runes at cardinal points -->
+    <text x="50" y="10" font-family="serif" font-size="8" text-anchor="middle" fill="#2a2a2a">✦</text>
+    <text x="12" y="53" font-family="serif" font-size="8" text-anchor="middle" fill="#2a2a2a">✦</text>
+    <text x="88" y="53" font-family="serif" font-size="8" text-anchor="middle" fill="#2a2a2a">✦</text>
+    <text x="50" y="93" font-family="serif" font-size="8" text-anchor="middle" fill="#2a2a2a">✦</text>
+  </g>
+</svg>
