@@ -1,0 +1,258 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cosmic: The Infinite Mandala - Expansive galactic cluster with fractal symmetry -->
+  <defs>
+    <clipPath id="cosmic-clip-large">
+      <circle cx="100" cy="100" r="96"/>
+    </clipPath>
+
+    <!-- Enhanced cosmic gradients -->
+    <radialGradient id="golden-core-lg">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="40%" stop-color="#fef9c3"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </radialGradient>
+
+    <linearGradient id="nebula-pink-lg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf2f8"/>
+      <stop offset="50%" stop-color="#fce7f3"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <linearGradient id="nebula-violet-lg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f3ff"/>
+      <stop offset="50%" stop-color="#e9d5ff"/>
+      <stop offset="100%" stop-color="#9333ea"/>
+    </linearGradient>
+
+    <linearGradient id="young-star-blue-lg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="50%" stop-color="#dbeafe"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+
+    <linearGradient id="deep-indigo-lg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eef2ff"/>
+      <stop offset="50%" stop-color="#c7d2fe"/>
+      <stop offset="100%" stop-color="#4f46e5"/>
+    </linearGradient>
+
+    <radialGradient id="emerald-burst-lg">
+      <stop offset="0%" stop-color="#ecfdf5"/>
+      <stop offset="50%" stop-color="#d1fae5"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </radialGradient>
+
+    <radialGradient id="ruby-supernova-lg">
+      <stop offset="0%" stop-color="#fff1f2"/>
+      <stop offset="50%" stop-color="#ffe4e6"/>
+      <stop offset="100%" stop-color="#f43f5e"/>
+    </radialGradient>
+
+    <radialGradient id="sapphire-radiation">
+      <stop offset="0%" stop-color="#eff6ff"/>
+      <stop offset="50%" stop-color="#93c5fd"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </radialGradient>
+
+    <radialGradient id="amber-warmth">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="50%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </radialGradient>
+
+    <!-- Cosmic prismatic shimmer -->
+    <linearGradient id="cosmic-shimmer-lg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="14%" stop-color="#f9a8d4"/>
+      <stop offset="28%" stop-color="#93c5fd"/>
+      <stop offset="42%" stop-color="#c084fc"/>
+      <stop offset="56%" stop-color="#6ee7b7"/>
+      <stop offset="70%" stop-color="#fda4af"/>
+      <stop offset="84%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#fde047"/>
+    </linearGradient>
+
+    <!-- Supermassive glow -->
+    <radialGradient id="supermassive-glow">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="30%" stop-color="#fef9c3" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#fde047" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Outer galactic cluster boundary -->
+  <circle cx="100" cy="100" r="96" fill="none" stroke="url(#cosmic-shimmer-lg)" stroke-width="3" opacity="0.95"/>
+  <circle cx="100" cy="100" r="92" fill="none" stroke="url(#nebula-violet-lg)" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="url(#young-star-blue-lg)" stroke-width="1" opacity="0.6"/>
+
+  <g clip-path="url(#cosmic-clip-large)">
+    <!-- Deep space background -->
+    <circle cx="100" cy="100" r="84" fill="#0a0118" opacity="0.4"/>
+    <circle cx="100" cy="100" r="70" fill="url(#supermassive-glow)" opacity="0.08"/>
+
+    <!-- Outer spiral arms - expansive nebula structures -->
+    <!-- First major spiral arm -->
+    <path d="M 100 20 Q 60 28, 40 45 Q 22 65, 18 90 Q 18 110, 28 130 Q 38 145, 52 155"
+          fill="none" stroke="url(#nebula-pink-lg)" stroke-width="10" opacity="0.75" stroke-linecap="round"/>
+    <path d="M 100 20 Q 63 28, 43 45 Q 25 65, 21 90 Q 21 110, 31 130 Q 41 145, 55 155"
+          fill="none" stroke="url(#nebula-violet-lg)" stroke-width="5" opacity="0.65" stroke-linecap="round"/>
+    <path d="M 100 20 Q 66 28, 46 45 Q 28 65, 24 90 Q 24 110, 34 130 Q 44 145, 58 155"
+          fill="none" stroke="url(#ruby-supernova-lg)" stroke-width="2" opacity="0.55" stroke-linecap="round"/>
+
+    <!-- Second major spiral arm -->
+    <path d="M 100 20 A 80 80 0 0 1 170 50 Q 175 80, 168 110 Q 158 135, 140 155"
+          fill="none" stroke="url(#young-star-blue-lg)" stroke-width="10" opacity="0.75" stroke-linecap="round"/>
+    <path d="M 100 20 A 78 78 0 0 1 168 50 Q 173 80, 166 110 Q 156 135, 138 155"
+          fill="none" stroke="url(#deep-indigo-lg)" stroke-width="5" opacity="0.65" stroke-linecap="round"/>
+    <path d="M 100 20 A 76 76 0 0 1 166 50 Q 171 80, 164 110 Q 154 135, 136 155"
+          fill="none" stroke="url(#sapphire-radiation)" stroke-width="2" opacity="0.55" stroke-linecap="round"/>
+
+    <!-- Third major spiral arm -->
+    <path d="M 30 135 Q 45 148, 65 158 Q 90 165, 115 162 Q 135 158, 150 148"
+          fill="none" stroke="url(#emerald-burst-lg)" stroke-width="9" opacity="0.75" stroke-linecap="round"/>
+    <path d="M 33 135 Q 48 148, 68 158 Q 90 164, 113 162 Q 133 158, 148 148"
+          fill="none" stroke="url(#nebula-pink-lg)" stroke-width="4" opacity="0.65" stroke-linecap="round"/>
+    <path d="M 36 135 Q 51 148, 71 158 Q 90 163, 111 162 Q 131 158, 146 148"
+          fill="none" stroke="url(#amber-warmth)" stroke-width="2" opacity="0.55" stroke-linecap="round"/>
+
+    <!-- Fourth major spiral arm -->
+    <path d="M 145 152 Q 155 140, 162 125 Q 168 105, 165 85 Q 160 65, 148 50"
+          fill="none" stroke="url(#ruby-supernova-lg)" stroke-width="9" opacity="0.75" stroke-linecap="round"/>
+    <path d="M 143 152 Q 153 140, 160 125 Q 166 105, 163 85 Q 158 65, 146 50"
+          fill="none" stroke="url(#nebula-violet-lg)" stroke-width="4" opacity="0.65" stroke-linecap="round"/>
+    <path d="M 141 152 Q 151 140, 158 125 Q 164 105, 161 85 Q 156 65, 144 50"
+          fill="none" stroke="url(#golden-core-lg)" stroke-width="2" opacity="0.55" stroke-linecap="round"/>
+
+    <!-- Inner spiral rings - fractal structure -->
+    <circle cx="100" cy="100" r="65" fill="none" stroke="url(#cosmic-shimmer-lg)" stroke-width="2.5" opacity="0.6"/>
+    <circle cx="100" cy="100" r="58" fill="none" stroke="url(#deep-indigo-lg)" stroke-width="2" opacity="0.65"/>
+    <circle cx="100" cy="100" r="50" fill="none" stroke="url(#nebula-pink-lg)" stroke-width="2" opacity="0.7"/>
+    <circle cx="100" cy="100" r="42" fill="none" stroke="url(#young-star-blue-lg)" stroke-width="1.8" opacity="0.7"/>
+    <circle cx="100" cy="100" r="34" fill="none" stroke="url(#emerald-burst-lg)" stroke-width="1.5" opacity="0.75"/>
+
+    <!-- Central supermassive structure -->
+    <circle cx="100" cy="100" r="28" fill="url(#supermassive-glow)"/>
+    <circle cx="100" cy="100" r="25" fill="url(#golden-core-lg)" opacity="0.98"/>
+    <circle cx="100" cy="100" r="20" fill="url(#ruby-supernova-lg)" opacity="0.88"/>
+    <circle cx="100" cy="100" r="15" fill="url(#young-star-blue-lg)" opacity="0.85"/>
+    <circle cx="100" cy="100" r="10" fill="url(#nebula-violet-lg)" opacity="0.8"/>
+    <circle cx="100" cy="100" r="6" fill="#ffffff"/>
+
+    <!-- Core geometric pattern -->
+    <circle cx="100" cy="100" r="18" fill="none" stroke="url(#cosmic-shimmer-lg)" stroke-width="1" opacity="0.7"/>
+    <line x1="88" y1="100" x2="112" y2="100" stroke="#ffffff" stroke-width="0.8" opacity="0.5"/>
+    <line x1="100" y1="88" x2="100" y2="112" stroke="#ffffff" stroke-width="0.8" opacity="0.5"/>
+
+    <!-- Star clusters in outer regions -->
+    <circle cx="55" cy="38" r="5" fill="url(#young-star-blue-lg)" opacity="0.95"/>
+    <circle cx="55" cy="38" r="3" fill="#ffffff"/>
+    <circle cx="55" cy="38" r="1.5" fill="url(#sapphire-radiation)"/>
+
+    <circle cx="32" cy="75" r="4.5" fill="url(#nebula-pink-lg)" opacity="0.92"/>
+    <circle cx="32" cy="75" r="2.8" fill="#ffffff"/>
+    <circle cx="32" cy="75" r="1.3" fill="url(#ruby-supernova-lg)"/>
+
+    <circle cx="42" cy="118" r="5" fill="url(#emerald-burst-lg)" opacity="0.95"/>
+    <circle cx="42" cy="118" r="3" fill="#ffffff"/>
+    <circle cx="42" cy="118" r="1.5" fill="url(#amber-warmth)"/>
+
+    <circle cx="82" cy="152" r="4.5" fill="url(#nebula-violet-lg)" opacity="0.92"/>
+    <circle cx="82" cy="152" r="2.8" fill="#ffffff"/>
+    <circle cx="82" cy="152" r="1.3" fill="url(#deep-indigo-lg)"/>
+
+    <circle cx="145" cy="42" r="5" fill="url(#ruby-supernova-lg)" opacity="0.95"/>
+    <circle cx="145" cy="42" r="3" fill="#ffffff"/>
+    <circle cx="145" cy="42" r="1.5" fill="url(#nebula-pink-lg)"/>
+
+    <circle cx="165" cy="88" r="4.5" fill="url(#deep-indigo-lg)" opacity="0.92"/>
+    <circle cx="165" cy="88" r="2.8" fill="#ffffff"/>
+    <circle cx="165" cy="88" r="1.3" fill="url(#sapphire-radiation)"/>
+
+    <circle cx="152" cy="132" r="5" fill="url(#golden-core-lg)" opacity="0.95"/>
+    <circle cx="152" cy="132" r="3" fill="#ffffff"/>
+    <circle cx="152" cy="132" r="1.5" fill="url(#amber-warmth)"/>
+
+    <!-- Secondary star clusters -->
+    <circle cx="70" cy="52" r="3.5" fill="url(#amber-warmth)" opacity="0.88"/>
+    <circle cx="70" cy="52" r="2" fill="#ffffff"/>
+
+    <circle cx="48" cy="95" r="3.2" fill="url(#sapphire-radiation)" opacity="0.85"/>
+    <circle cx="48" cy="95" r="1.8" fill="#ffffff"/>
+
+    <circle cx="62" cy="138" r="3.5" fill="url(#nebula-pink-lg)" opacity="0.88"/>
+    <circle cx="62" cy="138" r="2" fill="#ffffff"/>
+
+    <circle cx="128" cy="48" r="3.2" fill="url(#emerald-burst-lg)" opacity="0.85"/>
+    <circle cx="128" cy="48" r="1.8" fill="#ffffff"/>
+
+    <circle cx="152" cy="105" r="3.5" fill="url(#nebula-violet-lg)" opacity="0.88"/>
+    <circle cx="152" cy="105" r="2" fill="#ffffff"/>
+
+    <circle cx="115" cy="145" r="3.2" fill="url(#young-star-blue-lg)" opacity="0.85"/>
+    <circle cx="115" cy="145" r="1.8" fill="#ffffff"/>
+
+    <!-- Expansive nebula clouds -->
+    <ellipse cx="60" cy="48" rx="18" ry="12" fill="url(#nebula-violet-lg)" opacity="0.35" transform="rotate(-25 60 48)"/>
+    <ellipse cx="38" cy="95" rx="16" ry="10" fill="url(#nebula-pink-lg)" opacity="0.35" transform="rotate(15 38 95)"/>
+    <ellipse cx="68" cy="145" rx="15" ry="9" fill="url(#young-star-blue-lg)" opacity="0.35" transform="rotate(-35 68 145)"/>
+    <ellipse cx="140" cy="52" rx="14" ry="8" fill="url(#emerald-burst-lg)" opacity="0.35" transform="rotate(40 140 52)"/>
+    <ellipse cx="158" cy="110" rx="16" ry="11" fill="url(#ruby-supernova-lg)" opacity="0.35" transform="rotate(-18 158 110)"/>
+
+    <!-- Molecular cloud complexes -->
+    <circle cx="52" cy="65" r="8" fill="url(#deep-indigo-lg)" opacity="0.28"/>
+    <circle cx="135" cy="72" r="7" fill="url(#nebula-violet-lg)" opacity="0.28"/>
+    <circle cx="75" cy="135" r="7.5" fill="url(#nebula-pink-lg)" opacity="0.28"/>
+    <circle cx="125" cy="128" r="7" fill="url(#young-star-blue-lg)" opacity="0.28"/>
+
+    <!-- Stellar jets from core -->
+    <line x1="100" y1="72" x2="100" y2="50" stroke="url(#golden-core-lg)" stroke-width="2.5" opacity="0.7"/>
+    <line x1="128" y1="100" x2="150" y2="100" stroke="url(#ruby-supernova-lg)" stroke-width="2.5" opacity="0.7"/>
+    <line x1="100" y1="128" x2="100" y2="150" stroke="url(#young-star-blue-lg)" stroke-width="2.5" opacity="0.7"/>
+    <line x1="72" y1="100" x2="50" y2="100" stroke="url(#emerald-burst-lg)" stroke-width="2.5" opacity="0.7"/>
+
+    <!-- Diagonal radiation -->
+    <line x1="82" y1="82" x2="65" y2="65" stroke="url(#nebula-violet-lg)" stroke-width="2" opacity="0.6"/>
+    <line x1="118" y1="82" x2="135" y2="65" stroke="url(#nebula-pink-lg)" stroke-width="2" opacity="0.6"/>
+    <line x1="118" y1="118" x2="135" y2="135" stroke="url(#sapphire-radiation)" stroke-width="2" opacity="0.6"/>
+    <line x1="82" y1="118" x2="65" y2="135" stroke="url(#amber-warmth)" stroke-width="2" opacity="0.6"/>
+
+    <!-- Background star field -->
+    <circle cx="25" cy="25" r="1.5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="175" cy="25" r="1.3" fill="#dbeafe" opacity="0.8"/>
+    <circle cx="175" cy="175" r="1.6" fill="#fce7f3" opacity="0.9"/>
+    <circle cx="25" cy="175" r="1.2" fill="#e9d5ff" opacity="0.8"/>
+    <circle cx="120" cy="18" r="1.4" fill="#d1fae5" opacity="0.8"/>
+    <circle cx="182" cy="75" r="1.5" fill="#ffe4e6" opacity="0.9"/>
+    <circle cx="162" cy="172" r="1.3" fill="#dbeafe" opacity="0.8"/>
+    <circle cx="18" cy="140" r="1.6" fill="#fce7f3" opacity="0.9"/>
+
+    <!-- Micro stars scattered throughout -->
+    <circle cx="78" cy="42" r="0.8" fill="#ffffff" opacity="0.7"/>
+    <circle cx="105" cy="58" r="0.9" fill="#ffffff" opacity="0.75"/>
+    <circle cx="128" cy="78" r="0.7" fill="#ffffff" opacity="0.7"/>
+    <circle cx="118" cy="115" r="0.9" fill="#ffffff" opacity="0.75"/>
+    <circle cx="82" cy="115" r="0.8" fill="#ffffff" opacity="0.7"/>
+    <circle cx="62" cy="125" r="0.9" fill="#ffffff" opacity="0.75"/>
+    <circle cx="115" cy="138" r="0.7" fill="#ffffff" opacity="0.7"/>
+    <circle cx="142" cy="95" r="0.8" fill="#ffffff" opacity="0.7"/>
+    <circle cx="58" cy="82" r="0.9" fill="#ffffff" opacity="0.75"/>
+
+    <!-- Gamma ray bursts -->
+    <circle cx="158" cy="38" r="3" fill="url(#emerald-burst-lg)" opacity="0.8"/>
+    <line x1="158" y1="38" x2="163" y2="33" stroke="#6ee7b7" stroke-width="1" opacity="0.7"/>
+    <line x1="158" y1="38" x2="153" y2="33" stroke="#6ee7b7" stroke-width="1" opacity="0.7"/>
+    <line x1="158" y1="38" x2="163" y2="43" stroke="#6ee7b7" stroke-width="0.8" opacity="0.6"/>
+    <line x1="158" y1="38" x2="153" y2="43" stroke="#6ee7b7" stroke-width="0.8" opacity="0.6"/>
+
+    <circle cx="42" cy="148" r="2.5" fill="url(#sapphire-radiation)" opacity="0.75"/>
+    <line x1="42" y1="148" x2="47" y2="153" stroke="#93c5fd" stroke-width="0.8" opacity="0.7"/>
+    <line x1="42" y1="148" x2="37" y2="153" stroke="#93c5fd" stroke-width="0.8" opacity="0.7"/>
+
+    <!-- Quasar activity indicators -->
+    <circle cx="88" cy="88" r="2" fill="url(#golden-core-lg)" opacity="0.6"/>
+    <circle cx="112" cy="88" r="2" fill="url(#ruby-supernova-lg)" opacity="0.6"/>
+    <circle cx="112" cy="112" r="2" fill="url(#sapphire-radiation)" opacity="0.6"/>
+    <circle cx="88" cy="112" r="2" fill="url(#emerald-burst-lg)" opacity="0.6"/>
+  </g>
+</svg>

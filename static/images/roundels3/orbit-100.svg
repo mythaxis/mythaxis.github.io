@@ -1,0 +1,218 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Orbit: The Harmony of Spheres - Orbital paths with planetary color frequencies -->
+  <defs>
+    <clipPath id="orbit-clip-small">
+      <circle cx="50" cy="50" r="48"/>
+    </clipPath>
+
+    <!-- Planetary color gradients -->
+    <linearGradient id="mercury-copper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa"/>
+      <stop offset="50%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+
+    <linearGradient id="venus-cream" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fefce8"/>
+      <stop offset="50%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+
+    <linearGradient id="earth-azure" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dbeafe"/>
+      <stop offset="50%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+
+    <linearGradient id="earth-emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d1fae5"/>
+      <stop offset="50%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+
+    <linearGradient id="mars-rust" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fecaca"/>
+      <stop offset="50%" stop-color="#f87171"/>
+      <stop offset="100%" stop-color="#dc2626"/>
+    </linearGradient>
+
+    <!-- Operational purpose colors -->
+    <linearGradient id="comm-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cffafe"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+
+    <linearGradient id="mining-magenta" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fae8ff"/>
+      <stop offset="50%" stop-color="#d946ef"/>
+      <stop offset="100%" stop-color="#c026d3"/>
+    </linearGradient>
+
+    <linearGradient id="colony-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef9c3"/>
+      <stop offset="50%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+
+    <linearGradient id="science-violet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ede9fe"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+
+    <linearGradient id="military-teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ccfbf1"/>
+      <stop offset="50%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </linearGradient>
+
+    <!-- Central star -->
+    <radialGradient id="sol-prismatic">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="30%" stop-color="#fef08a"/>
+      <stop offset="60%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </radialGradient>
+
+    <!-- Orbital shimmer -->
+    <linearGradient id="orbital-shimmer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="20%" stop-color="#d946ef"/>
+      <stop offset="40%" stop-color="#fbbf24"/>
+      <stop offset="60%" stop-color="#8b5cf6"/>
+      <stop offset="80%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer system boundary -->
+  <circle cx="50" cy="50" r="48" fill="none" stroke="url(#orbital-shimmer)" stroke-width="2" opacity="0.9"/>
+  <circle cx="50" cy="50" r="46" fill="none" stroke="url(#military-teal)" stroke-width="0.8" opacity="0.6"/>
+
+  <g clip-path="url(#orbit-clip-small)">
+    <!-- Background space -->
+    <circle cx="50" cy="50" r="44" fill="#0a0520" opacity="0.15"/>
+
+    <!-- Outer orbital paths - Mars and beyond -->
+    <circle cx="50" cy="50" r="42" fill="none" stroke="url(#mars-rust)" stroke-width="1.8" opacity="0.8"/>
+    <circle cx="50" cy="50" r="40" fill="none" stroke="#fecaca" stroke-width="0.5" opacity="0.5"/>
+
+    <!-- Middle orbital paths - Earth -->
+    <circle cx="50" cy="50" r="35" fill="none" stroke="url(#earth-azure)" stroke-width="2" opacity="0.85"/>
+    <circle cx="50" cy="50" r="33" fill="none" stroke="url(#earth-emerald)" stroke-width="1.2" opacity="0.7"/>
+
+    <!-- Inner orbital paths - Venus -->
+    <circle cx="50" cy="50" r="28" fill="none" stroke="url(#venus-cream)" stroke-width="1.8" opacity="0.85"/>
+    <circle cx="50" cy="50" r="26" fill="none" stroke="#fefce8" stroke-width="0.5" opacity="0.5"/>
+
+    <!-- Innermost orbital path - Mercury -->
+    <circle cx="50" cy="50" r="20" fill="none" stroke="url(#mercury-copper)" stroke-width="1.5" opacity="0.85"/>
+    <circle cx="50" cy="50" r="18" fill="none" stroke="#fed7aa" stroke-width="0.5" opacity="0.5"/>
+
+    <!-- Elliptical orbits - showing orbital mechanics -->
+    <ellipse cx="50" cy="50" rx="38" ry="30" fill="none" stroke="url(#comm-cyan)" stroke-width="1.5" opacity="0.6" transform="rotate(30 50 50)"/>
+    <ellipse cx="50" cy="50" rx="32" ry="24" fill="none" stroke="url(#mining-magenta)" stroke-width="1.3" opacity="0.6" transform="rotate(-45 50 50)"/>
+    <ellipse cx="50" cy="50" rx="44" ry="36" fill="none" stroke="url(#science-violet)" stroke-width="1.2" opacity="0.5" transform="rotate(60 50 50)"/>
+
+    <!-- Central Sol -->
+    <circle cx="50" cy="50" r="12" fill="url(#sol-prismatic)"/>
+    <circle cx="50" cy="50" r="10" fill="#fef08a" opacity="0.9"/>
+    <circle cx="50" cy="50" r="7" fill="#fb923c" opacity="0.8"/>
+    <circle cx="50" cy="50" r="4" fill="#ffffff"/>
+
+    <!-- Solar corona -->
+    <circle cx="50" cy="50" r="14" fill="none" stroke="#fef08a" stroke-width="0.8" opacity="0.4"/>
+    <circle cx="50" cy="50" r="16" fill="none" stroke="#fb923c" stroke-width="0.5" opacity="0.3"/>
+
+    <!-- Planets on their orbits -->
+    <!-- Mercury -->
+    <circle cx="50" cy="30" r="3" fill="url(#mercury-copper)" opacity="0.95"/>
+    <circle cx="50" cy="30" r="1.5" fill="#fed7aa"/>
+
+    <!-- Venus -->
+    <circle cx="72" cy="50" r="3.5" fill="url(#venus-cream)" opacity="0.95"/>
+    <circle cx="72" cy="50" r="1.8" fill="#fefce8"/>
+
+    <!-- Earth -->
+    <circle cx="50" cy="85" r="4" fill="url(#earth-azure)" opacity="0.95"/>
+    <circle cx="50" cy="85" r="2" fill="url(#earth-emerald)" opacity="0.8"/>
+    <circle cx="50" cy="85" r="0.8" fill="#ffffff"/>
+
+    <!-- Mars -->
+    <circle cx="15" cy="50" r="3.5" fill="url(#mars-rust)" opacity="0.95"/>
+    <circle cx="15" cy="50" r="1.8" fill="#fecaca"/>
+
+    <!-- Satellites and stations -->
+    <!-- Communications array -->
+    <circle cx="68" cy="32" r="2" fill="url(#comm-cyan)" opacity="0.9"/>
+    <circle cx="68" cy="32" r="0.8" fill="#ffffff"/>
+
+    <circle cx="32" cy="68" r="2" fill="url(#comm-cyan)" opacity="0.9"/>
+    <circle cx="32" cy="68" r="0.8" fill="#ffffff"/>
+
+    <!-- Mining operations -->
+    <rect x="36" y="36" width="3" height="3" fill="url(#mining-magenta)" opacity="0.85"/>
+    <rect x="61" y="61" width="3" height="3" fill="url(#mining-magenta)" opacity="0.85"/>
+
+    <!-- Colony ships -->
+    <circle cx="58" cy="42" r="2.2" fill="url(#colony-gold)" opacity="0.9"/>
+    <circle cx="58" cy="42" r="1" fill="#ffffff"/>
+
+    <!-- Scientific missions -->
+    <circle cx="42" cy="58" r="2" fill="url(#science-violet)" opacity="0.88"/>
+    <circle cx="42" cy="58" r="0.9" fill="#ffffff"/>
+
+    <!-- Military patrols -->
+    <rect x="80" y="48" width="2.5" height="2.5" fill="url(#military-teal)" opacity="0.85" transform="rotate(45 81.25 49.25)"/>
+    <rect x="17" y="48" width="2.5" height="2.5" fill="url(#military-teal)" opacity="0.85" transform="rotate(45 18.25 49.25)"/>
+
+    <!-- Orbital connection lines - showing gravitational relationships -->
+    <line x1="50" y1="50" x2="50" y2="30" stroke="url(#mercury-copper)" stroke-width="0.5" opacity="0.4"/>
+    <line x1="50" y1="50" x2="72" y2="50" stroke="url(#venus-cream)" stroke-width="0.5" opacity="0.4"/>
+    <line x1="50" y1="50" x2="50" y2="85" stroke="url(#earth-azure)" stroke-width="0.5" opacity="0.4"/>
+    <line x1="50" y1="50" x2="15" y2="50" stroke="url(#mars-rust)" stroke-width="0.5" opacity="0.4"/>
+
+    <!-- Satellite connections -->
+    <line x1="50" y1="50" x2="68" y2="32" stroke="url(#comm-cyan)" stroke-width="0.3" opacity="0.35"/>
+    <line x1="50" y1="50" x2="58" y2="42" stroke="url(#colony-gold)" stroke-width="0.3" opacity="0.35"/>
+
+    <!-- Orbital velocity indicators -->
+    <path d="M 48 27 L 50 30 L 52 27" fill="none" stroke="#fb923c" stroke-width="1" stroke-linecap="round"/>
+    <path d="M 75 50 L 72 48 L 72 52 Z" fill="#f59e0b"/>
+    <path d="M 52 88 L 50 85 L 48 88" fill="none" stroke="#2563eb" stroke-width="1" stroke-linecap="round"/>
+    <path d="M 12 50 L 15 52 L 15 48 Z" fill="#dc2626"/>
+
+    <!-- Lagrange points -->
+    <circle cx="50" cy="20" r="1.2" fill="url(#science-violet)" opacity="0.7"/>
+    <circle cx="86" cy="50" r="1.2" fill="url(#science-violet)" opacity="0.7"/>
+    <circle cx="50" cy="92" r="1.2" fill="url(#science-violet)" opacity="0.7"/>
+    <circle cx="14" cy="50" r="1.2" fill="url(#science-violet)" opacity="0.7"/>
+
+    <!-- Background stars -->
+    <circle cx="12" cy="12" r="0.7" fill="#ffffff" opacity="0.8"/>
+    <circle cx="88" cy="12" r="0.6" fill="#dbeafe" opacity="0.7"/>
+    <circle cx="88" cy="88" r="0.8" fill="#fae8ff" opacity="0.8"/>
+    <circle cx="12" cy="88" r="0.6" fill="#ccfbf1" opacity="0.7"/>
+
+    <!-- Micro satellites -->
+    <circle cx="62" cy="25" r="0.8" fill="url(#comm-cyan)" opacity="0.6"/>
+    <circle cx="80" cy="38" r="0.9" fill="url(#mining-magenta)" opacity="0.6"/>
+    <circle cx="75" cy="62" r="0.8" fill="url(#colony-gold)" opacity="0.6"/>
+    <circle cx="38" cy="75" r="0.9" fill="url(#science-violet)" opacity="0.6"/>
+    <circle cx="25" cy="62" r="0.8" fill="url(#military-teal)" opacity="0.6"/>
+    <circle cx="20" cy="38" r="0.9" fill="url(#comm-cyan)" opacity="0.6"/>
+
+    <!-- Orbital grid markers -->
+    <line x1="50" y1="4" x2="50" y2="6" stroke="url(#orbital-shimmer)" stroke-width="1" opacity="0.7"/>
+    <line x1="94" y1="50" x2="96" y2="50" stroke="url(#orbital-shimmer)" stroke-width="1" opacity="0.7"/>
+    <line x1="50" y1="96" x2="50" y2="94" stroke="url(#orbital-shimmer)" stroke-width="1" opacity="0.7"/>
+    <line x1="4" y1="50" x2="6" y2="50" stroke="url(#orbital-shimmer)" stroke-width="1" opacity="0.7"/>
+
+    <!-- Orbital resonance markers -->
+    <circle cx="65" cy="65" r="1" fill="url(#colony-gold)" opacity="0.5"/>
+    <circle cx="35" cy="35" r="1" fill="url(#comm-cyan)" opacity="0.5"/>
+    <circle cx="65" cy="35" r="1" fill="url(#mining-magenta)" opacity="0.5"/>
+    <circle cx="35" cy="65" r="1" fill="url(#science-violet)" opacity="0.5"/>
+  </g>
+</svg>

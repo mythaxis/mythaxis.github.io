@@ -1,0 +1,223 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Sci-Fi: The Singularity Grid - Expansive AI neural architecture with fractal circuits -->
+  <defs>
+    <clipPath id="scifi-clip-large">
+      <circle cx="100" cy="100" r="96"/>
+    </clipPath>
+
+    <!-- Enhanced quantum data streams -->
+    <linearGradient id="cyan-stream-lg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a5f3fc"/>
+      <stop offset="50%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+
+    <linearGradient id="magenta-stream-lg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fce7f3"/>
+      <stop offset="50%" stop-color="#f9a8d4"/>
+      <stop offset="100%" stop-color="#db2777"/>
+    </linearGradient>
+
+    <linearGradient id="yellow-stream-lg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fefce8"/>
+      <stop offset="50%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+
+    <linearGradient id="orange-stream" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa"/>
+      <stop offset="50%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+
+    <radialGradient id="quantum-core-lg">
+      <stop offset="0%" stop-color="#bfdbfe"/>
+      <stop offset="50%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1e40af"/>
+    </radialGradient>
+
+    <linearGradient id="circuit-glow-lg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="20%" stop-color="#f9a8d4"/>
+      <stop offset="40%" stop-color="#fde047"/>
+      <stop offset="60%" stop-color="#fb923c"/>
+      <stop offset="80%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+
+    <!-- Neural pulse -->
+    <radialGradient id="neural-pulse-lg">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="30%" stop-color="#67e8f9" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#3b82f6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#1e40af" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Logic pathway pattern -->
+    <pattern id="logic-grid" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="20" y2="0" stroke="#67e8f9" stroke-width="0.3" opacity="0.3"/>
+      <line x1="0" y1="0" x2="0" y2="20" stroke="#67e8f9" stroke-width="0.3" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Outer circuit boundary with multiple layers -->
+  <circle cx="100" cy="100" r="96" fill="none" stroke="url(#cyan-stream-lg)" stroke-width="4" opacity="0.9"/>
+  <circle cx="100" cy="100" r="92" fill="none" stroke="url(#circuit-glow-lg)" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="100" cy="100" r="88" fill="none" stroke="url(#magenta-stream-lg)" stroke-width="0.8" opacity="0.6"/>
+
+  <g clip-path="url(#scifi-clip-large)">
+    <!-- Background quantum field with logic grid -->
+    <rect x="0" y="0" width="200" height="200" fill="url(#logic-grid)" opacity="0.4"/>
+    <circle cx="100" cy="100" r="84" fill="url(#quantum-core-lg)" opacity="0.06"/>
+
+    <!-- Primary circuit grid - major data highways -->
+    <rect x="20" y="95" width="160" height="10" fill="url(#cyan-stream-lg)" opacity="0.5"/>
+    <rect x="20" y="96" width="160" height="8" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.4"/>
+
+    <rect x="95" y="20" width="10" height="160" fill="url(#magenta-stream-lg)" opacity="0.5"/>
+    <rect x="96" y="20" width="8" height="160" fill="none" stroke="#ffffff" stroke-width="0.5" opacity="0.4"/>
+
+    <!-- Secondary pathways -->
+    <rect x="40" y="98" width="120" height="4" fill="url(#yellow-stream-lg)" opacity="0.4"/>
+    <rect x="98" y="40" width="4" height="120" fill="url(#orange-stream)" opacity="0.4"/>
+
+    <!-- Diagonal data transmission lines -->
+    <line x1="25" y1="25" x2="175" y2="175" stroke="url(#yellow-stream-lg)" stroke-width="6" opacity="0.5"/>
+    <line x1="26" y1="25" x2="176" y2="175" stroke="#ffffff" stroke-width="1" opacity="0.3"/>
+
+    <line x1="175" y1="25" x2="25" y2="175" stroke="url(#cyan-stream-lg)" stroke-width="6" opacity="0.5"/>
+    <line x1="174" y1="25" x2="24" y2="175" stroke="#ffffff" stroke-width="1" opacity="0.3"/>
+
+    <!-- Circuit node frames - fractal structure -->
+    <rect x="45" y="45" width="110" height="110" fill="none" stroke="url(#circuit-glow-lg)" stroke-width="3"/>
+    <rect x="47" y="47" width="106" height="106" fill="none" stroke="#67e8f9" stroke-width="0.5" opacity="0.6"/>
+
+    <rect x="60" y="60" width="80" height="80" fill="none" stroke="url(#magenta-stream-lg)" stroke-width="2.5"/>
+    <rect x="62" y="62" width="76" height="76" fill="none" stroke="#f9a8d4" stroke-width="0.5" opacity="0.6"/>
+
+    <rect x="75" y="75" width="50" height="50" fill="none" stroke="url(#yellow-stream-lg)" stroke-width="2"/>
+    <rect x="77" y="77" width="46" height="46" fill="none" stroke="#fde047" stroke-width="0.5" opacity="0.6"/>
+
+    <!-- Quantum processors - corner nodes with complex structure -->
+    <rect x="18" y="18" width="22" height="22" fill="url(#quantum-core-lg)" opacity="0.8"/>
+    <rect x="20" y="20" width="18" height="18" fill="none" stroke="#67e8f9" stroke-width="2"/>
+    <rect x="22" y="22" width="14" height="14" fill="none" stroke="#a5f3fc" stroke-width="1"/>
+    <circle cx="29" cy="29" r="4" fill="#fde047"/>
+    <circle cx="29" cy="29" r="2" fill="#ffffff"/>
+
+    <rect x="160" y="18" width="22" height="22" fill="url(#quantum-core-lg)" opacity="0.8"/>
+    <rect x="162" y="20" width="18" height="18" fill="none" stroke="#f9a8d4" stroke-width="2"/>
+    <rect x="164" y="22" width="14" height="14" fill="none" stroke="#fce7f3" stroke-width="1"/>
+    <circle cx="171" cy="29" r="4" fill="#67e8f9"/>
+    <circle cx="171" cy="29" r="2" fill="#ffffff"/>
+
+    <rect x="160" y="160" width="22" height="22" fill="url(#quantum-core-lg)" opacity="0.8"/>
+    <rect x="162" y="162" width="18" height="18" fill="none" stroke="#fde047" stroke-width="2"/>
+    <rect x="164" y="164" width="14" height="14" fill="none" stroke="#fefce8" stroke-width="1"/>
+    <circle cx="171" cy="171" r="4" fill="#f9a8d4"/>
+    <circle cx="171" cy="171" r="2" fill="#ffffff"/>
+
+    <rect x="18" y="160" width="22" height="22" fill="url(#quantum-core-lg)" opacity="0.8"/>
+    <rect x="20" y="162" width="18" height="18" fill="none" stroke="#67e8f9" stroke-width="2"/>
+    <rect x="22" y="164" width="14" height="14" fill="none" stroke="#a5f3fc" stroke-width="1"/>
+    <circle cx="29" cy="171" r="4" fill="#fb923c"/>
+    <circle cx="29" cy="171" r="2" fill="#ffffff"/>
+
+    <!-- Central AI core - the singularity -->
+    <circle cx="100" cy="100" r="25" fill="url(#neural-pulse-lg)"/>
+    <circle cx="100" cy="100" r="22" fill="url(#quantum-core-lg)" opacity="0.95"/>
+    <circle cx="100" cy="100" r="18" fill="none" stroke="url(#circuit-glow-lg)" stroke-width="2.5"/>
+    <circle cx="100" cy="100" r="14" fill="none" stroke="#67e8f9" stroke-width="1.5" opacity="0.8"/>
+    <circle cx="100" cy="100" r="10" fill="none" stroke="#f9a8d4" stroke-width="1" opacity="0.7"/>
+    <circle cx="100" cy="100" r="6" fill="#a5f3fc" opacity="0.95"/>
+    <circle cx="100" cy="100" r="3" fill="#ffffff"/>
+
+    <!-- Inner core geometric patterns -->
+    <rect x="95" y="95" width="10" height="10" fill="none" stroke="#fde047" stroke-width="1" opacity="0.6"/>
+    <line x1="95" y1="95" x2="105" y2="105" stroke="#fb923c" stroke-width="0.5" opacity="0.5"/>
+    <line x1="105" y1="95" x2="95" y2="105" stroke="#fb923c" stroke-width="0.5" opacity="0.5"/>
+
+    <!-- Data flow nodes on main axes -->
+    <circle cx="100" cy="35" r="7" fill="url(#magenta-stream-lg)" opacity="0.95"/>
+    <circle cx="100" cy="35" r="5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="100" cy="35" r="2.5" fill="#db2777"/>
+
+    <circle cx="165" cy="100" r="7" fill="url(#cyan-stream-lg)" opacity="0.95"/>
+    <circle cx="165" cy="100" r="5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="165" cy="100" r="2.5" fill="#06b6d4"/>
+
+    <circle cx="100" cy="165" r="7" fill="url(#yellow-stream-lg)" opacity="0.95"/>
+    <circle cx="100" cy="165" r="5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="100" cy="165" r="2.5" fill="#ca8a04"/>
+
+    <circle cx="35" cy="100" r="7" fill="url(#orange-stream)" opacity="0.95"/>
+    <circle cx="35" cy="100" r="5" fill="#ffffff" opacity="0.9"/>
+    <circle cx="35" cy="100" r="2.5" fill="#ea580c"/>
+
+    <!-- Intermediate neural processing nodes -->
+    <rect x="48" y="48" width="12" height="12" fill="url(#cyan-stream-lg)" opacity="0.85"/>
+    <rect x="50" y="50" width="8" height="8" fill="none" stroke="#ffffff" stroke-width="1"/>
+
+    <rect x="140" y="48" width="12" height="12" fill="url(#magenta-stream-lg)" opacity="0.85"/>
+    <rect x="142" y="50" width="8" height="8" fill="none" stroke="#ffffff" stroke-width="1"/>
+
+    <rect x="140" y="140" width="12" height="12" fill="url(#yellow-stream-lg)" opacity="0.85"/>
+    <rect x="142" y="142" width="8" height="8" fill="none" stroke="#ffffff" stroke-width="1"/>
+
+    <rect x="48" y="140" width="12" height="12" fill="url(#orange-stream)" opacity="0.85"/>
+    <rect x="50" y="142" width="8" height="8" fill="none" stroke="#ffffff" stroke-width="1"/>
+
+    <!-- Connection traces from corners to center -->
+    <path d="M 29 29 L 54 54" stroke="url(#cyan-stream-lg)" stroke-width="2.5" opacity="0.7"/>
+    <path d="M 171 29 L 146 54" stroke="url(#magenta-stream-lg)" stroke-width="2.5" opacity="0.7"/>
+    <path d="M 171 171 L 146 146" stroke="url(#yellow-stream-lg)" stroke-width="2.5" opacity="0.7"/>
+    <path d="M 29 171 L 54 146" stroke="url(#orange-stream)" stroke-width="2.5" opacity="0.7"/>
+
+    <!-- Data stream indicators with flow direction -->
+    <line x1="100" y1="35" x2="100" y2="75" stroke="url(#circuit-glow-lg)" stroke-width="2" opacity="0.7"/>
+    <line x1="165" y1="100" x2="125" y2="100" stroke="url(#circuit-glow-lg)" stroke-width="2" opacity="0.7"/>
+    <line x1="100" y1="165" x2="100" y2="125" stroke="url(#circuit-glow-lg)" stroke-width="2" opacity="0.7"/>
+    <line x1="35" y1="100" x2="75" y2="100" stroke="url(#circuit-glow-lg)" stroke-width="2" opacity="0.7"/>
+
+    <!-- Circuit traces - intricate pathway details -->
+    <polyline points="54,48 54,42 70,42 70,48" fill="none" stroke="#67e8f9" stroke-width="1.2" opacity="0.7"/>
+    <polyline points="146,48 146,42 130,42 130,48" fill="none" stroke="#f9a8d4" stroke-width="1.2" opacity="0.7"/>
+    <polyline points="146,152 146,158 130,158 130,152" fill="none" stroke="#fde047" stroke-width="1.2" opacity="0.7"/>
+    <polyline points="54,152 54,158 70,158 70,152" fill="none" stroke="#fb923c" stroke-width="1.2" opacity="0.7"/>
+
+    <!-- Vertical traces -->
+    <polyline points="48,54 42,54 42,70 48,70" fill="none" stroke="#67e8f9" stroke-width="1.2" opacity="0.7"/>
+    <polyline points="152,54 158,54 158,70 152,70" fill="none" stroke="#f9a8d4" stroke-width="1.2" opacity="0.7"/>
+    <polyline points="152,146 158,146 158,130 152,130" fill="none" stroke="#fde047" stroke-width="1.2" opacity="0.7"/>
+    <polyline points="48,146 42,146 42,130 48,130" fill="none" stroke="#fb923c" stroke-width="1.2" opacity="0.7"/>
+
+    <!-- Quantum data particles in motion -->
+    <circle cx="45" cy="55" r="2.5" fill="#67e8f9" opacity="0.9"/>
+    <circle cx="155" cy="55" r="2.5" fill="#f9a8d4" opacity="0.9"/>
+    <circle cx="155" cy="145" r="2.5" fill="#fde047" opacity="0.9"/>
+    <circle cx="45" cy="145" r="2.5" fill="#fb923c" opacity="0.9"/>
+
+    <circle cx="70" cy="85" r="2" fill="#ec4899" opacity="0.85"/>
+    <circle cx="130" cy="85" r="2" fill="#22d3ee" opacity="0.85"/>
+    <circle cx="130" cy="115" r="2" fill="#fde047" opacity="0.85"/>
+    <circle cx="70" cy="115" r="2" fill="#fb923c" opacity="0.85"/>
+
+    <!-- Micro processors scattered -->
+    <rect x="80" y="60" width="4" height="4" fill="#a5f3fc" opacity="0.7"/>
+    <rect x="116" y="60" width="4" height="4" fill="#fce7f3" opacity="0.7"/>
+    <rect x="116" y="136" width="4" height="4" fill="#fefce8" opacity="0.7"/>
+    <rect x="80" y="136" width="4" height="4" fill="#fed7aa" opacity="0.7"/>
+
+    <!-- Directional flow indicators -->
+    <path d="M 96 30 L 100 35 L 104 30" fill="none" stroke="#f9a8d4" stroke-width="2"/>
+    <path d="M 170 96 L 165 100 L 170 104" fill="none" stroke="#67e8f9" stroke-width="2"/>
+    <path d="M 104 170 L 100 165 L 96 170" fill="none" stroke="#fde047" stroke-width="2"/>
+    <path d="M 30 104 L 35 100 L 30 96" fill="none" stroke="#fb923c" stroke-width="2"/>
+
+    <!-- Processing status lights -->
+    <circle cx="62" cy="62" r="1.5" fill="#4ade80" opacity="0.9"/>
+    <circle cx="138" cy="62" r="1.5" fill="#4ade80" opacity="0.9"/>
+    <circle cx="138" cy="138" r="1.5" fill="#4ade80" opacity="0.9"/>
+    <circle cx="62" cy="138" r="1.5" fill="#4ade80" opacity="0.9"/>
+  </g>
+</svg>

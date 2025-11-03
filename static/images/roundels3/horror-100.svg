@@ -1,0 +1,156 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Horror: The Eye Beyond the Veil - Eldritch eye with corrupted tissue and bleeding reality -->
+  <defs>
+    <clipPath id="horror-clip-small">
+      <circle cx="50" cy="50" r="48"/>
+    </clipPath>
+
+    <!-- Diseased color gradients -->
+    <radialGradient id="sickly-green">
+      <stop offset="0%" stop-color="#bef264"/>
+      <stop offset="50%" stop-color="#84cc16"/>
+      <stop offset="100%" stop-color="#4d7c0f"/>
+    </radialGradient>
+
+    <radialGradient id="putrid-yellow">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#facc15"/>
+      <stop offset="100%" stop-color="#a16207"/>
+    </radialGradient>
+
+    <radialGradient id="corpse-blue">
+      <stop offset="0%" stop-color="#bae6fd"/>
+      <stop offset="50%" stop-color="#7dd3fc"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </radialGradient>
+
+    <radialGradient id="blood-red">
+      <stop offset="0%" stop-color="#fca5a5"/>
+      <stop offset="50%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </radialGradient>
+
+    <radialGradient id="gangrenous-purple">
+      <stop offset="0%" stop-color="#d8b4fe"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#6b21a8"/>
+    </radialGradient>
+
+    <radialGradient id="void-center">
+      <stop offset="0%" stop-color="#0c0a09"/>
+      <stop offset="70%" stop-color="#1c1917"/>
+      <stop offset="100%" stop-color="#292524"/>
+    </radialGradient>
+
+    <!-- Bloodshot vein pattern -->
+    <radialGradient id="bloodshot">
+      <stop offset="0%" stop-color="#fca5a5" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#dc2626" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#7f1d1d" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Corrupted tissue gradient -->
+    <linearGradient id="corrupted-flesh" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#84cc16"/>
+      <stop offset="25%" stop-color="#facc15"/>
+      <stop offset="50%" stop-color="#ef4444"/>
+      <stop offset="75%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer reality tear -->
+  <circle cx="50" cy="50" r="48" fill="none" stroke="url(#blood-red)" stroke-width="2.5" opacity="0.9"/>
+  <circle cx="50" cy="50" r="46" fill="none" stroke="url(#corrupted-flesh)" stroke-width="0.8" opacity="0.7" stroke-dasharray="3,2"/>
+
+  <g clip-path="url(#horror-clip-small)">
+    <!-- Background void seeping through -->
+    <circle cx="50" cy="50" r="44" fill="url(#void-center)" opacity="0.15"/>
+
+    <!-- Outermost iris ring - sickly green -->
+    <circle cx="50" cy="50" r="40" fill="none" stroke="url(#sickly-green)" stroke-width="4" opacity="0.8"/>
+    <circle cx="50" cy="50" r="38" fill="url(#bloodshot)" opacity="0.3"/>
+
+    <!-- Bloodshot veins radiating outward -->
+    <line x1="50" y1="10" x2="50" y2="25" stroke="url(#blood-red)" stroke-width="1.5" opacity="0.7"/>
+    <line x1="85" y1="25" x2="72" y2="32" stroke="url(#blood-red)" stroke-width="1.2" opacity="0.6"/>
+    <line x1="90" y1="50" x2="75" y2="50" stroke="url(#blood-red)" stroke-width="1.5" opacity="0.7"/>
+    <line x1="85" y1="75" x2="72" y2="68" stroke="url(#blood-red)" stroke-width="1.2" opacity="0.6"/>
+    <line x1="50" y1="90" x2="50" y2="75" stroke="url(#blood-red)" stroke-width="1.5" opacity="0.7"/>
+    <line x1="15" y1="75" x2="28" y2="68" stroke="url(#blood-red)" stroke-width="1.2" opacity="0.6"/>
+    <line x1="10" y1="50" x2="25" y2="50" stroke="url(#blood-red)" stroke-width="1.5" opacity="0.7"/>
+    <line x1="15" y1="25" x2="28" y2="32" stroke="url(#blood-red)" stroke-width="1.2" opacity="0.6"/>
+
+    <!-- Secondary vein network -->
+    <line x1="68" y1="18" x2="62" y2="28" stroke="#ef4444" stroke-width="0.8" opacity="0.5"/>
+    <line x1="82" y1="32" x2="70" y2="38" stroke="#ef4444" stroke-width="0.8" opacity="0.5"/>
+    <line x1="82" y1="68" x2="70" y2="62" stroke="#ef4444" stroke-width="0.8" opacity="0.5"/>
+    <line x1="68" y1="82" x2="62" y2="72" stroke="#ef4444" stroke-width="0.8" opacity="0.5"/>
+    <line x1="32" y1="82" x2="38" y2="72" stroke="#ef4444" stroke-width="0.8" opacity="0.5"/>
+    <line x1="18" y1="68" x2="30" y2="62" stroke="#ef4444" stroke-width="0.8" opacity="0.5"/>
+    <line x1="18" y1="32" x2="30" y2="38" stroke="#ef4444" stroke-width="0.8" opacity="0.5"/>
+    <line x1="32" y1="18" x2="38" y2="28" stroke="#ef4444" stroke-width="0.8" opacity="0.5"/>
+
+    <!-- Second iris ring - putrid yellow -->
+    <circle cx="50" cy="50" r="32" fill="none" stroke="url(#putrid-yellow)" stroke-width="4" opacity="0.85"/>
+    <circle cx="50" cy="50" r="30" fill="url(#bloodshot)" opacity="0.25"/>
+
+    <!-- Third iris ring - corpse blue -->
+    <circle cx="50" cy="50" r="24" fill="none" stroke="url(#corpse-blue)" stroke-width="3.5" opacity="0.85"/>
+    <circle cx="50" cy="50" r="22" fill="url(#bloodshot)" opacity="0.2"/>
+
+    <!-- Fourth iris ring - gangrenous purple -->
+    <circle cx="50" cy="50" r="16" fill="none" stroke="url(#gangrenous-purple)" stroke-width="3" opacity="0.9"/>
+    <circle cx="50" cy="50" r="14" fill="url(#bloodshot)" opacity="0.15"/>
+
+    <!-- The void pupil -->
+    <circle cx="50" cy="50" r="10" fill="url(#void-center)" opacity="0.95"/>
+    <circle cx="50" cy="50" r="8" fill="#000000"/>
+
+    <!-- Corrupted tissue nodes in pupil -->
+    <circle cx="50" cy="50" r="4" fill="none" stroke="url(#corrupted-flesh)" stroke-width="1" opacity="0.6"/>
+    <circle cx="50" cy="50" r="2" fill="none" stroke="url(#blood-red)" stroke-width="0.5" opacity="0.7"/>
+
+    <!-- Watching lights in the void -->
+    <circle cx="48" cy="48" r="1.5" fill="url(#sickly-green)" opacity="0.8"/>
+    <circle cx="52" cy="52" r="1.2" fill="url(#putrid-yellow)" opacity="0.7"/>
+    <circle cx="47" cy="53" r="1" fill="url(#corpse-blue)" opacity="0.6"/>
+
+    <!-- Secondary eyes forming in the spaces -->
+    <ellipse cx="65" cy="35" rx="5" ry="3" fill="url(#void-center)" opacity="0.6" transform="rotate(30 65 35)"/>
+    <ellipse cx="65" cy="35" rx="2" ry="1.5" fill="url(#sickly-green)" opacity="0.7" transform="rotate(30 65 35)"/>
+
+    <ellipse cx="35" cy="65" rx="5" ry="3" fill="url(#void-center)" opacity="0.6" transform="rotate(-30 35 65)"/>
+    <ellipse cx="35" cy="65" rx="2" ry="1.5" fill="url(#putrid-yellow)" opacity="0.7" transform="rotate(-30 35 65)"/>
+
+    <ellipse cx="65" cy="65" rx="4" ry="2.5" fill="url(#void-center)" opacity="0.5" transform="rotate(45 65 65)"/>
+    <ellipse cx="65" cy="65" rx="1.5" ry="1" fill="url(#corpse-blue)" opacity="0.6" transform="rotate(45 65 65)"/>
+
+    <ellipse cx="35" cy="35" rx="4" ry="2.5" fill="url(#void-center)" opacity="0.5" transform="rotate(-45 35 35)"/>
+    <ellipse cx="35" cy="35" rx="1.5" ry="1" fill="url(#gangrenous-purple)" opacity="0.6" transform="rotate(-45 35 35)"/>
+
+    <!-- Peripheral eyes - barely visible -->
+    <ellipse cx="72" cy="28" rx="3" ry="2" fill="url(#void-center)" opacity="0.4" transform="rotate(15 72 28)"/>
+    <circle cx="72" cy="28" r="0.8" fill="url(#blood-red)" opacity="0.5"/>
+
+    <ellipse cx="72" cy="72" rx="3" ry="2" fill="url(#void-center)" opacity="0.4" transform="rotate(-15 72 72)"/>
+    <circle cx="72" cy="72" r="0.8" fill="url(#blood-red)" opacity="0.5"/>
+
+    <ellipse cx="28" cy="72" rx="3" ry="2" fill="url(#void-center)" opacity="0.4" transform="rotate(15 28 72)"/>
+    <circle cx="28" cy="72" r="0.8" fill="url(#blood-red)" opacity="0.5"/>
+
+    <ellipse cx="28" cy="28" rx="3" ry="2" fill="url(#void-center)" opacity="0.4" transform="rotate(-15 28 28)"/>
+    <circle cx="28" cy="28" r="0.8" fill="url(#blood-red)" opacity="0.5"/>
+
+    <!-- Corruption spreading through iris -->
+    <path d="M 50 26 Q 48 32, 52 38" fill="none" stroke="url(#blood-red)" stroke-width="0.8" opacity="0.5"/>
+    <path d="M 74 50 Q 68 48, 62 52" fill="none" stroke="url(#blood-red)" stroke-width="0.8" opacity="0.5"/>
+    <path d="M 50 74 Q 52 68, 48 62" fill="none" stroke="url(#blood-red)" stroke-width="0.8" opacity="0.5"/>
+    <path d="M 26 50 Q 32 52, 38 48" fill="none" stroke="url(#blood-red)" stroke-width="0.8" opacity="0.5"/>
+
+    <!-- Bruise-colored patches -->
+    <circle cx="58" cy="42" r="3" fill="url(#gangrenous-purple)" opacity="0.3"/>
+    <circle cx="42" cy="58" r="2.5" fill="url(#putrid-yellow)" opacity="0.3"/>
+    <circle cx="58" cy="58" r="2" fill="url(#corpse-blue)" opacity="0.3"/>
+  </g>
+</svg>

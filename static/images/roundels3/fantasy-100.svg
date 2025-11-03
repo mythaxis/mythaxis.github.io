@@ -1,0 +1,127 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fantasy: The Weaver's Knot - Luminous Celtic interlacing with magical energy threads -->
+  <defs>
+    <clipPath id="fantasy-clip-small">
+      <circle cx="50" cy="50" r="48"/>
+    </clipPath>
+
+    <!-- Magical energy gradients -->
+    <radialGradient id="emerald-glow">
+      <stop offset="0%" stop-color="#4ecca3"/>
+      <stop offset="50%" stop-color="#2d9d78"/>
+      <stop offset="100%" stop-color="#1a5943"/>
+    </radialGradient>
+
+    <radialGradient id="sapphire-glow">
+      <stop offset="0%" stop-color="#6c9aff"/>
+      <stop offset="50%" stop-color="#4066d9"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </radialGradient>
+
+    <radialGradient id="gold-glow">
+      <stop offset="0%" stop-color="#ffd93d"/>
+      <stop offset="50%" stop-color="#f4a824"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </radialGradient>
+
+    <radialGradient id="violet-glow">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="50%" stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#4c1d95"/>
+    </radialGradient>
+
+    <radialGradient id="turquoise-glow">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="50%" stop-color="#14b8a6"/>
+      <stop offset="100%" stop-color="#0d9488"/>
+    </radialGradient>
+
+    <!-- Luminous thread pattern -->
+    <linearGradient id="thread-shimmer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ecca3"/>
+      <stop offset="25%" stop-color="#6c9aff"/>
+      <stop offset="50%" stop-color="#ffd93d"/>
+      <stop offset="75%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#5eead4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Outer protective circle with emerald energy -->
+  <circle cx="50" cy="50" r="48" fill="none" stroke="url(#emerald-glow)" stroke-width="2.5" opacity="0.8"/>
+
+  <g clip-path="url(#fantasy-clip-small)">
+    <!-- Background mystical glow -->
+    <circle cx="50" cy="50" r="45" fill="url(#violet-glow)" opacity="0.1"/>
+
+    <!-- Primary Celtic knot structure - triple spiral foundation -->
+    <!-- First spiral arm - emerald -->
+    <path d="M 50 10 Q 35 20, 30 35 Q 25 50, 30 65 Q 35 75, 45 82"
+          fill="none" stroke="url(#emerald-glow)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 50 10 Q 37 20, 32 35 Q 27 50, 32 65 Q 37 75, 47 82"
+          fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6" stroke-linecap="round"/>
+
+    <!-- Second spiral arm - sapphire -->
+    <path d="M 50 10 A 45 45 0 0 1 85 35 Q 80 50, 75 65 Q 68 78, 55 85"
+          fill="none" stroke="url(#sapphire-glow)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 50 10 A 43 43 0 0 1 83 35 Q 78 50, 73 65 Q 66 78, 53 85"
+          fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6" stroke-linecap="round"/>
+
+    <!-- Third spiral arm - gold -->
+    <path d="M 15 35 Q 20 50, 25 65 Q 32 78, 45 85 Q 55 88, 65 85"
+          fill="none" stroke="url(#gold-glow)" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 17 35 Q 22 50, 27 65 Q 34 78, 47 85 Q 55 87, 63 85"
+          fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6" stroke-linecap="round"/>
+
+    <!-- Interlacing weave pattern - creating depth -->
+    <ellipse cx="50" cy="35" rx="20" ry="12" fill="none"
+             stroke="url(#turquoise-glow)" stroke-width="3" transform="rotate(30 50 35)"/>
+    <ellipse cx="35" cy="55" rx="18" ry="11" fill="none"
+             stroke="url(#violet-glow)" stroke-width="3" transform="rotate(-30 35 55)"/>
+    <ellipse cx="65" cy="55" rx="18" ry="11" fill="none"
+             stroke="url(#gold-glow)" stroke-width="3" transform="rotate(30 65 55)"/>
+
+    <!-- Central trinity knot - the heart of the pattern -->
+    <path d="M 50 40 L 42 52 L 58 52 Z" fill="none" stroke="url(#thread-shimmer)" stroke-width="2.5"/>
+    <circle cx="50" cy="44" r="3" fill="url(#emerald-glow)"/>
+    <circle cx="44" cy="52" r="3" fill="url(#sapphire-glow)"/>
+    <circle cx="56" cy="52" r="3" fill="url(#gold-glow)"/>
+
+    <!-- Luminous connection threads -->
+    <path d="M 50 44 Q 47 48, 44 52" fill="none" stroke="url(#thread-shimmer)" stroke-width="1.5" opacity="0.8"/>
+    <path d="M 50 44 Q 53 48, 56 52" fill="none" stroke="url(#thread-shimmer)" stroke-width="1.5" opacity="0.8"/>
+    <path d="M 44 52 Q 50 50, 56 52" fill="none" stroke="url(#thread-shimmer)" stroke-width="1.5" opacity="0.8"/>
+
+    <!-- Inner decorative spirals -->
+    <path d="M 50 48 Q 45 48, 43 50 Q 42 53, 44 55"
+          fill="none" stroke="url(#violet-glow)" stroke-width="1.5" opacity="0.7"/>
+    <path d="M 50 48 Q 55 48, 57 50 Q 58 53, 56 55"
+          fill="none" stroke="url(#turquoise-glow)" stroke-width="1.5" opacity="0.7"/>
+
+    <!-- Outer mystical nodes - power points -->
+    <circle cx="50" cy="10" r="4" fill="url(#sapphire-glow)" opacity="0.9"/>
+    <circle cx="50" cy="10" r="2" fill="#ffffff" opacity="0.8"/>
+
+    <circle cx="85" cy="35" r="3.5" fill="url(#emerald-glow)" opacity="0.9"/>
+    <circle cx="85" cy="35" r="1.8" fill="#ffffff" opacity="0.8"/>
+
+    <circle cx="85" cy="65" r="3.5" fill="url(#gold-glow)" opacity="0.9"/>
+    <circle cx="85" cy="65" r="1.8" fill="#ffffff" opacity="0.8"/>
+
+    <circle cx="50" cy="85" r="3.5" fill="url(#violet-glow)" opacity="0.9"/>
+    <circle cx="50" cy="85" r="1.8" fill="#ffffff" opacity="0.8"/>
+
+    <circle cx="15" cy="65" r="3.5" fill="url(#turquoise-glow)" opacity="0.9"/>
+    <circle cx="15" cy="65" r="1.8" fill="#ffffff" opacity="0.8"/>
+
+    <circle cx="15" cy="35" r="3.5" fill="url(#emerald-glow)" opacity="0.9"/>
+    <circle cx="15" cy="35" r="1.8" fill="#ffffff" opacity="0.8"/>
+
+    <!-- Ethereal connecting threads -->
+    <line x1="50" y1="10" x2="50" y2="40" stroke="url(#thread-shimmer)" stroke-width="0.8" opacity="0.5"/>
+    <line x1="85" y1="35" x2="60" y2="45" stroke="url(#thread-shimmer)" stroke-width="0.8" opacity="0.5"/>
+    <line x1="85" y1="65" x2="60" y2="55" stroke="url(#thread-shimmer)" stroke-width="0.8" opacity="0.5"/>
+    <line x1="50" y1="85" x2="50" y2="60" stroke="url(#thread-shimmer)" stroke-width="0.8" opacity="0.5"/>
+    <line x1="15" y1="65" x2="40" y2="55" stroke="url(#thread-shimmer)" stroke-width="0.8" opacity="0.5"/>
+    <line x1="15" y1="35" x2="40" y2="45" stroke="url(#thread-shimmer)" stroke-width="0.8" opacity="0.5"/>
+  </g>
+</svg>
