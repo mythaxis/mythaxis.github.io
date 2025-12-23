@@ -14,25 +14,25 @@ imageCopyright: "Did you hear stealthy footsteps on the stairs? by Fritz Siebel"
 
 # https://flexboxsheet.com/
 intro:
-  justify_content: flex-end
+  justify_content: flex-start
   # align_items: baseline
   # align_content: flex-start
   logo:
     # order: 3
     # flex_grow: 2
-    # align_self: flex-end
-    # align_items: baseline
+    # align_self: center
+    # align_items: flex-end
     color: '#f1401d'
   subheading:
     # order: 3
     # flex_grow: 1
     # align_self: center
-    # align_items: flex-start
+    # align_items: flex-end
   actions:
     display: none
     # order: 3
     # flex_grow: 2
-    # align_self: flex-start
+    # align_self: flex-end
     # align_items: flex-end
 
 ---
