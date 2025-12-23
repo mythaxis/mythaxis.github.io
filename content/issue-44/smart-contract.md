@@ -9,7 +9,7 @@ authors:
 - Angus McIntyre
 copyright: '© Angus McIntyre 2025 All Rights Reserved'
 
-description: "Another genre blend up next. Angus McIntyre takes the tried and true police procedural and gives us a surprisingly plausible near-future case that combines such technological marvels as cryptocurrency and anonymized digital marketplaces with probably the second oldest profession in the history of humanity: murder-for-hire. The more things change, the more they stay the same…"
+description: "Another genre blend, as Angus McIntyre turns the tried and true police procedural loose on a highly plausible near-future case that combines such technological marvels as cryptocurrency and anonymized digital marketplaces with probably the second oldest profession in the history of humanity: murder-for-hire. SF knows, the more things change, the more they stay the same…"
 
 image: images/SmartContract10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Bruno Curly](https://www.pexels.com/photo/young-woman-posing-in-studio-in-a-simple-outfit-19290491/), [stas336](https://pixabay.com/photos/old-iron-building-house-dark-2708409/), and [u_oi533yuyt2](https://pixabay.com/photos/man-character-player-battle-gun-8171264/) - many thanks!"

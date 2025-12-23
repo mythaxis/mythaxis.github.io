@@ -9,7 +9,7 @@ authors:
 - Mark H. Harris
 copyright: '© Mark H. Harris 2025 All Rights Reserved.'
 
-description: "In this editor's opinion, there's no harder target to hit in fiction than the funny bone, but perhaps it's the hint of the smart, the sly, and the sour that steadied Mark H. Harris's hand as he lined up on this satirical short. It's not what you'd call subtle, but sometimes subtlety's the last thing you should aim for. And if you ask me, he's killing it."
+description: "In this editor's opinion, there's no harder target to hit in fiction than the funny bone, but perhaps it's the hint of the smart, the sly, and the sour that steadied Mark H. Harris's hand as he lined up on this satirical short. It's not what you'd call subtle, but sometimes subtlety's the last thing you should aim for. You ask me, he killed it."
 
 image: images/Shooter_10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [rperucho](https://pixabay.com/photos/spiral-barrel-of-a-gun-striated-4209283/) and from [Wikipedia](https://en.wikipedia.org/wiki/Uncle_Sam#/media/File:I_Want_You_for_U.S._Army_by_James_Montgomery_Flagg.jpg) - many thanks!"
