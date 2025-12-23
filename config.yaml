@@ -38,7 +38,7 @@ params:
   keywords: Mythaxis Magazine Science Fiction and Fantasy Modern Fiction
   # The slug/name of the current section. This is used to theme pages
   # which are not in a specific section (homepage, about, etc.)
-  currentIssue: Issue 43
+  currentIssue: Issue 44
 
 
 menu:

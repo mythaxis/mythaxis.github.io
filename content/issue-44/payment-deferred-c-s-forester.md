@@ -9,7 +9,7 @@ authors:
 - Bill Ryan
 copyright: '© Bill Ryan 2025 All Rights Reserved'
 
-description: "Muttering under his breath in feverished manner, his mind tormented by what is or might have been, illuminated by a sickly glow as he sits hunched beside the glass - not window, but computer, for indeed Bill Ryan once again takes time out from his contemplations of the fine and fraught in literature to ruminate on an old and sinister case…"
+description: "Muttering under his breath in feverished manner, mind tormented by what is or might have been, illuminated by a sickly glow as he sits hunched by his reflection… on the computer screen, not by a window! Bill Ryan kindly takes time out from his ongoing contemplations of the fine and fraught in literature to ruminate on an old, sinister case."
 
 image: images/PaymentDeferred10x6.jpg
 imageCopyright: "The image shows author [C. S. Forester](https://en.wikipedia.org/wiki/C._S._Forester) and [the first edition's cover](https://en.wikipedia.org/wiki/Payment_Deferred), both from Wikipedia."

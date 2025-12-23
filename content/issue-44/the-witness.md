@@ -9,7 +9,7 @@ authors:
 - Donald McCarthy
 copyright: '© Donald McCarthy 2025 All Rights Reserved'
 
-description: "Kicking off our third all-crime issue, we're delighted to welcome back Donald McCarthy, whose previous contribution to Mythaxis – more than two years ago! – melded crime with science fiction. This time he gives us something focused on the psychological and atmospheric aspects of the genre. Trauma no doubt colours one's perceptions of life as life continues, but the unease that comes with a not fully recognised threat maybe do the same even before the traumatic comes to pass."
+description: "Kicking off our third all-crime issue, we're delighted to welcome back Donald McCarthy, whose previous contribution to Mythaxis – more than two years ago! – melded crime with science fiction. This time he focuses on the psychological and atmospheric aspects of the genre. Trauma no doubt colours one's perceptions of life as life continues; the unease that comes with a not fully recognised threat maybe do the same, even before the traumatic comes to pass."
 
 image: images/Witness10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [brenoanp](https://www.pexels.com/photo/silhouette-of-man-during-nighttime-1136575/), [Arcaion](https://pixabay.com/photos/tree-dead-dry-sky-yellow-sunrise-2834894/), and [katja](https://pixabay.com/photos/tree-desert-namibia-dead-vlei-64309/) - many thanks!"
