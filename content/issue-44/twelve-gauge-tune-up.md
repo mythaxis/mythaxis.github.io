@@ -9,7 +9,7 @@ authors:
 - Devin James Leonard
 copyright: '© Devin James Leonard 2025 All Rights Reserved'
 
-description: "Devin James Leonard has an ear for a certain kind of grotty, smaller-than-small-town backwoods Americana. Here he rekindles the reader's acquaintance with his character Daryl Fox, a youth with no role models you'd want to recommend and who (to judge by his actions in a previous story, 'Catch and Release') is only going to become more of a handful with age."
+description: "Devin James Leonard has an ear for grotty, smaller-than-small-town backwoods Americana. Here he rekindles the reader's acquaintance with his character Daryl Fox, a youth with no role models you'd want to recommend and who (to judge by a previous story, 'Catch and Release') is only going to become more of a handful with age."
 
 image: images/12GaugeTuneUp10x6.jpg
 imageCopyright: "The title picture was created using a Creative Commons image by [aceembelif](https://pixabay.com/photos/woman-model-beanie-rifle-gun-5663421/) - many thanks!"
