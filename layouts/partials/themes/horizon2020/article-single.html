@@ -17,7 +17,7 @@
         <img src="{{ "/images/toplist.svg" | safeURL }}" />
         <h1>{{ $page.Title }}</h1>
         <p>{{ collections.Delimit $page.Params.authors ", " }}</p>
-        <img src="{{ "/images/divider.svg" | safeURL }}" />
+        {{ partial "theme-dispatch" (dict "partial" "divider" "context" .) }}
     </header>
     
     {{ if $page.Params.image }}
@@ -36,8 +36,6 @@
     {{ $page.Content }}          
     {{ partial "authorfooter" $page }}
     
-    <p class="align-center">
-        <img src="{{ "/images/divider.svg" | safeURL }}" />
-    </p>
+    {{ partial "theme-dispatch" (dict "partial" "divider" "context" . "data" (dict "class" "align-center")) }}
     <p class="align-center"><strong>Mythaxis</strong> is forever free to read, but if you'd like to support us you can do so <a href="https://ko-fi.com/mythaxismagazine">here</a> (but only if you <em>really</em> want to!)</p>
 </section>
