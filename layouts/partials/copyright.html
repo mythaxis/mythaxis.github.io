@@ -1,9 +1,12 @@
-<!-- Copyright -->
-<div id="copyright">
-    <ul>
-    	<li>Copyright © Mythaxis Magazine {{ time.Now | time.Format "2006" }} All Rights Reserved</li>
-    	<li>Portions of this site are copyrighted to third parties</li>
-    	<li>Theme: <a href="https://themes.gohugo.io/hugo-theme-massively/">HTML5 UP Massively</a></li>
-    	<li>This site uses Google analytics</li>
-    </ul>
-</div>
+{{/*
+  Copyright Footer Dispatcher
+  ===========================
+  Routes to theme-specific copyright partial based on section configuration.
+  
+  Usage: {{ partial "copyright" . }}
+  
+  This wrapper maintains backward compatibility with existing calls
+  while enabling theme-based rendering.
+*/}}
+
+{{- partial "theme-dispatch" (dict "partial" "copyright" "context" .) -}}
