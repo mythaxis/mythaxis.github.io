@@ -1,0 +1,46 @@
+{{/*
+  Horizon2020 Theme - Genres Content Partial
+  ==========================================
+  Classic genres index page with toplist.svg header and categorized listing.
+  
+  Expects context from theme-dispatch:
+    .Page    - The taxonomy page being rendered
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Dict containing:
+               .genres     - Dict of genre name to slice of story dicts
+               .genreNames - Slice of genre names for navigation
+*/}}
+
+{{- $page := .Page -}}
+{{- $genreIndex := .Data.genres | default dict -}}
+{{- $allGenres := .Data.genreNames | default slice -}}
+
+<section class="post catalogue">
+    <header class="major">
+        <img src="{{ "/images/toplist.svg" | safeURL }}" alt="" />
+        <h1>{{ $page.Title }}</h1>
+        <p>{{ len $allGenres }} {{ $page.Description }}</p>
+    </header>
+    
+    {{ partial "catalogue-nav" $page }}
+    
+    {{ $page.Content }}
+
+    <p class="align-center"><
+    {{ range $key, $value := $allGenres }}
+        <a href='#{{ . }}'>{{ . | strings.Title }}</a>{{ if ne $key (sub (len $allGenres) 1) }} | {{ else }}{{ end }}
+    {{ end }}>
+    </p>
+
+    {{ range $genre, $items := $genreIndex }}
+    <h2 id="{{ $genre }}">{{ $genre | strings.Title }} ({{ len $items }})</h2>
+    <ul>
+    {{ range $items }}
+        <li><a href="{{ .relurl | relURL }}">{{ .title }}</a> by {{ .author }}</li>
+    {{ end }}
+    </ul>
+    {{ end }}
+
+    {{ partial "catalogue-nav" $page }}
+</section>
