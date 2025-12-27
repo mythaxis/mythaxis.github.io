@@ -1,0 +1,22 @@
+{{/*
+  Horizon2020 Theme - Copyright Footer Partial
+  ============================================
+  Site-wide copyright notice displayed in the footer.
+  Classic styling with list-based layout.
+  
+  Expects context from theme-dispatch:
+    .Page    - The page being rendered
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Any extra data passed
+*/}}
+
+<!-- Copyright -->
+<div id="copyright">
+    <ul>
+        <li>Copyright © Mythaxis Magazine {{ time.Now | time.Format "2006" }} All Rights Reserved</li>
+        <li>Portions of this site are copyrighted to third parties</li>
+        <li>Theme: <a href="https://themes.gohugo.io/hugo-theme-massively/">HTML5 UP Massively</a></li>
+        <li>This site uses Google analytics</li>
+    </ul>
+</div>
