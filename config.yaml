@@ -29,6 +29,10 @@ taxonomies:
 
 
 params:
+  # Theme switcher: nebula2025 (new default) or horizon2020 (legacy)
+  # Override per-section in __index.md front matter with: theme: horizon2020
+  # defaultTheme: nebula2025
+  defaultTheme: horizon2020
   posts:
     pageSize: '50'
     featuredPost: true
