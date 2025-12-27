@@ -20,8 +20,6 @@
 {{ $xway2metadata = (where $xway2metadata "category" "eq" "Editorial") }}
 {{ $editorials = $editorials | append $xway2metadata }}
 
-
-
 <!DOCTYPE HTML>
 <html lang='{{ .Site.Language.Lang | default "en-us" }}'>
   {{ partial "htmlhead" . }}
@@ -34,36 +32,7 @@
 
       <!-- Main -->
       <div id="main">
-        <section class="post catalogue">
-            <header class="major">
-              <img src="{{ "/images/toplist.svg" | safeURL }}" />
-              <h1>{{ .Title }}</h1>
-              <p>{{ len $editorials }} {{ .Description }}</p>
-            </header>
-            {{ partial "catalogue-nav" . }}
-            {{ .Content }}
-
-            <table>
-              <thead>
-                <tr>
-                  <th class="align-right">Issue</th>
-                  <th>Editorial</th>
-                </tr>
-              </thead>
-
-              <tbody class="scroll">
-                {{ range (sort $editorials "number" "asc") }}
-                <tr>
-                  <td class="align-right">{{ .issue }}
-                  <td><a href="{{ .relurl | relURL }}">{{ .title }}</a> by {{ .author }}</td>
-                </tr>  
-                {{ end }}
-              </tbody>
-            </table>
-
-            {{ partial "catalogue-nav" . }}
-
-        </section>
+        {{ partial "theme-dispatch" (dict "partial" "editorials-content" "context" . "data" (dict "editorials" $editorials)) }}
       </div>
       
       {{ partial "copyright" . }}
