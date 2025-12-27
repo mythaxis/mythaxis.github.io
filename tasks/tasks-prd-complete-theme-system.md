@@ -97,7 +97,7 @@ static/
 
 - [ ] 2.0 Phase 1: Refactor Supporting Partials
   - [x] 2.1 Create `horizon2020/authorfooter.html` from current authorfooter.html
-  - [ ] 2.2 Create `nebula2025/authorfooter.html` with modern styling
+  - [x] 2.2 Create `nebula2025/authorfooter.html` with modern styling
   - [ ] 2.3 Update `partials/authorfooter.html` to use theme dispatcher
   - [ ] 2.4 Create `horizon2020/copyright.html` from current copyright.html
   - [ ] 2.5 Create `nebula2025/copyright.html` with modern styling
