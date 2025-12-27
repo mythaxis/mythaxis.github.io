@@ -1,0 +1,38 @@
+{{/*
+  Nebula2025 Theme - Catalogue Navigation Partial
+  ===============================================
+  Modern navigation links for catalogue/taxonomy pages.
+  Clean pill-style or inline navigation with dot separators.
+  
+  Expects context from theme-dispatch:
+    .Page    - The page being rendered
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Any extra data passed
+*/}}
+
+{{- $page := .Page -}}
+
+<nav class="nebula-catalogue-nav" aria-label="Catalogue navigation">
+    <div class="nebula-nav-links">
+        {{ with $page.Site.GetPage "/archive.md" }}
+        <a href='{{ .RelPermalink | relURL }}' class="nebula-nav-link">Archives</a>
+        {{ end }}
+        <span class="nebula-nav-separator">•</span>
+        {{ with $page.Site.GetPage "/authors" }}
+        <a href='{{ .RelPermalink | relURL }}' class="nebula-nav-link">Authors</a>
+        {{ end }}
+        <span class="nebula-nav-separator">•</span>
+        {{ with $page.Site.GetPage "/catalogue/_index.md" }}
+        <a href='{{ .RelPermalink | relURL }}' class="nebula-nav-link">Catalogue</a>
+        {{ end }}
+        <span class="nebula-nav-separator">•</span>
+        {{ with $page.Site.GetPage "/catalogue/editorials.md" }}
+        <a href='{{ .RelPermalink | relURL }}' class="nebula-nav-link">Editorials</a>
+        {{ end }}
+        <span class="nebula-nav-separator">•</span>
+        {{ with $page.Site.GetPage "/genres" }}
+        <a href='{{ .RelPermalink | relURL }}' class="nebula-nav-link">Genres</a>
+        {{ end }}
+    </div>
+</nav>
