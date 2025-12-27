@@ -114,7 +114,7 @@ static/
   - [x] 3.1 Create `static/themes/` and `static/themes/horizon2020/` directories
   - [x] 3.2 Move `static/images/toplist.svg` to `static/themes/horizon2020/toplist.svg`
   - [x] 3.3 Move `static/images/divider.svg` to `static/themes/horizon2020/divider.svg`
-  - [ ] 3.4 Update horizon2020 partials to reference new image paths (`/themes/horizon2020/`)
+  - [x] 3.4 Update horizon2020 partials to reference new image paths (`/themes/horizon2020/`)
   - [ ] 3.5 Analyze `overrides.css` and categorize styles as shared vs horizon-specific
   - [ ] 3.6 Create `static/assets/css/base.css` with shared styles (fonts, image tricks, author footer, blockquote, TEI)
   - [ ] 3.7 Create `static/themes/horizon2020.css` with legacy-specific styles (Starcraft intro/header, nav background, button hover)
