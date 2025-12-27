@@ -1,0 +1,123 @@
+/**
+ * Mythaxis Magazine - Base Styles
+ * ================================
+ * Shared styles used by all themes.
+ * These are content-focused and theme-agnostic.
+ */
+
+
+/* ==========================================================================
+   FONT FACES
+   Starcraft fonts for legacy compatibility
+   ========================================================================== */
+
+@font-face {
+    font-family: "Starcraft";
+    src: url("/assets/fonts/starcraft.woff") format('woff');
+}
+@font-face {
+    font-family: "Starcraft";
+    src: url("/assets/fonts/starcraft.woff") format('woff');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Starcraft normal";
+    src: url("/assets/fonts/starcraft-normal.woff") format('woff');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Starcraft";
+    src: url("/assets/fonts/starcraft-italic.woff") format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Starcraft";
+    src: url("/assets/fonts/starcraft-italic.woff") format('woff');
+    font-style: italic;
+}
+
+
+/* ==========================================================================
+   BLOCKQUOTE
+   Content styling for quoted text
+   ========================================================================== */
+
+blockquote > p {
+    margin: 0 0 1rem 0;
+}
+
+
+/* ==========================================================================
+   TEI STYLES
+   Decorative drop caps and glyph styling for story content
+   ========================================================================== */
+
+glyph {
+    font-weight: 600;
+    font-size: 4em;
+    float: left;
+    line-height: 0.9em;
+    padding-top: 0.15em;
+    padding-right: 0.1em;
+}
+glyph.small {
+    font-size: 2em;
+}
+
+
+
+/* ==========================================================================
+   AUTHOR FOOTER
+   Styling for author bio sections at end of stories
+   ========================================================================== */
+
+footer.author img {
+    border: 5px solid #212931a6;
+    border-radius: 50%;
+    max-width: 200px;
+    height: auto;
+    padding: 0;
+}
+footer.author p {
+    line-height: 2em;
+    margin-bottom: 1em;
+}
+
+
+/* ==========================================================================
+   IMAGE LAYOUT TRICKS
+   CSS3 alt-text conventions for image alignment in markdown content
+   Usage: ![alt text ><](image.svg) for centered
+          ![alt text >](image.svg) for right-aligned
+          ![alt text <](image.svg) for left-aligned
+   ========================================================================== */
+
+/* Left-aligned small image */
+img[alt$="<"] {
+    max-width: 80px;
+}
+
+/* Right-aligned small image */
+img[alt$=">"] {
+    display: block;
+    max-width: 80px;
+    height: auto;
+    margin-left: auto;
+    float: none !important;
+}
+
+/* Center-aligned small image */
+img[alt$="><"] {
+    display: block;
+    max-width: 80px;
+    height: auto;
+    margin: auto;
+    float: none !important;
+}
+
+/* Large left-aligned image */
+img[alt$="-lrg"] {
+    width: 40%;
+    max-width: 200px;
+}
