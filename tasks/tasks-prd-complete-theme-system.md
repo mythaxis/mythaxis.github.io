@@ -86,17 +86,17 @@ static/
 
 ## Tasks
 
-- [ ] 1.0 Phase 1: Complete Partial Coverage for Catalogue/Taxonomy Pages
+- [x] 1.0 Phase 1: Complete Partial Coverage for Catalogue/Taxonomy Pages
   - [x] 1.1 Create `horizon2020/catalogue-content.html` partial with current catalogue styling
   - [x] 1.2 Create `nebula2025/catalogue-content.html` partial with modern styling
   - [x] 1.3 Refactor `catalogue/list.html` to use theme dispatcher for content area
   - [x] 1.4 Refactor `catalogue/editorials.html` to use theme dispatcher for content area
   - [x] 1.5 Refactor `authors/taxonomy.html` to use theme dispatcher for content area
   - [x] 1.6 Refactor `genres/taxonomy.html` to use theme dispatcher for content area
-  - [ ] 1.7 Test all catalogue/taxonomy pages with both themes
+  - [x] 1.7 Test all catalogue/taxonomy pages with both themes
 
 - [ ] 2.0 Phase 1: Refactor Supporting Partials
-  - [ ] 2.1 Create `horizon2020/authorfooter.html` from current authorfooter.html
+  - [x] 2.1 Create `horizon2020/authorfooter.html` from current authorfooter.html
   - [ ] 2.2 Create `nebula2025/authorfooter.html` with modern styling
   - [ ] 2.3 Update `partials/authorfooter.html` to use theme dispatcher
   - [ ] 2.4 Create `horizon2020/copyright.html` from current copyright.html
