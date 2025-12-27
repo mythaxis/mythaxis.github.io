@@ -54,10 +54,6 @@
 {{ end }}
 {{ $authorIndex = sort $authorIndex "lastname" "asc" }}
 
-
-
-
-
 <!DOCTYPE HTML>
 <html lang='{{ .Site.Language.Lang | default "en-us" }}'>
   {{ partial "htmlhead" . }}
@@ -70,38 +66,7 @@
 
       <!-- Main -->
       <div id="main">
-        <section class="post catalogue">
-            <header class="major">
-              <img src="{{ "/images/toplist.svg" | safeURL }}" />
-              <h1>{{ .Title }}</h1>
-              <p>{{ len $authorIndex }} {{ .Description }}</p>
-            </header>
-            {{ partial "catalogue-nav" . }}
-            {{ .Content }}
-
-            <table>
-              <thead>
-                <tr>
-                  <th class="align-right">Author</th>
-                  <th>Stock info</th>
-                </tr>
-              </thead>
-
-              <tbody class="scroll">
-                {{ range $authorIndex }}
-                <tr>
-                  <td class="align-right">{{ .name }}</td>
-                  <td>{{ range .stocklist }}
-                      <a href="{{ .relurl | relURL }}">{{ .title }}</a> ({{ .date }})<br/>{{ end }}
-                  </td>
-                </tr>  
-                {{ end }}
-              </tbody>
-            </table>
-
-            {{ partial "catalogue-nav" . }}
-
-        </section>
+        {{ partial "theme-dispatch" (dict "partial" "authors-content" "context" . "data" (dict "authors" $authorIndex)) }}
       </div>
       
       {{ partial "copyright" . }}
