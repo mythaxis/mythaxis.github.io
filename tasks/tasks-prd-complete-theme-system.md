@@ -52,7 +52,7 @@ Generated from `prd-complete-theme-system.md`
 
 - [ ] 1.0 Phase 1: Complete Partial Coverage for Catalogue/Taxonomy Pages
   - [x] 1.1 Create `horizon2020/catalogue-content.html` partial with current catalogue styling
-  - [ ] 1.2 Create `nebula2025/catalogue-content.html` partial with modern styling
+  - [x] 1.2 Create `nebula2025/catalogue-content.html` partial with modern styling
   - [ ] 1.3 Refactor `catalogue/list.html` to use theme dispatcher for content area
   - [ ] 1.4 Refactor `catalogue/editorials.html` to use theme dispatcher for content area
   - [ ] 1.5 Refactor `authors/taxonomy.html` to use theme dispatcher for content area
