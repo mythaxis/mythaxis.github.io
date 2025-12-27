@@ -95,7 +95,7 @@ static/
   - [x] 1.6 Refactor `genres/taxonomy.html` to use theme dispatcher for content area
   - [x] 1.7 Test all catalogue/taxonomy pages with both themes
 
-- [ ] 2.0 Phase 1: Refactor Supporting Partials
+- [x] 2.0 Phase 1: Refactor Supporting Partials
   - [x] 2.1 Create `horizon2020/authorfooter.html` from current authorfooter.html
   - [x] 2.2 Create `nebula2025/authorfooter.html` with modern styling
   - [x] 2.3 Update `partials/authorfooter.html` to use theme dispatcher
@@ -107,8 +107,8 @@ static/
   - [x] 2.9 Update `partials/catalogue-nav.html` to use theme dispatcher
   - [x] 2.10 Create `horizon2020/divider.html` using divider.svg
   - [x] 2.11 Create `nebula2025/divider.html` using CSS/SVG gradient dividers
-  - [ ] 2.12 Update `partials/postcustom.html` to use theme dispatcher
-  - [ ] 2.13 Update article-single.html partials to use divider partial instead of inline SVG refs
+  - [x] 2.12 Update `partials/postcustom.html` to use theme dispatcher
+  - [x] 2.13 Update article-single.html partials to use divider partial instead of inline SVG refs
 
 - [ ] 3.0 Phase 2: Separate Static CSS Assets
   - [ ] 3.1 Create `static/themes/` and `static/themes/horizon2020/` directories
