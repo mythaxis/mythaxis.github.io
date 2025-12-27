@@ -3,6 +3,7 @@ title: "Mythaxis Magazine Issue 43"
 date: 2025-09-28
 slug: index
 layout: section
+theme: nebula2025
 
 issue: Issue 43
 subhead: Autumn 2025
