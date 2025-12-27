@@ -1,0 +1,69 @@
+{{/*
+  Nebula2025 Theme - Single Article Content Partial
+  =================================================
+  Modern story page content layout.
+  
+  Expects context from theme-dispatch:
+    .Page    - The stock page being rendered
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Any extra data passed
+*/}}
+
+{{- $page := .Page -}}
+
+<section class="post nebula-article">
+    <header class="nebula-article-header">
+        <div class="nebula-article-meta">
+            <span class="nebula-article-authors">{{ collections.Delimit $page.Params.authors ", " }}</span>
+        </div>
+        <h1 class="nebula-article-title">{{ $page.Title }}</h1>
+        <div class="nebula-article-divider">
+            <svg width="60" height="2" viewBox="0 0 60 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="60" height="2" rx="1" fill="url(#nebula-gradient)"/>
+                <defs>
+                    <linearGradient id="nebula-gradient" x1="0" y1="1" x2="60" y2="1">
+                        <stop stop-color="#667eea"/>
+                        <stop offset="1" stop-color="#764ba2"/>
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+    </header>
+    
+    {{ if $page.Params.image }}
+    <div class="nebula-article-image">
+        <img src="{{ path.Join $page.Section $page.Params.image | relURL }}" alt="Story image for {{ $page.Title }}" />
+    </div>
+    {{ end }}
+
+    {{ if $page.Params.audio }}
+    <div class="nebula-audio-player">
+        <audio controls>
+            <source src="{{ $page.Params.audio }}" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+    </div>
+    {{ end }}
+
+    <div class="nebula-article-content">
+        {{ $page.Content }}
+    </div>
+    
+    {{ partial "authorfooter" $page }}
+    
+    <footer class="nebula-article-footer">
+        <div class="nebula-article-divider">
+            <svg width="60" height="2" viewBox="0 0 60 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="60" height="2" rx="1" fill="url(#nebula-gradient-footer)"/>
+                <defs>
+                    <linearGradient id="nebula-gradient-footer" x1="0" y1="1" x2="60" y2="1">
+                        <stop stop-color="#667eea"/>
+                        <stop offset="1" stop-color="#764ba2"/>
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+        <p class="nebula-support-text"><strong>Mythaxis</strong> is forever free to read, but if you'd like to support us you can do so <a href="https://ko-fi.com/mythaxismagazine">here</a> (but only if you <em>really</em> want to!)</p>
+    </footer>
+</section>

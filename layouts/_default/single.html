@@ -1,8 +1,22 @@
+{{/*
+  Default Single - Theme-aware Page Layout
+  ========================================
+  For non-stock pages (about, submissions, etc.)
+*/}}
+
+{{- $currSection := partial "functions/getCurrentTheme" . -}}
+{{- $theme := "nebula2025" -}}
+{{- if $currSection -}}
+  {{- $theme = $currSection.Params.theme | default .Site.Params.defaultTheme | default "nebula2025" -}}
+{{- else -}}
+  {{- $theme = .Site.Params.defaultTheme | default "nebula2025" -}}
+{{- end -}}
+
 <!DOCTYPE HTML>
 <html lang='{{ .Site.Language.Lang | default "en-us" }}'>
   {{ partial "htmlhead" . }}
   
-  <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
+  <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload theme-{{ $theme }}">
     <!-- Wrapper -->
     <div id="wrapper">
       {{ partial "header" . }}
@@ -10,24 +24,7 @@
 
       <!-- Main -->
       <div id="main">
-        <section class="post">
-            <header class="major">
-              <img src="{{ "/images/toplist.svg" | safeURL }}" />
-              <h1>{{ .Title }}</h1>
-              <p>{{ .Params.author }}</p>
-              <p>{{ .Description }}</p>
-            </header>
-
-            {{ if .Params.image }}
-            <div class="image main">
-              <img src="{{ path.Join .Section .Params.image | relURL }}" alt="Story image for {{ .Title }}" title="Story image for {{ .Title }}" />
-            </div>
-            {{ end }}
-
-
-            {{ .Content }}
-            {{ partial "authorfooter" . }}            
-        </section>
+        {{ partial "theme-dispatch" (dict "partial" "page-single" "context" .) }}
       </div>
       
       {{ partial "copyright" . }}
