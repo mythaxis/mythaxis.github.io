@@ -1,0 +1,48 @@
+{{/*
+  Nebula2025 Theme - Authors Content Partial
+  ==========================================
+  Modern authors index page with enhanced styling.
+  
+  Expects context from theme-dispatch:
+    .Page    - The taxonomy page being rendered
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Dict containing:
+               .authors - Slice of author dicts with name, lastname, stocklist
+*/}}
+
+{{- $page := .Page -}}
+{{- $authorIndex := .Data.authors | default slice -}}
+
+<section class="post catalogue nebula-catalogue">
+    <header class="major nebula-catalogue-header">
+        <h1>{{ $page.Title }}</h1>
+        <p class="nebula-catalogue-count">{{ len $authorIndex }} {{ $page.Description }}</p>
+    </header>
+    
+    {{ partial "catalogue-nav" $page }}
+    
+    {{ with $page.Content }}
+    <div class="nebula-catalogue-intro">
+        {{ . }}
+    </div>
+    {{ end }}
+
+    <div class="nebula-authors-list">
+        {{ range $authorIndex }}
+        <div class="nebula-author-entry">
+            <h3 class="nebula-author-name">{{ .name }}</h3>
+            <ul class="nebula-author-works">
+                {{ range .stocklist }}
+                <li>
+                    <a href="{{ .relurl | relURL }}" class="nebula-work-link">{{ .title }}</a>
+                    <span class="nebula-work-date">({{ .date }})</span>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </div>
+
+    {{ partial "catalogue-nav" $page }}
+</section>
