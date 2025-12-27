@@ -55,7 +55,7 @@ Generated from `prd-complete-theme-system.md`
   - [x] 1.2 Create `nebula2025/catalogue-content.html` partial with modern styling
   - [x] 1.3 Refactor `catalogue/list.html` to use theme dispatcher for content area
   - [x] 1.4 Refactor `catalogue/editorials.html` to use theme dispatcher for content area
-  - [ ] 1.5 Refactor `authors/taxonomy.html` to use theme dispatcher for content area
+  - [x] 1.5 Refactor `authors/taxonomy.html` to use theme dispatcher for content area
   - [ ] 1.6 Refactor `genres/taxonomy.html` to use theme dispatcher for content area
   - [ ] 1.7 Test all catalogue/taxonomy pages with both themes
 
