@@ -1,0 +1,41 @@
+{{/*
+  Nebula2025 Theme - Catalogue Content Partial
+  ============================================
+  Modern catalogue page content with enhanced styling.
+  
+  Expects context from theme-dispatch:
+    .Page    - The catalogue page being rendered
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Dict containing:
+               .stories - Slice of story dicts with title, relurl, author
+*/}}
+
+{{- $page := .Page -}}
+{{- $stories := .Data.stories | default slice -}}
+
+<section class="post catalogue nebula-catalogue">
+    <header class="major nebula-catalogue-header">
+        <h1>{{ $page.Title }}</h1>
+        <p class="nebula-catalogue-count">{{ len $stories }} {{ $page.Description }}</p>
+    </header>
+    
+    {{ partial "catalogue-nav" $page }}
+    
+    {{ with $page.Content }}
+    <div class="nebula-catalogue-intro">
+        {{ . }}
+    </div>
+    {{ end }}
+
+    <div class="nebula-catalogue-list">
+        {{ range (sort $stories "title" "asc") }}
+        <div class="nebula-catalogue-item">
+            <a href="{{ .relurl | relURL }}" class="nebula-catalogue-link">{{ .title }}</a>
+            <span class="nebula-catalogue-author">{{ .author }}</span>
+        </div>
+        {{ end }}
+    </div>
+
+    {{ partial "catalogue-nav" $page }}
+</section>
