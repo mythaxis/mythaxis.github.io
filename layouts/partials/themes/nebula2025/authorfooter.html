@@ -1,0 +1,49 @@
+{{/*
+  Nebula2025 Theme - Author Footer Partial
+  ========================================
+  Modern author bio and copyright display at the end of articles.
+  Clean styling with rounded image and card-style layout.
+  
+  Expects context from theme-dispatch:
+    .Page    - The article page being rendered
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Any extra data passed
+*/}}
+
+{{- $page := .Page -}}
+{{- $showFooter := (default true $page.Params.showAuthorFooter) -}}
+
+{{ if $showFooter }}
+	{{ $authors := where $page.Site.Pages "Type" "author" }}
+
+	{{ if $page.Params.authors }}
+		{{ range $page.Params.authors }}
+			{{ range where $authors ".Params.name" . }}
+				<footer class="nebula-author-footer">
+					<div class="nebula-author-card">
+						{{ if fileExists (path.Join .Section .Params.photo | relURL) }}
+						<div class="nebula-author-photo">
+							<img src="{{ path.Join .Section .Params.photo | relURL }}" alt="Author image of {{ .Params.name }}" />
+						</div>
+						{{ end }}
+						<div class="nebula-author-info">
+							<h3 class="nebula-author-name">{{ .Params.name }}</h3>
+							<div class="nebula-author-bio">
+								{{ .Params.description | markdownify }}
+							</div>
+						</div>
+					</div>
+					<div class="nebula-copyright-info">
+						{{ with $page.Params.copyright | default .Params.copyright }}
+						<p class="nebula-copyright-text">{{ . }}</p>
+						{{ end }}
+						{{ with $page.Params.imageCopyright }}
+						<p class="nebula-image-copyright">{{ . | markdownify }}</p>
+						{{ end }}
+					</div>
+				</footer>
+			{{ end }}
+		{{ end }}
+	{{ end }}
+{{ end }}
