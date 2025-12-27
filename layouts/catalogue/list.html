@@ -22,8 +22,6 @@
 {{ end }}
 {{ $allStories = sort $allStories "issue" "asc" "title" "asc" }} 
 
-
-
 <!DOCTYPE HTML>
 <html lang='{{ .Site.Language.Lang | default "en-us" }}'>
   {{ partial "htmlhead" . }}
@@ -36,30 +34,7 @@
 
       <!-- Main -->
       <div id="main">
-        <section class="post catalogue">
-            <header class="major">
-              <img src="{{ "/images/toplist.svg" | safeURL }}" />
-              <h1>{{ .Title }}</h1>
-              <p>{{ len $allStories }} {{ .Description }}</p>
-            </header>
-            {{ partial "catalogue-nav" . }}
-            {{ .Content }}
-
-            <table>
-              <tbody>
-                {{ range (sort $allStories "title" "asc") }}
-                <tr>
-                  <td><a href="{{ .relurl | relURL }}">{{ .title }}</a> by {{ .author }}</td>
-                </tr>  
-                {{ end }}
-              </tbody>
-            </table>
-
-
-            {{ partial "catalogue-nav" . }}
-
-
-        </section>
+        {{ partial "theme-dispatch" (dict "partial" "catalogue-content" "context" . "data" (dict "stories" $allStories)) }}
       </div>
       
       {{ partial "copyright" . }}
