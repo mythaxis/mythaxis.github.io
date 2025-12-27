@@ -111,9 +111,9 @@ static/
   - [x] 2.13 Update article-single.html partials to use divider partial instead of inline SVG refs
 
 - [ ] 3.0 Phase 2: Separate Static CSS Assets
-  - [ ] 3.1 Create `static/themes/` and `static/themes/horizon2020/` directories
-  - [ ] 3.2 Move `static/images/toplist.svg` to `static/themes/horizon2020/toplist.svg`
-  - [ ] 3.3 Move `static/images/divider.svg` to `static/themes/horizon2020/divider.svg`
+  - [x] 3.1 Create `static/themes/` and `static/themes/horizon2020/` directories
+  - [x] 3.2 Move `static/images/toplist.svg` to `static/themes/horizon2020/toplist.svg`
+  - [x] 3.3 Move `static/images/divider.svg` to `static/themes/horizon2020/divider.svg`
   - [ ] 3.4 Update horizon2020 partials to reference new image paths (`/themes/horizon2020/`)
   - [ ] 3.5 Analyze `overrides.css` and categorize styles as shared vs horizon-specific
   - [ ] 3.6 Create `static/assets/css/base.css` with shared styles (fonts, image tricks, author footer, blockquote, TEI)
