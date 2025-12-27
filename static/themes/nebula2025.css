@@ -1,0 +1,444 @@
+/* ==========================================================================
+   Nebula2025 Theme Styles - Modern Theme
+   ========================================================================== */
+
+/* Intro Section
+   ========================================================================== */
+
+.nebula-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.nebula-intro-content {
+    max-width: 800px;
+}
+
+.nebula-issue-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.nebula-title {
+    font-size: 4rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #fff 0%, #a78bfa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.5rem;
+    text-shadow: none;
+}
+
+.nebula-subtitle {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.nebula-headline {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+}
+
+.nebula-scroll-indicator a {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nebula-scroll-indicator a:hover {
+    color: #a78bfa;
+    transform: translateY(4px);
+}
+
+.nebula-scroll-indicator span {
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+}
+
+.nebula-scroll-indicator svg {
+    animation: nebula-bounce 2s infinite;
+}
+
+@keyframes nebula-bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(8px); }
+    60% { transform: translateY(4px); }
+}
+
+
+/* Header
+   ========================================================================== */
+
+.nebula-header {
+    background: rgba(15, 15, 35, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+.nebula-logo {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/* Navigation
+   ========================================================================== */
+
+.nebula-nav {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+}
+
+.nebula-nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nebula-nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    transition: width 0.3s ease;
+}
+
+.nebula-nav-link:hover::after,
+.nebula-nav-link.active::after {
+    width: 100%;
+}
+
+
+/* Featured Article
+   ========================================================================== */
+
+.nebula-featured {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.nebula-featured-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.nebula-featured-image img {
+    transition: transform 0.5s ease;
+}
+
+.nebula-featured:hover .nebula-featured-image img {
+    transform: scale(1.05);
+}
+
+.nebula-featured-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent 50%, rgba(15, 15, 35, 0.8) 100%);
+}
+
+.nebula-featured-content {
+    padding: 2rem;
+}
+
+.nebula-featured-authors {
+    display: inline-block;
+    color: #764ba2;
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+}
+
+.nebula-featured-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.nebula-featured-title a {
+    color: #1a1a2e;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nebula-featured-title a:hover {
+    color: #667eea;
+}
+
+.nebula-featured-description {
+    color: #666;
+    line-height: 1.7;
+}
+
+.nebula-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nebula-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    color: white;
+}
+
+
+/* Card Grid (List Items)
+   ========================================================================== */
+
+.nebula-card {
+    background: white;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nebula-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.nebula-card-image {
+    overflow: hidden;
+}
+
+.nebula-card-image img {
+    transition: transform 0.5s ease;
+}
+
+.nebula-card:hover .nebula-card-image img {
+    transform: scale(1.05);
+}
+
+.nebula-card-content {
+    padding: 1.5rem;
+}
+
+.nebula-card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.nebula-card-title a {
+    color: #1a1a2e;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nebula-card-title a:hover {
+    color: #667eea;
+}
+
+.nebula-card-authors {
+    display: block;
+    color: #764ba2;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+.nebula-card-description {
+    color: #666;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+}
+
+.nebula-button-small {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+}
+
+.nebula-button-small:hover {
+    transform: translateY(-1px);
+    color: white;
+}
+
+
+/* Single Article
+   ========================================================================== */
+
+.nebula-article {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.nebula-article-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.nebula-article-meta {
+    margin-bottom: 1rem;
+}
+
+.nebula-article-authors {
+    color: #764ba2;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+}
+
+.nebula-article-title {
+    font-size: 2.5rem;
+    color: #1a1a2e;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.nebula-article-divider {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+.nebula-article-image {
+    margin: 2rem 0;
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.nebula-article-image img {
+    width: 100%;
+    height: auto;
+}
+
+.nebula-audio-player {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 0.5rem;
+}
+
+.nebula-audio-player audio {
+    width: 100%;
+}
+
+.nebula-article-content {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+.nebula-article-footer {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.nebula-support-text {
+    color: #666;
+    font-size: 0.9375rem;
+}
+
+
+/* Page Single (about, submissions, etc.)
+   ========================================================================== */
+
+.nebula-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.nebula-page-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.nebula-page-title {
+    font-size: 2.5rem;
+    color: #1a1a2e;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.nebula-page-author {
+    color: #764ba2;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.nebula-page-description {
+    color: #666;
+    font-size: 1.125rem;
+}
+
+.nebula-page-image {
+    margin: 2rem 0;
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.nebula-page-image img {
+    width: 100%;
+    height: auto;
+}
+
+.nebula-page-content {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+
+/* Responsive
+   ========================================================================== */
+
+@media screen and (max-width: 736px) {
+    .nebula-title {
+        font-size: 2.5rem;
+    }
+    .nebula-subtitle {
+        font-size: 1.25rem;
+    }
+    .nebula-featured-title {
+        font-size: 1.5rem;
+    }
+    .nebula-article-title {
+        font-size: 1.75rem;
+    }
+    .nebula-page-title {
+        font-size: 1.75rem;
+    }
+}
