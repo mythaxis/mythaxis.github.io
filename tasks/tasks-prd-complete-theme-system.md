@@ -103,7 +103,7 @@ static/
   - [x] 2.5 Create `nebula2025/copyright.html` with modern styling
   - [x] 2.6 Update `partials/copyright.html` to use theme dispatcher
   - [x] 2.7 Create `horizon2020/catalogue-nav.html` from current catalogue-nav.html
-  - [ ] 2.8 Create `nebula2025/catalogue-nav.html` with modern styling
+  - [x] 2.8 Create `nebula2025/catalogue-nav.html` with modern styling
   - [ ] 2.9 Update `partials/catalogue-nav.html` to use theme dispatcher
   - [ ] 2.10 Create `horizon2020/divider.html` using divider.svg
   - [ ] 2.11 Create `nebula2025/divider.html` using CSS/SVG gradient dividers
