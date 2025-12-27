@@ -38,22 +38,35 @@ static/
 ├── assets/
 │   ├── css/
 │   │   └── base.css              # Shared: fonts, image tricks, author footer
-│   └── fonts/                    # Starcraft fonts (used by both, referenced by base.css)
-├── images/
-│   ├── toplist.svg               # Legacy decorative header (horizon2020)
-│   └── divider.svg               # Legacy section divider (horizon2020)
+│   └── fonts/                    # Starcraft fonts (referenced by base.css)
 └── themes/
     ├── horizon2020.css           # Legacy theme styles (Starcraft, intro, header)
+    ├── horizon2020/
+    │   ├── toplist.svg           # Legacy decorative header
+    │   └── divider.svg           # Legacy section divider
     └── nebula2025.css            # Modern theme styles (extracted from inline)
 ```
 
+**Files to create:**
+- `static/assets/css/base.css` - Shared styles extracted from overrides.css
+- `static/themes/horizon2020.css` - Horizon-specific styles
+- `static/themes/nebula2025.css` - Nebula styles (from inline)
+- `static/themes/horizon2020/toplist.svg` - Moved from static/images/
+- `static/themes/horizon2020/divider.svg` - Moved from static/images/
+
 **Files to modify:**
-- `static/assets/css/base.css` - New file with shared styles extracted from overrides.css
-- `static/themes/horizon2020.css` - New file with horizon-specific styles
-- `static/themes/nebula2025.css` - New file with nebula styles (from inline)
-- `static/assets/css/overrides.css` - Will be replaced by base.css
-- `layouts/partials/themes/horizon2020/styles.html` - Update to load base.css + horizon2020.css
-- `layouts/partials/themes/nebula2025/styles.html` - Update to load base.css + nebula2025.css
+- `layouts/partials/themes/horizon2020/styles.html` - Load base.css + horizon2020.css
+- `layouts/partials/themes/nebula2025/styles.html` - Load base.css + nebula2025.css
+- `layouts/partials/themes/horizon2020/catalogue-content.html` - Update toplist.svg path
+- `layouts/partials/themes/horizon2020/editorials-content.html` - Update toplist.svg path
+- `layouts/partials/themes/horizon2020/authors-content.html` - Update toplist.svg path
+- `layouts/partials/themes/horizon2020/genres-content.html` - Update toplist.svg path
+- `layouts/partials/themes/horizon2020/divider.html` - Update divider.svg path
+
+**Files to delete:**
+- `static/assets/css/overrides.css` - Replaced by base.css
+- `static/images/toplist.svg` - Moved to themes/horizon2020/
+- `static/images/divider.svg` - Moved to themes/horizon2020/
 
 ### Phase 3: Content Migration
 - `content/issue-23/__index.md` through `content/issue-43/__index.md` - Add theme param
@@ -92,22 +105,25 @@ static/
   - [ ] 2.7 Create `horizon2020/catalogue-nav.html` from current catalogue-nav.html
   - [ ] 2.8 Create `nebula2025/catalogue-nav.html` with modern styling
   - [ ] 2.9 Update `partials/catalogue-nav.html` to use theme dispatcher
-  - [ ] 2.10 Create `horizon2020/divider.html` using toplist.svg/divider.svg
+  - [ ] 2.10 Create `horizon2020/divider.html` using divider.svg
   - [ ] 2.11 Create `nebula2025/divider.html` using CSS/SVG gradient dividers
   - [ ] 2.12 Update `partials/postcustom.html` to use theme dispatcher
   - [ ] 2.13 Update article-single.html partials to use divider partial instead of inline SVG refs
 
 - [ ] 3.0 Phase 2: Separate Static CSS Assets
-  - [ ] 3.1 Create `static/themes/` directory
-  - [ ] 3.2 Analyze `overrides.css` and categorize styles as shared vs horizon-specific
-  - [ ] 3.3 Create `static/assets/css/base.css` with shared styles (fonts, image tricks, author footer, blockquote, TEI)
-  - [ ] 3.4 Create `static/themes/horizon2020.css` with legacy-specific styles (Starcraft intro/header, nav background, button hover)
-  - [ ] 3.5 Extract inline styles from `nebula2025/styles.html` to `static/themes/nebula2025.css`
-  - [ ] 3.6 Update `horizon2020/styles.html` to load base.css + horizon2020.css + dynamic background only
-  - [ ] 3.7 Update `nebula2025/styles.html` to load base.css + nebula2025.css + dynamic background only
-  - [ ] 3.8 Delete or archive `static/assets/css/overrides.css` (replaced by base.css)
-  - [ ] 3.9 Verify all font paths work correctly in base.css
-  - [ ] 3.10 Test both themes render correctly with new CSS structure
+  - [ ] 3.1 Create `static/themes/` and `static/themes/horizon2020/` directories
+  - [ ] 3.2 Move `static/images/toplist.svg` to `static/themes/horizon2020/toplist.svg`
+  - [ ] 3.3 Move `static/images/divider.svg` to `static/themes/horizon2020/divider.svg`
+  - [ ] 3.4 Update horizon2020 partials to reference new image paths (`/themes/horizon2020/`)
+  - [ ] 3.5 Analyze `overrides.css` and categorize styles as shared vs horizon-specific
+  - [ ] 3.6 Create `static/assets/css/base.css` with shared styles (fonts, image tricks, author footer, blockquote, TEI)
+  - [ ] 3.7 Create `static/themes/horizon2020.css` with legacy-specific styles (Starcraft intro/header, nav background, button hover)
+  - [ ] 3.8 Extract inline styles from `nebula2025/styles.html` to `static/themes/nebula2025.css`
+  - [ ] 3.9 Update `horizon2020/styles.html` to load base.css + horizon2020.css + dynamic background only
+  - [ ] 3.10 Update `nebula2025/styles.html` to load base.css + nebula2025.css + dynamic background only
+  - [ ] 3.11 Delete `static/assets/css/overrides.css` (replaced by base.css)
+  - [ ] 3.12 Verify all font paths work correctly in base.css
+  - [ ] 3.13 Test both themes render correctly with new CSS structure
 
 - [ ] 4.0 Phase 3: Content Migration
   - [ ] 4.1 Determine cutoff issue for theme switch (confirm with stakeholder)
