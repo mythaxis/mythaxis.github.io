@@ -1,0 +1,52 @@
+{{/*
+  Nebula2025 Theme - Nav Partial
+  ==============================
+  Modern navigation with enhanced styling.
+  
+  Expects context from theme-dispatch:
+    .Page    - The current page context
+    .Section - The current section (from getCurrentTheme)
+    .Theme   - The theme name
+    .Data    - Any extra data passed
+*/}}
+
+{{- $page := .Page -}}
+{{- $section := .Section -}}
+
+{{ $data := index $page.Site.Data $page.Site.Language.Lang }}
+<nav id="nav" class="nebula-nav">
+    <ul class="links nebula-nav-links">
+        
+        {{/* Home menu item */}}
+        {{ range first 1 $page.Site.Menus.main }}
+        <li {{ if $page.IsHome }}class="active"{{ end }}>
+            <a href="{{ .URL }}" class="nebula-nav-link {{ if $page.IsHome }}active{{ end }}">
+                <span>{{ .Name }}</span>
+            </a>
+        </li>
+        {{ end }}
+
+        {{/* Inject section specific menu items */}}
+        {{ with $section }}
+        {{ range where (where $page.Site.RegularPages "Section" .Section) "Slug" "in" (slice "editorial" "contents") }}
+            {{ $active := eq $page.RelPermalink .RelPermalink }}
+            <li {{ if $active }}class="active"{{ end }}>
+                <a href="{{ .RelPermalink }}" class="nebula-nav-link {{ if $active }}active{{ end }}">
+                    <span>{{ .Slug | title }}</span>
+                </a>
+            </li>
+        {{ end }}
+        {{ end }}
+
+        {{/* Remaining main menu items (from config) */}}
+        {{ range after 1 $page.Site.Menus.main }}
+            {{ $active := eq $page.RelPermalink .URL }}
+            <li {{ if $active }}class="active"{{ end }}>
+                <a href="{{ .URL }}" class="nebula-nav-link {{ if $active }}active{{ end }}">
+                    <span>{{ .Name }}</span>
+                </a>
+            </li>
+        {{ end }}
+        <li>nebula</li>
+    </ul>
+</nav>

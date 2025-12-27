@@ -1,23 +1,37 @@
+{{/*
+  Homepage Layout - Theme-aware Main Index
+  ========================================
+  Displays the current issue's stories.
+*/}}
+
+{{/* Infer current section and lookup __index.md params for theming */}}
+{{ $currSection := .Section | default (urlize .Site.Params.currentIssue) }}
+{{ $currSection := .Site.GetPage "section" (print $currSection "/__index.md") }}
+
+{{/* Determine theme */}}
+{{- $theme := "nebula2025" -}}
+{{- if $currSection -}}
+  {{- $theme = $currSection.Params.theme | default .Site.Params.defaultTheme | default "nebula2025" -}}
+{{- else -}}
+  {{- $theme = .Site.Params.defaultTheme | default "nebula2025" -}}
+{{- end -}}
+
+{{/*  Get all stock pages for the current issue */}}
+{{ $posts := where (where .Site.Pages "Section" $currSection.Section) ".Type" "stock" }}
+
+{{/* Get first featured story and remove it from paging list */}}
+{{ $firstPost := first 1 (where $posts ".Params.featured" true) }}
+{{ $posts := $posts | complement $firstPost }}
+
+{{/* Get last featured story and remove from paging list */}}
+{{ $lastPost := last 1 (where $posts ".Params.featured" true) }}
+{{ $posts := $posts | complement $lastPost }}
+
 <!DOCTYPE HTML>
 <html lang='{{ .Site.Language.Lang | default "en-us" }}'>
   {{ partial "htmlhead" . }}
   
-  <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
-    {{/* Infer current section and lookup __index.md params for theming */}}
-    {{ $currSection := .Section | default (urlize .Site.Params.currentIssue) }}
-    {{ $currSection := .Site.GetPage "section" (print $currSection "/__index.md") }}
-    
-    {{/*  Get all stock pages for the current issue */}}
-    {{ $posts := where (where .Site.Pages "Section" $currSection.Section) ".Type" "stock" }}
-
-    {{/* Get first featured story and remove it from paging list */}}
-    {{ $firstPost := first 1 (where $posts ".Params.featured" true) }}
-    {{ $posts := $posts | complement $firstPost }}
-
-    {{/* Get last featured story and remove from paging list */}}
-    {{ $lastPost := last 1 (where $posts ".Params.featured" true) }}
-    {{ $posts := $posts | complement $lastPost }}
-
+  <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload theme-{{ $theme }}">
     <!-- Wrapper -->
     <div id="wrapper" class="fade-in">
       {{ partial "intro.html" . }}
