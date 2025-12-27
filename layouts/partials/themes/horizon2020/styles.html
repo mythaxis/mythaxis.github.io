@@ -12,7 +12,13 @@
 
 {{- $section := .Section -}}
 
-<link rel="stylesheet" href='{{ "assets/css/overrides.css" | relURL }}' />
+{{/* Load shared base styles */}}
+<link rel="stylesheet" href='{{ "assets/css/base.css" | relURL }}' />
+
+{{/* Load horizon2020 theme styles */}}
+<link rel="stylesheet" href='{{ "themes/horizon2020.css" | relURL }}' />
+
+{{/* Dynamic background and intro customization */}}
 <style type="text/css">
 	#wrapper > .bg {
 		position: absolute;
