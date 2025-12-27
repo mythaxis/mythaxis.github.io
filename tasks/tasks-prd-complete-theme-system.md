@@ -116,7 +116,7 @@ static/
   - [x] 3.3 Move `static/images/divider.svg` to `static/themes/horizon2020/divider.svg`
   - [x] 3.4 Update horizon2020 partials to reference new image paths (`/themes/horizon2020/`)
   - [x] 3.5 Analyze `overrides.css` and categorize styles as shared vs horizon-specific
-  - [ ] 3.6 Create `static/assets/css/base.css` with shared styles (fonts, image tricks, author footer, blockquote, TEI)
+  - [x] 3.6 Create `static/assets/css/base.css` with shared styles (fonts, image tricks, author footer, blockquote, TEI)
   - [ ] 3.7 Create `static/themes/horizon2020.css` with legacy-specific styles (Starcraft intro/header, nav background, button hover)
   - [ ] 3.8 Extract inline styles from `nebula2025/styles.html` to `static/themes/nebula2025.css`
   - [ ] 3.9 Update `horizon2020/styles.html` to load base.css + horizon2020.css + dynamic background only
