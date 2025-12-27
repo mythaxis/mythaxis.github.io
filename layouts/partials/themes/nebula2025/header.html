@@ -1,0 +1,27 @@
+{{/*
+  Nebula2025 Theme - Header Partial
+  =================================
+  Modern header with enhanced styling.
+  
+  Expects context from theme-dispatch:
+    .Page    - The current page context
+    .Section - The current section (from getCurrentTheme)
+    .Theme   - The theme name
+    .Data    - Any extra data passed
+*/}}
+
+{{- $page := .Page -}}
+{{- $section := .Section -}}
+
+<!-- Header -->
+<header id="header" class="nebula-header">
+	{{ if $section }}
+	<a href='{{ $section.RelPermalink }}' class="logo nebula-logo">
+		<span class="nebula-logo-text">{{ $section.Title }}</span>
+	</a>
+	{{ else }}
+	<a href='{{ $page.Site.Home | relURL }}' class="logo nebula-logo">
+		<span class="nebula-logo-text">{{ $page.Site.Title }}</span>
+	</a>
+	{{ end }}
+</header>

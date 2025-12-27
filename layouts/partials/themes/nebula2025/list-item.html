@@ -1,0 +1,45 @@
+{{/*
+  Nebula2025 Theme - List Item Partial
+  ====================================
+  Modern story list item card with enhanced styling.
+  
+  Expects context from theme-dispatch:
+    .Page    - The stock page being rendered
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Any extra data passed
+*/}}
+
+{{- $page := .Page -}}
+
+<!-- Post List Item -->
+<article class="nebula-card">
+    {{ if $page.Params.image }}
+    <div class="nebula-card-image">
+        <a href="{{ $page.Permalink }}">
+            <img src="{{ path.Join $page.Section $page.Params.image | relURL }}" alt="Story image for {{ $page.Title }}" />
+        </a>
+    </div>
+    {{ end }}
+    
+    <div class="nebula-card-content">
+        <header class="nebula-card-header">
+            <h2 class="nebula-card-title"><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h2>
+            <span class="nebula-card-authors">{{ collections.Delimit $page.Params.authors ", " }}</span>
+        </header>
+        
+        {{ if $page.Description }}
+        <p class="nebula-card-description">{{ $page.Description }}</p>
+        {{ else }}
+        <p class="nebula-card-description">{{ $page.Summary }}</p>
+        {{ end }}
+        
+        {{ if $page.Params.morelink }}
+        <div class="nebula-card-actions">
+            <a href="{{ $page.Permalink }}" class="nebula-button-small">
+                {{ $page.Params.morelink }}
+            </a>
+        </div>
+        {{ end }}
+    </div>
+</article>

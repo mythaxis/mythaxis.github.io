@@ -1,26 +1,7 @@
-<!-- Featured Post -->
-{{ $data := index .Site.Data .Site.Language.Lang }}
-<article class="post featured">
-    <header class="major">
-        <span>{{ collections.Delimit .Params.authors ", " }}</span>
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    </header>
+{{/*
+  Stock Featured - Theme Dispatcher Wrapper
+  =========================================
+  This render template delegates to the theme-specific featured implementation.
+*/}}
 
-    {{ if .Description }}
-    <p>{{ .Description }}</p>
-    {{ else }}
-    <p>{{ .Summary }}</p>
-    {{ end }}
-
-    {{ if .Params.image }}
-    <a href="{{ .Permalink }}" class="image main"><img src="{{ path.Join .Section .Params.image | relURL }}" alt="Story image for {{ .Title }} by {{ .Params.author}}" title="Story image for {{ .Title }} by {{ .Params.author}}" /></a>
-    {{ end }}
-
-    {{ if .Params.morelink }}
-    <ul class="actions">
-        <li><a href="{{ .Permalink }}" class="button big">
-            {{ .Params.morelink }}
-        </a></li>
-    </ul>
-    {{ end }}
-</article>
+{{ partial "theme-dispatch" (dict "partial" "featured" "context" .) }}

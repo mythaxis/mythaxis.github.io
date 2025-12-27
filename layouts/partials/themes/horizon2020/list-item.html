@@ -1,0 +1,39 @@
+{{/*
+  Horizon2020 Theme - List Item Partial
+  =====================================
+  Classic story list item card.
+  
+  Expects context from theme-dispatch:
+    .Page    - The stock page being rendered
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Any extra data passed
+*/}}
+
+{{- $page := .Page -}}
+
+<!-- Post List Item -->
+<article>
+    <header>
+        <h2><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h2>
+        <span>{{ collections.Delimit $page.Params.authors ", " }}</span>
+    </header>
+    
+    {{ if $page.Params.image }}
+    <a href="{{ $page.Permalink }}" class="image fit"><img src="{{ path.Join $page.Section $page.Params.image | relURL }}" alt="Thumbnail of Story image for {{ $page.Title }} by {{ $page.Params.author}}" title="Thumbnail of Story image for {{ $page.Title }} by {{ $page.Params.author}}"/></a>
+    {{ end }}
+    
+    {{ if $page.Description }}
+    <p>{{ $page.Description }}</p>
+    {{ else }}
+    <p>{{ $page.Summary }}</p>
+    {{ end }}
+    
+    {{ if $page.Params.morelink }}
+    <ul class="actions">
+        <li><a href="{{ $page.Permalink }}" class="button">
+            {{ $page.Params.morelink }}
+        </a></li>
+    </ul>
+    {{ end }}
+</article>

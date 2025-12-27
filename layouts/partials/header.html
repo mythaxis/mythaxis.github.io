@@ -1,10 +1,7 @@
-{{ $currSection := partial "functions/getCurrentTheme" . }}
+{{/*
+  Header Partial - Theme Dispatcher Wrapper
+  =========================================
+  This partial delegates to the theme-specific header implementation.
+*/}}
 
-<!-- Header -->
-<header id="header">
-	{{ if $currSection }}
-    <a href='{{ $currSection.RelPermalink }}' class="logo">{{ $currSection.Title }}</a>
-	{{ else }}
-	<a href='{{ .Site.Home | relURL }}' class="logo">{{ .Site.Title }}</a>
-	{{ end }}
-</header>
+{{ partial "theme-dispatch" (dict "partial" "header" "context" .) }}

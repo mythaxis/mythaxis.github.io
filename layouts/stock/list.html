@@ -1,26 +1,7 @@
-<!-- Posts -->
-{{ $data := index .Site.Data .Site.Language.Lang }}
-<article>
-    <header>
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-        <span>{{ collections.Delimit .Params.authors ", " }}</span>
-    </header>
-    
-    {{ if .Params.image }}
-    <a href="{{ .Permalink }}" class="image fit"><img src="{{ path.Join .Section .Params.image | relURL }}" alt="Thumbnail of Story image for {{ .Title }} by {{ .Params.author}}" title="Thumbnail of Story image for {{ .Title }} by {{ .Params.author}}"/></a>
-    {{ end }}
-    
-    {{ if .Description }}
-    <p>{{ .Description }}</p>
-    {{ else }}
-    <p>{{ .Summary }}</p>
-    {{ end }}
-    
-    {{ if .Params.morelink }}
-    <ul class="actions">
-        <li><a href="{{ .Permalink }}" class="button">
-            {{ .Params.morelink }}
-        </a></li>
-    </ul>
-    {{ end }}
-</article>  
+{{/*
+  Stock List - Theme Dispatcher Wrapper
+  =====================================
+  This render template delegates to the theme-specific list-item implementation.
+*/}}
+
+{{ partial "theme-dispatch" (dict "partial" "list-item" "context" .) }}
