@@ -19,15 +19,10 @@
 {{- $partialName := .partial -}}
 {{- $extraData := .data | default dict -}}
 
-{{/* Get theme from section config via getCurrentTheme function */}}
-{{- $currSection := partial "functions/getCurrentTheme" $context -}}
-{{- $theme := "nebula2025" -}}
-
-{{- if $currSection -}}
-  {{- $theme = $currSection.Params.theme | default $context.Site.Params.defaultTheme | default "nebula2025" -}}
-{{- else -}}
-  {{- $theme = $context.Site.Params.defaultTheme | default "nebula2025" -}}
-{{- end -}}
+{{/* Get theme context (section + theme) via unified function */}}
+{{- $themeCtx := partial "functions/getThemeContext" $context -}}
+{{- $currSection := $themeCtx.Section -}}
+{{- $theme := $themeCtx.Theme -}}
 
 {{/* Build the partial path */}}
 {{- $partialPath := printf "themes/%s/%s.html" $theme $partialName -}}
