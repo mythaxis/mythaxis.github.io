@@ -1,5 +1,94 @@
 /* ==========================================================================
-   Nebula2025 Theme Styles - Modern Theme
+   Nebula2025 Theme - Complete Styles (Self-Contained, Plain CSS)
+   ========================================================================== */
+
+/* ==========================================================================
+   PART 1: Content Styling (needed base styles)
+   Blockquotes, glyphs, author footers, and image layout utilities
+   ========================================================================== */
+
+/* Blockquote Styles
+   ========================================================================== */
+
+blockquote > p {
+    margin: 0 0 1rem 0;
+}
+
+
+/* TEI (Text Encoding Initiative) Styles
+   ========================================================================== */
+
+glyph {
+    font-weight: 600;
+    font-size: 4em;
+    float: left;
+    line-height: 0.9em;
+    padding-top: 0.15em;
+    padding-right: 0.1em;
+}
+
+glyph.small {
+    font-size: 2em;
+}
+
+
+/* Author Footer Styles
+   ========================================================================== */
+
+footer.author img {
+    border: 5px solid #212931a6;
+    border-radius: 50%;
+    max-width: 200px;
+    height: auto;
+    padding: 0;
+}
+
+footer.author p {
+    line-height: 2em;
+    margin-bottom: 1em;
+}
+
+
+/* Image Layout CSS3 Trick
+   Source: https://stackoverflow.com/a/39614958
+
+   Usage in markdown:
+   - ![alt <](image.jpg)   - Small left-aligned
+   - ![alt >](image.jpg)   - Small right-aligned
+   - ![alt ><](image.jpg)  - Small center-aligned
+   - ![alt -lrg](image.jpg) - Large-ish left-aligned
+   ========================================================================== */
+
+img[alt$="<"] {
+    max-width: 80px;
+}
+
+img[alt$=">"] {
+    display: block;
+    max-width: 80px;
+    height: auto;
+    margin-left: auto;
+    float: none !important;
+}
+
+img[alt$="><"] {
+    display: block;
+    max-width: 80px;
+    height: auto;
+    margin: auto;
+    float: none !important;
+}
+
+/* Large-ish left-aligned image */
+img[alt$="-lrg"] {
+    width: 40%;
+    max-width: 200px;
+}
+
+
+/* ==========================================================================
+   PART 2: Nebula2025 Modern Theme Styles
+   Modern gradient-based design with cards and smooth animations
    ========================================================================== */
 
 /* Intro Section
