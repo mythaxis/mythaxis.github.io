@@ -1,4 +1,5 @@
 ---
+theme: horizon2020
 title: "Mythaxis Magazine Issue 27"
 date: 2021-08-15
 slug: index

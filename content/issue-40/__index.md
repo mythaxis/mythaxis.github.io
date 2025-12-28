@@ -1,4 +1,5 @@
 ---
+theme: horizon2020
 title: "Mythaxis Magazine Issue 40"
 date: 2024-12-27
 slug: index
