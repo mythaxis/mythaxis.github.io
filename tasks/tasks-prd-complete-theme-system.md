@@ -126,14 +126,14 @@ static/
   - [x] 3.12 Verify all font paths work correctly in base.css
   - [x] 3.13 Test both themes render correctly with new CSS structure
 
-- [ ] 4.0 Phase 3: Content Migration
+- [x] 4.0 Phase 3: Content Migration
   - [x] 4.1 Determine cutoff issue for theme switch (confirm with stakeholder)
   - [x] 4.2 Create script or batch process to add `theme: horizon2020` to legacy issues
   - [x] 4.3 Add `theme: horizon2020` to issues 23-43 (or determined cutoff)
   - [x] 4.4 Remove test `theme: horizon2020` from issue-44 if keeping as nebula2025
-  - [ ] 4.5 Verify homepage renders correctly with currentIssue theme
-  - [ ] 4.6 Verify archive page renders correctly
-  - [ ] 4.7 Spot-check 3-5 legacy issues for visual regressions
+  - [x] 4.5 Verify homepage renders correctly with currentIssue theme
+  - [x] 4.6 Verify archive page renders correctly
+  - [x] 4.7 Spot-check 3-5 legacy issues for visual regressions
 
 - [ ] 5.0 Phase 4: Documentation & QA
   - [ ] 5.1 Create `docs/THEME-SYSTEM.md` with architecture overview
