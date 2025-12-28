@@ -4,19 +4,13 @@
   For non-stock pages (about, submissions, etc.)
 */}}
 
-{{- $currSection := partial "functions/getCurrentTheme" . -}}
-{{- $theme := "nebula2025" -}}
-{{- if $currSection -}}
-  {{- $theme = $currSection.Params.theme | default .Site.Params.defaultTheme | default "nebula2025" -}}
-{{- else -}}
-  {{- $theme = .Site.Params.defaultTheme | default "nebula2025" -}}
-{{- end -}}
+{{- $themeCtx := partial "functions/getThemeContext" . -}}
 
 <!DOCTYPE HTML>
 <html lang='{{ .Site.Language.Lang | default "en-us" }}'>
   {{ partial "htmlhead" . }}
-  
-  <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload theme-{{ $theme }}">
+
+  <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload theme-{{ $themeCtx.Theme }}">
     <!-- Wrapper -->
     <div id="wrapper">
       {{ partial "header" . }}

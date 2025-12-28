@@ -1,12 +1,12 @@
-{{ $currSection := partial "functions/getCurrentTheme" . }}
+{{ $themeCtx := partial "functions/getThemeContext" . }}
 
 {{/* Context sensitive meta tag values */}}
 {{ if .IsHome }}
 	{{ .Scratch.Set "pageTitle" (print .Site.Title " — " .Site.Params.description) }}
 {{ else if eq (.Site.Title) (.Title) }}
-	{{ .Scratch.Set "pageTitle" (print $currSection.Title " — " .Site.Title) }}
+	{{ .Scratch.Set "pageTitle" (print $themeCtx.Section.Title " — " .Site.Title) }}
 {{ else }}
-	{{ .Scratch.Set "pageTitle" (print .Title " — " $currSection.Title " — " .Site.Title) }}
+	{{ .Scratch.Set "pageTitle" (print .Title " — " $themeCtx.Section.Title " — " .Site.Title) }}
 {{ end }}
 
 
@@ -26,8 +26,8 @@
 	{{ end }}
 	{{ $noscript := resources.Get "scss/noscript.scss" | resources.ExecuteAsTemplate "noscript.scss" . | toCSS (dict "targetPath" "assets/css/noscript.css" "enableSourceMap" false) }}
 	<noscript><link rel="stylesheet" href='{{ $noscript.RelPermalink }}' /></noscript>
-	
-	{{ partial "htmlhead-styles-overrides.html" $currSection }}
+
+	{{ partial "htmlhead-styles-overrides.html" $themeCtx.Section }}
 	{{ partial "htmlhead-scripts-overrides.html" . }}
 
 
