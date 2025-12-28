@@ -110,7 +110,7 @@ static/
   - [x] 2.12 Update `partials/postcustom.html` to use theme dispatcher
   - [x] 2.13 Update article-single.html partials to use divider partial instead of inline SVG refs
 
-- [ ] 3.0 Phase 2: Separate Static CSS Assets
+- [x] 3.0 Phase 2: Separate Static CSS Assets
   - [x] 3.1 Create `static/themes/` and `static/themes/horizon2020/` directories
   - [x] 3.2 Move `static/images/toplist.svg` to `static/themes/horizon2020/toplist.svg`
   - [x] 3.3 Move `static/images/divider.svg` to `static/themes/horizon2020/divider.svg`
@@ -123,7 +123,7 @@ static/
   - [x] 3.10 Update `nebula2025/styles.html` to load base.css + nebula2025.css + dynamic background only
   - [x] 3.11 Delete `static/assets/css/overrides.css` (replaced by base.css)
   - [x] 3.12 Verify all font paths work correctly in base.css
-  - [ ] 3.13 Test both themes render correctly with new CSS structure
+  - [x] 3.13 Test both themes render correctly with new CSS structure
 
 - [ ] 4.0 Phase 3: Content Migration
   - [ ] 4.1 Determine cutoff issue for theme switch (confirm with stakeholder)
