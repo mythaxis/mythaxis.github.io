@@ -1,0 +1,34 @@
+{{/*
+  Horizon2020 Theme - Scripts Partial
+  ===================================
+  jQuery bundle for the classic Mythaxis theme (Massively-based).
+
+  Expects context from theme-dispatch:
+    .Page    - The current page context
+    .Section - The current section (from getThemeContext)
+    .Theme   - The theme name
+    .Data    - Any extra data passed
+*/}}
+
+{{ $jQuery := resources.Get "js/jquery.min.js" }}
+{{ $scrollex := resources.Get "js/jquery.scrollex.min.js" }}
+{{ $scrolly := resources.Get "js/jquery.scrolly.min.js" }}
+{{ $browser := resources.Get "js/browser.min.js" }}
+{{ $breakpoints := resources.Get "js/breakpoints.min.js" }}
+{{ $util := resources.Get "js/util.js" }}
+{{ $main := resources.Get "js/main.js" }}
+
+{{ $js := slice $jQuery $scrollex $scrolly $browser $breakpoints $util $main | resources.Concat "assets/js/bundle.js" }}
+
+<!-- Scripts: Horizon2020 jQuery Bundle -->
+{{ if hugo.IsServer }}
+<script src='{{ $jQuery.RelPermalink }}'></script>
+<script src='{{ $scrollex.RelPermalink }}'></script>
+<script src='{{ $scrolly.RelPermalink }}'></script>
+<script src='{{ $browser.RelPermalink }}'></script>
+<script src='{{ $breakpoints.RelPermalink }}'></script>
+<script src='{{ $util.RelPermalink }}'></script>
+<script src='{{ $main.RelPermalink }}'></script>
+{{ else }}
+<script src='{{ $js.RelPermalink }}'></script>
+{{ end }}
