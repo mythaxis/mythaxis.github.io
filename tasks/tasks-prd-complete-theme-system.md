@@ -136,14 +136,14 @@ static/
   - [x] 4.6 Verify archive page renders correctly
   - [x] 4.7 Spot-check 3-5 legacy issues for visual regressions
 
-- [ ] 5.0 Phase 4: Documentation & QA
+- [x] 5.0 Phase 4: Documentation & QA
   - [x] 5.1 Create `docs/THEME-SYSTEM.md` with architecture overview
   - [x] 5.2 Document how to set theme per-section
   - [x] 5.3 Document available theme params (intro styling, colors, etc.)
   - [x] 5.4 Create `layouts/partials/themes/README.md` for theme developers
   - [x] 5.5 Document how to create a new theme
   - [x] 5.6 Run `hugo --templateMetrics` and document build performance
-  - [ ] 5.7 Test all page types on mobile viewport
-  - [ ] 5.8 Final visual review of nebula2025 on all page types
-  - [ ] 5.9 Final visual comparison of horizon2020 vs production
-  - [ ] 5.10 Create before/after screenshots for documentation
+  - [x] 5.7 Test all page types on mobile viewport
+  - [x] 5.8 Final visual review of nebula2025 on all page types
+  - [x] 5.9 Final visual comparison of horizon2020 vs production
+  - [x] 5.10 Create before/after screenshots for documentation
