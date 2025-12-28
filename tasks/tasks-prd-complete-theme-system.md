@@ -129,7 +129,7 @@ static/
 - [ ] 4.0 Phase 3: Content Migration
   - [x] 4.1 Determine cutoff issue for theme switch (confirm with stakeholder)
   - [x] 4.2 Create script or batch process to add `theme: horizon2020` to legacy issues
-  - [ ] 4.3 Add `theme: horizon2020` to issues 23-43 (or determined cutoff)
+  - [x] 4.3 Add `theme: horizon2020` to issues 23-43 (or determined cutoff)
   - [ ] 4.4 Remove test `theme: horizon2020` from issue-44 if keeping as nebula2025
   - [ ] 4.5 Verify homepage renders correctly with currentIssue theme
   - [ ] 4.6 Verify archive page renders correctly
