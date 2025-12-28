@@ -1,9 +1,9 @@
 ---
+theme: horizon2020
 title: "Mythaxis Magazine Issue 41"
 date: 2025-04-01
 slug: index
 layout: section
-theme: nebula2025
 
 issue: Issue 41
 subhead: Spring 2025
