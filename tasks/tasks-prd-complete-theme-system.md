@@ -122,7 +122,7 @@ static/
   - [x] 3.9 Update `horizon2020/styles.html` to load base.css + horizon2020.css + dynamic background only
   - [x] 3.10 Update `nebula2025/styles.html` to load base.css + nebula2025.css + dynamic background only
   - [x] 3.11 Delete `static/assets/css/overrides.css` (replaced by base.css)
-  - [ ] 3.12 Verify all font paths work correctly in base.css
+  - [x] 3.12 Verify all font paths work correctly in base.css
   - [ ] 3.13 Test both themes render correctly with new CSS structure
 
 - [ ] 4.0 Phase 3: Content Migration
