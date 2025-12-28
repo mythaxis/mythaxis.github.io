@@ -74,7 +74,8 @@ static/
 
 ### Phase 4: Documentation
 - `docs/THEME-SYSTEM.md` - Theme system documentation
-- `layouts/partials/themes/README.md` - Theme development guide
+- `docs/THEME-DEVELOPMENT-GUIDE.md` - Theme development guide
+- `docs/THEME-PERFORMANCE-METRICS.md` - Build performance analysis
 
 ### Notes
 
@@ -141,7 +142,7 @@ static/
   - [x] 5.3 Document available theme params (intro styling, colors, etc.)
   - [x] 5.4 Create `layouts/partials/themes/README.md` for theme developers
   - [x] 5.5 Document how to create a new theme
-  - [ ] 5.6 Run `hugo --templateMetrics` and document build performance
+  - [x] 5.6 Run `hugo --templateMetrics` and document build performance
   - [ ] 5.7 Test all page types on mobile viewport
   - [ ] 5.8 Final visual review of nebula2025 on all page types
   - [ ] 5.9 Final visual comparison of horizon2020 vs production
