@@ -1,25 +1,14 @@
-{{ $jQuery := resources.Get "js/jquery.min.js" }}
-{{ $scrollex := resources.Get "js/jquery.scrollex.min.js" }}
-{{ $scrolly := resources.Get "js/jquery.scrolly.min.js" }}
-{{ $browser := resources.Get "js/browser.min.js" }}
-{{ $breakpoints := resources.Get "js/breakpoints.min.js" }}
-{{ $util := resources.Get "js/util.js" }}
-{{ $main := resources.Get "js/main.js" }}
+{{/*
+  Scripts Dispatcher
+  ==================
+  Routes to theme-specific JavaScript loading based on current theme.
 
-{{ $js := slice $jQuery $scrollex $scrolly $browser $breakpoints $util $main | resources.Concat "assets/js/bundle.js" }}
+  Uses theme-dispatch pattern to load:
+  - Horizon2020: Full jQuery bundle (jquery, scrollex, scrolly, browser, breakpoints, util, main)
+  - Nebula2025: No JavaScript (pure CSS theme)
+*/}}
 
-<!-- Scripts -->
-{{ if hugo.IsServer }}
-<script src='{{ $jQuery.RelPermalink }}'></script>
-<script src='{{ $scrollex.RelPermalink }}'></script>
-<script src='{{ $scrolly.RelPermalink }}'></script>
-<script src='{{ $browser.RelPermalink }}'></script>
-<script src='{{ $breakpoints.RelPermalink }}'></script>
-<script src='{{ $util.RelPermalink }}'></script>
-<script src='{{ $main.RelPermalink }}'></script>
-{{ else }}
-<script src='{{ $js.RelPermalink }}'></script>
-{{ end }}
+{{ partial "theme-dispatch" (dict "partial" "scripts" "context" .) }}
 
 
 
