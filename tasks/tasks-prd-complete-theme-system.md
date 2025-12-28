@@ -69,6 +69,7 @@ static/
 - `static/images/divider.svg` - Moved to themes/horizon2020/
 
 ### Phase 3: Content Migration
+- `scripts/add-theme-to-legacy-issues.sh` - Batch script to add theme param to legacy issues
 - `content/issue-23/__index.md` through `content/issue-43/__index.md` - Add theme param
 
 ### Phase 4: Documentation
@@ -126,8 +127,8 @@ static/
   - [x] 3.13 Test both themes render correctly with new CSS structure
 
 - [ ] 4.0 Phase 3: Content Migration
-  - [ ] 4.1 Determine cutoff issue for theme switch (confirm with stakeholder)
-  - [ ] 4.2 Create script or batch process to add `theme: horizon2020` to legacy issues
+  - [x] 4.1 Determine cutoff issue for theme switch (confirm with stakeholder)
+  - [x] 4.2 Create script or batch process to add `theme: horizon2020` to legacy issues
   - [ ] 4.3 Add `theme: horizon2020` to issues 23-43 (or determined cutoff)
   - [ ] 4.4 Remove test `theme: horizon2020` from issue-44 if keeping as nebula2025
   - [ ] 4.5 Verify homepage renders correctly with currentIssue theme
