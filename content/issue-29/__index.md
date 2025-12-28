@@ -1,4 +1,5 @@
 ---
+theme: horizon2020
 title: "Mythaxis Magazine Issue 29"
 date: 2022-03-27
 slug: index
