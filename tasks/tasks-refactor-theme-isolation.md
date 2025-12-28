@@ -32,11 +32,6 @@ Complete isolation of theme CSS and JavaScript so themes are fully independent w
 - `static/assets/css/base.css` - Content merged into theme CSS files
 - (Potentially) Unused JS files if nebula2025 doesn't need them
 
-### Documentation to Update
-- `docs/THEME-SYSTEM.md` - Updated architecture
-- `docs/THEME-DEVELOPMENT-GUIDE.md` - Updated theme creation guide
-- `docs/THEME-PERFORMANCE-METRICS.md` - New performance comparison
-
 ---
 
 ## Tasks
@@ -56,11 +51,11 @@ Complete isolation of theme CSS and JavaScript so themes are fully independent w
 
 - [ ] 2.0 Phase 2: Create standalone nebula2025.css (plain CSS)
   - [ ] 2.1 Audit what nebula2025 needs from base.css
-    - [x] Blockquote styles (used in editorials)
-    - [x] TEI glyph styles (used in stories via shortcode)
-    - [x] Author footer styles (used on all articles)
-    - [x] Image layout tricks (used for centered images)
-    - [x] NOT NEEDED: Starcraft fonts (horizon2020 only)
+    - [ ] Blockquote styles (used in editorials)
+    - [ ] TEI glyph styles (used in stories via shortcode)
+    - [ ] Author footer styles (used on all articles)
+    - [ ] Image layout tricks (used for centered images)
+    - [ ] NOT NEEDED: Starcraft fonts (horizon2020 only)
   - [ ] 2.2 Read current static/themes/nebula2025.css
   - [ ] 2.3 Create new nebula2025.css structure:
     - [ ] 2.3a Add blockquote styles from base.css
@@ -171,7 +166,7 @@ Complete isolation of theme CSS and JavaScript so themes are fully independent w
 ## Success Criteria
 
 ### Complete Isolation
-- [x] Assessment complete: nebula2025 needs blockquotes, glyphs, author footer, image tricks
+- [ ] Assessment complete: nebula2025 needs blockquotes, glyphs, author footer, image tricks
 - [ ] Horizon2020 loads ONLY: horizon2020.css + Massively SCSS + jQuery bundle
 - [ ] Nebula2025 loads ONLY: nebula2025.css + minimal/zero JS
 - [ ] No shared CSS between themes
