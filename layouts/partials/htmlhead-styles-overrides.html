@@ -10,14 +10,14 @@
 {{- $currSection := . -}}
 
 {{/* Build a pseudo-context for the dispatcher */}}
-{{- $theme := $currSection.Params.theme | default $.Site.Params.defaultTheme | default "nebula2025" -}}
+{{- $theme := $currSection.Params.theme | default $.Site.Params.defaultTheme | default "nebula2026" -}}
 {{- $partialPath := printf "themes/%s/styles.html" $theme -}}
-{{- $fallbackPath := "themes/nebula2025/styles.html" -}}
+{{- $fallbackPath := "themes/nebula2026/styles.html" -}}
 
 {{/* Prepare context matching what theme-dispatch provides */}}
 {{- $fullContext := dict "Page" $currSection "Section" $currSection "Theme" $theme "Data" dict -}}
 
-{{/* Try theme-specific partial, fallback to nebula2025 */}}
+{{/* Try theme-specific partial, fallback to nebula2026 */}}
 {{- if templates.Exists (printf "partials/%s" $partialPath) -}}
   {{- partial $partialPath $fullContext -}}
 {{- else if templates.Exists (printf "partials/%s" $fallbackPath) -}}
