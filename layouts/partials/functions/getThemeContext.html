@@ -24,11 +24,11 @@
 {{- $currSection := .Site.GetPage "section" (print $currSection "/__index.md") -}}
 
 {{/* Resolve theme from section -> site -> default */}}
-{{- $theme := "nebula2025" -}}
+{{- $theme := "nebula2026" -}}
 {{- if $currSection -}}
-  {{- $theme = $currSection.Params.theme | default .Site.Params.defaultTheme | default "nebula2025" -}}
+  {{- $theme = $currSection.Params.theme | default .Site.Params.defaultTheme | default "nebula2026" -}}
 {{- else -}}
-  {{- $theme = .Site.Params.defaultTheme | default "nebula2025" -}}
+  {{- $theme = .Site.Params.defaultTheme | default "nebula2026" -}}
 {{- end -}}
 
 {{/* Return both section and theme */}}
