@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="45" fill="none" stroke="#00BFFF" stroke-width="3"/>
+  <circle cx="50" cy="50" r="35" fill="none" stroke="#87CEEB" stroke-width="2"/>
+  <!-- Circuit board pattern -->
+  <rect x="20" y="48" width="60" height="4" fill="#00FFFF"/>
+  <rect x="48" y="20" width="4" height="60" fill="#00FFFF"/>
+  <circle cx="30" cy="30" r="3" fill="#00FFFF"/>
+  <circle cx="70" cy="30" r="3" fill="#00FFFF"/>
+  <circle cx="30" cy="70" r="3" fill="#00FFFF"/>
+  <circle cx="70" cy="70" r="3" fill="#00FFFF"/>
+  <!-- Central tech element -->
+  <polygon points="45,40 55,40 60,50 55,60 45,60 40,50" fill="none" stroke="#FFD700" stroke-width="2"/>
+  <circle cx="50" cy="50" r="5" fill="#FFD700"/>
+</svg>
