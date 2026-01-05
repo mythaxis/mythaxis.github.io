@@ -43,6 +43,9 @@ params:
   # The slug/name of the current section. This is used to theme pages
   # which are not in a specific section (homepage, about, etc.)
   currentIssue: Issue 44
+  # Nebula2026 theme defaults
+  defaultRoundel: orbit
+  defaultChapterMarker: orbit
 
 
 menu:
