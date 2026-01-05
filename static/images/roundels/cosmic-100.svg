@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="45" fill="none" stroke="#4B0082" stroke-width="3"/>
+  <circle cx="50" cy="50" r="35" fill="none" stroke="#8A2BE2" stroke-width="2"/>
+  <!-- Central galaxy spiral -->
+  <path d="M 50 50 Q 60 40 70 50 Q 60 60 50 50 Q 40 60 30 50 Q 40 40 50 50" fill="none" stroke="#FFD700" stroke-width="2"/>
+  <!-- Planetary rings -->
+  <ellipse cx="50" cy="50" rx="25" ry="8" fill="none" stroke="#87CEEB" stroke-width="1"/>
+  <ellipse cx="50" cy="50" rx="8" ry="25" fill="none" stroke="#87CEEB" stroke-width="1"/>
+  <!-- Stars scattered -->
+  <circle cx="25" cy="25" r="1" fill="#FFFFFF"/>
+  <circle cx="75" cy="25" r="1.5" fill="#FFFFFF"/>
+  <circle cx="25" cy="75" r="1" fill="#FFFFFF"/>
+  <circle cx="75" cy="75" r="1.5" fill="#FFFFFF"/>
+  <circle cx="35" cy="60" r="1" fill="#FFFFFF"/>
+  <circle cx="65" cy="40" r="1" fill="#FFFFFF"/>
+  <!-- Nebula clouds -->
+  <path d="M 30 40 Q 35 35 40 40 Q 35 45 30 40" fill="none" stroke="#FF69B4" stroke-width="1"/>
+  <path d="M 60 60 Q 65 55 70 60 Q 65 65 60 60" fill="none" stroke="#FF69B4" stroke-width="1"/>
+</svg>
