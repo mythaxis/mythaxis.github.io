@@ -11,8 +11,9 @@
 */}}
 
 {{- $page := .Page -}}
+{{- $section := .Section -}}
 
-<section class="post nebula-article">
+<section class="post nebula-article" data-chapter-marker="{{ $page.Params.chapterMarker | default "orbit" }}">
     <header class="nebula-article-header">
         <div class="nebula-article-meta">
             <span class="nebula-article-authors">{{ collections.Delimit $page.Params.authors ", " }}</span>
@@ -43,6 +44,16 @@
     {{ partial "authorfooter" $page }}
     
     <footer class="nebula-article-footer">
+        {{/* Story-end marker roundel */}}
+        {{ $issueRoundel := "orbit" }}
+        {{ if $section }}
+          {{ $issueRoundel = $section.Params.issueRoundel | default "orbit" }}
+        {{ end }}
+        <img src="/images/roundels/{{ $issueRoundel }}-200.svg"
+             class="story-end-marker"
+             alt=""
+             aria-hidden="true" />
+
         {{ partial "theme-dispatch" (dict "partial" "divider" "context" . "data" (dict "class" "nebula-article-divider" "id" "nebula-gradient-article-footer")) }}
         <p class="nebula-support-text"><strong>Mythaxis</strong> is forever free to read, but if you'd like to support us you can do so <a href="https://ko-fi.com/mythaxismagazine">here</a> (but only if you <em>really</em> want to!)</p>
     </footer>
