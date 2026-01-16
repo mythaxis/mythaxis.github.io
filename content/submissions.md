@@ -9,9 +9,16 @@ slug: submissions
 
 ***Mythaxis* is currently closed to submissions.**
 
-**SUBMISSIONS NOTICE:** *Mythaxis* is closed to new submissions until 2026.
+We are open to submissions within the following periods:
 
-Our guidelines page is maintained for future reference. When open, we seek the following:
+- **January 23rd-30th**
+- April 23rd-30th
+- July 23rd-30th
+- October 23rd-30th
+- 
+Submissions received outside of these dates will unfortunately be lost and therefore not responded to.
+
+When open, we seek the following:
 
 - **Flash fiction:** 500–2,000 words (we do not receive enough flash submissions! Please send more!)
 - **Short fiction:** 2,000–5,000 words (the sweet spot is 2k–4k)
@@ -28,9 +35,9 @@ If you do not receive an acknowledgment within 24 hours of submission, please ge
 
 We acquire **First Print, Digital, and Audio rights with a six month period of exclusivity** from the date of publication. We also ask permission to potentially include accepted pieces in future anthologies; in event of agreement, an additional compensation will be offered. All other rights remain entirely with the author. See **[here](./editorial-policy.html)** for an overview of our editorial process.
 
-**Simultaneous submissions are not only accepted, they are encouraged.** Please tell us if you sim-sub, and we merely ask that you notify us of acceptance at another market as soon as possible. In the event that we accept first, we expect a positive and timely confirmation. Therefore we recommend sim-subbing to markets of equivalent status – we won't wait for someone else you'd like better to turn you down.
+**Simultaneous submissions are not only accepted, they are encouraged.** We do not require notification, we merely ask that you notify us of acceptance at another market as soon as possible. In the event that we accept first, we expect a positive and timely confirmation. Therefore we recommend sim-subbing to markets of equivalent status – we won't wait for someone else you'd like better to turn you down.
 
-**We do not accept multiple submissions.** Please wait until your first submission has been rejected before submitting another work.
+**We do not accept multiple submissions.** Please wait until your first submission to us has been rejected before submitting another work here.
 
 **If a story has previously been rejected by *Mythaxis*, please do not resubmit** or inquire regarding doing so, unless explicitly invited to by the editor during the original rejection.
 
