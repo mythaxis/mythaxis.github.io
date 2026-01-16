@@ -15,7 +15,7 @@ We are open to submissions within the following periods:
 - April 23rd-30th
 - July 23rd-30th
 - October 23rd-30th
-- 
+
 Submissions received outside of these dates will unfortunately be lost and therefore not responded to.
 
 When open, we seek the following:
