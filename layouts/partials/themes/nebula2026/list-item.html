@@ -19,7 +19,7 @@
          data-story-title="{{ $page.Title }}"
          data-story-authors="{{ collections.Delimit $page.Params.authors ", " }}"
          data-story-genre="{{ $page.Params.genre }}"
-         data-story-abstract="{{ $page.Params.abstract | default $page.Summary }}"
+         data-story-description="{{ $page.Description | default $page.Summary }}"
          data-story-image="{{ if $page.Params.image }}{{ path.Join $page.Section $page.Params.image | relURL }}{{ end }}">
     {{ if $page.Params.image }}
     <div class="nebula-card-image">
