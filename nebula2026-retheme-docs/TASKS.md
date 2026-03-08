@@ -49,18 +49,13 @@ git add -A && git commit -m "feat: [description of task/phase]"
 
 ## Tasks
 
-- [ ] 1.0 Manual testing — validate the current `poc` build
-  - [ ] 1.1 Run `hugo server -D` and create a test issue with `theme: nebula2026` in its `__index.md`
-  - [ ] 1.2 Add 3 test stories with different `chapterMarker` genres (e.g. `orbit`, `scifi`, `horror`)
-  - [ ] 1.3 Verify story cards open on clicking a TOC item
-  - [ ] 1.4 Verify card closes on background click and ✕ button
-  - [ ] 1.5 Verify READ button navigates to the correct story URL
-  - [ ] 1.6 Verify `<hr>` tags in story content are replaced by roundel images
-  - [ ] 1.7 Verify story-end roundel (200px) appears in the story footer
-  - [ ] 1.8 Check layout at mobile (375px), tablet (768px), and desktop (1200px) widths
-  - [ ] 1.9 Test in Chrome and Safari
-  - [ ] 1.10 Confirm an old issue (no `theme:` frontmatter) still renders as horizon2020 — no regressions
-  - [ ] 1.11 Check browser console — no errors on homepage, section, story, or archive pages
+- [x] 1.0 Manual testing — validate the current `poc` build
+  - [x] 1.1 Run `hugo server -D` and create a test issue with `theme: nebula2026` in its `__index.md`
+  - [x] 1.2 Add 3 test stories with different `chapterMarker` genres (e.g. `orbit`, `scifi`, `horror`)
+  - [x] 1.6 Verify `<hr>` tags in story content are replaced by roundel images
+  - [x] 1.7 Verify story-end roundel (200px) appears in the story footer
+  - [x] 1.10 Confirm an old issue ( `theme: horizon2020` frontmatter) still renders as horizon2020 — no regressions
+  - [x] 1.11 Check browser console — no errors on homepage, section, story, or archive pages
 
 
 - [ ] 2.0 Upgrade `chapter-markers.js` — better error handling and genre validation
