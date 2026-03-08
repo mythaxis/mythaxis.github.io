@@ -100,7 +100,7 @@ The article template sets the data attribute from frontmatter:
 
 `story-card-interactions.js` handles the preview overlay on issue/section pages:
 
-- Each TOC item has `data-*` attributes with story metadata (title, authors, abstract, image, URL)
+- Each TOC item has `data-*` attributes with story metadata (title, authors, description, image, URL)
 - Clicking a TOC item populates the overlay and shows it
 - Clicking the background or ✕ button hides it
 - READ button navigates to the story URL
@@ -111,7 +111,7 @@ Data attributes are set in `list-item.html`:
     data-story-title="{{ .Title }}"
     data-story-authors="{{ delimit .Params.authors ", " }}"
     data-story-genre="{{ .Params.genre }}"
-    data-story-abstract="{{ .Params.abstract }}"
+    data-story-description="{{ .Description }}"
     data-story-image="{{ .Params.image }}"
     data-has-card="true">
 ```
@@ -122,7 +122,7 @@ Data attributes are set in `list-item.html`:
 
 1. Set `theme: nebula2026` in `__index.md`
 2. Add `issueRoundel`, `colorScheme`, and `image` if customising
-3. For each story, add `chapterMarker`, `abstract`, and `image` where available
+3. For each story, add `chapterMarker`, `description`, and `image` where available
 4. Run `hugo server` and verify
 
 ---
