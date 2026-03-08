@@ -59,28 +59,28 @@ git add -A && git commit -m "feat: [description of task/phase]"
 
 
 - [ ] 2.0 CSS audit and merge from reference branches
-  - [ ] 2.1 Review the five SCSS source files in snarktank to understand what exists beyond poc's current CSS:
+  - [ ] 2.1 Read `_variables.scss` from snarktank to get the resolved values for all SCSS variables — these will be substituted literally when copying rules:
     - `git show nebula2026-snarktank:assets/scss/nebula2026/_variables.scss`
+  - [ ] 2.2 Read the remaining four SCSS files and identify CSS rules that are absent or incomplete in `static/themes/nebula2026.css` (focus on: responsive breakpoints, card overlay states, story card layout, interaction states):
     - `git show nebula2026-snarktank:assets/scss/nebula2026/_components.scss`
     - `git show nebula2026-snarktank:assets/scss/nebula2026/_responsive.scss`
     - `git show nebula2026-snarktank:assets/scss/nebula2026/_animations.scss`
     - `git show nebula2026-snarktank:assets/scss/nebula2026/_interactions.scss`
-  - [ ] 2.2 Compare against `static/themes/nebula2026.css` — identify styles present in snarktank's SCSS but missing or incomplete in poc's flat CSS (particularly: responsive breakpoints, card overlay hover/interaction states, story card layout improvements)
-  - [ ] 2.3 Convert and append missing styles to `static/themes/nebula2026.css` as plain CSS (strip SCSS syntax: `$variables` → literal values, nest → flat selectors, `@mixin` → inline). Add under clearly labelled comment blocks.
-  - [ ] 2.4 Add slide animation CSS (required by Phase 4 story card JS):
-    - Extract `@keyframes slideInRight`, `slideInLeft`, `slideOutLeft`, `slideOutRight` from `_animations.scss`
-    - Add `.story-card--slide-in-right/left` and `.story-card--slide-out-left/right` with `100ms cubic-bezier(0.4, 0.0, 0.2, 1)` timing
-    - Append under `/* Card slide transitions */` comment
-  - [ ] 2.5 Add roundel animation classes (required by Phase 5):
+  - [ ] 2.3 Copy the missing CSS rules directly into `static/themes/nebula2026.css`. Rules should be copied as-is where they are already plain CSS. Where SCSS syntax appears, resolve it minimally: substitute `$variable` with its literal value from `_variables.scss`; flatten any nested selectors into explicit selectors; inline any `@include` content. Do not rewrite or redesign — copy then fix syntax only.
+  - [ ] 2.4 Copy slide animation CSS from `_animations.scss` (required by Phase 4 story card JS):
+    - Copy `@keyframes slideInRight`, `slideInLeft`, `slideOutLeft`, `slideOutRight` directly
+    - Copy `.story-card--slide-in-right/left` and `.story-card--slide-out-left/right` rules, resolving any SCSS variables to literal values
+    - Append under `/* Card slide transitions */` comment in `nebula2026.css`
+  - [ ] 2.5 Add roundel animation classes (required by Phase 5) — these are short enough to write directly:
     - `.roundel-animate { opacity: 0; transform: scale(0.9); transition: opacity 400ms ease-out, transform 400ms ease-out; }`
     - `.roundel-animate--visible { opacity: 1; transform: scale(1); }`
-  - [ ] 2.6 Add reading progress CSS (required by Phase 6):
-    - `.reading-progress` — `position: fixed; top: 0; left: 0; width: 100%; height: 3px; z-index: 9999;`
-    - `.reading-progress__bar` — gradient fill using the issue's `--color-primary` and `--color-secondary` CSS variables, `width: 0%; height: 100%;`
-  - [ ] 2.7 Also update CSS class name `story-card-abstract` → `story-card-description` in `nebula2026.css` to match the template change
+  - [ ] 2.6 Add reading progress CSS (required by Phase 6) — write directly:
+    - `.reading-progress { position: fixed; top: 0; left: 0; width: 100%; height: 3px; z-index: 9999; }`
+    - `.reading-progress__bar { width: 0%; height: 100%; background: linear-gradient(to right, var(--color-primary), var(--color-secondary)); }`
+  - [ ] 2.7 Rename `story-card-abstract` → `story-card-description` anywhere it appears in `nebula2026.css`
   - [ ] 2.8 **Manual browser check required** — run `hugo server -D` and verify: visual layout at mobile (375px), tablet (768px), and desktop (1200px); story card overlay renders correctly; roundels display; old horizon2020 issue unaffected. Confirm before proceeding.
   - [ ] 2.9 Run `hugo build` — must complete with no errors
-  - [ ] 2.10 Commit: `git add -A && git commit -m "feat: CSS audit and merge — responsive, animations, reading progress, slide transitions"`
+  - [ ] 2.10 Commit: `git add -A && git commit -m "feat: CSS merge from snarktank — responsive, animations, reading progress, slide transitions"`
 
 - [ ] 3.0 Upgrade `chapter-markers.js` — better error handling and genre validation
   - [ ] 3.1 Copy snarktank's version as reference: `git show nebula2026-snarktank:static/js/nebula2026/chapter-markers.js`
