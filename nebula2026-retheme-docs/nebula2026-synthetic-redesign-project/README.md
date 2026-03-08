@@ -25,7 +25,7 @@ A new visual theme (`nebula2026`) that coexists with the legacy theme (`horizon2
 
 ## Remaining Tasks
 
-See **`TASKS.md`** in the site repo root (`/Users/marty/Sites/mythaxis.github.io/TASKS.md`).
+See **[`TASKS.md`](../TASKS.md)** in `nebula2026-retheme-docs/`.
 
 That file is structured for Claude Code to work through directly. It covers testing the current build, then harvesting the richer JS from the `nebula2026-snarktank` and `nebula2026-synth` branches, then deploying.
 

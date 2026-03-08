@@ -1,9 +1,9 @@
 # Nebula 2026 — Completion Tasks
 
-> **Branch:** `poc` | **Project docs:** `/Users/marty/Freelancing/PROJECTS/MythAxis Retheme 2026/nebula2026-synthetic-redesign-project/`
+> **Branch:** `poc` | **Docs:** `nebula2026-retheme-docs/nebula2026-synthetic-redesign-project/`
 >
 > Work through phases in order. Each phase builds on the last.
-> Reference `BRANCH-COMPARISON.md` in the project docs for full detail on what to cherry-pick and why.
+> Reference [`BRANCH-COMPARISON.md`](./nebula2026-synthetic-redesign-project/BRANCH-COMPARISON.md) for full detail on what to cherry-pick and why.
 
 ---
 
