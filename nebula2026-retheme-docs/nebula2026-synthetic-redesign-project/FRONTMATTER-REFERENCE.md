@@ -63,7 +63,7 @@ colorScheme:
 | `genre` | String | — | Genre shown on preview card |
 | `chapterMarker` | String | cascades from issue/site | Roundel for `***` section breaks |
 | `image` | String | — | Story artwork path |
-| `abstract` | String | Hugo auto-summary | Teaser text for preview card |
+| `description` | String | Hugo auto-summary | Teaser text for preview card |
 | `audio` | String | — | Audio file URL |
 | `featured` | Boolean | `false` | Featured position (horizon2020 only) |
 
@@ -77,7 +77,7 @@ authors: ["Jane Smith"]
 genre: scifi
 chapterMarker: scifi
 image: algorithm-art.jpg
-abstract: "A quantum computer achieves consciousness and must decide humanity's fate."
+description: "A quantum computer achieves consciousness and must decide humanity's fate."
 date: 2025-12-01
 ---
 ```
