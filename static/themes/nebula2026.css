@@ -658,7 +658,7 @@ img[alt$="-lrg"] {
 /* Mobile Responsiveness
    ========================================================================== */
 
-@media (max-width: 768px) {
+@media (max-width: 736px) {
     .story-card {
         width: 95%;
         max-width: none;
@@ -1262,7 +1262,133 @@ img[alt$="-lrg"] {
 .reading-progress__bar {
     width: 0%;
     height: 100%;
-    background: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+    transition: width 100ms ease-out;
+    box-shadow: 0 0 10px var(--color-primary);
+}
+
+
+/* Layout Containers (from _components.scss)
+   ========================================================================== */
+
+.nebula2026-section-landing {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--space-6);
+}
+
+.nebula2026-story-single {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--space-6);
+}
+
+
+/* Responsive Layout (from _responsive.scss)
+   ========================================================================== */
+
+@media (max-width: 736px) {
+    .nebula2026-section-landing,
+    .nebula2026-story-single {
+        padding: var(--space-4);
+    }
+}
+
+@media (min-width: 737px) {
+    .nebula2026-section-landing,
+    .nebula2026-story-single {
+        padding: var(--space-6);
+    }
+}
+
+@media (min-width: 1200px) {
+    .nebula2026-section-landing {
+        max-width: 1400px;
+        padding: var(--space-8);
+    }
+}
+
+
+/* Scroll-Triggered Header Collapse (from _animations.scss)
+   ========================================================================== */
+
+.story-header {
+    transition: transform 300ms ease-out, opacity 300ms ease-out;
+}
+
+.story-header--collapsed {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.story-header--minimal {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+/* Loading States (from _animations.scss)
+   ========================================================================== */
+
+.loading {
+    opacity: 0.6;
+    pointer-events: none;
+    transition: opacity 200ms ease-out;
+}
+
+.loaded {
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 200ms ease-out;
+}
+
+
+/* Scroll Reveal (from _animations.scss)
+   ========================================================================== */
+
+.reveal-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 500ms ease-out, transform 500ms ease-out;
+}
+
+.reveal-on-scroll--visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Skip to Content (from _interactions.scss)
+   ========================================================================== */
+
+.skip-to-content {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background: var(--color-primary);
+    color: white;
+    padding: var(--space-3) var(--space-6);
+    text-decoration: none;
+    border-radius: var(--radius-base);
+    z-index: var(--z-tooltip);
+    transition: top var(--transition-fast);
+}
+
+.skip-to-content:focus {
+    top: var(--space-4);
+}
+
+
+/* Global Focus Styles (from _interactions.scss)
+   ========================================================================== */
+
+*:focus:not(:focus-visible) {
+    outline: none;
+}
+
+*:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
 }
 
 
@@ -1311,6 +1437,24 @@ html {
     .roundel-animate--visible {
         opacity: 1;
         transform: scale(1);
+    }
+
+    .reveal-on-scroll,
+    .story-header,
+    .loading,
+    .loaded {
+        transition: none !important;
+        animation: none !important;
+    }
+
+    .reveal-on-scroll--visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .story-header--collapsed {
+        transform: translateY(-100%);
+        opacity: 0;
     }
 
     html {
