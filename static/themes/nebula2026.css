@@ -626,7 +626,7 @@ img[alt$="-lrg"] {
     display: block;
 }
 
-.story-card-abstract {
+.story-card-description {
     line-height: 1.7;
     margin-bottom: 2rem;
     color: #333;
@@ -706,4 +706,614 @@ img[alt$="-lrg"] {
     margin: 3rem auto;
     width: 200px;
     height: auto;
+}
+
+
+/* ==========================================================================
+   PART 4: Snarktank/Synth Design System — Merged CSS
+   Resolved from SCSS: variables substituted, nesting flattened, mixins inlined
+   ========================================================================== */
+
+/* Design Tokens (from _variables.scss)
+   ========================================================================== */
+
+:root {
+    /* Colors */
+    --color-primary: #1a2b4c;
+    --color-secondary: #4a6d8c;
+    --color-accent: #7c5295;
+    --color-primary-light: color-mix(in srgb, var(--color-primary) 70%, white);
+    --color-primary-dark: color-mix(in srgb, var(--color-primary) 80%, black);
+    --color-secondary-light: color-mix(in srgb, var(--color-secondary) 70%, white);
+    --color-secondary-dark: color-mix(in srgb, var(--color-secondary) 80%, black);
+    --color-accent-light: color-mix(in srgb, var(--color-accent) 70%, white);
+    --color-accent-dark: color-mix(in srgb, var(--color-accent) 80%, black);
+    --color-text: #333333;
+    --color-text-light: #666666;
+    --color-text-muted: #999999;
+    --color-background: #ffffff;
+    --color-surface: #f8f9fa;
+    --color-border: #e9ecef;
+    --color-shadow: rgba(0, 0, 0, 0.1);
+
+    /* Typography */
+    --font-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-secondary: Georgia, "Times New Roman", serif;
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 3rem;
+    --leading-tight: 1.25;
+    --leading-normal: 1.5;
+    --leading-relaxed: 1.75;
+    --font-light: 300;
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+
+    /* Spacing */
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+    --space-20: 5rem;
+
+    /* Borders & Shadows */
+    --radius-sm: 0.125rem;
+    --radius-base: 0.25rem;
+    --radius-md: 0.375rem;
+    --radius-lg: 0.5rem;
+    --radius-xl: 0.75rem;
+    --radius-2xl: 1rem;
+    --radius-full: 9999px;
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+    /* Transitions */
+    --transition-fast: 150ms ease-in-out;
+    --transition-base: 250ms ease-in-out;
+    --transition-slow: 350ms ease-in-out;
+    --transition-slower: 500ms ease-in-out;
+
+    /* Z-index scale */
+    --z-dropdown: 1000;
+    --z-sticky: 1020;
+    --z-fixed: 1030;
+    --z-modal-backdrop: 1040;
+    --z-modal: 1050;
+    --z-popover: 1060;
+    --z-tooltip: 1070;
+
+    /* Component tokens */
+    --card-width: 300px;
+    --card-height: 400px;
+    --card-image-height: 200px;
+    --card-radius: var(--radius-lg);
+    --roundel-sm: 50px;
+    --roundel-md: 100px;
+    --roundel-lg: 200px;
+    --grid-gap: var(--space-6);
+}
+
+
+/* Mobile Story Overlay (from _interactions.scss)
+   ========================================================================== */
+
+.story-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: var(--z-modal);
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--transition-base);
+    backdrop-filter: blur(8px);
+}
+
+.story-overlay--active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.story-overlay__content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-background);
+    margin-top: 100vh;
+    transition: margin-top var(--transition-base);
+}
+
+.story-overlay--active .story-overlay__content {
+    margin-top: 0;
+}
+
+.story-overlay__close {
+    position: absolute;
+    top: var(--space-4);
+    right: var(--space-4);
+    width: 44px;
+    height: 44px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-full);
+    color: var(--color-text);
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-fast);
+}
+
+.story-overlay__close:hover {
+    background: var(--color-primary);
+    color: white;
+    transform: scale(1.1);
+}
+
+.story-overlay__prev,
+.story-overlay__next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-full);
+    color: var(--color-text);
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-fast);
+}
+
+.story-overlay__prev:hover:not(:disabled),
+.story-overlay__next:hover:not(:disabled) {
+    background: var(--color-primary);
+    color: white;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.story-overlay__prev:disabled,
+.story-overlay__next:disabled {
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
+.story-overlay__prev {
+    left: var(--space-4);
+}
+
+.story-overlay__next {
+    right: var(--space-4);
+}
+
+.story-overlay__story-content {
+    flex: 1;
+    padding: var(--space-16) var(--space-6) var(--space-6);
+    overflow-y: auto;
+    position: relative;
+}
+
+
+/* Desktop Story Popup (from _interactions.scss)
+   ========================================================================== */
+
+.story-popup {
+    position: fixed;
+    width: 400px;
+    max-width: 90vw;
+    background: var(--color-background);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-xl);
+    z-index: var(--z-popover);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.8) translateY(-10px);
+    transition: all var(--transition-base);
+    backdrop-filter: blur(8px);
+    pointer-events: none;
+}
+
+.story-popup--active {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1) translateY(0);
+    pointer-events: auto;
+}
+
+.story-popup--fixed {
+    box-shadow: var(--shadow-2xl);
+    border-color: var(--color-primary);
+}
+
+.story-popup__content {
+    position: relative;
+    padding: var(--space-6);
+}
+
+.story-popup__close {
+    position: absolute;
+    top: var(--space-3);
+    right: var(--space-3);
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    color: var(--color-text-muted);
+    font-size: var(--text-lg);
+    cursor: pointer;
+    border-radius: var(--radius-base);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-fast);
+}
+
+.story-popup__close:hover {
+    background: var(--color-surface);
+    color: var(--color-text);
+}
+
+
+/* Story Content Component (from _interactions.scss)
+   ========================================================================== */
+
+.story-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+}
+
+.story-content__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.story-content__genre {
+    background: var(--color-primary);
+    color: white;
+    padding: var(--space-1) var(--space-3);
+    border-radius: var(--radius-base);
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.story-content__title {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    color: var(--color-text);
+    margin: 0;
+    line-height: var(--leading-tight);
+}
+
+.story-content__authors {
+    font-size: var(--text-base);
+    color: var(--color-text-light);
+    font-style: italic;
+}
+
+.story-content__abstract {
+    font-size: var(--text-base);
+    line-height: var(--leading-normal);
+    color: var(--color-text-light);
+}
+
+.story-content__actions {
+    margin-top: var(--space-2);
+}
+
+.story-content__read-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    background: var(--color-primary);
+    color: white;
+    padding: var(--space-3) var(--space-6);
+    border-radius: var(--radius-base);
+    text-decoration: none;
+    font-weight: var(--font-medium);
+    transition: all var(--transition-fast);
+}
+
+.story-content__read-link:hover {
+    background: var(--color-primary-dark);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+
+
+/* Scroll Lock Utility
+   ========================================================================== */
+
+.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+/* Interaction Responsive Overrides (from _interactions.scss)
+   ========================================================================== */
+
+@media (max-width: 736px) {
+    .story-popup {
+        display: none !important;
+    }
+
+    .story-overlay__story-content {
+        padding: var(--space-20) var(--space-4) var(--space-4);
+    }
+
+    .story-content__title {
+        font-size: var(--text-xl);
+    }
+}
+
+@media (min-width: 737px) {
+    .story-overlay {
+        display: none !important;
+    }
+}
+
+
+/* Keyboard Navigation Focus States (from _interactions.scss)
+   ========================================================================== */
+
+.story-overlay__close:focus-visible,
+.story-overlay__prev:focus-visible,
+.story-overlay__next:focus-visible,
+.story-popup__close:focus-visible,
+.story-content__read-link:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 3px;
+    box-shadow: 0 0 0 6px rgba(124, 82, 149, 0.2);
+}
+
+
+/* Responsive Breakpoints (from _responsive.scss)
+   ========================================================================== */
+
+/* Tablet: 737px+ */
+@media (min-width: 737px) {
+    .nebula-card[data-has-card="true"] {
+        transition: transform 200ms ease-out, box-shadow 200ms ease-out;
+    }
+}
+
+/* Desktop: 981px+ */
+@media (min-width: 981px) {
+    .nebula-card[data-has-card="true"]:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    }
+}
+
+
+/* Print Styles (from _responsive.scss)
+   ========================================================================== */
+
+@media print {
+    .story-card-overlay,
+    .story-overlay,
+    .story-popup {
+        display: none !important;
+    }
+
+    .chapter-marker,
+    .story-end-marker {
+        filter: grayscale(100%);
+    }
+}
+
+
+/* High Contrast (from _responsive.scss)
+   ========================================================================== */
+
+@media (prefers-contrast: high) {
+    .story-card-overlay {
+        background: rgba(0, 0, 0, 0.95);
+    }
+
+    .story-popup {
+        border-width: 2px;
+    }
+}
+
+
+/* Animation Keyframes (from _animations.scss)
+   ========================================================================== */
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleFadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideInRight {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInLeft {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideOutLeft {
+    from { transform: translateX(0); opacity: 1; }
+    to { transform: translateX(-100%); opacity: 0; }
+}
+
+@keyframes slideOutRight {
+    from { transform: translateX(0); opacity: 1; }
+    to { transform: translateX(100%); opacity: 0; }
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.7; transform: scale(0.95); }
+}
+
+@keyframes shimmer {
+    0% { background-position: -1000px 0; }
+    100% { background-position: 1000px 0; }
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+
+/* Card slide transitions (from _animations.scss)
+   ========================================================================== */
+
+.story-card--slide-in-right {
+    animation: slideInRight 100ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.story-card--slide-in-left {
+    animation: slideInLeft 100ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.story-card--slide-out-left {
+    animation: slideOutLeft 100ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.story-card--slide-out-right {
+    animation: slideOutRight 100ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+
+/* Roundel scroll-into-view animation
+   ========================================================================== */
+
+.roundel-animate {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 400ms ease-out, transform 400ms ease-out;
+}
+
+.roundel-animate--visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+/* Reading progress bar
+   ========================================================================== */
+
+.reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    z-index: 9999;
+}
+
+.reading-progress__bar {
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+}
+
+
+/* Smooth scroll
+   ========================================================================== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Reduced Motion Accessibility (from _animations.scss, _interactions.scss)
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+    .story-overlay,
+    .story-overlay__content,
+    .story-overlay__close,
+    .story-overlay__prev,
+    .story-overlay__next,
+    .story-overlay__story-content,
+    .story-popup,
+    .story-popup__content,
+    .story-popup__close,
+    .story-content,
+    .story-content__read-link,
+    .roundel-animate,
+    .story-card--slide-in-right,
+    .story-card--slide-in-left,
+    .story-card--slide-out-left,
+    .story-card--slide-out-right {
+        transition: none !important;
+        animation: none !important;
+    }
+
+    .story-overlay--active .story-overlay__content {
+        margin-top: 0;
+    }
+
+    .story-popup--active {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1) translateY(0);
+    }
+
+    .roundel-animate--visible {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    html {
+        scroll-behavior: auto !important;
+    }
 }
