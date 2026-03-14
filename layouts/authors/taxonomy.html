@@ -65,7 +65,7 @@
       {{ partial "header" . }}
       {{ partial "nav" . }}
 
-      {{ with $themeCtx.Section }}{{ if .Params.image }}
+      {{ if eq $themeCtx.Theme "nebula2026" }}{{ with $themeCtx.Section }}{{ if .Params.image }}
       <div class="nebula-page-hero">
         <div class="landing-header__hero">
           <img src="{{ path.Join .Section .Params.image | relURL }}"
@@ -75,7 +75,7 @@
           <div class="landing-header__overlay"></div>
         </div>
       </div>
-      {{ end }}{{ end }}
+      {{ end }}{{ end }}{{ end }}
 
       <!-- Main -->
       <div id="main">
