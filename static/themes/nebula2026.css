@@ -1512,7 +1512,7 @@ img[alt$="-lrg"] {
     .story-overlay,
     .story-popup,
     .story-header-minimal,
-    .story-navigation,
+    .story-nav-strip,
     .nebula-burger,
     .nebula-nav-panel,
     .nebula-nav-backdrop {
@@ -2118,104 +2118,72 @@ img[alt$="-lrg"] {
 /* Navigation Footer
    ========================================================================== */
 
-.story-navigation {
+/* Story Nav Strip — minimal prev / contents / next row */
+.story-nav-strip-wrap {
     background: var(--color-primary, #1a2b4c);
-    color: white;
-    padding: 3rem 2rem;
 }
 
-.story-navigation__container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.story-navigation__toc {
-    text-align: center;
-}
-
-.story-navigation__prevnext {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-}
-
-.nav-button {
+.story-nav-strip {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    padding: 1.5rem;
-    background: rgba(255, 255, 255, 0.1);
-    border: 2px solid rgba(255, 255, 255, 0.2);
-    border-radius: 12px;
     color: white;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-
-.nav-button:hover {
-    background: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.4);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    color: white;
-}
-
-.nav-button--toc {
-    display: inline-flex;
-    justify-content: center;
-    max-width: 400px;
+    padding: 0.75rem 2rem;
+    max-width: 800px;
     margin: 0 auto;
 }
 
-.nav-button--prev {
-    justify-content: flex-start;
-}
-
-.nav-button--next {
-    justify-content: flex-end;
-    text-align: right;
-}
-
-.nav-button--disabled {
-    opacity: 0;
-    pointer-events: none;
-}
-
-.nav-button__icon {
-    width: 24px;
-    height: 24px;
-    flex-shrink: 0;
-}
-
-.nav-button__content {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
+.story-nav-strip__prev,
+.story-nav-strip__next {
+    flex: 1;
     min-width: 0;
 }
 
-.nav-button__label {
-    font-size: 0.85rem;
-    opacity: 0.8;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    font-weight: 600;
+.story-nav-strip__next {
+    text-align: right;
 }
 
-.nav-button__title {
-    font-size: 1rem;
-    font-weight: 500;
+.story-nav-strip__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.story-nav-strip__link:hover {
+    color: white;
+}
+
+.story-nav-strip__icon {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+.story-nav-strip__title {
+    font-size: 0.85rem;
+    font-weight: 400;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
 
-.nav-button__text {
-    font-size: 1.1rem;
+.story-nav-strip__toc {
+    flex-shrink: 0;
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
     font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.25rem 1rem;
+    opacity: 0.9;
+    transition: opacity 0.2s ease;
+}
+
+.story-nav-strip__toc:hover {
+    opacity: 1;
 }
 
 
@@ -2287,13 +2255,8 @@ img[alt$="-lrg"] {
         padding: 2rem 1.5rem;
     }
 
-    .story-navigation__prevnext {
-        grid-template-columns: 1fr;
-    }
-
-    .nav-button--next {
-        text-align: left;
-        justify-content: flex-start;
+    .story-nav-strip__title {
+        display: none;
     }
 }
 
@@ -2344,16 +2307,8 @@ img[alt$="-lrg"] {
         height: 100px;
     }
 
-    .story-navigation {
-        padding: 2rem 1rem;
-    }
-
-    .nav-button {
-        padding: 1rem;
-    }
-
-    .nav-button__title {
-        font-size: 0.9rem;
+    .story-nav-strip {
+        padding: 0.75rem 1rem;
     }
 }
 
@@ -2497,7 +2452,7 @@ html {
     .story-card--slide-out-left,
     .story-card--slide-out-right,
     .story-header-minimal,
-    .nav-button,
+    .story-nav-strip__link,
     .story-divider__roundel,
     .nebula-burger,
     .nebula-burger__line,

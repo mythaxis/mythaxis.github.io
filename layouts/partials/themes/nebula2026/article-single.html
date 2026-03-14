@@ -130,54 +130,41 @@
   {{/* 6. Author Footer */}}
   {{ partial "authorfooter" $page }}
 
-  {{/* 7. Navigation Footer (prev/next + back to TOC) */}}
+  {{/* 7. Navigation Strip (prev / TOC / next) */}}
   {{ if $section }}
-  <nav class="story-navigation">
-    <div class="story-navigation__container">
+  {{- $contentsPage := false -}}
+  {{- range where (where $page.Site.RegularPages "Section" $section.Section) "Slug" "contents" -}}
+    {{- $contentsPage = . -}}
+  {{- end -}}
+  <div class="story-nav-strip-wrap">
+  <nav class="story-nav-strip">
+    <div class="story-nav-strip__prev">
+      {{ with $page.PrevInSection }}
+      <a href="{{ .RelPermalink }}" class="story-nav-strip__link" title="{{ .Title }}">
+        <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M15 18l-6-6 6-6"/>
+        </svg>
+        <span class="story-nav-strip__title">{{ .Title }}</span>
+      </a>
+      {{ end }}
+    </div>
 
-      <div class="story-navigation__toc">
-        <a href="{{ $section.RelPermalink }}" class="nav-button nav-button--toc">
-          <svg class="nav-button__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M19 12H5M12 19l-7-7 7-7"/>
-          </svg>
-          <span class="nav-button__text">Table of Contents</span>
-        </a>
-      </div>
+    <a href="{{ with $contentsPage }}{{ .RelPermalink }}{{ else }}{{ $section.RelPermalink }}{{ end }}" class="story-nav-strip__toc">
+      Contents
+    </a>
 
-      <div class="story-navigation__prevnext">
-
-        {{ with $page.PrevInSection }}
-        <a href="{{ .RelPermalink }}" class="nav-button nav-button--prev" title="{{ .Title }}">
-          <svg class="nav-button__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M15 18l-6-6 6-6"/>
-          </svg>
-          <div class="nav-button__content">
-            <span class="nav-button__label">Previous</span>
-            <span class="nav-button__title">{{ .Title }}</span>
-          </div>
-        </a>
-        {{ else }}
-        <div class="nav-button nav-button--disabled"></div>
-        {{ end }}
-
-        {{ with $page.NextInSection }}
-        <a href="{{ .RelPermalink }}" class="nav-button nav-button--next" title="{{ .Title }}">
-          <div class="nav-button__content">
-            <span class="nav-button__label">Next</span>
-            <span class="nav-button__title">{{ .Title }}</span>
-          </div>
-          <svg class="nav-button__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M9 18l6-6-6-6"/>
-          </svg>
-        </a>
-        {{ else }}
-        <div class="nav-button nav-button--disabled"></div>
-        {{ end }}
-
-      </div>
-
+    <div class="story-nav-strip__next">
+      {{ with $page.NextInSection }}
+      <a href="{{ .RelPermalink }}" class="story-nav-strip__link" title="{{ .Title }}">
+        <span class="story-nav-strip__title">{{ .Title }}</span>
+        <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M9 18l6-6-6-6"/>
+        </svg>
+      </a>
+      {{ end }}
     </div>
   </nav>
+  </div>
   {{ end }}
 
 </article>
