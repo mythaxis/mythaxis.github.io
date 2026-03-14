@@ -49,7 +49,7 @@
   function replaceWithRoundel(hrElement, genre) {
     var img = document.createElement('img');
     img.src = '/images/roundels/' + genre + '-100.svg';
-    img.className = 'chapter-marker';
+    img.className = 'chapter-marker roundel-animate';
     img.alt = '';
     img.setAttribute('aria-hidden', 'true');
 
