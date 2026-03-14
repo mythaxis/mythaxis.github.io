@@ -46,6 +46,12 @@
     font-display: swap;
 }
 
+/* Reset default body margin — flush to edges */
+.theme-nebula2026 {
+    margin: 0;
+}
+
+
 /* ==========================================================================
    PART 1: Content Styling (needed base styles)
    Blockquotes, glyphs, author footers, and image layout utilities
