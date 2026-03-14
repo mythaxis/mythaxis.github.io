@@ -11,6 +11,23 @@
 */}}
 
 {{- $page := .Page -}}
+{{- $section := .Section -}}
+
+{{/* Hero image with parallax support (uses current issue image) */}}
+{{ with $section }}
+{{ if .Params.image }}
+<div class="nebula-page-hero">
+  <div class="landing-header__hero">
+    <img src="{{ path.Join .Section .Params.image | relURL }}"
+         alt="{{ .Params.issue }}"
+         class="landing-header__image"
+         loading="eager"
+         decoding="sync" />
+    <div class="landing-header__overlay"></div>
+  </div>
+</div>
+{{ end }}
+{{ end }}
 
 <section class="post nebula-page">
     <header class="nebula-page-header">
@@ -43,6 +60,6 @@
     <div class="nebula-page-content">
         {{ $page.Content }}
     </div>
-    
-    {{ partial "authorfooter" $page }}
 </section>
+
+{{ partial "authorfooter" $page }}

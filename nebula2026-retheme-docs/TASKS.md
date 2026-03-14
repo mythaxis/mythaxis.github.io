@@ -139,7 +139,18 @@ git add -A && git commit -m "feat: [description of task/phase]"
   - [x] 9.1 Fix issue hero image not displaying — `styles.html` targeted `#wrapper > .bg` (created by jQuery in horizon2020) which doesn't exist in nebula2026; changed to target `.nebula-intro` directly
   - [x] 9.2 Add Alegreya web font — 5 `@font-face` declarations (Regular, Italic, Bold, Bold Italic, ExtraBold); ExtraBold (800) for `.nebula-title`; applied via `.theme-nebula2026` body rule using `--font-primary` variable
   - [x] 9.3 Bring snarktank story page elements into poc — rewrite `article-single.html` with hero header, sticky minimal header, reading area, author footer, story footer, prev/next navigation; add story page CSS to `nebula2026.css`; create `story-header.js` for sticky header scroll behavior
-  - [ ] 9.4 Header, nav, and burger menu — restyle `header.html` as slim issue bar; rewrite `nav.html` with full-width menu, slide-in panel, burger button; create `nebula-nav.js` replacing `story-header.js`; add CSS for all components
+  - [x] 9.4 Header, nav, and burger menu — restyle `header.html` as slim issue bar; rewrite `nav.html` with full-width menu, slide-in panel, burger button; create `nebula-nav.js` replacing `story-header.js`; add CSS for all components
+  - [x] 9.5 Parallax hero header on landing + normal pages — replace CSS background-image with `<img>` element in `intro.html` and `page-single.html`; add `landing-header__*` CSS; `parallax-hero.js` already targets `.landing-header__image`
+  - [x] 9.6 Body margin reset to 0 — flush to edges on all screen sizes
+  - [x] 9.7 Blurred issue image in story-header-minimal — image pans bottom→top via `object-position` as user scrolls; story-header overlay blur reduced from 10px to 4px
+  - [x] 9.8 Wire up `colorScheme` from section frontmatter to CSS custom properties (`--color-primary`, `--color-secondary`) in `styles.html`
+  - [x] 9.9 Burger menu restyle — black border on button; panel: content-height, black border, rounded corners (12px), aligned so burger sits in top-right corner; "Mythaxis" gradient logotype at top; issue roundel at bottom; burger→X animation restored
+  - [x] 9.10 Replace hardcoded colors with CSS custom properties — all `#667eea`/`#764ba2`/`#a78bfa` instances now use `var(--color-primary)` / `var(--color-secondary)` across header, intro, nav, cards, buttons, authors
+  - [x] 9.11 Minimal nav strip — replace card-style prev/next navigation with single-row strip (prev arrow | Contents | next arrow); TOC link now points to contents page instead of section landing
+  - [x] 9.12 Author footer full-width on normal pages — move `{{ partial "authorfooter" }}` outside the max-width `.nebula-page` section in `page-single.html`
+  - [x] 9.13 Theme taxonomy pages — add `theme-{{ $themeCtx.Theme }}` body class to authors, catalogue, editorials, genres layouts; add CSS for all four page types (`.nebula-catalogue`, authors two-column layout, catalogue list, editorials list, genre sections with pill nav); add hero image with theme guard (`if eq $themeCtx.Theme "nebula2026"`); remove duplicate catalogue-nav from bottom of content partials
+  - [x] 9.14 Fix random button — update shortcode JS to use `.href`, add fallback selector for nebula2026 markup (divs instead of tables); add centered pill-style button CSS scoped to `.theme-nebula2026`
+  - [x] 9.15 Update copyright footer link — Massively theme URL changed to GitHub repo
 
 - [ ] 8.0 Final regression check and deploy
   - [ ] 8.1 Full smoke test: homepage, issue landing (nebula2026), story page (nebula2026), old issue (horizon2020), archive, authors index
