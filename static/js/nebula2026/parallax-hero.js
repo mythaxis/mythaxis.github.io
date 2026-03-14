@@ -9,8 +9,8 @@
   'use strict';
 
   function initParallax() {
-    // Find hero images (issue landing or story pages)
-    const heroImages = document.querySelectorAll('.landing-header__image, .story-header__image');
+    // Find hero images (issue landing, story pages, minimal header)
+    const heroImages = document.querySelectorAll('.landing-header__image, .story-header__image, .story-header-minimal__image');
     if (heroImages.length === 0) return;
 
     // Check if user prefers reduced motion
@@ -23,14 +23,21 @@
       const scrolled = window.pageYOffset;
 
       heroImages.forEach(hero => {
-        const rect = hero.getBoundingClientRect();
-        const elementTop = rect.top + scrolled;
+        if (hero.classList.contains('story-header-minimal__image')) {
+          // Pan from bottom to top of image as user reads through the article
+          var docHeight = document.documentElement.scrollHeight - window.innerHeight;
+          var scrollFraction = Math.min(scrolled / (docHeight || 1), 1);
+          var position = 100 - (scrollFraction * 100);
+          hero.style.objectPosition = 'center ' + position + '%';
+        } else {
+          var rect = hero.getBoundingClientRect();
+          var elementTop = rect.top + scrolled;
 
-        // Only apply parallax when element is in view
-        if (scrolled + window.innerHeight > elementTop && scrolled < elementTop + rect.height) {
-          // Move at 50% speed (creates parallax effect)
-          const rate = scrolled * 0.5;
-          hero.style.transform = `translateY(${rate}px) scale(1.1)`;
+          // Only apply parallax when element is in view
+          if (scrolled + window.innerHeight > elementTop && scrolled < elementTop + rect.height) {
+            var rate = scrolled * 0.5;
+            hero.style.transform = 'translateY(' + rate + 'px) scale(1.1)';
+          }
         }
       });
 

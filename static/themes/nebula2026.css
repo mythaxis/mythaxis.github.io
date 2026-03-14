@@ -1740,12 +1740,12 @@ img[alt$="-lrg"] {
     right: 0;
     height: 100%;
     background: linear-gradient(transparent 20%, rgba(0, 0, 0, 0.3) 100%);
-    backdrop-filter: blur(10px) saturate(180%);
-    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    backdrop-filter: blur(4px) saturate(180%);
+    -webkit-backdrop-filter: blur(4px) saturate(180%);
     z-index: 2;
 }
 
-@supports not (backdrop-filter: blur(10px)) {
+@supports not (backdrop-filter: blur(4px)) {
     .story-header__overlay {
         background: linear-gradient(transparent 20%, rgba(0, 0, 0, 0.7) 100%);
     }
@@ -1819,11 +1819,41 @@ img[alt$="-lrg"] {
     right: 0;
     z-index: 1000;
     background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transform: translateY(-100%);
     transition: transform 0.3s ease;
     border-bottom: 2px solid var(--color-primary, #1a2b4c);
+    overflow: hidden;
+}
+
+.story-header-minimal__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.story-header-minimal__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transform: scale(1.1);
+    will-change: transform;
+}
+
+.story-header-minimal__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
 }
 
 .story-header-minimal.visible {
@@ -1831,6 +1861,8 @@ img[alt$="-lrg"] {
 }
 
 .story-header-minimal__content {
+    position: relative;
+    z-index: 1;
     max-width: 1200px;
     margin: 0 auto;
     padding: 1rem 2rem;

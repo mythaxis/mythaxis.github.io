@@ -78,6 +78,17 @@
 
   {{/* 2. Minimal Sticky Header (appears on scroll) */}}
   <div class="story-header-minimal" id="story-header-minimal">
+    {{ with $section }}{{ if .Params.image }}
+    <div class="story-header-minimal__bg">
+      <img src="{{ path.Join .Section .Params.image | relURL }}"
+           alt=""
+           aria-hidden="true"
+           class="story-header-minimal__image"
+           loading="eager"
+           decoding="async" />
+      <div class="story-header-minimal__overlay"></div>
+    </div>
+    {{ end }}{{ end }}
     <div class="story-header-minimal__content">
       <div class="story-header-minimal__info">
         <h2 class="story-header-minimal__title">{{ $page.Title }}</h2>
