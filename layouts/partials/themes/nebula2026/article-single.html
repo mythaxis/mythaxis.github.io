@@ -105,10 +105,7 @@
     </div>
   </div>
 
-  {{/* 5. Author Footer (existing partial) */}}
-  {{ partial "authorfooter" $page }}
-
-  {{/* 6. Story Footer (roundel + support text) */}}
+  {{/* 5. Story Footer (roundel + support text) */}}
   <footer class="story-footer">
     <div class="story-divider">
       <img src="/images/roundels/{{ $issueRoundel }}-200.svg"
@@ -118,6 +115,9 @@
     </div>
     <p class="nebula-support-text"><strong>Mythaxis</strong> is forever free to read, but if you'd like to support us you can do so <a href="https://ko-fi.com/mythaxismagazine">here</a> (but only if you <em>really</em> want to!)</p>
   </footer>
+
+  {{/* 6. Author Footer */}}
+  {{ partial "authorfooter" $page }}
 
   {{/* 7. Navigation Footer (prev/next + back to TOC) */}}
   {{ if $section }}
