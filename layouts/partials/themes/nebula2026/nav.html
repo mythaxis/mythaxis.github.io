@@ -65,9 +65,7 @@
 <!-- Slide-in nav panel -->
 <div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true">
   <div class="nebula-nav-panel__content">
-    <div class="nebula-nav-panel__roundel">
-      <img src="/images/roundels/{{ $issueRoundel }}-100.svg" alt="" aria-hidden="true" />
-    </div>
+    <div class="nebula-nav-panel__logotype">Mythaxis</div>
     <ul class="nebula-nav-panel__links">
       {{/* Home */}}
       {{ range first 1 $page.Site.Menus.main }}
@@ -94,6 +92,9 @@
       </li>
       {{ end }}
     </ul>
+    <div class="nebula-nav-panel__roundel">
+      <img src="/images/roundels/{{ $issueRoundel }}-100.svg" alt="" aria-hidden="true" />
+    </div>
   </div>
 </div>
 

@@ -441,24 +441,20 @@ img[alt$="-lrg"] {
 }
 
 .nebula-burger__roundel {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    opacity: 0;
-    transform: scale(0.5);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    pointer-events: none;
+    display: none;
 }
 
-/* Burger → Roundel transform when open */
-.nebula-burger--open .nebula-burger__line {
-    opacity: 0;
-    transform: scale(0.5);
+/* Burger → X transform */
+.nebula-burger--open .nebula-burger__line:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
 }
 
-.nebula-burger--open .nebula-burger__roundel {
-    opacity: 1;
-    transform: scale(1);
+.nebula-burger--open .nebula-burger__line:nth-child(2) {
+    opacity: 0;
+}
+
+.nebula-burger--open .nebula-burger__line:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
 }
 
 
@@ -468,7 +464,7 @@ img[alt$="-lrg"] {
 .nebula-nav-panel {
     position: fixed;
     top: 0.75rem;
-    right: 0.75rem;
+    right: 1.5rem;
     width: 280px;
     max-width: 80vw;
     z-index: 1100;
@@ -476,7 +472,7 @@ img[alt$="-lrg"] {
     border: 2px solid #000;
     border-radius: 12px;
     box-shadow: -4px 0 20px rgba(0, 0, 0, 0.15);
-    transform: translateX(calc(100% + 1rem));
+    transform: translateX(calc(100% + 2rem));
     transition: transform 0.3s ease;
     overflow-y: auto;
 }
@@ -487,17 +483,32 @@ img[alt$="-lrg"] {
 
 .nebula-nav-panel__content {
     padding: 1.5rem;
+    padding-top: 3.5rem;
+}
+
+.nebula-nav-panel__logotype {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, var(--color-primary, #1a2b4c) 0%, var(--color-secondary, #4a6d8c) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 0 0 1rem 0;
+    letter-spacing: 0.05em;
 }
 
 .nebula-nav-panel__roundel {
     text-align: center;
-    padding: 0.5rem 0 1rem;
+    padding: 1rem 0 0.5rem;
+    border-top: 1px solid var(--color-border, #e9ecef);
+    margin-top: 0.75rem;
 }
 
 .nebula-nav-panel__roundel img {
-    width: 48px;
-    height: 48px;
-    opacity: 0.8;
+    width: 40px;
+    height: 40px;
+    opacity: 0.6;
 }
 
 .nebula-nav-panel__links {
