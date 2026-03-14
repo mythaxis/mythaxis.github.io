@@ -138,6 +138,7 @@ git add -A && git commit -m "feat: [description of task/phase]"
 - [x] 9.0 Fixes from manual testing
   - [x] 9.1 Fix issue hero image not displaying — `styles.html` targeted `#wrapper > .bg` (created by jQuery in horizon2020) which doesn't exist in nebula2026; changed to target `.nebula-intro` directly
   - [x] 9.2 Add Alegreya web font — 5 `@font-face` declarations (Regular, Italic, Bold, Bold Italic, ExtraBold); ExtraBold (800) for `.nebula-title`; applied via `.theme-nebula2026` body rule using `--font-primary` variable
+  - [ ] 9.3 Bring snarktank story page elements into poc — rewrite `article-single.html` with hero header, sticky minimal header, reading area, author footer, story footer, prev/next navigation; add story page CSS to `nebula2026.css`; create `story-header.js` for sticky header scroll behavior
 
 - [ ] 8.0 Final regression check and deploy
   - [ ] 8.1 Full smoke test: homepage, issue landing (nebula2026), story page (nebula2026), old issue (horizon2020), archive, authors index
