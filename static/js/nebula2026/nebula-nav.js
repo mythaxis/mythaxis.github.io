@@ -4,7 +4,8 @@
  * Handles:
  * - Burger toggle: opens/closes the slide-in nav panel
  * - Logotype click: also opens the nav panel
- * - Landing pages: header becomes sticky, burger appears when header is visible
+ * - Burger visibility: appears when header scrolls out of view
+ * - Landing pages: header becomes sticky (never scrolls out)
  * - Story pages: shows the sticky minimal header on scroll
  * - Backdrop click and ESC key to close
  * - Body scroll lock when panel is open
@@ -27,57 +28,54 @@
     }
 
     var isOpen = false;
-    var isLanding = !!intro;
     var ticking = false;
 
-    // --- Landing page setup ---
-    // On landing pages (with intro hero), the header is sticky and
-    // the burger only appears once the header is visible at the top.
-
-    if (isLanding && header) {
+    // Landing pages: make header sticky
+    if (intro && header) {
       header.classList.add('nebula-header--sticky');
-      burger.classList.add('nebula-burger--hidden');
     }
+
+    // Burger starts hidden on all pages — appears when header scrolls out
+    burger.classList.add('nebula-burger--hidden');
 
     // --- Scroll detection ---
 
     function handleScroll() {
       if (isOpen) return;
 
-      if (isLanding && header) {
-        // Show burger when header has reached the top (intro scrolled past)
-        var headerRect = header.getBoundingClientRect();
-        if (headerRect.top <= 0) {
+      if (header) {
+        var headerBottom = header.getBoundingClientRect().bottom;
+        var scrolledPast = headerBottom <= 0;
+
+        // Show/hide burger based on header visibility
+        if (scrolledPast) {
           burger.classList.remove('nebula-burger--hidden');
         } else {
           burger.classList.add('nebula-burger--hidden');
         }
-      }
 
-      // Story pages: toggle minimal header
-      if (minimalHeader && header) {
-        var headerBottom = header.getBoundingClientRect().bottom;
-        if (headerBottom <= 0) {
-          minimalHeader.classList.add('visible');
-        } else {
-          minimalHeader.classList.remove('visible');
+        // Story pages: toggle minimal header
+        if (minimalHeader) {
+          if (scrolledPast) {
+            minimalHeader.classList.add('visible');
+          } else {
+            minimalHeader.classList.remove('visible');
+          }
         }
       }
     }
 
-    if (isLanding || minimalHeader) {
-      window.addEventListener('scroll', function() {
-        if (!ticking) {
-          window.requestAnimationFrame(function() {
-            handleScroll();
-            ticking = false;
-          });
-          ticking = true;
-        }
-      });
+    window.addEventListener('scroll', function() {
+      if (!ticking) {
+        window.requestAnimationFrame(function() {
+          handleScroll();
+          ticking = false;
+        });
+        ticking = true;
+      }
+    });
 
-      handleScroll();
-    }
+    handleScroll();
 
     // --- Panel open/close ---
 
@@ -133,7 +131,7 @@
       }
     });
 
-    console.log('[nebula-nav] Initialized', isLanding ? '(landing page)' : '');
+    console.log('[nebula-nav] Initialized');
   }
 
   if (document.readyState === 'loading') {
