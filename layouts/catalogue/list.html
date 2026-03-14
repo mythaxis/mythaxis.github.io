@@ -26,11 +26,24 @@
 <html lang='{{ .Site.Language.Lang | default "en-us" }}'>
   {{ partial "htmlhead" . }}
   
-  <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
+  {{- $themeCtx := partial "functions/getThemeContext" . -}}
+  <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload theme-{{ $themeCtx.Theme }}">
     <!-- Wrapper -->
     <div id="wrapper">
       {{ partial "header" . }}
       {{ partial "nav" . }}
+
+      {{ with $themeCtx.Section }}{{ if .Params.image }}
+      <div class="nebula-page-hero">
+        <div class="landing-header__hero">
+          <img src="{{ path.Join .Section .Params.image | relURL }}"
+               alt="{{ .Params.issue }}"
+               class="landing-header__image"
+               loading="eager" decoding="sync" />
+          <div class="landing-header__overlay"></div>
+        </div>
+      </div>
+      {{ end }}{{ end }}
 
       <!-- Main -->
       <div id="main">
