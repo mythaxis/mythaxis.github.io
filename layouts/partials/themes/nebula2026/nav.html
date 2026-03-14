@@ -1,12 +1,8 @@
 {{/*
   Nebula2026 Theme - Nav Partial
   ==============================
-  Full-width navigation menu with slide-in panel and burger button.
-
-  Renders:
-  1. Inline nav bar (visible at page top)
-  2. Burger button (fixed, appears on scroll)
-  3. Slide-in panel + backdrop (opens from right on burger click)
+  Fixed burger button, slide-in nav panel, and backdrop.
+  The header logotype also triggers the menu (see nebula-nav.js).
 
   Expects context from theme-dispatch:
     .Page    - The current page context
@@ -22,44 +18,11 @@
   {{- $issueRoundel = $section.Params.issueRoundel | default "orbit" -}}
 {{- end -}}
 
-{{/* Build menu items list once, render in both nav and panel */}}
-
-<!-- Full-width nav bar -->
-<nav id="nav" class="nebula-nav">
-  <ul class="nebula-nav__links">
-    {{/* Home */}}
-    {{ range first 1 $page.Site.Menus.main }}
-    <li>
-      <a href="{{ .URL }}" class="nebula-nav__link {{ if $page.IsHome }}active{{ end }}">{{ .Name }}</a>
-    </li>
-    {{ end }}
-
-    {{/* Section-specific: Editorial, Contents */}}
-    {{ with $section }}
-    {{ range where (where $page.Site.RegularPages "Section" .Section) "Slug" "in" (slice "editorial" "contents") }}
-      {{ $active := eq $page.RelPermalink .RelPermalink }}
-    <li>
-      <a href="{{ .RelPermalink }}" class="nebula-nav__link {{ if $active }}active{{ end }}">{{ .Slug | title }}</a>
-    </li>
-    {{ end }}
-    {{ end }}
-
-    {{/* Global: Archive, Submissions, About */}}
-    {{ range after 1 $page.Site.Menus.main }}
-      {{ $active := eq $page.RelPermalink .URL }}
-    <li>
-      <a href="{{ .URL }}" class="nebula-nav__link {{ if $active }}active{{ end }}">{{ .Name }}</a>
-    </li>
-    {{ end }}
-  </ul>
-</nav>
-
-<!-- Burger button (fixed position, appears on scroll) -->
+<!-- Burger button (fixed, always visible, aligns with header when both on screen) -->
 <button class="nebula-burger" id="nebula-burger" aria-label="Open menu" aria-expanded="false">
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
-  <img src="/images/roundels/{{ $issueRoundel }}-100.svg" alt="" aria-hidden="true" class="nebula-burger__roundel" />
 </button>
 
 <!-- Slide-in nav panel -->

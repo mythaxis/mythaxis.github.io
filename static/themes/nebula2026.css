@@ -278,6 +278,12 @@ img[alt$="-lrg"] {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.nebula-header--sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
 .nebula-header__container {
     max-width: 1200px;
     margin: 0 auto;
@@ -321,7 +327,9 @@ img[alt$="-lrg"] {
 .nebula-header__logo {
     font-size: 1.25rem;
     font-weight: 800;
-    text-decoration: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
     background: linear-gradient(135deg, #fff 0%, #a78bfa 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -407,7 +415,7 @@ img[alt$="-lrg"] {
     top: 0.75rem;
     right: 1.5rem;
     z-index: 1101;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -428,8 +436,14 @@ img[alt$="-lrg"] {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.nebula-burger--visible {
-    display: flex;
+.nebula-burger--hidden {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.nebula-burger:not(.nebula-burger--hidden) {
+    transition: opacity 0.3s ease;
 }
 
 .nebula-burger__line {
@@ -885,16 +899,6 @@ img[alt$="-lrg"] {
         display: none;
     }
 
-    .nebula-nav__links {
-        padding: 0 1rem;
-        gap: 0;
-        flex-wrap: wrap;
-    }
-
-    .nebula-nav__link {
-        padding: 0.625rem 0.75rem;
-        font-size: 0.8rem;
-    }
 }
 
 
