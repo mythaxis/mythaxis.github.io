@@ -145,6 +145,12 @@ git add -A && git commit -m "feat: [description of task/phase]"
   - [x] 9.7 Blurred issue image in story-header-minimal — image pans bottom→top via `object-position` as user scrolls; story-header overlay blur reduced from 10px to 4px
   - [x] 9.8 Wire up `colorScheme` from section frontmatter to CSS custom properties (`--color-primary`, `--color-secondary`) in `styles.html`
   - [x] 9.9 Burger menu restyle — black border on button; panel: content-height, black border, rounded corners (12px), aligned so burger sits in top-right corner; "Mythaxis" gradient logotype at top; issue roundel at bottom; burger→X animation restored
+  - [x] 9.10 Replace hardcoded colors with CSS custom properties — all `#667eea`/`#764ba2`/`#a78bfa` instances now use `var(--color-primary)` / `var(--color-secondary)` across header, intro, nav, cards, buttons, authors
+  - [x] 9.11 Minimal nav strip — replace card-style prev/next navigation with single-row strip (prev arrow | Contents | next arrow); TOC link now points to contents page instead of section landing
+  - [x] 9.12 Author footer full-width on normal pages — move `{{ partial "authorfooter" }}` outside the max-width `.nebula-page` section in `page-single.html`
+  - [x] 9.13 Theme taxonomy pages — add `theme-{{ $themeCtx.Theme }}` body class to authors, catalogue, editorials, genres layouts; add CSS for all four page types (`.nebula-catalogue`, authors two-column layout, catalogue list, editorials list, genre sections with pill nav); add hero image with theme guard (`if eq $themeCtx.Theme "nebula2026"`); remove duplicate catalogue-nav from bottom of content partials
+  - [x] 9.14 Fix random button — update shortcode JS to use `.href`, add fallback selector for nebula2026 markup (divs instead of tables); add centered pill-style button CSS scoped to `.theme-nebula2026`
+  - [x] 9.15 Update copyright footer link — Massively theme URL changed to GitHub repo
 
 - [ ] 8.0 Final regression check and deploy
   - [ ] 8.1 Full smoke test: homepage, issue landing (nebula2026), story page (nebula2026), old issue (horizon2020), archive, authors index
