@@ -29,6 +29,10 @@ taxonomies:
 
 
 params:
+  # Theme switcher: nebula2026 (new default) or horizon2020 (legacy)
+  # Override per-section in __index.md front matter with: theme: horizon2020
+  defaultTheme: nebula2026
+  # defaultTheme: horizon2020
   posts:
     pageSize: '50'
     featuredPost: true
@@ -38,7 +42,13 @@ params:
   keywords: Mythaxis Magazine Science Fiction and Fantasy Modern Fiction
   # The slug/name of the current section. This is used to theme pages
   # which are not in a specific section (homepage, about, etc.)
-  currentIssue: Issue 44
+  currentIssue: Issue 45
+  # Nebula2026 theme defaults
+  defaultRoundel: orbit
+  defaultChapterMarker: orbit
+  colorScheme:
+    primary: "#3a5f7d"              # fallback primary color
+    secondary: "#8b6f4e"            # fallback secondary color
 
 
 menu:

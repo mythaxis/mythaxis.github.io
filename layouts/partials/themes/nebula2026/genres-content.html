@@ -1,0 +1,56 @@
+{{/*
+  Nebula2026 Theme - Genres Content Partial
+  =========================================
+  Modern genres index page with enhanced styling.
+
+  Expects context from theme-dispatch:
+    .Page    - The taxonomy page being rendered
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Dict containing:
+               .genres     - Dict of genre name to slice of story dicts
+               .genreNames - Slice of genre names for navigation
+*/}}
+
+{{- $page := .Page -}}
+{{- $genreIndex := .Data.genres | default dict -}}
+{{- $allGenres := .Data.genreNames | default slice -}}
+
+<section class="post catalogue nebula-catalogue">
+    <header class="major nebula-catalogue-header">
+        <h1>{{ $page.Title }}</h1>
+        <p class="nebula-catalogue-count">{{ len $allGenres }} {{ $page.Description }}</p>
+    </header>
+    
+    {{ partial "catalogue-nav" $page }}
+    
+    {{ with $page.Content }}
+    <div class="nebula-catalogue-intro">
+        {{ . }}
+    </div>
+    {{ end }}
+
+    <nav class="nebula-genre-nav">
+        {{ range $key, $value := $allGenres }}
+            <a href='#{{ . }}' class="nebula-genre-link">{{ . | strings.Title }}</a>{{ if ne $key (sub (len $allGenres) 1) }} {{ end }}
+        {{ end }}
+    </nav>
+
+    <div class="nebula-genres-list">
+        {{ range $genre, $items := $genreIndex }}
+        <div class="nebula-genre-section" id="{{ $genre }}">
+            <h2 class="nebula-genre-title">{{ $genre | strings.Title }} <span class="nebula-genre-count">({{ len $items }})</span></h2>
+            <ul class="nebula-genre-items">
+            {{ range $items }}
+                <li class="nebula-genre-item">
+                    <a href="{{ .relurl | relURL }}" class="nebula-item-link">{{ .title }}</a>
+                    <span class="nebula-item-author">{{ .author }}</span>
+                </li>
+            {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    </div>
+
+    {{ partial "catalogue-nav" $page }}
+</section>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#8B4513" stroke-width="6"/>
+  <circle cx="100" cy="100" r="70" fill="none" stroke="#DAA520" stroke-width="4"/>
+  <!-- Medieval sword -->
+  <rect x="96" y="40" width="8" height="80" fill="#C0C0C0"/>
+  <rect x="88" y="36" width="24" height="8" fill="#8B4513"/>
+  <circle cx="100" cy="44" r="4" fill="#DAA520"/>
+  <!-- Celtic knot elements -->
+  <path d="M 60 60 Q 70 50 80 60 Q 70 70 60 60" fill="none" stroke="#228B22" stroke-width="4"/>
+  <path d="M 120 60 Q 130 50 140 60 Q 130 70 120 60" fill="none" stroke="#228B22" stroke-width="4"/>
+  <path d="M 60 140 Q 70 130 80 140 Q 70 150 60 140" fill="none" stroke="#228B22" stroke-width="4"/>
+  <path d="M 120 140 Q 130 130 140 140 Q 130 150 120 140" fill="none" stroke="#228B22" stroke-width="4"/>
+</svg>

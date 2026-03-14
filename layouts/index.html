@@ -1,23 +1,37 @@
+{{/*
+  Homepage Layout - Theme-aware Main Index
+  ========================================
+  Displays the current issue's stories.
+*/}}
+
+{{/* Infer current section and lookup __index.md params for theming */}}
+{{ $currSection := .Section | default (urlize .Site.Params.currentIssue) }}
+{{ $currSection := .Site.GetPage "section" (print $currSection "/__index.md") }}
+
+{{/* Determine theme */}}
+{{- $theme := "nebula2026" -}}
+{{- if $currSection -}}
+  {{- $theme = $currSection.Params.theme | default .Site.Params.defaultTheme | default "nebula2026" -}}
+{{- else -}}
+  {{- $theme = .Site.Params.defaultTheme | default "nebula2026" -}}
+{{- end -}}
+
+{{/*  Get all stock pages for the current issue */}}
+{{ $posts := where (where .Site.Pages "Section" $currSection.Section) ".Type" "stock" }}
+
+{{/* Get first featured story and remove it from paging list */}}
+{{ $firstPost := first 1 (where $posts ".Params.featured" true) }}
+{{ $posts := $posts | complement $firstPost }}
+
+{{/* Get last featured story and remove from paging list */}}
+{{ $lastPost := last 1 (where $posts ".Params.featured" true) }}
+{{ $posts := $posts | complement $lastPost }}
+
 <!DOCTYPE HTML>
 <html lang='{{ .Site.Language.Lang | default "en-us" }}'>
   {{ partial "htmlhead" . }}
   
-  <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
-    {{/* Infer current section and lookup __index.md params for theming */}}
-    {{ $currSection := .Section | default (urlize .Site.Params.currentIssue) }}
-    {{ $currSection := .Site.GetPage "section" (print $currSection "/__index.md") }}
-    
-    {{/*  Get all stock pages for the current issue */}}
-    {{ $posts := where (where .Site.Pages "Section" $currSection.Section) ".Type" "stock" }}
-
-    {{/* Get first featured story and remove it from paging list */}}
-    {{ $firstPost := first 1 (where $posts ".Params.featured" true) }}
-    {{ $posts := $posts | complement $firstPost }}
-
-    {{/* Get last featured story and remove from paging list */}}
-    {{ $lastPost := last 1 (where $posts ".Params.featured" true) }}
-    {{ $posts := $posts | complement $lastPost }}
-
+  <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload theme-{{ $theme }}">
     <!-- Wrapper -->
     <div id="wrapper" class="fade-in">
       {{ partial "intro.html" . }}
@@ -45,6 +59,24 @@
 
       {{ partial "copyright" . }}
       <a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
+
+      {{/* Story Card Overlay (nebula2026 only) */}}
+      {{ if eq $theme "nebula2026" }}
+      <div id="story-card-overlay" class="story-card-overlay hidden">
+        <div class="story-card">
+          <button class="story-card-close" aria-label="Close">&times;</button>
+          <div class="story-card-image"></div>
+          <div class="story-card-content">
+            <h2 class="story-card-title"></h2>
+            <p class="story-card-authors"></p>
+            <p class="story-card-description"></p>
+            <div class="story-card-actions">
+              <a href="#" class="story-card-read">READ STORY</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
     </div>
 
     {{ template "_internal/google_analytics.html" . }}

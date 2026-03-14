@@ -1,0 +1,172 @@
+{{/*
+  Nebula2026 Theme - Single Article Content Partial
+  =================================================
+  Rich story page with hero header, sticky minimal header,
+  reading area, author footer, story footer, and prev/next navigation.
+
+  Expects context from theme-dispatch:
+    .Page    - The stock page being rendered
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Any extra data passed
+*/}}
+
+{{- $page := .Page -}}
+{{- $section := .Section -}}
+
+{{/* Resolve chapter marker / genre for roundels and fallback styling */}}
+{{- $chapterMarker := $page.Params.chapterMarker | default "orbit" -}}
+{{- $issueRoundel := "orbit" -}}
+{{- if $section -}}
+  {{- $issueRoundel = $section.Params.issueRoundel | default "orbit" -}}
+{{- end -}}
+
+<article class="nebula2026-story-single" data-chapter-marker="{{ $chapterMarker }}" data-genre="{{ $chapterMarker }}">
+
+  {{/* 1. Story Header (hero section) */}}
+  <header class="story-header" id="story-header">
+
+    {{ if $page.Params.image }}
+    <div class="story-header__hero">
+      <img src="{{ path.Join $page.Section $page.Params.image | relURL }}"
+           alt="Illustration for {{ $page.Title }}"
+           class="story-header__image"
+           loading="eager"
+           decoding="sync" />
+      <div class="story-header__overlay"></div>
+    </div>
+    {{ else }}
+    {{/* Genre-specific color fallback when no image */}}
+    <div class="story-header__hero story-header__hero--fallback" data-genre="{{ $chapterMarker }}"></div>
+    {{ end }}
+
+    <div class="story-header__content">
+      <div class="story-header__metadata">
+
+        <h1 class="story-header__title">{{ $page.Title }}</h1>
+
+        <div class="story-header__byline">
+          {{ if $page.Params.authors }}
+            {{ $authorCount := len $page.Params.authors }}
+            {{ if eq $authorCount 1 }}
+              <span class="story-header__author">by {{ index $page.Params.authors 0 }}</span>
+            {{ else if eq $authorCount 2 }}
+              <span class="story-header__author">by {{ index $page.Params.authors 0 }} and {{ index $page.Params.authors 1 }}</span>
+            {{ else }}
+              <span class="story-header__author">by {{ collections.Delimit (first (sub $authorCount 1) $page.Params.authors) ", " }}, and {{ index $page.Params.authors (sub $authorCount 1) }}</span>
+            {{ end }}
+          {{ end }}
+        </div>
+
+        {{ if $page.Description }}
+        <div class="story-header__abstract">
+          <p>{{ $page.Description }}</p>
+        </div>
+        {{ end }}
+
+        <div class="story-header__publication">
+          {{ if $section }}
+          <span class="story-header__issue">{{ $section.Params.issue }}</span>
+          {{ end }}
+          <span class="story-header__date">{{ $page.Date.Format "January 2006" }}</span>
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+  {{/* 2. Minimal Sticky Header (appears on scroll) */}}
+  <div class="story-header-minimal" id="story-header-minimal">
+    <div class="story-header-minimal__content">
+      <div class="story-header-minimal__info">
+        <h2 class="story-header-minimal__title">{{ $page.Title }}</h2>
+        <span class="story-header-minimal__author">
+          {{ if $page.Params.authors }}{{ index $page.Params.authors 0 }}{{ end }}
+        </span>
+      </div>
+    </div>
+  </div>
+
+  {{/* 3. Audio Player (if story has audio) */}}
+  {{ if $page.Params.audio }}
+  <div class="nebula-audio-player">
+    <audio controls>
+      <source src="{{ $page.Params.audio }}" type="audio/mpeg">
+      Your browser does not support the audio tag.
+    </audio>
+  </div>
+  {{ end }}
+
+  {{/* 4. Reading Area */}}
+  <div class="story-reading">
+    <div class="story-reading__container nebula-article-content">
+      {{ $page.Content }}
+    </div>
+  </div>
+
+  {{/* 5. Story Footer (roundel + support text) */}}
+  <footer class="story-footer">
+    <div class="story-divider">
+      <img src="/images/roundels/{{ $issueRoundel }}-200.svg"
+           class="story-divider__roundel roundel-animate"
+           alt=""
+           aria-hidden="true" />
+    </div>
+    <p class="nebula-support-text"><strong>Mythaxis</strong> is forever free to read, but if you'd like to support us you can do so <a href="https://ko-fi.com/mythaxismagazine">here</a> (but only if you <em>really</em> want to!)</p>
+  </footer>
+
+  {{/* 6. Author Footer */}}
+  {{ partial "authorfooter" $page }}
+
+  {{/* 7. Navigation Footer (prev/next + back to TOC) */}}
+  {{ if $section }}
+  <nav class="story-navigation">
+    <div class="story-navigation__container">
+
+      <div class="story-navigation__toc">
+        <a href="{{ $section.RelPermalink }}" class="nav-button nav-button--toc">
+          <svg class="nav-button__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+          <span class="nav-button__text">Table of Contents</span>
+        </a>
+      </div>
+
+      <div class="story-navigation__prevnext">
+
+        {{ with $page.PrevInSection }}
+        <a href="{{ .RelPermalink }}" class="nav-button nav-button--prev" title="{{ .Title }}">
+          <svg class="nav-button__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M15 18l-6-6 6-6"/>
+          </svg>
+          <div class="nav-button__content">
+            <span class="nav-button__label">Previous</span>
+            <span class="nav-button__title">{{ .Title }}</span>
+          </div>
+        </a>
+        {{ else }}
+        <div class="nav-button nav-button--disabled"></div>
+        {{ end }}
+
+        {{ with $page.NextInSection }}
+        <a href="{{ .RelPermalink }}" class="nav-button nav-button--next" title="{{ .Title }}">
+          <div class="nav-button__content">
+            <span class="nav-button__label">Next</span>
+            <span class="nav-button__title">{{ .Title }}</span>
+          </div>
+          <svg class="nav-button__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 18l6-6-6-6"/>
+          </svg>
+        </a>
+        {{ else }}
+        <div class="nav-button nav-button--disabled"></div>
+        {{ end }}
+
+      </div>
+
+    </div>
+  </nav>
+  {{ end }}
+
+</article>

@@ -1,0 +1,223 @@
+/* ==========================================================================
+   Horizon 2020 Theme - Complete Styles (Self-Contained)
+   ========================================================================== */
+
+/* ==========================================================================
+   PART 1: Base Styles (formerly base.css)
+   Fonts, content styling, and layout utilities
+   ========================================================================== */
+
+/* Font Definitions - Starcraft Fonts
+   ========================================================================== */
+
+@font-face {
+    font-family: "Starcraft";
+    src: url("../../assets/fonts/starcraft.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Starcraft";
+    src: url("../../assets/fonts/starcraft.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Starcraft normal";
+    src: url("../../assets/fonts/starcraft-normal.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Starcraft";
+    src: url("../../assets/fonts/starcraft-italic.woff") format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Starcraft";
+    src: url("../../assets/fonts/starcraft-italic.woff") format('woff');
+    font-style: italic;
+}
+
+
+/* Blockquote Styles
+   ========================================================================== */
+
+blockquote > p {
+    margin: 0 0 1rem 0;
+}
+
+
+/* TEI (Text Encoding Initiative) Styles
+   ========================================================================== */
+
+glyph {
+    font-weight: 600;
+    font-size: 4em;
+    float: left;
+    line-height: 0.9em;
+    padding-top: 0.15em;
+    padding-right: 0.1em;
+}
+
+glyph.small {
+    font-size: 2em;
+}
+
+
+/* Author Footer Styles
+   ========================================================================== */
+
+footer.author img {
+    border: 5px solid #212931a6;
+    border-radius: 50%;
+    max-width: 200px;
+    height: auto;
+    padding: 0;
+}
+
+footer.author p {
+    line-height: 2em;
+    margin-bottom: 1em;
+}
+
+
+/* Image Layout CSS3 Trick
+   Source: https://stackoverflow.com/a/39614958
+
+   Usage in markdown:
+   - ![alt <](image.jpg)   - Small left-aligned
+   - ![alt >](image.jpg)   - Small right-aligned
+   - ![alt ><](image.jpg)  - Small center-aligned
+   - ![alt -lrg](image.jpg) - Large-ish left-aligned
+   ========================================================================== */
+
+img[alt$="<"] {
+    max-width: 80px;
+}
+
+img[alt$=">"] {
+    display: block;
+    max-width: 80px;
+    height: auto;
+    margin-left: auto;
+    float: none !important;
+}
+
+img[alt$="><"] {
+    display: block;
+    max-width: 80px;
+    height: auto;
+    margin: auto;
+    float: none !important;
+}
+
+/* Large-ish left-aligned image */
+img[alt$="-lrg"] {
+    width: 40%;
+    max-width: 200px;
+}
+
+
+/* ==========================================================================
+   PART 2: Horizon2020-Specific Theme Styles
+   Classic Mythaxis styling with Starcraft branding
+   ========================================================================== */
+
+/* Navigation Styling
+   ========================================================================== */
+
+#nav {
+    background-color: rgba(30, 37, 45, 0.5);
+}
+
+#main,
+#nav ul.links li.active {
+    background-color: rgba(255, 255, 255, 0.96);
+}
+
+
+/* Introduction Section (Homepage)
+   ========================================================================== */
+
+#intro h1 {
+    font-family: Starcraft;
+    color: rgba(169, 225, 244, 255);
+    filter: drop-shadow(0.6rem 0.8rem 0.5px rgb(30, 37, 45, 0.8));
+    -webkit-text-stroke: 2px #000;
+}
+
+#intro h2 {
+    font-family: Starcraft;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 5px !important;
+    letter-spacing: 0.075em;
+    padding: 1rem 1.75rem;
+    background: rgba(30, 37, 45, 0.5);
+}
+
+#intro .button {
+    background: rgba(30, 37, 45, 0.5) !important;
+}
+
+#intro .button:hover {
+    box-shadow: inset 0 0 0 2px #ffffff;
+    color: #ffffff !important;
+    background: rgba(30, 37, 45, 0.3) !important;
+}
+
+
+/* Header Banner (Scrolled State)
+   ========================================================================== */
+
+header {
+    font-family: Starcraft;
+}
+
+#header .logo {
+    font-family: Starcraft;
+    background: rgba(30, 37, 45, 0.5);
+    transition: 0.3s;
+}
+
+#header .logo:hover {
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+    background: rgba(30, 37, 45, 0.3);
+    transition: 0.3s;
+}
+
+header > a {
+    position: relative;
+    margin: 0 auto;
+    width: calc(100% - 4rem);
+    max-width: 72rem;
+}
+
+
+/* Catalogue Pages
+   ========================================================================== */
+
+section.catalogue header.major {
+    margin-bottom: 2rem;
+}
+
+
+/* Background Overlay
+   ========================================================================== */
+
+#wrapper > .bg {
+    background-image:
+        url(../../images/overlay.png),
+        linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+}
+
+
+/* Button Hover Effects
+   ========================================================================== */
+
+.button:hover {
+    background: rgba(30, 37, 45, 0.5);
+}

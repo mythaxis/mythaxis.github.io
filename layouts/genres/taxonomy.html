@@ -45,8 +45,6 @@
   {{ $genreIndex = merge $genreIndex (dict . $genreStockItems) }}
 {{ end }}
 
-
-
 <!DOCTYPE HTML>
 <html lang='{{ .Site.Language.Lang | default "en-us" }}'>
   {{ partial "htmlhead" . }}
@@ -59,34 +57,7 @@
 
       <!-- Main -->
       <div id="main">
-        <section class="post catalogue">
-            <header class="major">
-              <img src="{{ "/images/toplist.svg" | safeURL }}" />
-              <h1>{{ .Title }}</h1>
-              <p>{{ len $allGenres }} {{ .Description }}</p>
-            </header>
-            {{ partial "catalogue-nav" . }}
-            {{ .Content }}
-
-            <p class="align-center"><
-            {{ range $key, $value := $allGenres }}
-              <a href='#{{ . }}'>{{ . | strings.Title }}</a>{{ if ne $key (sub (len $allGenres) 1) }} | {{ else }}{{ end }}
-            {{ end }}>
-            </p>
-
-            {{ range $genre, $items := $genreIndex }}
-            <h2 id="{{ $genre }}">{{ $genre | strings.Title }} ({{ len $items }})</h2>
-            <ul>
-            {{ range $items }}
-              <li><a href="{{ .relurl | relURL }}">{{ .title }}</a> by {{ .author }}</li>
-            {{ end }}
-            </ul>
-            {{ end }}
-
-
-
-            {{ partial "catalogue-nav" . }}
-        </section>
+        {{ partial "theme-dispatch" (dict "partial" "genres-content" "context" . "data" (dict "genres" $genreIndex "genreNames" $allGenres)) }}
       </div>
       
       {{ partial "copyright" . }}

@@ -1,0 +1,31 @@
+{{/*
+  Horizon2020 Theme - Page Single Content Partial
+  ================================================
+  Classic layout for non-stock pages (about, submissions, etc.)
+  
+  Expects context from theme-dispatch:
+    .Page    - The page being rendered
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Any extra data passed
+*/}}
+
+{{- $page := .Page -}}
+
+<section class="post">
+    <header class="major">
+        <img src="{{ "/themes/horizon2020/toplist.svg" | safeURL }}" />
+        <h1>{{ $page.Title }}</h1>
+        {{ with $page.Params.author }}<p>{{ . }}</p>{{ end }}
+        {{ with $page.Description }}<p>{{ . }}</p>{{ end }}
+    </header>
+
+    {{ if $page.Params.image }}
+    <div class="image main">
+        <img src="{{ path.Join $page.Section $page.Params.image | relURL }}" alt="Image for {{ $page.Title }}" title="Image for {{ $page.Title }}" />
+    </div>
+    {{ end }}
+
+    {{ $page.Content }}
+    {{ partial "authorfooter" $page }}
+</section>

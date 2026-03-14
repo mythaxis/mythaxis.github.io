@@ -1,87 +1,27 @@
-<link rel="stylesheet" href='{{ "assets/css/overrides.css" | relURL }}' />
-<style type="text/css">
-	#wrapper > .bg {
-		/*background: url({{ path.Join .Section .Params.image | relURL }});*/
-		/*background-size: 100% auto;
-		background-position: top center;
-		background-repeat: no-repeat;
-		*/
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-image: 
-			linear-gradient(0deg,
-				rgba(255,255,255,1) 5%,
-				rgba(255,255,255,0.50) 10%,
-				rgba(255,255,255,0) 20%
-			)
-			,
-			url({{ path.Join .Section .Params.image | relURL }}
-		);
-		background-size: auto, 100% auto;
-		background-position: bottom, top center;
-		background-repeat: no-repeat, no-repeat;
-		background-attachment: no-scroll, scroll;
-	}
+{{/*
+  HTML Head Styles Overrides - Theme Dispatcher Wrapper
+  =====================================================
+  This partial delegates to the theme-specific styles implementation.
+  
+  Note: This partial receives $currSection as context (not page context),
+  so we need to handle it differently.
+*/}}
 
+{{- $currSection := . -}}
 
+{{/* Build a pseudo-context for the dispatcher */}}
+{{- $theme := $currSection.Params.theme | default $.Site.Params.defaultTheme | default "nebula2026" -}}
+{{- $partialPath := printf "themes/%s/styles.html" $theme -}}
+{{- $fallbackPath := "themes/nebula2026/styles.html" -}}
 
-	{{ if .Params.imageMobile }}
-	@media screen and (max-width: 980px) {
-		#wrapper > .bg {
-		    background-image: url({{ path.Join .Section .Params.imageMobile | relURL }});
-		}
-	}
-	@media screen and (max-width: 500px) {
-		#wrapper > .bg {
-			background-size: cover;
-		}
-	}{{ end }}
+{{/* Prepare context matching what theme-dispatch provides */}}
+{{- $fullContext := dict "Page" $currSection "Section" $currSection "Theme" $theme "Data" dict -}}
 
-	{{ with .Params.intro }}
-		{{ with .logo }}
-		#intro h1 {
-			{{ with .font_family }}font-family: {{ . }};{{ end }}
-			{{ with .color }}color: {{ . }};{{ end }}
-		}
-	{{ end }}
-
-	@media screen and (min-width: 736px) {
-		#intro {
-			display: flex;
-			flex-direction: column;
-			{{ with .justify_content }}justify-content: {{ . }};{{ end }}
-			{{ with .align_items }}align-items: {{ . }};{{ end }}
-			{{ with .align_content }}align-content: {{ . }};{{ end }}
-		}
-		{{ with .logo }}
-		#intro h1 {
-			{{ with .order }}order: {{ . }};{{ end }}
-			{{ with .flex_grow }}flex-grow: {{ . }};{{ end }}
-			{{ with .align_self }}align-self: {{ . }};{{ end }}
-			{{ with .align_items }}align-items: {{ . }};{{ end }}
-		}
-		{{ end }}
-
-		{{ with .subheading }}
-		#intro > h2 {
-			{{ with .order }}order: {{ . }};{{ end }}
-			{{ with .flex_grow }}flex-grow: {{ . }};{{ end }}
-			{{ with .align_self }}align-self: {{ . }};{{ end }}
-			{{ with .align_items }}align-items: {{ . }};{{ end }}
-		}
-		{{ end }}
-		
-		{{ with .actions }}
-		#intro ul.actions {
-			{{ with .display }}display: {{ .}};{{ end }}
-			{{ with .order }}order: {{ . }};{{ end }}
-			{{ with .flex_grow }}flex-grow: {{ . }};{{ end }}
-			{{ with .align_self }}align-self: {{ . }};{{ end }}
-			{{ with .align_items }}align-items: {{ . }};{{ end }}
-		}
-		{{ end }}
-	}{{ end }}
-</style>
+{{/* Try theme-specific partial, fallback to nebula2026 */}}
+{{- if templates.Exists (printf "partials/%s" $partialPath) -}}
+  {{- partial $partialPath $fullContext -}}
+{{- else if templates.Exists (printf "partials/%s" $fallbackPath) -}}
+  {{- partial $fallbackPath $fullContext -}}
+{{- else -}}
+  <!-- Theme styles partial not found: {{ $partialPath }} -->
+{{- end -}}

@@ -1,0 +1,2418 @@
+/* ==========================================================================
+   Nebula2026 Theme - Complete Styles (Self-Contained, Plain CSS)
+   ========================================================================== */
+
+/* ==========================================================================
+   Web Fonts — Alegreya (subset: 5 weights for body + header)
+   ========================================================================== */
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../assets/fonts/nebula2026/Alegreya-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../assets/fonts/nebula2026/Alegreya-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../assets/fonts/nebula2026/Alegreya-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../assets/fonts/nebula2026/Alegreya-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../assets/fonts/nebula2026/Alegreya-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ==========================================================================
+   PART 1: Content Styling (needed base styles)
+   Blockquotes, glyphs, author footers, and image layout utilities
+   ========================================================================== */
+
+/* Blockquote Styles
+   ========================================================================== */
+
+blockquote > p {
+    margin: 0 0 1rem 0;
+}
+
+
+/* TEI (Text Encoding Initiative) Styles
+   ========================================================================== */
+
+glyph {
+    font-weight: 600;
+    font-size: 4em;
+    float: left;
+    line-height: 0.9em;
+    padding-top: 0.15em;
+    padding-right: 0.1em;
+}
+
+glyph.small {
+    font-size: 2em;
+}
+
+
+/* Author Footer Styles
+   ========================================================================== */
+
+footer.author img {
+    border: 5px solid #212931a6;
+    border-radius: 50%;
+    max-width: 200px;
+    height: auto;
+    padding: 0;
+}
+
+footer.author p {
+    line-height: 2em;
+    margin-bottom: 1em;
+}
+
+
+/* Image Layout CSS3 Trick
+   Source: https://stackoverflow.com/a/39614958
+
+   Usage in markdown:
+   - ![alt <](image.jpg)   - Small left-aligned
+   - ![alt >](image.jpg)   - Small right-aligned
+   - ![alt ><](image.jpg)  - Small center-aligned
+   - ![alt -lrg](image.jpg) - Large-ish left-aligned
+   ========================================================================== */
+
+img[alt$="<"] {
+    max-width: 80px;
+}
+
+img[alt$=">"] {
+    display: block;
+    max-width: 80px;
+    height: auto;
+    margin-left: auto;
+    float: none !important;
+}
+
+img[alt$="><"] {
+    display: block;
+    max-width: 80px;
+    height: auto;
+    margin: auto;
+    float: none !important;
+}
+
+/* Large-ish left-aligned image */
+img[alt$="-lrg"] {
+    width: 40%;
+    max-width: 200px;
+}
+
+
+/* ==========================================================================
+   PART 2: Nebula2026 Modern Theme Styles
+   Modern gradient-based design with cards and smooth animations
+   ========================================================================== */
+
+/* Intro Section
+   ========================================================================== */
+
+.nebula-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.nebula-intro-content {
+    max-width: 800px;
+}
+
+.nebula-issue-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.nebula-title {
+    font-size: 4rem;
+    font-weight: 800;
+    background: linear-gradient(135deg, #fff 0%, #a78bfa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.5rem;
+    text-shadow: none;
+}
+
+.nebula-subtitle {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.nebula-headline {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+}
+
+.nebula-scroll-indicator a {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nebula-scroll-indicator a:hover {
+    color: #a78bfa;
+    transform: translateY(4px);
+}
+
+.nebula-scroll-indicator span {
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+}
+
+.nebula-scroll-indicator svg {
+    animation: nebula-bounce 2s infinite;
+}
+
+@keyframes nebula-bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(8px); }
+    60% { transform: translateY(4px); }
+}
+
+
+/* Header — Slim Issue Bar
+   ========================================================================== */
+
+.nebula-header {
+    background: linear-gradient(135deg, rgba(15, 15, 35, 0.95) 0%, rgba(30, 25, 60, 0.95) 100%);
+    backdrop-filter: blur(10px);
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nebula-header__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nebula-header__issue {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.3s ease;
+}
+
+.nebula-header__issue:hover {
+    color: white;
+}
+
+.nebula-header__badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.nebula-header__subhead {
+    font-size: 0.875rem;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.nebula-header__logo {
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-decoration: none;
+    background: linear-gradient(135deg, #fff 0%, #a78bfa 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    transition: opacity 0.3s ease;
+}
+
+.nebula-header__logo:hover {
+    opacity: 0.8;
+}
+
+
+/* Navigation — Full-Width Menu
+   ========================================================================== */
+
+.nebula-nav {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--color-border, #e9ecef);
+    padding: 0;
+}
+
+.nebula-nav__links {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    list-style: none;
+}
+
+.nebula-nav__links li {
+    margin: 0;
+    padding: 0;
+}
+
+.nebula-nav__link {
+    display: block;
+    padding: 0.875rem 1.25rem;
+    color: var(--color-text, #333);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nebula-nav__link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    transition: width 0.3s ease;
+}
+
+.nebula-nav__link:hover {
+    color: var(--color-primary, #1a2b4c);
+}
+
+.nebula-nav__link:hover::after,
+.nebula-nav__link.active::after {
+    width: 80%;
+}
+
+.nebula-nav__link.active {
+    color: var(--color-primary, #1a2b4c);
+    font-weight: 600;
+}
+
+
+/* Burger Button
+   ========================================================================== */
+
+.nebula-burger {
+    position: fixed;
+    top: 0.75rem;
+    right: 1.5rem;
+    z-index: 1101;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid var(--color-border, #e9ecef);
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.nebula-burger:hover {
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nebula-burger--visible {
+    display: flex;
+}
+
+.nebula-burger__line {
+    width: 22px;
+    height: 2px;
+    background: var(--color-primary, #1a2b4c);
+    border-radius: 2px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Burger → X transform */
+.nebula-burger--open .nebula-burger__line:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.nebula-burger--open .nebula-burger__line:nth-child(2) {
+    opacity: 0;
+}
+
+.nebula-burger--open .nebula-burger__line:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+
+/* Slide-In Nav Panel
+   ========================================================================== */
+
+.nebula-nav-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    max-width: 80vw;
+    height: 100%;
+    z-index: 1100;
+    background: white;
+    box-shadow: -4px 0 20px rgba(0, 0, 0, 0.15);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    overflow-y: auto;
+}
+
+.nebula-nav-panel--open {
+    transform: translateX(0);
+}
+
+.nebula-nav-panel__content {
+    padding: 4rem 2rem 2rem;
+}
+
+.nebula-nav-panel__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.nebula-nav-panel__link {
+    display: block;
+    padding: 0.875rem 1rem;
+    color: var(--color-text, #333);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.nebula-nav-panel__link:hover {
+    background: var(--color-surface, #f8f9fa);
+    color: var(--color-primary, #1a2b4c);
+}
+
+.nebula-nav-panel__link.active {
+    color: var(--color-primary, #1a2b4c);
+    font-weight: 600;
+    background: var(--color-surface, #f8f9fa);
+    border-left: 3px solid var(--color-primary, #1a2b4c);
+}
+
+
+/* Nav Panel Backdrop
+   ========================================================================== */
+
+.nebula-nav-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 1099;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.nebula-nav-backdrop--visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* Featured Article
+   ========================================================================== */
+
+.nebula-featured {
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    background: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.nebula-featured-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.nebula-featured-image img {
+    transition: transform 0.5s ease;
+}
+
+.nebula-featured:hover .nebula-featured-image img {
+    transform: scale(1.05);
+}
+
+.nebula-featured-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent 50%, rgba(15, 15, 35, 0.8) 100%);
+}
+
+.nebula-featured-content {
+    padding: 2rem;
+}
+
+.nebula-featured-authors {
+    display: inline-block;
+    color: #764ba2;
+    font-weight: 600;
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+}
+
+.nebula-featured-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.nebula-featured-title a {
+    color: #1a1a2e;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nebula-featured-title a:hover {
+    color: #667eea;
+}
+
+.nebula-featured-description {
+    color: #666;
+    line-height: 1.7;
+}
+
+.nebula-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nebula-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    color: white;
+}
+
+
+/* Card Grid (List Items)
+   ========================================================================== */
+
+.nebula-card {
+    background: white;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nebula-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.nebula-card-image {
+    overflow: hidden;
+}
+
+.nebula-card-image img {
+    transition: transform 0.5s ease;
+}
+
+.nebula-card:hover .nebula-card-image img {
+    transform: scale(1.05);
+}
+
+.nebula-card-content {
+    padding: 1.5rem;
+}
+
+.nebula-card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.nebula-card-title a {
+    color: #1a1a2e;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nebula-card-title a:hover {
+    color: #667eea;
+}
+
+.nebula-card-authors {
+    display: block;
+    color: #764ba2;
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+.nebula-card-description {
+    color: #666;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+}
+
+.nebula-button-small {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+}
+
+.nebula-button-small:hover {
+    transform: translateY(-1px);
+    color: white;
+}
+
+
+/* Single Article
+   ========================================================================== */
+
+.nebula-article {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.nebula-article-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.nebula-article-meta {
+    margin-bottom: 1rem;
+}
+
+.nebula-article-authors {
+    color: #764ba2;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+}
+
+.nebula-article-title {
+    font-size: 2.5rem;
+    color: #1a1a2e;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.nebula-article-divider {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+.nebula-article-image {
+    margin: 2rem 0;
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.nebula-article-image img {
+    width: 100%;
+    height: auto;
+}
+
+.nebula-audio-player {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 0.5rem;
+}
+
+.nebula-audio-player audio {
+    width: 100%;
+}
+
+.nebula-article-content {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+.nebula-article-footer {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.nebula-support-text {
+    color: #666;
+    font-size: 0.9375rem;
+}
+
+
+/* Page Single (about, submissions, etc.)
+   ========================================================================== */
+
+.nebula-page {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.nebula-page-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.nebula-page-title {
+    font-size: 2.5rem;
+    color: #1a1a2e;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.nebula-page-author {
+    color: #764ba2;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.nebula-page-description {
+    color: #666;
+    font-size: 1.125rem;
+}
+
+.nebula-page-image {
+    margin: 2rem 0;
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.nebula-page-image img {
+    width: 100%;
+    height: auto;
+}
+
+.nebula-page-content {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #333;
+}
+
+
+/* Responsive
+   ========================================================================== */
+
+@media screen and (max-width: 736px) {
+    .nebula-title {
+        font-size: 2.5rem;
+    }
+    .nebula-subtitle {
+        font-size: 1.25rem;
+    }
+    .nebula-featured-title {
+        font-size: 1.5rem;
+    }
+    .nebula-article-title {
+        font-size: 1.75rem;
+    }
+    .nebula-page-title {
+        font-size: 1.75rem;
+    }
+
+    .nebula-header__container {
+        padding: 0 1rem;
+    }
+
+    .nebula-header__subhead {
+        display: none;
+    }
+
+    .nebula-nav__links {
+        padding: 0 1rem;
+        gap: 0;
+        flex-wrap: wrap;
+    }
+
+    .nebula-nav__link {
+        padding: 0.625rem 0.75rem;
+        font-size: 0.8rem;
+    }
+}
+
+
+/* ==========================================================================
+   PART 3: Story Card Overlay System
+   Interactive preview cards for stories
+   ========================================================================== */
+
+/* Overlay Container
+   ========================================================================== */
+
+.story-card-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.story-card-overlay.hidden {
+    display: none;
+}
+
+
+/* Story Card
+   ========================================================================== */
+
+.story-card {
+    background: white;
+    max-width: 600px;
+    width: 90%;
+    max-height: 85vh;
+    overflow-y: auto;
+    border-radius: 8px;
+    position: relative;
+    padding: 2rem;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+.story-card-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #666;
+    line-height: 1;
+    padding: 0;
+    width: 2rem;
+    height: 2rem;
+    transition: color 0.2s ease;
+}
+
+.story-card-close:hover {
+    color: #000;
+}
+
+
+/* Story Card Content
+   ========================================================================== */
+
+.story-card-image {
+    margin: -2rem -2rem 1.5rem -2rem;
+}
+
+.story-card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px 8px 0 0;
+}
+
+.story-card-title {
+    margin: 0 0 0.5rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #1a1a1a;
+}
+
+.story-card-authors {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+    display: block;
+}
+
+.story-card-description {
+    line-height: 1.7;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.story-card-actions {
+    text-align: center;
+}
+
+.story-card-read {
+    display: inline-block;
+    padding: 0.75rem 2.5rem;
+    background: #3a5f7d;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    transition: background 0.2s ease;
+}
+
+.story-card-read:hover {
+    background: #2a4f6d;
+    color: white;
+}
+
+
+/* Mobile Responsiveness
+   ========================================================================== */
+
+@media (max-width: 736px) {
+    .story-card {
+        width: 95%;
+        max-width: none;
+        max-height: 90vh;
+        padding: 1.5rem;
+    }
+
+    .story-card-image {
+        margin: -1.5rem -1.5rem 1rem -1.5rem;
+    }
+
+    .story-card-title {
+        font-size: 1.5rem;
+    }
+
+    .story-card-close {
+        top: 0.75rem;
+        right: 0.75rem;
+    }
+}
+
+
+/* Card Hover Effect
+   ========================================================================== */
+
+.nebula-card[data-has-card="true"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+/* Chapter Marker Styles
+   ========================================================================== */
+
+.chapter-marker {
+    display: block;
+    margin: 2rem auto;
+    width: 100px;
+    height: auto;
+}
+
+.story-end-marker {
+    display: block;
+    margin: 3rem auto;
+    width: 200px;
+    height: auto;
+}
+
+
+/* ==========================================================================
+   PART 4: Snarktank/Synth Design System — Merged CSS
+   Resolved from SCSS: variables substituted, nesting flattened, mixins inlined
+   ========================================================================== */
+
+/* Design Tokens (from _variables.scss)
+   ========================================================================== */
+
+:root {
+    /* Colors */
+    --color-primary: #1a2b4c;
+    --color-secondary: #4a6d8c;
+    --color-accent: #7c5295;
+    --color-primary-light: color-mix(in srgb, var(--color-primary) 70%, white);
+    --color-primary-dark: color-mix(in srgb, var(--color-primary) 80%, black);
+    --color-secondary-light: color-mix(in srgb, var(--color-secondary) 70%, white);
+    --color-secondary-dark: color-mix(in srgb, var(--color-secondary) 80%, black);
+    --color-accent-light: color-mix(in srgb, var(--color-accent) 70%, white);
+    --color-accent-dark: color-mix(in srgb, var(--color-accent) 80%, black);
+    --color-text: #333333;
+    --color-text-light: #666666;
+    --color-text-muted: #999999;
+    --color-background: #ffffff;
+    --color-surface: #f8f9fa;
+    --color-border: #e9ecef;
+    --color-shadow: rgba(0, 0, 0, 0.1);
+
+    /* Typography */
+    --font-primary: 'Alegreya', Georgia, "Times New Roman", serif;
+    --font-secondary: 'Alegreya', Georgia, "Times New Roman", serif;
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 3rem;
+    --leading-tight: 1.25;
+    --leading-normal: 1.5;
+    --leading-relaxed: 1.75;
+    --font-light: 300;
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+
+    /* Spacing */
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+    --space-20: 5rem;
+
+    /* Borders & Shadows */
+    --radius-sm: 0.125rem;
+    --radius-base: 0.25rem;
+    --radius-md: 0.375rem;
+    --radius-lg: 0.5rem;
+    --radius-xl: 0.75rem;
+    --radius-2xl: 1rem;
+    --radius-full: 9999px;
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+    /* Transitions */
+    --transition-fast: 150ms ease-in-out;
+    --transition-base: 250ms ease-in-out;
+    --transition-slow: 350ms ease-in-out;
+    --transition-slower: 500ms ease-in-out;
+
+    /* Z-index scale */
+    --z-dropdown: 1000;
+    --z-sticky: 1020;
+    --z-fixed: 1030;
+    --z-modal-backdrop: 1040;
+    --z-modal: 1050;
+    --z-popover: 1060;
+    --z-tooltip: 1070;
+
+    /* Component tokens */
+    --card-width: 300px;
+    --card-height: 400px;
+    --card-image-height: 200px;
+    --card-radius: var(--radius-lg);
+    --roundel-sm: 50px;
+    --roundel-md: 100px;
+    --roundel-lg: 200px;
+    --grid-gap: var(--space-6);
+}
+
+.theme-nebula2026 {
+    font-family: var(--font-primary);
+}
+
+/* Mobile Story Overlay (from _interactions.scss)
+   ========================================================================== */
+
+.story-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: var(--z-modal);
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--transition-base);
+    backdrop-filter: blur(8px);
+}
+
+.story-overlay--active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.story-overlay__content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: var(--color-background);
+    margin-top: 100vh;
+    transition: margin-top var(--transition-base);
+}
+
+.story-overlay--active .story-overlay__content {
+    margin-top: 0;
+}
+
+.story-overlay__close {
+    position: absolute;
+    top: var(--space-4);
+    right: var(--space-4);
+    width: 44px;
+    height: 44px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-full);
+    color: var(--color-text);
+    font-size: var(--text-xl);
+    font-weight: var(--font-bold);
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-fast);
+}
+
+.story-overlay__close:hover {
+    background: var(--color-primary);
+    color: white;
+    transform: scale(1.1);
+}
+
+.story-overlay__prev,
+.story-overlay__next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-full);
+    color: var(--color-text);
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-fast);
+}
+
+.story-overlay__prev:hover:not(:disabled),
+.story-overlay__next:hover:not(:disabled) {
+    background: var(--color-primary);
+    color: white;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.story-overlay__prev:disabled,
+.story-overlay__next:disabled {
+    cursor: not-allowed;
+    opacity: 0.3;
+}
+
+.story-overlay__prev {
+    left: var(--space-4);
+}
+
+.story-overlay__next {
+    right: var(--space-4);
+}
+
+.story-overlay__story-content {
+    flex: 1;
+    padding: var(--space-16) var(--space-6) var(--space-6);
+    overflow-y: auto;
+    position: relative;
+}
+
+
+/* Desktop Story Popup (from _interactions.scss)
+   ========================================================================== */
+
+.story-popup {
+    position: fixed;
+    width: 400px;
+    max-width: 90vw;
+    background: var(--color-background);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-xl);
+    z-index: var(--z-popover);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.8) translateY(-10px);
+    transition: all var(--transition-base);
+    backdrop-filter: blur(8px);
+    pointer-events: none;
+}
+
+.story-popup--active {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1) translateY(0);
+    pointer-events: auto;
+}
+
+.story-popup--fixed {
+    box-shadow: var(--shadow-2xl);
+    border-color: var(--color-primary);
+}
+
+.story-popup__content {
+    position: relative;
+    padding: var(--space-6);
+}
+
+.story-popup__close {
+    position: absolute;
+    top: var(--space-3);
+    right: var(--space-3);
+    width: 24px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    color: var(--color-text-muted);
+    font-size: var(--text-lg);
+    cursor: pointer;
+    border-radius: var(--radius-base);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--transition-fast);
+}
+
+.story-popup__close:hover {
+    background: var(--color-surface);
+    color: var(--color-text);
+}
+
+
+/* Story Content Component (from _interactions.scss)
+   ========================================================================== */
+
+.story-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+}
+
+.story-content__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.story-content__genre {
+    background: var(--color-primary);
+    color: white;
+    padding: var(--space-1) var(--space-3);
+    border-radius: var(--radius-base);
+    font-size: var(--text-sm);
+    font-weight: var(--font-medium);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.story-content__title {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-bold);
+    color: var(--color-text);
+    margin: 0;
+    line-height: var(--leading-tight);
+}
+
+.story-content__authors {
+    font-size: var(--text-base);
+    color: var(--color-text-light);
+    font-style: italic;
+}
+
+.story-content__abstract {
+    font-size: var(--text-base);
+    line-height: var(--leading-normal);
+    color: var(--color-text-light);
+}
+
+.story-content__actions {
+    margin-top: var(--space-2);
+}
+
+.story-content__read-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    background: var(--color-primary);
+    color: white;
+    padding: var(--space-3) var(--space-6);
+    border-radius: var(--radius-base);
+    text-decoration: none;
+    font-weight: var(--font-medium);
+    transition: all var(--transition-fast);
+}
+
+.story-content__read-link:hover {
+    background: var(--color-primary-dark);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+
+
+/* Scroll Lock Utility
+   ========================================================================== */
+
+.no-scroll {
+    overflow: hidden;
+    height: 100vh;
+}
+
+
+/* Interaction Responsive Overrides (from _interactions.scss)
+   ========================================================================== */
+
+@media (max-width: 736px) {
+    .story-popup {
+        display: none !important;
+    }
+
+    .story-overlay__story-content {
+        padding: var(--space-20) var(--space-4) var(--space-4);
+    }
+
+    .story-content__title {
+        font-size: var(--text-xl);
+    }
+}
+
+@media (min-width: 737px) {
+    .story-overlay {
+        display: none !important;
+    }
+}
+
+
+/* Keyboard Navigation Focus States (from _interactions.scss)
+   ========================================================================== */
+
+.story-overlay__close:focus-visible,
+.story-overlay__prev:focus-visible,
+.story-overlay__next:focus-visible,
+.story-popup__close:focus-visible,
+.story-content__read-link:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 3px;
+    box-shadow: 0 0 0 6px rgba(124, 82, 149, 0.2);
+}
+
+
+/* Responsive Breakpoints (from _responsive.scss)
+   ========================================================================== */
+
+/* Tablet: 737px+ */
+@media (min-width: 737px) {
+    .nebula-card[data-has-card="true"] {
+        transition: transform 200ms ease-out, box-shadow 200ms ease-out;
+    }
+}
+
+/* Desktop: 981px+ */
+@media (min-width: 981px) {
+    .nebula-card[data-has-card="true"]:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    }
+}
+
+
+/* Print Styles (from _responsive.scss)
+   ========================================================================== */
+
+@media print {
+    .story-card-overlay,
+    .story-overlay,
+    .story-popup,
+    .story-header-minimal,
+    .story-navigation,
+    .nebula-burger,
+    .nebula-nav-panel,
+    .nebula-nav-backdrop {
+        display: none !important;
+    }
+
+    .story-header {
+        min-height: auto;
+        page-break-after: avoid;
+    }
+
+    .story-reading__container {
+        max-width: 100%;
+        font-size: 12pt;
+        line-height: 1.6;
+    }
+
+    .chapter-marker,
+    .story-end-marker {
+        filter: grayscale(100%);
+    }
+}
+
+
+/* High Contrast (from _responsive.scss)
+   ========================================================================== */
+
+@media (prefers-contrast: high) {
+    .story-card-overlay {
+        background: rgba(0, 0, 0, 0.95);
+    }
+
+    .story-popup {
+        border-width: 2px;
+    }
+}
+
+
+/* Animation Keyframes (from _animations.scss)
+   ========================================================================== */
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleFadeIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideInRight {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInLeft {
+    from { transform: translateX(-100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideOutLeft {
+    from { transform: translateX(0); opacity: 1; }
+    to { transform: translateX(-100%); opacity: 0; }
+}
+
+@keyframes slideOutRight {
+    from { transform: translateX(0); opacity: 1; }
+    to { transform: translateX(100%); opacity: 0; }
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.7; transform: scale(0.95); }
+}
+
+@keyframes shimmer {
+    0% { background-position: -1000px 0; }
+    100% { background-position: 1000px 0; }
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+
+/* Card slide transitions (from _animations.scss)
+   ========================================================================== */
+
+.story-card--slide-in-right {
+    animation: slideInRight 100ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.story-card--slide-in-left {
+    animation: slideInLeft 100ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.story-card--slide-out-left {
+    animation: slideOutLeft 100ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.story-card--slide-out-right {
+    animation: slideOutRight 100ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+
+/* Roundel scroll-into-view animation
+   ========================================================================== */
+
+.roundel-animate {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 400ms ease-out, transform 400ms ease-out;
+}
+
+.roundel-animate--visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+/* Reading progress bar
+   ========================================================================== */
+
+.reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    z-index: 9999;
+}
+
+.reading-progress__bar {
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+    transition: width 100ms ease-out;
+    box-shadow: 0 0 10px var(--color-primary);
+}
+
+
+/* Layout Containers (from _components.scss)
+   ========================================================================== */
+
+.nebula2026-section-landing {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--space-6);
+}
+
+.nebula2026-story-single {
+    width: 100%;
+    min-height: 100vh;
+    background: var(--color-background, #ffffff);
+}
+
+
+/* Responsive Layout (from _responsive.scss)
+   ========================================================================== */
+
+@media (max-width: 736px) {
+    .nebula2026-section-landing {
+        padding: var(--space-4);
+    }
+}
+
+@media (min-width: 737px) {
+    .nebula2026-section-landing {
+        padding: var(--space-6);
+    }
+}
+
+@media (min-width: 1200px) {
+    .nebula2026-section-landing {
+        max-width: 1400px;
+        padding: var(--space-8);
+    }
+}
+
+
+/* ==========================================================================
+   PART 5: Story Single Page
+   Hero header, sticky header, reading area, footer, navigation
+   ========================================================================== */
+
+/* Story Header — Full Hero Section
+   ========================================================================== */
+
+.story-header {
+    position: relative;
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.story-header__hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.story-header__hero--fallback {
+    background: linear-gradient(135deg, var(--color-primary, #1a2b4c) 0%, var(--color-secondary, #4a6d8c) 100%);
+}
+
+/* Genre-specific fallback colors */
+.story-header__hero--fallback[data-genre="fantasy"] {
+    background: linear-gradient(135deg, #6b2c91 0%, #9b4dca 100%);
+}
+
+.story-header__hero--fallback[data-genre="scifi"] {
+    background: linear-gradient(135deg, #1a4d8c 0%, #2d7dd2 100%);
+}
+
+.story-header__hero--fallback[data-genre="horror"] {
+    background: linear-gradient(135deg, #8c1a1a 0%, #d22d2d 100%);
+}
+
+.story-header__hero--fallback[data-genre="supernatural"] {
+    background: linear-gradient(135deg, #2c4a2c 0%, #4d8c4d 100%);
+}
+
+.story-header__hero--fallback[data-genre="dark"] {
+    background: linear-gradient(135deg, #1a1a1a 0%, #3d3d3d 100%);
+}
+
+.story-header__hero--fallback[data-genre="cosmic"] {
+    background: linear-gradient(135deg, #1a1a4d 0%, #4d4d9b 100%);
+}
+
+.story-header__hero--fallback[data-genre="psion"] {
+    background: linear-gradient(135deg, #8c4d1a 0%, #ca854d 100%);
+}
+
+.story-header__hero--fallback[data-genre="orbit"] {
+    background: linear-gradient(135deg, #1a3d5c 0%, #2d6d9b 100%);
+}
+
+.story-header__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+    will-change: transform;
+    object-position: center;
+    display: block;
+}
+
+.story-header__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(transparent 20%, rgba(0, 0, 0, 0.3) 100%);
+    backdrop-filter: blur(10px) saturate(180%);
+    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    z-index: 2;
+}
+
+@supports not (backdrop-filter: blur(10px)) {
+    .story-header__overlay {
+        background: linear-gradient(transparent 20%, rgba(0, 0, 0, 0.7) 100%);
+    }
+}
+
+.story-header__content {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    padding: 3rem 2rem 2rem;
+}
+
+.story-header__metadata {
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+}
+
+.story-header__title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.story-header__byline {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    opacity: 0.95;
+}
+
+.story-header__author {
+    font-weight: 500;
+}
+
+.story-header__abstract {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+    max-width: 700px;
+}
+
+.story-header__publication {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.story-header__issue,
+.story-header__date {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    padding: 0.4rem 0.8rem;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+
+/* Minimal Sticky Header
+   ========================================================================== */
+
+.story-header-minimal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+    border-bottom: 2px solid var(--color-primary, #1a2b4c);
+}
+
+.story-header-minimal.visible {
+    transform: translateY(0);
+}
+
+.story-header-minimal__content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.story-header-minimal__info {
+    flex: 1;
+    min-width: 0;
+}
+
+.story-header-minimal__title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 0 0.25rem 0;
+    color: var(--color-primary, #1a2b4c);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.story-header-minimal__author {
+    font-size: 0.9rem;
+    color: var(--color-secondary, #4a6d8c);
+    font-style: italic;
+}
+
+
+/* Reading Area
+   ========================================================================== */
+
+.story-reading {
+    padding: 3rem 2rem;
+    background: var(--color-background, #ffffff);
+}
+
+.story-reading__container {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: var(--color-text, #1a1a1a);
+}
+
+.story-reading__container p {
+    margin-bottom: 1.5rem;
+}
+
+.story-reading__container h2,
+.story-reading__container h3 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+    color: var(--color-primary, #1a2b4c);
+}
+
+.story-reading__container h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.story-reading__container h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+
+/* Story Divider & Footer
+   ========================================================================== */
+
+.story-divider {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.story-divider__roundel {
+    width: 120px;
+    height: 120px;
+    opacity: 0.6;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.story-divider__roundel:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.story-footer {
+    padding: 2rem;
+    background: var(--color-background, #ffffff);
+    text-align: center;
+}
+
+
+/* Author Footer
+   ========================================================================== */
+
+.nebula-author-footer {
+    background: var(--color-secondary, #4a6d8c);
+    color: white;
+    padding: 2.5rem 2rem;
+}
+
+.nebula-author-card {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.nebula-author-photo {
+    flex-shrink: 0;
+}
+
+.nebula-author-photo img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 4px solid #000;
+    display: block;
+}
+
+.nebula-author-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.nebula-author-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0 0 0.75rem 0;
+    color: white;
+}
+
+.nebula-author-bio {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.nebula-author-bio p {
+    margin: 0 0 0.5rem 0;
+}
+
+.nebula-author-bio a {
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.nebula-author-bio a:hover {
+    opacity: 0.8;
+}
+
+.nebula-copyright-info {
+    max-width: 800px;
+    margin: 1.25rem auto 0;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nebula-copyright-text,
+.nebula-image-copyright {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0 0 0.25rem 0;
+    line-height: 1.5;
+}
+
+.nebula-image-copyright a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: underline;
+}
+
+/* Author Footer — Mobile */
+@media (max-width: 736px) {
+    .nebula-author-footer {
+        padding: 2rem 1.5rem;
+    }
+
+    .nebula-author-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nebula-author-photo img {
+        width: 80%;
+        max-width: 280px;
+        height: auto;
+        aspect-ratio: 1;
+    }
+
+    .nebula-author-name {
+        font-size: 1.25rem;
+    }
+
+    .nebula-copyright-info {
+        text-align: center;
+    }
+}
+
+
+/* Navigation Footer
+   ========================================================================== */
+
+.story-navigation {
+    background: var(--color-primary, #1a2b4c);
+    color: white;
+    padding: 3rem 2rem;
+}
+
+.story-navigation__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.story-navigation__toc {
+    text-align: center;
+}
+
+.story-navigation__prevnext {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.nav-button--toc {
+    display: inline-flex;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.nav-button--prev {
+    justify-content: flex-start;
+}
+
+.nav-button--next {
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.nav-button--disabled {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.nav-button__icon {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.nav-button__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    min-width: 0;
+}
+
+.nav-button__label {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+.nav-button__title {
+    font-size: 1rem;
+    font-weight: 500;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.nav-button__text {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+/* Site Copyright Footer
+   ========================================================================== */
+
+.nebula-copyright {
+    background: var(--color-secondary, #4a6d8c);
+    padding: 1.5rem 2rem;
+    text-align: center;
+}
+
+.nebula-copyright-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.nebula-copyright-main,
+.nebula-copyright-secondary,
+.nebula-copyright-notice {
+    margin: 0;
+    font-size: 0.7rem;
+    letter-spacing: 0.02em;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.15);
+    transition: color 0.5s ease;
+}
+
+.nebula-copyright:hover .nebula-copyright-main,
+.nebula-copyright:hover .nebula-copyright-secondary,
+.nebula-copyright:hover .nebula-copyright-notice {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.nebula-copyright-main strong {
+    font-weight: 600;
+}
+
+.nebula-copyright-secondary a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nebula-copyright:hover .nebula-copyright-secondary a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.nebula-copyright-divider {
+    margin: 0 0.4em;
+    opacity: 0.5;
+}
+
+/* Hide Massively navPanel toggle (replaced by nebula burger menu) */
+.theme-nebula2026 #navPanelToggle {
+    display: none;
+}
+
+
+/* Story Page Responsive
+   ========================================================================== */
+
+@media (max-width: 980px) {
+    .story-header__title {
+        font-size: 2.5rem;
+    }
+
+    .story-reading {
+        padding: 2rem 1.5rem;
+    }
+
+    .story-navigation__prevnext {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-button--next {
+        text-align: left;
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 768px) {
+    .story-header {
+        min-height: 50vh;
+    }
+
+    .story-header__content {
+        padding: 2rem 1rem 1.5rem;
+    }
+
+    .story-header__title {
+        font-size: 2rem;
+    }
+
+    .story-header__byline {
+        font-size: 1.1rem;
+    }
+
+    .story-header__abstract {
+        font-size: 1rem;
+    }
+
+    .story-header-minimal__content {
+        padding: 0.75rem 1rem;
+    }
+
+    .story-header-minimal__title {
+        font-size: 1rem;
+    }
+
+    .story-header-minimal__author {
+        font-size: 0.8rem;
+    }
+
+    .story-reading {
+        padding: 2rem 1rem;
+    }
+
+    .story-reading__container {
+        font-size: 1.063rem;
+        line-height: 1.7;
+    }
+
+    .story-divider__roundel {
+        width: 100px;
+        height: 100px;
+    }
+
+    .story-navigation {
+        padding: 2rem 1rem;
+    }
+
+    .nav-button {
+        padding: 1rem;
+    }
+
+    .nav-button__title {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .story-header {
+        min-height: 40vh;
+    }
+
+    .story-header__title {
+        font-size: 1.5rem;
+    }
+
+    .story-header__byline {
+        font-size: 1rem;
+    }
+
+    .story-header-minimal__info {
+        margin-right: 1rem;
+    }
+
+    .story-reading__container {
+        font-size: 1rem;
+    }
+
+    .story-divider__roundel {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+/* Scroll-Triggered Header Collapse (from _animations.scss)
+   ========================================================================== */
+
+.story-header {
+    transition: transform 300ms ease-out, opacity 300ms ease-out;
+}
+
+.story-header--collapsed {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.story-header--minimal {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+/* Loading States (from _animations.scss)
+   ========================================================================== */
+
+.loading {
+    opacity: 0.6;
+    pointer-events: none;
+    transition: opacity 200ms ease-out;
+}
+
+.loaded {
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 200ms ease-out;
+}
+
+
+/* Scroll Reveal (from _animations.scss)
+   ========================================================================== */
+
+.reveal-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 500ms ease-out, transform 500ms ease-out;
+}
+
+.reveal-on-scroll--visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Skip to Content (from _interactions.scss)
+   ========================================================================== */
+
+.skip-to-content {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background: var(--color-primary);
+    color: white;
+    padding: var(--space-3) var(--space-6);
+    text-decoration: none;
+    border-radius: var(--radius-base);
+    z-index: var(--z-tooltip);
+    transition: top var(--transition-fast);
+}
+
+.skip-to-content:focus {
+    top: var(--space-4);
+}
+
+
+/* Global Focus Styles (from _interactions.scss)
+   ========================================================================== */
+
+*:focus:not(:focus-visible) {
+    outline: none;
+}
+
+*:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+
+/* Smooth scroll
+   ========================================================================== */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Reduced Motion Accessibility (from _animations.scss, _interactions.scss)
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+    .story-overlay,
+    .story-overlay__content,
+    .story-overlay__close,
+    .story-overlay__prev,
+    .story-overlay__next,
+    .story-overlay__story-content,
+    .story-popup,
+    .story-popup__content,
+    .story-popup__close,
+    .story-content,
+    .story-content__read-link,
+    .roundel-animate,
+    .story-card--slide-in-right,
+    .story-card--slide-in-left,
+    .story-card--slide-out-left,
+    .story-card--slide-out-right,
+    .story-header-minimal,
+    .nav-button,
+    .story-divider__roundel,
+    .nebula-burger,
+    .nebula-burger__line,
+    .nebula-nav-panel,
+    .nebula-nav-backdrop,
+    .nebula-nav__link,
+    .nebula-nav__link::after {
+        transition: none !important;
+        animation: none !important;
+    }
+
+    .story-overlay--active .story-overlay__content {
+        margin-top: 0;
+    }
+
+    .story-popup--active {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1) translateY(0);
+    }
+
+    .roundel-animate--visible {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    .reveal-on-scroll,
+    .story-header,
+    .loading,
+    .loaded {
+        transition: none !important;
+        animation: none !important;
+    }
+
+    .reveal-on-scroll--visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .story-header--collapsed {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+
+    html {
+        scroll-behavior: auto !important;
+    }
+}

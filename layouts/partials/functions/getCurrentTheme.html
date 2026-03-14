@@ -1,9 +1,0 @@
-{{/* Function partial template to get a reference to the current 
-issue's section so issue specific params can be used for theming. */}}
-{{ $overridableSections := slice "authors" "catalogue" "genres" }}
-{{ $currSection := .Section | default (urlize .Site.Params.currentIssue) }}
-{{ if in $overridableSections $currSection }}
-	{{ $currSection = default (urlize .Site.Params.currentIssue) }}
-{{ end }}
-{{ $currSection := .Site.GetPage "section" (print $currSection "/__index.md") }}
-{{ return $currSection }}

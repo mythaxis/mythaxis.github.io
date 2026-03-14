@@ -1,0 +1,27 @@
+{{/*
+  Nebula2026 Theme - Header Partial
+  =================================
+  Slim issue header bar with issue badge and Mythaxis logo.
+
+  Expects context from theme-dispatch:
+    .Page    - The current page context
+    .Section - The current section (from getCurrentTheme)
+    .Theme   - The theme name
+    .Data    - Any extra data passed
+*/}}
+
+{{- $page := .Page -}}
+{{- $section := .Section -}}
+
+<!-- Header -->
+<header id="header" class="nebula-header">
+  <div class="nebula-header__container">
+    {{ if $section }}
+    <a href="{{ $section.RelPermalink }}" class="nebula-header__issue">
+      {{ with $section.Params.issue }}<span class="nebula-header__badge">{{ . }}</span>{{ end }}
+      {{ with $section.Params.subhead }}<span class="nebula-header__subhead">{{ . }}</span>{{ end }}
+    </a>
+    {{ end }}
+    <a href="{{ $page.Site.Home | relURL }}" class="nebula-header__logo">Mythaxis</a>
+  </div>
+</header>

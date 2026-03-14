@@ -1,19 +1,20 @@
-{{ $currSection := partial "functions/getCurrentTheme" . }}
+{{ $themeCtx := partial "functions/getThemeContext" . }}
 
 {{/* Context sensitive meta tag values */}}
 {{ if .IsHome }}
 	{{ .Scratch.Set "pageTitle" (print .Site.Title " — " .Site.Params.description) }}
 {{ else if eq (.Site.Title) (.Title) }}
-	{{ .Scratch.Set "pageTitle" (print $currSection.Title " — " .Site.Title) }}
+	{{ .Scratch.Set "pageTitle" (print $themeCtx.Section.Title " — " .Site.Title) }}
 {{ else }}
-	{{ .Scratch.Set "pageTitle" (print .Title " — " $currSection.Title " — " .Site.Title) }}
+	{{ .Scratch.Set "pageTitle" (print .Title " — " $themeCtx.Section.Title " — " .Site.Title) }}
 {{ end }}
 
 
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<!-- CSS -->
+	<!-- CSS: Conditionally load SCSS only for horizon2020 theme -->
+	{{ if eq $themeCtx.Theme "horizon2020" }}
 	{{ if hugo.IsServer }}
 	{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS (dict "targetPath" "assets/css/main.css" "enableSourceMap" true) }}
 	<link rel="stylesheet" href="{{ ($style).RelPermalink }}">
@@ -21,13 +22,14 @@
 	{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS (dict "targetPath" "assets/css/main.css" "enableSourceMap" false) }}
 	<link rel="stylesheet" href="{{ ($style | minify).RelPermalink }}">
 	{{ end }}
+	{{ $noscript := resources.Get "scss/noscript.scss" | resources.ExecuteAsTemplate "noscript.scss" . | toCSS (dict "targetPath" "assets/css/noscript.css" "enableSourceMap" false) }}
+	<noscript><link rel="stylesheet" href='{{ $noscript.RelPermalink }}' /></noscript>
+	{{ end }}
 	{{ with .Site.Params.favicon }}
 	<link rel="shortcut icon" href="{{ . }}">
 	{{ end }}
-	{{ $noscript := resources.Get "scss/noscript.scss" | resources.ExecuteAsTemplate "noscript.scss" . | toCSS (dict "targetPath" "assets/css/noscript.css" "enableSourceMap" false) }}
-	<noscript><link rel="stylesheet" href='{{ $noscript.RelPermalink }}' /></noscript>
-	
-	{{ partial "htmlhead-styles-overrides.html" $currSection }}
+
+	{{ partial "htmlhead-styles-overrides.html" $themeCtx.Section }}
 	{{ partial "htmlhead-scripts-overrides.html" . }}
 
 

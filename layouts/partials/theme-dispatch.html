@@ -1,0 +1,41 @@
+{{/*
+  Theme Dispatcher Partial
+  ========================
+  Central mechanism for loading theme-specific partials based on section config.
+  
+  Usage: 
+    {{ partial "theme-dispatch" (dict "partial" "intro" "context" .) }}
+    {{ partial "theme-dispatch" (dict "partial" "nav" "context" . "data" $someData) }}
+  
+  Theme Resolution Order:
+    1. Section's __index.md front matter: theme: "horizon2020"
+    2. Site config: params.defaultTheme: "nebula2026"
+    3. Hardcoded fallback: "nebula2026"
+
+  If a theme partial doesn't exist, falls back to nebula2026.
+*/}}
+
+{{- $context := .context -}}
+{{- $partialName := .partial -}}
+{{- $extraData := .data | default dict -}}
+
+{{/* Get theme context (section + theme) via unified function */}}
+{{- $themeCtx := partial "functions/getThemeContext" $context -}}
+{{- $currSection := $themeCtx.Section -}}
+{{- $theme := $themeCtx.Theme -}}
+
+{{/* Build the partial path */}}
+{{- $partialPath := printf "themes/%s/%s.html" $theme $partialName -}}
+{{- $fallbackPath := printf "themes/nebula2026/%s.html" $partialName -}}
+
+{{/* Prepare context with extra data if provided */}}
+{{- $fullContext := dict "Page" $context "Section" $currSection "Theme" $theme "Data" $extraData -}}
+
+{{/* Try theme-specific partial, fallback to nebula2026 */}}
+{{- if templates.Exists (printf "partials/%s" $partialPath) -}}
+  {{- partial $partialPath $fullContext -}}
+{{- else if templates.Exists (printf "partials/%s" $fallbackPath) -}}
+  {{- partial $fallbackPath $fullContext -}}
+{{- else -}}
+  <!-- Theme partial not found: {{ $partialPath }} -->
+{{- end -}}

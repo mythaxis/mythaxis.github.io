@@ -1,0 +1,39 @@
+{{/*
+  Horizon2020 Theme - Catalogue Content Partial
+  =============================================
+  Classic catalogue page content with toplist.svg header and table listing.
+  
+  Expects context from theme-dispatch:
+    .Page    - The catalogue page being rendered
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Dict containing:
+               .stories - Slice of story dicts with title, relurl, author
+*/}}
+
+{{- $page := .Page -}}
+{{- $stories := .Data.stories | default slice -}}
+
+<section class="post catalogue">
+    <header class="major">
+        <img src="{{ "/themes/horizon2020/toplist.svg" | safeURL }}" alt="" />
+        <h1>{{ $page.Title }}</h1>
+        <p>{{ len $stories }} {{ $page.Description }}</p>
+    </header>
+    
+    {{ partial "catalogue-nav" $page }}
+    
+    {{ $page.Content }}
+
+    <table>
+        <tbody>
+            {{ range (sort $stories "title" "asc") }}
+            <tr>
+                <td><a href="{{ .relurl | relURL }}">{{ .title }}</a> by {{ .author }}</td>
+            </tr>  
+            {{ end }}
+        </tbody>
+    </table>
+
+    {{ partial "catalogue-nav" $page }}
+</section>

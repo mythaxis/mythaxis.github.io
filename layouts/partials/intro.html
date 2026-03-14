@@ -1,14 +1,12 @@
-{{/* Infer current section and lookup __index.md params for theming */}}
-{{ $currSection := .Section | default (urlize .Site.Params.currentIssue) }}
-{{ $currSection := .Site.GetPage "section" (print $currSection "/__index.md") }}
+{{/*
+  Intro Partial - Theme Dispatcher Wrapper
+  ========================================
+  This partial delegates to the theme-specific intro implementation.
 
-{{ with $currSection }}
-<div id="intro">
-    <h1>Mythaxis</h1>
-    <h2>{{ .Params.subhead }}</h2>
-    {{ if .Params.headline }}<p>{{ .Params.headline }}</p>{{ end }}
-    <ul class="actions">
-        <li><a href="#header" class="button icon solo fa-arrow-down scrolly">{{ i18n "INTRO_CONTINUE" . }}</a></li>
-    </ul>
-</div>
-{{ end }}
+  Theme selection is based on:
+    1. Section's __index.md front matter: theme: "nebula2026"
+    2. Site config: params.defaultTheme
+    3. Fallback: "horizon2020"
+*/}}
+
+{{ partial "theme-dispatch" (dict "partial" "intro" "context" .) }}

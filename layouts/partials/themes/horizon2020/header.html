@@ -1,0 +1,23 @@
+{{/*
+  Horizon2020 Theme - Header Partial
+  ==================================
+  Classic Mythaxis header with section link.
+  
+  Expects context from theme-dispatch:
+    .Page    - The current page context
+    .Section - The current section (from getCurrentTheme)
+    .Theme   - The theme name
+    .Data    - Any extra data passed
+*/}}
+
+{{- $page := .Page -}}
+{{- $section := .Section -}}
+
+<!-- Header -->
+<header id="header">
+	{{ if $section }}
+    <a href='{{ $section.RelPermalink }}' class="logo">{{ $section.Title }}</a>
+	{{ else }}
+	<a href='{{ $page.Site.Home | relURL }}' class="logo">{{ $page.Site.Title }}</a>
+	{{ end }}
+</header>

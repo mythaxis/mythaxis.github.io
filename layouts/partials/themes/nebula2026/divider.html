@@ -1,0 +1,31 @@
+{{/*
+  Nebula2026 Theme - Divider Partial
+  ==================================
+  Modern decorative section divider using SVG gradient.
+  Clean minimal styling with animated gradient.
+
+  Expects context from theme-dispatch:
+    .Page    - The page being rendered
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Any extra data passed (optional: "class" for alignment, "id" for unique gradient ID)
+
+  Usage:
+    {{ partial "theme-dispatch" (dict "partial" "divider" "context" .) }}
+    {{ partial "theme-dispatch" (dict "partial" "divider" "context" . "data" (dict "id" "unique-id")) }}
+*/}}
+
+{{- $class := .Data.class | default "nebula-divider" -}}
+{{- $id := .Data.id | default "nebula-gradient-divider" -}}
+
+<div class="{{ $class }}">
+    <svg width="60" height="2" viewBox="0 0 60 2" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="60" height="2" rx="1" fill="url(#{{ $id }})"/>
+        <defs>
+            <linearGradient id="{{ $id }}" x1="0" y1="1" x2="60" y2="1">
+                <stop stop-color="#667eea"/>
+                <stop offset="1" stop-color="#764ba2"/>
+            </linearGradient>
+        </defs>
+    </svg>
+</div>

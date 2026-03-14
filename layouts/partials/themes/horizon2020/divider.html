@@ -1,0 +1,26 @@
+{{/*
+  Horizon2020 Theme - Divider Partial
+  ===================================
+  Decorative section divider using SVG image.
+  Classic ornamental styling.
+  
+  Expects context from theme-dispatch:
+    .Page    - The page being rendered
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Any extra data passed (optional: "class" for alignment)
+  
+  Usage:
+    {{ partial "theme-dispatch" (dict "partial" "divider" "context" .) }}
+    {{ partial "theme-dispatch" (dict "partial" "divider" "context" . "data" (dict "class" "align-center")) }}
+*/}}
+
+{{- $class := .Data.class | default "" -}}
+
+{{ if $class }}
+<p class="{{ $class }}">
+    <img src="{{ "/themes/horizon2020/divider.svg" | safeURL }}" alt="" />
+</p>
+{{ else }}
+<img src="{{ "/themes/horizon2020/divider.svg" | safeURL }}" alt="" />
+{{ end }}

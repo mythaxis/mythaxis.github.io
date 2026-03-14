@@ -1,0 +1,49 @@
+{{/*
+  Horizon2020 Theme - Authors Content Partial
+  ===========================================
+  Classic authors index page with toplist.svg header and table listing.
+  
+  Expects context from theme-dispatch:
+    .Page    - The taxonomy page being rendered
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Dict containing:
+               .authors - Slice of author dicts with name, lastname, stocklist
+*/}}
+
+{{- $page := .Page -}}
+{{- $authorIndex := .Data.authors | default slice -}}
+
+<section class="post catalogue">
+    <header class="major">
+        <img src="{{ "/themes/horizon2020/toplist.svg" | safeURL }}" alt="" />
+        <h1>{{ $page.Title }}</h1>
+        <p>{{ len $authorIndex }} {{ $page.Description }}</p>
+    </header>
+    
+    {{ partial "catalogue-nav" $page }}
+    
+    {{ $page.Content }}
+
+    <table>
+        <thead>
+            <tr>
+                <th class="align-right">Author</th>
+                <th>Stock info</th>
+            </tr>
+        </thead>
+
+        <tbody class="scroll">
+            {{ range $authorIndex }}
+            <tr>
+                <td class="align-right">{{ .name }}</td>
+                <td>{{ range .stocklist }}
+                    <a href="{{ .relurl | relURL }}">{{ .title }}</a> ({{ .date }})<br/>{{ end }}
+                </td>
+            </tr>  
+            {{ end }}
+        </tbody>
+    </table>
+
+    {{ partial "catalogue-nav" $page }}
+</section>

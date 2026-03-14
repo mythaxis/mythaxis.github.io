@@ -1,8 +1,16 @@
+{{/*
+  Stock Single - Theme-aware Story Page
+  =====================================
+  Full page template that uses theme dispatcher for content.
+*/}}
+
+{{- $themeCtx := partial "functions/getThemeContext" . -}}
+
 <!DOCTYPE HTML>
 <html lang='{{ .Site.Language.Lang | default "en-us" }}'>
   {{ partial "htmlhead" . }}
 
-  <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload">
+  <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload theme-{{ $themeCtx.Theme }}">
     <!-- Wrapper -->
     <div id="wrapper">
       {{ partial "header" . }}
@@ -10,37 +18,7 @@
 
       <!-- Main -->
       <div id="main">
-        <section class="post">
-            <header class="major">
-              <img src="{{ "/images/toplist.svg" | safeURL }}" />
-              <h1>{{ .Title }}</h1>
-              <p>{{ collections.Delimit .Params.authors ", " }}</p>
-              <img src="{{ "/images/divider.svg" | safeURL }}" />
-            </header>
-            
-            {{ if .Params.image }}
-            <div class="image main">
-              <img src="{{ path.Join .Section .Params.image | relURL }}" alt="Story image for {{ .Title }} by {{ .Params.author }}" title="Story image for {{ .Title }} by {{ .Params.author }}"/>
-            </div>
-            {{ end }}
-
-            {{ if .Params.audio }}
-            <audio controls>
-              <source src="{{ .Params.audio }}" type="audio/mpeg">
-              Your browser does not support the audio tag.
-            </audio>
-            {{ end }}
-
-            {{ .Content }}          
-            {{ partial "authorfooter" . }}
-            
-            <p class="align-center">
-                <img src="{{ "/images/divider.svg" | safeURL }}" />
-            </p>
-            <p class="align-center"><strong>Mythaxis</strong> is forever free to read, but if you'd like to support us you can do so <a href="https://ko-fi.com/mythaxismagazine">here</a> (but only if you <em>really</em> want to!)</p>
-
-
-        </section>
+        {{ partial "theme-dispatch" (dict "partial" "article-single" "context" .) }}
       </div>
 
       {{ partial "copyright" . }}

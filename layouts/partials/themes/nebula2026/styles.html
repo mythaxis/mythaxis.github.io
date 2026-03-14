@@ -1,0 +1,34 @@
+{{/*
+  Nebula2026 Theme - Styles Partial
+  =================================
+  Modern CSS for the new Mythaxis theme.
+
+  Expects context from theme-dispatch:
+    .Page    - The current page context
+    .Section - The current section (from getCurrentTheme)
+    .Theme   - The theme name
+    .Data    - Any extra data passed
+*/}}
+
+{{- $section := .Section -}}
+
+{{/* Load nebula2026 complete theme styles (includes base styles) */}}
+<link rel="stylesheet" href='{{ "themes/nebula2026.css" | relURL }}' />
+
+{{/* Dynamic background customization */}}
+<style type="text/css">
+/* Background */
+{{ if $section.Params.image }}
+.nebula-intro {
+    background-image:
+        linear-gradient(180deg,
+            rgba(15, 15, 35, 0.7) 0%,
+            rgba(15, 15, 35, 0.3) 50%,
+            rgba(255, 255, 255, 1) 100%
+        ),
+        url({{ path.Join $section.Section $section.Params.image | relURL }});
+    background-size: cover;
+    background-position: center;
+}
+{{ end }}
+</style>

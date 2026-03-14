@@ -1,1 +1,13 @@
-<p class="align-center"><img src="{{ "/images/divider.svg" | safeURL }}" /></p>
+{{/*
+  Post Custom Dispatcher
+  ======================
+  Routes to theme-specific divider partial based on section configuration.
+  Displays a decorative divider after article content.
+  
+  Usage: {{ partial "postcustom" $page }}
+  
+  This wrapper maintains backward compatibility with existing calls
+  while enabling theme-based rendering.
+*/}}
+
+{{- partial "theme-dispatch" (dict "partial" "divider" "context" . "data" (dict "class" "align-center")) -}}

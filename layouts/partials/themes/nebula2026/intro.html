@@ -1,0 +1,35 @@
+{{/*
+  Nebula2026 Theme - Intro Partial
+  ================================
+  A modern, reimagined intro for the new theme.
+
+  Expects context from theme-dispatch:
+    .Page    - The current page context
+    .Section - The current section (from getCurrentTheme)
+    .Theme   - The theme name ("nebula2026")
+    .Data    - Any extra data passed
+*/}}
+
+{{- $page := .Page -}}
+{{- $section := .Section -}}
+
+{{ with $section }}
+<div id="intro" class="nebula-intro">
+    <div class="nebula-intro-content">
+        <span class="nebula-issue-badge">{{ .Params.issue }}</span>
+        <h1 class="nebula-title">Mythaxis</h1>
+        <h2 class="nebula-subtitle">{{ .Params.subhead }}</h2>
+        {{ if .Params.headline }}
+        <p class="nebula-headline">{{ .Params.headline }}</p>
+        {{ end }}
+        <div class="nebula-scroll-indicator">
+            <a href="#header" class="scrolly">
+                <span>Explore this issue</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 5v14M5 12l7 7 7-7"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+{{ end }}
