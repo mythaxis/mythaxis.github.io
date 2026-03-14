@@ -15,6 +15,18 @@
 
 {{ with $section }}
 <div id="intro" class="nebula-intro">
+    {{/* Hero image with parallax support */}}
+    {{ if .Params.image }}
+    <div class="landing-header__hero">
+      <img src="{{ path.Join .Section .Params.image | relURL }}"
+           alt="{{ .Params.issue }}"
+           class="landing-header__image"
+           loading="eager"
+           decoding="sync" />
+      <div class="landing-header__overlay"></div>
+    </div>
+    {{ end }}
+
     <div class="nebula-intro-content">
         <span class="nebula-issue-badge">{{ .Params.issue }}</span>
         <h1 class="nebula-title">Mythaxis</h1>

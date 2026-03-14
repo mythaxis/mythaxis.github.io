@@ -146,10 +146,50 @@ img[alt$="-lrg"] {
     text-align: center;
     min-height: 100vh;
     padding: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Landing Hero Image (parallax target)
+   ========================================================================== */
+
+.landing-header__hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.landing-header__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+    will-change: transform;
+    object-position: center;
+    display: block;
+}
+
+.landing-header__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg,
+        rgba(15, 15, 35, 0.7) 0%,
+        rgba(15, 15, 35, 0.5) 50%,
+        rgba(255, 255, 255, 1) 100%
+    );
+    z-index: 2;
 }
 
 .nebula-intro-content {
     max-width: 800px;
+    position: relative;
+    z-index: 3;
 }
 
 .nebula-issue-badge {
@@ -726,6 +766,13 @@ img[alt$="-lrg"] {
 
 /* Page Single (about, submissions, etc.)
    ========================================================================== */
+
+.nebula-page-hero {
+    position: relative;
+    width: 100%;
+    min-height: 40vh;
+    overflow: hidden;
+}
 
 .nebula-page {
     max-width: 800px;
