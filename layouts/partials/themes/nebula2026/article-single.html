@@ -24,7 +24,7 @@
     
     {{ if $page.Params.image }}
     <div class="nebula-article-image">
-        <img src="{{ path.Join $page.Section $page.Params.image | relURL }}" alt="Story image for {{ $page.Title }}" />
+        <img src="{{ path.Join $page.Section $page.Params.image | relURL }}" alt="Story image for {{ $page.Title }}" class="story-header__image" />
     </div>
     {{ end }}
 
