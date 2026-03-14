@@ -139,10 +139,12 @@ git add -A && git commit -m "feat: [description of task/phase]"
   - [x] 9.1 Fix issue hero image not displaying — `styles.html` targeted `#wrapper > .bg` (created by jQuery in horizon2020) which doesn't exist in nebula2026; changed to target `.nebula-intro` directly
   - [x] 9.2 Add Alegreya web font — 5 `@font-face` declarations (Regular, Italic, Bold, Bold Italic, ExtraBold); ExtraBold (800) for `.nebula-title`; applied via `.theme-nebula2026` body rule using `--font-primary` variable
   - [x] 9.3 Bring snarktank story page elements into poc — rewrite `article-single.html` with hero header, sticky minimal header, reading area, author footer, story footer, prev/next navigation; add story page CSS to `nebula2026.css`; create `story-header.js` for sticky header scroll behavior
-  - [ ] 9.4 Header, nav, and burger menu — restyle `header.html` as slim issue bar; rewrite `nav.html` with full-width menu, slide-in panel, burger button; create `nebula-nav.js` replacing `story-header.js`; add CSS for all components
-  - [x] 9.5 Add parallax hero header to landing and normal pages — replace CSS background-image with `<img>` element in `intro.html` and `page-single.html`; add `landing-header__*` CSS; parallax-hero.js already targets `.landing-header__image`
-  - [x] 9.6 Remove default body margin — flush to edges on all screen sizes
-  - [x] 9.7 Add blurred issue image to story-header-minimal — parallax scrolls at gentle rate (0.03) as user reads; reduce story-header overlay blur from 10px to 4px
+  - [x] 9.4 Header, nav, and burger menu — restyle `header.html` as slim issue bar; rewrite `nav.html` with full-width menu, slide-in panel, burger button; create `nebula-nav.js` replacing `story-header.js`; add CSS for all components
+  - [x] 9.5 Parallax hero header on landing + normal pages — replace CSS background-image with `<img>` element in `intro.html` and `page-single.html`; add `landing-header__*` CSS; `parallax-hero.js` already targets `.landing-header__image`
+  - [x] 9.6 Body margin reset to 0 — flush to edges on all screen sizes
+  - [x] 9.7 Blurred issue image in story-header-minimal — image pans bottom→top via `object-position` as user scrolls; story-header overlay blur reduced from 10px to 4px
+  - [x] 9.8 Wire up `colorScheme` from section frontmatter to CSS custom properties (`--color-primary`, `--color-secondary`) in `styles.html`
+  - [x] 9.9 Burger menu restyle — black border on button; panel: content-height, black border, rounded corners (12px), aligned so burger sits in top-right corner; "Mythaxis" gradient logotype at top; issue roundel at bottom; burger→X animation restored
 
 - [ ] 8.0 Final regression check and deploy
   - [ ] 8.1 Full smoke test: homepage, issue landing (nebula2026), story page (nebula2026), old issue (horizon2020), archive, authors index
