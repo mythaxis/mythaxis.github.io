@@ -58,82 +58,86 @@ git add -A && git commit -m "feat: [description of task/phase]"
   - [x] 1.11 Check browser console — no errors on homepage, section, story, or archive pages
 
 
-- [ ] 2.0 CSS audit and merge from reference branches
-  - [ ] 2.1 Read `_variables.scss` from snarktank to get the resolved values for all SCSS variables — these will be substituted literally when copying rules:
+- [x] 2.0 CSS audit and merge from reference branches
+  - [x] 2.1 Read `_variables.scss` from snarktank to get the resolved values for all SCSS variables — these will be substituted literally when copying rules:
     - `git show nebula2026-snarktank:assets/scss/nebula2026/_variables.scss`
-  - [ ] 2.2 Read the remaining four SCSS files and identify CSS rules that are absent or incomplete in `static/themes/nebula2026.css` (focus on: responsive breakpoints, card overlay states, story card layout, interaction states):
+  - [x] 2.2 Read the remaining four SCSS files and identify CSS rules that are absent or incomplete in `static/themes/nebula2026.css` (focus on: responsive breakpoints, card overlay states, story card layout, interaction states):
     - `git show nebula2026-snarktank:assets/scss/nebula2026/_components.scss`
     - `git show nebula2026-snarktank:assets/scss/nebula2026/_responsive.scss`
     - `git show nebula2026-snarktank:assets/scss/nebula2026/_animations.scss`
     - `git show nebula2026-snarktank:assets/scss/nebula2026/_interactions.scss`
-  - [ ] 2.3 Copy the missing CSS rules directly into `static/themes/nebula2026.css`. Rules should be copied as-is where they are already plain CSS. Where SCSS syntax appears, resolve it minimally: substitute `$variable` with its literal value from `_variables.scss`; flatten any nested selectors into explicit selectors; inline any `@include` content. Do not rewrite or redesign — copy then fix syntax only.
-  - [ ] 2.4 Copy slide animation CSS from `_animations.scss` (required by Phase 4 story card JS):
+  - [x] 2.3 Copy the missing CSS rules directly into `static/themes/nebula2026.css`. Rules should be copied as-is where they are already plain CSS. Where SCSS syntax appears, resolve it minimally: substitute `$variable` with its literal value from `_variables.scss`; flatten any nested selectors into explicit selectors; inline any `@include` content. Do not rewrite or redesign — copy then fix syntax only.
+  - [x] 2.4 Copy slide animation CSS from `_animations.scss` (required by Phase 4 story card JS):
     - Copy `@keyframes slideInRight`, `slideInLeft`, `slideOutLeft`, `slideOutRight` directly
     - Copy `.story-card--slide-in-right/left` and `.story-card--slide-out-left/right` rules, resolving any SCSS variables to literal values
     - Append under `/* Card slide transitions */` comment in `nebula2026.css`
-  - [ ] 2.5 Add roundel animation classes (required by Phase 5) — these are short enough to write directly:
+  - [x] 2.5 Add roundel animation classes (required by Phase 5) — these are short enough to write directly:
     - `.roundel-animate { opacity: 0; transform: scale(0.9); transition: opacity 400ms ease-out, transform 400ms ease-out; }`
     - `.roundel-animate--visible { opacity: 1; transform: scale(1); }`
-  - [ ] 2.6 Add reading progress CSS (required by Phase 6) — write directly:
+  - [x] 2.6 Add reading progress CSS (required by Phase 6) — write directly:
     - `.reading-progress { position: fixed; top: 0; left: 0; width: 100%; height: 3px; z-index: 9999; }`
     - `.reading-progress__bar { width: 0%; height: 100%; background: linear-gradient(to right, var(--color-primary), var(--color-secondary)); }`
-  - [ ] 2.7 Rename `story-card-abstract` → `story-card-description` anywhere it appears in `nebula2026.css`
-  - [ ] 2.8 **Manual browser check required** — run `hugo server -D` and verify: visual layout at mobile (375px), tablet (768px), and desktop (1200px); story card overlay renders correctly; roundels display; old horizon2020 issue unaffected. Confirm before proceeding.
-  - [ ] 2.9 Run `hugo build` — must complete with no errors
-  - [ ] 2.10 Commit: `git add -A && git commit -m "feat: CSS merge from snarktank — responsive, animations, reading progress, slide transitions"`
+  - [x] 2.7 Rename `story-card-abstract` → `story-card-description` anywhere it appears in `nebula2026.css`
+  - [x] 2.8 **Manual browser check required** — run `hugo server -D` and verify: visual layout at mobile (375px), tablet (768px), and desktop (1200px); story card overlay renders correctly; roundels display; old horizon2020 issue unaffected. Confirm before proceeding.
+  - [x] 2.9 Run `hugo build` — must complete with no errors
+  - [x] 2.10 Commit: `git add -A && git commit -m "feat: CSS merge from snarktank — responsive, animations, reading progress, slide transitions"`
 
-- [ ] 3.0 Upgrade `chapter-markers.js` — better error handling and genre validation
-  - [ ] 3.1 Copy snarktank's version as reference: `git show nebula2026-snarktank:static/js/nebula2026/chapter-markers.js`
-  - [ ] 3.2 Add a `VALID_GENRES` whitelist — invalid values fall back to `orbit` silently
-  - [ ] 3.3 Add `onerror` handler on the replacement `<img>` — if SVG is missing, fall back to orbit
-  - [ ] 3.4 Reconcile attribute name: snarktank reads `data-genre` from `article[data-genre]`; poc reads `data-chapter-marker` from `.nebula-article-content` — keep poc's attribute name, apply snarktank's validation logic
-  - [ ] 3.5 **Manual browser check required** — use a story with an invalid `chapterMarker` value and confirm orbit roundel appears without console errors
-  - [ ] 3.6 Run `node --check static/js/nebula2026/chapter-markers.js` — must pass with no errors
-  - [ ] 3.7 Run `hugo build` — must complete with no errors
-  - [ ] 3.8 Commit: `git add -A && git commit -m "feat: upgrade chapter-markers.js with genre validation and error fallback"`
+- [x] 3.0 Upgrade `chapter-markers.js` — better error handling and genre validation
+  - [x] 3.1 Copy snarktank's version as reference: `git show nebula2026-snarktank:static/js/nebula2026/chapter-markers.js`
+  - [x] 3.2 Add a `VALID_GENRES` whitelist — invalid values fall back to `orbit` silently
+  - [x] 3.3 Add `onerror` handler on the replacement `<img>` — if SVG is missing, fall back to orbit
+  - [x] 3.4 Reconcile attribute name: snarktank reads `data-genre` from `article[data-genre]`; poc reads `data-chapter-marker` from `.nebula-article-content` — keep poc's attribute name, apply snarktank's validation logic
+  - [x] 3.5 **Manual browser check required** — use a story with an invalid `chapterMarker` value and confirm orbit roundel appears without console errors
+  - [x] 3.6 Run `node --check static/js/nebula2026/chapter-markers.js` — must pass with no errors
+  - [x] 3.7 Run `hugo build` — must complete with no errors
+  - [x] 3.8 Commit: `git add -A && git commit -m "feat: upgrade chapter-markers.js with genre validation and error fallback"`
 
-- [ ] 4.0 Upgrade `story-card-interactions.js` — swipe, keyboard nav, desktop hover
-  - [ ] 4.1 Copy snarktank's version as reference: `git show nebula2026-snarktank:static/js/nebula2026/story-card-interactions.js`
-  - [ ] 4.2 Adapt `loadStoryContent()` to read from `data-*` attributes (poc's pattern) rather than querying DOM child elements (snarktank's pattern) — the data attributes on `[data-has-card]` articles are: `data-story-url`, `data-story-title`, `data-story-authors`, `data-story-description`, `data-story-image`; populate `.story-card-description` in the overlay (not `.story-card-abstract`)
-  - [ ] 4.3 Integrate the mobile swipe detection from snarktank (`MIN_SWIPE_DISTANCE: 50`, `MAX_SWIPE_TIME: 300`)
-  - [ ] 4.4 Integrate keyboard handling: ESC closes overlay, Arrow Left/Right navigate between cards when overlay is open
-  - [ ] 4.5 Integrate desktop hover popup (cursor-positioned, `positionPopup()` with viewport boundary checks)
-  - [ ] 4.6 Integrate `‹` / `›` navigation buttons and `fadeToStory()` (uses slide CSS classes from Phase 2)
-  - [ ] 4.7 Integrate debounced resize handler that closes active interactions on breakpoint change
-  - [ ] 4.8 **Manual browser check required** — swipe on mobile emulator, keyboard nav on desktop, hover popup on desktop, ESC to close; confirm before proceeding
-  - [ ] 4.9 Run `node --check static/js/nebula2026/story-card-interactions.js` — must pass
-  - [ ] 4.10 Run `hugo build` — must complete with no errors
-  - [ ] 4.11 Commit: `git add -A && git commit -m "feat: upgrade story-card-interactions.js with swipe, keyboard nav and desktop hover"`
+- [x] 4.0 Upgrade `story-card-interactions.js` — swipe, keyboard nav, desktop hover
+  - [x] 4.1 Copy snarktank's version as reference: `git show nebula2026-snarktank:static/js/nebula2026/story-card-interactions.js`
+  - [x] 4.2 Adapt `loadStoryContent()` to read from `data-*` attributes (poc's pattern) rather than querying DOM child elements (snarktank's pattern) — the data attributes on `[data-has-card]` articles are: `data-story-url`, `data-story-title`, `data-story-authors`, `data-story-description`, `data-story-image`; populate `.story-card-description` in the overlay (not `.story-card-abstract`)
+  - [x] 4.3 Integrate the mobile swipe detection from snarktank (`MIN_SWIPE_DISTANCE: 50`, `MAX_SWIPE_TIME: 300`)
+  - [x] 4.4 Integrate keyboard handling: ESC closes overlay, Arrow Left/Right navigate between cards when overlay is open
+  - [x] 4.5 Integrate desktop hover popup (cursor-positioned, `positionPopup()` with viewport boundary checks)
+  - [x] 4.6 Integrate `‹` / `›` navigation buttons and `fadeToStory()` (uses slide CSS classes from Phase 2)
+  - [x] 4.7 Integrate debounced resize handler that closes active interactions on breakpoint change
+  - [x] 4.8 **Manual browser check required** — swipe on mobile emulator, keyboard nav on desktop, hover popup on desktop, ESC to close; confirm before proceeding
+  - [x] 4.9 Run `node --check static/js/nebula2026/story-card-interactions.js` — must pass
+  - [x] 4.10 Run `hugo build` — must complete with no errors
+  - [x] 4.11 Commit: `git add -A && git commit -m "feat: upgrade story-card-interactions.js with swipe, keyboard nav and desktop hover"`
 
-- [ ] 5.0 Add `roundel-animations.js` — scroll-triggered fade-in for roundel images
-  - [ ] 5.1 Copy from snarktank: `git show nebula2026-snarktank:static/js/nebula2026/roundel-animations.js`
-  - [ ] 5.2 Add the file to `static/js/nebula2026/roundel-animations.js` (79 lines, no changes needed)
-  - [ ] 5.3 Add `class="roundel-animate"` to roundel `<img>` elements in `article-single.html` (chapter markers and story-end marker)
-  - [ ] 5.4 Load the script in `layouts/partials/themes/nebula2026/scripts.html`
-  - [ ] 5.5 **Manual browser check required** — scroll a story page and confirm roundels fade in as they enter the viewport; disable animations in OS accessibility settings and confirm they appear instantly
-  - [ ] 5.6 Run `node --check static/js/nebula2026/roundel-animations.js` — must pass
-  - [ ] 5.7 Run `hugo build` — must complete with no errors
-  - [ ] 5.8 Commit: `git add -A && git commit -m "feat: add roundel-animations.js scroll-triggered fade-in"`
+- [x] 5.0 Add `roundel-animations.js` — scroll-triggered fade-in for roundel images
+  - [x] 5.1 Copy from snarktank: `git show nebula2026-snarktank:static/js/nebula2026/roundel-animations.js`
+  - [x] 5.2 Add the file to `static/js/nebula2026/roundel-animations.js` (79 lines, no changes needed)
+  - [x] 5.3 Add `class="roundel-animate"` to roundel `<img>` elements in `article-single.html` (chapter markers and story-end marker)
+  - [x] 5.4 Load the script in `layouts/partials/themes/nebula2026/scripts.html`
+  - [x] 5.5 **Manual browser check required** — scroll a story page and confirm roundels fade in as they enter the viewport; disable animations in OS accessibility settings and confirm they appear instantly
+  - [x] 5.6 Run `node --check static/js/nebula2026/roundel-animations.js` — must pass
+  - [x] 5.7 Run `hugo build` — must complete with no errors
+  - [x] 5.8 Commit: `git add -A && git commit -m "feat: add roundel-animations.js scroll-triggered fade-in"`
 
-- [ ] 6.0 Add `reading-progress.js` — thin progress bar on story pages (synth only)
-  - [ ] 6.1 Copy from synth: `git show nebula2026-synth:static/js/nebula2026/reading-progress.js`
-  - [ ] 6.2 Add the file to `static/js/nebula2026/reading-progress.js` (66 lines, no changes needed)
-  - [ ] 6.3 Confirm the story single template has class `nebula2026-story-single` on its wrapper — the script checks for this class before activating; add it if missing
-  - [ ] 6.4 Load the script in `layouts/partials/themes/nebula2026/scripts.html`
-  - [ ] 6.5 **Manual browser check required** — scroll through a story and confirm bar advances; confirm it does NOT appear on non-story pages
-  - [ ] 6.6 Run `node --check static/js/nebula2026/reading-progress.js` — must pass
-  - [ ] 6.7 Run `hugo build` — must complete with no errors
-  - [ ] 6.8 Commit: `git add -A && git commit -m "feat: add reading-progress.js"`
+- [x] 6.0 Add `reading-progress.js` — thin progress bar on story pages (synth only)
+  - [x] 6.1 Copy from synth: `git show nebula2026-synth:static/js/nebula2026/reading-progress.js`
+  - [x] 6.2 Add the file to `static/js/nebula2026/reading-progress.js` (66 lines, no changes needed)
+  - [x] 6.3 Confirm the story single template has class `nebula2026-story-single` on its wrapper — the script checks for this class before activating; add it if missing
+  - [x] 6.4 Load the script in `layouts/partials/themes/nebula2026/scripts.html`
+  - [x] 6.5 **Manual browser check required** — scroll through a story and confirm bar advances; confirm it does NOT appear on non-story pages
+  - [x] 6.6 Run `node --check static/js/nebula2026/reading-progress.js` — must pass
+  - [x] 6.7 Run `hugo build` — must complete with no errors
+  - [x] 6.8 Commit: `git add -A && git commit -m "feat: add reading-progress.js"`
 
-- [ ] 7.0 Add `parallax-hero.js` — parallax scroll on hero images (synth only)
-  - [ ] 7.1 Copy from synth: `git show nebula2026-synth:static/js/nebula2026/parallax-hero.js`
-  - [ ] 7.2 Add the file to `static/js/nebula2026/parallax-hero.js` (62 lines, no changes needed)
-  - [ ] 7.3 Check `layouts/partials/themes/nebula2026/` templates for hero image elements — add class `landing-header__image` to issue landing hero `<img>` and `story-header__image` to story page hero `<img>` if not already present
-  - [ ] 7.4 Load the script in `layouts/partials/themes/nebula2026/scripts.html`
-  - [ ] 7.5 **Manual browser check required** — scroll an issue landing page and story page and confirm the hero moves at 50% scroll rate; disable animations in OS and confirm parallax is skipped
-  - [ ] 7.6 Run `node --check static/js/nebula2026/parallax-hero.js` — must pass
-  - [ ] 7.7 Run `hugo build` — must complete with no errors
-  - [ ] 7.8 Commit: `git add -A && git commit -m "feat: add parallax-hero.js"`
+- [x] 7.0 Add `parallax-hero.js` — parallax scroll on hero images (synth only)
+  - [x] 7.1 Copy from synth: `git show nebula2026-synth:static/js/nebula2026/parallax-hero.js`
+  - [x] 7.2 Add the file to `static/js/nebula2026/parallax-hero.js` (62 lines, no changes needed)
+  - [x] 7.3 Check `layouts/partials/themes/nebula2026/` templates for hero image elements — add class `landing-header__image` to issue landing hero `<img>` and `story-header__image` to story page hero `<img>` if not already present
+  - [x] 7.4 Load the script in `layouts/partials/themes/nebula2026/scripts.html`
+  - [x] 7.5 **Manual browser check required** — scroll an issue landing page and story page and confirm the hero moves at 50% scroll rate; disable animations in OS and confirm parallax is skipped
+  - [x] 7.6 Run `node --check static/js/nebula2026/parallax-hero.js` — must pass
+  - [x] 7.7 Run `hugo build` — must complete with no errors
+  - [x] 7.8 Commit: `git add -A && git commit -m "feat: add parallax-hero.js"`
+
+- [x] 9.0 Fixes from manual testing
+  - [x] 9.1 Fix issue hero image not displaying — `styles.html` targeted `#wrapper > .bg` (created by jQuery in horizon2020) which doesn't exist in nebula2026; changed to target `.nebula-intro` directly
+  - [x] 9.2 Add Alegreya web font — 5 `@font-face` declarations (Regular, Italic, Bold, Bold Italic, ExtraBold); ExtraBold (800) for `.nebula-title`; applied via `.theme-nebula2026` body rule using `--font-primary` variable
 
 - [ ] 8.0 Final regression check and deploy
   - [ ] 8.1 Full smoke test: homepage, issue landing (nebula2026), story page (nebula2026), old issue (horizon2020), archive, authors index

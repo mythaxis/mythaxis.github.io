@@ -3,6 +3,50 @@
    ========================================================================== */
 
 /* ==========================================================================
+   Web Fonts — Alegreya (subset: 5 weights for body + header)
+   ========================================================================== */
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../assets/fonts/nebula2026/Alegreya-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../assets/fonts/nebula2026/Alegreya-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../assets/fonts/nebula2026/Alegreya-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../assets/fonts/nebula2026/Alegreya-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../assets/fonts/nebula2026/Alegreya-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ==========================================================================
    PART 1: Content Styling (needed base styles)
    Blockquotes, glyphs, author footers, and image layout utilities
    ========================================================================== */
@@ -123,7 +167,7 @@ img[alt$="-lrg"] {
 
 .nebula-title {
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 800;
     background: linear-gradient(135deg, #fff 0%, #a78bfa 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -737,8 +781,8 @@ img[alt$="-lrg"] {
     --color-shadow: rgba(0, 0, 0, 0.1);
 
     /* Typography */
-    --font-primary: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    --font-secondary: Georgia, "Times New Roman", serif;
+    --font-primary: 'Alegreya', Georgia, "Times New Roman", serif;
+    --font-secondary: 'Alegreya', Georgia, "Times New Roman", serif;
     --text-xs: 0.75rem;
     --text-sm: 0.875rem;
     --text-base: 1rem;
@@ -811,6 +855,9 @@ img[alt$="-lrg"] {
     --grid-gap: var(--space-6);
 }
 
+.theme-nebula2026 {
+    font-family: var(--font-primary);
+}
 
 /* Mobile Story Overlay (from _interactions.scss)
    ========================================================================== */
