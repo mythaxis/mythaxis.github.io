@@ -416,7 +416,7 @@ img[alt$="-lrg"] {
     height: 44px;
     padding: 0;
     background: rgba(255, 255, 255, 0.95);
-    border: 1px solid var(--color-border, #e9ecef);
+    border: 2px solid #000;
     border-radius: 8px;
     cursor: pointer;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -440,17 +440,25 @@ img[alt$="-lrg"] {
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-/* Burger → X transform */
-.nebula-burger--open .nebula-burger__line:nth-child(1) {
-    transform: translateY(7px) rotate(45deg);
-}
-
-.nebula-burger--open .nebula-burger__line:nth-child(2) {
+.nebula-burger__roundel {
+    position: absolute;
+    width: 30px;
+    height: 30px;
     opacity: 0;
+    transform: scale(0.5);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
 }
 
-.nebula-burger--open .nebula-burger__line:nth-child(3) {
-    transform: translateY(-7px) rotate(-45deg);
+/* Burger → Roundel transform when open */
+.nebula-burger--open .nebula-burger__line {
+    opacity: 0;
+    transform: scale(0.5);
+}
+
+.nebula-burger--open .nebula-burger__roundel {
+    opacity: 1;
+    transform: scale(1);
 }
 
 
@@ -459,15 +467,16 @@ img[alt$="-lrg"] {
 
 .nebula-nav-panel {
     position: fixed;
-    top: 0;
-    right: 0;
-    width: 300px;
+    top: 0.75rem;
+    right: 0.75rem;
+    width: 280px;
     max-width: 80vw;
-    height: 100%;
     z-index: 1100;
     background: white;
+    border: 2px solid #000;
+    border-radius: 12px;
     box-shadow: -4px 0 20px rgba(0, 0, 0, 0.15);
-    transform: translateX(100%);
+    transform: translateX(calc(100% + 1rem));
     transition: transform 0.3s ease;
     overflow-y: auto;
 }
@@ -477,7 +486,18 @@ img[alt$="-lrg"] {
 }
 
 .nebula-nav-panel__content {
-    padding: 4rem 2rem 2rem;
+    padding: 1.5rem;
+}
+
+.nebula-nav-panel__roundel {
+    text-align: center;
+    padding: 0.5rem 0 1rem;
+}
+
+.nebula-nav-panel__roundel img {
+    width: 48px;
+    height: 48px;
+    opacity: 0.8;
 }
 
 .nebula-nav-panel__links {
@@ -509,7 +529,7 @@ img[alt$="-lrg"] {
     color: var(--color-primary, #1a2b4c);
     font-weight: 600;
     background: var(--color-surface, #f8f9fa);
-    border-left: 3px solid var(--color-primary, #1a2b4c);
+    border-left: 3px solid var(--color-secondary, #4a6d8c);
 }
 
 
