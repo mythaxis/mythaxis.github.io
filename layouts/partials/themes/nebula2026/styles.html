@@ -15,8 +15,16 @@
 {{/* Load nebula2026 complete theme styles (includes base styles) */}}
 <link rel="stylesheet" href='{{ "themes/nebula2026.css" | relURL }}' />
 
-{{/* Dynamic background fallback (used when no issue image) */}}
+{{/* Dynamic theme colors and fallbacks */}}
 <style type="text/css">
+{{ with $section }}
+.theme-nebula2026 {
+    {{ with .Params.colorScheme }}
+    {{ with .primary }}--color-primary: {{ . }};{{ end }}
+    {{ with .secondary }}--color-secondary: {{ . }};{{ end }}
+    {{ end }}
+}
+{{ end }}
 {{ if not $section.Params.image }}
 .nebula-intro {
     background: linear-gradient(135deg, rgba(15, 15, 35, 0.95) 0%, rgba(30, 25, 60, 0.95) 100%);

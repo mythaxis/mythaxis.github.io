@@ -17,6 +17,10 @@
 
 {{- $page := .Page -}}
 {{- $section := .Section -}}
+{{- $issueRoundel := "orbit" -}}
+{{- if $section -}}
+  {{- $issueRoundel = $section.Params.issueRoundel | default "orbit" -}}
+{{- end -}}
 
 {{/* Build menu items list once, render in both nav and panel */}}
 
@@ -55,11 +59,15 @@
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
   <span class="nebula-burger__line"></span>
+  <img src="/images/roundels/{{ $issueRoundel }}-100.svg" alt="" aria-hidden="true" class="nebula-burger__roundel" />
 </button>
 
 <!-- Slide-in nav panel -->
 <div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true">
   <div class="nebula-nav-panel__content">
+    <div class="nebula-nav-panel__roundel">
+      <img src="/images/roundels/{{ $issueRoundel }}-100.svg" alt="" aria-hidden="true" />
+    </div>
     <ul class="nebula-nav-panel__links">
       {{/* Home */}}
       {{ range first 1 $page.Site.Menus.main }}
