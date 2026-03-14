@@ -222,49 +222,267 @@ img[alt$="-lrg"] {
 }
 
 
-/* Header
+/* Header — Slim Issue Bar
    ========================================================================== */
 
 .nebula-header {
-    background: rgba(15, 15, 35, 0.8);
+    background: linear-gradient(135deg, rgba(15, 15, 35, 0.95) 0%, rgba(30, 25, 60, 0.95) 100%);
     backdrop-filter: blur(10px);
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.nebula-logo {
+.nebula-header__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nebula-header__issue {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.3s ease;
+}
+
+.nebula-header__issue:hover {
+    color: white;
+}
+
+.nebula-header__badge {
+    display: inline-block;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.nebula-header__subhead {
+    font-size: 0.875rem;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.nebula-header__logo {
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-decoration: none;
+    background: linear-gradient(135deg, #fff 0%, #a78bfa 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    transition: opacity 0.3s ease;
+}
+
+.nebula-header__logo:hover {
+    opacity: 0.8;
 }
 
 
-/* Navigation
+/* Navigation — Full-Width Menu
    ========================================================================== */
 
 .nebula-nav {
     background: rgba(255, 255, 255, 0.95);
     backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--color-border, #e9ecef);
+    padding: 0;
 }
 
-.nebula-nav-link {
+.nebula-nav__links {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    list-style: none;
+}
+
+.nebula-nav__links li {
+    margin: 0;
+    padding: 0;
+}
+
+.nebula-nav__link {
+    display: block;
+    padding: 0.875rem 1.25rem;
+    color: var(--color-text, #333);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
     position: relative;
     transition: color 0.3s ease;
 }
 
-.nebula-nav-link::after {
+.nebula-nav__link::after {
     content: '';
     position: absolute;
-    bottom: -2px;
-    left: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
     width: 0;
     height: 2px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     transition: width 0.3s ease;
 }
 
-.nebula-nav-link:hover::after,
-.nebula-nav-link.active::after {
-    width: 100%;
+.nebula-nav__link:hover {
+    color: var(--color-primary, #1a2b4c);
+}
+
+.nebula-nav__link:hover::after,
+.nebula-nav__link.active::after {
+    width: 80%;
+}
+
+.nebula-nav__link.active {
+    color: var(--color-primary, #1a2b4c);
+    font-weight: 600;
+}
+
+
+/* Burger Button
+   ========================================================================== */
+
+.nebula-burger {
+    position: fixed;
+    top: 0.75rem;
+    right: 1.5rem;
+    z-index: 1101;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid var(--color-border, #e9ecef);
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.nebula-burger:hover {
+    background: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nebula-burger--visible {
+    display: flex;
+}
+
+.nebula-burger__line {
+    width: 22px;
+    height: 2px;
+    background: var(--color-primary, #1a2b4c);
+    border-radius: 2px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Burger → X transform */
+.nebula-burger--open .nebula-burger__line:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+
+.nebula-burger--open .nebula-burger__line:nth-child(2) {
+    opacity: 0;
+}
+
+.nebula-burger--open .nebula-burger__line:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+
+/* Slide-In Nav Panel
+   ========================================================================== */
+
+.nebula-nav-panel {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 300px;
+    max-width: 80vw;
+    height: 100%;
+    z-index: 1100;
+    background: white;
+    box-shadow: -4px 0 20px rgba(0, 0, 0, 0.15);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    overflow-y: auto;
+}
+
+.nebula-nav-panel--open {
+    transform: translateX(0);
+}
+
+.nebula-nav-panel__content {
+    padding: 4rem 2rem 2rem;
+}
+
+.nebula-nav-panel__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.nebula-nav-panel__link {
+    display: block;
+    padding: 0.875rem 1rem;
+    color: var(--color-text, #333);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.nebula-nav-panel__link:hover {
+    background: var(--color-surface, #f8f9fa);
+    color: var(--color-primary, #1a2b4c);
+}
+
+.nebula-nav-panel__link.active {
+    color: var(--color-primary, #1a2b4c);
+    font-weight: 600;
+    background: var(--color-surface, #f8f9fa);
+    border-left: 3px solid var(--color-primary, #1a2b4c);
+}
+
+
+/* Nav Panel Backdrop
+   ========================================================================== */
+
+.nebula-nav-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 1099;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.nebula-nav-backdrop--visible {
+    opacity: 1;
+    visibility: visible;
 }
 
 
@@ -573,6 +791,25 @@ img[alt$="-lrg"] {
     }
     .nebula-page-title {
         font-size: 1.75rem;
+    }
+
+    .nebula-header__container {
+        padding: 0 1rem;
+    }
+
+    .nebula-header__subhead {
+        display: none;
+    }
+
+    .nebula-nav__links {
+        padding: 0 1rem;
+        gap: 0;
+        flex-wrap: wrap;
+    }
+
+    .nebula-nav__link {
+        padding: 0.625rem 0.75rem;
+        font-size: 0.8rem;
     }
 }
 
@@ -1177,7 +1414,10 @@ img[alt$="-lrg"] {
     .story-overlay,
     .story-popup,
     .story-header-minimal,
-    .story-navigation {
+    .story-navigation,
+    .nebula-burger,
+    .nebula-nav-panel,
+    .nebula-nav-backdrop {
         display: none !important;
     }
 
@@ -1961,7 +2201,13 @@ html {
     .story-card--slide-out-right,
     .story-header-minimal,
     .nav-button,
-    .story-divider__roundel {
+    .story-divider__roundel,
+    .nebula-burger,
+    .nebula-burger__line,
+    .nebula-nav-panel,
+    .nebula-nav-backdrop,
+    .nebula-nav__link,
+    .nebula-nav__link::after {
         transition: none !important;
         animation: none !important;
     }
