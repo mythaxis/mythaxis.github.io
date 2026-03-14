@@ -788,8 +788,9 @@ img[alt$="-lrg"] {
 }
 
 .nebula-audio-player {
-    margin: 2rem 0;
-    padding: 1rem;
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
     background: #f8f9fa;
     border-radius: 0.5rem;
 }
@@ -828,6 +829,7 @@ img[alt$="-lrg"] {
 .nebula-page {
     max-width: 800px;
     margin: 0 auto;
+    padding: 0 2rem;
 }
 
 .nebula-page-header {
@@ -889,6 +891,14 @@ img[alt$="-lrg"] {
     }
     .nebula-page-title {
         font-size: 1.75rem;
+    }
+
+    .nebula-page {
+        padding: 0 1rem;
+    }
+
+    .nebula-audio-player {
+        padding: 1rem;
     }
 
     .nebula-header__container {
