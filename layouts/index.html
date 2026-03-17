@@ -60,23 +60,6 @@
       {{ partial "copyright" . }}
       <a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
 
-      {{/* Story Card Overlay (nebula2026 only) */}}
-      {{ if eq $theme "nebula2026" }}
-      <div id="story-card-overlay" class="story-card-overlay hidden">
-        <div class="story-card">
-          <button class="story-card-close" aria-label="Close">&times;</button>
-          <div class="story-card-image"></div>
-          <div class="story-card-content">
-            <h2 class="story-card-title"></h2>
-            <p class="story-card-authors"></p>
-            <p class="story-card-description"></p>
-            <div class="story-card-actions">
-              <a href="#" class="story-card-read">READ STORY</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      {{ end }}
     </div>
 
     {{ template "_internal/google_analytics.html" . }}

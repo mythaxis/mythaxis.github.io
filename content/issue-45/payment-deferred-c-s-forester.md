@@ -3,14 +3,13 @@ title: "Payment Deferred, by C. S. Forester"
 date: 2025-12-24
 issue: Issue 44
 
-genre: scifi
-chapterMarker: dark
-
+genre:
+- review
 authors:
 - Bill Ryan
 copyright: '© Bill Ryan 2025 All Rights Reserved'
 
-abstract: "Muttering under his breath in a feverish manner, mind tormented by what is or might have been, lit by a sickly glow as he sits hunched by his reflection… fortunately Bill Ryan haunts only his computer screen, kindly taking time out from his ongoing study of the fine and fraught in literature to ruminate on this old, sinister case."
+description: "Muttering under his breath in a feverish manner, mind tormented by what is or might have been, lit by a sickly glow as he sits hunched by his reflection… fortunately Bill Ryan haunts only his computer screen, kindly taking time out from his ongoing study of the fine and fraught in literature to ruminate on this old, sinister case."
 
 image: images/PaymentDeferred10x6.jpg
 imageCopyright: "The image shows author [C. S. Forester](https://en.wikipedia.org/wiki/C._S._Forester) and [the first edition's cover](https://en.wikipedia.org/wiki/Payment_Deferred), both from Wikipedia."
@@ -32,15 +31,11 @@ The plot kicks off very quickly, when James Medland, Marble’s nephew, suddenly
 
 The plot then becomes complicated, somewhat needlessly so. The gist is that, in order to make it hard to track back to him, and using a confederate to invest the Treasury notes under the informed belief that the franc is about to rise in value, Marble and his family become rich. There is no more need to budget, no more need to go to work on time, or to be sober while there. The children’s education is paid for. What cannot be done, however, is the family cannot move, nor can they hire any servants, because almost as soon as the act was done, Marble became understandably obsessed and paranoid that someone will discover Medland’s body, buried in the garden. 
 
-***
-
 Forester writes that Annie sees her husband staring out the window at the garden for hours. Annie’s dull-wittedness is so stressed by Forester that her ability to eventually connect the dots is a little bit hard to buy, but *somebody* had to connect those dots, because Forester is going somewhere with all this. The meaning behind the title *Payment Deferred* is easy enough to tease out – it's essentially the same metaphor used by James M. Cain when he called his 1934 novel *The Postman Always Rings Twice*; and interestingly enough a major plot turn occurs at the end of Forester’s novel when a letter is delivered – but the glib tone of it indicates more about the novel than that it will feature karmic retribution.
 
 For one thing, the novel is quietly morally grotesque, and not just in how quickly and easily its protagonist resorts to murder. He does not experience guilt, or if he does he has kind of sublimated that into a paranoid drive for self-preservation. This can be read as guilt: *they can never know what I have done, because deep down I know that what I have done is bad*. But it could also be: *they can never know what I have done, because for some reason they think what I’ve done matters*. Either one could be the case with Marble, but his indifference over his sister’s death suggests guilt is an unfamiliar emotion, and a later reaction to what should be a more emotionally shattering death reads on Marble as just another burden to be gotten through.
 
 Because make no mistake, *Payment Deferred* about the utter destruction of a family, brought about by the selfish, amoral laziness of its patriarch. A man who the reader never encounters in a good mood (except once or twice when he’s indulging heedlessly in his money, though his mind is at all times too feverish with paranoia for this to be a regular occurrence) and who may have never been in one, something with which his family has had to put up with for years:
-
-***
 
 > But to-day there was no smile. Marble’s set, dull look frightened her, it was so like the look had had worn in the bad time. A little shudder ran through her, as she realized that it was calling up within her the same sensations, as though they were echoes, that she had known during the same period. A light had gone out in the world.
 
@@ -49,5 +44,7 @@ At the same time, *Payment Deferred* is a blackly comic novel, though it takes a
 If that seems as glib as the title, well, the full emotional and tonal thrust of the novel is driven home by the last paragraph, which I will not quote. Suffice it to say, the novel’s strange tone, Forester’s seeming emotional indifference, both toward his characters and instilled into them, takes on a new, sharper meaning. Given the inhumanity on display in the story being told, why should the teller’s voice betray any more compassion? 
 
 It's like a plot twist, but instead it’s a twist in tone. The tone is explained, not the plot. There’s a little bit of anger from Forester, that people can behave like this, and do these things. A little bit of cold-blooded satisfaction in the revenge he is able to take vicariously.
+
+![Orbit-lrg](images/Orbit.svg)
 
 *Thanks for reading - but we'd love feedback! Let us know what you think of Bill's thoughts at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

@@ -583,9 +583,11 @@ img[alt$="-lrg"] {
 .nebula-featured {
     position: relative;
     overflow: hidden;
+    border: 1px solid var(--color-border, #e9ecef);
     border-radius: 1rem;
     background: white;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .nebula-featured-image {
@@ -594,6 +596,10 @@ img[alt$="-lrg"] {
 }
 
 .nebula-featured-image img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
     transition: transform 0.5s ease;
 }
 
@@ -631,6 +637,14 @@ img[alt$="-lrg"] {
     transition: color 0.3s ease;
 }
 
+/* Stretched link — makes entire featured card clickable */
+.nebula-featured-title a::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
 .nebula-featured-title a:hover {
     color: #667eea;
 }
@@ -660,15 +674,131 @@ img[alt$="-lrg"] {
 }
 
 
+/* Scroll Snap — whole-page snap on intro, featured, and cards
+   ========================================================================== */
+
+/* Massively base sets overflow:hidden on #wrapper — override only on landing
+   pages (which have #intro) so story/normal pages keep their stacking context */
+.theme-nebula2026 #wrapper:has(#intro) {
+    overflow: visible;
+}
+
+html:has(body.theme-nebula2026 #intro) {
+    scroll-snap-type: y proximity;
+}
+
+.theme-nebula2026 .nebula-intro {
+    scroll-snap-align: start;
+}
+
+.theme-nebula2026 .nebula-featured,
+.theme-nebula2026 .nebula-card {
+    scroll-snap-align: start;
+    scroll-margin-top: 44px;           /* clear sticky header */
+}
+
+@media (max-width: 736px) {
+    html:has(body.theme-nebula2026 #intro) {
+        scroll-snap-type: y mandatory;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Full-width cards on mobile — only on landing pages (with #intro) */
+    .theme-nebula2026 #wrapper:has(#intro) #main {
+        width: 100%;
+        margin: 0;
+    }
+
+    .theme-nebula2026 #main > .nebula-featured,
+    .theme-nebula2026 #main > .posts {
+        padding: 0;
+        border-top: none;
+    }
+
+    .theme-nebula2026 .posts {
+        padding: 0;
+        gap: 0;
+    }
+
+    .theme-nebula2026 #main > .posts > article {
+        padding: 0;
+        border: none;
+    }
+
+    /* Full-viewport-height cards — image fills remaining space */
+    .theme-nebula2026 .nebula-card {
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        min-height: calc(100vh - 44px);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .theme-nebula2026 .nebula-card-image {
+        flex: 1;
+        min-height: 0;
+    }
+
+    .theme-nebula2026 .nebula-card-image img {
+        border-radius: 0;
+        max-height: none;
+        height: 100%;
+    }
+
+    .theme-nebula2026 .nebula-featured {
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        min-height: calc(100vh - 44px);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .theme-nebula2026 .nebula-featured-image {
+        flex: 1;
+        min-height: 0;
+    }
+
+    .theme-nebula2026 .nebula-featured-image img {
+        border-radius: 0;
+        max-height: none;
+        height: 100%;
+    }
+}
+
+
+/* Posts Grid — Two-column card layout
+   ========================================================================== */
+
+.theme-nebula2026 .posts {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem;
+}
+
+@media (min-width: 737px) {
+    .theme-nebula2026 .posts {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        padding: 2rem;
+    }
+}
+
+
 /* Card Grid (List Items)
    ========================================================================== */
 
 .nebula-card {
+    position: relative;
     background: white;
-    border-radius: 0.75rem;
+    border: 1px solid var(--color-border, #e9ecef);
+    border-radius: 1rem;
     overflow: hidden;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .nebula-card:hover {
@@ -681,6 +811,10 @@ img[alt$="-lrg"] {
 }
 
 .nebula-card-image img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
     transition: transform 0.5s ease;
 }
 
@@ -701,6 +835,14 @@ img[alt$="-lrg"] {
     color: #1a1a2e;
     text-decoration: none;
     transition: color 0.3s ease;
+}
+
+/* Stretched link — makes entire card clickable */
+.nebula-card-title a::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
 }
 
 .nebula-card-title a:hover {
@@ -727,7 +869,7 @@ img[alt$="-lrg"] {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
     text-decoration: none;
-    border-radius: 0.375rem;
+    border-radius: 1rem;
     font-size: 0.875rem;
     font-weight: 600;
     transition: transform 0.3s ease;
@@ -1216,164 +1358,6 @@ img[alt$="-lrg"] {
 }
 
 
-/* ==========================================================================
-   PART 3: Story Card Overlay System
-   Interactive preview cards for stories
-   ========================================================================== */
-
-/* Overlay Container
-   ========================================================================== */
-
-.story-card-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.85);
-    z-index: 9999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 1;
-    transition: opacity 0.3s ease;
-}
-
-.story-card-overlay.hidden {
-    display: none;
-}
-
-
-/* Story Card
-   ========================================================================== */
-
-.story-card {
-    background: white;
-    max-width: 600px;
-    width: 90%;
-    max-height: 85vh;
-    overflow-y: auto;
-    border-radius: 8px;
-    position: relative;
-    padding: 2rem;
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-}
-
-.story-card-close {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 2rem;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: #666;
-    line-height: 1;
-    padding: 0;
-    width: 2rem;
-    height: 2rem;
-    transition: color 0.2s ease;
-}
-
-.story-card-close:hover {
-    color: #000;
-}
-
-
-/* Story Card Content
-   ========================================================================== */
-
-.story-card-image {
-    margin: -2rem -2rem 1.5rem -2rem;
-}
-
-.story-card-image img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 8px 8px 0 0;
-}
-
-.story-card-title {
-    margin: 0 0 0.5rem;
-    font-size: 1.75rem;
-    font-weight: 700;
-    line-height: 1.3;
-    color: #1a1a1a;
-}
-
-.story-card-authors {
-    color: #666;
-    font-style: italic;
-    margin-bottom: 1.5rem;
-    display: block;
-}
-
-.story-card-description {
-    line-height: 1.7;
-    margin-bottom: 2rem;
-    color: #333;
-}
-
-.story-card-actions {
-    text-align: center;
-}
-
-.story-card-read {
-    display: inline-block;
-    padding: 0.75rem 2.5rem;
-    background: #3a5f7d;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: bold;
-    font-size: 0.95rem;
-    letter-spacing: 0.5px;
-    transition: background 0.2s ease;
-}
-
-.story-card-read:hover {
-    background: #2a4f6d;
-    color: white;
-}
-
-
-/* Mobile Responsiveness
-   ========================================================================== */
-
-@media (max-width: 736px) {
-    .story-card {
-        width: 95%;
-        max-width: none;
-        max-height: 90vh;
-        padding: 1.5rem;
-    }
-
-    .story-card-image {
-        margin: -1.5rem -1.5rem 1rem -1.5rem;
-    }
-
-    .story-card-title {
-        font-size: 1.5rem;
-    }
-
-    .story-card-close {
-        top: 0.75rem;
-        right: 0.75rem;
-    }
-}
-
-
-/* Card Hover Effect
-   ========================================================================== */
-
-.nebula-card[data-has-card="true"]:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-
 /* Chapter Marker Styles
    ========================================================================== */
 
@@ -1498,323 +1482,10 @@ img[alt$="-lrg"] {
     font-family: var(--font-primary);
 }
 
-/* Mobile Story Overlay (from _interactions.scss)
-   ========================================================================== */
-
-.story-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.9);
-    z-index: var(--z-modal);
-    opacity: 0;
-    visibility: hidden;
-    transition: all var(--transition-base);
-    backdrop-filter: blur(8px);
-}
-
-.story-overlay--active {
-    opacity: 1;
-    visibility: visible;
-}
-
-.story-overlay__content {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    background: var(--color-background);
-    margin-top: 100vh;
-    transition: margin-top var(--transition-base);
-}
-
-.story-overlay--active .story-overlay__content {
-    margin-top: 0;
-}
-
-.story-overlay__close {
-    position: absolute;
-    top: var(--space-4);
-    right: var(--space-4);
-    width: 44px;
-    height: 44px;
-    background: var(--color-surface);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-full);
-    color: var(--color-text);
-    font-size: var(--text-xl);
-    font-weight: var(--font-bold);
-    cursor: pointer;
-    z-index: 10;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all var(--transition-fast);
-}
-
-.story-overlay__close:hover {
-    background: var(--color-primary);
-    color: white;
-    transform: scale(1.1);
-}
-
-.story-overlay__prev,
-.story-overlay__next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 44px;
-    height: 44px;
-    background: var(--color-surface);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-full);
-    color: var(--color-text);
-    font-size: var(--text-2xl);
-    font-weight: var(--font-bold);
-    cursor: pointer;
-    z-index: 10;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all var(--transition-fast);
-}
-
-.story-overlay__prev:hover:not(:disabled),
-.story-overlay__next:hover:not(:disabled) {
-    background: var(--color-primary);
-    color: white;
-    transform: translateY(-50%) scale(1.1);
-}
-
-.story-overlay__prev:disabled,
-.story-overlay__next:disabled {
-    cursor: not-allowed;
-    opacity: 0.3;
-}
-
-.story-overlay__prev {
-    left: var(--space-4);
-}
-
-.story-overlay__next {
-    right: var(--space-4);
-}
-
-.story-overlay__story-content {
-    flex: 1;
-    padding: var(--space-16) var(--space-6) var(--space-6);
-    overflow-y: auto;
-    position: relative;
-}
-
-
-/* Desktop Story Popup (from _interactions.scss)
-   ========================================================================== */
-
-.story-popup {
-    position: fixed;
-    width: 400px;
-    max-width: 90vw;
-    background: var(--color-background);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius-lg);
-    box-shadow: var(--shadow-xl);
-    z-index: var(--z-popover);
-    opacity: 0;
-    visibility: hidden;
-    transform: scale(0.8) translateY(-10px);
-    transition: all var(--transition-base);
-    backdrop-filter: blur(8px);
-    pointer-events: none;
-}
-
-.story-popup--active {
-    opacity: 1;
-    visibility: visible;
-    transform: scale(1) translateY(0);
-    pointer-events: auto;
-}
-
-.story-popup--fixed {
-    box-shadow: var(--shadow-2xl);
-    border-color: var(--color-primary);
-}
-
-.story-popup__content {
-    position: relative;
-    padding: var(--space-6);
-}
-
-.story-popup__close {
-    position: absolute;
-    top: var(--space-3);
-    right: var(--space-3);
-    width: 24px;
-    height: 24px;
-    background: transparent;
-    border: none;
-    color: var(--color-text-muted);
-    font-size: var(--text-lg);
-    cursor: pointer;
-    border-radius: var(--radius-base);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all var(--transition-fast);
-}
-
-.story-popup__close:hover {
-    background: var(--color-surface);
-    color: var(--color-text);
-}
-
-
-/* Story Content Component (from _interactions.scss)
-   ========================================================================== */
-
-.story-content {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-4);
-}
-
-.story-content__header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.story-content__genre {
-    background: var(--color-primary);
-    color: white;
-    padding: var(--space-1) var(--space-3);
-    border-radius: var(--radius-base);
-    font-size: var(--text-sm);
-    font-weight: var(--font-medium);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-}
-
-.story-content__title {
-    font-size: var(--text-2xl);
-    font-weight: var(--font-bold);
-    color: var(--color-text);
-    margin: 0;
-    line-height: var(--leading-tight);
-}
-
-.story-content__authors {
-    font-size: var(--text-base);
-    color: var(--color-text-light);
-    font-style: italic;
-}
-
-.story-content__abstract {
-    font-size: var(--text-base);
-    line-height: var(--leading-normal);
-    color: var(--color-text-light);
-}
-
-.story-content__actions {
-    margin-top: var(--space-2);
-}
-
-.story-content__read-link {
-    display: inline-flex;
-    align-items: center;
-    gap: var(--space-2);
-    background: var(--color-primary);
-    color: white;
-    padding: var(--space-3) var(--space-6);
-    border-radius: var(--radius-base);
-    text-decoration: none;
-    font-weight: var(--font-medium);
-    transition: all var(--transition-fast);
-}
-
-.story-content__read-link:hover {
-    background: var(--color-primary-dark);
-    transform: translateY(-1px);
-    box-shadow: var(--shadow-md);
-}
-
-
-/* Scroll Lock Utility
-   ========================================================================== */
-
-.no-scroll {
-    overflow: hidden;
-    height: 100vh;
-}
-
-
-/* Interaction Responsive Overrides (from _interactions.scss)
-   ========================================================================== */
-
-@media (max-width: 736px) {
-    .story-popup {
-        display: none !important;
-    }
-
-    .story-overlay__story-content {
-        padding: var(--space-20) var(--space-4) var(--space-4);
-    }
-
-    .story-content__title {
-        font-size: var(--text-xl);
-    }
-}
-
-@media (min-width: 737px) {
-    .story-overlay {
-        display: none !important;
-    }
-}
-
-
-/* Keyboard Navigation Focus States (from _interactions.scss)
-   ========================================================================== */
-
-.story-overlay__close:focus-visible,
-.story-overlay__prev:focus-visible,
-.story-overlay__next:focus-visible,
-.story-popup__close:focus-visible,
-.story-content__read-link:focus-visible {
-    outline: 3px solid var(--color-accent);
-    outline-offset: 3px;
-    box-shadow: 0 0 0 6px rgba(124, 82, 149, 0.2);
-}
-
-
-/* Responsive Breakpoints (from _responsive.scss)
-   ========================================================================== */
-
-/* Tablet: 737px+ */
-@media (min-width: 737px) {
-    .nebula-card[data-has-card="true"] {
-        transition: transform 200ms ease-out, box-shadow 200ms ease-out;
-    }
-}
-
-/* Desktop: 981px+ */
-@media (min-width: 981px) {
-    .nebula-card[data-has-card="true"]:hover {
-        transform: translateY(-4px);
-        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
-    }
-}
-
-
 /* Print Styles (from _responsive.scss)
    ========================================================================== */
 
 @media print {
-    .story-card-overlay,
-    .story-overlay,
-    .story-popup,
     .story-header-minimal,
     .story-nav-strip,
     .nebula-burger,
@@ -1837,20 +1508,6 @@ img[alt$="-lrg"] {
     .chapter-marker,
     .story-end-marker {
         filter: grayscale(100%);
-    }
-}
-
-
-/* High Contrast (from _responsive.scss)
-   ========================================================================== */
-
-@media (prefers-contrast: high) {
-    .story-card-overlay {
-        background: rgba(0, 0, 0, 0.95);
-    }
-
-    .story-popup {
-        border-width: 2px;
     }
 }
 
@@ -1878,26 +1535,6 @@ img[alt$="-lrg"] {
     to { opacity: 1; transform: scale(1); }
 }
 
-@keyframes slideInRight {
-    from { transform: translateX(100%); opacity: 0; }
-    to { transform: translateX(0); opacity: 1; }
-}
-
-@keyframes slideInLeft {
-    from { transform: translateX(-100%); opacity: 0; }
-    to { transform: translateX(0); opacity: 1; }
-}
-
-@keyframes slideOutLeft {
-    from { transform: translateX(0); opacity: 1; }
-    to { transform: translateX(-100%); opacity: 0; }
-}
-
-@keyframes slideOutRight {
-    from { transform: translateX(0); opacity: 1; }
-    to { transform: translateX(100%); opacity: 0; }
-}
-
 @keyframes pulse {
     0%, 100% { opacity: 1; transform: scale(1); }
     50% { opacity: 0.7; transform: scale(0.95); }
@@ -1911,26 +1548,6 @@ img[alt$="-lrg"] {
 @keyframes spin {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
-}
-
-
-/* Card slide transitions (from _animations.scss)
-   ========================================================================== */
-
-.story-card--slide-in-right {
-    animation: slideInRight 100ms cubic-bezier(0.4, 0.0, 0.2, 1);
-}
-
-.story-card--slide-in-left {
-    animation: slideInLeft 100ms cubic-bezier(0.4, 0.0, 0.2, 1);
-}
-
-.story-card--slide-out-left {
-    animation: slideOutLeft 100ms cubic-bezier(0.4, 0.0, 0.2, 1);
-}
-
-.story-card--slide-out-right {
-    animation: slideOutRight 100ms cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
 
@@ -2739,22 +2356,7 @@ html {
    ========================================================================== */
 
 @media (prefers-reduced-motion: reduce) {
-    .story-overlay,
-    .story-overlay__content,
-    .story-overlay__close,
-    .story-overlay__prev,
-    .story-overlay__next,
-    .story-overlay__story-content,
-    .story-popup,
-    .story-popup__content,
-    .story-popup__close,
-    .story-content,
-    .story-content__read-link,
     .roundel-animate,
-    .story-card--slide-in-right,
-    .story-card--slide-in-left,
-    .story-card--slide-out-left,
-    .story-card--slide-out-right,
     .story-header-minimal,
     .story-nav-strip__link,
     .story-divider__roundel,
@@ -2766,16 +2368,6 @@ html {
     .nebula-nav__link::after {
         transition: none !important;
         animation: none !important;
-    }
-
-    .story-overlay--active .story-overlay__content {
-        margin-top: 0;
-    }
-
-    .story-popup--active {
-        opacity: 1;
-        visibility: visible;
-        transform: scale(1) translateY(0);
     }
 
     .roundel-animate--visible {
