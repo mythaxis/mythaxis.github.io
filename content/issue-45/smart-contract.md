@@ -49,7 +49,7 @@ The girl licks her lips. “Eddie,” she says after a moment.
 
 There, Dayne thinks. She mentally puts him top of her suspect list. Not that she has any suspects at this point, beyond ‘persons unknown’. But it sounds like they’re going to need to have a word with Uncle Eddie.
 
-***
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}W{{</glyph>}}ebb spends the afternoon tracking down the uncle. Dayne spends it trying to get the department to assign a couple of uniforms to Luisa’s building. She gets only a series of refusals. Between the latest MERS-42 variant and the usual summer protests, the department is more short-handed than ever.
 
@@ -87,7 +87,7 @@ Webb thinks it over. “And it’s really untraceable?”
 
 “OK, I get it.” Webb shakes his head. “But what I don’t get is why someone would pay a quarter of a million to ice some teenage girl living in public housing in Queens.”
 
-***
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}E{{</glyph>}}ddie Arias, Luisa’s uncle Eddie, is nothing like Dayne had imagined. She had pictured some middle-aged guy with a goatee and VR pallor, the kind who lies around all day smoking dope and beating off to virtual porn stars. Instead, he’s clean-cut and conservatively dressed, with a brisk, businesslike manner. She doubts he has a quarter of a million to spend on getting anyone killed, but one day he might.
 
@@ -129,7 +129,7 @@ Eddie gives him a look. “The contract doesn’t pay out unless she’s dead. S
 
 “Then the contract fires, the motherfucker who set it up has to pay out, and Luisa gets her life back. Problem solved, no?”
 
-***
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}D{{</glyph>}}e Blasio Houses looks like any other public housing complex, with the usual maze of drainways and concrete surge walls between the buildings, ready for the next superstorm. Someone has scrawled “Bulldozer Bill” in silver marker on the sign by the entrance: Lower East Siders still mad over something that happened twenty years ago.
 
@@ -161,7 +161,7 @@ Dayne shakes her head. “Not like you think. I think they’re Luisa’s friend
 
 Webb’s cell buzzes and he swipes up a message. “Well, fortunately Luisa isn’t the only one who knows streetwise juveniles with an ear to the ground.” He catches Dayne’s wince of incomprehension and grins: “One of my CI’s just checked in.”
 
-***
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}W{{</glyph>}}ebb’s informant is a round-faced girl in thick glasses and a sweatshirt that slowly cycles through a rainbow of different colors. They meet in a diner and she and Webb talk together for a while in what Dayne guesses is Cantonese. Finally, the girl smirks, looks at Dayne, and says something to Webb that makes them both laugh.
 
@@ -199,7 +199,7 @@ Webb waits for the door to close behind the girl. “What do you think?” he sa
 
 Webb nods. “Probably,” he admits. His face brightens. “Maybe we should start digging at the other end. Wanna go talk to one of the kids that Luisa’s friends beat up?”
 
-***
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}T{{</glyph>}}he kid is God’s gift to a detective, which is to say that he’s either too scared or too dumb to remember that he shouldn’t talk to cops. At eighteen, he ought to know better.
 
@@ -251,7 +251,7 @@ The boy finally wises up. “I want a lawyer.”
 
 “Help yourself,” says Dayne. “We’re done here.”
 
-***
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}W{{</glyph>}}ebb drives while Dayne gets out her tablet and digs into the cryptomarkets, chasing past contracts. She feels as if she’s going down some impossible rabbit hole built out of jargon and wishful thinking. The people who live in this alternate universe speak a language of their own, and Dayne doesn’t have the slightest idea how to make sense of it.
 
@@ -321,7 +321,7 @@ Webb opens his mouth to say something, but his radio vibrates noisily. An instan
 
 “Shots fired at De Blasio Houses,” says the synthetic voice in her ear. “EMS requested on a rush. All units respond.”
 
-***
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}T{{</glyph>}}hey use the siren all the way, scattering cyclists and gyro-wheelers. When they get there, De Blasio is in chaos, with people spilling out of the exits in a panic. A pair of department drones hover overhead, heavy-duty rotors cutting the air with an ear-battering wop-wop, red and white strobes flickering off the faces in the crowd. Two uniformed cops are throwing down bead balls to create a perimeter, the tiny robots self-assembling to fence off the scene. 
 
@@ -351,7 +351,7 @@ Red and white light flickers on the walls of the corridor. The window at the far
 
 The black-clad man is slammed heavily against the wall. Dayne watches him slide down, loose-limbed, those glittering eyes seemingly still fixed on her. He comes to rest in a sitting position, his head bowed on his chest, the gun across his lap. The last shards of glass fall from the window frame as the police drone slides into the corridor and takes up station, hovering above the man it has just killed.
 
-***
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}D{{</glyph>}}ayne sits on the steps outside, staring at nothing in particular, Webb sitting beside her. On the far side of the bead-ball fence, a silent crowd lingers, eager for more excitement.
 
@@ -365,7 +365,7 @@ Dayne nods. She wonders if Rosa was one of the kids who thought up the whole sch
 
 She gets to her feet, feeling tired. “Let’s go talk to her.”
 
-***
+![Orbit-sml ><](images/Orbit.svg)
 
 {{<glyph>}}I{{</glyph>}}n the end they don’t do much talking. Luisa’s eyes are red, and the mother has been crying too. She looks worse than Luisa. Dayne feels a pang of sympathy. Whatever else, their grief is genuine. Then she remembers that Luisa is not blameless in her cousin’s death.
 

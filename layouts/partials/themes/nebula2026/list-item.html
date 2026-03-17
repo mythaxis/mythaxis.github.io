@@ -13,14 +13,7 @@
 {{- $page := .Page -}}
 
 <!-- Post List Item -->
-<article class="nebula-card"
-         data-has-card="true"
-         data-story-url="{{ $page.RelPermalink }}"
-         data-story-title="{{ $page.Title }}"
-         data-story-authors="{{ collections.Delimit $page.Params.authors ", " }}"
-         data-story-genre="{{ $page.Params.genre }}"
-         data-story-description="{{ $page.Description | default $page.Summary }}"
-         data-story-image="{{ if $page.Params.image }}{{ path.Join $page.Section $page.Params.image | relURL }}{{ end }}">
+<article class="nebula-card">
     {{ if $page.Params.image }}
     <div class="nebula-card-image">
         <a href="{{ $page.Permalink }}">

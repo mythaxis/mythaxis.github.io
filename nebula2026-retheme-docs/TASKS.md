@@ -153,6 +153,7 @@ git add -A && git commit -m "feat: [description of task/phase]"
   - [x] 9.15 Update copyright footer link — Massively theme URL changed to GitHub repo
   - [x] 9.16 Fix horizon2020 CSS/JS/font 404s on GitHub Pages — Hugo Pipes `.RelPermalink` generates broken relative URLs when baseURL has a subpath (e.g. `/mythaxis/`); pre-compiled SCSS→`static/assets/css/main.min.css`, noscript→`static/assets/css/noscript.css`, jQuery bundle→`static/assets/js/bundle.js`; updated `htmlhead.html` and `horizon2020/scripts.html` to use `relURL` with static paths; fixed font paths in `horizon2020.css` from `../../` to `../`
   - [x] 9.17 Fix horizon2020 divider regression — nested `theme-dispatch` calls in `article-single.html` passed `.` (theme context dict) instead of `.Page` (Hugo page), causing `getThemeContext` to fail and fall back to nebula2026's divider; now correctly renders `divider.svg` and `toplist.svg`
+  - [x] 9.18 Redesign frontpage — remove story-card-interactions.js popup/overlay system; replace with two-column CSS grid layout for `.posts`; add rounded borders to `.nebula-card` and `.nebula-featured`; add mobile scroll-snap (`scroll-snap-type: y mandatory`) for flick-to-next-card navigation; remove all overlay/popup CSS (~400 lines); simplify `list-item.html` by removing `data-*` attributes; remove overlay HTML blocks from `section.html` and `index.html`
 
 - [ ] 8.0 Final regression check and deploy
   - [ ] 8.1 Full smoke test: homepage, issue landing (nebula2026), story page (nebula2026), old issue (horizon2020), archive, authors index
