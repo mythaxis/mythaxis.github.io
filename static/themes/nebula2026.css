@@ -677,12 +677,13 @@ img[alt$="-lrg"] {
 /* Scroll Snap — whole-page snap on intro, featured, and cards
    ========================================================================== */
 
-/* Massively base sets overflow:hidden on #wrapper — must override for snap */
-.theme-nebula2026 #wrapper {
+/* Massively base sets overflow:hidden on #wrapper — override only on landing
+   pages (which have #intro) so story/normal pages keep their stacking context */
+.theme-nebula2026 #wrapper:has(#intro) {
     overflow: visible;
 }
 
-html:has(body.theme-nebula2026) {
+html:has(body.theme-nebula2026 #intro) {
     scroll-snap-type: y proximity;
 }
 
@@ -697,13 +698,13 @@ html:has(body.theme-nebula2026) {
 }
 
 @media (max-width: 736px) {
-    html:has(body.theme-nebula2026) {
+    html:has(body.theme-nebula2026 #intro) {
         scroll-snap-type: y mandatory;
         -webkit-overflow-scrolling: touch;
     }
 
-    /* Full-width cards on mobile — no side margins, square corners */
-    .theme-nebula2026 #main {
+    /* Full-width cards on mobile — only on landing pages (with #intro) */
+    .theme-nebula2026 #wrapper:has(#intro) #main {
         width: 100%;
         margin: 0;
     }
