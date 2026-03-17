@@ -12,31 +12,31 @@
 
 @font-face {
     font-family: "Starcraft";
-    src: url("../../assets/fonts/starcraft.woff") format('woff');
+    src: url("../assets/fonts/starcraft.woff") format('woff');
 }
 
 @font-face {
     font-family: "Starcraft";
-    src: url("../../assets/fonts/starcraft.woff") format('woff');
+    src: url("../assets/fonts/starcraft.woff") format('woff');
     font-weight: bold;
 }
 
 @font-face {
     font-family: "Starcraft normal";
-    src: url("../../assets/fonts/starcraft-normal.woff") format('woff');
+    src: url("../assets/fonts/starcraft-normal.woff") format('woff');
     font-weight: bold;
 }
 
 @font-face {
     font-family: "Starcraft";
-    src: url("../../assets/fonts/starcraft-italic.woff") format('woff');
+    src: url("../assets/fonts/starcraft-italic.woff") format('woff');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: "Starcraft";
-    src: url("../../assets/fonts/starcraft-italic.woff") format('woff');
+    src: url("../assets/fonts/starcraft-italic.woff") format('woff');
     font-style: italic;
 }
 

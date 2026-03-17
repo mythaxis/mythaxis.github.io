@@ -13,17 +13,10 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<!-- CSS: Conditionally load SCSS only for horizon2020 theme -->
+	<!-- CSS: Pre-compiled static assets for horizon2020 theme -->
 	{{ if eq $themeCtx.Theme "horizon2020" }}
-	{{ if hugo.IsServer }}
-	{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS (dict "targetPath" "assets/css/main.css" "enableSourceMap" true) }}
-	<link rel="stylesheet" href="{{ ($style).RelPermalink }}">
-	{{ else }}
-	{{ $style := resources.Get "scss/main.scss" | resources.ExecuteAsTemplate "main.scss" . | toCSS (dict "targetPath" "assets/css/main.css" "enableSourceMap" false) }}
-	<link rel="stylesheet" href="{{ ($style | minify).RelPermalink }}">
-	{{ end }}
-	{{ $noscript := resources.Get "scss/noscript.scss" | resources.ExecuteAsTemplate "noscript.scss" . | toCSS (dict "targetPath" "assets/css/noscript.css" "enableSourceMap" false) }}
-	<noscript><link rel="stylesheet" href='{{ $noscript.RelPermalink }}' /></noscript>
+	<link rel="stylesheet" href='{{ "assets/css/main.min.css" | relURL }}'>
+	<noscript><link rel="stylesheet" href='{{ "assets/css/noscript.css" | relURL }}' /></noscript>
 	{{ end }}
 	{{ with .Site.Params.favicon }}
 	<link rel="shortcut icon" href="{{ . }}">
