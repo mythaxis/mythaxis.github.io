@@ -151,6 +151,7 @@ git add -A && git commit -m "feat: [description of task/phase]"
   - [x] 9.13 Theme taxonomy pages — add `theme-{{ $themeCtx.Theme }}` body class to authors, catalogue, editorials, genres layouts; add CSS for all four page types (`.nebula-catalogue`, authors two-column layout, catalogue list, editorials list, genre sections with pill nav); add hero image with theme guard (`if eq $themeCtx.Theme "nebula2026"`); remove duplicate catalogue-nav from bottom of content partials
   - [x] 9.14 Fix random button — update shortcode JS to use `.href`, add fallback selector for nebula2026 markup (divs instead of tables); add centered pill-style button CSS scoped to `.theme-nebula2026`
   - [x] 9.15 Update copyright footer link — Massively theme URL changed to GitHub repo
+  - [x] 9.16 Fix horizon2020 CSS/JS/font 404s on GitHub Pages — Hugo Pipes `.RelPermalink` generates broken relative URLs when baseURL has a subpath (e.g. `/mythaxis/`); pre-compiled SCSS→`static/assets/css/main.min.css`, noscript→`static/assets/css/noscript.css`, jQuery bundle→`static/assets/js/bundle.js`; updated `htmlhead.html` and `horizon2020/scripts.html` to use `relURL` with static paths; fixed font paths in `horizon2020.css` from `../../` to `../`
 
 - [ ] 8.0 Final regression check and deploy
   - [ ] 8.1 Full smoke test: homepage, issue landing (nebula2026), story page (nebula2026), old issue (horizon2020), archive, authors index
