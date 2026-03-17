@@ -587,6 +587,7 @@ img[alt$="-lrg"] {
     border-radius: 1rem;
     background: white;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
 }
 
 .nebula-featured-image {
@@ -595,6 +596,10 @@ img[alt$="-lrg"] {
 }
 
 .nebula-featured-image img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0 0;
     transition: transform 0.5s ease;
 }
 
@@ -632,6 +637,14 @@ img[alt$="-lrg"] {
     transition: color 0.3s ease;
 }
 
+/* Stretched link — makes entire featured card clickable */
+.nebula-featured-title a::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+}
+
 .nebula-featured-title a:hover {
     color: #667eea;
 }
@@ -661,6 +674,98 @@ img[alt$="-lrg"] {
 }
 
 
+/* Scroll Snap — whole-page snap on intro, featured, and cards
+   ========================================================================== */
+
+/* Massively base sets overflow:hidden on #wrapper — must override for snap */
+.theme-nebula2026 #wrapper {
+    overflow: visible;
+}
+
+html:has(body.theme-nebula2026) {
+    scroll-snap-type: y proximity;
+}
+
+.theme-nebula2026 .nebula-intro {
+    scroll-snap-align: start;
+}
+
+.theme-nebula2026 .nebula-featured,
+.theme-nebula2026 .nebula-card {
+    scroll-snap-align: start;
+    scroll-margin-top: 44px;           /* clear sticky header */
+}
+
+@media (max-width: 736px) {
+    html:has(body.theme-nebula2026) {
+        scroll-snap-type: y mandatory;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    /* Full-width cards on mobile — no side margins, square corners */
+    .theme-nebula2026 #main {
+        width: 100%;
+        margin: 0;
+    }
+
+    .theme-nebula2026 #main > * {
+        padding: 0;
+        border-top: none;
+    }
+
+    .theme-nebula2026 .posts {
+        padding: 0;
+        gap: 0;
+    }
+
+    .theme-nebula2026 #main > .posts > article {
+        padding: 0;
+        border: none;
+    }
+
+    /* Full-viewport-height cards — image fills remaining space */
+    .theme-nebula2026 .nebula-card {
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        min-height: calc(100vh - 44px);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .theme-nebula2026 .nebula-card-image {
+        flex: 1;
+        min-height: 0;
+    }
+
+    .theme-nebula2026 .nebula-card-image img {
+        border-radius: 0;
+        max-height: none;
+        height: 100%;
+    }
+
+    .theme-nebula2026 .nebula-featured {
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        min-height: calc(100vh - 44px);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .theme-nebula2026 .nebula-featured-image {
+        flex: 1;
+        min-height: 0;
+    }
+
+    .theme-nebula2026 .nebula-featured-image img {
+        border-radius: 0;
+        max-height: none;
+        height: 100%;
+    }
+}
+
+
 /* Posts Grid — Two-column card layout
    ========================================================================== */
 
@@ -679,31 +784,19 @@ img[alt$="-lrg"] {
     }
 }
 
-@media (max-width: 736px) {
-    .theme-nebula2026 .posts {
-        scroll-snap-type: y mandatory;
-        overflow-y: auto;
-        max-height: calc(100vh - 60px);
-        scroll-padding-top: 1rem;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    .theme-nebula2026 .posts .nebula-card {
-        scroll-snap-align: start;
-    }
-}
-
 
 /* Card Grid (List Items)
    ========================================================================== */
 
 .nebula-card {
+    position: relative;
     background: white;
     border: 1px solid var(--color-border, #e9ecef);
     border-radius: 1rem;
     overflow: hidden;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
 .nebula-card:hover {
@@ -716,6 +809,9 @@ img[alt$="-lrg"] {
 }
 
 .nebula-card-image img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
     border-radius: 1rem 1rem 0 0;
     transition: transform 0.5s ease;
 }
@@ -737,6 +833,14 @@ img[alt$="-lrg"] {
     color: #1a1a2e;
     text-decoration: none;
     transition: color 0.3s ease;
+}
+
+/* Stretched link — makes entire card clickable */
+.nebula-card-title a::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
 }
 
 .nebula-card-title a:hover {

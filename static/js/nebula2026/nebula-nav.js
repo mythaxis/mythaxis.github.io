@@ -29,6 +29,8 @@
 
     var isOpen = false;
     var ticking = false;
+    var snapTimer = null;
+    var isMobile = window.matchMedia('(max-width: 736px)').matches;
 
     // Landing pages: make header sticky
     if (intro && header) {
@@ -42,6 +44,15 @@
 
     function handleScroll() {
       if (isOpen) return;
+
+      // iOS fix: disable mandatory snap near top so scroll-to-top gesture works
+      if (isMobile && window.scrollY < 10) {
+        document.documentElement.style.scrollSnapType = 'none';
+        clearTimeout(snapTimer);
+        snapTimer = setTimeout(function() {
+          document.documentElement.style.scrollSnapType = '';
+        }, 400);
+      }
 
       if (header) {
         var headerBottom = header.getBoundingClientRect().bottom;
