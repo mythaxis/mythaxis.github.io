@@ -1,8 +1,8 @@
 /**
  * Nebula2026 Reading Progress Bar
  *
- * Displays a thin gradient progress bar at the top of story pages
- * showing how far the user has scrolled through the story.
+ * Displays a thin gradient progress bar at the bottom edge of the
+ * sticky minimal header on story pages, showing scroll progress.
  */
 
 (function() {
@@ -12,48 +12,40 @@
     // Only on story pages
     if (!document.querySelector('.nebula2026-story-single')) return;
 
+    var minimalHeader = document.getElementById('story-header-minimal');
+    if (!minimalHeader) return;
+
     // Check if user prefers reduced motion
-    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (prefersReducedMotion) return;
 
-    // Create progress bar container
-    const progressContainer = document.createElement('div');
-    progressContainer.className = 'reading-progress';
-    progressContainer.innerHTML = '<div class="reading-progress__bar"></div>';
+    // Create progress bar and append inside the minimal header
+    var progressBar = document.createElement('div');
+    progressBar.className = 'reading-progress__bar';
+    minimalHeader.appendChild(progressBar);
 
-    // Insert at top of body
-    document.body.insertBefore(progressContainer, document.body.firstChild);
-
-    const progressBar = progressContainer.querySelector('.reading-progress__bar');
-
-    let ticking = false;
+    var ticking = false;
 
     function updateProgress() {
-      // Calculate scroll progress
-      const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      const scrolled = (winScroll / height) * 100;
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
 
-      // Update progress bar width
       progressBar.style.width = scrolled + '%';
-
       ticking = false;
     }
 
-    // Listen to scroll events
-    window.addEventListener('scroll', () => {
+    window.addEventListener('scroll', function() {
       if (!ticking) {
         requestAnimationFrame(updateProgress);
         ticking = true;
       }
     }, { passive: true });
 
-    // Initial update
     updateProgress();
 
-    // Debug info (only in development)
     if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-      console.log('Reading progress bar initialized');
+      console.log('Reading progress bar initialized (in minimal header)');
     }
   }
 

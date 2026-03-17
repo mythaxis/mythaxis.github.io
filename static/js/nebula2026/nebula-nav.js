@@ -46,7 +46,7 @@
       if (isOpen) return;
 
       // iOS fix: disable mandatory snap near top so scroll-to-top gesture works
-      if (isMobile && window.scrollY < 10) {
+      if (intro && isMobile && window.scrollY < 10) {
         document.documentElement.style.scrollSnapType = 'none';
         clearTimeout(snapTimer);
         snapTimer = setTimeout(function() {
