@@ -60,6 +60,17 @@
     <div class="nebula-page-content">
         {{ $page.Content }}
     </div>
+
+    {{- $issueRoundel := "orbit" -}}
+    {{- with $section -}}
+      {{- $issueRoundel = .Params.issueRoundel | default "orbit" -}}
+    {{- end -}}
+    <div class="story-divider">
+      <img src="/images/roundels/{{ $issueRoundel }}-200.svg"
+           class="story-divider__roundel roundel-animate"
+           alt=""
+           aria-hidden="true" />
+    </div>
 </section>
 
 {{ partial "authorfooter" $page }}
