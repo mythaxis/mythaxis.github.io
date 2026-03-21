@@ -49,7 +49,7 @@
    */
   function replaceWithRoundel(hrElement, genre) {
     var img = document.createElement('img');
-    img.src = '/images/roundels/' + genre + '.svg';
+    img.src = '../images/roundels/' + genre + '.svg';
     img.className = 'chapter-marker roundel-animate';
     img.alt = '';
     img.setAttribute('aria-hidden', 'true');
@@ -57,7 +57,7 @@
     // Fall back to default if the image fails to load
     img.onerror = function() {
       if (this.src.indexOf(DEFAULT_ROUNDEL) === -1) {
-        this.src = '/images/roundels/' + DEFAULT_ROUNDEL + '.svg';
+        this.src = '../images/roundels/' + DEFAULT_ROUNDEL + '.svg';
       }
     };
 
