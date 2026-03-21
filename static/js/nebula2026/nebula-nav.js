@@ -147,7 +147,6 @@
       }
     });
 
-    console.log('[nebula-nav] Initialized');
   }
 
   if (document.readyState === 'loading') {

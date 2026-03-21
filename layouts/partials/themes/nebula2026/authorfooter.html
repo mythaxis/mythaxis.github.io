@@ -22,7 +22,7 @@
 			{{ range where $authors ".Params.name" . }}
 				<footer class="nebula-author-footer">
 					<div class="nebula-author-card">
-						{{ if fileExists (path.Join .Section .Params.photo | relURL) }}
+						{{ if .Params.photo }}
 						<div class="nebula-author-photo">
 							<img src="{{ path.Join .Section .Params.photo | relURL }}" alt="Author image of {{ .Params.name }}" />
 						</div>

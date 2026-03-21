@@ -8,7 +8,8 @@
 
 @font-face {
     font-family: 'Alegreya';
-    src: url('../assets/fonts/nebula2026/Alegreya-Regular.woff') format('woff');
+    src: url('../assets/fonts/nebula2026/Alegreya-Regular.woff2') format('woff2'),
+         url('../assets/fonts/nebula2026/Alegreya-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -16,7 +17,8 @@
 
 @font-face {
     font-family: 'Alegreya';
-    src: url('../assets/fonts/nebula2026/Alegreya-Italic.woff') format('woff');
+    src: url('../assets/fonts/nebula2026/Alegreya-Italic.woff2') format('woff2'),
+         url('../assets/fonts/nebula2026/Alegreya-Italic.woff') format('woff');
     font-weight: 400;
     font-style: italic;
     font-display: swap;
@@ -24,7 +26,8 @@
 
 @font-face {
     font-family: 'Alegreya';
-    src: url('../assets/fonts/nebula2026/Alegreya-Bold.woff') format('woff');
+    src: url('../assets/fonts/nebula2026/Alegreya-Bold.woff2') format('woff2'),
+         url('../assets/fonts/nebula2026/Alegreya-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -32,7 +35,8 @@
 
 @font-face {
     font-family: 'Alegreya';
-    src: url('../assets/fonts/nebula2026/Alegreya-BoldItalic.woff') format('woff');
+    src: url('../assets/fonts/nebula2026/Alegreya-BoldItalic.woff2') format('woff2'),
+         url('../assets/fonts/nebula2026/Alegreya-BoldItalic.woff') format('woff');
     font-weight: 700;
     font-style: italic;
     font-display: swap;
@@ -40,7 +44,8 @@
 
 @font-face {
     font-family: 'Alegreya';
-    src: url('../assets/fonts/nebula2026/Alegreya-ExtraBold.woff') format('woff');
+    src: url('../assets/fonts/nebula2026/Alegreya-ExtraBold.woff2') format('woff2'),
+         url('../assets/fonts/nebula2026/Alegreya-ExtraBold.woff') format('woff');
     font-weight: 800;
     font-style: normal;
     font-display: swap;
@@ -254,6 +259,7 @@ img[alt$="-lrg"] {
     justify-content: center;
     text-align: center;
     min-height: 100vh;
+    min-height: 100svh;
     padding: 2rem;
     position: relative;
     overflow: hidden;
