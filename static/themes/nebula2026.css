@@ -351,7 +351,7 @@ img[alt$="-lrg"] {
 .nebula-title {
     font-size: 4rem;
     font-weight: 800;
-    font-family: 'Basalte Multicolor', var(--font-secondary);
+    font-family: 'Basalte Volume', var(--font-secondary);
     color: var(--color-primary);
     margin-bottom: 0.5rem;
 }
@@ -1068,8 +1068,6 @@ html:has(body.theme-nebula2026 #intro) {
     max-width: 700px;
     margin: 2rem auto;
     padding: 1rem 2rem;
-    background: var(--color-surface);
-    border-radius: 0.5rem;
 }
 
 .nebula-audio-player audio {
