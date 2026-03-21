@@ -215,7 +215,7 @@ blockquote > p {
     line-height: 0.85;
     padding-top: 0.05em;
     padding-right: 0.1em;
-    color: var(--color-primary, #1a2b4c);
+    color: inherit;
 }
 
 
@@ -1094,6 +1094,12 @@ html:has(body.theme-nebula2026 #intro) {
     margin: 1.5rem 0;
 }
 
+.nebula-article-divider__roundel {
+    width: 60px;
+    height: 60px;
+    opacity: 0.5;
+}
+
 .nebula-article-image {
     margin: 2rem 0;
     border-radius: 0.75rem;
@@ -1967,7 +1973,7 @@ html:has(body.theme-nebula2026 #intro) {
    ========================================================================== */
 
 .story-reading {
-    padding: 3rem 2rem;
+    padding: 3rem 2rem 0;
     background: var(--color-background, #ffffff);
 }
 
@@ -2025,7 +2031,7 @@ html:has(body.theme-nebula2026 #intro) {
 }
 
 .story-footer {
-    padding: 2rem;
+    padding: 0 2rem 2rem;
     background: var(--color-background, #ffffff);
     text-align: center;
 }
@@ -2285,7 +2291,7 @@ html:has(body.theme-nebula2026 #intro) {
     }
 
     .story-reading {
-        padding: 2rem 1.5rem;
+        padding: 2rem 1.5rem 0;
     }
 
     .story-nav-strip__title {
@@ -2327,7 +2333,7 @@ html:has(body.theme-nebula2026 #intro) {
     }
 
     .story-reading {
-        padding: 2rem 1rem;
+        padding: 2rem 1rem 0;
     }
 
     .story-reading__container {
