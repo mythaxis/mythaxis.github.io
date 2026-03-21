@@ -159,6 +159,25 @@
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape' && isOpen) {
         closePanel();
+        return;
+      }
+      // Focus trap: keep Tab cycling within the open panel
+      if (e.key === 'Tab' && isOpen) {
+        var focusable = panel.querySelectorAll('a[href], button, [tabindex]:not([tabindex="-1"])');
+        if (focusable.length === 0) return;
+        var first = focusable[0];
+        var last = focusable[focusable.length - 1];
+        if (e.shiftKey) {
+          if (document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          }
+        } else {
+          if (document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+          }
+        }
       }
     });
 
