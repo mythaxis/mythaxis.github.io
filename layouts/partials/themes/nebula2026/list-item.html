@@ -1,45 +1,26 @@
 {{/*
-  Nebula2026 Theme - List Item Partial
-  ====================================
-  Modern story list item card with enhanced styling.
-
-  Expects context from theme-dispatch:
-    .Page    - The stock page being rendered
-    .Section - The current section
-    .Theme   - The theme name
-    .Data    - Any extra data passed
+  Nebula2026 Theme - List Item (Split Row)
+  ========================================
+  Image/text side-by-side row. CSS :nth-child alternates direction.
 */}}
 
 {{- $page := .Page -}}
 
-<!-- Post List Item -->
-<article class="nebula-card">
+<article class="nebula-split-row">
     {{ if $page.Params.image }}
-    <div class="nebula-card-image">
+    <div class="nebula-split-row__image">
         <a href="{{ $page.Permalink }}">
             <img src="{{ path.Join $page.Section $page.Params.image | relURL }}" alt="" />
         </a>
     </div>
     {{ end }}
-    
-    <div class="nebula-card-content">
-        <header class="nebula-card-header">
-            <h2 class="nebula-card-title"><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h2>
-            <span class="nebula-card-authors">{{ collections.Delimit $page.Params.authors ", " }}</span>
-        </header>
-        
+    <div class="nebula-split-row__text">
+        <h3 class="nebula-split-row__title"><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h3>
+        <span class="nebula-split-row__authors">{{ collections.Delimit $page.Params.authors ", " }}</span>
         {{ if $page.Description }}
-        <p class="nebula-card-description">{{ $page.Description }}</p>
+        <p class="nebula-split-row__description">{{ $page.Description }}</p>
         {{ else }}
-        <p class="nebula-card-description">{{ $page.Summary }}</p>
-        {{ end }}
-        
-        {{ if $page.Params.morelink }}
-        <div class="nebula-card-actions">
-            <a href="{{ $page.Permalink }}" class="nebula-button-small">
-                {{ $page.Params.morelink }}
-            </a>
-        </div>
+        <p class="nebula-split-row__description">{{ $page.Summary }}</p>
         {{ end }}
     </div>
 </article>
