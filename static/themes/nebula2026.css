@@ -975,7 +975,7 @@ img[alt$="-lrg"] {
 
 .nebula-author-entry .nebula-author-name {
     font-size: 1rem;
-    color: var(--color-primary);
+    color: #000;
     margin: 0;
     min-width: 200px;
     flex-shrink: 0;
@@ -994,12 +994,10 @@ img[alt$="-lrg"] {
 }
 
 .nebula-work-link {
-    color: var(--color-primary, #1a2b4c);
     text-decoration: none;
 }
 
 .nebula-work-link:hover {
-    color: var(--color-secondary, #4a6d8c);
     text-decoration: underline;
 }
 
@@ -1023,7 +1021,6 @@ img[alt$="-lrg"] {
 }
 
 .nebula-catalogue-link {
-    color: inherit;
     text-decoration: none;
     font-weight: 500;
 }
@@ -1059,13 +1056,11 @@ img[alt$="-lrg"] {
 }
 
 .nebula-editorial-link {
-    color: var(--color-primary, #1a2b4c);
     text-decoration: none;
     font-weight: 500;
 }
 
 .nebula-editorial-link:hover {
-    color: var(--color-secondary, #4a6d8c);
     text-decoration: underline;
 }
 
@@ -1106,10 +1101,10 @@ img[alt$="-lrg"] {
 
 .nebula-genre-title {
     font-size: 1.25rem;
-    color: var(--color-primary);
+    color: #000;
     margin: 0 0 0.75rem 0;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid var(--color-primary, #1a2b4c);
+    border-bottom: 2px solid #000;
 }
 
 .nebula-genre-count {
@@ -1128,12 +1123,10 @@ img[alt$="-lrg"] {
 }
 
 .nebula-item-link {
-    color: var(--color-primary, #1a2b4c);
     text-decoration: none;
 }
 
 .nebula-item-link:hover {
-    color: var(--color-secondary, #4a6d8c);
     text-decoration: underline;
 }
 
@@ -1552,10 +1545,9 @@ img[alt$="-lrg"] {
 }
 
 .story-header-minimal__issue-roundel {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
     display: block;
-    opacity: 0.7;
     filter: grayscale(1) brightness(0);
 }
 
