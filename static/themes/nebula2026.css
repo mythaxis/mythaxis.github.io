@@ -1442,16 +1442,8 @@ img[alt$="-lrg"] {
     left: 0;
     right: 0;
     height: 100%;
-    background: linear-gradient(transparent 20%, rgba(0, 0, 0, 0.3) 100%);
-    backdrop-filter: blur(4px) saturate(180%);
-    -webkit-backdrop-filter: blur(4px) saturate(180%);
+    background: linear-gradient(transparent 0%, transparent 40%, rgba(0, 0, 0, 0.55) 100%);
     z-index: 2;
-}
-
-@supports not (backdrop-filter: blur(4px)) {
-    .story-header__overlay {
-        background: linear-gradient(transparent 20%, rgba(0, 0, 0, 0.7) 100%);
-    }
 }
 
 .story-header__content {
