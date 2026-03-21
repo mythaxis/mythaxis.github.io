@@ -482,7 +482,7 @@ img[alt$="-lrg"] {
 .nebula-burger__line {
     width: 22px;
     height: 2px;
-    background: var(--color-primary, #1a2b4c);
+    background: #000;
     border-radius: 2px;
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
@@ -541,7 +541,7 @@ img[alt$="-lrg"] {
     font-size: 1.75rem;
     font-weight: 800;
     font-family: var(--font-secondary);
-    color: var(--color-primary);
+    color: #000;
     margin: 0 0 0.75rem 0;
     letter-spacing: 0.05em;
 }
@@ -566,6 +566,7 @@ img[alt$="-lrg"] {
     width: 40px;
     height: 40px;
     opacity: 0.6;
+    filter: grayscale(1) brightness(0);
 }
 
 .nebula-nav-panel__links {
@@ -1527,8 +1528,8 @@ img[alt$="-lrg"] {
     right: 0;
     bottom: 0;
     background: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(10px) saturate(180%);
-    -webkit-backdrop-filter: blur(10px) saturate(180%);
+    backdrop-filter: blur(6px) saturate(180%);
+    -webkit-backdrop-filter: blur(6px) saturate(180%);
 }
 
 .story-header-minimal.visible {
@@ -1556,6 +1557,7 @@ img[alt$="-lrg"] {
     height: 2.5rem;
     display: block;
     opacity: 0.7;
+    filter: grayscale(1) brightness(0);
 }
 
 .story-header-minimal__info {
@@ -1566,8 +1568,9 @@ img[alt$="-lrg"] {
 .story-header-minimal__title {
     font-size: 1.2rem;
     font-weight: 600;
+    font-family: var(--font-secondary);
     margin: 0 0 0.25rem 0;
-    color: var(--color-primary, #1a2b4c);
+    color: #000;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1575,7 +1578,8 @@ img[alt$="-lrg"] {
 
 .story-header-minimal__author {
     font-size: 0.9rem;
-    color: var(--color-secondary, #4a6d8c);
+    font-family: var(--font-primary);
+    color: #000;
     font-style: italic;
 }
 
