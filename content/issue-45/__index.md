@@ -7,12 +7,11 @@ layout: section
 theme: nebula2026
 issue: Issue 45-test
 subhead: Spring 2026
-issueRoundel: fantasy
-chapterMarker: scifi
+issueRoundel: MythaxisKnot
 
 colorScheme:
-  primary: "#5a3d6e"
-  secondary: "#a8765c"
+  primary: "#39e01b"
+  secondary: "#e75c10"
 
 editor: Andrew Leon Hudson
 image: images/Sanka_footsteps_sqr.jpg

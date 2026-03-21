@@ -21,7 +21,7 @@ slug: twelve-gauge-tune-up
 weight: 3
 ---
 
-{{<glyph>}}D{{</glyph>}}aryl Fox was cleaning his father’s guns at the kitchen table when Arnie Anderson wandered into the house to see if he wanted to play in the woods across the road. At thirteen, Daryl thought they were getting too old for such childish activity, but didn’t say so to Arnie. Just told him no on account of his being busy.
+Daryl Fox was cleaning his father’s guns at the kitchen table when Arnie Anderson wandered into the house to see if he wanted to play in the woods across the road. At thirteen, Daryl thought they were getting too old for such childish activity, but didn’t say so to Arnie. Just told him no on account of his being busy.
 
 “Dad says if I get these rifles oiled up,” he said, “he’ll let me help sight the scopes for hunting season.”
 
@@ -107,9 +107,9 @@ Daryl couldn’t help but stare at Terry’s hands, how they shook as if of thei
 
 “I did.” He glanced at Daryl’s pants pocket. “Still making up for it, in a way.”
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}T{{</glyph>}}hat night, when Thaddeus came home and Uncle Elmore didn’t, Daryl gave him the money and told him about Terry’s visit.
+That night, when Thaddeus came home and Uncle Elmore didn’t, Daryl gave him the money and told him about Terry’s visit.
 
 “Five hundred bucks,” his dad said once he counted the money. Daryl couldn’t tell if he was shocked, disappointed, or what. He set the money on the table in front of him and smoked his cigarette in deep contemplation.
 
@@ -181,9 +181,9 @@ Daryl held out his hand. “What’s it worth to ya?”
 
 Thaddeus puffed his cigarette and exhaled, shaking his head. “Fuckin’ Grand Central Station.”
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}W{{</glyph>}}hen Uncle Elmore came through the next day, and Daryl and Arnie were at the guns again, Daryl didn’t say a word, but he’d forgotten to tell Arnie not to say anything. First thing out of Arnie’s mouth, when Elmore came in shaking off last night’s drunk, was, “Yo, Rip, did you get that money the guy dropped off for you?”
+When Uncle Elmore came through the next day, and Daryl and Arnie were at the guns again, Daryl didn’t say a word, but he’d forgotten to tell Arnie not to say anything. First thing out of Arnie’s mouth, when Elmore came in shaking off last night’s drunk, was, “Yo, Rip, did you get that money the guy dropped off for you?”
 
 Uncle Elmore stared at Arnie as if he’d just heard a monkey talk, then said to Thaddeus, who had just waddled into the kitchen, “What money is this boy talking about, Rooster?”
 
@@ -239,9 +239,9 @@ Daryl gasped and said, “Please don’t tell me that short sumbitch is my old m
 
 “Naw,” Thaddeus said. “He ain’t your daddy. He’s Michael’s.”
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}“D{{</glyph>}}oes your mom know about this?” 
+“Does your mom know about this?” 
 
 “I think my mother would notice if she did or didn’t birth a goddamn baby, Arnie.”
 
@@ -301,9 +301,9 @@ Arnie was eyeballing the rifle, not listening. “Uh-huh.”
 
 “No, Daryl. I mean, we’re thirteen years old. How in the hell are we gonna get to where we’re going?”
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}D{{</glyph>}}aryl’s buddy Hollister had a brother who was old enough to drink and drive, but once Daryl told him why he needed a ride, he demanded a cut of the extortion money. Russ – that’s Hollister’s brother – was to be like a getaway driver, only he was to be their *get-to* driver. Then Daryl had to agree to give Hollister a piece of the take, too, since he was the one who had organized his brother’s participation.
+Daryl’s buddy Hollister had a brother who was old enough to drink and drive, but once Daryl told him why he needed a ride, he demanded a cut of the extortion money. Russ – that’s Hollister’s brother – was to be like a getaway driver, only he was to be their *get-to* driver. Then Daryl had to agree to give Hollister a piece of the take, too, since he was the one who had organized his brother’s participation.
 
 Finding Michael was the easy part. Turned out he wasn’t in hiding; just didn’t care to come around. Daryl’s mom had his address, and all he had to do was ask for it. Locating Terry was another story, but that’s where Russ came in. He had a friend who worked in County Corrections, got him to look up Terry’s arrest record, and found his address off his parole documents. Discovered Terry was a fifteen-minute drive away, living in Lot #17 at the trailer park the next town over. Bing-bang-boom, the plan was unfolding, and they were set to go on the fourth day after Terry’s first appearance. 
 
@@ -369,9 +369,9 @@ Terry was telling his story to the wall, didn’t see Daryl scowl; there went hi
 
 Terry’s face turned sour. “I changed my mind. Finish your beers outside.”
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}C{{</glyph>}}lose to two hours of daylight left, the boys walked most of the way home with their thumbs sticking up. Walked the shoulder of the road a good forty-five minutes before someone picked them up, and by that time they were two minutes from Arnie’s and another three from Daryl’s.
+Close to two hours of daylight left, the boys walked most of the way home with their thumbs sticking up. Walked the shoulder of the road a good forty-five minutes before someone picked them up, and by that time they were two minutes from Arnie’s and another three from Daryl’s.
 
 Daryl’s legs were sore and jelly-like when he climbed up the back porch and went into the house, for once finding nobody inside. Then he heard the gunfire beyond the backyard, along with the raucous, drunken laughter of his father Rooster, and his uncle Rip. They had likely gone out to sight their rifles – without Daryl no less – and had gotten drunk and kept on shooting at nothing in particular until their own sights had gone crossed.
 
@@ -399,9 +399,9 @@ He sure did, and he told him so. Told him everything, his and Arnie’s plan, Ho
 
 When Daryl finished spilling his guts to his dad, he expected a whooping, maybe a few belts across the ass with the shotgun he was clutching. Throw a beer bottle at his head or something – you know, the usual. Instead, Thaddeus shut his eyes and smirked, went back to swaying for a moment, and said, “Fire up the truck, Daryl. We got a house call of our own to make.”
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}D{{</glyph>}}aryl told his father where Hollister and Russ lived, and five minutes into the drive, he realized they weren’t headed to where he’d thought. Ten minutes after that, when his dad stopped at Terry’s trailer, he said, “What are we doing here?”
+Daryl told his father where Hollister and Russ lived, and five minutes into the drive, he realized they weren’t headed to where he’d thought. Ten minutes after that, when his dad stopped at Terry’s trailer, he said, “What are we doing here?”
 
 Thaddeus opened his door, got out, and nabbed the twelve gauge off the rack behind the seats. “Teachin’,” he said.
 
@@ -429,9 +429,9 @@ As Thaddeus took a wide stance and stood over him, Terry shielded his face with 
 
 “Terry, I ain’t gonna hurt your face. God already done enough damage to that. But I am gonna need you to put your hands on the floor. Same way as the last time.”
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}T{{</glyph>}}erry’s screams of agony were still echoing in Daryl’s ears when they were back in the truck. He couldn’t believe such girlish cries could emanate from a full-grown man. Couldn’t blame him one bit, though, for if Daryl had been on the receiving end of his father’s wrath – which he had been from time to time – he’d have yowled just the same.
+Terry’s screams of agony were still echoing in Daryl’s ears when they were back in the truck. He couldn’t believe such girlish cries could emanate from a full-grown man. Couldn’t blame him one bit, though, for if Daryl had been on the receiving end of his father’s wrath – which he had been from time to time – he’d have yowled just the same.
 
 Wasn’t only the sounds that had come from his mouth that Daryl kept playing over in his mind; it was the noise his hands made when his father jabbed the shotgun stock down on them like he was driving a posthole digger into the ground. The smacks and plops… the shattering and popping of the man’s fingers and knuckles…
 
@@ -466,7 +466,5 @@ After Daryl told him where to go, his father said, “Two boys, uh? Think you ca
 “You’ll need a hand, then.”
 
 “Hell, Dad, I might need two,” Daryl said, and shared a rare laugh with his father.
-
-![Orbit-lrg](images/Orbit.svg)
 
 *Thanks for reading - but we'd love feedback! Let us know what you think of **Twelve Gauge Tune-up** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

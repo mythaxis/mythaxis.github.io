@@ -27,14 +27,19 @@
       return;
     }
 
+    var headerLogo = document.getElementById('nebula-menu-trigger');
     var isOpen = false;
     var ticking = false;
     var snapTimer = null;
+    var triggerElement = null;
     var isMobile = window.matchMedia('(max-width: 736px)').matches;
 
-    // Landing pages: make header sticky
+    // Landing pages: make header sticky, hide logotype initially (big intro version visible)
     if (intro && header) {
       header.classList.add('nebula-header--sticky');
+      if (headerLogo) {
+        headerLogo.classList.add('nebula-header__logo--hidden');
+      }
     }
 
     // Burger starts hidden on all pages — appears when header scrolls out
@@ -74,6 +79,17 @@
           }
         }
       }
+
+      // Landing pages: fade header logotype in when intro scrolls away
+      if (intro && headerLogo) {
+        var introBottom = intro.getBoundingClientRect().bottom;
+        var headerHeight = header ? header.offsetHeight : 0;
+        if (introBottom <= headerHeight) {
+          headerLogo.classList.remove('nebula-header__logo--hidden');
+        } else {
+          headerLogo.classList.add('nebula-header__logo--hidden');
+        }
+      }
     }
 
     window.addEventListener('scroll', function() {
@@ -91,6 +107,7 @@
     // --- Panel open/close ---
 
     function openPanel() {
+      triggerElement = document.activeElement;
       isOpen = true;
       panel.classList.add('nebula-nav-panel--open');
       panel.setAttribute('aria-hidden', 'false');
@@ -99,6 +116,8 @@
       burger.setAttribute('aria-expanded', 'true');
       burger.setAttribute('aria-label', 'Close menu');
       document.body.classList.add('no-scroll');
+      var firstLink = panel.querySelector('.nebula-nav-panel__link');
+      if (firstLink) firstLink.focus();
     }
 
     function closePanel() {
@@ -110,6 +129,7 @@
       burger.setAttribute('aria-expanded', 'false');
       burger.setAttribute('aria-label', 'Open menu');
       document.body.classList.remove('no-scroll');
+      if (triggerElement) triggerElement.focus();
     }
 
     function togglePanel() {
@@ -142,7 +162,6 @@
       }
     });
 
-    console.log('[nebula-nav] Initialized');
   }
 
   if (document.readyState === 'loading') {

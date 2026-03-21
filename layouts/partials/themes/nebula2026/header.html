@@ -23,6 +23,9 @@
       {{ with $section.Params.subhead }}<span class="nebula-header__subhead">{{ . }}</span>{{ end }}
     </a>
     {{ end }}
-    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu">Mythaxis</button>
+    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu" aria-controls="nebula-nav-panel">
+      <span>Mythaxis</span>
+      <span class="nebula-header__logo-roundel" aria-hidden="true"></span>
+    </button>
   </div>
 </header>

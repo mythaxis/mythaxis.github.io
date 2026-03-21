@@ -17,7 +17,7 @@
     {{ if $page.Params.image }}
     <div class="nebula-card-image">
         <a href="{{ $page.Permalink }}">
-            <img src="{{ path.Join $page.Section $page.Params.image | relURL }}" alt="Story image for {{ $page.Title }}" />
+            <img src="{{ path.Join $page.Section $page.Params.image | relURL }}" alt="" />
         </a>
     </div>
     {{ end }}

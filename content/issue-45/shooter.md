@@ -21,7 +21,7 @@ slug: shooter
 weight: 2
 ---
 
-{{<glyph>}}T{{</glyph>}}he forecast that weekend called for 4th of July perfection: cloudless blue skies, a dulcet southwesterly breeze, and a high of eighty-eight, with barely a five percent chance of a corpse-strewn massacre.
+The forecast that weekend called for 4th of July perfection: cloudless blue skies, a dulcet southwesterly breeze, and a high of eighty-eight, with barely a five percent chance of a corpse-strewn massacre.
 
 “Does five percent sound a bit high to anyone else?” Gwethanie asked, pulling her suitcase from the yawning trunk of the SUV. Her bag was the size of a laptop carry-on because all she’d packed were bikinis and morning-after pills.
 
@@ -180,7 +180,5 @@ In the periphery of the trees, spread out through the brush, they could just mak
 Vicarious nodded.
 
 They took hold of each other’s hand and, in that split second before all went black, let their gaze drift beyond, to a better place, one of eternal peace, where goodness and mercy reign and salvation comes not from the barrel of a gun, but from everlasting love. Canada perhaps.
-
-![Orbit-lrg](images/Orbit.svg)
 
 *Thanks for reading - but we'd love feedback! Let us know what you think of **Shooter** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*
