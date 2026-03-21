@@ -1,49 +1,24 @@
 {{/*
-  Nebula2026 Theme - Featured Article Partial
-  ============================================
-  Modern featured story card with enhanced styling.
-
-  Expects context from theme-dispatch:
-    .Page    - The stock page being rendered
-    .Section - The current section
-    .Theme   - The theme name
-    .Data    - Any extra data passed
+  Nebula2026 Theme - Featured Article (Split Layout Lead)
+  =======================================================
+  Full-width image/text split for the lead story.
 */}}
 
 {{- $page := .Page -}}
 
-<!-- Featured Post -->
-<article class="post featured nebula-featured">
+<article class="nebula-split-lead">
     {{ if $page.Params.image }}
-    <div class="nebula-featured-image">
+    <div class="nebula-split-lead__image">
         <a href="{{ $page.Permalink }}">
             <img src="{{ path.Join $page.Section $page.Params.image | relURL }}" alt="" />
-            <div class="nebula-featured-overlay"></div>
         </a>
     </div>
     {{ end }}
-    
-    <div class="nebula-featured-content">
-        <header class="major nebula-featured-header">
-            <span class="nebula-featured-authors">{{ collections.Delimit $page.Params.authors ", " }}</span>
-            <h2 class="nebula-featured-title"><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h2>
-        </header>
-
+    <div class="nebula-split-lead__text">
+        <span class="nebula-split-lead__authors">{{ collections.Delimit $page.Params.authors ", " }}</span>
+        <h2 class="nebula-split-lead__title"><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h2>
         {{ if $page.Description }}
-        <p class="nebula-featured-description">{{ $page.Description }}</p>
-        {{ else }}
-        <p class="nebula-featured-description">{{ $page.Summary }}</p>
-        {{ end }}
-
-        {{ if $page.Params.morelink }}
-        <div class="nebula-featured-actions">
-            <a href="{{ $page.Permalink }}" class="nebula-button">
-                {{ $page.Params.morelink }}
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <path d="M5 12h14M12 5l7 7-7 7"/>
-                </svg>
-            </a>
-        </div>
+        <p class="nebula-split-lead__description">{{ $page.Description }}</p>
         {{ end }}
     </div>
 </article>

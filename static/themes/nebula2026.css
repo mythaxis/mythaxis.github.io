@@ -619,105 +619,62 @@ img[alt$="-lrg"] {
 }
 
 
-/* Featured Article
+/* Alternating Split — Lead Story
    ========================================================================== */
 
-.nebula-featured {
-    position: relative;
-    overflow: hidden;
-    border: 1px solid var(--color-border, #e9ecef);
-    border-radius: 1rem;
-    background: white;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-}
-
-.nebula-featured-image {
-    position: relative;
-    overflow: hidden;
-}
-
-.nebula-featured-image img {
-    width: 100%;
-    max-height: 200px;
-    object-fit: cover;
-    border-radius: 1rem 1rem 0 0;
-    transition: transform 0.5s ease;
-}
-
-.nebula-featured:hover .nebula-featured-image img {
-    transform: scale(1.05);
-}
-
-.nebula-featured-overlay {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(180deg, transparent 50%, rgba(15, 15, 35, 0.8) 100%);
-}
-
-.nebula-featured-content {
+.nebula-split-lead {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    align-items: center;
 }
 
-.nebula-featured-authors {
-    display: inline-block;
+.nebula-split-lead__image img {
+    width: 100%;
+    height: 100%;
+    max-height: 420px;
+    object-fit: cover;
+    display: block;
+}
+
+.nebula-split-lead__authors {
+    display: block;
+    font-size: 0.9rem;
+    font-style: italic;
     color: var(--color-secondary);
-    font-weight: 600;
-    font-size: 0.875rem;
-    letter-spacing: 0.05em;
     margin-bottom: 0.5rem;
 }
 
-.nebula-featured-title {
-    font-size: 2rem;
+.nebula-split-lead__title {
+    font-size: 2.25rem;
     font-family: var(--font-secondary);
-    margin-bottom: 1rem;
+    line-height: 1.15;
+    margin: 0 0 0.75rem 0;
 }
 
-.nebula-featured-title a {
+.nebula-split-lead__title a {
     color: var(--color-primary);
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
-/* Stretched link — makes entire featured card clickable */
-.nebula-featured-title a::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    z-index: 1;
+.nebula-split-lead__title a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
 }
 
-.nebula-featured-title a:hover {
-    color: var(--color-primary);
-}
-
-.nebula-featured-description {
-    color: var(--color-text-light);
+.nebula-split-lead__description {
+    font-size: 1.0625rem;
     line-height: 1.7;
-}
-
-.nebula-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.75rem 1.5rem;
-    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-    color: white;
-    text-decoration: none;
-    border-radius: 0.5rem;
-    font-weight: 600;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.nebula-button:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px color-mix(in srgb, var(--color-primary) 40%, transparent);
-    color: white;
+    color: var(--color-text-light);
+    margin: 0;
 }
 
 
-/* Scroll Snap — whole-page snap on intro, featured, and cards
+/* Alternating Split — Story Rows
    ========================================================================== */
 
 /* Massively base sets overflow:hidden on #wrapper — override only on landing
@@ -726,201 +683,74 @@ img[alt$="-lrg"] {
     overflow: visible;
 }
 
-html:has(body.theme-nebula2026 #intro) {
-    scroll-snap-type: y proximity;
-}
-
-.theme-nebula2026 .nebula-intro {
-    scroll-snap-align: start;
-}
-
-.theme-nebula2026 .nebula-featured,
-.theme-nebula2026 .nebula-card {
-    scroll-snap-align: start;
-    scroll-margin-top: 44px;           /* clear sticky header */
-}
-
-@media (max-width: 736px) {
-    html:has(body.theme-nebula2026 #intro) {
-        scroll-snap-type: y proximity;
-    }
-
-    /* Full-width cards on mobile — only on landing pages (with #intro) */
-    .theme-nebula2026 #wrapper:has(#intro) #main {
-        width: 100%;
-        margin: 0;
-    }
-
-    .theme-nebula2026 #main > .nebula-featured,
-    .theme-nebula2026 #main > .posts {
-        padding: 0;
-        border-top: none;
-    }
-
-    .theme-nebula2026 .posts {
-        padding: 0;
-        gap: 0;
-    }
-
-    .theme-nebula2026 #main > .posts > article {
-        padding: 0;
-        border: none;
-    }
-
-    /* Full-viewport-height cards — image fills remaining space */
-    .theme-nebula2026 .nebula-card {
-        border-radius: 0;
-        border-left: none;
-        border-right: none;
-        min-height: calc(100vh - 44px);
-        display: flex;
-        flex-direction: column;
-    }
-
-    .theme-nebula2026 .nebula-card-image {
-        flex: 1;
-        min-height: 0;
-    }
-
-    .theme-nebula2026 .nebula-card-image img {
-        border-radius: 0;
-        max-height: none;
-        height: 100%;
-    }
-
-    .theme-nebula2026 .nebula-featured {
-        border-radius: 0;
-        border-left: none;
-        border-right: none;
-        min-height: calc(100vh - 44px);
-        display: flex;
-        flex-direction: column;
-    }
-
-    .theme-nebula2026 .nebula-featured-image {
-        flex: 1;
-        min-height: 0;
-    }
-
-    .theme-nebula2026 .nebula-featured-image img {
-        border-radius: 0;
-        max-height: none;
-        height: 100%;
-    }
-}
-
-
-/* Posts Grid — Two-column card layout
-   ========================================================================== */
-
 .theme-nebula2026 .posts {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.nebula-split-row {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    padding: 1.5rem;
+    grid-template-columns: 2fr 3fr;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem 0;
+    border-top: 1px solid var(--color-border, #e0e0e0);
 }
 
-@media (min-width: 737px) {
-    .theme-nebula2026 .posts {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
-        padding: 2rem;
-    }
+.nebula-split-row:last-child {
+    border-bottom: 1px solid var(--color-border, #e0e0e0);
 }
 
-
-/* Card Grid (List Items)
-   ========================================================================== */
-
-.nebula-card {
-    position: relative;
-    background: white;
-    border: 1px solid var(--color-border, #e9ecef);
-    border-radius: 1rem;
-    overflow: hidden;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    cursor: pointer;
+/* Alternate direction: even rows flip image to right */
+.nebula-split-row:nth-child(even) {
+    direction: rtl;
 }
 
-.nebula-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+.nebula-split-row:nth-child(even) > * {
+    direction: ltr;
 }
 
-.nebula-card-image {
-    overflow: hidden;
-}
-
-.nebula-card-image img {
+.nebula-split-row__image img {
     width: 100%;
-    max-height: 200px;
+    height: 200px;
     object-fit: cover;
-    border-radius: 1rem 1rem 0 0;
-    transition: transform 0.5s ease;
+    display: block;
 }
 
-.nebula-card:hover .nebula-card-image img {
-    transform: scale(1.05);
-}
-
-.nebula-card-content {
-    padding: 1.5rem;
-}
-
-.nebula-card-title {
-    font-size: 1.25rem;
+.nebula-split-row__title {
+    font-size: 1.375rem;
     font-family: var(--font-secondary);
-    margin-bottom: 0.25rem;
+    line-height: 1.25;
+    margin: 0 0 0.25rem 0;
 }
 
-.nebula-card-title a {
+.nebula-split-row__title a {
     color: var(--color-primary);
     text-decoration: none;
-    transition: color 0.3s ease;
 }
 
-/* Stretched link — makes entire card clickable */
-.nebula-card-title a::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    z-index: 1;
+.nebula-split-row__title a:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
-.nebula-card-title a:hover {
-    color: var(--color-primary);
-}
-
-.nebula-card-authors {
+.nebula-split-row__authors {
     display: block;
-    color: var(--color-secondary);
     font-size: 0.875rem;
-    font-weight: 500;
-    margin-bottom: 0.75rem;
+    font-style: italic;
+    color: var(--color-secondary);
+    margin-bottom: 0.5rem;
 }
 
-.nebula-card-description {
-    color: var(--color-text-light);
+.nebula-split-row__description {
     font-size: 0.9375rem;
     line-height: 1.6;
-}
-
-.nebula-button-small {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-    color: white;
-    text-decoration: none;
-    border-radius: 1rem;
-    font-size: 0.875rem;
-    font-weight: 600;
-    transition: transform 0.3s ease;
-}
-
-.nebula-button-small:hover {
-    transform: translateY(-1px);
-    color: white;
+    color: var(--color-text-light);
+    margin: 0;
 }
 
 
@@ -1394,8 +1224,30 @@ html:has(body.theme-nebula2026 #intro) {
     .nebula-subtitle {
         font-size: 1.25rem;
     }
-    .nebula-featured-title {
+    .nebula-split-lead__title {
         font-size: 1.5rem;
+    }
+    .nebula-split-lead {
+        grid-template-columns: 1fr;
+        padding: 1.5rem 1rem;
+        gap: 1rem;
+    }
+    .theme-nebula2026 .posts {
+        padding: 0 1rem 1.5rem;
+    }
+    .nebula-split-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1.25rem 0;
+    }
+    .nebula-split-row:nth-child(even) {
+        direction: ltr;
+    }
+    .nebula-split-row__image img {
+        height: 180px;
+    }
+    .nebula-split-row__title {
+        font-size: 1.2rem;
     }
     .nebula-article-title {
         font-size: 1.75rem;
