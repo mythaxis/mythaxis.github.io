@@ -30,8 +30,7 @@
 				rgba(255,255,255,0) 20%
 			)
 			,
-			url({{ path.Join $section.Section $section.Params.image | relURL }}
-		);
+			url({{ $section.Params.image }});
 		background-size: auto, 100% auto;
 		background-position: bottom, top center;
 		background-repeat: no-repeat, no-repeat;
@@ -41,7 +40,7 @@
 	{{ if $section.Params.imageMobile }}
 	@media screen and (max-width: 980px) {
 		#wrapper > .bg {
-		    background-image: url({{ path.Join $section.Section $section.Params.imageMobile | relURL }});
+		    background-image: url({{ $section.Params.imageMobile }});
 		}
 	}
 	@media screen and (max-width: 500px) {
