@@ -46,6 +46,109 @@
     font-display: swap;
 }
 
+
+/* Design Tokens
+   ========================================================================== */
+
+:root {
+    /* Colors */
+    --color-primary: #1a2b4c;
+    --color-secondary: #4a6d8c;
+    --color-accent: #7c5295;
+    --color-primary-light: color-mix(in srgb, var(--color-primary) 70%, white);
+    --color-primary-dark: color-mix(in srgb, var(--color-primary) 80%, black);
+    --color-secondary-light: color-mix(in srgb, var(--color-secondary) 70%, white);
+    --color-secondary-dark: color-mix(in srgb, var(--color-secondary) 80%, black);
+    --color-accent-light: color-mix(in srgb, var(--color-accent) 70%, white);
+    --color-accent-dark: color-mix(in srgb, var(--color-accent) 80%, black);
+    --color-text: #333333;
+    --color-text-light: #666666;
+    --color-text-muted: #999999;
+    --color-background: #ffffff;
+    --color-surface: #f8f9fa;
+    --color-border: #e9ecef;
+    --color-shadow: rgba(0, 0, 0, 0.1);
+
+    /* Typography */
+    --font-primary: 'Alegreya', Georgia, "Times New Roman", serif;
+    --font-secondary: 'Alegreya', Georgia, "Times New Roman", serif;
+    --text-xs: 0.75rem;
+    --text-sm: 0.875rem;
+    --text-base: 1rem;
+    --text-lg: 1.125rem;
+    --text-xl: 1.25rem;
+    --text-2xl: 1.5rem;
+    --text-3xl: 1.875rem;
+    --text-4xl: 2.25rem;
+    --text-5xl: 3rem;
+    --leading-tight: 1.25;
+    --leading-normal: 1.5;
+    --leading-relaxed: 1.75;
+    --font-light: 300;
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+
+    /* Spacing */
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+    --space-20: 5rem;
+
+    /* Borders & Shadows */
+    --radius-sm: 0.125rem;
+    --radius-base: 0.25rem;
+    --radius-md: 0.375rem;
+    --radius-lg: 0.5rem;
+    --radius-xl: 0.75rem;
+    --radius-2xl: 1rem;
+    --radius-full: 9999px;
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+    /* Transitions */
+    --transition-fast: 150ms ease-in-out;
+    --transition-base: 250ms ease-in-out;
+    --transition-slow: 350ms ease-in-out;
+    --transition-slower: 500ms ease-in-out;
+
+    /* Z-index scale */
+    --z-dropdown: 1000;
+    --z-sticky: 1020;
+    --z-fixed: 1030;
+    --z-modal-backdrop: 1040;
+    --z-modal: 1050;
+    --z-popover: 1060;
+    --z-tooltip: 1070;
+
+    /* Component tokens */
+    --card-width: 300px;
+    --card-height: 400px;
+    --card-image-height: 200px;
+    --card-radius: var(--radius-lg);
+    --roundel-sm: 50px;
+    --roundel-md: 100px;
+    --roundel-lg: 200px;
+    --grid-gap: var(--space-6);
+}
+
+.theme-nebula2026 {
+    font-family: var(--font-primary);
+}
+
+
 /* Reset default body margin — flush to edges */
 .theme-nebula2026 {
     margin: 0;
@@ -200,7 +303,7 @@ img[alt$="-lrg"] {
 
 .nebula-issue-badge {
     display: inline-block;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
     color: white;
     padding: 0.5rem 1.5rem;
     border-radius: 2rem;
@@ -214,12 +317,8 @@ img[alt$="-lrg"] {
 .nebula-title {
     font-size: 4rem;
     font-weight: 800;
-    background: linear-gradient(135deg, #fff 0%, #a78bfa 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--color-primary);
     margin-bottom: 0.5rem;
-    text-shadow: none;
 }
 
 .nebula-subtitle {
@@ -248,7 +347,7 @@ img[alt$="-lrg"] {
 }
 
 .nebula-scroll-indicator a:hover {
-    color: #a78bfa;
+    color: var(--color-secondary);
     transform: translateY(4px);
 }
 
@@ -308,7 +407,7 @@ img[alt$="-lrg"] {
 
 .nebula-header__badge {
     display: inline-block;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
     color: white;
     padding: 0.25rem 0.75rem;
     border-radius: 1rem;
@@ -330,10 +429,7 @@ img[alt$="-lrg"] {
     border: none;
     padding: 0;
     cursor: pointer;
-    background: linear-gradient(135deg, #fff 0%, #a78bfa 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--color-primary);
     transition: opacity 0.3s ease;
 }
 
@@ -388,7 +484,7 @@ img[alt$="-lrg"] {
     transform: translateX(-50%);
     width: 0;
     height: 2px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
     transition: width 0.3s ease;
 }
 
@@ -619,7 +715,7 @@ img[alt$="-lrg"] {
 
 .nebula-featured-authors {
     display: inline-block;
-    color: #764ba2;
+    color: var(--color-secondary);
     font-weight: 600;
     font-size: 0.875rem;
     letter-spacing: 0.05em;
@@ -632,7 +728,7 @@ img[alt$="-lrg"] {
 }
 
 .nebula-featured-title a {
-    color: #1a1a2e;
+    color: var(--color-primary);
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -646,11 +742,11 @@ img[alt$="-lrg"] {
 }
 
 .nebula-featured-title a:hover {
-    color: #667eea;
+    color: var(--color-primary);
 }
 
 .nebula-featured-description {
-    color: #666;
+    color: var(--color-text-light);
     line-height: 1.7;
 }
 
@@ -659,7 +755,7 @@ img[alt$="-lrg"] {
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 1.5rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
     color: white;
     text-decoration: none;
     border-radius: 0.5rem;
@@ -669,7 +765,7 @@ img[alt$="-lrg"] {
 
 .nebula-button:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 4px 15px color-mix(in srgb, var(--color-primary) 40%, transparent);
     color: white;
 }
 
@@ -832,7 +928,7 @@ html:has(body.theme-nebula2026 #intro) {
 }
 
 .nebula-card-title a {
-    color: #1a1a2e;
+    color: var(--color-primary);
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -846,19 +942,19 @@ html:has(body.theme-nebula2026 #intro) {
 }
 
 .nebula-card-title a:hover {
-    color: #667eea;
+    color: var(--color-primary);
 }
 
 .nebula-card-authors {
     display: block;
-    color: #764ba2;
+    color: var(--color-secondary);
     font-size: 0.875rem;
     font-weight: 500;
     margin-bottom: 0.75rem;
 }
 
 .nebula-card-description {
-    color: #666;
+    color: var(--color-text-light);
     font-size: 0.9375rem;
     line-height: 1.6;
 }
@@ -866,7 +962,7 @@ html:has(body.theme-nebula2026 #intro) {
 .nebula-button-small {
     display: inline-block;
     padding: 0.5rem 1rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
     color: white;
     text-decoration: none;
     border-radius: 1rem;
@@ -899,7 +995,7 @@ html:has(body.theme-nebula2026 #intro) {
 }
 
 .nebula-article-authors {
-    color: #764ba2;
+    color: var(--color-secondary);
     font-weight: 600;
     font-size: 1rem;
     letter-spacing: 0.05em;
@@ -907,7 +1003,7 @@ html:has(body.theme-nebula2026 #intro) {
 
 .nebula-article-title {
     font-size: 2.5rem;
-    color: #1a1a2e;
+    color: var(--color-primary);
     margin-bottom: 1.5rem;
     line-height: 1.2;
 }
@@ -933,7 +1029,7 @@ html:has(body.theme-nebula2026 #intro) {
     max-width: 700px;
     margin: 2rem auto;
     padding: 1rem 2rem;
-    background: #f8f9fa;
+    background: var(--color-surface);
     border-radius: 0.5rem;
 }
 
@@ -944,7 +1040,7 @@ html:has(body.theme-nebula2026 #intro) {
 .nebula-article-content {
     font-size: 1.125rem;
     line-height: 1.8;
-    color: #333;
+    color: var(--color-text);
 }
 
 .nebula-article-footer {
@@ -953,7 +1049,7 @@ html:has(body.theme-nebula2026 #intro) {
 }
 
 .nebula-support-text {
-    color: #666;
+    color: var(--color-text-light);
     font-size: 0.9375rem;
 }
 
@@ -981,19 +1077,19 @@ html:has(body.theme-nebula2026 #intro) {
 
 .nebula-page-title {
     font-size: 2.5rem;
-    color: #1a1a2e;
+    color: var(--color-primary);
     margin-bottom: 0.5rem;
     line-height: 1.2;
 }
 
 .nebula-page-author {
-    color: #764ba2;
+    color: var(--color-secondary);
     font-weight: 600;
     margin-bottom: 0.5rem;
 }
 
 .nebula-page-description {
-    color: #666;
+    color: var(--color-text-light);
     font-size: 1.125rem;
 }
 
@@ -1011,7 +1107,7 @@ html:has(body.theme-nebula2026 #intro) {
 .nebula-page-content {
     font-size: 1.125rem;
     line-height: 1.8;
-    color: #333;
+    color: var(--color-text);
 }
 
 
@@ -1031,20 +1127,20 @@ html:has(body.theme-nebula2026 #intro) {
 
 .nebula-catalogue-header h1 {
     font-size: 2.5rem;
-    color: #1a1a2e;
+    color: var(--color-primary);
     margin-bottom: 0.5rem;
     line-height: 1.2;
 }
 
 .nebula-catalogue-count {
-    color: #666;
+    color: var(--color-text-light);
     font-size: 1rem;
 }
 
 .nebula-catalogue-intro {
     font-size: 1.125rem;
     line-height: 1.8;
-    color: #333;
+    color: var(--color-text);
     margin-bottom: 2rem;
 }
 
@@ -1073,7 +1169,7 @@ html:has(body.theme-nebula2026 #intro) {
 }
 
 .nebula-nav-separator {
-    color: #ccc;
+    color: var(--color-border);
 }
 
 /* Authors list */
@@ -1085,7 +1181,7 @@ html:has(body.theme-nebula2026 #intro) {
     display: flex;
     gap: 1.5rem;
     padding: 0.75rem 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--color-border);
 }
 
 .nebula-author-entry:last-child {
@@ -1094,7 +1190,7 @@ html:has(body.theme-nebula2026 #intro) {
 
 .nebula-author-entry .nebula-author-name {
     font-size: 1rem;
-    color: #1a1a2e;
+    color: var(--color-primary);
     margin: 0;
     min-width: 200px;
     flex-shrink: 0;
@@ -1123,7 +1219,7 @@ html:has(body.theme-nebula2026 #intro) {
 }
 
 .nebula-work-date {
-    color: #999;
+    color: var(--color-text-muted);
     font-size: 0.875rem;
 }
 
@@ -1138,7 +1234,7 @@ html:has(body.theme-nebula2026 #intro) {
     align-items: baseline;
     gap: 1rem;
     padding: 0.5rem 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--color-border);
 }
 
 .nebula-catalogue-link {
@@ -1153,7 +1249,7 @@ html:has(body.theme-nebula2026 #intro) {
 }
 
 .nebula-catalogue-author {
-    color: #999;
+    color: var(--color-text-muted);
     font-size: 0.875rem;
     white-space: nowrap;
 }
@@ -1168,11 +1264,11 @@ html:has(body.theme-nebula2026 #intro) {
     align-items: baseline;
     gap: 1rem;
     padding: 0.5rem 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--color-border);
 }
 
 .nebula-editorial-issue {
-    color: #999;
+    color: var(--color-text-muted);
     font-size: 0.8rem;
     white-space: nowrap;
     min-width: 5rem;
@@ -1190,7 +1286,7 @@ html:has(body.theme-nebula2026 #intro) {
 }
 
 .nebula-editorial-author {
-    color: #999;
+    color: var(--color-text-muted);
     font-size: 0.875rem;
     margin-left: 0.5rem;
 }
@@ -1226,14 +1322,14 @@ html:has(body.theme-nebula2026 #intro) {
 
 .nebula-genre-title {
     font-size: 1.25rem;
-    color: #1a1a2e;
+    color: var(--color-primary);
     margin: 0 0 0.75rem 0;
     padding-bottom: 0.5rem;
     border-bottom: 2px solid var(--color-primary, #1a2b4c);
 }
 
 .nebula-genre-count {
-    color: #999;
+    color: var(--color-text-muted);
     font-weight: 400;
 }
 
@@ -1258,7 +1354,7 @@ html:has(body.theme-nebula2026 #intro) {
 }
 
 .nebula-item-author {
-    color: #999;
+    color: var(--color-text-muted);
     font-size: 0.875rem;
     margin-left: 0.5rem;
 }
@@ -1380,107 +1476,6 @@ html:has(body.theme-nebula2026 #intro) {
    PART 4: Snarktank/Synth Design System — Merged CSS
    Resolved from SCSS: variables substituted, nesting flattened, mixins inlined
    ========================================================================== */
-
-/* Design Tokens (from _variables.scss)
-   ========================================================================== */
-
-:root {
-    /* Colors */
-    --color-primary: #1a2b4c;
-    --color-secondary: #4a6d8c;
-    --color-accent: #7c5295;
-    --color-primary-light: color-mix(in srgb, var(--color-primary) 70%, white);
-    --color-primary-dark: color-mix(in srgb, var(--color-primary) 80%, black);
-    --color-secondary-light: color-mix(in srgb, var(--color-secondary) 70%, white);
-    --color-secondary-dark: color-mix(in srgb, var(--color-secondary) 80%, black);
-    --color-accent-light: color-mix(in srgb, var(--color-accent) 70%, white);
-    --color-accent-dark: color-mix(in srgb, var(--color-accent) 80%, black);
-    --color-text: #333333;
-    --color-text-light: #666666;
-    --color-text-muted: #999999;
-    --color-background: #ffffff;
-    --color-surface: #f8f9fa;
-    --color-border: #e9ecef;
-    --color-shadow: rgba(0, 0, 0, 0.1);
-
-    /* Typography */
-    --font-primary: 'Alegreya', Georgia, "Times New Roman", serif;
-    --font-secondary: 'Alegreya', Georgia, "Times New Roman", serif;
-    --text-xs: 0.75rem;
-    --text-sm: 0.875rem;
-    --text-base: 1rem;
-    --text-lg: 1.125rem;
-    --text-xl: 1.25rem;
-    --text-2xl: 1.5rem;
-    --text-3xl: 1.875rem;
-    --text-4xl: 2.25rem;
-    --text-5xl: 3rem;
-    --leading-tight: 1.25;
-    --leading-normal: 1.5;
-    --leading-relaxed: 1.75;
-    --font-light: 300;
-    --font-normal: 400;
-    --font-medium: 500;
-    --font-semibold: 600;
-    --font-bold: 700;
-
-    /* Spacing */
-    --space-1: 0.25rem;
-    --space-2: 0.5rem;
-    --space-3: 0.75rem;
-    --space-4: 1rem;
-    --space-5: 1.25rem;
-    --space-6: 1.5rem;
-    --space-8: 2rem;
-    --space-10: 2.5rem;
-    --space-12: 3rem;
-    --space-16: 4rem;
-    --space-20: 5rem;
-
-    /* Borders & Shadows */
-    --radius-sm: 0.125rem;
-    --radius-base: 0.25rem;
-    --radius-md: 0.375rem;
-    --radius-lg: 0.5rem;
-    --radius-xl: 0.75rem;
-    --radius-2xl: 1rem;
-    --radius-full: 9999px;
-    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-    --shadow-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
-    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-    --shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-
-    /* Transitions */
-    --transition-fast: 150ms ease-in-out;
-    --transition-base: 250ms ease-in-out;
-    --transition-slow: 350ms ease-in-out;
-    --transition-slower: 500ms ease-in-out;
-
-    /* Z-index scale */
-    --z-dropdown: 1000;
-    --z-sticky: 1020;
-    --z-fixed: 1030;
-    --z-modal-backdrop: 1040;
-    --z-modal: 1050;
-    --z-popover: 1060;
-    --z-tooltip: 1070;
-
-    /* Component tokens */
-    --card-width: 300px;
-    --card-height: 400px;
-    --card-image-height: 200px;
-    --card-radius: var(--radius-lg);
-    --roundel-sm: 50px;
-    --roundel-md: 100px;
-    --roundel-lg: 200px;
-    --grid-gap: var(--space-6);
-}
-
-.theme-nebula2026 {
-    font-family: var(--font-primary);
-}
 
 /* Print Styles (from _responsive.scss)
    ========================================================================== */
@@ -1997,13 +1992,13 @@ html:has(body.theme-nebula2026 #intro) {
 .nebula-copyright-text,
 .nebula-image-copyright {
     font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
     margin: 0 0 0.25rem 0;
     line-height: 1.5;
 }
 
 .nebula-image-copyright a {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.9);
     text-decoration: underline;
 }
 
@@ -2129,14 +2124,14 @@ html:has(body.theme-nebula2026 #intro) {
     font-size: 0.7rem;
     letter-spacing: 0.02em;
     line-height: 1.6;
-    color: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.4);
     transition: color 0.5s ease;
 }
 
 .nebula-copyright:hover .nebula-copyright-main,
 .nebula-copyright:hover .nebula-copyright-secondary,
 .nebula-copyright:hover .nebula-copyright-notice {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .nebula-copyright-main strong {
