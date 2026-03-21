@@ -1,19 +1,20 @@
 /**
  * Nebula2026 Chapter Markers
  * ===========================
- * Replaces <hr> tags with genre-specific roundel images.
- * Validates genre against whitelist; falls back to orbit on invalid
- * genre or missing image.
+ * Replaces <hr> tags with roundel images.
+ * Validates roundel name against whitelist; falls back to
+ * MythaxisTarget on invalid name or missing image.
  */
 
 (function() {
   'use strict';
 
-  var DEFAULT_ROUNDEL = 'orbit';
+  var DEFAULT_ROUNDEL = 'MythaxisTarget';
 
-  var VALID_GENRES = [
-    'fantasy', 'scifi', 'horror', 'supernatural',
-    'dark', 'cosmic', 'psion', 'orbit'
+  var VALID_ROUNDELS = [
+    'MythaxisAbduction', 'MythaxisEye', 'MythaxisGalaxy', 'MythaxisGrey',
+    'MythaxisHand', 'MythaxisIcon', 'MythaxisKnot', 'MythaxisMonster',
+    'MythaxisSwords', 'MythaxisTarget'
   ];
 
   /**
@@ -26,10 +27,10 @@
       return;
     }
 
-    // Get the chapter marker type from data attribute, default to orbit
+    // Get the chapter marker type from data attribute
     var container = article.closest('[data-chapter-marker]');
     var rawGenre = container ? container.dataset.chapterMarker : DEFAULT_ROUNDEL;
-    var genre = VALID_GENRES.indexOf(rawGenre) !== -1 ? rawGenre : DEFAULT_ROUNDEL;
+    var genre = VALID_ROUNDELS.indexOf(rawGenre) !== -1 ? rawGenre : DEFAULT_ROUNDEL;
 
     // Find all <hr> tags within the article content
     var hrs = article.querySelectorAll('hr');
@@ -48,15 +49,15 @@
    */
   function replaceWithRoundel(hrElement, genre) {
     var img = document.createElement('img');
-    img.src = '/images/roundels/' + genre + '-100.svg';
+    img.src = '/images/roundels/' + genre + '.svg';
     img.className = 'chapter-marker roundel-animate';
     img.alt = '';
     img.setAttribute('aria-hidden', 'true');
 
-    // Fall back to orbit if the image fails to load
+    // Fall back to default if the image fails to load
     img.onerror = function() {
       if (this.src.indexOf(DEFAULT_ROUNDEL) === -1) {
-        this.src = '/images/roundels/' + DEFAULT_ROUNDEL + '-100.svg';
+        this.src = '/images/roundels/' + DEFAULT_ROUNDEL + '.svg';
       }
     };
 

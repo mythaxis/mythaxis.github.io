@@ -27,15 +27,19 @@
       return;
     }
 
+    var headerLogo = document.getElementById('nebula-menu-trigger');
     var isOpen = false;
     var ticking = false;
     var snapTimer = null;
     var triggerElement = null;
     var isMobile = window.matchMedia('(max-width: 736px)').matches;
 
-    // Landing pages: make header sticky
+    // Landing pages: make header sticky, hide logotype initially (big intro version visible)
     if (intro && header) {
       header.classList.add('nebula-header--sticky');
+      if (headerLogo) {
+        headerLogo.classList.add('nebula-header__logo--hidden');
+      }
     }
 
     // Burger starts hidden on all pages — appears when header scrolls out
@@ -73,6 +77,17 @@
           } else {
             minimalHeader.classList.remove('visible');
           }
+        }
+      }
+
+      // Landing pages: fade header logotype in when intro scrolls away
+      if (intro && headerLogo) {
+        var introBottom = intro.getBoundingClientRect().bottom;
+        var headerHeight = header ? header.offsetHeight : 0;
+        if (introBottom <= headerHeight) {
+          headerLogo.classList.remove('nebula-header__logo--hidden');
+        } else {
+          headerLogo.classList.add('nebula-header__logo--hidden');
         }
       }
     }

@@ -29,7 +29,11 @@
 
     <div class="nebula-intro-content">
         <span class="nebula-issue-badge">{{ .Params.issue }}</span>
-        <h1 class="nebula-title">Mythaxis</h1>
+        <h1 class="nebula-title">
+            <span class="nebula-title__myth">Myth</span>
+            <span class="nebula-title__roundel" aria-hidden="true"></span>
+            <span class="nebula-title__axis">axis</span>
+        </h1>
         <h2 class="nebula-subtitle">{{ .Params.subhead }}</h2>
         {{ if .Params.headline }}
         <p class="nebula-headline">{{ .Params.headline }}</p>
