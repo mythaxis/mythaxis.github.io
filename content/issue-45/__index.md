@@ -7,8 +7,7 @@ layout: section
 theme: nebula2026
 issue: Issue 45-test
 subhead: Spring 2026
-issueRoundel: fantasy
-chapterMarker: scifi
+issueRoundel: MythaxisKnot
 
 colorScheme:
   primary: "#39e01b"
