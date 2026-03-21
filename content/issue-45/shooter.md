@@ -21,7 +21,7 @@ slug: shooter
 weight: 2
 ---
 
-{{<glyph>}}T{{</glyph>}}he forecast that weekend called for 4th of July perfection: cloudless blue skies, a dulcet southwesterly breeze, and a high of eighty-eight, with barely a five percent chance of a corpse-strewn massacre.
+The forecast that weekend called for 4th of July perfection: cloudless blue skies, a dulcet southwesterly breeze, and a high of eighty-eight, with barely a five percent chance of a corpse-strewn massacre.
 
 “Does five percent sound a bit high to anyone else?” Gwethanie asked, pulling her suitcase from the yawning trunk of the SUV. Her bag was the size of a laptop carry-on because all she’d packed were bikinis and morning-after pills.
 

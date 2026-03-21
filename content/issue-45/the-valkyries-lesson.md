@@ -21,7 +21,7 @@ slug: the-valkyries-lesson
 weight: 6
 ---
 
-{{<glyph>}}"T{{</glyph>}}hank you for taking the time to meet with me today.”
+"Thank you for taking the time to meet with me today.”
 
 Detective Kimura responded with a nod and placed a heavy mug with coffee in front of his visitor, whom he had received in one of the bleak, windowless interrogation rooms of the Kyoto Prefectural Police headquarters.
 
@@ -53,7 +53,7 @@ Dr. Taira smiled and had another sip of coffee.
 
 ---
 
-{{<glyph>}}K{{</glyph>}}imura could not disguise his shock. Indeed, the police had not released details about the crime scene. But Dr. Taira had just described it to a T, without hesitating or seeking his approval, involuntary behaviors that often accompanied false testimony. Of course, nowadays one had to take cameras and live streaming into account, but Kimura knew that no video evidence had surfaced since the murder last spring.
+Kimura could not disguise his shock. Indeed, the police had not released details about the crime scene. But Dr. Taira had just described it to a T, without hesitating or seeking his approval, involuntary behaviors that often accompanied false testimony. Of course, nowadays one had to take cameras and live streaming into account, but Kimura knew that no video evidence had surfaced since the murder last spring.
 
 There was something about her, something he couldn’t put a finger on. After all, people didn’t confess their involvement in crimes they got away with. And yet, she had come, on her own volition. And she had spoken with a no-nonsense seriousness, as it behooved a scientist of her caliber. His long-honed intuition when interrogating people involved in serious crimes utterly failed him.
 
@@ -135,7 +135,7 @@ Kimura’s musings were interrupted when Taira drew a deep breath and opened her
 
 ---
 
-{{<glyph>}}D{{</glyph>}}r. Taira looked at her mug, but didn’t pick it up. The left-over coffee must have been as stone-cold as Kimura’s, which had barely been touched. The detective had been completely enraptured by the final part of her story. Now that she was finished, he blinked as if waking before getting up to pace the tiny room. 
+Dr. Taira looked at her mug, but didn’t pick it up. The left-over coffee must have been as stone-cold as Kimura’s, which had barely been touched. The detective had been completely enraptured by the final part of her story. Now that she was finished, he blinked as if waking before getting up to pace the tiny room. 
 
 “Ridiculous. You were at the other end of the world that night. There is no way you could have killed him or even have contributed to his death. You dreamt all this and he died as a consequence? It’s absurd!”
 
@@ -163,7 +163,7 @@ Dr. Taira looked at the photo again and smiled. “But what I do know is that I 
 
 ---
 
-{{<glyph>}}A{{</glyph>}}fter Kimura had seen Dr. Taira out of the building, he returned to the interrogation room. A stale smell of coffee and a little perfume were all that was left behind. If her story was true, and there was no reason to believe otherwise except reason itself, he had no case. He couldn’t arrest people for what they did in their dreams, even if the results somehow did manifest in the real world.
+After Kimura had seen Dr. Taira out of the building, he returned to the interrogation room. A stale smell of coffee and a little perfume were all that was left behind. If her story was true, and there was no reason to believe otherwise except reason itself, he had no case. He couldn’t arrest people for what they did in their dreams, even if the results somehow did manifest in the real world.
 
 No, stop it, Kimura thought, bring it back to reason.
 

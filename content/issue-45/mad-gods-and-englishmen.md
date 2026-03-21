@@ -21,7 +21,7 @@ slug: mad-gods-and-englishmen
 weight: 4
 ---
 
-{{<glyph>}}I{{</glyph>}} dreamed I was on a tiny train. It was only one seat wide and there was no aisle, so you couldn’t move seats and each one had a door on both sides. The train wasn’t going anywhere special. The point was just to be on it for a while, far from the endless sea. Nevertheless, I had a feeling that I might have missed my stop. I tried to make myself feel better by saying, “You’ll know it when you see it.”
+I dreamed I was on a tiny train. It was only one seat wide and there was no aisle, so you couldn’t move seats and each one had a door on both sides. The train wasn’t going anywhere special. The point was just to be on it for a while, far from the endless sea. Nevertheless, I had a feeling that I might have missed my stop. I tried to make myself feel better by saying, “You’ll know it when you see it.”
 
 Eventually the train arrived at an open air station next to a skyscraper. There was nothing else in the vicinity but green grass on a level plain stretching to the horizon, which was closer than it should have been. I got down from the train and walked up to the skyscraper. I thought: “Yes.” 
 
@@ -63,7 +63,7 @@ She objected to what she called my change of plan. She said she was supposed to 
 
 ---
 
-{{<glyph>}}T{{</glyph>}}he idea of bringing her along was that it was definitely not the plan. It was therefore insurance against a double-cross. If the cross was against me, this might confuse things and delay the moment of truth. If the cross was against the woman, I could always kill her later. But I had the feeling that I didn’t want to do that. So maybe I was double-crossing the person or persons who had planned a double-cross on the woman. That felt right too. Either way, I was mostly sure I doing the right thing by bringing her along.
+The idea of bringing her along was that it was definitely not the plan. It was therefore insurance against a double-cross. If the cross was against me, this might confuse things and delay the moment of truth. If the cross was against the woman, I could always kill her later. But I had the feeling that I didn’t want to do that. So maybe I was double-crossing the person or persons who had planned a double-cross on the woman. That felt right too. Either way, I was mostly sure I doing the right thing by bringing her along.
 
 I kept the gun jammed in the small of her back, unprofessionally close to keep it hidden. If she had been a ninja she could have taken it away from me, but either she wasn’t or she was playing a very deep game.
 
@@ -235,7 +235,7 @@ I shook my head. It hurt.
 
 ---
 
-{{<glyph>}}I{{</glyph>}} was on the train again. There was nobody in the seats ahead, at least not in my carriage. I tried craning my neck to look behind, but it was too awkward. I had the feeling someone was back there, that he had been put there the same way I had, and that Black-Magic Martin was responsible.
+I was on the train again. There was nobody in the seats ahead, at least not in my carriage. I tried craning my neck to look behind, but it was too awkward. I had the feeling someone was back there, that he had been put there the same way I had, and that Black-Magic Martin was responsible.
 
 I stared out of the window. We were travelling through postcard-friendly countryside. The sun was shining on the hills in the distance. I strained my vision. Every now and then, I thought maybe I had caught a glimpse of the sea. Whenever that happened I felt a terrible pang in my heart.
 

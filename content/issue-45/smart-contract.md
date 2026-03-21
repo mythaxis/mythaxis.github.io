@@ -21,7 +21,7 @@ slug: smart-contract
 weight: 5
 ---
 
-{{<glyph>}}“T{{</glyph>}}his is screwed up,” says Webb. “Who takes out a hit on a sixteen-year-old girl?”
+“This is screwed up,” says Webb. “Who takes out a hit on a sixteen-year-old girl?”
 
 Dayne doesn’t answer, her attention fixed on the screen in front of her. It shows a three-part view of the interview room, two cameras focused on the faces of the girl and her mother, the bottom half of the screen showing a wide view from above the interviewer. Dayne would rather be in the room, where she could see the body language firsthand.
 
@@ -51,7 +51,7 @@ There, Dayne thinks. She mentally puts him top of her suspect list. Not that she
 
 ---
 
-{{<glyph>}}W{{</glyph>}}ebb spends the afternoon tracking down the uncle. Dayne spends it trying to get the department to assign a couple of uniforms to Luisa’s building. She gets only a series of refusals. Between the latest MERS-42 variant and the usual summer protests, the department is more short-handed than ever.
+Webb spends the afternoon tracking down the uncle. Dayne spends it trying to get the department to assign a couple of uniforms to Luisa’s building. She gets only a series of refusals. Between the latest MERS-42 variant and the usual summer protests, the department is more short-handed than ever.
 
 It probably wouldn’t help anyway. “For two hundred and fifty thousand, would you shoot a couple of cops?” she asks Webb.
 
@@ -89,7 +89,7 @@ Webb thinks it over. “And it’s really untraceable?”
 
 ---
 
-{{<glyph>}}E{{</glyph>}}ddie Arias, Luisa’s uncle Eddie, is nothing like Dayne had imagined. She had pictured some middle-aged guy with a goatee and VR pallor, the kind who lies around all day smoking dope and beating off to virtual porn stars. Instead, he’s clean-cut and conservatively dressed, with a brisk, businesslike manner. She doubts he has a quarter of a million to spend on getting anyone killed, but one day he might.
+Eddie Arias, Luisa’s uncle Eddie, is nothing like Dayne had imagined. She had pictured some middle-aged guy with a goatee and VR pallor, the kind who lies around all day smoking dope and beating off to virtual porn stars. Instead, he’s clean-cut and conservatively dressed, with a brisk, businesslike manner. She doubts he has a quarter of a million to spend on getting anyone killed, but one day he might.
 
 “How did you find out about the contract?” she asks.
 
@@ -131,7 +131,7 @@ Eddie gives him a look. “The contract doesn’t pay out unless she’s dead. S
 
 ---
 
-{{<glyph>}}D{{</glyph>}}e Blasio Houses looks like any other public housing complex, with the usual maze of drainways and concrete surge walls between the buildings, ready for the next superstorm. Someone has scrawled “Bulldozer Bill” in silver marker on the sign by the entrance: Lower East Siders still mad over something that happened twenty years ago.
+De Blasio Houses looks like any other public housing complex, with the usual maze of drainways and concrete surge walls between the buildings, ready for the next superstorm. Someone has scrawled “Bulldozer Bill” in silver marker on the sign by the entrance: Lower East Siders still mad over something that happened twenty years ago.
 
 There’s anti-drone netting and tangler wire strung between the buildings, there to frustrate drug deliveries, peeping Toms and artisanal gang aviation alike. Dayne doubts that it would do much to stop even an off-the-shelf war drone, but it’s something.
 
@@ -163,7 +163,7 @@ Webb’s cell buzzes and he swipes up a message. “Well, fortunately Luisa isn�
 
 ---
 
-{{<glyph>}}W{{</glyph>}}ebb’s informant is a round-faced girl in thick glasses and a sweatshirt that slowly cycles through a rainbow of different colors. They meet in a diner and she and Webb talk together for a while in what Dayne guesses is Cantonese. Finally, the girl smirks, looks at Dayne, and says something to Webb that makes them both laugh.
+Webb’s informant is a round-faced girl in thick glasses and a sweatshirt that slowly cycles through a rainbow of different colors. They meet in a diner and she and Webb talk together for a while in what Dayne guesses is Cantonese. Finally, the girl smirks, looks at Dayne, and says something to Webb that makes them both laugh.
 
 “Nice to meet you too,” says Dayne.
 
@@ -201,7 +201,7 @@ Webb nods. “Probably,” he admits. His face brightens. “Maybe we should sta
 
 ---
 
-{{<glyph>}}T{{</glyph>}}he kid is God’s gift to a detective, which is to say that he’s either too scared or too dumb to remember that he shouldn’t talk to cops. At eighteen, he ought to know better.
+The kid is God’s gift to a detective, which is to say that he’s either too scared or too dumb to remember that he shouldn’t talk to cops. At eighteen, he ought to know better.
 
 “You’re in bad trouble,” Dayne tells him, talking around the subject enough to let implications do the heavy lifting. “Serious note to be putting out on someone. I hear they’re gonna put that on you.”
 
@@ -253,7 +253,7 @@ The boy finally wises up. “I want a lawyer.”
 
 ---
 
-{{<glyph>}}W{{</glyph>}}ebb drives while Dayne gets out her tablet and digs into the cryptomarkets, chasing past contracts. She feels as if she’s going down some impossible rabbit hole built out of jargon and wishful thinking. The people who live in this alternate universe speak a language of their own, and Dayne doesn’t have the slightest idea how to make sense of it.
+Webb drives while Dayne gets out her tablet and digs into the cryptomarkets, chasing past contracts. She feels as if she’s going down some impossible rabbit hole built out of jargon and wishful thinking. The people who live in this alternate universe speak a language of their own, and Dayne doesn’t have the slightest idea how to make sense of it.
 
 Despite that, she does learn a few things. The cryptocurrency involved is called SerenityCoin. Last week, it was worth almost nothing. This week, it’s suddenly much more valuable. Next week it could be worth thirty times as much, or nothing at all. But for right now the contract is live, and someone spent twenty-five thousand dollars to buy a chance at a serious payout.
 
@@ -323,7 +323,7 @@ Webb opens his mouth to say something, but his radio vibrates noisily. An instan
 
 ---
 
-{{<glyph>}}T{{</glyph>}}hey use the siren all the way, scattering cyclists and gyro-wheelers. When they get there, De Blasio is in chaos, with people spilling out of the exits in a panic. A pair of department drones hover overhead, heavy-duty rotors cutting the air with an ear-battering wop-wop, red and white strobes flickering off the faces in the crowd. Two uniformed cops are throwing down bead balls to create a perimeter, the tiny robots self-assembling to fence off the scene. 
+They use the siren all the way, scattering cyclists and gyro-wheelers. When they get there, De Blasio is in chaos, with people spilling out of the exits in a panic. A pair of department drones hover overhead, heavy-duty rotors cutting the air with an ear-battering wop-wop, red and white strobes flickering off the faces in the crowd. Two uniformed cops are throwing down bead balls to create a perimeter, the tiny robots self-assembling to fence off the scene. 
 
 Dayne catches a glimpse of Eddie Arias in the crowd and she guesses he’s probably tooled up. His eyes meet hers, but she doesn’t want to speak to him now, because she’d end up having to arrest him. She has other things on her mind.
 
@@ -353,7 +353,7 @@ The black-clad man is slammed heavily against the wall. Dayne watches him slide 
 
 ---
 
-{{<glyph>}}D{{</glyph>}}ayne sits on the steps outside, staring at nothing in particular, Webb sitting beside her. On the far side of the bead-ball fence, a silent crowd lingers, eager for more excitement.
+Dayne sits on the steps outside, staring at nothing in particular, Webb sitting beside her. On the far side of the bead-ball fence, a silent crowd lingers, eager for more excitement.
 
 “The girl?” says Webb.
 
@@ -367,7 +367,7 @@ She gets to her feet, feeling tired. “Let’s go talk to her.”
 
 ---
 
-{{<glyph>}}I{{</glyph>}}n the end they don’t do much talking. Luisa’s eyes are red, and the mother has been crying too. She looks worse than Luisa. Dayne feels a pang of sympathy. Whatever else, their grief is genuine. Then she remembers that Luisa is not blameless in her cousin’s death.
+In the end they don’t do much talking. Luisa’s eyes are red, and the mother has been crying too. She looks worse than Luisa. Dayne feels a pang of sympathy. Whatever else, their grief is genuine. Then she remembers that Luisa is not blameless in her cousin’s death.
 
 Her mother clears her throat. “So what happens now?” she asks.
 
