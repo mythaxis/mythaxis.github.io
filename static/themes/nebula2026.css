@@ -1666,21 +1666,14 @@ html:has(body.theme-nebula2026 #intro) {
 /* Reading progress bar
    ========================================================================== */
 
-.reading-progress {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    z-index: var(--z-progress);
-}
-
 .reading-progress__bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     width: 0%;
-    height: 100%;
+    height: 3px;
     background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
     transition: width 100ms ease-out;
-    box-shadow: 0 0 10px var(--color-primary);
 }
 
 
@@ -1886,7 +1879,6 @@ html:has(body.theme-nebula2026 #intro) {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transform: translateY(-100%);
     transition: transform 0.3s ease;
-    border-bottom: 2px solid var(--color-primary, #1a2b4c);
     overflow: hidden;
 }
 
