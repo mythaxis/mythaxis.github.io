@@ -38,16 +38,15 @@
         {{ with $page.Description }}
         <p class="nebula-page-description">{{ . }}</p>
         {{ end }}
+        {{- $issueRoundel := "MythaxisTarget" -}}
+        {{- with $section -}}
+          {{- $issueRoundel = .Params.issueRoundel | default "MythaxisTarget" -}}
+        {{- end -}}
         <div class="nebula-article-divider">
-            <svg width="60" height="2" viewBox="0 0 60 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="60" height="2" rx="1" fill="url(#nebula-gradient-page)"/>
-                <defs>
-                    <linearGradient id="nebula-gradient-page" x1="0" y1="1" x2="60" y2="1">
-                        <stop stop-color="#667eea"/>
-                        <stop offset="1" stop-color="#764ba2"/>
-                    </linearGradient>
-                </defs>
-            </svg>
+            <img src="/images/roundels/{{ $issueRoundel }}.svg"
+                 class="nebula-article-divider__roundel"
+                 alt=""
+                 aria-hidden="true" />
         </div>
     </header>
 
@@ -61,12 +60,8 @@
         {{ $page.Content }}
     </div>
 
-    {{- $issueRoundel := "orbit" -}}
-    {{- with $section -}}
-      {{- $issueRoundel = .Params.issueRoundel | default "orbit" -}}
-    {{- end -}}
     <div class="story-divider">
-      <img src="/images/roundels/{{ $issueRoundel }}-200.svg"
+      <img src="/images/roundels/MythaxisIcon.svg"
            class="story-divider__roundel roundel-animate"
            alt=""
            aria-hidden="true" />

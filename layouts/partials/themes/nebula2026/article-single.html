@@ -142,7 +142,7 @@
   <div class="story-nav-strip-wrap">
   <nav class="story-nav-strip" aria-label="Story navigation">
     <div class="story-nav-strip__prev">
-      {{ with $page.PrevInSection }}
+      {{ with $page.NextInSection }}
       <a href="{{ .RelPermalink }}" class="story-nav-strip__link" title="{{ .Title }}">
         <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M15 18l-6-6 6-6"/>
@@ -157,7 +157,7 @@
     </a>
 
     <div class="story-nav-strip__next">
-      {{ with $page.NextInSection }}
+      {{ with $page.PrevInSection }}
       <a href="{{ .RelPermalink }}" class="story-nav-strip__link" title="{{ .Title }}">
         <span class="story-nav-strip__title">{{ .Title }}</span>
         <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
