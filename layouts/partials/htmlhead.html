@@ -18,9 +18,7 @@
 	<link rel="stylesheet" href='{{ "assets/css/main.min.css" | relURL }}'>
 	<noscript><link rel="stylesheet" href='{{ "assets/css/noscript.css" | relURL }}' /></noscript>
 	{{ end }}
-	{{ with .Site.Params.favicon }}
-	<link rel="shortcut icon" href="{{ . }}">
-	{{ end }}
+	<link rel="icon" href='{{ "favicon.ico" | relURL }}' type="image/x-icon">
 
 	{{ partial "htmlhead-styles-overrides.html" $themeCtx.Section }}
 	{{ partial "htmlhead-scripts-overrides.html" . }}
