@@ -51,6 +51,34 @@
     font-display: swap;
 }
 
+/* Basalte Display Font — Degheest Family (Velvetyne Type Foundry)
+   Three variants: Fond (base), Multicolor (striped), Volume (3D)
+   ========================================================================== */
+
+@font-face {
+    font-family: 'Basalte';
+    src: url('../assets/fonts/nebula2026/Basalte-Fond.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Basalte Multicolor';
+    src: url('../assets/fonts/nebula2026/Basalte-Multicolor.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Basalte Volume';
+    src: url('../assets/fonts/nebula2026/Basalte-Volume.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 /* Design Tokens
    ========================================================================== */
@@ -76,7 +104,7 @@
 
     /* Typography */
     --font-primary: 'Alegreya', Georgia, "Times New Roman", serif;
-    --font-secondary: 'Alegreya', Georgia, "Times New Roman", serif;
+    --font-secondary: 'Basalte', 'Alegreya', Georgia, "Times New Roman", serif;
     --text-xs: 0.75rem;
     --text-sm: 0.875rem;
     --text-base: 1rem;
@@ -323,6 +351,7 @@ img[alt$="-lrg"] {
 .nebula-title {
     font-size: 4rem;
     font-weight: 800;
+    font-family: 'Basalte Multicolor', var(--font-secondary);
     color: var(--color-primary);
     margin-bottom: 0.5rem;
 }
@@ -432,6 +461,7 @@ img[alt$="-lrg"] {
 .nebula-header__logo {
     font-size: 1.25rem;
     font-weight: 800;
+    font-family: var(--font-secondary);
     border: none;
     padding: 0;
     cursor: pointer;
@@ -606,6 +636,7 @@ img[alt$="-lrg"] {
     text-align: center;
     font-size: 1.5rem;
     font-weight: 800;
+    font-family: var(--font-secondary);
     background: linear-gradient(135deg, var(--color-primary, #1a2b4c) 0%, var(--color-secondary, #4a6d8c) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -730,6 +761,7 @@ img[alt$="-lrg"] {
 
 .nebula-featured-title {
     font-size: 2rem;
+    font-family: var(--font-secondary);
     margin-bottom: 1rem;
 }
 
@@ -930,6 +962,7 @@ html:has(body.theme-nebula2026 #intro) {
 
 .nebula-card-title {
     font-size: 1.25rem;
+    font-family: var(--font-secondary);
     margin-bottom: 0.25rem;
 }
 
@@ -1083,6 +1116,7 @@ html:has(body.theme-nebula2026 #intro) {
 
 .nebula-page-title {
     font-size: 2.5rem;
+    font-family: var(--font-secondary);
     color: var(--color-primary);
     margin-bottom: 0.5rem;
     line-height: 1.2;
@@ -1133,6 +1167,7 @@ html:has(body.theme-nebula2026 #intro) {
 
 .nebula-catalogue-header h1 {
     font-size: 2.5rem;
+    font-family: var(--font-secondary);
     color: var(--color-primary);
     margin-bottom: 0.5rem;
     line-height: 1.2;
@@ -1734,6 +1769,7 @@ html:has(body.theme-nebula2026 #intro) {
 .story-header__title {
     font-size: 3rem;
     font-weight: 700;
+    font-family: var(--font-secondary);
     margin: 0 0 1rem 0;
     line-height: 1.2;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
