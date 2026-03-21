@@ -138,11 +138,12 @@ These are directly required by DESIGN-SPEC.md § Accessibility Requirements.
 
 ## Group E: Performance
 
-### E1 — Convert fonts to `.woff2`
+### E1 — Update `@font-face` to `.woff2` (Alegreya done, CSS needs updating)
 - **Audit ref:** M2
-- **What:** All five Alegreya `@font-face` declarations use `.woff` only. `.woff2` is 30-40% smaller.
-- **Discussion:** Requires converting the font files. Do you have the original `.ttf`/`.otf` sources, or should we use a conversion tool?
-- **How to fix:** Convert files, add `.woff2` sources to `@font-face` with `.woff` fallback.
+- **Status:** Font files already converted — `.woff2` versions are in `static/assets/fonts/nebula2026/`. Source files archived in `nebula2026-retheme-docs/nebula2026-webfonts/`.
+- **What remains:** The `@font-face` declarations in `nebula2026.css` (lines 9–47) still reference `.woff` format. Update them to use `.woff2` as primary format with `.woff` as fallback.
+- **How to fix:** Change each `src:` line to: `src: url('...woff2') format('woff2'), url('...woff') format('woff');`
+- **Note:** Also remove the unused weights. The CSS declares 5 weights (400, 400i, 700, 700i, 800) but 16 `.woff2` files exist. Only declare what the theme actually uses.
 
 ### E2 — Fix `min-height: 100vh` iOS viewport issue
 - **Audit ref:** M3
@@ -206,6 +207,139 @@ These are lower priority and more subjective. Worth discussing but not blockers.
 
 ---
 
+## Group H: Typography — Basalte Display Font
+
+The Degheest Family (Velvetyne Type Foundry) Basalte font is a striking display typeface. Three variants have been copied to `static/assets/fonts/nebula2026/`: **Basalte-Fond**, **Basalte-Multicolor**, and **Basalte-Volume**. Source files are archived in `nebula2026-retheme-docs/nebula2026-webfonts/degheest-types-master/`.
+
+### H1 — Add Basalte `@font-face` declarations
+- **What:** Declare the three Basalte variants in `nebula2026.css`. These are display fonts for headings only, not body text.
+- **How to fix:** Add three `@font-face` blocks after the Alegreya declarations:
+  ```css
+  @font-face {
+      font-family: 'Basalte';
+      src: url('../assets/fonts/nebula2026/Basalte-Fond.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+  }
+  @font-face {
+      font-family: 'Basalte Multicolor';
+      src: url('../assets/fonts/nebula2026/Basalte-Multicolor.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+  }
+  @font-face {
+      font-family: 'Basalte Volume';
+      src: url('../assets/fonts/nebula2026/Basalte-Volume.woff2') format('woff2');
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+  }
+  ```
+- **Discussion:** Basalte is a single-weight font (no bold/italic variants). Each variant is a separate visual style, not a weight. Do we want all three available as CSS classes, or pick one as the primary heading font?
+
+### H2 — Update `--font-secondary` token to Basalte
+- **What:** The `--font-secondary` token is currently identical to `--font-primary` (both Alegreya). Replace with Basalte.
+- **Audit ref:** M7 (resolves the redundant token issue)
+- **How to fix:** Change `:root` to: `--font-secondary: 'Basalte', 'Alegreya', Georgia, serif;`
+- **Discussion:** Alegreya as fallback ensures graceful degradation if Basalte fails to load.
+
+### H3 — Apply Basalte to headings
+- **What:** Decide which elements use Basalte vs Alegreya. Candidates:
+  - **Definite:** `.nebula-title` (hero "Mythaxis"), `.nebula-header__logo`, `.nebula-nav-panel__logotype`
+  - **Probable:** `.nebula-featured-title`, `.nebula-card-title`, `.story-header__title`
+  - **Maybe:** `.nebula-page-title`, `.nebula-catalogue-header h1`
+  - **Probably not:** Body text, nav links, metadata, bylines (keep Alegreya)
+- **Discussion points:**
+  - Basalte-Fond is the base form. Basalte-Multicolor has a striped/layered effect. Basalte-Volume has a 3D/shadow effect. Which variant for which context?
+  - One approach: **Fond** for most headings, **Volume** for the hero `.nebula-title` (big impact moment), **Multicolor** reserved for special use (hover states? featured card?).
+  - Or keep it simple: **Fond** everywhere, use Alegreya weight variation for hierarchy.
+- **How to fix:** Add `font-family: var(--font-secondary);` to the chosen heading selectors.
+
+### H4 — Consider Basalte for the MYTH(roundel)AXIS logotype
+- **What:** The logotype mockup (see wireframe `Example new logotype.jpg`) shows "MYTH AXIS" with the roundel between them. Basalte could be the logotype font.
+- **Discussion:** This ties directly into Group I (roundels/logo). The header currently renders "Mythaxis" as a `<button>` with gradient text. Basalte + roundel image inline would be more distinctive and match the wireframe. See I3 below.
+- **Depends on:** I3 (logo restructure)
+
+---
+
+## Group I: Roundels & Logo
+
+The current AI-generated SVG roundels are being replaced by professionally designed artwork (10 designs in `nebula2026-retheme-docs/nebula2026-wireframes/roundels-png/`). This group covers format, frontmatter, the Mythaxis brand roundel, and the logo/header layout.
+
+### Designer Roundel Inventory
+
+| File | Matches genre | Current SVG |
+|------|--------------|-------------|
+| `ufo.png` | `scifi` | `scifi-100/200.svg` |
+| `target.png` | `orbit` (default) | `orbit-100/200.svg` |
+| `braid.png` | `fantasy` | `fantasy-100/200.svg` |
+| `eye.png` | `horror` | `horror-100/200.svg` |
+| `alien.png` | — (new, or alt scifi) | — |
+| `hand.png` | `psion` | `psion-100/200.svg` |
+| `swords.png` | `supernatural` | `supernatural-100/200.svg` |
+| `face.png` | `dark` | `dark-100/200.svg` |
+| `galaxy.png` | `cosmic` | `cosmic-100/200.svg` |
+| `atom.png` | — (new, or alt scifi) | — |
+
+### I1 — Decide roundel format: SVG vs PNG
+- **What:** The designer artwork is PNG. The current system expects SVGs at `/images/roundels/{genre}-100.svg` and `-200.svg`. Need to decide format going forward.
+- **Discussion points:**
+  - **SVG preferred** (your stated preference): Can we get SVG versions from the designer, or trace/convert the PNGs? The designs are high-contrast black-and-white with clean shapes — they'd trace well.
+  - **PNG option:** Change the JS/CSS/templates to reference `.png` instead of `.svg`. Simpler but means no resolution independence and larger files.
+  - **Hybrid:** Use SVGs where possible, PNGs as fallback. But this adds complexity.
+  - **Size question:** Current system uses `-100` (100x100 chapter markers) and `-200` (200x200 story-end markers). With SVGs this is just a naming convention (they scale). With PNGs, you'd want actual resolution variants or one large image scaled down via CSS.
+- **How to fix:** Decision needed first. If SVG: trace the PNGs (or get designer files). If PNG: update `chapter-markers.js` file extension, update `article-single.html` roundel `src` attributes, update CSS sizing.
+
+### I2 — Update genre-to-roundel mapping
+- **What:** The designer has 10 roundels but the current system has 8 genres. Need to map the new art and decide what to do with extras (`alien.png`, `atom.png`).
+- **Discussion points:**
+  - `alien` could be a new genre, or an alternative for `scifi` (which already has `ufo`)
+  - `atom` could map to a new genre, or be an alternative for `cosmic`/`scifi`
+  - Or: expand the genre list to include `alien` and `atom` as valid `chapterMarker` values
+  - The `chapter-markers.js` VALID_GENRES whitelist needs updating to match
+- **How to fix:** Agree on mapping, update `VALID_GENRES` in `chapter-markers.js`, deploy new roundel files to `static/images/roundels/`.
+
+### I3 — Restructure the logo: MYTH(roundel)AXIS in the header
+- **What:** The wireframe mockup shows the Mythaxis logotype with the roundel embedded between "MYTH" and "AXIS". Currently the header has just a text button saying "Mythaxis". The logo should:
+  1. Move from `.nebula-intro-content` (hero area) into `.nebula-header` (sticky header bar)
+  2. Be **centered** in the header (not right-aligned as currently)
+  3. Include the brand roundel inline: `MYTH [roundel] AXIS`
+- **Discussion points:**
+  - **Which roundel for the brand mark?** The logotype wireframe shows a compass/sun design — not one of the genre roundels. Is there a separate MythaxisIcon roundel from the designer? Or does it use the issue's `issueRoundel`? Or is `target`/`orbit` the brand mark?
+  - **Header layout impact:** Currently the header has `justify-content: space-between` with the issue badge left and logo right. Centering the logo means restructuring to a three-column layout (badge | logo | burger) or centering everything.
+  - **Menu trigger:** The logo currently opens the nav panel. If it moves and becomes centered, it still works as a menu trigger — but the burger button also exists. Keep both triggers? Or make the centered logo the primary trigger and retire the separate logotype button?
+  - **Mobile:** On mobile, the header is slim (0.75rem padding). A logo with roundel image may need more space or a smaller rendering. The wireframe (Mob_01) shows the roundel large on the landing hero — does it shrink in the header?
+  - **Landing page:** The hero currently has `<h1 class="nebula-title">Mythaxis</h1>` as plain text. Should this also become the MYTH(roundel)AXIS treatment? Or does the hero only show the roundel large (per Mob_01 wireframe) with the text logo in the header above?
+- **How to fix (after decisions):**
+  1. Update `header.html` — restructure to center the logo, add roundel `<img>` inline
+  2. Update `intro.html` — decide if hero still shows the text title or defers to the header
+  3. Update CSS — new header layout (flexbox with centered logo), roundel sizing at different breakpoints
+  4. Update `nebula-nav.js` — adjust menu trigger logic if needed
+
+### I4 — Roundel in the nav panel
+- **What:** The nav panel currently shows a small issue roundel at the bottom. With the new designer roundels, this should use the new artwork too.
+- **How to fix:** This just works once I1/I2 are done — the template already reads `$section.Params.issueRoundel` and constructs the path. Only need to ensure new files are at the expected paths.
+
+### I5 — Frontmatter schema for roundels
+- **What:** Document and potentially extend the frontmatter schema for roundel configuration.
+- **Current schema:**
+  ```yaml
+  # Issue __index.md
+  issueRoundel: "orbit"       # which roundel for this issue
+
+  # Story .md
+  chapterMarker: "scifi"      # which roundel for chapter breaks in this story
+  ```
+- **Discussion points:**
+  - Is the current two-field approach sufficient? Or do we need more granularity (e.g., separate `storyEndRoundel`)?
+  - Should the valid values be documented in the frontmatter reference? (Currently they're only in the JS whitelist.)
+  - If we add `alien` and `atom` as new genres, do existing stories need updating?
+  - The config cascade (story `chapterMarker` → issue `issueRoundel` → site `defaultRoundel`) — is this still the right priority order?
+
+---
+
 ## Suggested Workflow
 
 **Session 1 — Colors (Groups A + C):** ~30 min
@@ -217,7 +351,13 @@ Skip link, focus management, ARIA labels. Small targeted changes across a few fi
 **Session 3 — Bugs & Performance (Groups D + E):** ~15 min
 Quick fixes. Console.log removal, `fileExists`, font format, iOS viewport. Commit once.
 
-**Session 4 — Polish (Groups F + G):** discussion-driven
+**Session 4 — Typography (Group H):** discussion-driven, then implementation
+Decide Basalte variant strategy, add `@font-face`, apply to headings. Needs browser testing. Commit once.
+
+**Session 5 — Roundels & Logo (Group I):** discussion-heavy
+This is the most design-decision-dense session. Decisions needed on: format (SVG vs PNG), genre mapping, brand roundel identity, header layout. Implementation follows decisions. Multiple commits likely.
+
+**Session 6 — Polish (Groups F + G):** discussion-driven
 Go through each item, decide keep/change/defer. These are design calls, not bugs.
 
 ---
@@ -226,12 +366,16 @@ Go through each item, decide keep/change/defer. These are design calls, not bugs
 
 | File | Groups |
 |------|--------|
-| `static/themes/nebula2026.css` | A, B5, C, E2, F |
-| `static/js/nebula2026/nebula-nav.js` | B2, D2 |
+| `static/themes/nebula2026.css` | A, B5, C, E1, E2, F, H1–H3, I3 |
+| `static/js/nebula2026/nebula-nav.js` | B2, D2, I3 |
+| `static/js/nebula2026/chapter-markers.js` | I1, I2 |
+| `layouts/partials/themes/nebula2026/header.html` | I3 |
+| `layouts/partials/themes/nebula2026/intro.html` | I3 |
+| `layouts/partials/themes/nebula2026/nav.html` | B2, I4 |
 | `layouts/partials/themes/nebula2026/article-single.html` | B3, B4 |
-| `layouts/partials/themes/nebula2026/nav.html` | B2 |
 | `layouts/partials/themes/nebula2026/list-item.html` | B6 |
 | `layouts/partials/themes/nebula2026/featured.html` | B6 |
 | `layouts/partials/themes/nebula2026/authorfooter.html` | D1 |
 | `layouts/_default/baseof.html` | B1 |
-| `static/assets/fonts/nebula2026/*.woff` | E1 |
+| `static/images/roundels/*` | I1, I2 |
+| `static/assets/fonts/nebula2026/*` | E1, H1 |
