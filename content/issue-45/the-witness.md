@@ -43,7 +43,7 @@ Then again, my imagination has always been termed “overactive”. In bed that 
 
 Knew about the end of the world.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 {{<glyph>}}I{{</glyph>}} don’t know how to drive. Zach does. Normally, that’s fine. In fact, last summer when he got his license, we drove all over Ohio, talking about everything from senior year dreams to what the new *Star Wars* movie would be about. Some of my best memories are from that summer, when we drove and drove, every road a promise of something new. The problem now? It’s not just Zach and me anymore. Zach has a new friend, one who doesn’t like me much: Jeremy. He calls me Twinkle as a “joke”. Sometimes something worse. Zach tells me Jeremy doesn’t mean anything by it. I know Jeremy most certainly does.
 
@@ -89,7 +89,7 @@ I shrink back into my seat. The contempt in his tone suffocates me. It makes me 
 
 Zach accelerates. We’re on a trip to nowhere. Jeremy is still ranting about Amber. Didn’t she know how good she had it? Doesn’t she understand respect? Whole world is rotten, according to Jeremy. Whole damn world has it coming, in fact.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 {{<glyph>}}2{{</glyph>}}am and Sandra and I are in her car. We’re parked outside the mall. She leans towards me, but not so much that it’s an obvious romantic move. Just enough to make me question if she wants me to lean in towards her. Are we friends? Are we in denial about wanting more? I don’t know. It doesn’t help that I keep looking out at the pitch-black parking lot, expecting to see the silhouette of the man from the thunderstorm. This seems like his time, an hour when he can slip into our reality before having to retreat to his own.
 
@@ -119,7 +119,7 @@ She’s always been blunt, but this is the first time she’s asked about a kiss
 
 I keep my eyes shut tight as we do it. If anyone is out there watching, I don’t want to know.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 {{<glyph>}}3{{</glyph>}}am. We’re still in the parking lot. We stopped making out, laughed awkwardly about it, sat silently, and then brought up other things. We talked about graduation. We talked about college.
 
@@ -139,7 +139,7 @@ Now, I’m ready to go home, but I don’t want to say so, don’t want to offen
 
 I look outside the car, out at the night. We seem so alone, but perhaps not alone enough.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 {{<glyph>}}I{{</glyph>}}’m out for my nighttime jog. There’s enough humidity that you can chew on it. My run takes me along the community park. At this hour, the poorly kept baseball field lies empty, the pool is devoid of people, nothing stirs in the playground. It’s just me out. Those younger than me stay in this summer, although no one states why. Those who can drive, which is most people my age, head for busier areas.
 
@@ -151,7 +151,7 @@ I wanted to be a normal house, Jeremy’s home says. I wanted to be like all the
 
 I resume my run; the house continues to speak, but I go faster and faster, its words merging into sad mutterings.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 {{<glyph>}}T{{</glyph>}}wo nights later, the phone rings at 11:15pm. I’m well aware of the time because Letterman comes on soon, and I always stay up for Letterman in the summers. My mom does, too, if she’s not tired. I tell her I’ll get the phone, figuring it’ll be a wrong number, some confused drunk. I go into the kitchen, snatch the phone off the holder, and say, “Yeah, hello?”
 
@@ -173,7 +173,7 @@ I put the phone back in the cradle. I have to make a decision. I could tell her 
 
 “Wrong number,” I shout back.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 {{<glyph>}}“I{{</glyph>}} know I said Jeremy isn’t coming, and it’s kinda true on a technicality. He won’t be in our car, but he’s going to meet us there. I didn’t mean to lie, but I know you don’t like him. He’s been a dick to you, I get that, but he wants to make peace, okay? He’s a tough guy to get to know, and he’ll be the first to admit that. We’ll all get along now. That’s good, right? That’s what we want.”
 
@@ -183,7 +183,7 @@ I don’t reply to him. We’re barreling down the highway, nearing our destinat
 
 Hell, I almost tell Zach to hurry up.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 {{<glyph>}}Z{{</glyph>}}ach told me Jeremy read about this place on the web: an old wastewater disposal site that had long since been abandoned, but, due to some chemical issue, the trees around it had died. According to him, it’s quite the sight to behold. We’d visited a lot of places like this last summer, abandoned factories, empty homes, but Zach said this place will be better.
 
@@ -237,7 +237,7 @@ He bends down and grabs me, his hands wet with blood, and smashes my head into t
 
 Eventually someone finds me, because of the abandoned cars. I tell them not to pick me up, that it doesn’t matter anymore, that life is going to be spent waiting for the end. They think I’m babbling and save me anyway.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 {{<glyph>}}I{{</glyph>}} return to the wastewater site in 2008. I’m a different person, yes, but also still the same. The trees that border it have decayed more, and the soil looks even more like ash. I bet for those around here, though, they can’t tell the difference: when things change slow, they might as well not change at all.
 
@@ -249,7 +249,7 @@ No matter what, he’s still out there somewhere. That’s the big one. That’s
 
 You feel it, too, right? You know you’re living, that we’re all living, during the very slow end of the world.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 *Thanks for reading – but we'd love feedback! Let us know what you think of **The Witness** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*
 

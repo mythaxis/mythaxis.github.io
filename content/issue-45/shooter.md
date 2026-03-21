@@ -181,6 +181,4 @@ Vicarious nodded.
 
 They took hold of each other’s hand and, in that split second before all went black, let their gaze drift beyond, to a better place, one of eternal peace, where goodness and mercy reign and salvation comes not from the barrel of a gun, but from everlasting love. Canada perhaps.
 
-![Orbit-lrg](images/Orbit.svg)
-
 *Thanks for reading - but we'd love feedback! Let us know what you think of **Shooter** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

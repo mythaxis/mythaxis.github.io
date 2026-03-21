@@ -45,6 +45,4 @@ If that seems as glib as the title, well, the full emotional and tonal thrust of
 
 It's like a plot twist, but instead it’s a twist in tone. The tone is explained, not the plot. There’s a little bit of anger from Forester, that people can behave like this, and do these things. A little bit of cold-blooded satisfaction in the revenge he is able to take vicariously.
 
-![Orbit-lrg](images/Orbit.svg)
-
 *Thanks for reading - but we'd love feedback! Let us know what you think of Bill's thoughts at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

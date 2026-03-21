@@ -51,7 +51,7 @@ Kimura’s mouth hung open. “How do you know all this?”
 
 Dr. Taira smiled and had another sip of coffee.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 {{<glyph>}}K{{</glyph>}}imura could not disguise his shock. Indeed, the police had not released details about the crime scene. But Dr. Taira had just described it to a T, without hesitating or seeking his approval, involuntary behaviors that often accompanied false testimony. Of course, nowadays one had to take cameras and live streaming into account, but Kimura knew that no video evidence had surfaced since the murder last spring.
 
@@ -133,7 +133,7 @@ Kimura’s musings were interrupted when Taira drew a deep breath and opened her
 
 “The Valkyrie raised the sword up high and with a powerful shout cut off the head of the man cowering in front of her. His death felt deserved, cathartic. I had held my breath, but now I relaxed. It was over, finally, for good. The Valkyrie shook the blood from the sword and placed it back onto its stand. Almost gently, like a mother holding the face of her child, she picked up the severed head with both hands and placed it into the shomen. Once again she knelt and bowed to the shomen and we all bowed with her. That’s the last thing I remember.”
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 {{<glyph>}}D{{</glyph>}}r. Taira looked at her mug, but didn’t pick it up. The left-over coffee must have been as stone-cold as Kimura’s, which had barely been touched. The detective had been completely enraptured by the final part of her story. Now that she was finished, he blinked as if waking before getting up to pace the tiny room. 
 
@@ -161,7 +161,7 @@ Taira nodded. “I’m with you, detective. After all, I’m a scientist. Dreams
 
 Dr. Taira looked at the photo again and smiled. “But what I do know is that I haven’t once thought of de Vries since I dreamed of his death, not until I heard what had actually happened. It seems that thanks to our Valkyrie, I’m free of him at last.”
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 {{<glyph>}}A{{</glyph>}}fter Kimura had seen Dr. Taira out of the building, he returned to the interrogation room. A stale smell of coffee and a little perfume were all that was left behind. If her story was true, and there was no reason to believe otherwise except reason itself, he had no case. He couldn’t arrest people for what they did in their dreams, even if the results somehow did manifest in the real world.
 
@@ -176,7 +176,5 @@ Kimura turned the flash card with the interview round and round in his fingers f
 Against all regulations, Kimura took the memory card home, noting “camera malfunction” in the case file to account for the missing interview. He obliterated the doctor’s name, and his interview summary read only:
 
 *Time wasted. Another crank. This one thinks she saw the murder in a dream.*
-
-![Orbit-lrg](images/Orbit.svg)
 
 *Thanks for reading - but we'd love feedback! Let us know what you think of **The Valkyrie's Lesson** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

@@ -27,7 +27,7 @@ featured: true
 
 It's always a shame when a publication closes its doors, but the short genre fic business is very much this fallen comrade's namesake: *tough*.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 {{<glyph>}}I{{</glyph>}}n between the gone for good and a new kid on the block, the evergreen *[Shotgun Honey](https://shotgunhoney.com/)* has been chambering rounds and pulling the trigger on the crazy regular for almost fifteen years. Call it "sawn-off" fiction rather than "flash", three recent releases caught my eye, one of them very much off the beaten path for crime.
 
@@ -37,14 +37,12 @@ And now for that third. When I see the title **[Among the Neanderthals](https://
 
 What's the moral? *Don't bring a rock to an arrow fight*, maybe…
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 {{<glyph>}}M{{</glyph>}}y final recommendation is more like a case of *first amongst equals*, as out of the first five stories to appear in *[Cold Caller](https://coldcallermag.substack.com/)*, a new substack crime zine, four struck me as more or less equally interesting reads. I won't link them all, there's few enough to sift through, and while I could as easily have gone for **Strangers**, **Used to Be Some Kind of Badass**, or **When Things Get a Little Western**, the one I'll mention in particular is Colleen Quinn's **[Calamity Creek](https://coldcallermag.substack.com/p/calamity-creek)**.
 
 What begins as reminiscences about that type of faintly notorious local kid you used to distantly know growing up segues into a glimpse of a community's dirty little open secret, evoking a character-filled corner of small town USA that crams remarkable breadth and depth into its tight, brief runtime. I really enjoyed the writing in **Calamity Creek**, the personalities and situations past and present all rang true, and I could happily have kept reading beyond where it came to a halt. On the other hand, they do say *Always leave them wanting more*.
 
 The four stories I named are all very different and I enjoyed them in different ways, but I'll make an observation verging on critique: in each case, I felt that the story's end was not its strongest feature. The fifth piece, *The Man Who Hated Dogs*, which was certainly not bad, did strike me as a somewhat more "complete" narrative, though for me it also signposted itself way too clearly, right from that title. Nevertheless, on the strength of their early output I'll certainly keep an eye on *Cold Caller* in the future.
-
-![Orbit-lrg](images/Orbit.svg)
 
 *Thanks for reading – but we'd love feedback! Let us know what you think of any of these pieces at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

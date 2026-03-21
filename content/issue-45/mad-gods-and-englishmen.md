@@ -61,7 +61,7 @@ I looked at her, trying to remember if I’d seen her before she got on the elev
 
 She objected to what she called my change of plan. She said she was supposed to stay here and raise the alarm once I was out of sight. I told her the plan had changed. She didn’t agree. I gave her the choice of coming with me or dying on the spot. She chose the first option.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 {{<glyph>}}T{{</glyph>}}he idea of bringing her along was that it was definitely not the plan. It was therefore insurance against a double-cross. If the cross was against me, this might confuse things and delay the moment of truth. If the cross was against the woman, I could always kill her later. But I had the feeling that I didn’t want to do that. So maybe I was double-crossing the person or persons who had planned a double-cross on the woman. That felt right too. Either way, I was mostly sure I doing the right thing by bringing her along.
 
@@ -233,7 +233,7 @@ I shook my head. It hurt.
 
 “Sooner to sleep… sooner to… awaken.”
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 {{<glyph>}}I{{</glyph>}} was on the train again. There was nobody in the seats ahead, at least not in my carriage. I tried craning my neck to look behind, but it was too awkward. I had the feeling someone was back there, that he had been put there the same way I had, and that Black-Magic Martin was responsible.
 
@@ -260,7 +260,5 @@ The men who weren’t like me fired their guns in my direction. I wasn’t conce
 Deflating slowly, I turned my wrath on the woman’s enemies. The knife was a gun in my hand. I made holes in them and blood leaked out, more from some than others, but in all cases enough to quiet them down. I was more than half gone by then. I began to walk unsteadily back towards the house. The woman screamed when she saw me coming. I stopped where I was and used the last of my rapidly diminishing lung capacity to thank her.
 
 Child, insect, bacterium: without you, we would still be on that tiny train. Let none say the gods cannot feel gratitude, though it may be fleeting. Worry not, for we shall pay Black-Magic Martin a visit before we return to the void, and he will not be glad to see us.
-
-![Orbit-lrg](images/Orbit.svg)
 
 *Thanks for reading - but we'd love feedback! Let us know what you think of **Mad Gods & Englishmen** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*
