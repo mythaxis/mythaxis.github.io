@@ -10,8 +10,8 @@ subhead: Spring 2026
 issueRoundel: MythaxisKnot
 
 colorScheme:
-  primary: "#39e01b"
-  secondary: "#e75c10"
+  primary: "#1bb5e0"
+  secondary: "#e73710"
 
 editor: Andrew Leon Hudson
 image: images/Sanka_footsteps_sqr.jpg
