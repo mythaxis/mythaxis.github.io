@@ -11,6 +11,7 @@
   {{ partial "htmlhead" . }}
 
   <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload theme-{{ $themeCtx.Theme }}">
+    {{ if eq $themeCtx.Theme "nebula2026" }}<a href="#main" class="skip-to-content">Skip to content</a>{{ end }}
     <!-- Wrapper -->
     <div id="wrapper">
       {{ partial "header" . }}
