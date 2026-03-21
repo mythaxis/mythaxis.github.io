@@ -94,16 +94,35 @@ Readers move naturally from **cover art impact** → **curated table of contents
 
 ### Genre Roundels
 
-| Genre | Visual | Use Case |
-|-------|--------|----------|
-| `orbit` | Concentric circles | Default, general use |
-| `fantasy` | Celtic knot | Fantasy, magical stories |
-| `scifi` | UFO beam | Science fiction |
-| `horror` | Cracked eye | Horror, thriller |
-| `cosmic` | Swirling galaxy | Cosmic horror, space |
-| `dark` | Skull smile | Dark fantasy, gothic |
-| `supernatural` | Crossed swords | Supernatural, action |
-| `psion` | Mutated hand | Psychic, mutation |
+Professional roundel artwork by designer (source: `nebula2026-wireframes/roundels-png/` and `roundals.afphoto`). All designs are high-contrast black-and-white circular badges.
+
+| Genre | Design file | Visual description | Use Case |
+|-------|------------|-------------------|----------|
+| `orbit` | `target.png` | Concentric circles with notches | Default, general use |
+| `fantasy` | `braid.png` | Celtic knot pattern | Fantasy, magical stories |
+| `scifi` | `ufo.png` | UFO abduction beam | Science fiction |
+| `horror` | `eye.png` | Cracked eyeball | Horror, thriller |
+| `cosmic` | `galaxy.png` | Spiral galaxy with stars | Cosmic horror, space |
+| `dark` | `face.png` | Grinning skull face | Dark fantasy, gothic |
+| `supernatural` | `swords.png` | Crossed katanas | Supernatural, action |
+| `psion` | `hand.png` | Handprint silhouette | Psychic, mutation |
+| `alien` | `alien.png` | Alien head silhouette | _TBD — new genre or alt scifi_ |
+| `atom` | `atom.png` | Atomic orbital structure | _TBD — new genre or alt cosmic_ |
+
+### Brand Roundel (MythaxisIcon)
+
+The roundel also serves as the central element of the Mythaxis logotype: **MYTH(roundel)AXIS**. See wireframe `Example new logotype.jpg` — the roundel sits between "MYTH" and "AXIS" as a visual bridge, replacing the "O" in the original name.
+
+**TBD:** Which roundel serves as the brand mark? Options:
+- A dedicated brand roundel (the compass/sun design in the logotype wireframe)
+- The issue's `issueRoundel` (changes per issue — brand identity shifts with content)
+- The default `orbit` roundel (fixed brand mark)
+
+### Format
+
+**Preferred:** SVG (resolution-independent, smaller file size, matches current system).
+
+Current system uses SVGs at two sizes. If designer provides vector originals or PNGs can be traced to SVG, maintain the SVG system. Otherwise, the template/JS paths must be updated to reference `.png`.
 
 ### Size Specifications
 
@@ -111,6 +130,8 @@ Readers move naturally from **cover art impact** → **curated table of contents
 |-----|------|----------|
 | Chapter marker | 100×100px | `/images/roundels/[genre]-100.svg` |
 | Story-end marker | 200×200px | `/images/roundels/[genre]-200.svg` |
+| Nav panel | 40×40px | (rendered via CSS from `-100` file) |
+| Logo inline | ~24–32px | (rendered inline in header logotype) |
 
 ### Configuration Cascade
 
@@ -118,6 +139,56 @@ Readers move naturally from **cover art impact** → **curated table of contents
 1. Story-level `chapterMarker` (highest)
 2. Issue-level `issueRoundel`
 3. Site-level `params.defaultRoundel` (lowest)
+
+---
+
+## Typography
+
+### Font Stack
+
+| Role | Font | Use |
+|------|------|-----|
+| Body / reading | **Alegreya** (serif) | Story content, descriptions, bylines, nav links, metadata |
+| Headings / display | **Basalte** (Degheest Family, Velvetyne Type Foundry) | Page titles, story titles, logotype, card titles |
+
+### Basalte Variants
+
+Basalte is a display typeface with three visual styles (not weights):
+
+| Variant | File | Character |
+|---------|------|-----------|
+| **Fond** | `Basalte-Fond.woff2` | Clean base form — the default heading style |
+| **Multicolor** | `Basalte-Multicolor.woff2` | Striped/layered fill — decorative accent |
+| **Volume** | `Basalte-Volume.woff2` | 3D shadow effect — high impact for hero moments |
+
+**Usage strategy TBD:** See AUDIT-TASKS.md Group H for discussion on which variant applies where.
+
+### CSS Custom Properties
+
+```css
+:root {
+  --font-primary: 'Alegreya', Georgia, "Times New Roman", serif;
+  --font-secondary: 'Basalte', 'Alegreya', Georgia, serif;
+}
+```
+
+### Heading Hierarchy
+
+| Element | Font | Context |
+|---------|------|---------|
+| Hero title (`.nebula-title`) | `--font-secondary` | Landing page "Mythaxis" |
+| Story title (`.story-header__title`) | `--font-secondary` | Story page hero |
+| Card title (`.nebula-card-title`) | `--font-secondary` | Issue grid |
+| Featured title (`.nebula-featured-title`) | `--font-secondary` | Featured story card |
+| Page title (`.nebula-page-title`) | `--font-secondary` | About, submissions, etc. |
+| Body text | `--font-primary` | Story reading area |
+| Nav / UI | `--font-primary` | Links, buttons, metadata |
+
+### Font Sources
+
+- Alegreya: deployed as `.woff2` in `static/assets/fonts/nebula2026/`
+- Basalte: deployed as `.woff2` in `static/assets/fonts/nebula2026/`
+- Source files archived in `nebula2026-retheme-docs/nebula2026-webfonts/`
 
 ---
 
@@ -237,11 +308,23 @@ colorScheme:
 
 Not in v1.0, but documented for later:
 
-1. **Day/Night Mode** - Toggle in footer per wireframe
-2. **Reading Progress** - Progress bar for stories
-3. **Bookmarks** - Save reading position
-4. **Audio Player** - Sticky footer player
-5. **Cover Art Transitions** - Fade between issue/story art
+1. **Day/Night Mode** — Toggle in footer per wireframe (token system is ready for this)
+2. ~~**Reading Progress**~~ — ✅ Implemented (reading-progress.js)
+3. **Bookmarks** — Save reading position
+4. **Audio Player** — Sticky footer player (basic `<audio controls>` exists, not sticky)
+5. **Cover Art Transitions** — Fade between issue/story art
+
+---
+
+### Logotype Concept
+
+The wireframe `Example new logotype.jpg` shows the Mythaxis brand rendered as:
+
+```
+MYTH [roundel] AXIS
+```
+
+The roundel sits inline between "MYTH" and "AXIS", replacing the "O" of the original MYTH(O)AXIS name. This should be implemented in the header bar using Basalte font + inline roundel image. See AUDIT-TASKS.md Group I for implementation details.
 
 ---
 
@@ -250,3 +333,5 @@ Not in v1.0, but documented for later:
 - Mythaxis 2026 Retheme Project - 2 Technical plan.md
 - Andrew's designs.md
 - Wireframes: Mob_01-04, Sample Roundals
+- Designer roundels: `nebula2026-wireframes/roundels-png/` + `roundals.afphoto`
+- Degheest/Basalte fonts: `nebula2026-webfonts/degheest-types-master/`
