@@ -11,8 +11,8 @@ issueRoundel: fantasy
 chapterMarker: scifi
 
 colorScheme:
-  primary: "#5a3d6e"
-  secondary: "#a8765c"
+  primary: "#39e01b"
+  secondary: "#e75c10"
 
 editor: Andrew Leon Hudson
 image: images/Sanka_footsteps_sqr.jpg
