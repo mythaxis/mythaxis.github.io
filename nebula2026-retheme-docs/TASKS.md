@@ -155,11 +155,67 @@ git add -A && git commit -m "feat: [description of task/phase]"
   - [x] 9.17 Fix horizon2020 divider regression — nested `theme-dispatch` calls in `article-single.html` passed `.` (theme context dict) instead of `.Page` (Hugo page), causing `getThemeContext` to fail and fall back to nebula2026's divider; now correctly renders `divider.svg` and `toplist.svg`
   - [x] 9.18 Redesign frontpage — remove story-card-interactions.js popup/overlay system; replace with two-column CSS grid layout for `.posts`; add rounded borders to `.nebula-card` and `.nebula-featured`; add mobile scroll-snap (`scroll-snap-type: y mandatory`) for flick-to-next-card navigation; remove all overlay/popup CSS (~400 lines); simplify `list-item.html` by removing `data-*` attributes; remove overlay HTML blocks from `section.html` and `index.html`
 
+- [x] 10.0 Audit — Color system and contrast fixes (Groups A + C)
+  - [x] 10.1 Replace 15 remaining hardcoded purple values (`#667eea`, `#764ba2`, `#a78bfa`) with `var(--color-primary)` / `var(--color-secondary)`
+  - [x] 10.2 Replace ~26 hardcoded grey/neutral values with design tokens (`var(--color-text-light)`, `var(--color-border)`, etc.)
+  - [x] 10.3 Move `:root` design tokens block to top of CSS (after `@font-face`)
+  - [x] 10.4 Copyright footer contrast: resting 0.15→0.4, hover 0.4→0.7
+  - [x] 10.5 Author footer copyright contrast: 0.6→0.8
+
+- [x] 11.0 Audit — Accessibility (Group B)
+  - [x] 11.1 Add skip-to-content link HTML to all 8 layout files (with theme guard)
+  - [x] 11.2 Nav panel focus management — save/restore trigger element, focus first link on open
+  - [x] 11.3 Add `role="dialog" aria-modal="true" aria-label` to nav panel
+  - [x] 11.4 Add `aria-label="Story navigation"` to story nav strip
+  - [x] 11.5 Add `aria-label="Listen to..."` to audio element
+  - [x] 11.6 Fix bounce animation reduced-motion coverage
+  - [x] 11.7 Fix card/featured image alt text to `alt=""` (decorative)
+
+- [x] 12.0 Audit — Bugs and performance (Groups D + E)
+  - [x] 12.1 Fix `fileExists` author photo check → simple `{{ if .Params.photo }}`
+  - [x] 12.2 Remove `console.log` from production JS
+  - [x] 12.3 Add `.woff2` as primary font format with `.woff` fallback
+  - [x] 12.4 Add `min-height: 100svh` progressive enhancement for iOS
+
+- [x] 13.0 Audit — Typography (Group H) — Basalte display font
+  - [x] 13.1 Add 3 Basalte `@font-face` declarations (Fond, Multicolor, Volume)
+  - [x] 13.2 Update `--font-secondary` token to Basalte with Alegreya fallback
+  - [x] 13.3 Apply Basalte to headings: Volume for hero, Fond for all other headings
+  - [x] 13.4 Swap hero from Multicolor→Volume (COLR/CPAL rendering issue)
+
+- [x] 14.0 Audit — Roundels and logo (Group I)
+  - [x] 14.1 New designer SVG roundels: MythaxisAbduction, Eye, Galaxy, Grey, Hand, Icon, Knot, Monster, Swords, Target
+  - [x] 14.2 Detach genre from roundels — `VALID_GENRES` → `VALID_ROUNDELS`, roundel names are now filenames
+  - [x] 14.3 MYTH(roundel)AXIS logotype on intro (desktop row / mobile stacked) using CSS mask with `currentColor`
+  - [x] 14.4 Header logotype with inline brand roundel, fades in on scroll (landing pages)
+  - [x] 14.5 Story-header-minimal: issue roundel instead of brand logotype text
+  - [x] 14.6 Nav panel: brand roundel below logotype text (top), issue roundel at bottom; gradient text → solid color
+  - [x] 14.7 All roundel path references updated: drop `-100`/`-200` suffix, default `orbit` → `MythaxisTarget`
+  - [x] 14.8 Story footer roundel: 240px, left-aligned within 700px content width
+  - [x] 14.9 Non-story page article divider: issue roundel at 60px replacing SVG gradient line
+  - [x] 14.10 Non-story page footer roundel: MythaxisIcon (brand) instead of issue roundel
+
+- [x] 15.0 Audit — Polish (Groups F + G)
+  - [x] 15.1 Remove `-webkit-overflow-scrolling: touch` (obsolete)
+  - [x] 15.2 Mobile scroll-snap `mandatory` → `proximity`
+  - [x] 15.3 z-index progress bar → `var(--z-progress)` token
+  - [x] 15.4 Scroll indicator bounce → gentle 3s drift
+  - [x] 15.5 `aria-controls="nebula-nav-panel"` on burger and logotype triggers
+
+- [x] 16.0 Additional fixes
+  - [x] 16.1 CSS `::first-letter` drop caps replacing `<glyph>` shortcode (issue-45 content updated, shortcode kept for horizon2020)
+  - [x] 16.2 Author footer photo centering on mobile
+  - [x] 16.3 Nav panel: denser link spacing, larger logotype text
+  - [x] 16.4 Story nav strip: swap `PrevInSection`/`NextInSection` for correct weight-based order
+  - [x] 16.5 Reading progress bar repositioned to bottom of minimal header (replaces border-bottom)
+  - [x] 16.6 Story reading/footer padding tightened so footer roundel sits closer to text
+
 - [ ] 8.0 Final regression check and deploy
   - [ ] 8.1 Full smoke test: homepage, issue landing (nebula2026), story page (nebula2026), old issue (horizon2020), archive, authors index
-  - [ ] 8.2 Mobile test on real device or accurate emulator — swipe cards, check parallax, reading progress
+  - [ ] 8.2 Mobile test on real device or accurate emulator — check parallax, reading progress, drop caps
   - [ ] 8.3 No console errors on any page type
-  - [ ] 8.4 `git merge poc` into `master`
-  - [ ] 8.5 `git push origin master` — triggers GitHub Pages build
-  - [ ] 8.6 Smoke-test live site on real device
+  - [ ] 8.4 `<glyph>` → CSS `::first-letter` drop cap review (G5 deferred: future typography pass)
+  - [ ] 8.5 `git merge poc` into `master`
+  - [ ] 8.6 `git push origin master` — triggers GitHub Pages build
+  - [ ] 8.7 Smoke-test live site on real device
 
