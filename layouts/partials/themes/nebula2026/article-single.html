@@ -102,7 +102,7 @@
   {{/* 3. Audio Player (if story has audio) */}}
   {{ if $page.Params.audio }}
   <div class="nebula-audio-player">
-    <audio controls>
+    <audio controls aria-label="Listen to {{ $page.Title }}">
       <source src="{{ $page.Params.audio }}" type="audio/mpeg">
       Your browser does not support the audio tag.
     </audio>
@@ -137,7 +137,7 @@
     {{- $contentsPage = . -}}
   {{- end -}}
   <div class="story-nav-strip-wrap">
-  <nav class="story-nav-strip">
+  <nav class="story-nav-strip" aria-label="Story navigation">
     <div class="story-nav-strip__prev">
       {{ with $page.PrevInSection }}
       <a href="{{ .RelPermalink }}" class="story-nav-strip__link" title="{{ .Title }}">

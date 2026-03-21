@@ -30,6 +30,7 @@
     var isOpen = false;
     var ticking = false;
     var snapTimer = null;
+    var triggerElement = null;
     var isMobile = window.matchMedia('(max-width: 736px)').matches;
 
     // Landing pages: make header sticky
@@ -91,6 +92,7 @@
     // --- Panel open/close ---
 
     function openPanel() {
+      triggerElement = document.activeElement;
       isOpen = true;
       panel.classList.add('nebula-nav-panel--open');
       panel.setAttribute('aria-hidden', 'false');
@@ -99,6 +101,8 @@
       burger.setAttribute('aria-expanded', 'true');
       burger.setAttribute('aria-label', 'Close menu');
       document.body.classList.add('no-scroll');
+      var firstLink = panel.querySelector('.nebula-nav-panel__link');
+      if (firstLink) firstLink.focus();
     }
 
     function closePanel() {
@@ -110,6 +114,7 @@
       burger.setAttribute('aria-expanded', 'false');
       burger.setAttribute('aria-label', 'Open menu');
       document.body.classList.remove('no-scroll');
+      if (triggerElement) triggerElement.focus();
     }
 
     function togglePanel() {

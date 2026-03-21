@@ -2360,7 +2360,8 @@ html {
     .nebula-nav-panel,
     .nebula-nav-backdrop,
     .nebula-nav__link,
-    .nebula-nav__link::after {
+    .nebula-nav__link::after,
+    .nebula-scroll-indicator svg {
         transition: none !important;
         animation: none !important;
     }
