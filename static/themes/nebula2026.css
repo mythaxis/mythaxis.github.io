@@ -307,11 +307,28 @@ img[alt$="-lrg"] {
     justify-content: center;
     font-size: clamp(2.5rem, 5vw + 1rem, 4rem);
     font-weight: 800;
-    font-family: 'Basalte Volume', var(--font-secondary);
+    font-family: 'Basalte', var(--font-secondary);
     color: var(--color-primary);
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 0.5rem;
+}
+
+/* Chromatic layering on logotype text spans */
+.nebula-title__myth,
+.nebula-title__axis {
+    position: relative;
+}
+
+.nebula-title__myth::after,
+.nebula-title__axis::after {
+    content: attr(data-text);
+    font-family: 'Basalte Multicolor', var(--font-secondary);
+    color: var(--color-secondary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
 }
 
 .nebula-title__roundel {
@@ -679,40 +696,61 @@ img[alt$="-lrg"] {
 }
 
 .nebula-split-lead__text {
-    padding: 2rem;
+    padding: clamp(2rem, 4vw, 3.5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .nebula-split-lead__authors {
     display: block;
-    font-size: 0.9rem;
-    font-style: italic;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: var(--color-secondary);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 
 .nebula-split-lead__title {
-    font-size: clamp(1.5rem, 2.5vw + 0.5rem, 2.25rem);
-    font-family: var(--font-secondary);
-    line-height: 1.15;
-    margin: 0 0 0.75rem 0;
+    font-size: clamp(1.75rem, 3vw + 0.5rem, 2.75rem);
+    font-family: 'Basalte', var(--font-secondary);
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
 }
 
 .nebula-split-lead__title a {
     color: var(--color-primary);
     text-decoration: none;
+    position: relative;
+}
+
+/* Chromatic layering: Basalte Multicolor over Fond for two-colour effect */
+.nebula-split-lead__title a::after {
+    content: attr(data-text);
+    font-family: 'Basalte Multicolor', var(--font-secondary);
+    color: var(--color-secondary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
 }
 
 .nebula-split-lead__title a:hover {
     text-decoration: underline;
-    text-underline-offset: 3px;
+    text-underline-offset: 4px;
     text-decoration-thickness: 2px;
 }
 
 .nebula-split-lead__description {
     font-size: 1.0625rem;
-    line-height: 1.7;
+    line-height: 1.75;
     color: var(--color-text-light);
     margin: 0;
+    max-width: 55ch;
 }
 
 

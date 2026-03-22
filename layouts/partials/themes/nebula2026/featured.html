@@ -16,7 +16,7 @@
     {{ end }}
     <div class="nebula-split-lead__text">
         <span class="nebula-split-lead__authors">{{ collections.Delimit $page.Params.authors ", " }}</span>
-        <h2 class="nebula-split-lead__title"><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h2>
+        <h2 class="nebula-split-lead__title"><a href="{{ $page.Permalink }}" data-text="{{ $page.Title }}">{{ $page.Title }}</a></h2>
         {{ if $page.Description }}
         <p class="nebula-split-lead__description">{{ $page.Description }}</p>
         {{ end }}
