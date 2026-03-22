@@ -968,10 +968,12 @@ img[alt$="-lrg"] {
 
 .nebula-page-title {
     font-size: clamp(1.75rem, 3vw + 0.5rem, 2.5rem);
-    font-family: var(--font-secondary);
-    color: #000;
+    font-family: 'Basalte', var(--font-secondary);
+    color: var(--color-text);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
     margin-bottom: 0.5rem;
-    line-height: 1.2;
+    line-height: 1.15;
 }
 
 .nebula-page-author {
@@ -1009,25 +1011,28 @@ img[alt$="-lrg"] {
 .nebula-catalogue {
     max-width: 800px;
     margin: 0 auto;
-    padding: 2rem 2rem;
+    padding: 2.5rem 2rem;
 }
 
 .nebula-catalogue-header {
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .nebula-catalogue-header h1 {
     font-size: clamp(1.75rem, 3vw + 0.5rem, 2.5rem);
-    font-family: var(--font-secondary);
-    color: #000;
+    font-family: 'Basalte', var(--font-secondary);
+    color: var(--color-text);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
     margin-bottom: 0.5rem;
-    line-height: 1.2;
+    line-height: 1.15;
 }
 
 .nebula-catalogue-count {
-    color: var(--color-text-light);
-    font-size: 1rem;
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+    letter-spacing: 0.02em;
 }
 
 .nebula-catalogue-intro {
@@ -1038,7 +1043,7 @@ img[alt$="-lrg"] {
 }
 
 .nebula-catalogue-nav {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     text-align: center;
 }
 
@@ -1051,14 +1056,14 @@ img[alt$="-lrg"] {
 }
 
 .nebula-nav-link {
-    color: var(--color-primary, #1a2b4c);
     text-decoration: none;
     font-weight: 600;
+    font-size: 0.9375rem;
     transition: color 0.2s ease;
 }
 
 .nebula-nav-link:hover {
-    color: var(--color-secondary, #4a6d8c);
+    color: var(--color-secondary);
 }
 
 .nebula-nav-separator {
@@ -1073,7 +1078,7 @@ img[alt$="-lrg"] {
 .nebula-author-entry {
     display: flex;
     gap: 1.5rem;
-    padding: 0.75rem 0;
+    padding: 0.875rem 0;
     border-bottom: 1px solid var(--color-border);
 }
 
@@ -1083,7 +1088,8 @@ img[alt$="-lrg"] {
 
 .nebula-author-entry .nebula-author-name {
     font-size: 1rem;
-    color: #000;
+    font-weight: 600;
+    color: var(--color-text);
     margin: 0;
     min-width: 200px;
     flex-shrink: 0;
@@ -1107,11 +1113,13 @@ img[alt$="-lrg"] {
 
 .nebula-work-link:hover {
     text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 .nebula-work-date {
     color: var(--color-text-muted);
-    font-size: 0.875rem;
+    font-size: 0.8125rem;
+    margin-left: 0.25rem;
 }
 
 /* Catalogue list (stories) */
@@ -1124,7 +1132,7 @@ img[alt$="-lrg"] {
     justify-content: space-between;
     align-items: baseline;
     gap: 1rem;
-    padding: 0.5rem 0;
+    padding: 0.625rem 0;
     border-bottom: 1px solid var(--color-border);
 }
 
@@ -1135,11 +1143,12 @@ img[alt$="-lrg"] {
 
 .nebula-catalogue-link:hover {
     text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 .nebula-catalogue-author {
     color: var(--color-text-muted);
-    font-size: 0.875rem;
+    font-size: 0.8125rem;
     white-space: nowrap;
 }
 
@@ -1152,13 +1161,16 @@ img[alt$="-lrg"] {
     display: flex;
     align-items: baseline;
     gap: 1rem;
-    padding: 0.5rem 0;
+    padding: 0.625rem 0;
     border-bottom: 1px solid var(--color-border);
 }
 
 .nebula-editorial-issue {
     color: var(--color-text-muted);
-    font-size: 0.8rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
     white-space: nowrap;
     min-width: 5rem;
 }
@@ -1170,11 +1182,12 @@ img[alt$="-lrg"] {
 
 .nebula-editorial-link:hover {
     text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 .nebula-editorial-author {
     color: var(--color-text-muted);
-    font-size: 0.875rem;
+    font-size: 0.8125rem;
     margin-left: 0.5rem;
 }
 
@@ -1184,40 +1197,48 @@ img[alt$="-lrg"] {
     flex-wrap: wrap;
     gap: 0.5rem;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .nebula-genre-link {
     display: inline-block;
-    padding: 0.25rem 0.75rem;
-    background: var(--color-primary, #1a2b4c);
+    padding: 0.3rem 0.875rem;
+    background: var(--color-primary);
     color: white;
     text-decoration: none;
-    border-radius: 1rem;
-    font-size: 0.8rem;
-    font-weight: 500;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
     transition: background 0.2s ease;
 }
 
 .nebula-genre-link:hover {
-    background: var(--color-secondary, #4a6d8c);
+    background: var(--color-secondary);
 }
 
 .nebula-genre-section {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .nebula-genre-title {
     font-size: 1.25rem;
-    color: #000;
+    font-family: 'Basalte', var(--font-secondary);
+    color: var(--color-text);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
     margin: 0 0 0.75rem 0;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid var(--color-primary);
 }
 
 .nebula-genre-count {
     color: var(--color-text-muted);
+    font-family: var(--font-primary);
     font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
 }
 
 .nebula-genre-items {
@@ -1227,7 +1248,7 @@ img[alt$="-lrg"] {
 }
 
 .nebula-genre-item {
-    padding: 0.35rem 0;
+    padding: 0.375rem 0;
 }
 
 .nebula-item-link {
@@ -1236,11 +1257,12 @@ img[alt$="-lrg"] {
 
 .nebula-item-link:hover {
     text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 .nebula-item-author {
     color: var(--color-text-muted);
-    font-size: 0.875rem;
+    font-size: 0.8125rem;
     margin-left: 0.5rem;
 }
 
