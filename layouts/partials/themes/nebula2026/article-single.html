@@ -130,44 +130,64 @@
     <p class="nebula-support-text"><strong>Mythaxis</strong> is forever free to read, but if you'd like to support us you can do so <a href="https://ko-fi.com/mythaxismagazine">here</a> (but only if you <em>really</em> want to!)</p>
   </footer>
 
-  {{/* 6. Author Footer */}}
-  {{ partial "authorfooter" $page }}
+  {{/* 6. Author Footer + Nav Strip with parallax issue image */}}
+  <div class="story-end" id="story-end">
+    {{/* Parallax issue image background */}}
+    {{ with $section }}{{ if .Params.image }}
+    <div class="story-end__hero">
+      <img src="{{ path.Join .Section .Params.image | relURL }}"
+           alt=""
+           aria-hidden="true"
+           class="story-end__image"
+           loading="lazy"
+           decoding="async" />
+    </div>
+    {{ end }}{{ end }}
 
-  {{/* 7. Navigation Strip (prev / TOC / next) */}}
-  {{ if $section }}
-  {{- $contentsPage := false -}}
-  {{- range where (where $page.Site.RegularPages "Section" $section.Section) "Slug" "contents" -}}
-    {{- $contentsPage = . -}}
-  {{- end -}}
-  <div class="story-nav-strip-wrap">
-  <nav class="story-nav-strip" aria-label="Story navigation">
-    <div class="story-nav-strip__prev">
-      {{ with $page.NextInSection }}
-      <a href="{{ .RelPermalink }}" class="story-nav-strip__link" title="{{ .Title }}">
-        <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M15 18l-6-6 6-6"/>
-        </svg>
-        <span class="story-nav-strip__title">{{ .Title }}</span>
-      </a>
-      {{ end }}
+    {{/* White fade from story content into the image */}}
+    <div class="story-end__fade"></div>
+
+    {{/* Author Footer */}}
+    <div class="story-end__author">
+      {{ partial "authorfooter" $page }}
     </div>
 
-    <a href="{{ with $contentsPage }}{{ .RelPermalink }}{{ else }}{{ $section.RelPermalink }}{{ end }}" class="story-nav-strip__toc">
-      Contents
-    </a>
+    {{/* Navigation Strip (prev / TOC / next) */}}
+    {{ if $section }}
+    {{- $contentsPage := false -}}
+    {{- range where (where $page.Site.RegularPages "Section" $section.Section) "Slug" "contents" -}}
+      {{- $contentsPage = . -}}
+    {{- end -}}
+    <div class="story-nav-strip-wrap">
+    <nav class="story-nav-strip" aria-label="Story navigation">
+      <div class="story-nav-strip__prev">
+        {{ with $page.NextInSection }}
+        <a href="{{ .RelPermalink }}" class="story-nav-strip__link" title="{{ .Title }}">
+          <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M15 18l-6-6 6-6"/>
+          </svg>
+          <span class="story-nav-strip__title">{{ .Title }}</span>
+        </a>
+        {{ end }}
+      </div>
 
-    <div class="story-nav-strip__next">
-      {{ with $page.PrevInSection }}
-      <a href="{{ .RelPermalink }}" class="story-nav-strip__link" title="{{ .Title }}">
-        <span class="story-nav-strip__title">{{ .Title }}</span>
-        <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M9 18l6-6-6-6"/>
-        </svg>
+      <a href="{{ with $contentsPage }}{{ .RelPermalink }}{{ else }}{{ $section.RelPermalink }}{{ end }}" class="story-nav-strip__toc">
+        Contents
       </a>
-      {{ end }}
+
+      <div class="story-nav-strip__next">
+        {{ with $page.PrevInSection }}
+        <a href="{{ .RelPermalink }}" class="story-nav-strip__link" title="{{ .Title }}">
+          <span class="story-nav-strip__title">{{ .Title }}</span>
+          <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 18l6-6-6-6"/>
+          </svg>
+        </a>
+        {{ end }}
+      </div>
+    </nav>
     </div>
-  </nav>
+    {{ end }}
   </div>
-  {{ end }}
 
 </article>
