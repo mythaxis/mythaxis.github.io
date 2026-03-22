@@ -633,10 +633,10 @@ img[alt$="-lrg"] {
 .nebula-split-lead {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0 2.5rem;
+    gap: 0;
     align-items: stretch;
 }
 
@@ -657,7 +657,7 @@ img[alt$="-lrg"] {
 }
 
 .nebula-split-lead__text {
-    padding: 2rem 0;
+    padding: 2rem;
 }
 
 .nebula-split-lead__authors {
@@ -706,7 +706,7 @@ img[alt$="-lrg"] {
 .theme-nebula2026 .posts {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 0;
     display: flex;
     flex-direction: column;
     gap: 0;
@@ -715,7 +715,7 @@ img[alt$="-lrg"] {
 .nebula-split-row {
     display: grid;
     grid-template-columns: 2fr 3fr;
-    gap: 0 2rem;
+    gap: 0;
     align-items: stretch;
     padding: 0;
     border-top: 2px solid var(--color-border, #e0e0e0);
@@ -726,7 +726,7 @@ img[alt$="-lrg"] {
 }
 
 .nebula-split-row__text {
-    padding: 2rem 0;
+    padding: 2rem;
 }
 
 /* Alternate direction: even rows flip image to right */
@@ -791,7 +791,7 @@ img[alt$="-lrg"] {
 }
 
 .nebula-split-row:nth-child(3n+1) .nebula-split-row__text {
-    padding: 2.5rem 0;
+    padding: 2.5rem 2rem;
 }
 
 .nebula-split-row:nth-child(3n+1) .nebula-split-row__title {
@@ -1261,22 +1261,27 @@ img[alt$="-lrg"] {
     }
     .nebula-split-lead {
         grid-template-columns: 1fr;
-        padding: 1rem;
-        gap: 1rem;
+        padding: 0;
+        gap: 0;
     }
     .nebula-split-lead:first-child {
         direction: ltr;
     }
+    .nebula-split-lead__text {
+        padding: 1rem;
+    }
     .theme-nebula2026 .posts {
-        padding: 0 1rem;
+        padding: 0;
+        scroll-snap-type: y proximity;
     }
     .nebula-split-row {
         grid-template-columns: 1fr;
-        gap: 1rem;
-        padding: 1.25rem 0;
+        gap: 0;
+        padding: 0;
+        scroll-snap-align: start;
     }
     .nebula-split-row__text {
-        padding: 0;
+        padding: 1rem;
     }
     .nebula-split-row:nth-child(even) {
         direction: ltr;
@@ -1287,6 +1292,9 @@ img[alt$="-lrg"] {
     .nebula-split-row__image img {
         height: 180px;
     }
+    .nebula-split-row:nth-child(3n+1) {
+        grid-template-columns: 1fr;
+    }
     .nebula-split-row:nth-child(3n+1) .nebula-split-row__image {
         min-height: auto;
     }
@@ -1294,7 +1302,7 @@ img[alt$="-lrg"] {
         height: 220px;
     }
     .nebula-split-row:nth-child(3n+1) .nebula-split-row__text {
-        padding: 0;
+        padding: 1rem;
     }
     .nebula-split-row:nth-child(3n+1):not(:first-child) {
         border-top-width: 4px;
