@@ -1,13 +1,19 @@
 {{/*
   Nebula2026 Theme - Intro Partial
   ================================
-  A modern, reimagined intro for the new theme.
+  Full-viewport hero with positioned intro content.
 
   Expects context from theme-dispatch:
     .Page    - The current page context
     .Section - The current section (from getCurrentTheme)
     .Theme   - The theme name ("nebula2026")
     .Data    - Any extra data passed
+
+  Frontmatter fields:
+    introPosition  - 9-position grid: top-left, top-center, top-right,
+                     center-left, center, center-right,
+                     bottom-left, bottom-center, bottom-right (default: center)
+    scrollLineText - Text for the scroll indicator. Omit to hide it entirely.
 */}}
 
 {{- $page := .Page -}}
@@ -27,25 +33,26 @@
     </div>
     {{ end }}
 
-    <div class="nebula-intro-content">
-        <span class="nebula-issue-badge">{{ .Params.issue }}</span>
+    <div class="nebula-intro-content nebula-intro-content--{{ .Params.introPosition | default "center" }}">
+        <a href="#main" class="nebula-subtitle scrolly">{{ .Params.subhead }}</a>
         <h1 class="nebula-title">
             <span class="nebula-title__myth">Myth</span>
             <span class="nebula-title__roundel" aria-hidden="true"></span>
             <span class="nebula-title__axis">axis</span>
         </h1>
-        <h2 class="nebula-subtitle">{{ .Params.subhead }}</h2>
         {{ if .Params.headline }}
         <p class="nebula-headline">{{ .Params.headline }}</p>
         {{ end }}
+        {{ with .Params.scrollLineText }}
         <div class="nebula-scroll-indicator">
-            <a href="#header" class="scrolly">
-                <span>Explore this issue</span>
+            <a href="#main" class="scrolly">
+                <span>{{ . }}</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M12 5v14M5 12l7 7 7-7"/>
                 </svg>
             </a>
         </div>
+        {{ end }}
     </div>
 </div>
 {{ end }}

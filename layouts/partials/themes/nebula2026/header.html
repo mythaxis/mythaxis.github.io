@@ -1,7 +1,7 @@
 {{/*
   Nebula2026 Theme - Header Partial
   =================================
-  Slim issue header bar with issue badge and Mythaxis logotype.
+  Slim issue header bar with issue name and Mythaxis logotype.
   Logotype also triggers the slide-in nav menu.
 
   Expects context from theme-dispatch:
@@ -19,7 +19,7 @@
   <div class="nebula-header__container">
     {{ if $section }}
     <a href="{{ $section.RelPermalink }}" class="nebula-header__issue">
-      {{ with $section.Params.issue }}<span class="nebula-header__badge">{{ . }}</span>{{ end }}
+      {{ with $section.Params.issue }}<span class="nebula-header__issue-name">{{ . }}</span>{{ end }}
       {{ with $section.Params.subhead }}<span class="nebula-header__subhead">{{ . }}</span>{{ end }}
     </a>
     {{ end }}
