@@ -269,18 +269,37 @@ img[alt$="-lrg"] {
     z-index: 3;
 }
 
-.nebula-issue-badge {
-    display: inline-block;
-    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-    color: white;
-    padding: 0.5rem 1.5rem;
-    border-radius: 2rem;
-    font-size: 0.875rem;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    margin-bottom: 1.5rem;
-}
+/* 9-position intro layout system
+   Frontmatter `introPosition` maps to a modifier class on .nebula-intro-content.
+   :has() on the parent sets flexbox alignment; text-align on the content block. */
+
+.nebula-intro:has(.nebula-intro-content--top-left)      { justify-content: flex-start; align-items: flex-start; text-align: left; }
+.nebula-intro:has(.nebula-intro-content--top-center)     { justify-content: flex-start; align-items: center;     text-align: center; }
+.nebula-intro:has(.nebula-intro-content--top-right)      { justify-content: flex-start; align-items: flex-end;   text-align: right; }
+.nebula-intro:has(.nebula-intro-content--center-left)    { justify-content: center;     align-items: flex-start; text-align: left; }
+/* center is the default — no override needed */
+.nebula-intro:has(.nebula-intro-content--center-right)   { justify-content: center;     align-items: flex-end;   text-align: right; }
+.nebula-intro:has(.nebula-intro-content--bottom-left)    { justify-content: flex-end;   align-items: flex-start; text-align: left; }
+.nebula-intro:has(.nebula-intro-content--bottom-center)  { justify-content: flex-end;   align-items: center;     text-align: center; }
+.nebula-intro:has(.nebula-intro-content--bottom-right)   { justify-content: flex-end;   align-items: flex-end;   text-align: right; }
+
+/* Left-aligned positions: logotype flexbox follows text alignment */
+.nebula-intro:has(.nebula-intro-content--top-left) .nebula-title,
+.nebula-intro:has(.nebula-intro-content--center-left) .nebula-title,
+.nebula-intro:has(.nebula-intro-content--bottom-left) .nebula-title { justify-content: flex-start; }
+
+/* Right-aligned positions */
+.nebula-intro:has(.nebula-intro-content--top-right) .nebula-title,
+.nebula-intro:has(.nebula-intro-content--center-right) .nebula-title,
+.nebula-intro:has(.nebula-intro-content--bottom-right) .nebula-title { justify-content: flex-end; }
+
+/* Edge positions: extra padding to keep text away from viewport edges */
+.nebula-intro:has(.nebula-intro-content--top-left),
+.nebula-intro:has(.nebula-intro-content--top-center),
+.nebula-intro:has(.nebula-intro-content--top-right)     { padding-top: clamp(4rem, 10vh, 8rem); }
+.nebula-intro:has(.nebula-intro-content--bottom-left),
+.nebula-intro:has(.nebula-intro-content--bottom-center),
+.nebula-intro:has(.nebula-intro-content--bottom-right)  { padding-bottom: clamp(4rem, 10vh, 8rem); }
 
 .nebula-title {
     display: flex;
@@ -306,10 +325,16 @@ img[alt$="-lrg"] {
 }
 
 .nebula-subtitle {
+    display: block;
     font-size: clamp(1.25rem, 2vw + 0.5rem, 1.5rem);
     color: rgba(255, 255, 255, 0.9);
     font-weight: 300;
     margin-bottom: 1rem;
+    text-decoration: none;
+}
+
+.nebula-subtitle:hover {
+    color: white;
 }
 
 .nebula-headline {
@@ -388,22 +413,19 @@ img[alt$="-lrg"] {
     color: white;
 }
 
-.nebula-header__badge {
-    display: inline-block;
-    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
-    color: white;
-    padding: 0.25rem 0.75rem;
-    border-radius: 1rem;
-    font-size: 0.75rem;
+.nebula-header__issue-name {
+    font-family: var(--font-secondary);
     font-weight: 600;
-    letter-spacing: 0.08em;
     text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 0.8rem;
+    color: var(--color-primary);
 }
 
 .nebula-header__subhead {
-    font-size: 0.875rem;
+    font-size: 0.8rem;
     font-weight: 300;
-    opacity: 0.8;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .nebula-header__logo {
@@ -624,22 +646,40 @@ img[alt$="-lrg"] {
 /* Alternating Split — Lead Story
    ========================================================================== */
 
+/* Override Massively base #main > * padding/border for nebula2026 */
+.theme-nebula2026 #main > * {
+    padding: 0;
+    border-top: 0;
+}
+
 .nebula-split-lead {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 2.5rem;
-    align-items: center;
+    gap: 0;
+    align-items: stretch;
+}
+
+/* Top hero: image on the right */
+.nebula-split-lead:first-child {
+    direction: rtl;
+}
+
+.nebula-split-lead:first-child > * {
+    direction: ltr;
 }
 
 .nebula-split-lead__image img {
     width: 100%;
     height: 100%;
-    max-height: 420px;
     object-fit: cover;
     display: block;
+}
+
+.nebula-split-lead__text {
+    padding: 2rem;
 }
 
 .nebula-split-lead__authors {
@@ -688,7 +728,7 @@ img[alt$="-lrg"] {
 .theme-nebula2026 .posts {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 2rem 2rem;
+    padding: 0;
     display: flex;
     flex-direction: column;
     gap: 0;
@@ -697,14 +737,18 @@ img[alt$="-lrg"] {
 .nebula-split-row {
     display: grid;
     grid-template-columns: 2fr 3fr;
-    gap: 2rem;
-    align-items: center;
-    padding: 2rem 0;
-    border-top: 1px solid var(--color-border, #e0e0e0);
+    gap: 0;
+    align-items: stretch;
+    padding: 0;
+    border-top: 2px solid var(--color-border, #e0e0e0);
 }
 
 .nebula-split-row:last-child {
-    border-bottom: 1px solid var(--color-border, #e0e0e0);
+    border-bottom: 2px solid var(--color-border, #e0e0e0);
+}
+
+.nebula-split-row__text {
+    padding: 2rem;
 }
 
 /* Alternate direction: even rows flip image to right */
@@ -716,9 +760,13 @@ img[alt$="-lrg"] {
     direction: ltr;
 }
 
+.nebula-split-row__image {
+    min-height: 200px;
+}
+
 .nebula-split-row__image img {
     width: 100%;
-    height: 200px;
+    height: 100%;
     object-fit: cover;
     display: block;
 }
@@ -753,6 +801,28 @@ img[alt$="-lrg"] {
     line-height: 1.6;
     color: var(--color-text-light);
     margin: 0;
+}
+
+/* Highlight rhythm: every 3rd row starting from 1st */
+.nebula-split-row:nth-child(3n+1) {
+    grid-template-columns: 1fr 1fr;
+}
+
+.nebula-split-row:nth-child(3n+1) .nebula-split-row__image {
+    min-height: 280px;
+}
+
+.nebula-split-row:nth-child(3n+1) .nebula-split-row__text {
+    padding: 2.5rem 2rem;
+}
+
+.nebula-split-row:nth-child(3n+1) .nebula-split-row__title {
+    font-size: clamp(1.35rem, 2vw + 0.5rem, 1.625rem);
+}
+
+/* Group break: heavier border between clusters */
+.nebula-split-row:nth-child(3n+1):not(:first-child) {
+    border-top-width: 4px;
 }
 
 
@@ -1193,6 +1263,13 @@ img[alt$="-lrg"] {
    ========================================================================== */
 
 @media screen and (max-width: 736px) {
+    /* Reset all intro positions to center on mobile */
+    .nebula-intro {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+    }
     .nebula-title {
         flex-wrap: wrap;
         column-gap: 0;
@@ -1213,22 +1290,51 @@ img[alt$="-lrg"] {
     }
     .nebula-split-lead {
         grid-template-columns: 1fr;
-        padding: 1.5rem 1rem;
-        gap: 1rem;
+        padding: 0;
+        gap: 0;
+    }
+    .nebula-split-lead:first-child {
+        direction: ltr;
+    }
+    .nebula-split-lead__text {
+        padding: 1rem;
     }
     .theme-nebula2026 .posts {
-        padding: 0 1rem 1.5rem;
+        padding: 0;
+        scroll-snap-type: y proximity;
     }
     .nebula-split-row {
         grid-template-columns: 1fr;
-        gap: 1rem;
-        padding: 1.25rem 0;
+        gap: 0;
+        padding: 0;
+        scroll-snap-align: start;
+    }
+    .nebula-split-row__text {
+        padding: 1rem;
     }
     .nebula-split-row:nth-child(even) {
         direction: ltr;
     }
+    .nebula-split-row__image {
+        min-height: auto;
+    }
     .nebula-split-row__image img {
         height: 180px;
+    }
+    .nebula-split-row:nth-child(3n+1) {
+        grid-template-columns: 1fr;
+    }
+    .nebula-split-row:nth-child(3n+1) .nebula-split-row__image {
+        min-height: auto;
+    }
+    .nebula-split-row:nth-child(3n+1) .nebula-split-row__image img {
+        height: 220px;
+    }
+    .nebula-split-row:nth-child(3n+1) .nebula-split-row__text {
+        padding: 1rem;
+    }
+    .nebula-split-row:nth-child(3n+1):not(:first-child) {
+        border-top-width: 4px;
     }
 
     .nebula-page {
