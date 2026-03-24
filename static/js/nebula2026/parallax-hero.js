@@ -30,12 +30,14 @@
           var position = 100 - (scrollFraction * 100);
           hero.style.objectPosition = 'center ' + position + '%';
         } else if (hero.classList.contains('story-end__image')) {
-          // Pan image as story-end scrolls into view
-          var rect = hero.parentElement.getBoundingClientRect();
-          if (rect.bottom > 0 && rect.top < window.innerHeight) {
-            var progress = 1 - (rect.bottom / (window.innerHeight + rect.height));
+          // Pan image as story-end approaches — start early, before it enters viewport
+          var container = hero.closest('.story-end');
+          var rect = container.getBoundingClientRect();
+          var triggerZone = window.innerHeight * 2;
+          if (rect.bottom > 0 && rect.top < triggerZone) {
+            var progress = 1 - ((rect.top - 0) / triggerZone);
             progress = Math.max(0, Math.min(1, progress));
-            var pos = 80 - (progress * 60);
+            var pos = 100 - (progress * 100);
             hero.style.objectPosition = 'center ' + pos + '%';
           }
         } else {
