@@ -1,12 +1,15 @@
 ---
-theme: horizon2020
 title: "Mythaxis Magazine Issue 43"
 date: 2025-09-28
 slug: index
 layout: section
 
+theme: nebula2026
 issue: Issue 43
 subhead: Autumn 2025
+issueRoundel: MythaxisKnot
+introPosition: top-right
+scrollLineText: "Bloop!"
 
 editor: Andrew Leon Hudson
 image: images/synthwave.jpg
