@@ -3,7 +3,8 @@
  * =====================
  * Handles:
  * - Menu triggers: header logotype and story-header logotype both open the nav panel
- * - Landing pages: header becomes sticky, logotype fades in on scroll
+ * - Non-story pages: header becomes sticky (always accessible menu trigger)
+ * - Landing pages: logotype fades in on scroll (hidden initially behind intro)
  * - Story pages: shows the sticky minimal header on scroll
  * - Backdrop click and ESC key to close
  * - Body scroll lock when panel is open
@@ -31,12 +32,14 @@
     var triggerElement = null;
     var isMobile = window.matchMedia('(max-width: 736px)').matches;
 
-    // Landing pages: make header sticky, hide logotype initially (big intro version visible)
-    if (intro && header) {
+    // Make header sticky on all pages except story pages (which use the minimal header)
+    if (!minimalHeader && header) {
       header.classList.add('nebula-header--sticky');
-      if (headerLogo) {
-        headerLogo.classList.add('nebula-header__logo--hidden');
-      }
+    }
+
+    // Landing pages: hide logotype initially (big intro version visible)
+    if (intro && headerLogo) {
+      headerLogo.classList.add('nebula-header__logo--hidden');
     }
 
     // --- Scroll detection ---
