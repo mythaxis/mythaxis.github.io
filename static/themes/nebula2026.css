@@ -223,6 +223,7 @@ img[alt$="-lrg"] {
     min-height: 100vh;
     min-height: 100svh;
     padding: 2rem;
+    box-sizing: border-box;
     position: relative;
     overflow: hidden;
 }
@@ -299,7 +300,15 @@ img[alt$="-lrg"] {
 .nebula-intro:has(.nebula-intro-content--top-right)     { padding-top: clamp(4rem, 10vh, 8rem); }
 .nebula-intro:has(.nebula-intro-content--bottom-left),
 .nebula-intro:has(.nebula-intro-content--bottom-center),
-.nebula-intro:has(.nebula-intro-content--bottom-right)  { padding-bottom: clamp(4rem, 10vh, 8rem); }
+.nebula-intro:has(.nebula-intro-content--bottom-right)  { padding-bottom: clamp(3rem, 15vh, 10rem); }
+
+/* Left/right positions: extra horizontal padding */
+.nebula-intro:has(.nebula-intro-content--top-left),
+.nebula-intro:has(.nebula-intro-content--center-left),
+.nebula-intro:has(.nebula-intro-content--bottom-left),
+.nebula-intro:has(.nebula-intro-content--top-right),
+.nebula-intro:has(.nebula-intro-content--center-right),
+.nebula-intro:has(.nebula-intro-content--bottom-right)  { padding-left: clamp(2rem, 5vw, 5rem); padding-right: clamp(2rem, 5vw, 5rem); }
 
 .nebula-title {
     display: flex;
