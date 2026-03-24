@@ -230,6 +230,15 @@ git add -A && git commit -m "feat: [description of task/phase]"
   - [x] 19.7 Story-level `colorScheme` override: pass page context through htmlhead → styles-overrides → styles.html for per-story color theming
   - [x] 19.8 Fix close-panel focus restore scroll jump (`preventScroll: true`)
 
+- [x] 20.0 Translucent headers and mobile polish
+  - [x] 20.1 Shorten landing cover gradient: transparent 0–75%, feather to white in bottom 25% only (show full cover art)
+  - [x] 20.2 Translucent sticky header: `color-mix(... 80%, transparent)` + `backdrop-filter: blur(10px)` — content scrolls behind with frosted-glass effect
+  - [x] 20.3 Translucent story-header-minimal: `rgba(255,255,255,0.7)` + backdrop blur, z-index 1002 (above sticky header)
+  - [x] 20.4 Story pages: sticky header on all pages; minimal header triggers when story hero scrolls out (not main header) — story art passes through translucent header before minimal header descends over it
+  - [x] 20.5 Mobile (≤768px): hide "Mythaxis" text in menu triggers, roundel-only; reduce roundel sizes (2.4rem menu, 2.5rem issue); tighter spacing
+  - [x] 20.6 Mobile intro roundel bumped from 3rem to 5rem when collapsed below title
+  - [x] 20.7 Fix sticky header on non-landing pages (was gated on `#intro`, now all pages)
+
 - [ ] 8.0 Final regression check and deploy
   - [ ] 8.1 Full smoke test: homepage, issue landing (nebula2026), story page (nebula2026), old issue (horizon2020), archive, authors index
   - [ ] 8.2 Mobile test on real device or accurate emulator — check parallax, reading progress, drop caps
