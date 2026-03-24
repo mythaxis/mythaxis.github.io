@@ -22,7 +22,7 @@
         {{ partial "theme-dispatch" (dict "partial" "page-single" "context" .) }}
       </div>
       
-      {{ partial "copyright" . }}
+      {{ if ne $themeCtx.Theme "nebula2026" }}{{ partial "copyright" . }}{{ end }}
       <a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
     </div>
 

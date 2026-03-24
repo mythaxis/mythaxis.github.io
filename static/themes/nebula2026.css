@@ -1821,14 +1821,21 @@ img[alt$="-lrg"] {
     position: absolute;
     inset: 0;
     z-index: 0;
+    /* clip (not clip-path) lets the fixed child stay viewport-positioned
+       while being visually clipped to this element's bounds */
+    clip: rect(auto, auto, auto, auto);
 }
 
 .story-end__image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
     object-position: center 50%;
     opacity: 0.2;
+    pointer-events: none;
 }
 
 .story-end__fade {
@@ -1932,6 +1939,22 @@ img[alt$="-lrg"] {
     color: var(--color-text-light);
     text-decoration: underline;
     text-underline-offset: 2px;
+}
+
+/* Author & copyright text — darken on hover inside story-end */
+.story-end__author .nebula-author-bio,
+.story-end__author .nebula-copyright-text,
+.story-end__author .nebula-image-copyright {
+    transition: color 0.3s ease;
+}
+
+.story-end__author:hover .nebula-author-bio {
+    color: var(--color-text);
+}
+
+.story-end__author:hover .nebula-copyright-text,
+.story-end__author:hover .nebula-image-copyright {
+    color: var(--color-text-light);
 }
 
 /* Author Footer — Mobile */
