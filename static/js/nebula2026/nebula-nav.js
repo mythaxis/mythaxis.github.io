@@ -3,9 +3,9 @@
  * =====================
  * Handles:
  * - Menu triggers: header logotype and story-header logotype both open the nav panel
- * - Non-story pages: header becomes sticky (always accessible menu trigger)
+ * - All pages: header is sticky (translucent, content scrolls behind)
  * - Landing pages: logotype fades in on scroll (hidden initially behind intro)
- * - Story pages: shows the sticky minimal header on scroll
+ * - Story pages: minimal header descends when hero image scrolls out of view
  * - Backdrop click and ESC key to close
  * - Body scroll lock when panel is open
  */
@@ -19,6 +19,7 @@
     var header = document.getElementById('header');
     var intro = document.getElementById('intro');
     var minimalHeader = document.getElementById('story-header-minimal');
+    var storyHeader = document.getElementById('story-header');
     var headerLogo = document.getElementById('nebula-menu-trigger');
 
     if (!panel || !backdrop) return;
@@ -32,8 +33,8 @@
     var triggerElement = null;
     var isMobile = window.matchMedia('(max-width: 736px)').matches;
 
-    // Make header sticky on all pages except story pages (which use the minimal header)
-    if (!minimalHeader && header) {
+    // All pages: make header sticky (translucent, content scrolls behind)
+    if (header) {
       header.classList.add('nebula-header--sticky');
     }
 
@@ -56,17 +57,14 @@
         }, 400);
       }
 
-      if (header) {
-        var headerBottom = header.getBoundingClientRect().bottom;
-        var scrolledPast = headerBottom <= 0;
-
-        // Story pages: toggle minimal header when main header scrolls out
-        if (minimalHeader) {
-          if (scrolledPast) {
-            minimalHeader.classList.add('visible');
-          } else {
-            minimalHeader.classList.remove('visible');
-          }
+      // Story pages: show minimal header when the hero image scrolls out of view
+      if (minimalHeader && storyHeader) {
+        var heroBottom = storyHeader.getBoundingClientRect().bottom;
+        var headerHeight = header ? header.offsetHeight : 0;
+        if (heroBottom <= headerHeight) {
+          minimalHeader.classList.add('visible');
+        } else {
+          minimalHeader.classList.remove('visible');
         }
       }
 

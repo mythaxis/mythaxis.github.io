@@ -19,7 +19,7 @@ image: images/Sanka_footsteps_sqr.jpg
 imageMobile: images/Sanka_footsteps_sml.jpg
 imageCopyright: "Did you hear stealthy footsteps on the stairs? by Fritz Siebel"
 
-introPosition: top-right
+introPosition: top-left
 # introPosition options: [top|center|bottom]-[left|center|right] or "center" (default)
 # scrollLineText: "Bloop!"
 
