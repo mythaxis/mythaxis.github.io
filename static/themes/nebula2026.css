@@ -877,7 +877,7 @@ img[alt$="-lrg"] {
 .nebula-article-divider__roundel {
     width: 60px;
     height: 60px;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 .nebula-article-image {
@@ -1259,7 +1259,7 @@ img[alt$="-lrg"] {
     background: transparent;
     color: var(--color-primary, #1a2b4c);
     border: 2px solid var(--color-primary, #1a2b4c);
-    border-radius: 2rem;
+    border-radius: 0.25rem;
     font-size: 0.875rem;
     font-weight: 600;
     letter-spacing: 0.03em;
