@@ -341,6 +341,23 @@ img[alt$="-lrg"] {
     pointer-events: none;
 }
 
+.nebula-title__link {
+    display: flex;
+    align-items: center;
+    justify-content: inherit;
+    flex-wrap: inherit;
+    column-gap: inherit;
+    row-gap: inherit;
+    color: inherit;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.nebula-title__link:hover {
+    opacity: 0.85;
+}
+
 .nebula-title__roundel {
     display: inline-block;
     width: 1.5em;
