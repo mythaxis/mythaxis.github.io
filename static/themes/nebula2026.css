@@ -407,7 +407,7 @@ img[alt$="-lrg"] {
 .nebula-header {
     background: color-mix(in srgb, var(--color-primary) 90%, black);
     backdrop-filter: blur(10px);
-    padding: 1rem 0;
+    padding: 0.85rem 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -444,12 +444,12 @@ img[alt$="-lrg"] {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    font-size: 0.95rem;
+    font-size: 1.1rem;
     color: rgba(255, 255, 255, 0.9);
 }
 
 .nebula-header__subhead {
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.7);
 }
@@ -458,7 +458,7 @@ img[alt$="-lrg"] {
     display: flex;
     align-items: center;
     gap: 0.4em;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 800;
     font-family: var(--font-secondary);
     border: none;
@@ -480,8 +480,8 @@ img[alt$="-lrg"] {
 
 .nebula-header__logo-roundel {
     display: inline-block;
-    width: 1.8em;
-    height: 1.8em;
+    width: 2.2em;
+    height: 2.2em;
     background: currentColor;
     -webkit-mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
     mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
@@ -2251,7 +2251,7 @@ img[alt$="-lrg"] {
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 3.5rem; /* account for sticky header height */
+    scroll-padding-top: 5.5rem; /* account for sticky header height */
 }
 
 
