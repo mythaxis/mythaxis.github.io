@@ -223,6 +223,7 @@ img[alt$="-lrg"] {
     min-height: 100vh;
     min-height: 100svh;
     padding: 2rem;
+    box-sizing: border-box;
     position: relative;
     overflow: hidden;
 }
@@ -299,7 +300,15 @@ img[alt$="-lrg"] {
 .nebula-intro:has(.nebula-intro-content--top-right)     { padding-top: clamp(4rem, 10vh, 8rem); }
 .nebula-intro:has(.nebula-intro-content--bottom-left),
 .nebula-intro:has(.nebula-intro-content--bottom-center),
-.nebula-intro:has(.nebula-intro-content--bottom-right)  { padding-bottom: clamp(4rem, 10vh, 8rem); }
+.nebula-intro:has(.nebula-intro-content--bottom-right)  { padding-bottom: clamp(3rem, 15vh, 10rem); }
+
+/* Left/right positions: extra horizontal padding */
+.nebula-intro:has(.nebula-intro-content--top-left),
+.nebula-intro:has(.nebula-intro-content--center-left),
+.nebula-intro:has(.nebula-intro-content--bottom-left),
+.nebula-intro:has(.nebula-intro-content--top-right),
+.nebula-intro:has(.nebula-intro-content--center-right),
+.nebula-intro:has(.nebula-intro-content--bottom-right)  { padding-left: clamp(2rem, 5vw, 5rem); padding-right: clamp(2rem, 5vw, 5rem); }
 
 .nebula-title {
     display: flex;
@@ -307,17 +316,34 @@ img[alt$="-lrg"] {
     justify-content: center;
     font-size: clamp(2.5rem, 5vw + 1rem, 4rem);
     font-weight: 800;
-    font-family: 'Basalte Volume', var(--font-secondary);
+    font-family: 'Basalte', var(--font-secondary);
     color: var(--color-primary);
     text-transform: uppercase;
     letter-spacing: 0.05em;
     margin-bottom: 0.5rem;
 }
 
+/* Chromatic layering on logotype text spans */
+.nebula-title__myth,
+.nebula-title__axis {
+    position: relative;
+}
+
+.nebula-title__myth::after,
+.nebula-title__axis::after {
+    content: attr(data-text);
+    font-family: 'Basalte Multicolor', var(--font-secondary);
+    color: var(--color-secondary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}
+
 .nebula-title__roundel {
     display: inline-block;
-    width: 0.85em;
-    height: 0.85em;
+    width: 1.5em;
+    height: 1.5em;
     margin: 0 0.05em;
     background: currentColor;
     -webkit-mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
@@ -379,9 +405,9 @@ img[alt$="-lrg"] {
    ========================================================================== */
 
 .nebula-header {
-    background: linear-gradient(135deg, rgba(15, 15, 35, 0.95) 0%, rgba(30, 25, 60, 0.95) 100%);
+    background: color-mix(in srgb, var(--color-primary) 90%, black);
     backdrop-filter: blur(10px);
-    padding: 0.75rem 0;
+    padding: 0.85rem 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -418,12 +444,12 @@ img[alt$="-lrg"] {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.08em;
-    font-size: 0.8rem;
-    color: var(--color-primary);
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .nebula-header__subhead {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.7);
 }
@@ -431,14 +457,14 @@ img[alt$="-lrg"] {
 .nebula-header__logo {
     display: flex;
     align-items: center;
-    gap: 0.3em;
-    font-size: 1.25rem;
+    gap: 0.4em;
+    font-size: 1.6rem;
     font-weight: 800;
     font-family: var(--font-secondary);
     border: none;
     padding: 0;
     cursor: pointer;
-    color: var(--color-primary);
+    color: rgba(255, 255, 255, 0.9);
     transition: opacity 0.3s ease;
     background: none;
 }
@@ -454,76 +480,11 @@ img[alt$="-lrg"] {
 
 .nebula-header__logo-roundel {
     display: inline-block;
-    width: 1.25em;
-    height: 1.25em;
+    width: 2.2em;
+    height: 2.2em;
     background: currentColor;
     -webkit-mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
     mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
-}
-
-
-/* Burger Button
-   ========================================================================== */
-
-.nebula-burger {
-    position: fixed;
-    top: 0.75rem;
-    right: 1.5rem;
-    z-index: 1101;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    width: 44px;
-    height: 44px;
-    padding: 0;
-    background: rgba(255, 255, 255, 0.95);
-    border: 2px solid #000;
-    border-radius: 8px;
-    cursor: pointer;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    transition: background 0.2s ease, box-shadow 0.2s ease;
-}
-
-.nebula-burger:hover {
-    background: white;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-.nebula-burger--hidden {
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s ease;
-}
-
-.nebula-burger:not(.nebula-burger--hidden) {
-    transition: opacity 0.3s ease;
-}
-
-.nebula-burger__line {
-    width: 22px;
-    height: 2px;
-    background: #000;
-    border-radius: 2px;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.nebula-burger__roundel {
-    display: none;
-}
-
-/* Burger → X transform */
-.nebula-burger--open .nebula-burger__line:nth-child(1) {
-    transform: translateY(7px) rotate(45deg);
-}
-
-.nebula-burger--open .nebula-burger__line:nth-child(2) {
-    opacity: 0;
-}
-
-.nebula-burger--open .nebula-burger__line:nth-child(3) {
-    transform: translateY(-7px) rotate(-45deg);
 }
 
 
@@ -534,7 +495,7 @@ img[alt$="-lrg"] {
     position: fixed;
     top: 0.75rem;
     right: 1.5rem;
-    width: 280px;
+    width: 250px;
     max-width: 80vw;
     z-index: 1100;
     background: white;
@@ -551,43 +512,53 @@ img[alt$="-lrg"] {
 }
 
 .nebula-nav-panel__content {
-    padding: 1.5rem;
-    padding-top: 3.5rem;
+    padding: 1rem 1rem 0.75rem;
 }
 
 .nebula-nav-panel__logotype {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 0.5rem;
-    font-size: 1.75rem;
+    justify-content: center;
+    gap: 0.4em;
+    font-size: 1.6rem;
     font-weight: 800;
     font-family: var(--font-secondary);
     color: #000;
     margin: 0 0 0.75rem 0;
     letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.nebula-nav-panel__logotype:hover {
+    opacity: 0.5;
 }
 
 .nebula-nav-panel__logotype-roundel {
     display: block;
-    width: 2rem;
-    height: 2rem;
+    width: 2.2em;
+    height: 2.2em;
     background: currentColor;
     -webkit-mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
     mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
 }
 
 .nebula-nav-panel__roundel {
-    text-align: center;
-    padding: 1rem 0 0.5rem;
-    border-top: 1px solid var(--color-border, #e9ecef);
-    margin-top: 0.75rem;
+    text-align: left;
+    padding: 0.5rem 0 0.5rem 0.75rem;
+    margin-top: 0.25rem;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.nebula-nav-panel__roundel:hover {
+    opacity: 0.5;
 }
 
 .nebula-nav-panel__roundel img {
     width: 40px;
     height: 40px;
-    opacity: 0.6;
+    opacity: 1;
     filter: grayscale(1) brightness(0);
 }
 
@@ -597,30 +568,30 @@ img[alt$="-lrg"] {
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 0.125rem;
+    gap: 0;
 }
 
 .nebula-nav-panel__link {
     display: block;
-    padding: 0.625rem 1rem;
+    padding: 0.5rem 0.75rem;
     color: var(--color-text, #333);
     text-decoration: none;
     font-size: 1.1rem;
     font-weight: 500;
+    border: 2px solid transparent;
     border-radius: 8px;
-    transition: background 0.2s ease, color 0.2s ease;
+    transition: border-color 0.2s ease, color 0.2s ease;
 }
 
 .nebula-nav-panel__link:hover {
-    background: var(--color-surface, #f8f9fa);
     color: var(--color-primary, #1a2b4c);
+    border-color: var(--color-border, #e0e0e0);
 }
 
 .nebula-nav-panel__link.active {
     color: var(--color-primary, #1a2b4c);
     font-weight: 600;
-    background: var(--color-surface, #f8f9fa);
-    border-left: 3px solid var(--color-secondary, #4a6d8c);
+    border-color: var(--color-primary, #1a2b4c);
 }
 
 
@@ -679,40 +650,61 @@ img[alt$="-lrg"] {
 }
 
 .nebula-split-lead__text {
-    padding: 2rem;
+    padding: clamp(2rem, 4vw, 3.5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .nebula-split-lead__authors {
     display: block;
-    font-size: 0.9rem;
-    font-style: italic;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: var(--color-secondary);
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.75rem;
 }
 
 .nebula-split-lead__title {
-    font-size: clamp(1.5rem, 2.5vw + 0.5rem, 2.25rem);
-    font-family: var(--font-secondary);
-    line-height: 1.15;
-    margin: 0 0 0.75rem 0;
+    font-size: clamp(1.75rem, 3vw + 0.5rem, 2.75rem);
+    font-family: 'Basalte', var(--font-secondary);
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
 }
 
 .nebula-split-lead__title a {
     color: var(--color-primary);
     text-decoration: none;
+    position: relative;
+}
+
+/* Chromatic layering: Basalte Multicolor over Fond for two-colour effect */
+.nebula-split-lead__title a::after {
+    content: attr(data-text);
+    font-family: 'Basalte Multicolor', var(--font-secondary);
+    color: var(--color-secondary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
 }
 
 .nebula-split-lead__title a:hover {
     text-decoration: underline;
-    text-underline-offset: 3px;
+    text-underline-offset: 4px;
     text-decoration-thickness: 2px;
 }
 
 .nebula-split-lead__description {
     font-size: 1.0625rem;
-    line-height: 1.7;
+    line-height: 1.75;
     color: var(--color-text-light);
     margin: 0;
+    max-width: 55ch;
 }
 
 
@@ -930,10 +922,12 @@ img[alt$="-lrg"] {
 
 .nebula-page-title {
     font-size: clamp(1.75rem, 3vw + 0.5rem, 2.5rem);
-    font-family: var(--font-secondary);
-    color: #000;
+    font-family: 'Basalte', var(--font-secondary);
+    color: var(--color-text);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
     margin-bottom: 0.5rem;
-    line-height: 1.2;
+    line-height: 1.15;
 }
 
 .nebula-page-author {
@@ -971,25 +965,28 @@ img[alt$="-lrg"] {
 .nebula-catalogue {
     max-width: 800px;
     margin: 0 auto;
-    padding: 2rem 2rem;
+    padding: 2.5rem 2rem;
 }
 
 .nebula-catalogue-header {
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .nebula-catalogue-header h1 {
     font-size: clamp(1.75rem, 3vw + 0.5rem, 2.5rem);
-    font-family: var(--font-secondary);
-    color: #000;
+    font-family: 'Basalte', var(--font-secondary);
+    color: var(--color-text);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
     margin-bottom: 0.5rem;
-    line-height: 1.2;
+    line-height: 1.15;
 }
 
 .nebula-catalogue-count {
-    color: var(--color-text-light);
-    font-size: 1rem;
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+    letter-spacing: 0.02em;
 }
 
 .nebula-catalogue-intro {
@@ -1000,7 +997,7 @@ img[alt$="-lrg"] {
 }
 
 .nebula-catalogue-nav {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
     text-align: center;
 }
 
@@ -1013,14 +1010,14 @@ img[alt$="-lrg"] {
 }
 
 .nebula-nav-link {
-    color: var(--color-primary, #1a2b4c);
     text-decoration: none;
     font-weight: 600;
+    font-size: 0.9375rem;
     transition: color 0.2s ease;
 }
 
 .nebula-nav-link:hover {
-    color: var(--color-secondary, #4a6d8c);
+    color: var(--color-secondary);
 }
 
 .nebula-nav-separator {
@@ -1035,7 +1032,7 @@ img[alt$="-lrg"] {
 .nebula-author-entry {
     display: flex;
     gap: 1.5rem;
-    padding: 0.75rem 0;
+    padding: 0.875rem 0;
     border-bottom: 1px solid var(--color-border);
 }
 
@@ -1045,7 +1042,8 @@ img[alt$="-lrg"] {
 
 .nebula-author-entry .nebula-author-name {
     font-size: 1rem;
-    color: #000;
+    font-weight: 600;
+    color: var(--color-text);
     margin: 0;
     min-width: 200px;
     flex-shrink: 0;
@@ -1069,11 +1067,13 @@ img[alt$="-lrg"] {
 
 .nebula-work-link:hover {
     text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 .nebula-work-date {
     color: var(--color-text-muted);
-    font-size: 0.875rem;
+    font-size: 0.8125rem;
+    margin-left: 0.25rem;
 }
 
 /* Catalogue list (stories) */
@@ -1086,7 +1086,7 @@ img[alt$="-lrg"] {
     justify-content: space-between;
     align-items: baseline;
     gap: 1rem;
-    padding: 0.5rem 0;
+    padding: 0.625rem 0;
     border-bottom: 1px solid var(--color-border);
 }
 
@@ -1097,11 +1097,12 @@ img[alt$="-lrg"] {
 
 .nebula-catalogue-link:hover {
     text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 .nebula-catalogue-author {
     color: var(--color-text-muted);
-    font-size: 0.875rem;
+    font-size: 0.8125rem;
     white-space: nowrap;
 }
 
@@ -1114,13 +1115,16 @@ img[alt$="-lrg"] {
     display: flex;
     align-items: baseline;
     gap: 1rem;
-    padding: 0.5rem 0;
+    padding: 0.625rem 0;
     border-bottom: 1px solid var(--color-border);
 }
 
 .nebula-editorial-issue {
     color: var(--color-text-muted);
-    font-size: 0.8rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
     white-space: nowrap;
     min-width: 5rem;
 }
@@ -1132,11 +1136,12 @@ img[alt$="-lrg"] {
 
 .nebula-editorial-link:hover {
     text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 .nebula-editorial-author {
     color: var(--color-text-muted);
-    font-size: 0.875rem;
+    font-size: 0.8125rem;
     margin-left: 0.5rem;
 }
 
@@ -1146,40 +1151,48 @@ img[alt$="-lrg"] {
     flex-wrap: wrap;
     gap: 0.5rem;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .nebula-genre-link {
     display: inline-block;
-    padding: 0.25rem 0.75rem;
-    background: var(--color-primary, #1a2b4c);
+    padding: 0.3rem 0.875rem;
+    background: var(--color-primary);
     color: white;
     text-decoration: none;
-    border-radius: 1rem;
-    font-size: 0.8rem;
-    font-weight: 500;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
     transition: background 0.2s ease;
 }
 
 .nebula-genre-link:hover {
-    background: var(--color-secondary, #4a6d8c);
+    background: var(--color-secondary);
 }
 
 .nebula-genre-section {
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 .nebula-genre-title {
     font-size: 1.25rem;
-    color: #000;
+    font-family: 'Basalte', var(--font-secondary);
+    color: var(--color-text);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
     margin: 0 0 0.75rem 0;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid var(--color-primary);
 }
 
 .nebula-genre-count {
     color: var(--color-text-muted);
+    font-family: var(--font-primary);
     font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
 }
 
 .nebula-genre-items {
@@ -1189,7 +1202,7 @@ img[alt$="-lrg"] {
 }
 
 .nebula-genre-item {
-    padding: 0.35rem 0;
+    padding: 0.375rem 0;
 }
 
 .nebula-item-link {
@@ -1198,11 +1211,12 @@ img[alt$="-lrg"] {
 
 .nebula-item-link:hover {
     text-decoration: underline;
+    text-underline-offset: 2px;
 }
 
 .nebula-item-author {
     color: var(--color-text-muted);
-    font-size: 0.875rem;
+    font-size: 0.8125rem;
     margin-left: 0.5rem;
 }
 
@@ -1284,7 +1298,7 @@ img[alt$="-lrg"] {
     .nebula-title__roundel {
         order: 3;
         width: 100%;
-        height: 3rem;
+        height: 5rem;
         -webkit-mask-position: center;
         mask-position: center;
     }
@@ -1349,6 +1363,10 @@ img[alt$="-lrg"] {
         padding: 0 1rem;
     }
 
+    .nebula-header__issue-name {
+        font-size: 0.9rem;
+    }
+
     .nebula-header__subhead {
         display: none;
     }
@@ -1385,7 +1403,6 @@ img[alt$="-lrg"] {
 @media print {
     .story-header-minimal,
     .story-nav-strip,
-    .nebula-burger,
     .nebula-nav-panel,
     .nebula-nav-backdrop {
         display: none !important;
@@ -1657,6 +1674,13 @@ img[alt$="-lrg"] {
     filter: grayscale(1) brightness(0);
 }
 
+/* Menu trigger in story header — inherits .nebula-header__logo styles but dark text */
+.story-header-minimal .nebula-header__logo {
+    color: #000;
+    flex-shrink: 0;
+    margin-left: 1rem;
+}
+
 .story-header-minimal__info {
     flex: 1;
     min-width: 0;
@@ -1749,20 +1773,68 @@ img[alt$="-lrg"] {
 }
 
 
+/* Story End — parallax issue image behind author + nav
+   ========================================================================== */
+
+.story-end {
+    position: relative;
+    overflow: hidden;
+}
+
+.story-end__hero {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    /* clip (not clip-path) lets the fixed child stay viewport-positioned
+       while being visually clipped to this element's bounds */
+    clip: rect(auto, auto, auto, auto);
+}
+
+.story-end__image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center 50%;
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+.story-end__fade {
+    position: relative;
+    z-index: 1;
+    height: 6rem;
+    background: linear-gradient(to bottom, var(--color-background, #fff), transparent);
+}
+
+.story-end__author {
+    position: relative;
+    z-index: 1;
+}
+
+.story-end__copyright {
+    position: relative;
+    z-index: 1;
+}
+
+.story-end__copyright .nebula-copyright {
+    background: color-mix(in srgb, var(--color-secondary) 80%, transparent);
+}
+
 /* Author Footer
    ========================================================================== */
 
 .nebula-author-footer {
-    background: var(--color-secondary, #4a6d8c);
-    color: white;
-    padding: 2.5rem 2rem;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 2rem 2.5rem;
 }
 
 .nebula-author-card {
-    max-width: 800px;
-    margin: 0 auto;
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     align-items: flex-start;
 }
 
@@ -1774,9 +1846,9 @@ img[alt$="-lrg"] {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border-radius: 12px;
-    border: 4px solid var(--color-primary, #000);
     display: block;
+    border-radius: 12px;
+    border: 4px solid var(--color-primary);
 }
 
 .nebula-author-info {
@@ -1785,16 +1857,19 @@ img[alt$="-lrg"] {
 }
 
 .nebula-author-name {
-    font-size: 1.4rem;
+    font-family: 'Basalte', var(--font-secondary);
+    font-size: 1.125rem;
     font-weight: 700;
-    margin: 0 0 0.75rem 0;
-    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin: 0 0 0.5rem 0;
+    color: var(--color-text);
 }
 
 .nebula-author-bio {
-    font-size: 0.95rem;
-    line-height: 1.7;
-    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.875rem;
+    line-height: 1.65;
+    color: var(--color-text-light);
 }
 
 .nebula-author-bio p {
@@ -1802,39 +1877,58 @@ img[alt$="-lrg"] {
 }
 
 .nebula-author-bio a {
-    color: white;
+    color: var(--color-text);
     text-decoration: underline;
     text-underline-offset: 2px;
 }
 
 .nebula-author-bio a:hover {
-    opacity: 0.8;
+    color: var(--color-primary);
 }
 
 .nebula-copyright-info {
-    max-width: 800px;
+    max-width: 700px;
     margin: 1.25rem auto 0;
-    padding-top: 1rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .nebula-copyright-text,
 .nebula-image-copyright {
-    font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
     margin: 0 0 0.25rem 0;
     line-height: 1.5;
 }
 
 .nebula-image-copyright a {
-    color: rgba(255, 255, 255, 0.9);
+    color: var(--color-text-light);
     text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+/* Author & copyright text — darken on hover inside story-end */
+.story-end__author .nebula-author-bio,
+.story-end__author .nebula-copyright-text,
+.story-end__author .nebula-image-copyright {
+    transition: color 0.3s ease;
+}
+
+.story-end__author:hover .nebula-author-bio {
+    color: var(--color-text);
+}
+
+.story-end__author:hover .nebula-copyright-text,
+.story-end__author:hover .nebula-image-copyright {
+    color: var(--color-text-light);
 }
 
 /* Author Footer — Mobile */
 @media (max-width: 736px) {
+    .story-end__fade {
+        height: 4rem;
+    }
+
     .nebula-author-footer {
-        padding: 2rem 1.5rem;
+        padding: 0 1.5rem 2rem;
     }
 
     .nebula-author-card {
@@ -1843,21 +1937,13 @@ img[alt$="-lrg"] {
         text-align: center;
     }
 
-    .nebula-author-photo {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
     .nebula-author-photo img {
-        width: 80%;
-        max-width: 280px;
-        height: auto;
-        aspect-ratio: 1;
+        width: 120px;
+        height: 120px;
     }
 
     .nebula-author-name {
-        font-size: 1.25rem;
+        font-size: 1rem;
     }
 
     .nebula-copyright-info {
@@ -1871,7 +1957,9 @@ img[alt$="-lrg"] {
 
 /* Story Nav Strip — minimal prev / contents / next row */
 .story-nav-strip-wrap {
-    background: var(--color-primary, #1a2b4c);
+    position: relative;
+    z-index: 1;
+    background: color-mix(in srgb, var(--color-primary) 80%, transparent);
 }
 
 .story-nav-strip {
@@ -2024,8 +2112,35 @@ img[alt$="-lrg"] {
         font-size: 1rem;
     }
 
+    /* Hide "Mythaxis" text on mobile — roundel-only menu trigger */
+    .nebula-header__logo > span:first-child {
+        display: none;
+    }
+
+    .nebula-header__logo {
+        gap: 0;
+    }
+
+    .nebula-header__logo-roundel {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
     .story-header-minimal__content {
         padding: 0.75rem 1rem;
+    }
+
+    .story-header-minimal__issue-roundel {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .story-header-minimal__logotype {
+        margin-right: 0.75rem;
+    }
+
+    .story-header-minimal .nebula-header__logo {
+        margin-left: 0.5rem;
     }
 
     .story-header-minimal__title {
@@ -2118,6 +2233,7 @@ img[alt$="-lrg"] {
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem; /* account for sticky header height */
 }
 
 
@@ -2129,8 +2245,6 @@ html {
     .story-header-minimal,
     .story-nav-strip__link,
     .story-divider__roundel,
-    .nebula-burger,
-    .nebula-burger__line,
     .nebula-nav-panel,
     .nebula-nav-backdrop,
     .nebula-scroll-indicator svg {

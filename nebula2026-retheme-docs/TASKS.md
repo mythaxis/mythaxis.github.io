@@ -210,6 +210,26 @@ git add -A && git commit -m "feat: [description of task/phase]"
   - [x] 16.5 Reading progress bar repositioned to bottom of minimal header (replaces border-bottom)
   - [x] 16.6 Story reading/footer padding tightened so footer roundel sits closer to text
 
+- [x] 17.0 Story-end fixed backdrop and hover polish
+  - [x] 17.1 Story-end cover image: switch from parallax (`position: absolute` + JS panning) to fixed viewport backdrop (`position: fixed; bottom: 0` with `clip: rect` on wrapper) — image stays put while content scrolls over it; remove story-end branch from `parallax-hero.js`
+  - [x] 17.2 Non-story page footer backdrop: wrap authorfooter + copyright in `story-end` container in `page-single.html` with same fixed image technique; suppress outer copyright in `_default/single.html` for nebula2026
+  - [x] 17.3 Author/copyright hover darkening: bio text lightens from `--color-text-light` → `--color-text`, copyright text from `--color-text-muted` → `--color-text-light` on `.story-end__author:hover` with 0.3s transition (pure CSS, matches existing footer hover pattern)
+
+- [x] 18.0 Intro positioning and header tweaks
+  - [x] 18.1 Scroll offset fix: `scroll-padding-top: 3.5rem` on `html` so `#main` anchor clears sticky header
+  - [x] 18.2 Sticky header restyle: background uses `color-mix(in srgb, var(--color-primary) 90%, black)`, text/roundel sizes bumped, roundel 1.8em (larger than logotype), text color switched to white for contrast
+  - [x] 18.3 9-position intro padding: left/right positions get `clamp(2rem, 5vw, 5rem)` horizontal padding; bottom positions get `clamp(3rem, 15vh, 10rem)` bottom padding (~85% down viewport); `box-sizing: border-box` on `.nebula-intro` to keep padding within 100vh
+
+- [x] 19.0 Unified nav menu — replace burger with Mythaxis logotype trigger
+  - [x] 19.1 Remove burger button HTML, CSS (~60 lines), and all JS references
+  - [x] 19.2 Add "Mythaxis + roundel" trigger to story-header-minimal (right side, matching sticky header)
+  - [x] 19.3 JS simplified: `#nebula-menu-trigger` + `.nebula-menu-trigger` class query for all triggers; no burger show/hide on scroll
+  - [x] 19.4 Nav panel restyle: 250px width, centered logotype, left-aligned bottom roundel (0.75rem padding matches menu items), tightened spacing
+  - [x] 19.5 Top logotype and bottom roundel: plain black, fade to 50% on hover, close menu on click
+  - [x] 19.6 Menu links: 2px rounded border on hover/active instead of background fill; active uses `--color-primary` border
+  - [x] 19.7 Story-level `colorScheme` override: pass page context through htmlhead → styles-overrides → styles.html for per-story color theming
+  - [x] 19.8 Fix close-panel focus restore scroll jump (`preventScroll: true`)
+
 - [ ] 8.0 Final regression check and deploy
   - [ ] 8.1 Full smoke test: homepage, issue landing (nebula2026), story page (nebula2026), old issue (horizon2020), archive, authors index
   - [ ] 8.2 Mobile test on real device or accurate emulator — check parallax, reading progress, drop caps

@@ -14,6 +14,10 @@ description: "In this editor's opinion, there's no harder target to hit in ficti
 image: images/Shooter_10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [rperucho](https://pixabay.com/photos/spiral-barrel-of-a-gun-striated-4209283/) and from [Wikipedia](https://en.wikipedia.org/wiki/Uncle_Sam#/media/File:I_Want_You_for_U.S._Army_by_James_Montgomery_Flagg.jpg) - many thanks!"
 
+colorScheme:
+  primary: "#580fea"
+  secondary: "#ed1056"
+
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/2.Shooter.mp3"
 
 type: stock
