@@ -10,8 +10,8 @@ subhead: Spring 2026
 issueRoundel: MythaxisKnot
 
 colorScheme:
-  primary: "#678188"
-  secondary: "#c58d80"
+  primary: "#269bbc"
+  secondary: "#617106"
 
 editor: Andrew Leon Hudson
 image: images/Sanka_footsteps_sqr.jpg
@@ -19,8 +19,9 @@ image: images/Sanka_footsteps_sqr.jpg
 imageMobile: images/Sanka_footsteps_sml.jpg
 imageCopyright: "Did you hear stealthy footsteps on the stairs? by Fritz Siebel"
 
-introPosition: center
-scrollLineText: "Explore this issue"
+introPosition: top-right
+# introPosition options: [top|center|bottom]-[left|center|right] or "center" (default)
+# scrollLineText: "Bloop!"
 
 ---
 
