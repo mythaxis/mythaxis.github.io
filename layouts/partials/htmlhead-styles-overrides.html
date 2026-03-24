@@ -2,12 +2,12 @@
   HTML Head Styles Overrides - Theme Dispatcher Wrapper
   =====================================================
   This partial delegates to the theme-specific styles implementation.
-  
-  Note: This partial receives $currSection as context (not page context),
-  so we need to handle it differently.
+
+  Receives dict with "Section" and "Page" keys from htmlhead.html.
 */}}
 
-{{- $currSection := . -}}
+{{- $currSection := .Section -}}
+{{- $currPage := .Page -}}
 
 {{/* Build a pseudo-context for the dispatcher */}}
 {{- $theme := $currSection.Params.theme | default $.Site.Params.defaultTheme | default "nebula2026" -}}
@@ -15,7 +15,7 @@
 {{- $fallbackPath := "themes/nebula2026/styles.html" -}}
 
 {{/* Prepare context matching what theme-dispatch provides */}}
-{{- $fullContext := dict "Page" $currSection "Section" $currSection "Theme" $theme "Data" dict -}}
+{{- $fullContext := dict "Page" $currPage "Section" $currSection "Theme" $theme "Data" dict -}}
 
 {{/* Try theme-specific partial, fallback to nebula2026 */}}
 {{- if templates.Exists (printf "partials/%s" $partialPath) -}}
