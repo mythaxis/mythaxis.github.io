@@ -1843,6 +1843,15 @@ img[alt$="-lrg"] {
     z-index: 1;
 }
 
+.story-end__copyright {
+    position: relative;
+    z-index: 1;
+}
+
+.story-end__copyright .nebula-copyright {
+    background: color-mix(in srgb, var(--color-secondary) 80%, transparent);
+}
+
 /* Author Footer
    ========================================================================== */
 
@@ -1963,7 +1972,7 @@ img[alt$="-lrg"] {
 .story-nav-strip-wrap {
     position: relative;
     z-index: 1;
-    background: rgba(0, 0, 0, 0.5);
+    background: color-mix(in srgb, var(--color-primary) 80%, transparent);
 }
 
 .story-nav-strip {
