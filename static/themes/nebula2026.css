@@ -917,6 +917,10 @@ img[alt$="-lrg"] {
     padding: 0 2rem;
 }
 
+.theme-nebula2026 #main > .nebula-page {
+    padding: 2rem 2rem;
+}
+
 .nebula-page-header {
     text-align: center;
     margin-bottom: 2rem;
@@ -967,6 +971,10 @@ img[alt$="-lrg"] {
 .nebula-catalogue {
     max-width: 800px;
     margin: 0 auto;
+    padding: 2.5rem 2rem;
+}
+
+.theme-nebula2026 #main > .nebula-catalogue {
     padding: 2.5rem 2rem;
 }
 
@@ -1248,8 +1256,9 @@ img[alt$="-lrg"] {
 }
 
 @media (max-width: 736px) {
-    .nebula-catalogue {
-        padding: 1.5rem 1rem;
+    .nebula-catalogue,
+    .theme-nebula2026 #main > .nebula-catalogue {
+        padding: 1.5rem 1.5rem;
     }
 
 
@@ -1353,8 +1362,8 @@ img[alt$="-lrg"] {
         border-top-width: 4px;
     }
 
-    .nebula-page {
-        padding: 0 1rem;
+    .theme-nebula2026 #main > .nebula-page {
+        padding: 2rem 1.5rem;
     }
 
     .nebula-audio-player {
