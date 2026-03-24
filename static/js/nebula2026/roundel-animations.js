@@ -70,10 +70,6 @@
       observer.observe(roundel);
     });
 
-    // Debug info (only in development)
-    if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-      console.log('Roundel animations initialized:', roundels.length, 'roundels found');
-    }
   }
 
 })();
