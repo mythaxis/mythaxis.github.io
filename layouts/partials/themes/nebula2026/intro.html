@@ -36,9 +36,11 @@
     <div class="nebula-intro-content nebula-intro-content--{{ .Params.introPosition | default "center" }}">
         <a href="#main" class="nebula-subtitle scrolly">{{ .Params.subhead }}</a>
         <h1 class="nebula-title">
-            <span class="nebula-title__myth" data-text="Myth">Myth</span>
-            <span class="nebula-title__roundel" aria-hidden="true"></span>
-            <span class="nebula-title__axis" data-text="axis">axis</span>
+            <a href="#main" class="nebula-title__link scrolly">
+                <span class="nebula-title__myth" data-text="Myth">Myth</span>
+                <span class="nebula-title__roundel" aria-hidden="true"></span>
+                <span class="nebula-title__axis" data-text="axis">axis</span>
+            </a>
         </h1>
         {{ if .Params.headline }}
         <p class="nebula-headline">{{ .Params.headline }}</p>
