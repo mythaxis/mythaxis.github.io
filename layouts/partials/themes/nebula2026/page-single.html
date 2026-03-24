@@ -68,4 +68,26 @@
     </div>
 </section>
 
-{{ partial "authorfooter" $page }}
+{{/* Footer area with fixed issue image backdrop */}}
+<div class="story-end" id="story-end">
+  {{ with $section }}{{ if .Params.image }}
+  <div class="story-end__hero">
+    <img src="{{ path.Join .Section .Params.image | relURL }}"
+         alt=""
+         aria-hidden="true"
+         class="story-end__image"
+         loading="lazy"
+         decoding="async" />
+  </div>
+  {{ end }}{{ end }}
+
+  <div class="story-end__fade"></div>
+
+  <div class="story-end__author">
+    {{ partial "authorfooter" $page }}
+  </div>
+
+  <div class="story-end__copyright">
+    {{ partial "copyright" $page }}
+  </div>
+</div>

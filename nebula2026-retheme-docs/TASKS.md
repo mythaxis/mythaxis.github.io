@@ -210,6 +210,11 @@ git add -A && git commit -m "feat: [description of task/phase]"
   - [x] 16.5 Reading progress bar repositioned to bottom of minimal header (replaces border-bottom)
   - [x] 16.6 Story reading/footer padding tightened so footer roundel sits closer to text
 
+- [x] 17.0 Story-end fixed backdrop and hover polish
+  - [x] 17.1 Story-end cover image: switch from parallax (`position: absolute` + JS panning) to fixed viewport backdrop (`position: fixed; bottom: 0` with `clip: rect` on wrapper) — image stays put while content scrolls over it; remove story-end branch from `parallax-hero.js`
+  - [x] 17.2 Non-story page footer backdrop: wrap authorfooter + copyright in `story-end` container in `page-single.html` with same fixed image technique; suppress outer copyright in `_default/single.html` for nebula2026
+  - [x] 17.3 Author/copyright hover darkening: bio text lightens from `--color-text-light` → `--color-text`, copyright text from `--color-text-muted` → `--color-text-light` on `.story-end__author:hover` with 0.3s transition (pure CSS, matches existing footer hover pattern)
+
 - [ ] 8.0 Final regression check and deploy
   - [ ] 8.1 Full smoke test: homepage, issue landing (nebula2026), story page (nebula2026), old issue (horizon2020), archive, authors index
   - [ ] 8.2 Mobile test on real device or accurate emulator — check parallax, reading progress, drop caps

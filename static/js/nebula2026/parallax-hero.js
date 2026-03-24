@@ -9,8 +9,8 @@
   'use strict';
 
   function initParallax() {
-    // Find hero images (issue landing, story pages, minimal header, story end)
-    const heroImages = document.querySelectorAll('.landing-header__image, .story-header__image, .story-header-minimal__image, .story-end__image');
+    // Find hero images (issue landing, story pages, minimal header)
+    const heroImages = document.querySelectorAll('.landing-header__image, .story-header__image, .story-header-minimal__image');
     if (heroImages.length === 0) return;
 
     // Check if user prefers reduced motion
@@ -29,17 +29,6 @@
           var scrollFraction = Math.min(scrolled / (docHeight || 1), 1);
           var position = 100 - (scrollFraction * 100);
           hero.style.objectPosition = 'center ' + position + '%';
-        } else if (hero.classList.contains('story-end__image')) {
-          // Pan image as story-end approaches — start early, before it enters viewport
-          var container = hero.closest('.story-end');
-          var rect = container.getBoundingClientRect();
-          var triggerZone = window.innerHeight * 2;
-          if (rect.bottom > 0 && rect.top < triggerZone) {
-            var progress = 1 - ((rect.top - 0) / triggerZone);
-            progress = Math.max(0, Math.min(1, progress));
-            var pos = 100 - (progress * 100);
-            hero.style.objectPosition = 'center ' + pos + '%';
-          }
         } else {
           var rect = hero.getBoundingClientRect();
           var elementTop = rect.top + scrolled;
