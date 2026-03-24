@@ -10,12 +10,13 @@
     .Data    - Any extra data passed
 */}}
 
+{{- $page := .Page -}}
 {{- $section := .Section -}}
 
 {{/* Load nebula2026 complete theme styles (includes base styles) */}}
 <link rel="stylesheet" href='{{ "themes/nebula2026.css" | relURL }}' />
 
-{{/* Dynamic theme colors and fallbacks */}}
+{{/* Dynamic theme colors: issue-level, with optional story-level override */}}
 <style type="text/css">
 {{ with $section }}
 .theme-nebula2026 {
@@ -23,6 +24,12 @@
     {{ with .primary }}--color-primary: {{ . }};{{ end }}
     {{ with .secondary }}--color-secondary: {{ . }};{{ end }}
     {{ end }}
+}
+{{ end }}
+{{ with $page.Params.colorScheme }}
+.theme-nebula2026 {
+    {{ with .primary }}--color-primary: {{ . }};{{ end }}
+    {{ with .secondary }}--color-secondary: {{ . }};{{ end }}
 }
 {{ end }}
 {{ if not $section.Params.image }}

@@ -20,7 +20,7 @@
 	{{ end }}
 	<link rel="icon" href='{{ "favicon.ico" | relURL }}' type="image/x-icon">
 
-	{{ partial "htmlhead-styles-overrides.html" $themeCtx.Section }}
+	{{ partial "htmlhead-styles-overrides.html" (dict "Section" $themeCtx.Section "Page" .) }}
 	{{ partial "htmlhead-scripts-overrides.html" . }}
 
 
