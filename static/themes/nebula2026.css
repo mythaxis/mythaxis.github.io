@@ -1443,10 +1443,11 @@ img[alt$="-lrg"] {
     }
     .nebula-intro {
         scroll-snap-align: start;
+        scroll-margin-top: var(--header-h);
     }
     .nebula-content-row {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr auto;
+        grid-template-rows: minmax(200px, 40svh) 1fr;
         gap: 0;
         padding: 0;
         scroll-snap-align: start;
@@ -1456,6 +1457,16 @@ img[alt$="-lrg"] {
     }
     .nebula-content-row__text {
         padding: 1rem;
+    }
+    .nebula-content-row__title {
+        font-size: 1.4rem;
+    }
+    .nebula-content-row__authors {
+        font-size: 1rem;
+    }
+    .nebula-content-row__description {
+        font-size: 1.0625rem;
+        line-height: 1.7;
     }
     .nebula-content-row--right {
         direction: ltr;
