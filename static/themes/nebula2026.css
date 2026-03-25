@@ -777,7 +777,7 @@ img[alt$="-lrg"] {
 
 .nebula-split-row {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 1fr 1fr;
     gap: 0;
     align-items: stretch;
     padding: 0;
@@ -810,7 +810,7 @@ img[alt$="-lrg"] {
 /* Snake corners — grid row images
    Odd rows (image LEFT): round outer left edge (TL + BL)
    Even rows (image RIGHT): round outer right edge (TR + BR)
-   All rows get both outer corners — heroes handle their own corners independently. */
+   First row: no top corners (snake starts). Last row: no bottom corners (snake ends). */
 .nebula-split-row__image {
     overflow: hidden;
 }
@@ -821,6 +821,26 @@ img[alt$="-lrg"] {
 
 .nebula-split-row:nth-child(even) .nebula-split-row__image {
     border-radius: 0 var(--radius-snake) var(--radius-snake) 0;
+}
+
+/* First row (always odd): bottom-left only */
+.nebula-split-row:first-child .nebula-split-row__image {
+    border-radius: 0 0 0 var(--radius-snake);
+}
+
+/* Last row odd: top-left only */
+.nebula-split-row:last-child:nth-child(odd) .nebula-split-row__image {
+    border-radius: var(--radius-snake) 0 0 0;
+}
+
+/* Last row even: top-right only */
+.nebula-split-row:last-child:nth-child(even) .nebula-split-row__image {
+    border-radius: 0 var(--radius-snake) 0 0;
+}
+
+/* Single row: no corners */
+.nebula-split-row:only-child .nebula-split-row__image {
+    border-radius: 0;
 }
 
 .nebula-split-row__title {
@@ -856,10 +876,6 @@ img[alt$="-lrg"] {
 }
 
 /* Highlight rhythm: every 3rd row starting from 1st */
-.nebula-split-row:nth-child(3n+1) {
-    grid-template-columns: 1fr 1fr;
-}
-
 .nebula-split-row:nth-child(3n+1) .nebula-split-row__image {
     min-height: 280px;
 }
