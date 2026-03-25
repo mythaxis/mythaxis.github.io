@@ -16,7 +16,7 @@
     {{ if $page.Params.image }}
     <div class="nebula-content-row__image">
         <a href="{{ $page.Permalink }}">
-            <img src="{{ path.Join $page.Section $page.Params.image | relURL }}" alt="" />
+            <img src="{{ path.Join $page.Section $page.Params.image | relURL }}" alt="Story image for {{ $page.Title }} by {{ collections.Delimit $page.Params.authors ", " }}" />
         </a>
     </div>
     {{ end }}
