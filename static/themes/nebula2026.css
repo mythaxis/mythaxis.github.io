@@ -102,6 +102,7 @@
 
     /* Borders */
     --radius-base: 0.25rem;
+    --radius-snake: 2rem;
 
     /* Transitions */
     --transition-fast: 150ms ease-in-out;
@@ -740,6 +741,21 @@ img[alt$="-lrg"] {
     max-width: 55ch;
 }
 
+/* Snake corners — hero images
+   Top hero (image RIGHT): bottom-right outer edge
+   Bottom hero (image LEFT): top-left outer edge */
+.nebula-split-lead__image {
+    overflow: hidden;
+}
+
+.nebula-split-lead:first-child .nebula-split-lead__image {
+    border-radius: 0 0 var(--radius-snake) 0;
+}
+
+.posts + .nebula-split-lead .nebula-split-lead__image {
+    border-radius: var(--radius-snake) 0 0 0;
+}
+
 
 /* Alternating Split — Story Rows
    ========================================================================== */
@@ -765,11 +781,6 @@ img[alt$="-lrg"] {
     gap: 0;
     align-items: stretch;
     padding: 0;
-    border-top: 2px solid var(--color-border);
-}
-
-.nebula-split-row:last-child {
-    border-bottom: 2px solid var(--color-border);
 }
 
 .nebula-split-row__text {
@@ -794,6 +805,22 @@ img[alt$="-lrg"] {
     height: 100%;
     object-fit: cover;
     display: block;
+}
+
+/* Snake corners — grid row images
+   Odd rows (image LEFT): round outer left edge (TL + BL)
+   Even rows (image RIGHT): round outer right edge (TR + BR)
+   All rows get both outer corners — heroes handle their own corners independently. */
+.nebula-split-row__image {
+    overflow: hidden;
+}
+
+.nebula-split-row:nth-child(odd) .nebula-split-row__image {
+    border-radius: var(--radius-snake) 0 0 var(--radius-snake);
+}
+
+.nebula-split-row:nth-child(even) .nebula-split-row__image {
+    border-radius: 0 var(--radius-snake) var(--radius-snake) 0;
 }
 
 .nebula-split-row__title {
@@ -845,9 +872,9 @@ img[alt$="-lrg"] {
     font-size: clamp(1.35rem, 2vw + 0.5rem, 1.625rem);
 }
 
-/* Group break: heavier border between clusters */
+/* Group break: spacing between clusters */
 .nebula-split-row:nth-child(3n+1):not(:first-child) {
-    border-top-width: 4px;
+    margin-top: 0.5rem;
 }
 
 
@@ -1396,7 +1423,13 @@ img[alt$="-lrg"] {
         padding: 1rem;
     }
     .nebula-split-row:nth-child(3n+1):not(:first-child) {
-        border-top-width: 4px;
+        margin-top: 0.5rem;
+    }
+
+    /* Snake corners: reset on mobile (single-column stacking) */
+    .nebula-split-lead__image,
+    .nebula-split-row__image {
+        border-radius: 0;
     }
 
     .theme-nebula2026 #main > .nebula-page {
