@@ -8,9 +8,11 @@ The current frontpage has two mechanisms that conflict:
 2. **CSS `nth-child` alternation** controls image left/right positioning. The editor has no say in which side an image appears on.
 3. **Snake corner CSS** relies on strict odd=left, even=right alternation. Featured items rendered outside `.posts` don't participate in the snake flow.
 
-## Proposed Solution: `layout` frontmatter field
+## Proposed Solution: `cardLayout` frontmatter field
 
-Replace `featured: true/false` with a `layout` field that controls both visual style and image position, while keeping all stories in weight order inside `.posts`.
+Replace `featured: true/false` with a `cardLayout` field that controls both visual style and image position, while keeping all stories in weight order inside `.posts`.
+
+> **Note:** Named `cardLayout` (not `layout`) to avoid conflict with Hugo's built-in `layout` field which controls template lookup.
 
 ### Layout values
 
@@ -30,12 +32,12 @@ Future extensions (not yet implemented):
 
 ### Default behaviour
 
-If `layout` is omitted, the system auto-assigns based on position:
+If `cardLayout` is omitted, the system auto-assigns based on position:
 
 - Odd position (1st, 3rd, 5th...): `stock-left`
 - Even position (2nd, 4th, 6th...): `stock-right`
 
-This means existing content files need zero changes to maintain current appearance. The editor only adds `layout:` when they want to override the default.
+This means existing content files need zero changes to maintain current appearance. The editor only adds `cardLayout:` when they want to override the default.
 
 ### Example frontmatter
 
@@ -44,20 +46,20 @@ This means existing content files need zero changes to maintain current appearan
 title: "The Witness"
 type: stock
 weight: 1
-layout: featured-left
+cardLayout: featured-left
 
 # Story at weight 8, standard row, editor is happy with auto-positioning
 title: "Short Reviews"
 type: stock
 weight: 8
-# no layout field — auto-assigned based on position
+# no cardLayout field — auto-assigned based on position
 ```
 
 ## Architecture
 
 ### Template structure
 
-All layout variants share one Hugo content view template. The view template reads `layout` from frontmatter and calls the appropriate partial.
+All layout variants share one Hugo content view template. The view template reads `cardLayout` from frontmatter and calls the appropriate partial.
 
 ```
 layouts/
@@ -94,7 +96,7 @@ A single content view for all layouts. The `featured.html` content view becomes 
 
 ### content-row.html (the partial)
 
-This partial reads `layout` from frontmatter and outputs the appropriate HTML. All variants share the same outer `<article>` structure so the snake CSS can target them uniformly.
+This partial reads `cardLayout` from frontmatter and outputs the appropriate HTML. All variants share the same outer `<article>` structure so the snake CSS can target them uniformly.
 
 ```
 {{- $page := .Page -}}
@@ -325,7 +327,7 @@ If it ever comes up, a simple `snake: false` frontmatter flag could zero all fou
 
 #### Template requirement
 
-For the transition selectors to work, **every row must have a `--left` or `--right` class**. The template resolves this from the `layout` frontmatter field, or from position (odd=left, even=right) when `layout` is omitted. No row is left classless.
+For the transition selectors to work, **every row must have a `--left` or `--right` class**. The template resolves this from the `cardLayout` frontmatter field, or from position (odd=left, even=right) when `cardLayout` is omitted. No row is left classless.
 
 #### Browser support
 
@@ -384,7 +386,7 @@ For the transition selectors to work, **every row must have a `--left` or `--rig
 | `nebula2026/list-item.html` | Replace with `content-row.html` |
 | `nebula2026/featured.html` | Logic merged into `content-row.html` |
 | `nebula2026.css` | Replace `.nebula-split-row` + `.nebula-split-lead` with `.nebula-content-row`; snake corners; featured text styles |
-| Content files | Remove `featured: true`. Optionally add `layout: featured-left` etc. |
+| Content files | Remove `featured: true`. Optionally add `cardLayout: featured-left` etc. |
 
 ### What stays the same
 
@@ -421,7 +423,7 @@ Consider: should `featured` layouts implicitly get the highlight treatment? Or s
 
 1. Add `review` branch in `content-row.html` template
 2. Add `.nebula-content-row__title--review` CSS styles
-3. Stories use `layout: review-left` or `layout: review-right`
+3. Stories use `cardLayout: review-left` or `cardLayout: review-right`
 4. No changes to section.html, snake CSS, or grid structure
 
 ### Adding new layout styles
