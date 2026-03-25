@@ -18,8 +18,9 @@ audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/1.T
 
 type: stock
 slug: the-witness
-weight: 1
-featured: true
+weight: 2
+featured: false
+cardLayout: featured-left
 
 ---
 

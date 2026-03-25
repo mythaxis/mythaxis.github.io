@@ -32,6 +32,7 @@
     var snapTimer = null;
     var triggerElement = null;
     var isMobile = window.matchMedia('(max-width: 736px)').matches;
+    var prevScrollY = window.scrollY;
 
     // All pages: make header sticky (translucent, content scrolls behind)
     if (header) {
@@ -48,23 +49,33 @@
     function handleScroll() {
       if (isOpen) return;
 
-      // iOS fix: disable mandatory snap near top so scroll-to-top gesture works
-      if (intro && isMobile && window.scrollY < 10) {
+      // iOS fix: disable mandatory snap on scroll-to-top gesture
+      // Detect by large upward jump (programmatic) or landing near top
+      var scrollDelta = prevScrollY - window.scrollY;
+      prevScrollY = window.scrollY;
+
+      if (intro && isMobile && (scrollDelta > window.innerHeight || window.scrollY < 5)) {
         document.documentElement.style.scrollSnapType = 'none';
         clearTimeout(snapTimer);
         snapTimer = setTimeout(function() {
+          if (window.scrollY < 50 && intro) {
+            intro.scrollIntoView({ behavior: 'auto', block: 'start' });
+          }
           document.documentElement.style.scrollSnapType = '';
-        }, 400);
+        }, 1200);
       }
 
       // Story pages: show minimal header when the hero image scrolls out of view
+      // Hide main header so it doesn't peek below the shorter minimal header
       if (minimalHeader && storyHeader) {
         var heroBottom = storyHeader.getBoundingClientRect().bottom;
         var headerHeight = header ? header.offsetHeight : 0;
         if (heroBottom <= headerHeight) {
           minimalHeader.classList.add('visible');
+          if (header) header.style.visibility = 'hidden';
         } else {
           minimalHeader.classList.remove('visible');
+          if (header) header.style.visibility = '';
         }
       }
 

@@ -1,0 +1,42 @@
+{{/*
+  Nebula2026 Theme - Content Row (Unified Layout)
+  ================================================
+  Single partial for all frontpage row variants. Reads direction and style
+  from Data dict (resolved by section.html loop).
+
+  Data.direction: "left" | "right"
+  Data.style:     "stock" | "featured" | "review"
+*/}}
+
+{{- $page := .Page -}}
+{{- $direction := .Data.direction -}}
+{{- $style := .Data.style -}}
+
+<article class="nebula-content-row nebula-content-row--{{ $direction }}">
+    {{ if $page.Params.image }}
+    <div class="nebula-content-row__image">
+        <a href="{{ $page.Permalink }}">
+            <img src="{{ path.Join $page.Section $page.Params.image | relURL }}" alt="Story image for {{ $page.Title }} by {{ collections.Delimit $page.Params.authors ", " }}" />
+        </a>
+    </div>
+    {{ end }}
+    <div class="nebula-content-row__text">
+        {{ if eq $style "featured" }}
+        <span class="nebula-content-row__authors">{{ collections.Delimit $page.Params.authors ", " }}</span>
+        <h2 class="nebula-content-row__title nebula-content-row__title--featured">
+            <a href="{{ $page.Permalink }}" data-text="{{ $page.Title }}">{{ $page.Title }}</a>
+        </h2>
+        {{ if $page.Description }}
+        <p class="nebula-content-row__description">{{ $page.Description }}</p>
+        {{ end }}
+        {{ else }}
+        <h3 class="nebula-content-row__title"><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h3>
+        <span class="nebula-content-row__authors">{{ collections.Delimit $page.Params.authors ", " }}</span>
+        {{ if $page.Description }}
+        <p class="nebula-content-row__description">{{ $page.Description }}</p>
+        {{ else }}
+        <p class="nebula-content-row__description">{{ $page.Summary }}</p>
+        {{ end }}
+        {{ end }}
+    </div>
+</article>

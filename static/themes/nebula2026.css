@@ -102,6 +102,7 @@
 
     /* Borders */
     --radius-base: 0.25rem;
+    --radius-snake: 2rem;
 
     /* Transitions */
     --transition-fast: 150ms ease-in-out;
@@ -256,6 +257,8 @@ img[alt$="-lrg"] {
     max-width: 800px;
     position: relative;
     z-index: 3;
+    display: flex;
+    flex-direction: column;
 }
 
 /* 9-position intro layout system
@@ -302,13 +305,13 @@ img[alt$="-lrg"] {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: clamp(2.5rem, 5vw + 1rem, 4rem);
+    font-size: clamp(3rem, 5vw + 1rem, 4.5rem);
     font-weight: 800;
     font-family: 'Basalte', var(--font-secondary);
     color: var(--color-primary);
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    margin-bottom: 0.5rem;
+    margin: 0 0 0.5rem;
 }
 
 /* Chromatic layering on logotype text spans */
@@ -361,10 +364,11 @@ img[alt$="-lrg"] {
 
 .nebula-subtitle {
     display: block;
-    font-size: clamp(1.25rem, 2vw + 0.5rem, 1.5rem);
+    order: -1;
+    font-size: clamp(1.5rem, 2.5vw + 0.5rem, 1.75rem);
     color: rgba(255, 255, 255, 0.9);
     font-weight: 300;
-    margin-bottom: 1rem;
+    margin-bottom: 0.25rem;
     text-decoration: none;
 }
 
@@ -740,8 +744,23 @@ img[alt$="-lrg"] {
     max-width: 55ch;
 }
 
+/* Snake corners — hero images
+   Top hero (image RIGHT): bottom-right outer edge
+   Bottom hero (image LEFT): top-left outer edge */
+.nebula-split-lead__image {
+    overflow: hidden;
+}
 
-/* Alternating Split — Story Rows
+.nebula-split-lead:first-child .nebula-split-lead__image {
+    border-radius: 0 0 var(--radius-snake) 0;
+}
+
+.posts + .nebula-split-lead .nebula-split-lead__image {
+    border-radius: var(--radius-snake) 0 0 0;
+}
+
+
+/* Alternating Split — Content Rows (unified layout system)
    ========================================================================== */
 
 /* Massively base sets overflow:hidden on #wrapper — override only on landing
@@ -759,61 +778,91 @@ img[alt$="-lrg"] {
     gap: 0;
 }
 
-.nebula-split-row {
+.nebula-content-row {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 1fr 1fr;
     gap: 0;
     align-items: stretch;
     padding: 0;
-    border-top: 2px solid var(--color-border);
+    /* Snake corners: all flat by default */
+    --tl: 0;
+    --tr: 0;
+    --br: 0;
+    --bl: 0;
 }
 
-.nebula-split-row:last-child {
-    border-bottom: 2px solid var(--color-border);
-}
-
-.nebula-split-row__text {
+.nebula-content-row__text {
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-/* Alternate direction: even rows flip image to right */
-.nebula-split-row:nth-child(even) {
+/* Direction: right-positioned image flips column order */
+.nebula-content-row--right {
     direction: rtl;
 }
 
-.nebula-split-row:nth-child(even) > * {
+.nebula-content-row--right > * {
     direction: ltr;
 }
 
-.nebula-split-row__image {
+.nebula-content-row__image {
     min-height: 200px;
+    overflow: hidden;
+    border-radius: var(--tl) var(--tr) var(--br) var(--bl);
 }
 
-.nebula-split-row__image img {
+.nebula-content-row__image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
 
-.nebula-split-row__title {
+/* Snake corners — transition-based model
+   Corners curve only at transitions between left and right sides.
+   Consecutive same-side rows form a straight edge. */
+
+/* TL: left image after a right image */
+.nebula-content-row--right + .nebula-content-row--left {
+    --tl: var(--radius-snake);
+}
+
+/* BL: left image before a right image */
+.nebula-content-row--left:has(+ .nebula-content-row--right) {
+    --bl: var(--radius-snake);
+}
+
+/* TR: right image after a left image */
+.nebula-content-row--left + .nebula-content-row--right {
+    --tr: var(--radius-snake);
+}
+
+/* BR: right image before a left image */
+.nebula-content-row--right:has(+ .nebula-content-row--left) {
+    --br: var(--radius-snake);
+}
+
+/* Stock text styling */
+.nebula-content-row__title {
     font-size: clamp(1.2rem, 1.5vw + 0.5rem, 1.375rem);
     font-family: var(--font-secondary);
     line-height: 1.25;
     margin: 0 0 0.25rem 0;
 }
 
-.nebula-split-row__title a {
+.nebula-content-row__title a {
     color: var(--color-primary);
     text-decoration: none;
 }
 
-.nebula-split-row__title a:hover {
+.nebula-content-row__title a:hover {
     text-decoration: underline;
     text-underline-offset: 2px;
 }
 
-.nebula-split-row__authors {
+.nebula-content-row__authors {
     display: block;
     font-size: 0.875rem;
     font-style: italic;
@@ -821,34 +870,61 @@ img[alt$="-lrg"] {
     margin-bottom: 0.5rem;
 }
 
-.nebula-split-row__description {
+.nebula-content-row__description {
     font-size: 0.9375rem;
     line-height: 1.6;
     color: var(--color-text-light);
     margin: 0;
 }
 
-/* Highlight rhythm: every 3rd row starting from 1st */
-.nebula-split-row:nth-child(3n+1) {
-    grid-template-columns: 1fr 1fr;
+/* Featured text styling */
+.nebula-content-row__title--featured {
+    font-size: clamp(1.75rem, 3vw + 0.5rem, 2.75rem);
+    font-family: 'Basalte', var(--font-secondary);
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
 }
 
-.nebula-split-row:nth-child(3n+1) .nebula-split-row__image {
+.nebula-content-row__title--featured a {
+    position: relative;
+}
+
+/* Chromatic layering: Basalte Multicolor over Fond for two-colour effect */
+.nebula-content-row__title--featured a::after {
+    content: attr(data-text);
+    font-family: 'Basalte Multicolor', var(--font-secondary);
+    color: var(--color-secondary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}
+
+/* Featured authors: uppercase, non-italic (template places them before title) */
+.nebula-content-row__authors:has(+ .nebula-content-row__title--featured) {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+}
+
+/* Highlight rhythm: every 3rd row starting from 1st */
+.nebula-content-row:nth-child(3n+1) .nebula-content-row__image {
     min-height: 280px;
 }
 
-.nebula-split-row:nth-child(3n+1) .nebula-split-row__text {
+.nebula-content-row:nth-child(3n+1) .nebula-content-row__text {
     padding: 2.5rem 2rem;
 }
 
-.nebula-split-row:nth-child(3n+1) .nebula-split-row__title {
+.nebula-content-row:nth-child(3n+1) .nebula-content-row__title {
     font-size: clamp(1.35rem, 2vw + 0.5rem, 1.625rem);
 }
 
-/* Group break: heavier border between clusters */
-.nebula-split-row:nth-child(3n+1):not(:first-child) {
-    border-top-width: 4px;
-}
 
 
 /* Single Article
@@ -1325,30 +1401,43 @@ img[alt$="-lrg"] {
    ========================================================================== */
 
 @media screen and (max-width: 736px) {
-    /* Reset all intro positions to center on mobile */
-    .nebula-intro {
+    /* Reset all intro positions to center on mobile.
+       Doubled/chained selectors override :has() position rules
+       which have specificity 0-2-0 (intro) and 0-3-0 (title). */
+    .nebula-intro.nebula-intro {
         justify-content: center;
         align-items: center;
         text-align: center;
         padding: 2rem;
     }
-    .nebula-title {
-        flex-wrap: wrap;
-        column-gap: 0;
-        row-gap: 0.5rem;
+    .nebula-intro-content {
+        align-items: center;
+    }
+    .nebula-intro .nebula-intro-content .nebula-title {
+        font-size: clamp(5rem, 22vw, 7rem);
+        justify-content: center;
+    }
+    .nebula-subtitle {
+        font-size: clamp(1.75rem, 5vw, 2.25rem);
+    }
+    .nebula-title__link {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 0.25rem;
     }
     .nebula-title__myth {
         order: 1;
     }
-    .nebula-title__axis {
-        order: 2;
-    }
     .nebula-title__roundel {
-        order: 3;
-        width: 100%;
-        height: 5rem;
+        order: 2;
+        width: 1.5em;
+        height: 1.5em;
         -webkit-mask-position: center;
         mask-position: center;
+    }
+    .nebula-title__axis {
+        order: 3;
     }
     .nebula-split-lead {
         grid-template-columns: 1fr;
@@ -1363,40 +1452,62 @@ img[alt$="-lrg"] {
     }
     .theme-nebula2026 .posts {
         padding: 0;
-        scroll-snap-type: y proximity;
     }
-    .nebula-split-row {
+    html {
+        --header-h: 4.7rem;
+        scroll-snap-type: y mandatory;
+    }
+    .nebula-intro {
+        scroll-snap-align: start;
+        scroll-margin-top: var(--header-h);
+    }
+    .nebula-content-row {
         grid-template-columns: 1fr;
+        grid-template-rows: minmax(200px, 40svh) 1fr;
         gap: 0;
         padding: 0;
         scroll-snap-align: start;
+        height: calc(100svh - var(--header-h));
+        margin-bottom: 0;
+        overflow: hidden;
     }
-    .nebula-split-row__text {
+    .nebula-content-row__text {
         padding: 1rem;
     }
-    .nebula-split-row:nth-child(even) {
+    .nebula-content-row__title {
+        font-size: 1.4rem;
+    }
+    .nebula-content-row__authors {
+        font-size: 1rem;
+    }
+    .nebula-content-row__description {
+        font-size: 1.0625rem;
+        line-height: 1.7;
+    }
+    .nebula-content-row--right {
         direction: ltr;
     }
-    .nebula-split-row__image {
-        min-height: auto;
+    .nebula-content-row__image {
+        min-height: 0;
+        border-radius: 0;
     }
-    .nebula-split-row__image img {
-        height: 180px;
+    .nebula-content-row__image img {
+        height: 100%;
     }
-    .nebula-split-row:nth-child(3n+1) {
-        grid-template-columns: 1fr;
+    .nebula-content-row:nth-child(3n+1) .nebula-content-row__image {
+        min-height: 0;
     }
-    .nebula-split-row:nth-child(3n+1) .nebula-split-row__image {
-        min-height: auto;
-    }
-    .nebula-split-row:nth-child(3n+1) .nebula-split-row__image img {
-        height: 220px;
-    }
-    .nebula-split-row:nth-child(3n+1) .nebula-split-row__text {
+    .nebula-content-row:nth-child(3n+1) .nebula-content-row__text {
         padding: 1rem;
     }
-    .nebula-split-row:nth-child(3n+1):not(:first-child) {
-        border-top-width: 4px;
+
+    /* Snake corners: reset on mobile (single-column stacking) */
+    .nebula-split-lead__image {
+        border-radius: 0;
+    }
+
+    .nebula-copyright {
+        scroll-snap-align: start;
     }
 
     .theme-nebula2026 #main > .nebula-page {
@@ -1498,6 +1609,7 @@ img[alt$="-lrg"] {
     left: 0;
     width: 0%;
     height: 3px;
+    z-index: 9999;
     background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
     transition: width 100ms ease-out;
 }
@@ -1803,7 +1915,7 @@ img[alt$="-lrg"] {
 .story-divider__roundel {
     width: 240px;
     height: 240px;
-    opacity: 0.6;
+    opacity: 0.8;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
@@ -2284,7 +2396,7 @@ img[alt$="-lrg"] {
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 5.5rem; /* account for sticky header height */
+    scroll-padding-top: var(--header-h, 5.5rem);
 }
 
 

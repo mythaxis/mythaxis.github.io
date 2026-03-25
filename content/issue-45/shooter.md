@@ -22,7 +22,7 @@ audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/2.S
 
 type: stock
 slug: shooter
-weight: 2
+weight: 3
 ---
 
 The forecast that weekend called for 4th of July perfection: cloudless blue skies, a dulcet southwesterly breeze, and a high of eighty-eight, with barely a five percent chance of a corpse-strewn massacre.

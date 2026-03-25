@@ -18,7 +18,9 @@ audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/3.T
 
 type: stock
 slug: twelve-gauge-tune-up
-weight: 3
+weight: 1
+cardLayout: stock-right
+
 ---
 
 Daryl Fox was cleaning his father’s guns at the kitchen table when Arnie Anderson wandered into the house to see if he wanted to play in the woods across the road. At thirteen, Daryl thought they were getting too old for such childish activity, but didn’t say so to Arnie. Just told him no on account of his being busy.

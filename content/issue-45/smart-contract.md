@@ -19,6 +19,7 @@ audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/5.S
 type: stock
 slug: smart-contract
 weight: 5
+cardLayout: stock-right
 ---
 
 “This is screwed up,” says Webb. “Who takes out a hit on a sixteen-year-old girl?”
