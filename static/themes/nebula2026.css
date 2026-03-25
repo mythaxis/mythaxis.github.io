@@ -1438,16 +1438,21 @@ img[alt$="-lrg"] {
         padding: 0;
     }
     html {
-        scroll-snap-type: y proximity;
+        --header-h: 4.7rem;
+        scroll-snap-type: y mandatory;
     }
     .nebula-intro {
         scroll-snap-align: start;
     }
     .nebula-content-row {
         grid-template-columns: 1fr;
+        grid-template-rows: 1fr auto;
         gap: 0;
         padding: 0;
         scroll-snap-align: start;
+        height: calc(100svh - var(--header-h));
+        margin-bottom: 0;
+        overflow: hidden;
     }
     .nebula-content-row__text {
         padding: 1rem;
@@ -1455,18 +1460,15 @@ img[alt$="-lrg"] {
     .nebula-content-row--right {
         direction: ltr;
     }
-    .nebula-content-row {
-        margin-bottom: 10rem;
-    }
     .nebula-content-row__image {
-        min-height: auto;
+        min-height: 0;
         border-radius: 0;
     }
     .nebula-content-row__image img {
-        height: 280px;
+        height: 100%;
     }
     .nebula-content-row:nth-child(3n+1) .nebula-content-row__image {
-        min-height: auto;
+        min-height: 0;
     }
     .nebula-content-row:nth-child(3n+1) .nebula-content-row__text {
         padding: 1rem;
@@ -1475,6 +1477,10 @@ img[alt$="-lrg"] {
     /* Snake corners: reset on mobile (single-column stacking) */
     .nebula-split-lead__image {
         border-radius: 0;
+    }
+
+    .nebula-copyright {
+        scroll-snap-align: start;
     }
 
     .theme-nebula2026 #main > .nebula-page {
@@ -2362,7 +2368,7 @@ img[alt$="-lrg"] {
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 5.5rem; /* account for sticky header height */
+    scroll-padding-top: var(--header-h, 5.5rem);
 }
 
 
