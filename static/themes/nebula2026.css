@@ -257,6 +257,8 @@ img[alt$="-lrg"] {
     max-width: 800px;
     position: relative;
     z-index: 3;
+    display: flex;
+    flex-direction: column;
 }
 
 /* 9-position intro layout system
@@ -303,13 +305,13 @@ img[alt$="-lrg"] {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: clamp(2.5rem, 5vw + 1rem, 4rem);
+    font-size: clamp(3rem, 5vw + 1rem, 4.5rem);
     font-weight: 800;
     font-family: 'Basalte', var(--font-secondary);
     color: var(--color-primary);
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    margin-bottom: 0.5rem;
+    margin: 0 0 0.5rem;
 }
 
 /* Chromatic layering on logotype text spans */
@@ -362,10 +364,11 @@ img[alt$="-lrg"] {
 
 .nebula-subtitle {
     display: block;
-    font-size: clamp(1.25rem, 2vw + 0.5rem, 1.5rem);
+    order: -1;
+    font-size: clamp(1.5rem, 2.5vw + 0.5rem, 1.75rem);
     color: rgba(255, 255, 255, 0.9);
     font-weight: 300;
-    margin-bottom: 1rem;
+    margin-bottom: 0.25rem;
     text-decoration: none;
 }
 
@@ -1398,30 +1401,43 @@ img[alt$="-lrg"] {
    ========================================================================== */
 
 @media screen and (max-width: 736px) {
-    /* Reset all intro positions to center on mobile */
-    .nebula-intro {
+    /* Reset all intro positions to center on mobile.
+       Doubled/chained selectors override :has() position rules
+       which have specificity 0-2-0 (intro) and 0-3-0 (title). */
+    .nebula-intro.nebula-intro {
         justify-content: center;
         align-items: center;
         text-align: center;
         padding: 2rem;
     }
-    .nebula-title {
-        flex-wrap: wrap;
-        column-gap: 0;
-        row-gap: 0.5rem;
+    .nebula-intro-content {
+        align-items: center;
+    }
+    .nebula-intro .nebula-intro-content .nebula-title {
+        font-size: clamp(5rem, 22vw, 7rem);
+        justify-content: center;
+    }
+    .nebula-subtitle {
+        font-size: clamp(1.75rem, 5vw, 2.25rem);
+    }
+    .nebula-title__link {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 0.25rem;
     }
     .nebula-title__myth {
         order: 1;
     }
-    .nebula-title__axis {
-        order: 2;
-    }
     .nebula-title__roundel {
-        order: 3;
-        width: 100%;
-        height: 5rem;
+        order: 2;
+        width: 1.5em;
+        height: 1.5em;
         -webkit-mask-position: center;
         mask-position: center;
+    }
+    .nebula-title__axis {
+        order: 3;
     }
     .nebula-split-lead {
         grid-template-columns: 1fr;
