@@ -38,7 +38,7 @@
           {{/* Nebula2026: unified layout system — all posts in weight order */}}
           <section class="posts">
             {{- range $index, $page := $allPosts -}}
-              {{- $layout := $page.Params.layout | default "" -}}
+              {{- $layout := $page.Params.cardlayout | default "" -}}
               {{- $style := "stock" -}}
               {{- $direction := "" -}}
               {{- if hasPrefix $layout "featured" -}}
