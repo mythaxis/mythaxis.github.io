@@ -5,7 +5,7 @@ slug: index
 layout: section
 
 theme: nebula2026
-issue: Issue 45-test
+issue: Issue 45
 subhead: Spring 2026
 issueRoundel: MythaxisKnot
 
@@ -21,7 +21,7 @@ imageCopyright: "Did you hear stealthy footsteps on the stairs? by Fritz Siebel"
 
 introPosition: top-left
 # introPosition options: [top|center|bottom]-[left|center|right] or "center" (default)
-# scrollLineText: "Bloop!"
+#scrollLineText: "Bloop!"
 
 ---
 
