@@ -16,7 +16,7 @@ imageCopyright: "The image shows author [C. S. Forester](https://en.wikipedia.or
 
 type: stock
 slug: payment-deferred-c-s-forester
-weight: 7
+weight: 6
 ---
 
 The name Horatio Hornblower no longer has the cultural cache it once had. A popular series of naval adventure novels featuring Hornblower as a Royal Naval officer during the Napoleonic Wars, the alliteration of the character’s name has let him hang around as a familiar name, but I doubt many still read the novels and fewer still have heard of their author, C. S. Forester. Every so often, a random occurrence will push him once again to the fringes of the cultural conversation, as when his World War II novel *The Good Shepherd*, about the Battle of the Atlantic, was adapted into the film *Greyhound* by screenwriter and star Tom Hanks, but even in those rare cases if Forester’s name is mentioned at all, it’s only in passing as the author of the source novel, which was a necessary evil in getting this film off the ground.

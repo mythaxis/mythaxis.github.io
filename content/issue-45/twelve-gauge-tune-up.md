@@ -18,7 +18,7 @@ audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/3.T
 
 type: stock
 slug: twelve-gauge-tune-up
-weight: 3
+weight: 1
 cardLayout: stock-right
 
 ---
