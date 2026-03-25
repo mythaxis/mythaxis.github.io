@@ -66,13 +66,16 @@
       }
 
       // Story pages: show minimal header when the hero image scrolls out of view
+      // Hide main header so it doesn't peek below the shorter minimal header
       if (minimalHeader && storyHeader) {
         var heroBottom = storyHeader.getBoundingClientRect().bottom;
         var headerHeight = header ? header.offsetHeight : 0;
         if (heroBottom <= headerHeight) {
           minimalHeader.classList.add('visible');
+          if (header) header.style.visibility = 'hidden';
         } else {
           minimalHeader.classList.remove('visible');
+          if (header) header.style.visibility = '';
         }
       }
 
