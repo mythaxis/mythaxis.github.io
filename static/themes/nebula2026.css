@@ -1450,15 +1450,21 @@ img[alt$="-lrg"] {
     .nebula-content-row--right {
         direction: ltr;
     }
+    .nebula-content-row {
+        margin-bottom: 10rem;
+    }
+    .nebula-content-row:last-child {
+        margin-bottom: 0;
+    }
     .nebula-content-row__image {
         min-height: auto;
         border-radius: 0;
     }
     .nebula-content-row__image img {
-        height: 180px;
+        height: 280px;
     }
-    .nebula-content-row:nth-child(3n+1) .nebula-content-row__image img {
-        height: 220px;
+    .nebula-content-row:nth-child(3n+1) .nebula-content-row__image {
+        min-height: auto;
     }
     .nebula-content-row:nth-child(3n+1) .nebula-content-row__text {
         padding: 1rem;
