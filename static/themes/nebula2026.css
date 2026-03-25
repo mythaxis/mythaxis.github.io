@@ -757,7 +757,7 @@ img[alt$="-lrg"] {
 }
 
 
-/* Alternating Split — Story Rows
+/* Alternating Split — Content Rows (unified layout system)
    ========================================================================== */
 
 /* Massively base sets overflow:hidden on #wrapper — override only on landing
@@ -775,92 +775,91 @@ img[alt$="-lrg"] {
     gap: 0;
 }
 
-.nebula-split-row {
+.nebula-content-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0;
     align-items: stretch;
     padding: 0;
+    /* Snake corners: all flat by default */
+    --tl: 0;
+    --tr: 0;
+    --br: 0;
+    --bl: 0;
 }
 
-.nebula-split-row__text {
+.nebula-content-row__text {
     padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-/* Alternate direction: even rows flip image to right */
-.nebula-split-row:nth-child(even) {
+/* Direction: right-positioned image flips column order */
+.nebula-content-row--right {
     direction: rtl;
 }
 
-.nebula-split-row:nth-child(even) > * {
+.nebula-content-row--right > * {
     direction: ltr;
 }
 
-.nebula-split-row__image {
+.nebula-content-row__image {
     min-height: 200px;
+    overflow: hidden;
+    border-radius: var(--tl) var(--tr) var(--br) var(--bl);
 }
 
-.nebula-split-row__image img {
+.nebula-content-row__image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
 
-/* Snake corners — grid row images
-   Odd rows (image LEFT): round outer left edge (TL + BL)
-   Even rows (image RIGHT): round outer right edge (TR + BR)
-   First row: no top corners (snake starts). Last row: no bottom corners (snake ends). */
-.nebula-split-row__image {
-    overflow: hidden;
+/* Snake corners — transition-based model
+   Corners curve only at transitions between left and right sides.
+   Consecutive same-side rows form a straight edge. */
+
+/* TL: left image after a right image */
+.nebula-content-row--right + .nebula-content-row--left {
+    --tl: var(--radius-snake);
 }
 
-.nebula-split-row:nth-child(odd) .nebula-split-row__image {
-    border-radius: var(--radius-snake) 0 0 var(--radius-snake);
+/* BL: left image before a right image */
+.nebula-content-row--left:has(+ .nebula-content-row--right) {
+    --bl: var(--radius-snake);
 }
 
-.nebula-split-row:nth-child(even) .nebula-split-row__image {
-    border-radius: 0 var(--radius-snake) var(--radius-snake) 0;
+/* TR: right image after a left image */
+.nebula-content-row--left + .nebula-content-row--right {
+    --tr: var(--radius-snake);
 }
 
-/* First row (always odd): bottom-left only */
-.nebula-split-row:first-child .nebula-split-row__image {
-    border-radius: 0 0 0 var(--radius-snake);
+/* BR: right image before a left image */
+.nebula-content-row--right:has(+ .nebula-content-row--left) {
+    --br: var(--radius-snake);
 }
 
-/* Last row odd: top-left only */
-.nebula-split-row:last-child:nth-child(odd) .nebula-split-row__image {
-    border-radius: var(--radius-snake) 0 0 0;
-}
-
-/* Last row even: top-right only */
-.nebula-split-row:last-child:nth-child(even) .nebula-split-row__image {
-    border-radius: 0 var(--radius-snake) 0 0;
-}
-
-/* Single row: no corners */
-.nebula-split-row:only-child .nebula-split-row__image {
-    border-radius: 0;
-}
-
-.nebula-split-row__title {
+/* Stock text styling */
+.nebula-content-row__title {
     font-size: clamp(1.2rem, 1.5vw + 0.5rem, 1.375rem);
     font-family: var(--font-secondary);
     line-height: 1.25;
     margin: 0 0 0.25rem 0;
 }
 
-.nebula-split-row__title a {
+.nebula-content-row__title a {
     color: var(--color-primary);
     text-decoration: none;
 }
 
-.nebula-split-row__title a:hover {
+.nebula-content-row__title a:hover {
     text-decoration: underline;
     text-underline-offset: 2px;
 }
 
-.nebula-split-row__authors {
+.nebula-content-row__authors {
     display: block;
     font-size: 0.875rem;
     font-style: italic;
@@ -868,28 +867,63 @@ img[alt$="-lrg"] {
     margin-bottom: 0.5rem;
 }
 
-.nebula-split-row__description {
+.nebula-content-row__description {
     font-size: 0.9375rem;
     line-height: 1.6;
     color: var(--color-text-light);
     margin: 0;
 }
 
+/* Featured text styling */
+.nebula-content-row__title--featured {
+    font-size: clamp(1.75rem, 3vw + 0.5rem, 2.75rem);
+    font-family: 'Basalte', var(--font-secondary);
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+}
+
+.nebula-content-row__title--featured a {
+    position: relative;
+}
+
+/* Chromatic layering: Basalte Multicolor over Fond for two-colour effect */
+.nebula-content-row__title--featured a::after {
+    content: attr(data-text);
+    font-family: 'Basalte Multicolor', var(--font-secondary);
+    color: var(--color-secondary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+}
+
+/* Featured authors: uppercase, non-italic (template places them before title) */
+.nebula-content-row__authors:has(+ .nebula-content-row__title--featured) {
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+}
+
 /* Highlight rhythm: every 3rd row starting from 1st */
-.nebula-split-row:nth-child(3n+1) .nebula-split-row__image {
+.nebula-content-row:nth-child(3n+1) .nebula-content-row__image {
     min-height: 280px;
 }
 
-.nebula-split-row:nth-child(3n+1) .nebula-split-row__text {
+.nebula-content-row:nth-child(3n+1) .nebula-content-row__text {
     padding: 2.5rem 2rem;
 }
 
-.nebula-split-row:nth-child(3n+1) .nebula-split-row__title {
+.nebula-content-row:nth-child(3n+1) .nebula-content-row__title {
     font-size: clamp(1.35rem, 2vw + 0.5rem, 1.625rem);
 }
 
 /* Group break: spacing between clusters */
-.nebula-split-row:nth-child(3n+1):not(:first-child) {
+.nebula-content-row:nth-child(3n+1):not(:first-child) {
     margin-top: 0.5rem;
 }
 
@@ -1408,43 +1442,37 @@ img[alt$="-lrg"] {
         padding: 0;
         scroll-snap-type: y proximity;
     }
-    .nebula-split-row {
+    .nebula-content-row {
         grid-template-columns: 1fr;
         gap: 0;
         padding: 0;
         scroll-snap-align: start;
     }
-    .nebula-split-row__text {
+    .nebula-content-row__text {
         padding: 1rem;
     }
-    .nebula-split-row:nth-child(even) {
+    .nebula-content-row--right {
         direction: ltr;
     }
-    .nebula-split-row__image {
+    .nebula-content-row__image {
         min-height: auto;
+        border-radius: 0;
     }
-    .nebula-split-row__image img {
+    .nebula-content-row__image img {
         height: 180px;
     }
-    .nebula-split-row:nth-child(3n+1) {
-        grid-template-columns: 1fr;
-    }
-    .nebula-split-row:nth-child(3n+1) .nebula-split-row__image {
-        min-height: auto;
-    }
-    .nebula-split-row:nth-child(3n+1) .nebula-split-row__image img {
+    .nebula-content-row:nth-child(3n+1) .nebula-content-row__image img {
         height: 220px;
     }
-    .nebula-split-row:nth-child(3n+1) .nebula-split-row__text {
+    .nebula-content-row:nth-child(3n+1) .nebula-content-row__text {
         padding: 1rem;
     }
-    .nebula-split-row:nth-child(3n+1):not(:first-child) {
+    .nebula-content-row:nth-child(3n+1):not(:first-child) {
         margin-top: 0.5rem;
     }
 
     /* Snake corners: reset on mobile (single-column stacking) */
-    .nebula-split-lead__image,
-    .nebula-split-row__image {
+    .nebula-split-lead__image {
         border-radius: 0;
     }
 

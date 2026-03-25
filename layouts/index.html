@@ -1,7 +1,8 @@
 {{/*
   Homepage Layout - Theme-aware Main Index
   ========================================
-  Displays the current issue's stories.
+  Nebula2026: unified layout system — all posts in weight order.
+  Legacy themes: featured extraction with first/last promoted items.
 */}}
 
 {{/* Infer current section and lookup __index.md params for theming */}}
@@ -16,21 +17,13 @@
   {{- $theme = .Site.Params.defaultTheme | default "nebula2026" -}}
 {{- end -}}
 
-{{/*  Get all stock pages for the current issue */}}
-{{ $posts := where (where .Site.Pages "Section" $currSection.Section) ".Type" "stock" }}
-
-{{/* Get first featured story and remove it from paging list */}}
-{{ $firstPost := first 1 (where $posts ".Params.featured" true) }}
-{{ $posts := $posts | complement $firstPost }}
-
-{{/* Get last featured story and remove from paging list */}}
-{{ $lastPost := last 1 (where $posts ".Params.featured" true) }}
-{{ $posts := $posts | complement $lastPost }}
+{{/* Get all stock pages for the current issue */}}
+{{ $allPosts := where (where .Site.Pages "Section" $currSection.Section) ".Type" "stock" }}
 
 <!DOCTYPE HTML>
 <html lang='{{ .Site.Language.Lang | default "en-us" }}'>
   {{ partial "htmlhead" . }}
-  
+
   <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload theme-{{ $theme }}">
     {{ if eq $theme "nebula2026" }}<a href="#main" class="skip-to-content">Skip to content</a>{{ end }}
     <!-- Wrapper -->
@@ -41,19 +34,53 @@
 
       <!-- Main -->
       <div id="main">
-        {{ range $firstPost }}
-          {{ .Render "featured" }}
-        {{ end }}
+        {{ if eq $theme "nebula2026" }}
+          {{/* Nebula2026: unified layout system — all posts in weight order */}}
+          <section class="posts">
+            {{- range $index, $page := $allPosts -}}
+              {{- $layout := $page.Params.layout | default "" -}}
+              {{- $style := "stock" -}}
+              {{- $direction := "" -}}
+              {{- if hasPrefix $layout "featured" -}}
+                {{- $style = "featured" -}}
+              {{- else if hasPrefix $layout "review" -}}
+                {{- $style = "review" -}}
+              {{- end -}}
+              {{- if hasSuffix $layout "-right" -}}
+                {{- $direction = "right" -}}
+              {{- else if hasSuffix $layout "-left" -}}
+                {{- $direction = "left" -}}
+              {{- else -}}
+                {{- if eq (mod $index 2) 0 -}}
+                  {{- $direction = "left" -}}
+                {{- else -}}
+                  {{- $direction = "right" -}}
+                {{- end -}}
+              {{- end -}}
+              {{ partial "theme-dispatch" (dict "partial" "content-row" "context" $page "data" (dict "direction" $direction "style" $style)) }}
+            {{- end -}}
+          </section>
+        {{ else }}
+          {{/* Legacy themes: featured extraction */}}
+          {{ $firstPost := first 1 (where $allPosts ".Params.featured" true) }}
+          {{ $posts := $allPosts | complement $firstPost }}
+          {{ $lastPost := last 1 (where $posts ".Params.featured" true) }}
+          {{ $posts := $posts | complement $lastPost }}
 
-        <section class="posts">
-          {{ range $posts }}
-            {{ .Render "list" }}
-          {{ end }}
-        </section>
-
-        {{ if $lastPost }}
-          {{ range $lastPost }}
+          {{ range $firstPost }}
             {{ .Render "featured" }}
+          {{ end }}
+
+          <section class="posts">
+            {{ range $posts }}
+              {{ .Render "list" }}
+            {{ end }}
+          </section>
+
+          {{ if $lastPost }}
+            {{ range $lastPost }}
+              {{ .Render "featured" }}
+            {{ end }}
           {{ end }}
         {{ end }}
       </div>

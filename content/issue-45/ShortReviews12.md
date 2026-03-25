@@ -18,7 +18,7 @@ imageCopyright: "The title picture was created using Creative Commons images –
 type: stock
 slug: short-reviews-crime-fiction-in-2025
 weight: 8
-featured: true
+featured: false
 ---
 
 Both of our previous annual crime review roundups have included stories in *[TOUGH](https://redneck-press.blogspot.com/)* from Redneck Press, but this may be the last time that happens as, communicated via a cut-to-the-chase post at the start of September thanking past contributors, the zine is now on indefinite hiatus, bringing to an end eight years of operations. If I'm being honest, as a reader I found its offerings a very mixed bag, though there were some good tales in there for sure. To which point, three stood out for me over its final nine months.
