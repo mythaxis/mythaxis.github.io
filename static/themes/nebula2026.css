@@ -901,7 +901,7 @@ img[alt$="-lrg"] {
 
 /* Featured authors: uppercase, non-italic (template places them before title) */
 .nebula-content-row__authors:has(+ .nebula-content-row__title--featured) {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.06em;
@@ -1436,7 +1436,12 @@ img[alt$="-lrg"] {
     }
     .theme-nebula2026 .posts {
         padding: 0;
+    }
+    html {
         scroll-snap-type: y proximity;
+    }
+    .nebula-intro {
+        scroll-snap-align: start;
     }
     .nebula-content-row {
         grid-template-columns: 1fr;
@@ -1452,9 +1457,6 @@ img[alt$="-lrg"] {
     }
     .nebula-content-row {
         margin-bottom: 10rem;
-    }
-    .nebula-content-row:last-child {
-        margin-bottom: 0;
     }
     .nebula-content-row__image {
         min-height: auto;
