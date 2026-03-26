@@ -2,7 +2,7 @@
 
 ## Overview
 
-Add two new Hugo content types (`review` and `editorial`) to the nebula2026 theme. Both render like the existing page-single layout but participate in the frontpage cardLayout grid. The nav strip on stock pages is fixed to only page through stories. Taxonomy/catalogue pages get a consistency audit. Shared image location introduced for reusable review images.
+Add two new Hugo content types (`review` and `editorial`) to the nebula2026 theme. Reviews render like stock pages (full story treatment: sticky header, reading progress, nav strip). Editorials render like normal pages (simpler layout). Both participate in the frontpage cardLayout grid — reviews auto-alternate like stock, editorials only appear when given an explicit cardLayout. The nav strip paginates stock and reviews only (never editorials). Taxonomy/catalogue pages get a consistency audit. Shared image location introduced for reusable review images.
 
 **Scope:** Nebula2026 issues only (43+). Older horizon2020 issues keep `type: stock` / `type: page` unchanged.
 
@@ -284,21 +284,25 @@ introPosition: center
 #### 2b. New nebula2026 theme partials
 
 **`layouts/partials/themes/nebula2026/review-single.html`**
-Based on `page-single.html` with these additions:
-- Same hero image, title, author, divider roundel structure
-- Same article content area
-- Same footer area with author footer + copyright
-- **No** sticky header, reading progress, or chapter markers (those are story features)
-- **No** nav strip (reviews don't chain to each other)
+Based on `article-single.html` (stock layout) — reviews get the full story treatment:
+- Hero image with parallax support
+- Sticky minimal header with issue roundel, title, author
+- Reading progress bar
+- Article content area with chapter markers
+- Author footer + navigation strip + copyright
+- Nav strip paginates through stock AND review pages (see Step 4)
 
 **`layouts/partials/themes/nebula2026/editorial-single.html`**
-Based on `page-single.html`:
-- Same structure as page-single
-- **No** nav strip
+Based on `page-single.html` (normal page layout) — editorials get the simpler treatment:
+- Hero image (issue image) with parallax
+- Title, author, description, divider roundel
+- Article content area
+- Author footer + copyright
+- **No** sticky header, reading progress, chapter markers, or nav strip
 
-**Note:** If review-single and editorial-single end up being identical to page-single, we can simply have the type layouts (`review/single.html`, `editorial/single.html`) dispatch to `page-single` directly instead of creating new partials. This avoids partial duplication. We'd only create separate partials if the types diverge visually.
+**Note:** `review-single.html` will be very close to `article-single.html`. Consider dispatching directly to `article-single` initially and only forking if reviews diverge visually. Similarly, `editorial-single.html` can dispatch to `page-single` initially.
 
-**Recommendation:** Start with dispatching to `page-single`. Create separate partials only if visual differentiation is needed later.
+**Recommendation:** Start with dispatching review → `article-single`, editorial → `page-single`. Create separate partials only if the types need to diverge.
 
 #### 2c. Image path handling
 
@@ -331,7 +335,21 @@ New — include all displayable types:
 {{ $allPosts := where $sectionPages ".Type" "in" (slice "stock" "review" "editorial") }}
 ```
 
-This includes reviews and editorials in the frontpage content row grid, controlled by weight ordering and cardLayout.
+**Important: editorial visibility rule.** Stock and review pages always appear on the frontpage (auto-alternating left/right if no explicit cardLayout). Editorials are **opt-in only** — they appear on the frontpage only if they have an explicit `cardLayout` value in their frontmatter. This lets the editor control exactly where (and whether) the editorial appears in the issue grid via weight + cardLayout.
+
+Inside the rendering loop, skip editorials without explicit cardLayout:
+```go
+{{- range $index, $page := $allPosts -}}
+  {{- $layout := $page.Params.cardlayout | default "" -}}
+  {{/* Skip editorials without explicit cardLayout */}}
+  {{- if and (eq $page.Type "editorial") (eq $layout "") -}}
+    {{- continue -}}
+  {{- end -}}
+  ...
+{{- end -}}
+```
+
+**Auto-alternate counter:** The auto-alternate index (for left/right assignment when cardLayout is omitted) should only increment for pages that are actually rendered. Skipped editorials should not affect the alternation rhythm.
 
 #### 3b. Add `editorial` style + `center` direction to cardLayout parsing
 
@@ -384,15 +402,17 @@ Add center direction class + editorial style rendering:
 
 ### Step 4: Nav Strip Fix
 
-Replace Hugo's built-in `NextInSection`/`PrevInSection` with custom filtered navigation in `article-single.html`.
+Replace Hugo's built-in `NextInSection`/`PrevInSection` with custom filtered navigation in `article-single.html` (and `review-single.html`, since reviews share the stock layout and its nav strip).
+
+The nav strip paginates through **stock and review** pages only. Editorials are always excluded from navigation.
 
 ```go
-{{/* Build filtered stock-only page list for navigation */}}
-{{- $stockPages := sort (where (where $page.Site.RegularPages "Section" $section.Section) ".Type" "stock") "Weight" "asc" -}}
+{{/* Build filtered stock+review page list for navigation */}}
+{{- $navPages := sort (where (where $page.Site.RegularPages "Section" $section.Section) ".Type" "in" (slice "stock" "review")) "Weight" "asc" -}}
 
 {{/* Find current page index in filtered list */}}
 {{- $currentIndex := -1 -}}
-{{- range $i, $p := $stockPages -}}
+{{- range $i, $p := $navPages -}}
   {{- if eq $p.File.Path $page.File.Path -}}
     {{- $currentIndex = $i -}}
   {{- end -}}
@@ -402,16 +422,18 @@ Replace Hugo's built-in `NextInSection`/`PrevInSection` with custom filtered nav
 {{- $prevPage := false -}}
 {{- $nextPage := false -}}
 {{- if gt $currentIndex 0 -}}
-  {{- $prevPage = index $stockPages (sub $currentIndex 1) -}}
+  {{- $prevPage = index $navPages (sub $currentIndex 1) -}}
 {{- end -}}
-{{- if lt $currentIndex (sub (len $stockPages) 1) -}}
-  {{- $nextPage = index $stockPages (add $currentIndex 1) -}}
+{{- if lt $currentIndex (sub (len $navPages) 1) -}}
+  {{- $nextPage = index $navPages (add $currentIndex 1) -}}
 {{- end -}}
 ```
 
 Then use `$prevPage` / `$nextPage` instead of `NextInSection` / `PrevInSection`.
 
 **Weight-based ordering preserved:** left = heavier weight (prev), right = lighter weight (next). Same convention as current nav strip.
+
+**Applies to both stock and review pages.** Since review-single dispatches to article-single (or shares the same nav strip logic), reviews naturally participate in the navigation chain. A reader can page from a story into a review and back seamlessly.
 
 ### Step 5: Shared Images
 
@@ -428,7 +450,7 @@ Update review frontmatter in issues 43+:
 image: /images/shared/ShortReviews01_10x6.jpg
 ```
 
-#### 5c. Update image resolution in templates
+#### 5c. Image relative path resolution
 
 All templates that resolve image paths need the absolute/relative check from Step 2c. Affected templates:
 - `content-row.html` (frontpage cards)
@@ -436,8 +458,8 @@ All templates that resolve image paths need the absolute/relative check from Ste
 - `article-single.html` (story pages — already works with section-relative, but needs absolute support)
 - `list-item.html` / `featured.html` (legacy partials, low priority)
 
-#### 5d. Clean up duplicate images (optional, later)
-After migration, the per-issue copies of `ShortReviews01_10x6.jpg` and `ShortCrimeReviews10x6.jpg` in issues 43+ can be deleted. Older issues keep their copies (no migration).
+#### 5d. Clean up duplicate images in nebula2026 issues (optional, later)
+After migration, the per-issue copies of `ShortReviews01_10x6.jpg` and `ShortCrimeReviews10x6.jpg` in issues 43+ can be deleted. **Back catalogue issues (≤42) are left as-is** — their per-issue image copies remain untouched.
 
 ### Step 6: Catalogue & Taxonomy Updates
 
@@ -468,14 +490,9 @@ Create `content/catalogue/reviews.md` (if Hugo requires a content file to trigge
 
 Or a combined approach that deduplicates.
 
-#### 6c. Update main catalogue
+#### 6c. Main catalogue — no change
 
-`layouts/catalogue/list.html` currently queries `type: stock`. Update to include `review`:
-```go
-{{ range (where .Site.AllPages "Type" "in" (slice "stock" "review")) }}
-```
-
-Or decide whether reviews should appear in the main story catalogue at all (they might belong only in the reviews catalogue). **Recommendation:** Keep reviews out of the main catalogue; they have their own dedicated page.
+`layouts/catalogue/list.html` currently queries `type: stock`. Reviews and editorials are excluded — reviews have their own dedicated catalogue page, and editorials have theirs. No change needed here.
 
 #### 6d. Update authors taxonomy
 
@@ -550,10 +567,12 @@ Also fix inconsistency: `payment-deferred-c-s-forester.md` uses `genre:` (singul
 #### 7c. Verify no breakage
 
 After migration, run `hugo build` and `hugo server` to verify:
-- Frontpage shows editorials and reviews in correct positions
-- Review/editorial single pages render correctly
-- Nav strip on stock pages skips reviews and editorials
-- Catalogue pages include the right content
+- Frontpage shows stock + reviews auto-alternating; editorials only when they have explicit cardLayout
+- Review single pages render like stock (sticky header, reading progress, nav strip)
+- Editorial single pages render like normal pages (no sticky header, no nav strip)
+- Nav strip on stock/review pages paginates stock + reviews only, never editorials
+- Editorials without cardLayout do NOT appear on frontpage
+- Catalogue pages: main catalogue unchanged, reviews catalogue shows reviews, editorials catalogue updated
 - Author index includes review/editorial authors
 
 ---
@@ -620,10 +639,9 @@ Exact styling TBD during implementation — these are directional sketches.
 | `layouts/_default/section.html` | Include review + editorial types in query; add editorial/center cardLayout parsing |
 | `layouts/index.html` | Same changes as section.html |
 | `layouts/partials/themes/nebula2026/content-row.html` | Add center direction + editorial style |
-| `layouts/partials/themes/nebula2026/article-single.html` | Replace NextInSection/PrevInSection with filtered stock-only navigation |
+| `layouts/partials/themes/nebula2026/article-single.html` | Replace NextInSection/PrevInSection with filtered stock+review navigation (excludes editorials) |
 | `layouts/partials/themes/nebula2026/page-single.html` | Add absolute image path support |
 | `layouts/catalogue/editorials.html` | Query by type: editorial alongside slug |
-| `layouts/catalogue/list.html` | Decide whether to include/exclude reviews |
 | `layouts/authors/taxonomy.html` | Include review + editorial types in query |
 | `layouts/partials/themes/nebula2026/catalogue-nav.html` | Add Reviews link |
 | `static/themes/nebula2026.css` | Center layout + editorial style CSS |
@@ -641,9 +659,11 @@ Exact styling TBD during implementation — these are directional sketches.
 | File | Why |
 |------|-----|
 | `layouts/genres/taxonomy.html` | Already excludes editorial + review genres |
+| `layouts/catalogue/list.html` | Main catalogue stays stock-only; reviews and editorials have dedicated pages |
 | `layouts/stock/single.html` | Stock type unchanged |
 | `layouts/_default/single.html` | Page type unchanged (used for contents, about, etc.) |
 | All content in issues ≤42 | Out of migration scope |
+| Back catalogue review images | Left as per-issue copies; only nebula2026 issues use shared path |
 
 ---
 
@@ -662,16 +682,27 @@ Exact styling TBD during implementation — these are directional sketches.
 
 ---
 
+## Resolved Decisions
+
+- **Review layout:** Stock-like (article-single) — full story treatment with sticky header, reading progress, nav strip.
+- **Editorial layout:** Page-like (page-single) — simpler layout, no sticky header/progress/nav strip.
+- **Frontpage visibility:** Stock + review auto-alternate. Editorials opt-in only (require explicit cardLayout).
+- **Nav strip:** Paginates stock + review. Always excludes editorials.
+- **Main catalogue:** Unchanged (stock only). Reviews have dedicated catalogue page.
+- **Shared images:** Nebula2026 issues only. Back catalogue untouched.
+
 ## Open Questions / Future Considerations
 
-1. **Review-single vs page-single divergence:** Start by dispatching review/editorial types to `page-single` partial. Only create separate `review-single.html` / `editorial-single.html` partials if the types need visual differentiation on their single pages. This avoids partial duplication upfront.
+1. **Review-single divergence:** Start by dispatching review → `article-single`. Only fork into a separate `review-single.html` partial if reviews need visual differentiation from stories (e.g. different sticky header label, review-specific metadata). This avoids partial duplication upfront.
 
-2. **Main catalogue inclusion:** Should reviews appear in the main `/catalogue/` story list, or exclusively in `/catalogue/reviews/`? Recommendation: exclusive to reviews catalogue.
+2. **Editorial-single divergence:** Start by dispatching editorial → `page-single`. Fork only if editorials need unique elements.
 
-3. **Editorial in contents.md:** The ToC page manually lists stories. Should it auto-generate from type queries, or remain manual? Recommendation: remain manual (editor control).
+3. **Editorial in contents.md:** The ToC page manually lists stories. Remains manual (editor control).
 
 4. **Taxonomy layout refactor:** The 5 catalogue/taxonomy layouts share ~30 lines of boilerplate (HTML wrapper, hero image, scripts). A future refactor could extract this into a shared base. Not in scope for this plan.
 
 5. **issue-44 directory:** The issue-44 directory contains content files referencing "Issue 44" but issue-45 also references "Issue 44" in the `__index.md` title. This appears to be a pre-existing naming inconsistency (issue-45 folder has `title: "Mythaxis Magazine Issue 44"` but `issue: Issue 45`). Not addressed in this plan.
 
 6. **Basalte center variant:** The center cardLayout could use the Basalte chromatic title treatment (like featured). Deferred to CSS implementation.
+
+7. **Hugo `continue` support:** Hugo templates may not support `continue` in range loops (depends on Hugo version). The editorial skip logic in Step 3a may need an alternative approach — e.g. wrapping the render block in an `if` condition rather than using `continue`. To be verified during implementation.
