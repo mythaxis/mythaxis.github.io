@@ -1,15 +1,15 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ dateFormat "2006-01-02" .Date }}
-image: 'images/picXXX.jpg'
 issue: Issue XX
-
-type: page
 slug: {{ .Name }}
-
+type: page
 draft: true
+
+# Optional
+# description: "Page description"
+# image: images/filename.jpg
+# imageCopyright: "Attribution"
 ---
 
-This is the default type of 'page'.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ex lacus. Vestibulum interdum dapibus sapien, ac sagittis ex lacinia non. In quis tortor sed ipsum viverra pharetra a id nisl.
+Page content goes here.

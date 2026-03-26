@@ -4,7 +4,7 @@ title: "Beautyland, by Marie-Helene Bertino"
 date: 2025-09-28
 issue: Issue 43
 
-genre:
+genres:
 - review
 authors:
 - Mattia Ravasi
@@ -15,7 +15,7 @@ description: "Back with his second article of the year, all-too-human Mattia Rav
 image: images/Beautyland10x6.jpg
 imageCopyright: "The image shows author [Marie-Helene Bertino](https://en.wikipedia.org/wiki/Marie-Helene_Bertino) and [the book's cover](https://en.wikipedia.org/wiki/Beautyland), both from Wikipedia."
 
-type: stock
+type: review
 slug: fax-machine-blues-beautyland-marie-helene-bertino
 weight: 7
 ---

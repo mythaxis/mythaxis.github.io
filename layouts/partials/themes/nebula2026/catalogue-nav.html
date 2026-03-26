@@ -34,5 +34,9 @@
         {{ with $page.Site.GetPage "/genres" }}
         <a href='{{ .RelPermalink | relURL }}' class="nebula-nav-link">Genres</a>
         {{ end }}
+        <span class="nebula-nav-separator">•</span>
+        {{ with $page.Site.GetPage "/catalogue/reviews.md" }}
+        <a href='{{ .RelPermalink | relURL }}' class="nebula-nav-link">Reviews</a>
+        {{ end }}
     </div>
 </nav>

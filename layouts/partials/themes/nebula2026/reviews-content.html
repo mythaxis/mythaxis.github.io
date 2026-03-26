@@ -1,0 +1,42 @@
+{{/*
+  Nebula2026 Theme - Reviews Content Partial
+  ==========================================
+  Reviews catalogue page listing all reviews across issues.
+
+  Expects context from theme-dispatch:
+    .Page    - The catalogue page being rendered
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Dict containing:
+               .reviews - Slice of review dicts with title, relurl, author, issue, number
+*/}}
+
+{{- $page := .Page -}}
+{{- $reviews := .Data.reviews | default slice -}}
+
+<section class="post catalogue nebula-catalogue">
+    <header class="major nebula-catalogue-header">
+        <h1>{{ $page.Title }}</h1>
+        <p class="nebula-catalogue-count">{{ len $reviews }} {{ $page.Description }}</p>
+    </header>
+
+    {{ partial "catalogue-nav" $page }}
+
+    {{ with $page.Content }}
+    <div class="nebula-catalogue-intro">
+        {{ . }}
+    </div>
+    {{ end }}
+
+    <div class="nebula-editorials-list">
+        {{ range (sort $reviews "number" "asc") }}
+        <div class="nebula-editorial-item">
+            <span class="nebula-editorial-issue">{{ .issue }}</span>
+            <div class="nebula-editorial-details">
+                <a href="{{ .relurl | relURL }}" class="nebula-editorial-link">{{ .title }}</a>
+                <span class="nebula-editorial-author">{{ .author }}</span>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
