@@ -1,40 +1,27 @@
 ---
-title: "Mythaxis Magazine Issue XXX"
+title: "Mythaxis Magazine Issue XX"
 date: {{ dateFormat "2006-01-02" .Date }}
 slug: index
 layout: section
 
+# Issue metadata
+theme: nebula2026
 issue: Issue XX
-subhead: Autumn 20XX
-headline: 'Headline goes here'
-
+subhead: Season 20XX
 editor: Andrew Leon Hudson
-image: images/True-Worship.jpg
-imageMobile: images/True-Worship-mobile.jpg
-imageCopyright: "True Worship by Raja Nandepu"
+issueRoundel: MythaxisTarget
 
-# https://flexboxsheet.com/
-# intro:
-  # justify_content: center
-  # align_items: flex-end
-  # align_content: flex-start
-  # logo:
-    # order: 3
-    # flex_grow: 2
-    # align_self: flex-end
-    # align_items: baseline
-    # color: '#ffaa12'
-  # subheading:
-    # order: 2
-    # flex_grow: 1
-    # align_self: center
-    # align_items: flex-start
-  # actions:
-    # display: none
-    # order: 1
-    # flex_grow: 1
-    # align_self: flex-end
-    # align_items: flex-end
+# Color scheme (applies to all pages in this issue)
+colorScheme:
+  primary: "#hex1"
+  secondary: "#hex2"
 
+# Hero image
+image: images/hero.jpg
+imageMobile: images/hero_mob.jpg
+imageCopyright: "Image attribution"
+
+# Intro positioning: [top|center|bottom]-[left|center|right] or "center"
+introPosition: center
+# scrollLineText: "Scroll to explore"
 ---
-

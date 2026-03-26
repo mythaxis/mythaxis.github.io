@@ -4,19 +4,29 @@
   Single partial for all frontpage row variants. Reads direction and style
   from Data dict (resolved by section.html loop).
 
-  Data.direction: "left" | "right"
-  Data.style:     "stock" | "featured" | "review"
+  Data.direction: "left" | "right" | "center"
+  Data.style:     "stock" | "featured" | "review" | "editorial"
 */}}
 
 {{- $page := .Page -}}
 {{- $direction := .Data.direction -}}
 {{- $style := .Data.style -}}
 
-<article class="nebula-content-row nebula-content-row--{{ $direction }}">
-    {{ if $page.Params.image }}
+{{/* Resolve image path: absolute (/images/...) or section-relative (images/...) */}}
+{{- $imagePath := "" -}}
+{{- with $page.Params.image -}}
+  {{- if hasPrefix . "/" -}}
+    {{- $imagePath = . | relURL -}}
+  {{- else -}}
+    {{- $imagePath = path.Join $page.Section . | relURL -}}
+  {{- end -}}
+{{- end -}}
+
+<article class="nebula-content-row nebula-content-row--{{ $direction }}{{ if eq $style "editorial" }} nebula-content-row--editorial{{ end }}{{ if eq $style "review" }} nebula-content-row--review{{ end }}">
+    {{ if $imagePath }}
     <div class="nebula-content-row__image">
         <a href="{{ $page.Permalink }}">
-            <img src="{{ path.Join $page.Section $page.Params.image | relURL }}" alt="Story image for {{ $page.Title }} by {{ collections.Delimit $page.Params.authors ", " }}" />
+            <img src="{{ $imagePath }}" alt="Story image for {{ $page.Title }} by {{ collections.Delimit $page.Params.authors ", " }}" />
         </a>
     </div>
     {{ end }}

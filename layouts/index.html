@@ -17,8 +17,8 @@
   {{- $theme = .Site.Params.defaultTheme | default "nebula2026" -}}
 {{- end -}}
 
-{{/* Get all stock pages for the current issue */}}
-{{ $allPosts := where (where .Site.Pages "Section" $currSection.Section) ".Type" "stock" }}
+{{/* Get all displayable pages for the current issue */}}
+{{ $allPosts := where (where .Site.Pages "Section" $currSection.Section) ".Type" "in" (slice "stock" "review" "editorial") }}
 
 <!DOCTYPE HTML>
 <html lang='{{ .Site.Language.Lang | default "en-us" }}'>
@@ -35,9 +35,17 @@
       <!-- Main -->
       <div id="main">
         {{ if eq $theme "nebula2026" }}
-          {{/* Nebula2026: unified layout system — all posts in weight order */}}
+          {{/* Nebula2026: unified layout system — all posts in weight order.
+               Stock + review auto-alternate. Editorials only appear with explicit cardLayout. */}}
+          {{- $displayPosts := slice -}}
+          {{- range $allPosts -}}
+            {{- $layout := .Params.cardlayout | default "" -}}
+            {{- if or (ne .Type "editorial") (ne $layout "") -}}
+              {{- $displayPosts = $displayPosts | append . -}}
+            {{- end -}}
+          {{- end -}}
           <section class="posts">
-            {{- range $index, $page := $allPosts -}}
+            {{- range $index, $page := $displayPosts -}}
               {{- $layout := $page.Params.cardlayout | default "" -}}
               {{- $style := "stock" -}}
               {{- $direction := "" -}}
@@ -45,8 +53,12 @@
                 {{- $style = "featured" -}}
               {{- else if hasPrefix $layout "review" -}}
                 {{- $style = "review" -}}
+              {{- else if hasPrefix $layout "editorial" -}}
+                {{- $style = "editorial" -}}
               {{- end -}}
-              {{- if hasSuffix $layout "-right" -}}
+              {{- if hasSuffix $layout "-center" -}}
+                {{- $direction = "center" -}}
+              {{- else if hasSuffix $layout "-right" -}}
                 {{- $direction = "right" -}}
               {{- else if hasSuffix $layout "-left" -}}
                 {{- $direction = "left" -}}

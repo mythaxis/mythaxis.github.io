@@ -2,7 +2,7 @@
      presenting the results as an author index of published stories, sorted alphabetically.
      The sort is hardcoded because of Ockham's razor. */}}
 {{ $authorIndex := slice }}
-{{ $pages := where .Site.Pages "Type" "stock" }}
+{{ $pages := where .Site.Pages "Type" "in" (slice "stock" "review" "editorial") }}
 {{ $xway2metadata := index .Site.Data "xway2metadata" }}
 {{ $xway2metadata = (where $xway2metadata "category" "ne" "Editorial") }}
 

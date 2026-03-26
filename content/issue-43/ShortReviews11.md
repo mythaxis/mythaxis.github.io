@@ -12,10 +12,10 @@ copyright: '© Andrew Leon Hudson 2025 All Rights Reserved'
 
 description: "As always, we round out the issue with a selection of interesting speculative fiction from around the web, as always with an eye on those zines that may have slipped under your reading radar…"
 
-image: images/ShortReviews01_10x6.jpg
+image: /images/shared/ShortReviews01_10x6.jpg
 imageCopyright: "The image is by [grandfailure](https://depositphotos.com/368748152/stock-photo-man-standing-mysterious-library-digital.html) via DepositPhotos.com."
 
-type: stock
+type: review
 slug: short-reviews-july-to-september-2025
 weight: 8
 featured: true
