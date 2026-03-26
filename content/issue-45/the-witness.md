@@ -20,7 +20,7 @@ type: stock
 slug: the-witness
 weight: 2
 featured: false
-cardLayout: featured-left
+cardLayout: editorial-right
 
 ---
 

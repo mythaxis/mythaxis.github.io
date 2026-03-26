@@ -1556,32 +1556,279 @@ img[alt$="-lrg"] {
    Resolved from SCSS: variables substituted, nesting flattened, mixins inlined
    ========================================================================== */
 
-/* Print Styles (from _responsive.scss)
+/* Print Styles
    ========================================================================== */
 
 @media print {
+
+    /* --- Hide interactive / screen-only elements --- */
     .story-header-minimal,
     .story-nav-strip,
+    .story-nav-strip-wrap,
     .nebula-nav-panel,
-    .nebula-nav-backdrop {
+    .nebula-nav-backdrop,
+    .nebula-header,
+    .nebula-scroll-indicator,
+    .reading-progress__bar,
+    .skip-to-content,
+    .random-button-wrap,
+    .nebula-genre-nav {
         display: none !important;
     }
 
-    .story-header {
-        min-height: auto;
-        page-break-after: avoid;
+    /* --- Reset screen layout tricks --- */
+    html {
+        scroll-snap-type: none !important;
+        scroll-behavior: auto !important;
+    }
+
+    *:not(.story-header__hero):not(.story-header__hero *) {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    /* Story header title/author: white text over faded image */
+    .story-header__content,
+    .story-header__content * {
+        color: #000 !important;
+    }
+
+    /* --- Typography for print --- */
+    body {
+        font-size: 11pt;
+        line-height: 1.55;
     }
 
     .story-reading__container {
         max-width: 100%;
-        font-size: 12pt;
-        line-height: 1.6;
+        font-size: 11pt;
+        line-height: 1.55;
     }
 
-    .chapter-marker,
+    .nebula-article-content,
+    .nebula-page-content {
+        font-size: 11pt;
+        line-height: 1.55;
+    }
+
+    /* Tighter drop caps for print */
+    .nebula-article-content > p:first-child::first-letter,
+    .nebula-article-content > hr + p::first-letter,
+    .nebula-article-content > .chapter-marker + p::first-letter {
+        font-size: 3em;
+        line-height: 0.8;
+    }
+
+    /* Disable chromatic layering — single-colour headings in print */
+    .nebula-title__myth::after,
+    .nebula-title__axis::after,
+    .nebula-split-lead__title a::after,
+    .nebula-content-row__title--featured a::after {
+        display: none !important;
+    }
+
+    /* --- Page break control --- */
+    h1, h2, h3, h4 {
+        page-break-after: avoid;
+        break-after: avoid;
+    }
+
+    p {
+        orphans: 3;
+        widows: 3;
+    }
+
+    blockquote {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    /* --- Story header: flatten hero for print --- */
+    .story-header {
+        min-height: auto;
+        page-break-after: avoid;
+        break-after: avoid;
+        overflow: visible;
+    }
+
+    .story-header__hero {
+        position: relative;
+        height: auto;
+    }
+
+    .story-header__image {
+        position: relative;
+        transform: none !important;
+        will-change: auto;
+        max-height: 40vh;
+    }
+
+    .story-header__content {
+        position: relative;
+        z-index: auto;
+    }
+
+    /* --- Story end: flatten fixed/parallax image --- */
+    .story-end__hero {
+        display: none;
+    }
+
+    .story-end__fade {
+        display: none;
+    }
+
+    .story-end__author,
+    .story-end__copyright {
+        position: relative;
+        z-index: auto;
+    }
+
+    /* --- Landing page: linearise for print --- */
+    .nebula-intro {
+        min-height: auto;
+        padding: 2rem 0;
+    }
+
+    .landing-header__hero {
+        display: none;
+    }
+
+    .nebula-content-row {
+        height: auto;
+        overflow: visible;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    .nebula-split-lead {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    /* --- Links: show URLs for attribution --- */
+    .nebula-author-bio a[href]::after,
+    .nebula-copyright-secondary a[href]::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+        font-style: italic;
+        word-break: break-all;
+    }
+
+    /* Don't show URLs for internal nav links */
+    .story-nav-strip a::after,
+    .nebula-nav-panel a::after,
+    .nebula-content-row__title a::after,
+    .nebula-split-lead__title a::after {
+        content: none !important;
+    }
+
+    /* --- Chapter markers: black, smaller, act as page breaks --- */
+    .chapter-marker {
+        width: 50px;
+        filter: brightness(0);
+        page-break-before: always;
+        break-before: page;
+        margin: 1.5rem auto;
+    }
+
     .story-end-marker {
+        width: 100px;
+        filter: brightness(0);
+    }
+
+    /* --- Roundels: grayscale for print --- */
+    .story-divider__roundel,
+    .nebula-article-divider__roundel {
         filter: grayscale(100%);
     }
+
+    /* Mask-based roundels: force black */
+    .nebula-title__roundel,
+    .nebula-header__logo-roundel,
+    .nebula-nav-panel__logotype-roundel {
+        background: #000 !important;
+    }
+
+    /* --- Story header: title/author over image, hide description --- */
+    .story-header {
+        position: relative;
+    }
+
+    .story-header__hero {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .story-header__image {
+        max-height: none;
+        height: 100%;
+        opacity: 0.3;
+    }
+
+    .story-header__overlay {
+        display: none !important;
+    }
+
+    .story-header__content {
+        position: relative;
+        z-index: 2;
+        padding: 3rem 2rem;
+    }
+
+    .story-header__abstract {
+        display: none !important;
+    }
+
+    .story-header__publication {
+        display: none !important;
+    }
+
+    /* --- Audio player: hide in print --- */
+    .nebula-audio-player {
+        display: none !important;
+    }
+
+    /* --- Copyright footer: visible in print --- */
+    .nebula-copyright {
+        padding: 1rem 0;
+        border-top: 1pt solid #999;
+    }
+
+    /* --- Author footer: horizontal layout (image left, text right) --- */
+    .nebula-author-footer {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    .nebula-author-card {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: flex-start !important;
+        text-align: left !important;
+        gap: 1.5rem;
+    }
+
+    .nebula-author-photo img {
+        width: 100px !important;
+        height: 100px !important;
+        border-color: #000 !important;
+    }
+
+    .nebula-author-info {
+        flex: 1;
+    }
+
 }
 
 
