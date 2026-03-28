@@ -62,10 +62,14 @@
       card.classList.add('audio-remote__card--reverting');
       card.classList.remove('audio-remote__card--flipped');
       clearRevertTimer();
-      card.addEventListener('transitionend', function onEnd() {
-        card.removeEventListener('transitionend', onEnd);
+      if (prefersReducedMotion) {
         card.classList.remove('audio-remote__card--reverting');
-      });
+      } else {
+        card.addEventListener('transitionend', function onEnd() {
+          card.removeEventListener('transitionend', onEnd);
+          card.classList.remove('audio-remote__card--reverting');
+        });
+      }
     }
 
     function startRevertTimer() {
@@ -82,11 +86,12 @@
 
     // --- Peek animation ---
     function peek() {
-      if (prefersReducedMotion) return;
       isPeeking = true;
       flipToBack();
       clearRevertTimer();
-      revertTimer = setTimeout(flipToFront, PEEK_SHOW_DURATION);
+      // Reduced motion: instant swap, but hold slightly longer so it registers
+      var peekDuration = prefersReducedMotion ? 600 : PEEK_SHOW_DURATION;
+      revertTimer = setTimeout(flipToFront, peekDuration);
     }
 
     // --- Header visibility observer ---
