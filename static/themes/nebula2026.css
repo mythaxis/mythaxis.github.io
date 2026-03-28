@@ -2595,11 +2595,6 @@ img[alt$="-lrg"] {
         height: 2.5rem;
     }
 
-    .audio-remote__card {
-        width: 2.5rem;
-        height: 2.5rem;
-    }
-
     .story-header-minimal__logotype {
         margin-right: 0.75rem;
     }
@@ -2758,6 +2753,13 @@ html {
 
 .audio-remote--playing .audio-remote__front {
     animation: audio-pulse 2s ease-in-out infinite;
+}
+
+@media (max-width: 768px) {
+    .audio-remote__card {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
 }
 
 
