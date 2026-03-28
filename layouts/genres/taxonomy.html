@@ -58,7 +58,7 @@
       {{ partial "nav" . }}
 
       {{ if eq $themeCtx.Theme "nebula2026" }}{{ with $themeCtx.Section }}{{ if .Params.image }}
-      <div class="nebula-page-hero">
+      <div class="nebula-page-hero nebula-page-hero--clean">
         <div class="landing-header__hero">
           <img src="{{ path.Join .Section .Params.image | relURL }}"
                alt="{{ .Params.issue }}"
@@ -73,8 +73,6 @@
       <div id="main">
         {{ partial "theme-dispatch" (dict "partial" "genres-content" "context" . "data" (dict "genres" $genreIndex "genreNames" $allGenres)) }}
       </div>
-      
-      {{ partial "copyright" . }}
       <a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
     </div>
 

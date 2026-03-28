@@ -12,12 +12,22 @@
 */}}
 
 {{- $page := .Page -}}
+{{- $section := .Section -}}
 {{- $reviews := .Data.reviews | default slice -}}
 
 <section class="post catalogue nebula-catalogue">
     <header class="major nebula-catalogue-header">
         <h1>{{ $page.Title }}</h1>
-        <p class="nebula-catalogue-count">{{ len $reviews }} {{ $page.Description }}</p>
+        <p class="nebula-page-description">{{ len $reviews }} {{ $page.Description }}</p>
+        {{- $issueRoundel := "MythaxisTarget" -}}
+        {{- with $section -}}
+          {{- $issueRoundel = .Params.issueRoundel | default "MythaxisTarget" -}}
+        {{- end -}}
+        <div class="nebula-article-divider">
+            <img src="/images/roundels/{{ $issueRoundel }}.svg"
+                 class="nebula-article-divider__roundel"
+                 alt="" aria-hidden="true" />
+        </div>
     </header>
 
     {{ partial "catalogue-nav" $page }}
@@ -34,9 +44,24 @@
             <span class="nebula-editorial-issue">{{ .issue }}</span>
             <div class="nebula-editorial-details">
                 <a href="{{ .relurl | relURL }}" class="nebula-editorial-link">{{ .title }}</a>
-                <span class="nebula-editorial-author">{{ .author }}</span>
+                <span class="nebula-editorial-author">reviewed by {{ .author }}</span>
             </div>
         </div>
         {{ end }}
     </div>
 </section>
+
+<div class="story-end" id="story-end">
+  {{ with $section }}{{ if .Params.image }}
+  <div class="story-end__hero">
+    <img src="{{ path.Join .Section .Params.image | relURL }}"
+         alt="" aria-hidden="true"
+         class="story-end__image"
+         loading="lazy" decoding="async" />
+  </div>
+  {{ end }}{{ end }}
+  <div class="story-end__fade"></div>
+  <div class="story-end__copyright">
+    {{ partial "copyright" $page }}
+  </div>
+</div>
