@@ -26,7 +26,7 @@
     var isPeeking = false;
     var revertTimer = null;
     var peekTimer = null;
-    var REVERT_DELAY = 7000;
+    var REVERT_DELAY = 3000;
     var PEEK_DELAY = 1000;
     var PEEK_SHOW_DURATION = 400;
 
@@ -90,14 +90,19 @@
     }
 
     // --- Header visibility observer ---
+    var wasVisible = false;
     var observer = new MutationObserver(function(mutations) {
       mutations.forEach(function(mutation) {
         if (mutation.attributeName === 'class') {
           var isVisible = minimalHeader.classList.contains('visible');
-          if (isVisible) {
+          if (isVisible && !wasVisible) {
+            // Transition from hidden to visible — schedule peek
+            wasVisible = true;
             clearTimeout(peekTimer);
             peekTimer = setTimeout(peek, PEEK_DELAY);
-          } else {
+          } else if (!isVisible && wasVisible) {
+            // Transition from visible to hidden — reset state
+            wasVisible = false;
             clearTimeout(peekTimer);
             clearRevertTimer();
             isFlipped = false;
