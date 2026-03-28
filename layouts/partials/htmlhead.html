@@ -27,15 +27,42 @@
 	<title>{{ .Scratch.Get "pageTitle" }}</title>
 	{{ hugo.Generator }}
 	<meta name="keywords" content="{{ .Site.Params.keywords }}">
-	{{ if .Site.Params.description }}<meta name="description" content="{{ .Site.Params.description }}" />{{ end }}
-	
-	<meta name="DC.Title" content="{{ .Scratch.Get "pageTitle" }}" />
-	{{ if .Params.author }}<meta name="DC.Creator" content="{{ .Params.author }}" />{{ end }}
-	{{ if .Params.date }}<meta name="DC.Date" content="{{ dateFormat "2006-01-02" .Params.date }}" />{{ end }}
-	<meta NAME="DC.Format" content="text/html">
-	<meta NAME="DC.Language" content="{{ .Site.Language.Lang }}">
+	{{- $pageDesc := .Description | default .Site.Params.description -}}
+	{{ if $pageDesc }}<meta name="description" content="{{ $pageDesc }}" />{{ end }}
 
+	{{/* Dublin Core metadata */}}
+	<meta name="DC.Title" content="{{ .Scratch.Get "pageTitle" }}" />
+	{{- if .Params.authors -}}
+		{{- range .Params.authors }}
+	<meta name="DC.Creator" content="{{ . }}" />
+		{{- end -}}
+	{{- else if .Params.author }}
+	<meta name="DC.Creator" content="{{ .Params.author }}" />
+	{{- end }}
+	{{ if .Params.date }}<meta name="DC.Date" content="{{ dateFormat "2006-01-02" .Params.date }}" />{{ end }}
+	<meta name="DC.Format" content="text/html">
+	<meta name="DC.Language" content="{{ .Site.Language.Lang }}">
+	{{- if .Params.genres -}}
+		{{- range .Params.genres }}
+	<meta name="DC.Subject" content="{{ . }}" />
+		{{- end -}}
+	{{- else if .Params.genre }}
+	<meta name="DC.Subject" content="{{ .Params.genre }}" />
+	{{- end }}
+
+	{{/* Open Graph metadata */}}
 	<meta property="og:title" content="{{ .Title }}" />
-	<meta property="og:type" content="website" />
-	
+	<meta property="og:type" content="{{ if in (slice "stock" "review" "editorial") .Type }}article{{ else }}website{{ end }}" />
+	<meta property="og:url" content="{{ .Permalink }}" />
+	{{ if $pageDesc }}<meta property="og:description" content="{{ $pageDesc }}" />{{ end }}
+	{{- $ogImage := "" -}}
+	{{- if .Params.image -}}
+		{{- if hasPrefix .Params.image "/" -}}
+			{{- $ogImage = .Params.image | absURL -}}
+		{{- else -}}
+			{{- $ogImage = path.Join .Section .Params.image | absURL -}}
+		{{- end -}}
+	{{- end }}
+	{{ if $ogImage }}<meta property="og:image" content="{{ $ogImage }}" />{{ end }}
+
 </head>
