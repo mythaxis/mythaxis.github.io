@@ -92,9 +92,30 @@
     </div>
     {{ end }}{{ end }}
     <div class="story-header-minimal__content">
+      {{ if $page.Params.audio }}
+      <div class="story-header-minimal__logotype audio-remote"
+           role="button" tabindex="0"
+           aria-label="Audio controls">
+        <div class="audio-remote__card">
+          <div class="audio-remote__front">
+            <img src="/images/roundels/{{ $issueRoundel }}.svg" class="story-header-minimal__issue-roundel" alt="" aria-hidden="true" />
+          </div>
+          <div class="audio-remote__back">
+            <svg class="audio-remote__icon" viewBox="0 0 48 48" aria-hidden="true">
+              <polygon class="audio-remote__play" points="18,12 38,24 18,36" />
+              <g class="audio-remote__pause" style="display:none">
+                <rect x="14" y="12" width="6" height="24" />
+                <rect x="28" y="12" width="6" height="24" />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      {{ else }}
       <div class="story-header-minimal__logotype">
         <img src="/images/roundels/{{ $issueRoundel }}.svg" class="story-header-minimal__issue-roundel" alt="" aria-hidden="true" />
       </div>
+      {{ end }}
       <div class="story-header-minimal__info">
         <h2 class="story-header-minimal__title">{{ $page.Title }}</h2>
         <span class="story-header-minimal__author">
