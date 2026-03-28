@@ -80,9 +80,9 @@
 
   {{/* 2. Minimal Sticky Header (appears on scroll) */}}
   <div class="story-header-minimal" id="story-header-minimal">
-    {{ with $section }}{{ if .Params.image }}
+    {{ if $storyImagePath }}
     <div class="story-header-minimal__bg">
-      <img src="{{ path.Join .Section .Params.image | relURL }}"
+      <img src="{{ $storyImagePath }}"
            alt=""
            aria-hidden="true"
            class="story-header-minimal__image"
@@ -90,7 +90,7 @@
            decoding="async" />
       <div class="story-header-minimal__overlay"></div>
     </div>
-    {{ end }}{{ end }}
+    {{ end }}
     <div class="story-header-minimal__content">
       {{ if $page.Params.audio }}
       <div class="story-header-minimal__logotype audio-remote"
