@@ -179,7 +179,7 @@ Mobile breakpoint mirrors existing roundel sizing:
 
 ```css
 /* Mobile: match existing roundel size */
-@media (max-width: 736px) {
+@media (max-width: 768px) {
   .audio-remote {
     width: 2.5rem;
     height: 2.5rem;
@@ -292,6 +292,7 @@ New self-contained IIFE module:
             clearTimeout(peekTimer);
             clearRevertTimer();
             isFlipped = false;
+            isPeeking = false;
             card.classList.remove('audio-remote__card--flipped');
             card.classList.remove('audio-remote__card--reverting');
           }
