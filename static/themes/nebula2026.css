@@ -2595,6 +2595,11 @@ img[alt$="-lrg"] {
         height: 2.5rem;
     }
 
+    .audio-remote {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
     .story-header-minimal__logotype {
         margin-right: 0.75rem;
     }
@@ -2697,6 +2702,67 @@ html {
 }
 
 
+/* Audio Remote Button
+   ========================================================================== */
+
+.audio-remote {
+    perspective: 600px;
+    cursor: pointer;
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.audio-remote__card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 400ms cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.audio-remote__card--reverting {
+    transition-duration: 300ms;
+}
+
+.audio-remote__card--flipped {
+    transform: rotateY(180deg);
+}
+
+.audio-remote__front,
+.audio-remote__back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.audio-remote__back {
+    transform: rotateY(180deg);
+    background: #1a1a1a;
+    border-radius: 50%;
+}
+
+.audio-remote__icon {
+    width: 60%;
+    height: 60%;
+    fill: #fff;
+}
+
+@keyframes audio-pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.06); }
+}
+
+.audio-remote--playing .audio-remote__front {
+    animation: audio-pulse 2s ease-in-out infinite;
+}
+
+
 /* Reduced Motion Accessibility (from _animations.scss, _interactions.scss)
    ========================================================================== */
 
@@ -2724,5 +2790,31 @@ html {
 
     html {
         scroll-behavior: auto !important;
+    }
+
+    .audio-remote__card {
+        transition: none !important;
+    }
+
+    .audio-remote--playing .audio-remote__front {
+        animation: none !important;
+    }
+
+    .audio-remote__front,
+    .audio-remote__back {
+        backface-visibility: visible;
+        transform: none;
+    }
+
+    .audio-remote__back {
+        opacity: 0;
+    }
+
+    .audio-remote__card--flipped .audio-remote__front {
+        opacity: 0;
+    }
+
+    .audio-remote__card--flipped .audio-remote__back {
+        opacity: 1;
     }
 }
