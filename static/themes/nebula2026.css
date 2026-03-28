@@ -1050,6 +1050,10 @@ img[alt$="-lrg"] {
     overflow: hidden;
 }
 
+.nebula-page-hero--clean .landing-header__overlay {
+    display: none;
+}
+
 .nebula-page {
     max-width: 800px;
     margin: 0 auto;
@@ -1130,12 +1134,6 @@ img[alt$="-lrg"] {
     letter-spacing: 0.03em;
     margin-bottom: 0.5rem;
     line-height: 1.15;
-}
-
-.nebula-catalogue-count {
-    color: var(--color-text-muted);
-    font-size: 0.875rem;
-    letter-spacing: 0.02em;
 }
 
 .nebula-catalogue-intro {
@@ -1367,6 +1365,32 @@ img[alt$="-lrg"] {
     color: var(--color-text-muted);
     font-size: 0.8125rem;
     margin-left: 0.5rem;
+}
+
+/* A-Z Navigation */
+.nebula-alpha-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+.nebula-alpha-group {
+    margin-bottom: 2.5rem;
+}
+
+/* Back to top */
+.nebula-back-to-top {
+    float: right;
+    font-size: 0.875rem;
+    text-decoration: none;
+    opacity: 0.4;
+    transition: opacity 0.2s ease;
+}
+
+.nebula-back-to-top:hover {
+    opacity: 0.8;
 }
 
 /* Random button */
