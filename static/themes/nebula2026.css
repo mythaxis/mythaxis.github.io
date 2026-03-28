@@ -1959,6 +1959,11 @@ img[alt$="-lrg"] {
 /* Story Header — Full Hero Section
    ========================================================================== */
 
+/* Scroll snap: hero image → content on story pages */
+html:has(.nebula2026-story-single) {
+    scroll-snap-type: y proximity;
+}
+
 .story-header {
     position: relative;
     width: 100%;
@@ -1966,6 +1971,7 @@ img[alt$="-lrg"] {
     display: flex;
     align-items: flex-end;
     overflow: hidden;
+    scroll-snap-align: start;
 }
 
 .story-header__hero {
@@ -2166,6 +2172,8 @@ img[alt$="-lrg"] {
 .story-reading {
     padding: 3rem 2rem 2rem;
     background: var(--color-background);
+    scroll-snap-align: start;
+    scroll-margin-top: var(--header-h, 5.5rem);
 }
 
 .story-reading__container {
