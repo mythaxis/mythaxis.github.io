@@ -23,6 +23,7 @@
     {{ with .Params.colorScheme }}
     {{ with .primary }}--color-primary: {{ . }};{{ end }}
     {{ with .secondary }}--color-secondary: {{ . }};{{ end }}
+    {{ with .accent }}--color-accent: {{ . }};{{ end }}
     {{ end }}
 }
 {{ end }}
@@ -30,6 +31,7 @@
 .theme-nebula2026 {
     {{ with .primary }}--color-primary: {{ . }};{{ end }}
     {{ with .secondary }}--color-secondary: {{ . }};{{ end }}
+    {{ with .accent }}--color-accent: {{ . }};{{ end }}
 }
 {{ end }}
 {{ if not $section.Params.image }}

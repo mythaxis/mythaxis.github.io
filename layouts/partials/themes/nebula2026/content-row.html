@@ -40,7 +40,7 @@
         <p class="nebula-content-row__description">{{ $page.Description }}</p>
         {{ end }}
         {{ else }}
-        <h3 class="nebula-content-row__title"><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h3>
+        <h3 class="nebula-content-row__title"><a href="{{ $page.Permalink }}" data-text="{{ $page.Title }}">{{ $page.Title }}</a></h3>
         <span class="nebula-content-row__authors">{{ collections.Delimit $page.Params.authors ", " }}</span>
         {{ if $page.Description }}
         <p class="nebula-content-row__description">{{ $page.Description }}</p>
