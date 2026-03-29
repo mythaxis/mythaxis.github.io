@@ -17,6 +17,7 @@ imageCopyright: "The title picture was created using Creative Commons images by 
 colorScheme:
   primary: "#580fea"
   secondary: "#ed1056"
+  accent: "#0e0328"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/2.Shooter.mp3"
 

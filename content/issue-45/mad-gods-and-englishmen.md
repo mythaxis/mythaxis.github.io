@@ -13,6 +13,7 @@ copyright: '© Shamus Maxwell 2025 All Rights Reserved'
 colorScheme:
   primary: "#e8b50d"
   secondary: "#dd20bd"
+  accent: "#1a1008"
 
 
 description: "This story is all crime for sure, and yet that's not all it is by a long shot. If that sounds contradictory, good, get used to it. In skirting the edge of horror Shamus Maxwell delivers exactly what it says on the tin, conjuring up a heady mixture of killers, divinities, madness, and Brits. Supposedly gods are All Seeing and All Powerful, but - judging by this at least - not necessarily All There."
