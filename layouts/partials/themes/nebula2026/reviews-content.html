@@ -1,7 +1,7 @@
 {{/*
   Nebula2026 Theme - Reviews Content Partial
   ==========================================
-  Reviews catalogue page listing all reviews across issues.
+  Listings page: all reviews across issues.
 
   Expects context from theme-dispatch:
     .Page    - The catalogue page being rendered
@@ -14,15 +14,15 @@
 {{- $page := .Page -}}
 {{- $section := .Section -}}
 {{- $reviews := .Data.reviews | default slice -}}
+{{- $issueRoundel := "MythaxisTarget" -}}
+{{- with $section -}}
+  {{- $issueRoundel = .Params.issueRoundel | default "MythaxisTarget" -}}
+{{- end -}}
 
 <section class="post catalogue nebula-catalogue">
     <header class="major nebula-catalogue-header">
         <h1>{{ $page.Title }}</h1>
         <p class="nebula-page-description">{{ len $reviews }} {{ $page.Description }}</p>
-        {{- $issueRoundel := "MythaxisTarget" -}}
-        {{- with $section -}}
-          {{- $issueRoundel = .Params.issueRoundel | default "MythaxisTarget" -}}
-        {{- end -}}
         <div class="nebula-article-divider">
             <img src="/images/roundels/{{ $issueRoundel }}.svg"
                  class="nebula-article-divider__roundel"
@@ -51,7 +51,13 @@
     </div>
 </section>
 
-<div class="story-end" id="story-end">
+<div class="story-divider">
+    <img src="/images/roundels/{{ $issueRoundel }}.svg"
+         class="story-divider__roundel roundel-animate"
+         alt="" aria-hidden="true" />
+</div>
+
+<div class="story-end story-end--listings" id="story-end">
   {{ with $section }}{{ if .Params.image }}
   <div class="story-end__hero">
     <img src="{{ path.Join .Section .Params.image | relURL }}"

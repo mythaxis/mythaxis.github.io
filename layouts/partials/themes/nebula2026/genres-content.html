@@ -1,7 +1,7 @@
 {{/*
   Nebula2026 Theme - Genres Content Partial
   =========================================
-  Modern genres index page with enhanced styling.
+  Listings page: stories grouped by genre.
 
   Expects context from theme-dispatch:
     .Page    - The taxonomy page being rendered
@@ -16,15 +16,15 @@
 {{- $section := .Section -}}
 {{- $genreIndex := .Data.genres | default dict -}}
 {{- $allGenres := .Data.genreNames | default slice -}}
+{{- $issueRoundel := "MythaxisTarget" -}}
+{{- with $section -}}
+  {{- $issueRoundel = .Params.issueRoundel | default "MythaxisTarget" -}}
+{{- end -}}
 
 <section class="post catalogue nebula-catalogue">
     <header class="major nebula-catalogue-header">
         <h1>{{ $page.Title }}</h1>
         <p class="nebula-page-description">{{ len $allGenres }} {{ $page.Description }}</p>
-        {{- $issueRoundel := "MythaxisTarget" -}}
-        {{- with $section -}}
-          {{- $issueRoundel = .Params.issueRoundel | default "MythaxisTarget" -}}
-        {{- end -}}
         <div class="nebula-article-divider">
             <img src="/images/roundels/{{ $issueRoundel }}.svg"
                  class="nebula-article-divider__roundel"
@@ -34,11 +34,7 @@
 
     {{ partial "catalogue-nav" $page }}
 
-    {{ with $page.Content }}
-    <div class="nebula-catalogue-intro">
-        {{ . }}
-    </div>
-    {{ end }}
+    {{- $topArrow := `<span class="nebula-back-to-top" aria-hidden="true"><svg viewBox="0 0 10 8" xmlns="http://www.w3.org/2000/svg"><polygon points="5,0 10,8 0,8"/></svg></span>` -}}
 
     <nav class="nebula-genre-nav">
         {{ range $key, $value := $allGenres }}
@@ -46,10 +42,18 @@
         {{ end }}
     </nav>
 
+    {{ with $page.Content }}
+    <div class="nebula-catalogue-intro">
+        {{ . }}
+    </div>
+    {{ end }}
+
     <div class="nebula-genres-list">
         {{ range $genre, $items := $genreIndex }}
         <div class="nebula-genre-section" id="{{ $genre }}">
-            <h2 class="nebula-genre-title">{{ $genre | strings.Title }} <span class="nebula-genre-count">({{ len $items }})</span> <a href="#" class="nebula-back-to-top" aria-label="Back to top">&uarr;</a></h2>
+            <a href="#listings-top" class="nebula-group-heading-link" aria-label="Back to top">
+                <h2 class="nebula-genre-title">{{ $genre | strings.Title }} <span class="nebula-genre-count">({{ len $items }})</span> {{ $topArrow | safeHTML }}</h2>
+            </a>
             <ul class="nebula-genre-items">
             {{ range $items }}
                 <li class="nebula-genre-item">
@@ -63,7 +67,13 @@
     </div>
 </section>
 
-<div class="story-end" id="story-end">
+<div class="story-divider">
+    <img src="/images/roundels/{{ $issueRoundel }}.svg"
+         class="story-divider__roundel roundel-animate"
+         alt="" aria-hidden="true" />
+</div>
+
+<div class="story-end story-end--listings" id="story-end">
   {{ with $section }}{{ if .Params.image }}
   <div class="story-end__hero">
     <img src="{{ path.Join .Section .Params.image | relURL }}"
