@@ -17,3 +17,7 @@
 <script src="{{ "js/nebula2026/parallax-hero.js" | relURL }}" defer></script>
 <script src="{{ "js/nebula2026/nebula-nav.js" | relURL }}" defer></script>
 <script src="{{ "js/nebula2026/frontpage-nav.js" | relURL }}" defer></script>
+<script src="{{ "js/nebula2026/story-hero-nav.js" | relURL }}" defer></script>
+{{ with .Page }}{{ if .Params.audio }}
+<script src="{{ "js/nebula2026/audio-remote.js" | relURL }}" defer></script>
+{{ end }}{{ end }}

@@ -11,8 +11,9 @@ authors:
 image: images/synthwave_sml.jpg
 imageCopyright: "**ISSUE 43** – ***Thanks and Salutations.*** For the third time, much gratitude to [Michal Kváč](https://linktr.ee/kvacm), who bestows some retro style on us with his image 'Synthwave'. A freelance environment concept artist and illustrator from Czech Republic, you can click the link above to see his work and make contact, or check out his [Youtube channel](https://www.youtube.com/@kvacm) for time-lapse videos of his process. Thanks yet again, Michal!"
 
-type: page
+type: editorial
 slug: editorial
+weight: 1
 ---
 
 While casting about for a subject for this issue's editorial, a friend proposed the topic *Why I think writing an editorial for my incredible magazine whose quality fiction speaks for itself is more important than writing my own incredible fiction*. They went on to observe that, *seriously, editorials are boring and pointless*, asserting that *nobody reads them* (dissenters to this claim being a statistical anomoly, likely akin to the one suggesting that there is intelligent life in the universe), before wrapping up their position with a concrete suggestion for the editorial's full content:

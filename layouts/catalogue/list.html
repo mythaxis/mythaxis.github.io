@@ -1,13 +1,18 @@
-{{/* Combine Hugo pages and xway2 data into content listing dictionary */}}
+{{/* Combine Hugo pages and xway2 data into content listing dictionary.
+     Excludes reviews (type: review and old-style genre: review) — those have their own catalogue page. */}}
 {{ $allStories := slice }}
 
 {{ range (where .Site.AllPages "Type" "stock") }}
+  {{/* Skip old-style reviews (type: stock with genre/genres containing "review") */}}
+  {{ $genres := .Params.genres | default (.Params.genre | default (slice)) }}
+  {{ if not (in $genres "review") }}
   {{ $item := dict
       "title" .Title
       "relurl" .RelPermalink
       "author" (collections.Delimit .Params.Authors " and ")
   }}
-  {{ $allStories = $allStories | append $item }} 
+  {{ $allStories = $allStories | append $item }}
+  {{ end }}
 {{ end }}
 
 {{ $xway2metadata := index .Site.Data "xway2metadata" }}
@@ -18,7 +23,7 @@
       "relurl" .relurl
       "author" .author
   }}
-  {{ $allStories = $allStories | append $item }} 
+  {{ $allStories = $allStories | append $item }}
 {{ end }}
 {{ $allStories = sort $allStories "issue" "asc" "title" "asc" }} 
 
@@ -35,7 +40,7 @@
       {{ partial "nav" . }}
 
       {{ if eq $themeCtx.Theme "nebula2026" }}{{ with $themeCtx.Section }}{{ if .Params.image }}
-      <div class="nebula-page-hero">
+      <div class="nebula-page-hero nebula-page-hero--clean">
         <div class="landing-header__hero">
           <img src="{{ path.Join .Section .Params.image | relURL }}"
                alt="{{ .Params.issue }}"
@@ -50,8 +55,6 @@
       <div id="main">
         {{ partial "theme-dispatch" (dict "partial" "catalogue-content" "context" . "data" (dict "stories" $allStories)) }}
       </div>
-      
-      {{ partial "copyright" . }}
       <a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
     </div>
 

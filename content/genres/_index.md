@@ -6,3 +6,5 @@ date: 2024-01-01
 description: Genres with stories sorted by title
 url: /genres.html
 ---
+
+{{< random-button label="Take me to a random summat, fella!" >}}

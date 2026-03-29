@@ -26,9 +26,18 @@
   {{/* 1. Story Header (hero section) */}}
   <header class="story-header" id="story-header">
 
-    {{ if $page.Params.image }}
+    {{/* Resolve image path: absolute (/images/...) or section-relative (images/...) */}}
+    {{- $storyImagePath := "" -}}
+    {{- with $page.Params.image -}}
+      {{- if hasPrefix . "/" -}}
+        {{- $storyImagePath = . | relURL -}}
+      {{- else -}}
+        {{- $storyImagePath = path.Join $page.Section . | relURL -}}
+      {{- end -}}
+    {{- end -}}
+    {{ if $storyImagePath }}
     <div class="story-header__hero">
-      <img src="{{ path.Join $page.Section $page.Params.image | relURL }}"
+      <img src="{{ $storyImagePath }}"
            alt="Illustration for {{ $page.Title }}"
            class="story-header__image"
            loading="eager"
@@ -71,9 +80,9 @@
 
   {{/* 2. Minimal Sticky Header (appears on scroll) */}}
   <div class="story-header-minimal" id="story-header-minimal">
-    {{ with $section }}{{ if .Params.image }}
+    {{ if $storyImagePath }}
     <div class="story-header-minimal__bg">
-      <img src="{{ path.Join .Section .Params.image | relURL }}"
+      <img src="{{ $storyImagePath }}"
            alt=""
            aria-hidden="true"
            class="story-header-minimal__image"
@@ -81,11 +90,32 @@
            decoding="async" />
       <div class="story-header-minimal__overlay"></div>
     </div>
-    {{ end }}{{ end }}
+    {{ end }}
     <div class="story-header-minimal__content">
+      {{ if $page.Params.audio }}
+      <div class="story-header-minimal__logotype audio-remote"
+           role="button" tabindex="0"
+           aria-label="Audio controls">
+        <div class="audio-remote__card">
+          <div class="audio-remote__front">
+            <img src="/images/roundels/{{ $issueRoundel }}.svg" class="story-header-minimal__issue-roundel" alt="" aria-hidden="true" />
+          </div>
+          <div class="audio-remote__back">
+            <svg class="audio-remote__icon" viewBox="0 0 48 48" aria-hidden="true">
+              <polygon class="audio-remote__play" points="18,12 38,24 18,36" />
+              <g class="audio-remote__pause" style="display:none">
+                <rect x="14" y="12" width="6" height="24" />
+                <rect x="28" y="12" width="6" height="24" />
+              </g>
+            </svg>
+          </div>
+        </div>
+      </div>
+      {{ else }}
       <div class="story-header-minimal__logotype">
         <img src="/images/roundels/{{ $issueRoundel }}.svg" class="story-header-minimal__issue-roundel" alt="" aria-hidden="true" />
       </div>
+      {{ end }}
       <div class="story-header-minimal__info">
         <h2 class="story-header-minimal__title">{{ $page.Title }}</h2>
         <span class="story-header-minimal__author">
@@ -149,16 +179,32 @@
       {{ partial "authorfooter" $page }}
     </div>
 
-    {{/* Navigation Strip (prev / TOC / next) */}}
+    {{/* Navigation Strip (prev / TOC / next) — stock + review pages only */}}
     {{ if $section }}
     {{- $contentsPage := false -}}
     {{- range where (where $page.Site.RegularPages "Section" $section.Section) "Slug" "contents" -}}
       {{- $contentsPage = . -}}
     {{- end -}}
+    {{/* Build filtered page list: stock + review only (excludes editorials, contents, etc.) */}}
+    {{- $navPages := sort (where (where $page.Site.RegularPages "Section" $section.Section) ".Type" "in" (slice "stock" "review")) "Weight" "asc" -}}
+    {{- $prevPage := false -}}
+    {{- $nextPage := false -}}
+    {{- $currentIndex := -1 -}}
+    {{- range $i, $p := $navPages -}}
+      {{- if eq $p.RelPermalink $page.RelPermalink -}}
+        {{- $currentIndex = $i -}}
+      {{- end -}}
+    {{- end -}}
+    {{- if gt $currentIndex 0 -}}
+      {{- $prevPage = index $navPages (sub $currentIndex 1) -}}
+    {{- end -}}
+    {{- if and (ge $currentIndex 0) (lt $currentIndex (sub (len $navPages) 1)) -}}
+      {{- $nextPage = index $navPages (add $currentIndex 1) -}}
+    {{- end -}}
     <div class="story-nav-strip-wrap">
     <nav class="story-nav-strip" aria-label="Story navigation">
       <div class="story-nav-strip__prev">
-        {{ with $page.NextInSection }}
+        {{ with $prevPage }}
         <a href="{{ .RelPermalink }}" class="story-nav-strip__link" title="{{ .Title }}">
           <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M15 18l-6-6 6-6"/>
@@ -173,7 +219,7 @@
       </a>
 
       <div class="story-nav-strip__next">
-        {{ with $page.PrevInSection }}
+        {{ with $nextPage }}
         <a href="{{ .RelPermalink }}" class="story-nav-strip__link" title="{{ .Title }}">
           <span class="story-nav-strip__title">{{ .Title }}</span>
           <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">

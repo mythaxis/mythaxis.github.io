@@ -2,7 +2,8 @@
      presenting the results as an author index of published stories, sorted alphabetically.
      The sort is hardcoded because of Ockham's razor. */}}
 {{ $authorIndex := slice }}
-{{ $pages := where .Site.Pages "Type" "stock" }}
+{{/* Exclude editorials: skip type: editorial, and also old-style pages with slug: editorial */}}
+{{ $pages := where .Site.Pages "Type" "in" (slice "stock" "review") }}
 {{ $xway2metadata := index .Site.Data "xway2metadata" }}
 {{ $xway2metadata = (where $xway2metadata "category" "ne" "Editorial") }}
 
@@ -21,9 +22,10 @@
 {{/* Build the author index dictionary and load it up with the author's stories. */}}
 {{ range $allAuthors }}
 
-  {{/* Gather each author's stories into a single stocklist */}}
+  {{/* Gather each author's stories into a single stocklist (exclude old-style editorials by slug) */}}
   {{ $authStockItems := slice }}
   {{ range (where $pages "Params.authors" "intersect" (slice .)) }}
+    {{ if ne .Slug "editorial" }}
     {{ $item := dict
       "title" .Title
       "relurl" .RelPermalink
@@ -31,6 +33,7 @@
       "date" (.Date.Format "January 2006")
     }}
     {{ $authStockItems = $authStockItems | append $item }}
+    {{ end }}
   {{ end }}
 
   {{ range (where $xway2metadata "author" "eq" .)  }}
@@ -67,7 +70,7 @@
       {{ partial "nav" . }}
 
       {{ if eq $themeCtx.Theme "nebula2026" }}{{ with $themeCtx.Section }}{{ if .Params.image }}
-      <div class="nebula-page-hero">
+      <div class="nebula-page-hero nebula-page-hero--clean">
         <div class="landing-header__hero">
           <img src="{{ path.Join .Section .Params.image | relURL }}"
                alt="{{ .Params.issue }}"
@@ -82,8 +85,6 @@
       <div id="main">
         {{ partial "theme-dispatch" (dict "partial" "authors-content" "context" . "data" (dict "authors" $authorIndex)) }}
       </div>
-      
-      {{ partial "copyright" . }}
       <a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
     </div>
 

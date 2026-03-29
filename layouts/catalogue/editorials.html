@@ -1,18 +1,25 @@
 {{/* Combine Hugo pages and xway2 data into content listing dictionary */}}
 {{ $editorials := slice }}
 
+{{/* Track seen URLs to avoid duplicates (type: editorial pages also have slug: editorial) */}}
+{{ $seen := slice }}
 {{ range .Site.Sections }}
   {{ $currSection := .Site.GetPage "section" (print .Section "/__index.md") }}
-  {{ range (where (where .Site.Pages "Section" .Section) "Slug" "eq" "editorial") }}
-    {{ $ed := dict
-        "title" .Title
-        "relurl" .RelPermalink
-        "author" (collections.Delimit .Params.authors " and ")
-        "issue"  (print .Params.issue " - " $currSection.Params.subhead)
-        "number" (index (strings.FindRE `\d+?$` .Params.issue) 0)
-        "date" (.Params.publishDate.Format "January 2006")
-    }}
-    {{ $editorials = $editorials | append $ed }}
+  {{/* Match by type: editorial (issues 43+) and slug: editorial (all issues) */}}
+  {{ $editorialPages := union (where (where .Site.Pages "Section" .Section) "Type" "eq" "editorial") (where (where .Site.Pages "Section" .Section) "Slug" "eq" "editorial") }}
+  {{ range $editorialPages }}
+    {{ if not (in $seen .RelPermalink) }}
+      {{ $seen = $seen | append .RelPermalink }}
+      {{ $ed := dict
+          "title" .Title
+          "relurl" .RelPermalink
+          "author" (collections.Delimit .Params.authors " and ")
+          "issue"  (print .Params.issue " - " $currSection.Params.subhead)
+          "number" (index (strings.FindRE `\d+?$` .Params.issue) 0)
+          "date" (.Params.publishDate.Format "January 2006")
+      }}
+      {{ $editorials = $editorials | append $ed }}
+    {{ end }}
   {{ end }}
 {{ end }}
 
@@ -33,7 +40,7 @@
       {{ partial "nav" . }}
 
       {{ if eq $themeCtx.Theme "nebula2026" }}{{ with $themeCtx.Section }}{{ if .Params.image }}
-      <div class="nebula-page-hero">
+      <div class="nebula-page-hero nebula-page-hero--clean">
         <div class="landing-header__hero">
           <img src="{{ path.Join .Section .Params.image | relURL }}"
                alt="{{ .Params.issue }}"
@@ -48,8 +55,6 @@
       <div id="main">
         {{ partial "theme-dispatch" (dict "partial" "editorials-content" "context" . "data" (dict "editorials" $editorials)) }}
       </div>
-      
-      {{ partial "copyright" . }}
       <a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
     </div>
 

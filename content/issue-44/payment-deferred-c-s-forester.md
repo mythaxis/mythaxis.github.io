@@ -3,7 +3,7 @@ title: "Payment Deferred, by C. S. Forester"
 date: 2025-12-24
 issue: Issue 44
 
-genre:
+genres:
 - review
 authors:
 - Bill Ryan
@@ -14,7 +14,7 @@ description: "Muttering under his breath in a feverish manner, mind tormented by
 image: images/PaymentDeferred10x6.jpg
 imageCopyright: "The image shows author [C. S. Forester](https://en.wikipedia.org/wiki/C._S._Forester) and [the first edition's cover](https://en.wikipedia.org/wiki/Payment_Deferred), both from Wikipedia."
 
-type: stock
+type: review
 slug: payment-deferred-c-s-forester
 weight: 7
 ---

@@ -925,6 +925,38 @@ img[alt$="-lrg"] {
     font-size: clamp(1.35rem, 2vw + 0.5rem, 1.625rem);
 }
 
+/* Center direction variant — full-width banner layout */
+.nebula-content-row--center {
+    display: block;
+    text-align: center;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+.nebula-content-row--center .nebula-content-row__image {
+    width: 100%;
+    max-height: 280px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+.nebula-content-row--center .nebula-content-row__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nebula-content-row--center .nebula-content-row__text {
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+/* Editorial style modifier */
+.nebula-content-row--editorial .nebula-content-row__title {
+    font-style: italic;
+}
+.nebula-content-row--editorial .nebula-content-row__title a {
+    font-style: italic;
+}
 
 
 /* Single Article
@@ -1018,6 +1050,10 @@ img[alt$="-lrg"] {
     overflow: hidden;
 }
 
+.nebula-page-hero--clean .landing-header__overlay {
+    display: none;
+}
+
 .nebula-page {
     max-width: 800px;
     margin: 0 auto;
@@ -1098,12 +1134,6 @@ img[alt$="-lrg"] {
     letter-spacing: 0.03em;
     margin-bottom: 0.5rem;
     line-height: 1.15;
-}
-
-.nebula-catalogue-count {
-    color: var(--color-text-muted);
-    font-size: 0.875rem;
-    letter-spacing: 0.02em;
 }
 
 .nebula-catalogue-intro {
@@ -1337,6 +1367,60 @@ img[alt$="-lrg"] {
     margin-left: 0.5rem;
 }
 
+/* A-Z Navigation */
+.nebula-alpha-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+.nebula-alpha-group {
+    margin-bottom: 2.5rem;
+    scroll-margin-top: 6rem;
+}
+
+.nebula-genre-section {
+    scroll-margin-top: 6rem;
+}
+
+/* Back to top — group heading is the link */
+.nebula-group-heading-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nebula-group-heading-link:hover {
+    color: inherit;
+}
+
+.nebula-back-to-top {
+    display: inline-block;
+    width: 0.6em;
+    height: 0.6em;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+    opacity: 0.3;
+    transition: opacity 0.2s ease;
+}
+
+.nebula-back-to-top svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: var(--color-primary);
+}
+
+.nebula-group-heading-link:hover .nebula-back-to-top {
+    opacity: 0.7;
+}
+
+#listings-top {
+    scroll-margin-top: 2rem;
+}
+
 /* Random button */
 .random-button-wrap {
     text-align: center;
@@ -1501,6 +1585,24 @@ img[alt$="-lrg"] {
         padding: 1rem;
     }
 
+    /* Center variant on mobile: inherit scroll-snap behavior */
+    .nebula-content-row--center {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(200px, 40svh) 1fr;
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .nebula-content-row--center .nebula-content-row__image {
+        max-height: none;
+        border-radius: 0;
+    }
+    .nebula-content-row--center .nebula-content-row__text {
+        padding: 1rem;
+    }
+
     /* Snake corners: reset on mobile (single-column stacking) */
     .nebula-split-lead__image {
         border-radius: 0;
@@ -1556,32 +1658,279 @@ img[alt$="-lrg"] {
    Resolved from SCSS: variables substituted, nesting flattened, mixins inlined
    ========================================================================== */
 
-/* Print Styles (from _responsive.scss)
+/* Print Styles
    ========================================================================== */
 
 @media print {
+
+    /* --- Hide interactive / screen-only elements --- */
     .story-header-minimal,
     .story-nav-strip,
+    .story-nav-strip-wrap,
     .nebula-nav-panel,
-    .nebula-nav-backdrop {
+    .nebula-nav-backdrop,
+    .nebula-header,
+    .nebula-scroll-indicator,
+    .reading-progress__bar,
+    .skip-to-content,
+    .random-button-wrap,
+    .nebula-genre-nav {
         display: none !important;
     }
 
-    .story-header {
-        min-height: auto;
-        page-break-after: avoid;
+    /* --- Reset screen layout tricks --- */
+    html {
+        scroll-snap-type: none !important;
+        scroll-behavior: auto !important;
+    }
+
+    *:not(.story-header__hero):not(.story-header__hero *) {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    /* Story header title/author: white text over faded image */
+    .story-header__content,
+    .story-header__content * {
+        color: #000 !important;
+    }
+
+    /* --- Typography for print --- */
+    body {
+        font-size: 11pt;
+        line-height: 1.55;
     }
 
     .story-reading__container {
         max-width: 100%;
-        font-size: 12pt;
-        line-height: 1.6;
+        font-size: 11pt;
+        line-height: 1.55;
     }
 
-    .chapter-marker,
+    .nebula-article-content,
+    .nebula-page-content {
+        font-size: 11pt;
+        line-height: 1.55;
+    }
+
+    /* Tighter drop caps for print */
+    .nebula-article-content > p:first-child::first-letter,
+    .nebula-article-content > hr + p::first-letter,
+    .nebula-article-content > .chapter-marker + p::first-letter {
+        font-size: 3em;
+        line-height: 0.8;
+    }
+
+    /* Disable chromatic layering — single-colour headings in print */
+    .nebula-title__myth::after,
+    .nebula-title__axis::after,
+    .nebula-split-lead__title a::after,
+    .nebula-content-row__title--featured a::after {
+        display: none !important;
+    }
+
+    /* --- Page break control --- */
+    h1, h2, h3, h4 {
+        page-break-after: avoid;
+        break-after: avoid;
+    }
+
+    p {
+        orphans: 3;
+        widows: 3;
+    }
+
+    blockquote {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    /* --- Story header: flatten hero for print --- */
+    .story-header {
+        min-height: auto;
+        page-break-after: avoid;
+        break-after: avoid;
+        overflow: visible;
+    }
+
+    .story-header__hero {
+        position: relative;
+        height: auto;
+    }
+
+    .story-header__image {
+        position: relative;
+        transform: none !important;
+        will-change: auto;
+        max-height: 40vh;
+    }
+
+    .story-header__content {
+        position: relative;
+        z-index: auto;
+    }
+
+    /* --- Story end: flatten fixed/parallax image --- */
+    .story-end__hero {
+        display: none;
+    }
+
+    .story-end__fade {
+        display: none;
+    }
+
+    .story-end__author,
+    .story-end__copyright {
+        position: relative;
+        z-index: auto;
+    }
+
+    /* --- Landing page: linearise for print --- */
+    .nebula-intro {
+        min-height: auto;
+        padding: 2rem 0;
+    }
+
+    .landing-header__hero {
+        display: none;
+    }
+
+    .nebula-content-row {
+        height: auto;
+        overflow: visible;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    .nebula-split-lead {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    /* --- Links: show URLs for attribution --- */
+    .nebula-author-bio a[href]::after,
+    .nebula-copyright-secondary a[href]::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+        font-style: italic;
+        word-break: break-all;
+    }
+
+    /* Don't show URLs for internal nav links */
+    .story-nav-strip a::after,
+    .nebula-nav-panel a::after,
+    .nebula-content-row__title a::after,
+    .nebula-split-lead__title a::after {
+        content: none !important;
+    }
+
+    /* --- Chapter markers: black, smaller, act as page breaks --- */
+    .chapter-marker {
+        width: 50px;
+        filter: brightness(0);
+        page-break-before: always;
+        break-before: page;
+        margin: 1.5rem auto;
+    }
+
     .story-end-marker {
+        width: 100px;
+        filter: brightness(0);
+    }
+
+    /* --- Roundels: grayscale for print --- */
+    .story-divider__roundel,
+    .nebula-article-divider__roundel {
         filter: grayscale(100%);
     }
+
+    /* Mask-based roundels: force black */
+    .nebula-title__roundel,
+    .nebula-header__logo-roundel,
+    .nebula-nav-panel__logotype-roundel {
+        background: #000 !important;
+    }
+
+    /* --- Story header: title/author over image, hide description --- */
+    .story-header {
+        position: relative;
+    }
+
+    .story-header__hero {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .story-header__image {
+        max-height: none;
+        height: 100%;
+        opacity: 0.3;
+    }
+
+    .story-header__overlay {
+        display: none !important;
+    }
+
+    .story-header__content {
+        position: relative;
+        z-index: 2;
+        padding: 3rem 2rem;
+    }
+
+    .story-header__abstract {
+        display: none !important;
+    }
+
+    .story-header__publication {
+        display: none !important;
+    }
+
+    /* --- Audio player: hide in print --- */
+    .nebula-audio-player {
+        display: none !important;
+    }
+
+    /* --- Copyright footer: visible in print --- */
+    .nebula-copyright {
+        padding: 1rem 0;
+        border-top: 1pt solid #999;
+    }
+
+    /* --- Author footer: horizontal layout (image left, text right) --- */
+    .nebula-author-footer {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    .nebula-author-card {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: flex-start !important;
+        text-align: left !important;
+        gap: 1.5rem;
+    }
+
+    .nebula-author-photo img {
+        width: 100px !important;
+        height: 100px !important;
+        border-color: #000 !important;
+    }
+
+    .nebula-author-info {
+        flex: 1;
+    }
+
 }
 
 
@@ -1662,13 +2011,19 @@ img[alt$="-lrg"] {
 /* Story Header — Full Hero Section
    ========================================================================== */
 
+/* Scroll snap: hero image → content on story pages */
+html:has(.nebula2026-story-single) {
+    scroll-snap-type: y proximity;
+}
+
 .story-header {
     position: relative;
     width: 100%;
-    min-height: 60vh;
+    min-height: 70vh;
     display: flex;
     align-items: flex-end;
     overflow: hidden;
+    scroll-snap-align: start;
 }
 
 .story-header__hero {
@@ -1869,6 +2224,8 @@ img[alt$="-lrg"] {
 .story-reading {
     padding: 3rem 2rem 2rem;
     background: var(--color-background);
+    scroll-snap-align: start;
+    scroll-margin-top: var(--header-h, 5.5rem);
 }
 
 .story-reading__container {
@@ -1979,6 +2336,21 @@ img[alt$="-lrg"] {
 
 .story-end__copyright .nebula-copyright {
     background: color-mix(in srgb, var(--color-secondary) 80%, transparent);
+}
+
+.story-end--listings {
+    min-height: 50vh;
+}
+
+.story-end--listings .story-end__image {
+    opacity: 0.3;
+}
+
+.story-end--listings .story-end__copyright {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 /* Author Footer
@@ -2400,6 +2772,72 @@ html {
 }
 
 
+/* Audio Remote Button
+   ========================================================================== */
+
+.audio-remote {
+    perspective: 600px;
+    cursor: pointer;
+}
+
+.audio-remote__card {
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
+    transform-style: preserve-3d;
+    transition: transform 400ms cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.audio-remote__card--reverting {
+    transition-duration: 300ms;
+}
+
+.audio-remote__card--flipped {
+    transform: rotateY(180deg);
+}
+
+.audio-remote__front,
+.audio-remote__back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.audio-remote__back {
+    transform: rotateY(180deg);
+    background: #1a1a1a;
+    border-radius: 50%;
+}
+
+.audio-remote__icon {
+    width: 60%;
+    height: 60%;
+    fill: #fff;
+}
+
+@keyframes audio-pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.06); }
+}
+
+.audio-remote--playing .audio-remote__front {
+    animation: audio-pulse 2s ease-in-out infinite;
+}
+
+@media (max-width: 768px) {
+    .audio-remote__card {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+
 /* Reduced Motion Accessibility (from _animations.scss, _interactions.scss)
    ========================================================================== */
 
@@ -2427,5 +2865,35 @@ html {
 
     html {
         scroll-behavior: auto !important;
+    }
+
+    .audio-remote__card {
+        transition: none !important;
+    }
+
+    .audio-remote--playing .audio-remote__front {
+        animation: none !important;
+    }
+
+    .audio-remote__front,
+    .audio-remote__back {
+        backface-visibility: visible;
+        transform: none;
+    }
+
+    .audio-remote__back {
+        opacity: 0;
+    }
+
+    .audio-remote__card--flipped {
+        transform: none;
+    }
+
+    .audio-remote__card--flipped .audio-remote__front {
+        opacity: 0;
+    }
+
+    .audio-remote__card--flipped .audio-remote__back {
+        opacity: 1;
     }
 }

@@ -2,25 +2,35 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ dateFormat "2006-01-02" .Date }}
 issue: Issue XX
+slug: {{ .Name }}
+weight: 2
+type: stock
+draft: true
 
+# Authors
 authors:
 - Firstname Lastname
-showAuthorFooter: false
-copyright: "© Firstname Lastname 2020 All Rights Reserved"
+showAuthorFooter: true
+copyright: "© Firstname Lastname 20XX All Rights Reserved"
 
-description: 'The short blurb which appears on the list pages'
+# Content
+description: "Short blurb for list pages"
+genres:
+- genre-tag
 
-morelink: 'MORELINK'
+# Images
+image: images/Title10x6.jpg
+imageCopyright: "Image attribution (markdown supported)"
 
-image: images/picXXX.jpg
-imageCopyright: "The title picture was created using Creative Commons images"
+# Audio (optional, omit if unused)
+# audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/iXX/filename.mp3"
 
-type: stock
-slug: url-slug-example
-weight: 2
-draft: true
+# Nebula2026 theme options (optional, omit for defaults)
+# cardLayout: stock-left       # [stock|featured]-[left|right], or omit for auto-alternate
+# chapterMarker: MythaxisTarget  # roundel name for chapter breaks
+# colorScheme:                   # per-story color override
+#   primary: "#hex"
+#   secondary: "#hex"
 ---
 
-This is the XWAY stock item for each individual story. Start by customising the metadata above and pasting the story content below.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ex lacus. Vestibulum interdum dapibus sapien, ac sagittis ex lacinia non. In quis tortor sed ipsum viverra pharetra a id nisl.
+Story content goes here.

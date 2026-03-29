@@ -1,0 +1,67 @@
+{{/* Combine Hugo pages and xway2 data into reviews listing dictionary */}}
+{{ $reviews := slice }}
+
+{{ range .Site.Sections }}
+  {{ $currSection := .Site.GetPage "section" (print .Section "/__index.md") }}
+  {{/* Match new type: review pages (issues 43+) */}}
+  {{ range (where (where .Site.Pages "Section" .Section) "Type" "eq" "review") }}
+    {{ $rev := dict
+        "title" .Title
+        "relurl" .RelPermalink
+        "author" (collections.Delimit .Params.authors " and ")
+        "issue"  (print .Params.issue " - " $currSection.Params.subhead)
+        "number" (index (strings.FindRE `\d+?$` .Params.issue) 0)
+    }}
+    {{ $reviews = $reviews | append $rev }}
+  {{ end }}
+  {{/* Match old-style reviews (issues ≤42): type: stock with genres containing "review" */}}
+  {{ range (where (where .Site.Pages "Section" .Section) "Type" "eq" "stock") }}
+    {{ $genres := .Params.genres | default (slice) }}
+    {{ if in $genres "review" }}
+      {{ $rev := dict
+          "title" .Title
+          "relurl" .RelPermalink
+          "author" (collections.Delimit .Params.authors " and ")
+          "issue"  (print .Params.issue " - " $currSection.Params.subhead)
+          "number" (index (strings.FindRE `\d+?$` .Params.issue) 0)
+      }}
+      {{ $reviews = $reviews | append $rev }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<!DOCTYPE HTML>
+<html lang='{{ .Site.Language.Lang | default "en-us" }}'>
+  {{ partial "htmlhead" . }}
+
+  {{- $themeCtx := partial "functions/getThemeContext" . -}}
+  <body lang='{{ .Site.Language.Lang | default "en-us" }}' class="is-preload theme-{{ $themeCtx.Theme }}">
+    {{ if eq $themeCtx.Theme "nebula2026" }}<a href="#main" class="skip-to-content">Skip to content</a>{{ end }}
+    <!-- Wrapper -->
+    <div id="wrapper">
+      {{ partial "header" . }}
+      {{ partial "nav" . }}
+
+      {{ if eq $themeCtx.Theme "nebula2026" }}{{ with $themeCtx.Section }}{{ if .Params.image }}
+      <div class="nebula-page-hero nebula-page-hero--clean">
+        <div class="landing-header__hero">
+          <img src="{{ path.Join .Section .Params.image | relURL }}"
+               alt="{{ .Params.issue }}"
+               class="landing-header__image"
+               loading="eager" decoding="sync" />
+          <div class="landing-header__overlay"></div>
+        </div>
+      </div>
+      {{ end }}{{ end }}{{ end }}
+
+      <!-- Main -->
+      <div id="main">
+        {{ partial "theme-dispatch" (dict "partial" "reviews-content" "context" . "data" (dict "reviews" $reviews)) }}
+      </div>
+      <a href="#navPanel" id="navPanelToggle">{{ i18n "NAV_MENU" . }}</a>
+    </div>
+
+    {{ template "_internal/google_analytics.html" . }}
+    {{ partial "scripts/index" . }}
+  </body>
+</html>
