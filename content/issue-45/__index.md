@@ -12,6 +12,7 @@ issueRoundel: MythaxisKnot
 colorScheme:
   primary: "#28c53d"
   secondary: "#5d1212"
+  accent: "#0a1628"
 
 editor: Andrew Leon Hudson
 image: images/Sanka_footsteps_sqr.jpg

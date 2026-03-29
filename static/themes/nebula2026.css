@@ -47,7 +47,7 @@
 }
 
 /* Basalte Display Font — Degheest Family (Velvetyne Type Foundry)
-   Three variants: Fond (base), Multicolor (striped), Volume (3D)
+   Two variants: Fond (base letterform), Volume (depth/embossed strokes)
    ========================================================================== */
 
 @font-face {
@@ -59,8 +59,8 @@
 }
 
 @font-face {
-    font-family: 'Basalte Multicolor';
-    src: url('../assets/fonts/nebula2026/Basalte-Multicolor.woff2') format('woff2');
+    font-family: 'Basalte Volume';
+    src: url('../assets/fonts/nebula2026/Basalte-Volume.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -74,6 +74,7 @@
     /* Colors */
     --color-primary: #1a2b4c;
     --color-secondary: #4a6d8c;
+    --color-accent: #0a1628;
     --color-text: #333333;
     --color-text-light: #666666;
     --color-text-muted: #999999;
@@ -314,21 +315,23 @@ img[alt$="-lrg"] {
     margin: 0 0 0.5rem;
 }
 
-/* Chromatic layering on logotype text spans */
+/* Chromatic layering: Fond (base) + text-shadow (accent) + Volume overlay (secondary) */
 .nebula-title__myth,
 .nebula-title__axis {
     position: relative;
+    text-shadow: 0.04em 0.04em 0 var(--color-accent);
 }
 
 .nebula-title__myth::after,
 .nebula-title__axis::after {
     content: attr(data-text);
-    font-family: 'Basalte Multicolor', var(--font-secondary);
+    font-family: 'Basalte Volume', var(--font-secondary);
     color: var(--color-secondary);
     position: absolute;
     left: 0;
     top: 0;
     pointer-events: none;
+    text-shadow: none;
 }
 
 .nebula-title__link {
@@ -717,17 +720,19 @@ img[alt$="-lrg"] {
     color: var(--color-primary);
     text-decoration: none;
     position: relative;
+    text-shadow: 0.04em 0.04em 0 var(--color-accent);
 }
 
-/* Chromatic layering: Basalte Multicolor over Fond for two-colour effect */
+/* Chromatic layering: Fond (base) + text-shadow (accent) + Volume overlay (secondary) */
 .nebula-split-lead__title a::after {
     content: attr(data-text);
-    font-family: 'Basalte Multicolor', var(--font-secondary);
+    font-family: 'Basalte Volume', var(--font-secondary);
     color: var(--color-secondary);
     position: absolute;
     left: 0;
     top: 0;
     pointer-events: none;
+    text-shadow: none;
 }
 
 .nebula-split-lead__title a:hover {
@@ -855,6 +860,20 @@ img[alt$="-lrg"] {
 .nebula-content-row__title a {
     color: var(--color-primary);
     text-decoration: none;
+    position: relative;
+    text-shadow: 0.04em 0.04em 0 var(--color-accent);
+}
+
+/* Chromatic layering: Fond (base) + text-shadow (accent) + Volume overlay (secondary) */
+.nebula-content-row__title a::after {
+    content: attr(data-text);
+    font-family: 'Basalte Volume', var(--font-secondary);
+    color: var(--color-secondary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    text-shadow: none;
 }
 
 .nebula-content-row__title a:hover {
@@ -889,17 +908,19 @@ img[alt$="-lrg"] {
 
 .nebula-content-row__title--featured a {
     position: relative;
+    text-shadow: 0.04em 0.04em 0 var(--color-accent);
 }
 
-/* Chromatic layering: Basalte Multicolor over Fond for two-colour effect */
+/* Chromatic layering: Fond (base) + text-shadow (accent) + Volume overlay (secondary) */
 .nebula-content-row__title--featured a::after {
     content: attr(data-text);
-    font-family: 'Basalte Multicolor', var(--font-secondary);
+    font-family: 'Basalte Volume', var(--font-secondary);
     color: var(--color-secondary);
     position: absolute;
     left: 0;
     top: 0;
     pointer-events: none;
+    text-shadow: none;
 }
 
 /* Featured authors: uppercase, non-italic (template places them before title) */
