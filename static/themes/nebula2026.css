@@ -1748,7 +1748,8 @@ img[alt$="-lrg"] {
     .nebula-title__myth::after,
     .nebula-title__axis::after,
     .nebula-split-lead__title a::after,
-    .nebula-content-row__title--featured a::after {
+    .nebula-content-row__title--featured a::after,
+    .nebula-content-row__title a::after {
         display: none !important;
     }
 
