@@ -1,13 +1,18 @@
-{{/* Combine Hugo pages and xway2 data into content listing dictionary */}}
+{{/* Combine Hugo pages and xway2 data into content listing dictionary.
+     Excludes reviews (type: review and old-style genre: review) — those have their own catalogue page. */}}
 {{ $allStories := slice }}
 
 {{ range (where .Site.AllPages "Type" "stock") }}
+  {{/* Skip old-style reviews (type: stock with genre/genres containing "review") */}}
+  {{ $genres := .Params.genres | default (.Params.genre | default (slice)) }}
+  {{ if not (in $genres "review") }}
   {{ $item := dict
       "title" .Title
       "relurl" .RelPermalink
       "author" (collections.Delimit .Params.Authors " and ")
   }}
-  {{ $allStories = $allStories | append $item }} 
+  {{ $allStories = $allStories | append $item }}
+  {{ end }}
 {{ end }}
 
 {{ $xway2metadata := index .Site.Data "xway2metadata" }}
@@ -18,7 +23,7 @@
       "relurl" .relurl
       "author" .author
   }}
-  {{ $allStories = $allStories | append $item }} 
+  {{ $allStories = $allStories | append $item }}
 {{ end }}
 {{ $allStories = sort $allStories "issue" "asc" "title" "asc" }} 
 

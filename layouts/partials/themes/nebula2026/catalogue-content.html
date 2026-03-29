@@ -1,7 +1,8 @@
 {{/*
   Nebula2026 Theme - Catalogue Content Partial
   ============================================
-  Modern catalogue page content with A-Z navigation and grouped listings.
+  Listings page: stories A-Z with pill navigation.
+  Excludes reviews (shown on dedicated Reviews page).
 
   Expects context from theme-dispatch:
     .Page    - The catalogue page being rendered
@@ -15,15 +16,15 @@
 {{- $section := .Section -}}
 {{- $stories := .Data.stories | default slice -}}
 {{- $sorted := sort $stories "title" "asc" -}}
+{{- $issueRoundel := "MythaxisTarget" -}}
+{{- with $section -}}
+  {{- $issueRoundel = .Params.issueRoundel | default "MythaxisTarget" -}}
+{{- end -}}
 
 <section class="post catalogue nebula-catalogue">
     <header class="major nebula-catalogue-header">
         <h1>{{ $page.Title }}</h1>
         <p class="nebula-page-description">{{ len $stories }} {{ $page.Description }}</p>
-        {{- $issueRoundel := "MythaxisTarget" -}}
-        {{- with $section -}}
-          {{- $issueRoundel = .Params.issueRoundel | default "MythaxisTarget" -}}
-        {{- end -}}
         <div class="nebula-article-divider">
             <img src="/images/roundels/{{ $issueRoundel }}.svg"
                  class="nebula-article-divider__roundel"
@@ -33,19 +34,21 @@
 
     {{ partial "catalogue-nav" $page }}
 
+    {{- $ranges := slice "ABCD" "EFGH" "IJKL" "MNOP" "QRST" "UVWXYZ" -}}
+    {{- $topArrow := `<span class="nebula-back-to-top" aria-hidden="true"><svg viewBox="0 0 10 8" xmlns="http://www.w3.org/2000/svg"><polygon points="5,0 10,8 0,8"/></svg></span>` -}}
+
+    <nav class="nebula-alpha-nav">
+        {{ range $ranges }}
+            {{- $letters := split . "" -}}
+            <a href="#range-{{ . }}" class="nebula-genre-link">{{ delimit $letters " " }}</a>
+        {{ end }}
+    </nav>
+
     {{ with $page.Content }}
     <div class="nebula-catalogue-intro">
         {{ . }}
     </div>
     {{ end }}
-
-    {{- $ranges := slice "ABCD" "EFGH" "IJKL" "MNOP" "QRST" "UVWXYZ" -}}
-
-    <nav class="nebula-alpha-nav">
-        {{ range $ranges }}
-            <a href="#range-{{ . }}" class="nebula-genre-link">{{ substr . 0 1 }}&ndash;{{ substr . (sub (len .) 1) }}</a>
-        {{ end }}
-    </nav>
 
     <div class="nebula-catalogue-list">
         {{ range $ranges }}
@@ -60,7 +63,9 @@
             {{- end -}}
             {{ if $items }}
             <div class="nebula-alpha-group" id="range-{{ $rangeID }}">
-                <h2 class="nebula-genre-title">{{ substr $rangeID 0 1 }}&ndash;{{ substr $rangeID (sub (len $rangeID) 1) }} <span class="nebula-genre-count">({{ len $items }})</span> <a href="#" class="nebula-back-to-top" aria-label="Back to top">&uarr;</a></h2>
+                <a href="#listings-top" class="nebula-group-heading-link" aria-label="Back to top">
+                    <h2 class="nebula-genre-title">{{ delimit $rangeLetters " " }} <span class="nebula-genre-count">({{ len $items }})</span> {{ $topArrow | safeHTML }}</h2>
+                </a>
                 {{ range $items }}
                 <div class="nebula-catalogue-item">
                     <a href="{{ .relurl | relURL }}" class="nebula-catalogue-link">{{ .title }}</a>
@@ -73,7 +78,13 @@
     </div>
 </section>
 
-<div class="story-end" id="story-end">
+<div class="story-divider">
+    <img src="/images/roundels/{{ $issueRoundel }}.svg"
+         class="story-divider__roundel roundel-animate"
+         alt="" aria-hidden="true" />
+</div>
+
+<div class="story-end story-end--listings" id="story-end">
   {{ with $section }}{{ if .Params.image }}
   <div class="story-end__hero">
     <img src="{{ path.Join .Section .Params.image | relURL }}"

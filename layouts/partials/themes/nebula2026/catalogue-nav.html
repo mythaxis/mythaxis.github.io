@@ -13,7 +13,7 @@
 
 {{- $page := .Page -}}
 
-<nav class="nebula-catalogue-nav" aria-label="Catalogue navigation">
+<nav class="nebula-catalogue-nav" id="listings-top" aria-label="Catalogue navigation">
     <div class="nebula-nav-links">
         {{ with $page.Site.GetPage "/archive.md" }}
         <a href='{{ .RelPermalink | relURL }}' class="nebula-nav-link">Archives</a>
