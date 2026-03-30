@@ -13,9 +13,10 @@
 
 {{- $page := .Page -}}
 {{- $section := .Section -}}
-{{- $issueRoundel := "MythaxisTarget" -}}
+{{- $defaultRoundel := site.Params.issueRoundel | default "MythaxisIcon" -}}
+{{- $issueRoundel := $defaultRoundel -}}
 {{- if $section -}}
-  {{- $issueRoundel = $section.Params.issueRoundel | default "MythaxisTarget" -}}
+  {{- $issueRoundel = $section.Params.issueRoundel | default $defaultRoundel -}}
 {{- end -}}
 
 <!-- Slide-in nav panel -->

@@ -43,9 +43,10 @@ params:
   # The slug/name of the current section. This is used to theme pages
   # which are not in a specific section (homepage, about, etc.)
   currentIssue: Issue 45
+
   # Nebula2026 theme defaults
-  defaultRoundel: orbit
-  defaultChapterMarker: orbit
+  issueRoundel: MythaxisKnot
+  chapterMarker: MythaxisSwords
   colorScheme:
     primary: "#3a5f7d"              # fallback primary color
     secondary: "#8b6f4e"            # fallback secondary color
