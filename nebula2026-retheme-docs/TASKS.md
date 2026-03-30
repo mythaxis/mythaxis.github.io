@@ -303,10 +303,12 @@
 
 ### Frontpage
 
-- [ ] **32.0** Design a 'featured' row style for the frontpage
-  - [ ] 32.1 Design a visually distinct featured row (full-width banner? hero image? different card layout?)
-  - [ ] 32.2 Implement `cardLayout: featured-center` or similar variant
-  - [ ] 32.3 Test at mobile, tablet, and desktop breakpoints
+- [ ] **32.0** Featured row + editorial card on frontpage — plan complete, see `PLAN-featured-editorial-cards.md`
+  - [x] 32.1 Design: **featured** = image-as-background hero (dark overlay, light text); **editorial** = pill border, inset image
+  - [ ] 32.2 Add `--featured` modifier class to content-row.html
+  - [ ] 32.3 CSS: featured hero card (~30 lines), editorial pill card (~30 lines), mobile adjustments
+  - [ ] 32.4 Add `cardLayout: editorial-left` to issue-45 editorial frontmatter
+  - [ ] 32.5 Test all variants (featured/editorial x left/right/center) at mobile + desktop
 
 ### TOC / Contents Page
 
