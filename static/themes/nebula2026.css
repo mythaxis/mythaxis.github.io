@@ -319,7 +319,7 @@ img[alt$="-lrg"] {
 .nebula-title__myth,
 .nebula-title__axis {
     position: relative;
-    text-shadow: 0.04em 0.04em 0 var(--color-accent);
+    text-shadow: 0.06em 0.06em 0 var(--color-accent);
 }
 
 .nebula-title__myth::after,
@@ -348,11 +348,11 @@ img[alt$="-lrg"] {
 }
 
 .nebula-title__link:hover {
-    opacity: 0.85;
+    filter: brightness(0.85);
 }
 
 .nebula-title__link:active {
-    opacity: 0.7;
+    filter: brightness(0.7);
 }
 
 .nebula-title__roundel {
@@ -360,19 +360,42 @@ img[alt$="-lrg"] {
     width: 1.5em;
     height: 1.5em;
     margin: 0 0.05em;
-    background: currentColor;
+    position: relative;
+    vertical-align: middle;
+}
+
+.nebula-title__roundel::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: var(--color-secondary);
+    box-shadow: 0.06em 0.06em 0 var(--color-accent);
+}
+
+.nebula-title__roundel::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--color-primary);
     -webkit-mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
     mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
 }
 
 .nebula-subtitle {
-    display: block;
+    display: inline-block;
+    width: fit-content;
     order: -1;
     font-size: clamp(1.5rem, 2.5vw + 0.5rem, 1.75rem);
     color: rgba(255, 255, 255, 0.9);
     font-weight: 300;
     margin-bottom: 0.25rem;
     text-decoration: none;
+    padding: 0.15em 0.6em;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }
 
 .nebula-subtitle:hover {
@@ -721,7 +744,7 @@ img[alt$="-lrg"] {
     text-decoration: none;
     display: block;
     position: relative;
-    text-shadow: 0.04em 0.04em 0 var(--color-accent);
+    text-shadow: 0.06em 0.06em 0 var(--color-accent);
 }
 
 /* Chromatic layering: Fond (base) + text-shadow (accent) + Volume overlay (secondary) */
@@ -863,7 +886,7 @@ img[alt$="-lrg"] {
     text-decoration: none;
     display: block;
     position: relative;
-    text-shadow: 0.04em 0.04em 0 var(--color-accent);
+    text-shadow: 0.06em 0.06em 0 var(--color-accent);
 }
 
 /* Chromatic layering: Fond (base) + text-shadow (accent) + Volume overlay (secondary) */
@@ -911,7 +934,7 @@ img[alt$="-lrg"] {
 .nebula-content-row__title--featured a {
     display: block;
     position: relative;
-    text-shadow: 0.04em 0.04em 0 var(--color-accent);
+    text-shadow: 0.06em 0.06em 0 var(--color-accent);
 }
 
 /* Chromatic layering: Fond (base) + text-shadow (accent) + Volume overlay (secondary) */
@@ -1541,8 +1564,6 @@ img[alt$="-lrg"] {
         order: 2;
         width: 1.5em;
         height: 1.5em;
-        -webkit-mask-position: center;
-        mask-position: center;
     }
     .nebula-title__axis {
         order: 3;
@@ -1878,7 +1899,11 @@ img[alt$="-lrg"] {
     }
 
     /* Mask-based roundels: force black */
-    .nebula-title__roundel,
+    .nebula-title__roundel::before {
+        background: #999 !important;
+        box-shadow: none !important;
+    }
+    .nebula-title__roundel::after,
     .nebula-header__logo-roundel,
     .nebula-nav-panel__logotype-roundel {
         background: #000 !important;
