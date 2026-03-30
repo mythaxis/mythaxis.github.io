@@ -277,22 +277,29 @@
 
 ### Roundel & Logotype Colour
 
-- [ ] **29.0** Main roundel background colour / drop shadow with logotype
-  - [ ] 29.1 Determine background colour for the main Mythaxis roundel (currently transparent — needs a backing colour)
-  - [ ] 29.2 Drop shadow treatment on roundel to complement logotype
-  - [ ] 29.3 Test with all issue `colorScheme` palettes
+- [x] **29.0** Main roundel background colour / drop shadow with logotype
+  - [x] 29.1 Secondary colour background disc on logotype roundel (via `::before`)
+  - [x] 29.2 Accent colour drop shadow on roundel disc (`box-shadow: 0.06em`)
+  - [x] 29.3 Hover uses `filter: brightness()` instead of opacity (no transparency leak)
 
-- [ ] **30.0** Add third colour to colour config scheme for roundel
-  - [ ] 30.1 Extend `colorScheme` frontmatter to support a dedicated roundel colour (beyond primary/secondary/accent)
-  - [ ] 30.2 Wire roundel SVG to use the colour scheme (potentially via CSS mask or fill)
-  - [ ] 30.3 Optional drop shadow on roundel using colour tokens
+- [x] **30.0** Roundel/chapterMarker default cascade from config.yaml
+  - [x] 30.1 Renamed config keys to `issueRoundel` / `chapterMarker` (matches frontmatter names)
+  - [x] 30.2 All 8 templates cascade: page → section → `site.Params` → hardcoded `MythaxisIcon`
+  - [x] 30.3 JS default updated to `MythaxisIcon`
 
 ### Chromatic Font
 
-- [ ] **31.0** Fix multicolour font and use on all headers
-  - [ ] 31.1 Audit all headings currently using Basalte Fond-only and extend Fond+Volume chromatic treatment
-  - [ ] 31.2 Apply to story page titles, catalogue headers, genre/author names where appropriate
-  - [ ] 31.3 Test cross-platform (iOS Safari, desktop Chrome, Firefox)
+- [x] **31.0** Fix chromatic font overlay on multi-line titles
+  - [x] 31.1 Add `display: block` to frontpage title links (fixes Volume `::after` stacking)
+  - [x] 31.2 Increase text-shadow offset from `0.04em` to `0.06em` on all chromatic titles
+  - [ ] 31.3 Extend Fond+Volume treatment to remaining Fond-only headings (story page, catalogue, etc.)
+  - [ ] 31.4 Test cross-platform (iOS Safari, desktop Chrome, Firefox)
+
+### Intro & Footer Polish
+
+- [x] **31.5** Subtitle frosted pill background (`width: fit-content`, subtle blur)
+- [x] **31.6** Intro cover feather gradient uses `--color-accent`
+- [x] **31.7** Fix listings page copyright footer overlap
 
 ### Frontpage
 
@@ -333,10 +340,12 @@
 
 ### Submissions
 
-- [ ] **38.0** Check submissions open/closed JavaScript works
-  - [ ] 38.1 Test the submissions open/closed logic on the live site
-  - [ ] 38.2 Verify date-based toggling displays correct state
-  - [ ] 38.3 Fix any issues with nebula2026 markup/selectors
+- [x] **38.0** Submissions open/closed JavaScript
+  - [x] 38.1 Extract inline script to `static/js/nebula2026/submissions-status.js`
+  - [x] 38.2 Conditional loading in `scripts.html` (submissions page only)
+  - [x] 38.3 Date range styling: bold + "See how to submit" link on current window, strikethrough + dimmed on past windows, future unchanged
+  - [x] 38.4 Old `htmlhead-scripts-overrides.html` gutted (no-op stub for compat)
+  - [x] 38.5 Verified: correctly shows CLOSED with January struck through (March 30th)
 
 ### Image Documentation
 
