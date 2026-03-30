@@ -14,7 +14,7 @@ description: "xxx."
 image: /images/shared/ShortReviews01_10x6.jpg
 imageCopyright: "The image is by [grandfailure](https://depositphotos.com/368748152/stock-photo-man-standing-mysterious-library-digital.html) via DepositPhotos.com."
 
-type: stock
+type: reviews
 slug: short-reviews-oct-2025-to-jan-2026
 weight: 8
 featured: true
