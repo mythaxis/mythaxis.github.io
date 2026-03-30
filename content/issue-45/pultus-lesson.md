@@ -21,7 +21,7 @@ slug: pultus-lesson
 weight: 6
 ---
 
-{{<glyph>}}“B{{</glyph>}}y the sweet Sisters of Fate,” the massive, black, pot-bellied hog roared at the cardinal, “her broomstick is gone, there will be no tracks!”
+“By the sweet Sisters of Fate,” the massive, black, pot-bellied hog roared at the cardinal, “her broomstick is gone, there will be no tracks!”
 
 Fariyah bristled her feathers and turned from the dirt in the yard to the door. Their witch’s riding broom, usually leaning on the wall outside so she wouldn’t confuse it with her cleaning broom, was missing.
 
@@ -65,9 +65,9 @@ There was a very good chance that Fariyah would forget where to go in town, look
 
 He took the right fork when it split, glaring ahead at the distance before him.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}P{{</glyph>}}ultu grew more and more uneasy as the monotony of putting one cloven hoof in front of another settled in. He had been Garba’s familiar for nearly a year now, and couldn’t remember her leaving like this.
+Pultu grew more and more uneasy as the monotony of putting one cloven hoof in front of another settled in. He had been Garba’s familiar for nearly a year now, and couldn’t remember her leaving like this.
 
 If she left of her own accord. Surely one of them would have noticed if she’d been kidnapped?
 
@@ -117,9 +117,9 @@ Breyta gazed out the window to where they’d disappeared. Her raven was right. 
 
 “You want a peanut before I send you to Holishay’s to let them know they’re on their way?” she asked Jerome. He squawked and batted his wings in his ironic cheer.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}P{{</glyph>}}ultu and Fariyah were not sorting out their differences. Pultu’s silence quickly made Fariyah uneasy, and that made her start to twitter in a meaningless stream of consciousness. Her inane chirping slowly overcame the remorse that Breyta had put in Pultu. As he tried to ignore her, he closed his eyes to keep from grumbling out loud. 
+Pultu and Fariyah were not sorting out their differences. Pultu’s silence quickly made Fariyah uneasy, and that made her start to twitter in a meaningless stream of consciousness. Her inane chirping slowly overcame the remorse that Breyta had put in Pultu. As he tried to ignore her, he closed his eyes to keep from grumbling out loud. 
 
 In that darkness he found, again, the memory of the day he was called.
 
@@ -239,9 +239,9 @@ At the edge of the glade, Garba reached into a fold in the trunk of a tree, and 
 
 Pultu followed.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}T{{</glyph>}}hey were past Holishay’s house and nearly to the road when she began.
+They were past Holishay’s house and nearly to the road when she began.
 
 “You’re smart, Pultu. Extremely smart.”
 
@@ -331,9 +331,9 @@ He could also tell that she was less uneasy. Garba chuckled. “All of this star
 
 Pultu remembered, and he squirmed.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}I{{</glyph>}}t was the hottest part of the afternoon when they arrived home. Fariyah flew out to meet them, of course, incessantly chirping questions and giving details about what she’d been doing all afternoon as she flew circles around Garba, not once mentioning the witch’s pipe. Pultu rolled his eyes and veered off the path towards the woods and the stream that ran through them. He could sense Garba watching him go, but she didn’t call.
+It was the hottest part of the afternoon when they arrived home. Fariyah flew out to meet them, of course, incessantly chirping questions and giving details about what she’d been doing all afternoon as she flew circles around Garba, not once mentioning the witch’s pipe. Pultu rolled his eyes and veered off the path towards the woods and the stream that ran through them. He could sense Garba watching him go, but she didn’t call.
 
 In the woods, the stream filled a pool with clear, cool water. Pultu ignored it and fell into the mudbank on the other side, the chill of the mud reaching deep into his chest, perfect and wonderful after such a long day in the hot, hot sun. He slithered around to reach the spots he’d missed and then lay still, breathing deeply, his sweaty black hide now slick and cool and relieved. He was hungry, but he could wait a bit longer – everything in him felt like it was relaxing, uncoiling.
 
@@ -366,7 +366,5 @@ Fariyah was doing this for him. It didn’t really help him relax, but she thoug
 Unwanted. How he had made Fariyah feel. Whether he had treated her that way because he feared he was unwanted too didn’t matter anymore.
 
 It only mattered that he do better.
-
-![Orbit-lrg](images/Orbit.svg)
 
 *Thanks for reading - but we'd love feedback! Let us know what you think of **Pultu's Lesson** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

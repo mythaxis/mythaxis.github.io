@@ -21,7 +21,7 @@ slug: the-perfect-mother
 weight: 3
 ---
 
-{{<glyph>}}A{{</glyph>}}s far as I know, no one’s seen my sister, Maddie McCall, in three weeks. Oh, she’s not missing. She still responds to the family group chat and posts on social media so frequently it could be a part time job, the kind that clocks in just a few hours short for legally mandated health benefits. She just wouldn’t leave the yellow stucco walls of 148 White Owl Court, or at least, wouldn’t go past the McCalls’ six-foot-tall vinyl fence.
+As far as I know, no one’s seen my sister, Maddie McCall, in three weeks. Oh, she’s not missing. She still responds to the family group chat and posts on social media so frequently it could be a part time job, the kind that clocks in just a few hours short for legally mandated health benefits. She just wouldn’t leave the yellow stucco walls of 148 White Owl Court, or at least, wouldn’t go past the McCalls’ six-foot-tall vinyl fence.
 
 “She’s just really busy,” my brother-in-law Rob told me when I ran into him at the Costco frozen food section, trying in vain to find the only frozen vegetable brand my kids would eat while my youngest begged for the phone I was determined not to give him. “The baby’s still breastfeeding around the clock and the kids are only in half-day preschool. I don’t know how she does it all to be honest. I’d never want to switch places, haha.”
 
@@ -37,9 +37,9 @@ I didn’t laugh. “It’s just, I never see her anymore. She never wants to go
 
 “Sorry,” I said, smiling apologetically over the toilet paper tower taking over my cart. “I should get going. Tell Maddie I said hi.”
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}“D{{</glyph>}}on’t you think you’re being a little paranoid?” Mark asked later that evening, as the kids played *Mario Kart* in the other room. It was the only way we could carve out adult-level conversations.
+“Don’t you think you’re being a little paranoid?” Mark asked later that evening, as the kids played *Mario Kart* in the other room. It was the only way we could carve out adult-level conversations.
 
 “Maybe,” I said. It was a tight maybe, a spat-out maybe, because logically I knew he was right even if my gut kept screaming he was wrong. “It’s not like Maddie.”
 
@@ -63,9 +63,9 @@ Maddie was just as active as ever in her private Facebook and reddit mom groups.
 
 “You’re probably right,” I sighed in defeat.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}M{{</glyph>}}y family wasn’t religious. My sisters and I went to Catholic school, but that was because, as my dad told me after drinking too much at my graduation party, “The public school’s a shithole.” We had enough Catholic pride installed in us by our famine-flung ancestors to never miss Christmas or Easter mass, and to always mark a baby’s baptism with formal attire and cross-shaped cakes.
+My family wasn’t religious. My sisters and I went to Catholic school, but that was because, as my dad told me after drinking too much at my graduation party, “The public school’s a shithole.” We had enough Catholic pride installed in us by our famine-flung ancestors to never miss Christmas or Easter mass, and to always mark a baby’s baptism with formal attire and cross-shaped cakes.
 
 St. Mary’s was filled with anxious mothers and squalling infants, clacking high heels, and awkward guests unsure of where to sit.
 
@@ -85,9 +85,9 @@ Of course, Lauren wasn’t stupid; she noticed when her sister’s entire family
 
 Rob McCall could go to hell for all I cared. I knew something was terribly wrong with my sister.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}I{{</glyph>}} drove straight to White Owl Court the next morning, after the kids left for schools and both sets of husbands were at work. The joy of my intensive nursing shifts was that I could be off on random days like this, when everyone else was busy.
+I drove straight to White Owl Court the next morning, after the kids left for schools and both sets of husbands were at work. The joy of my intensive nursing shifts was that I could be off on random days like this, when everyone else was busy.
 
 I didn’t call before showing up at Maddie’s. The McCalls’ front lawn was vibrant green, somehow missing the end of summer die-off. There were a few red and orange leaves scattered around, such a small amount that it looked delightfully seasonal instead of lazy or sloppy. I walked past newly sprouted styrofoam gravestones that screamed at me *Get OUT!* and *Run While You Still Can!*
 
@@ -163,9 +163,9 @@ At first glance, it didn’t look like she *had* eyes. The insides were like pop
 
 “Well?” she demanded. The mess on her face twitched when she talked, but Maddie stared on, oblivious. “What’s wrong?”
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}S{{</glyph>}}he didn’t actually lose her eyes. The official, doctor-approved explanation was that Maddie burnt her retinas, somehow, though the “how” remained a mystery.
+She didn’t actually lose her eyes. The official, doctor-approved explanation was that Maddie burnt her retinas, somehow, though the “how” remained a mystery.
 
 “But…” I said, staring up at the doctor from my seat in the waiting room, surrounded by my parents and Rob. “I *saw* her. Her eyes looked like they’d been popped…”
 
@@ -183,9 +183,9 @@ The doctor looked close to retirement; he had more wrinkles than hair, a potato 
 
 Prick.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}“I{{</glyph>}}’m bored,” Maddie said.
+“I’m bored,” Maddie said.
 
 “We can watch something else,” I said, reaching for the remote. We sat side-by-side on her sofa, streaming a *Love is Blind* knockoff. It was just the two of us in the house. The whole family decided I should stay with her for a couple of days, while Rob and the kids spent a long weekend at his parents’ house. Maddie wore hospital-provided protective wear that reminded me of cheap plastic eclipse glasses. Despite being a veteran nurse, I couldn’t bring myself to look at her wounds (something about sisters or eyes or both made me squeamish).
 
@@ -245,9 +245,9 @@ There was another burst of thunder. The wind pushed against the house franticall
 
 My phone blared tornado warnings, flash floods, extreme storm alerts. Images popped in my mind: down trees crushing my car, the power going out in White Owl Court, leaving Maddie all alone in the dark. I called Mark and told him I was spending the night at Maddie’s – it just wasn’t worth the risk. I slept in Rosalie’s room, which looked like a Crayola box vomited shades of pink everywhere. I tossed and turned to the sound of the storm, before finally falling asleep.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}I{{</glyph>}} woke from a nightmare about Maddie’s popped, dripping eyes. It was still dark outside. I fished around for my phone on the bedside table, but I couldn’t find it. Huh. It must’ve fallen – I hoped the screen wasn’t cracked (or, let’s be real, cracked*er).* I reached for the light switch above the bed, but nothing happened.
+I woke from a nightmare about Maddie’s popped, dripping eyes. It was still dark outside. I fished around for my phone on the bedside table, but I couldn’t find it. Huh. It must’ve fallen – I hoped the screen wasn’t cracked (or, let’s be real, cracked*er).* I reached for the light switch above the bed, but nothing happened.
 
 Great. We lost power after all.
 
@@ -336,7 +336,5 @@ I scrambled to think of something to say, but all I could do was stare.
 I managed one last look at the total mess that was my sister, then I stood up.
 
 "Yeah, okay.” I swallowed. “Take all the space you need.”
-
-![Orbit-lrg](images/Orbit.svg)
 
 *Thanks for reading - but we'd love feedback! Let us know what you think of **The Perfect Mother** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*
