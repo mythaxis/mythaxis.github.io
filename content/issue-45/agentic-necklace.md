@@ -20,10 +20,11 @@ type: stock
 slug: the-witness
 weight: 1
 featured: true
+chapterMarker: MythaxisEye
 
 ---
 
-{{<glyph>}}L{{</glyph>}}isten: This is a story from long ago, but well after the long ago when machines first punched holes through the sky and folk breathed new air on this world Shih Shen. It concerns a necklace bearing tales across the dry lands of the Thirst.
+Listen: This is a story from long ago, but well after the long ago when machines first punched holes through the sky and folk breathed new air on this world Shih Shen. It concerns a necklace bearing tales across the dry lands of the Thirst.
 
 The prime bead of this sentient necklace began as trash, a depleted energy cartridge ejected from a rifle. A ranger had used its last charge firing on an Earthborn woman fleeing the city into the Thirst. The refugee carried an infant, and one of her companions, an older man, caught them both as the mother fell convulsing. The rangers dragged them all back into the city, back to the Earthtown from which they had escaped. 
 
@@ -79,9 +80,9 @@ Steven Michael shouldered the rifle and trudged back to the camp. “Balance! Li
 
 A day later, the Thirst wanderer met a tinker-trader with a cough, and they exchanged gifts. The tinker-trader left with a roll of cactus-fiber twine, three matches, and a pouch of salt the size of a songbird’s head. Steven Michael gained a fresh-enough springhare carcass and a knot of dried, leathery kudu meat. The necklace had hummed but said nothing.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}“A{{</glyph>}}h, this kudu is just what I needed to gnaw on,” said Steven Michael, speaking to no one, but also to the necklace. He rubbed at his head and wiped snot from his nose with the back of his hand.
+“Ah, this kudu is just what I needed to gnaw on,” said Steven Michael, speaking to no one, but also to the necklace. He rubbed at his head and wiped snot from his nose with the back of his hand.
 
 “Good,” said the necklace. “It’s as you said, that ‘either we eat or get eaten’.”
 
@@ -101,9 +102,9 @@ The man awoke at the sound of something sliding across the translucent ultrapoly
 
 Steven Michael grabbed his rifle, dropping the necklace. He fired through the tent at a two-legs silhouetted against starlight. The shadow fell, and a snarling mass engulfed the tent, kicking and stabbing. Rough, blunt-clawed fingers worked the entry. The attackers crowded the small opening, but their legs left a hole the man dived through just before the tent collapsed. Bleeding from half a dozen small slices and a gash to the leg, the man fled into the pans.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}T{{</glyph>}}he man had taken the rifle, left nearly everything else, including the necklace. And the kudu jerky, which the attackers divided among themselves as haste and viciousness dictated. They rifled through the wanderbuch, tore the pages free, and threw them to celebrate the victory.
+The man had taken the rifle, left nearly everything else, including the necklace. And the kudu jerky, which the attackers divided among themselves as haste and viciousness dictated. They rifled through the wanderbuch, tore the pages free, and threw them to celebrate the victory.
 
 “Should we track the man?” asked one around a wad of dried meat, her muzzle wet with slobber. Absently, she dangled the necklace from a finger.
 
@@ -117,9 +118,9 @@ The others concurred, though the third grumbled that something bigger was likely
 
 “What is this?” The first attacker sniffed at the agentic necklace. “Ugly-as-shit man thing.” She put it on though and grinned.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}N{{</glyph>}}ow, nestled among tufts of hair on this new wearer’s chest, the agentic necklace revelled in epiphytic sensory data extracted from a hyena-man: Steven Michael’s sweat, his metallic blood trailing off across the Thirst. The necklace hoped he would survive the night.
+Now, nestled among tufts of hair on this new wearer’s chest, the agentic necklace revelled in epiphytic sensory data extracted from a hyena-man: Steven Michael’s sweat, his metallic blood trailing off across the Thirst. The necklace hoped he would survive the night.
 
 Humans such as Steven Michael called these folk *hyena-men* regardless of sex because the males and females looked to them identical, and human noses were too dull to scent the difference. This  hyena-man’s name was Margaret. Like most, she was born a twin. With her twin, she was bonded at teat, then at play and at rest. Late childhood arrived, and then one day came the tall shapes rustling through grasses ringing the acacia groves, as the orange star cast light down on the clan, who slept by day and walked at night. Men emerged from the bush and shot many people, Margaret’s mother and her twin among them. Then her, but with a blow that left her unconscious, not dead like the others. She awoke in a cage. They walked by day and slept each night, yelling to each other in a harsh tongue with strange words. They *hosed* her inside the cage because she *stank*. Once, they used metal to *unlock* the cage so a man could rub something on her wounds. She bit him, and although they hit her, he left her alone after. Then, she broke a wire free, but they didn’t notice because they assumed she was a *stupid animal*. Every night she dug at the lock until it turned. She wanted to bite the men all over, but she slipped away and rejoined the survivors in their new home.
 
@@ -129,9 +130,9 @@ After eating what they could of Hortense, the band loped away with their spoils 
 
 They never found Steven Michael, living or dead. On the third day, they reached the denning place. Around the fire, Margaret told the story of the raid, to great whoops and chuffs. A widow cheered as Margaret described the man running half-naked into the night. Hortense’s head was set upon a rock to watch, and males served gourds of marula beer the night through. Day broke on the females passed out under a heavy carpet of boozy fumes and wet snores.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}A{{</glyph>}} year passed. Then another. Often, when she slept, the necklace spoke to Margaret, who awake was never quite aware that the necklace had will. 
+A year passed. Then another. Often, when she slept, the necklace spoke to Margaret, who awake was never quite aware that the necklace had will. 
 
 “Humans never seem ill-fed,” Margaret said one night, while in the threshold between sleeping and waking. “Why so little for the rest of us to eat?” Her stomach muttered as if in agreement.
 
@@ -183,9 +184,9 @@ The cull started an hour after sunrise. The necklace tried to rouse Margaret, bu
 
 To the necklace, Margaret’s last thought was as clear as the view atop a hill: *They’re back for me*.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}A{{</glyph>}}fter Margaret’s death, all was timeless black, and then the necklace regained consciousness  hanging from a hand. It belonged to a young junior officer whose name resolved in the necklace’s mind: Winifred Nahiez, called Win. Shooting furtive glances around, she tucked away the necklace. She then used a long pair of pliers to extract Margaret’s eyeteeth in two efficient, practiced pulls.
+After Margaret’s death, all was timeless black, and then the necklace regained consciousness  hanging from a hand. It belonged to a young junior officer whose name resolved in the necklace’s mind: Winifred Nahiez, called Win. Shooting furtive glances around, she tucked away the necklace. She then used a long pair of pliers to extract Margaret’s eyeteeth in two efficient, practiced pulls.
 
 A tall plastic jug half-filled with teeth stood atop a pile of rags near her tent. Into this, the ranger dropped Margaret’s canines, along with those of a male and a cub, each of them clinking against the collection of teeth within. She flinched each time, a small tensing of shoulders that moved the necklace.
 
@@ -249,9 +250,9 @@ The morning after, the ranger slipped out of her tent, bleary eyed and rumpled. 
 
 “Leave it,” said the captain. “There’s no bounty for artifacts.”
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}“I{{</glyph>}} know what you are,” said the captain. They were in a tent. The necklace dangled from his hand like a pulled weed. 
+“I know what you are,” said the captain. They were in a tent. The necklace dangled from his hand like a pulled weed. 
 
 The necklace remained silent. 
 
@@ -291,9 +292,9 @@ The last of them: “The director has decided to display this one in the Thirst 
 
 Where it went after that, the necklace knew not.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}D{{</glyph>}}arkness followed – and decades of it, the necklace would learn – until one day a storage container lid slid away. 
+Darkness followed – and decades of it, the necklace would learn – until one day a storage container lid slid away. 
 
 “These artifacts on the second shelf and higher are poorly accessioned,” a man said.
 
@@ -373,9 +374,9 @@ Looking around, Livia tucked the necklace into her sleeve, and then walked into 
 
 Livia swiped at her face, sniffed, cleared her throat and said, “We have a form to expedite the process.”
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}C{{</glyph>}}laimants for repatriation would come from all over the southern continent, Livia said. Many would walk, following routes drawn across the sky, the veldt, the wind. For them, the journey would take many months. Today, a few would arrive by rail. A long time ago, back in the settlement era, an underground maglev had cut through the Thirst to Shihzeriopolis. This new train rumbled above ground and belched black smoke.
+Claimants for repatriation would come from all over the southern continent, Livia said. Many would walk, following routes drawn across the sky, the veldt, the wind. For them, the journey would take many months. Today, a few would arrive by rail. A long time ago, back in the settlement era, an underground maglev had cut through the Thirst to Shihzeriopolis. This new train rumbled above ground and belched black smoke.
 
 The train chugged right through a gap in the old city walls and pulled to a stop at the station platform. Passengers disembarked, among them an old man. He wore a diffuse halo of white hair and a face as tough and cracked as the leathers in which he’d kept a wanderbuch decades ago. The same blue eyes that had studied the landscape on wanderjahr now scanned the station. 
 
@@ -421,6 +422,5 @@ Steven Michael looked at the bed. “Not sure how I feel about sleeping high up 
 
 So, just as we sit now, man and necklace made camp on the floor beside the bed, and just as we speak, they stayed awake long into the night talking and constructing a story about it all to tell in the evenings back home, one that would instruct children, elicit knowing nods from those who’d traveled and the occasional polite dissent from elders, and entertain all who gathered fireside.
 
-![Orbit-sml ><](images/Orbit.svg)
 
 *Thanks for reading – but we'd love feedback! Let us know what you think of **The Agentic Necklace** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

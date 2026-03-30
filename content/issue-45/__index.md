@@ -16,6 +16,7 @@ imageCopyright: "xxx by xxx"
 
 #introPosition: top-left
 # introPosition options: [top|center|bottom]-[left|center|right] or "center" (default)
+chapterMarker: MythaxisEye
 
 ---
 

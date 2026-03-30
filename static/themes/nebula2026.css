@@ -719,6 +719,7 @@ img[alt$="-lrg"] {
 .nebula-split-lead__title a {
     color: var(--color-primary);
     text-decoration: none;
+    display: block;
     position: relative;
     text-shadow: 0.04em 0.04em 0 var(--color-accent);
 }
@@ -860,6 +861,7 @@ img[alt$="-lrg"] {
 .nebula-content-row__title a {
     color: var(--color-primary);
     text-decoration: none;
+    display: block;
     position: relative;
     text-shadow: 0.04em 0.04em 0 var(--color-accent);
 }
@@ -907,6 +909,7 @@ img[alt$="-lrg"] {
 }
 
 .nebula-content-row__title--featured a {
+    display: block;
     position: relative;
     text-shadow: 0.04em 0.04em 0 var(--color-accent);
 }
