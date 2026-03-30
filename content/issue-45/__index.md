@@ -1,28 +1,21 @@
 ---
-title: "Mythaxis Magazine Issue 44"
-date: 2025-12-24
+title: "Mythaxis Magazine Issue 45"
+date: 2026-04-01
 slug: index
 layout: section
-
 theme: nebula2026
+
 issue: Issue 45
 subhead: Spring 2026
-issueRoundel: MythaxisKnot
-
-colorScheme:
-  primary: "#28c53d"
-  secondary: "#5d1212"
-  accent: "#0a1628"
+scrollLineText: "Bloop!"
 
 editor: Andrew Leon Hudson
-image: images/Sanka_footsteps_sqr.jpg
-#image: ../../issue-43/images/synthwave_sml.jpg
-imageMobile: images/Sanka_footsteps_sml.jpg
-imageCopyright: "Did you hear stealthy footsteps on the stairs? by Fritz Siebel"
+image: images/monkeyking.jpg
+imageMobile: images/monkeyking_mob.jpg
+imageCopyright: "xxx by xxx"
 
-introPosition: center-left
+#introPosition: top-left
 # introPosition options: [top|center|bottom]-[left|center|right] or "center" (default)
-#scrollLineText: "Bloop!"
 
 ---
 
