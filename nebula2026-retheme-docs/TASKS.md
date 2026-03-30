@@ -332,11 +332,11 @@
   - [x] 36.2 Bundle 7 core scripts via `resources.Concat` + `minify` + `fingerprint` → `nebula2026.bundle.min.{hash}.js` (20.5 KB → 8.4 KB, 7 requests → 1)
   - [x] 36.3 Conditional scripts (audio-remote, submissions-status) piped individually with minify + fingerprint
 
-- [ ] **37.0** Hugo theme switch capability
-  - [ ] 37.1 Evaluate whether nebula2026 should be refactored into its own Hugo theme module
-  - [ ] 37.2 Research Hugo's theme inheritance / composition features
-  - [ ] 37.3 Assess effort to separate nebula2026 from the current monorepo structure
-  - [ ] 37.4 Document recommendation (refactor vs keep as-is)
+- [x] **37.0** Hugo theme switch capability — assessed, recommendation: **keep as-is**
+  - [x] 37.1 Evaluate module refactor — adds complexity with no functional benefit
+  - [x] 37.2 Research Hugo theme composition — no native per-section switching; custom dispatch is canonical
+  - [x] 37.3 Assess separation effort — possible but risky (asset paths, shared dispatch coupling)
+  - [x] 37.4 Document: `PLAN-theme-refactor-assessment.md`
 
 ### Submissions
 
