@@ -21,3 +21,6 @@
 {{ with .Page }}{{ if .Params.audio }}
 <script src="{{ "js/nebula2026/audio-remote.js" | relURL }}" defer></script>
 {{ end }}{{ end }}
+{{ with .Page }}{{ if eq .RelPermalink "/submissions.html" }}
+<script src="{{ "js/nebula2026/submissions-status.js" | relURL }}" defer></script>
+{{ end }}{{ end }}
