@@ -13,11 +13,8 @@ imageCopyright: "**ISSUE 44** – ***Thanks and Salutations.***
 
 'When you're lying in bed at night… tense… unable to sleep… your imagination can play hob with your senses. You *hear* things… *think* things… that would seem fantastic in the clear light of day. *In the clear light of day…*' Again, our all-crime cover image is from a 1948 ad for decaffeinated Sanka Coffee, painted by [Fritz Siebel](https://en.wikipedia.org/wiki/Fritz_Siebel), and using the questionably reliable strategy of linking the fear of home intruders with your urge to buy buy buy! Interestingly, sort of, [these ads also preserve for the historical record an evolution of the language](https://commons.wikimedia.org/wiki/File:Sanka_Coffee_-_Did_you_hear_stealthy_footsteps_on_the_stairs,_1948.jpg) – apparently 'caffeine' wasn't always spelled with an 'e' on the end…"
 
-type: editorial
+type: page
 slug: editorial
-weight: 7
-cardLayout: featured-left
-
 ---
 
 What did I say last time out? That it's time to wind down the editorialising in favour of the things that really matter, like enjoying great creative writing and maybe even doing a bit more of my own? Yeah, I think that about sums it up.

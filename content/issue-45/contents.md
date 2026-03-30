@@ -1,7 +1,7 @@
 ---
 title: "Table of Contents"
-date: 2025-12-24
-issue: Issue 44
+date: 2026-04-01
+issue: Issue 45
 
 description: 
 
@@ -9,11 +9,11 @@ type: page
 slug: contents
 ---
 
-- [The Witness]({{< relref path="the-witness.md" >}}), by Donald McCarthy
-- [Shooter]({{< relref path="shooter.md" >}}), by Mark H. Harris
-- [Twelve Gauge Tune-up]({{< relref path="twelve-gauge-tune-up.md" >}}), by Devin James Leonard
-- [Mad Gods & Englishmen]({{< relref path="mad-gods-and-englishmen.md" >}}), by Shamus Maxwell
-- [Smart Contract]({{< relref path="smart-contract.md" >}}), by Angus McIntyre
-- [The Valkyrie's Lesson]({{< relref path="the-valkyries-lesson.md" >}}), by Ayame
-- [Payment Deferred, by C. S. Forester]({{< relref path="payment-deferred-c-s-forester.md" >}}), reviewed by Bill Ryan
-- [Short Reviews – Crime Fiction in 2025]({{< relref path="ShortReviews12.md" >}}), by Andrew Leon Hudson
+- [The Agentic Necklace]({{< relref path="agentic-necklace.md" >}}), by Frank Baird Hughes
+- [On Miracles]({{< relref path="on-miracles.md" >}}), by P. W. Lewis
+- [The Perfect Mother]({{< relref path="perfect-mother.md" >}}), by Jude Clee
+- [The Negotiation]({{< relref path="negotiation.md" >}}), by Vanessa Fabiano
+- [Search History]({{< relref path="search-history.md" >}}), by Jon Clendaniel
+- [Pultu's Lesson]({{< relref path="pultus-lesson.md" >}}), by Sean Myers
+- [The Spear Cuts Through Water, by Simon Jimenez]({{< relref path="spear-cuts-jimenez.md" >}}), reviewed by Mattia Ravasi
+- [Short Reviews – October 2025 to January 2026]({{< relref path="ShortReviews13.md" >}}), by Andrew Leon Hudson
