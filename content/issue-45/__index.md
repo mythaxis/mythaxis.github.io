@@ -8,8 +8,8 @@ issue: Issue 45
 subhead: Spring 2026
 
 editor: Andrew Leon Hudson
-image: images/xxx.jpg
-imageMobile: images/xxx_sml.jpg
+image: images/monkeyking.jpg
+imageMobile: images/monkeyking_mob.jpg
 imageCopyright: "xxx by xxx"
 
 # https://flexboxsheet.com/
