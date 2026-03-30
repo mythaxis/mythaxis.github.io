@@ -16,6 +16,7 @@ imageCopyright: "**ISSUE 44** – ***Thanks and Salutations.***
 type: editorial
 weight: 1
 slug: editorial
+cardLayout: editorial-left
 ---
 
 What did I say last time out? That it's time to wind down the editorialising in favour of the things that really matter, like enjoying great creative writing and maybe even doing a bit more of my own? Yeah, I think that about sums it up.
