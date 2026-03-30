@@ -38,7 +38,7 @@ weight: 5
 - am I wasting my life
 - how to lead a more fulfilling life
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 08/16/2034
 
@@ -51,14 +51,14 @@ weight: 5
 - why is it still light outside
 - what is happening
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 08/17/2034
 
 - apocalypse playlist
 - chill songs for the apocalypse
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 08/18/2034
 
@@ -68,7 +68,7 @@ weight: 5
 - how long can beer last without refrigeration
 - why are there auroras in the sky
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 08/19/2034
 
@@ -80,7 +80,7 @@ weight: 5
 - how long does it take the power grid to recover after a superflare
 - Carrington Event
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 08/21/2034
 
@@ -91,13 +91,13 @@ weight: 5
 - Ceralinc underground servers
 - are underground servers affected by geomagnetic storm
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 08/22/2034
 
 - why do I keep losing at solitaire
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 08/27/2034
 
@@ -105,7 +105,7 @@ weight: 5
 - popup supply distribution centers
 - supply distribution center near me
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/01/2034
 
@@ -114,7 +114,7 @@ weight: 5
 - martial arts tutorials
 - how to learn martial arts by yourself quickly
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/04/2034
 
@@ -122,7 +122,7 @@ weight: 5
 - habeas corpus
 - what does it mean to suspend habeas corpus
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/16/2034
 
@@ -133,7 +133,7 @@ weight: 5
 - what happened to the military
 - why do people suck
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/18/2034
 
@@ -143,7 +143,7 @@ weight: 5
 - what to bring on a long hike
 - how long will 26 packets of ramen last
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/19/2034
 
@@ -152,13 +152,13 @@ weight: 5
 - how to light a fire without matches
 - how to keep a fire from going out
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/20/2034
 
 - Ceralinc chip users near me
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/22/2034
 
@@ -170,7 +170,7 @@ weight: 5
 - insulation materials
 - insulation materials you can find in the woods
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/28/2034
 
@@ -178,7 +178,7 @@ weight: 5
 - best animals to hunt for food
 - how to kill an animal without a gun
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/30/2034
 
@@ -187,7 +187,7 @@ weight: 5
 - can you eat an animal without gutting it
 - non-meat protein sources in the wild
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 10/06/2034
 
@@ -198,7 +198,7 @@ weight: 5
 - campfire stories that don’t involve death or monsters
 - guide to constellations
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 10/15/2034
 
@@ -206,21 +206,21 @@ weight: 5
 - things you can do by yourself
 - how to disable Ceralinc safe search blocking
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 10/19/2034
 
 - is it bad to talk to yourself
 - mental breakdown warning signs
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 10/21/2034
 
 - Ceralinc chip users near me
 - is this the end for me
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 10/26/2034
 
@@ -228,7 +228,7 @@ weight: 5
 - is there anyone out there please help me I’m not violent like those other people I just want someone to talk to is there a person or computer or bot reading these searches I can’t last out here by mys
 - how to extend Ceralinc search entry character limit
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 10/29/2034
 
@@ -238,7 +238,7 @@ weight: 5
 - how to deactivate user agreement violation warnings
 - why is suicide a violation of the user agreement
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 10/30/2034
 
@@ -247,7 +247,7 @@ weight: 5
 - cognitive behavioral therapy
 - mindfulness
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 10/31/2034
 
@@ -256,7 +256,7 @@ weight: 5
 - best mantra
 - can I make up my own mantra
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 11/02/2034
 
@@ -266,7 +266,7 @@ weight: 5
 - can you manifest happiness
 - can you manifest food
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 11/03/2034
 
@@ -274,14 +274,14 @@ weight: 5
 - full lotus
 - can you do full lotus pose without injuring yourself
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 11/04/2034
 
 - hernia symptoms
 - hernia treatment
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 02/03/2035
 
@@ -289,7 +289,7 @@ weight: 5
 - how to deactivate automated Ceralinc 90 day inactivity penalty warning
 - how can Ceralinc fine me if the global banking system has collapsed
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 02/22/2035
 
@@ -300,13 +300,13 @@ weight: 5
 - is a woman hunting a red flag
 - small talk about hunting
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 02/23/2035
 
 - Ceralinc chip users near me
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 02/24/2035
 
@@ -315,13 +315,13 @@ weight: 5
 - how to not be patronizing
 - how to know when to shut up
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 02/25/2035
 
 - how to be useful to women
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 03/11/2035
 
@@ -329,7 +329,7 @@ weight: 5
 - relationship advice
 - how to ask a woman out
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 03/13/2035
 
@@ -339,7 +339,7 @@ weight: 5
 - fun things to do with a woman in the woods
 - how to re-enable Ceralinc safe search
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 04/14/2035
 
@@ -348,19 +348,19 @@ weight: 5
 - prettiest wildflowers for garden
 - how to make a cabin pretty
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 05/07/2035
 
 - how to carve wedding rings out of wood
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 05/09/2035
 
 - marriage vows
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 06/05/2035
 
@@ -368,14 +368,14 @@ weight: 5
 - how to save an image from ocular implant
 - save image 00054314
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 06/30/2035
 
 - how to make friends as a married couple
 - how to make friends when you live in the woods
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 07/01/2035
 
@@ -384,7 +384,7 @@ weight: 5
 - Ceralinc chip users near me apart from user 51874932753
 - map search: directions from current location to 41.845496, -123.981777; mode of travel: walking
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 07/03/2035
 
@@ -393,13 +393,13 @@ weight: 5
 - lawn games
 - Cosmic Bocce with real people
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 07/05/2035
 
 - communal living tips
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 07/17/2035
 
@@ -408,19 +408,19 @@ weight: 5
 - how to make government less shitty than before
 - how to rebuild society
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 08/16/35
 
 - family planning
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/17/2035
 
 - why does my head hurt
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/18/2035
 
@@ -438,14 +438,14 @@ weight: 5
 - Ceralinc chip backup energy source
 - why is my brain an energy source
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/19/2035
 
 - is everyone’s chip malfunctioning
 - how to relieve pain from Ceralinc chip malfunction
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/20/2035
 
@@ -454,7 +454,7 @@ weight: 5
 - review Ceralinc user agreement
 - why did people agree to this
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/21/2035
 
@@ -462,7 +462,7 @@ weight: 5
 - why are people saying random things
 - will I start saying random things
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/23/2035
 
@@ -470,7 +470,7 @@ weight: 5
 - what happens after death
 - will I see a light
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/24/2035
 
@@ -478,7 +478,7 @@ weight: 5
 - I see green
 - sea of green
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/25/2035
 
@@ -486,7 +486,7 @@ weight: 5
 - locate Ceralinc user 51874932753
 - how to find chip not detected
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/26/2035
 
@@ -494,7 +494,7 @@ weight: 5
 - will the screaming stop
 - aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/27/2035
 
@@ -502,31 +502,29 @@ weight: 5
 - I want to see my wife
 - access image 00054314
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/28/2035
 
 - access image 00054314
 - access image 00054314
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/29/2035
 
 - abscess image 05bu24814
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 09/30/2035
 
 - a c nq ha ad a e l p
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
 #### 12/30/2035
 
 ##### // Ceralinc Adminbot -crawlhist -dataupload -batterydisconnect -wipelocal //
-
-![Orbit-lrg](images/Orbit.svg)
 
 *Thanks for reading - but we'd love feedback! Let us know what you think of **Search History** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

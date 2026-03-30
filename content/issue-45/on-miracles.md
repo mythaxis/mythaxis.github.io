@@ -21,7 +21,7 @@ slug: on-miracles
 weight: 2
 ---
 
-{{<glyph>}}T{{</glyph>}}*here’s a church in this city, no, it’s not a church, it’s a huge basilica, where you can queue, along with many other people, to see an image. At the end of the wait, you step onto a short travelator that slowly carries the conveyor belt of viewers past the vision they have all come to see.*
+*There’s a church in this city, no, it’s not a church, it’s a huge basilica, where you can queue, along with many other people, to see an image. At the end of the wait, you step onto a short travelator that slowly carries the conveyor belt of viewers past the vision they have all come to see.*
 
 *This is a clever idea for more than one reason. First, it keeps the flow of traffic moving: no one can dally in front of the figure. Second, it allows each person the same amount of time to look at the icon: it is an egalitarian device. Third, and perhaps most importantly, each person has only a few seconds in which to study the shroud in detail: blink and it’s gone.*
 
@@ -30,10 +30,9 @@ weight: 2
 *But, on further consideration, you might wonder what your mother would say to such questions. She doesn’t ask why. She doesn’t ask how. She simply chooses to believe.*
 
 
+---
 
-![Orbit-sml ><](images/Orbit.svg)
-
-{{<glyph>}}"I{{</glyph>}} seem to have been bitten,” says Luisa.
+"I seem to have been bitten,” says Luisa.
 
 Her voice wakes him, and it takes Rob a moment to realise why she is there. They are looking at each other in the reflection of a mirror, a mirror that runs full length from ceiling to floor on the closet door. She pulls the neck of her t-shirt down to show him. There is a row of small red marks along her left shoulder. 
 
@@ -55,9 +54,9 @@ She slides back into the bed.
 
 “Typical,” she says. 
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}H{{</glyph>}}e only mentioned it in passing but now here they are together in Mexico City. Rob had been invited to attend a translator’s conference, an idea he dismissed immediately. There were plenty of other events he might go to closer to Madrid. One in Barcelona would be ideal so he could spend more time with Luisa. If she wanted him to, that is. In the four years since they met, he has flitted to-and-fro between their two cities. He, wondering if this was to be his existence for the rest of his life. She, seemingly perfectly happy, wanting nothing more.
+He only mentioned it in passing but now here they are together in Mexico City. Rob had been invited to attend a translator’s conference, an idea he dismissed immediately. There were plenty of other events he might go to closer to Madrid. One in Barcelona would be ideal so he could spend more time with Luisa. If she wanted him to, that is. In the four years since they met, he has flitted to-and-fro between their two cities. He, wondering if this was to be his existence for the rest of his life. She, seemingly perfectly happy, wanting nothing more.
 
 “I’d love to go there,” she’d said.
 
@@ -67,9 +66,9 @@ She didn’t quite come with him, but that was fine. She timed her arrival to co
 
 She has a specific reason. She’s always wanted to see the Blue House.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}I{{</glyph>}}t has a connection to how they met, she tells him. Rob was on a travel writing commission for the *Observer* newspaper. His colleague suggested a drink after work one evening. Cesc had arranged to meet some friends at a local bar, a few minutes from their office on Diagonal. In walked two couples and behind them Luisa.
+It has a connection to how they met, she tells him. Rob was on a travel writing commission for the *Observer* newspaper. His colleague suggested a drink after work one evening. Cesc had arranged to meet some friends at a local bar, a few minutes from their office on Diagonal. In walked two couples and behind them Luisa.
 
 Hair cropped. Peroxide blonde. Flawless skull. She looked striking. She still does. At forty-nine she could easily pass for ten years younger, maybe more. Rob was trying to find a new angle for his articles, something different, something unique. He was thinking about sites and fiction connected to the civil war, but knew next to nothing about it. Nothing beyond Orwell and Hemingway. When Cesc introduced Luisa as “our very own professor of Spanish literature” Rob thought his luck might be in.
 
@@ -101,17 +100,17 @@ Luisa laughs. Rob always likes to see her laugh, throat extended, even when he k
 
 “There’s a reason why Frida and Marina were lovers of famous men,” she says. “And it has nothing to do with the men.”
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}W{{</glyph>}}*hile at the Blue House, you can see a painting called* El marxismo dará salud*,* “Marxism gives health”*. It’s one of Frida’s self-portraits. One she painted for Trotsky. Her body is encased in an armour-like corset that shows the outline of her breasts. It is edged with red stitches that run up the centre of her torso. You might mistake them for small bites. In her left hand, she grips a book. The book is also red. As the crippled Frida casts away her crutches, her outstretched arms could be about to form the shape of a cross, while she is cradled by the hands of Marx. It’s a communist miracle.*
+W*hile at the Blue House, you can see a painting called* El marxismo dará salud*,* “Marxism gives health”*. It’s one of Frida’s self-portraits. One she painted for Trotsky. Her body is encased in an armour-like corset that shows the outline of her breasts. It is edged with red stitches that run up the centre of her torso. You might mistake them for small bites. In her left hand, she grips a book. The book is also red. As the crippled Frida casts away her crutches, her outstretched arms could be about to form the shape of a cross, while she is cradled by the hands of Marx. It’s a communist miracle.*
 
 *While at the Blue House, you can look at the display of* retablos*. Some of these altarpieces show a depiction of the Virgin of Guadalupe. An image that mysteriously appeared on a peasant’s cloak in the middle ages. An image that can still be seen at the basilica named after her in Mexico City. The impression incorporates representations of the sun and the moon, symbolism from the indigenous Aztec culture. It’s a Christian miracle.*
 
 *When you have left the Blue House, you might ask yourself why one tradition incorporates another. Why they feel the need to do this. Why they don’t have the courage of their own convictions.*
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}T{{</glyph>}}he next morning, Luisa wakes with more bites: an identical row of marks on her other shoulder.
+The next morning, Luisa wakes with more bites: an identical row of marks on her other shoulder.
 
 “At least they’re symmetrical,” says Rob.
 
@@ -161,9 +160,9 @@ She laughs.
 
 “Okay,” she says. “I’m always up for a miracle.”
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}T{{</glyph>}}he gift shop at the basilica is crowded. Rob is amazed at the clamour for the artefacts on sale. Beads, medallions, necklaces, bracelets, postcards, books, pictures. You name it. All with a likeness of the image they have just seen. An *Our Lady of Guadalupe* multiverse.
+The gift shop at the basilica is crowded. Rob is amazed at the clamour for the artefacts on sale. Beads, medallions, necklaces, bracelets, postcards, books, pictures. You name it. All with a likeness of the image they have just seen. An *Our Lady of Guadalupe* multiverse.
 
 “Are you going to buy something?” he asks Luisa, wondering why they are in there.
 
@@ -189,17 +188,17 @@ Luisa shrugs again. “No bites, no water,” she says.
 
 “I must be very blessed,” is all she says in reply.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}I{{</glyph>}}*nsects are significant in Mexican culture, ancient and modern. For indigenous peoples, their arrival and departure can mark a change in season, like the chicatana ants, whose exit announces the coming of the rains. Then there is the maguey worm, considered a symbol of fertility and also found in bottles of mezcal. In Kahlo’s self-portrait,* Autorretrato con Bonito*, bugs can be seen amongst the leaves in the background. Insects are a part of life. They also sustain life. They are edible.*
+I*nsects are significant in Mexican culture, ancient and modern. For indigenous peoples, their arrival and departure can mark a change in season, like the chicatana ants, whose exit announces the coming of the rains. Then there is the maguey worm, considered a symbol of fertility and also found in bottles of mezcal. In Kahlo’s self-portrait,* Autorretrato con Bonito*, bugs can be seen amongst the leaves in the background. Insects are a part of life. They also sustain life. They are edible.*
 
 *If you go to one of the markets in Mexico City you are sure to find vendors selling street food.* Chapulines *– grasshoppers toasted and marinated – are plentiful, making them a cheap and popular crunchy snack. Other insects have gone up-market, seasonality giving them a rarity value, which increases price and puts them on the menus of high-end restaurants. One such bug is the jumil.*
 
 *In the Mixtec region, November 1st is an important date. It marks when the jumil bugs are ready to be collected. A fiesta is held to celebrate the event. There is a fiesta in Mexico City at the start of November as well, one of the most important of the year –* Dia de los Muertos, *the Day of the Dead. In the Christian calendar, it spans All Saints’ and All Souls’ Days. That this coincides with the start of jumil season can only be a matter of chance. Surely. But then, some may consider an insect found only in epiphytic bromeliads – plants that grow on trees without damaging their hosts – an insect that can be eaten alive, an insect that has a spicy taste, like a mix of cinnamon and mint, to be something of a miracle. An insect miracle.*
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}O{{</glyph>}}ver the next two nights, the bugs complete their artwork on Luisa’s body. On her third morning, she wakes with a line of bites running down the length of her breastbone and onwards to her belly button. It reminds Rob of the stitching on Frida’s corset in the painting they saw at the house. He notices Luisa now looks at her marks differently. As if they give her a sense of pride. Like she is a martyr to their itchiness, her very own hairshirt. On the final morning, fresh bites run up along the ridge of her nose and onto her forehead. Once again, Rob wakes to find her studying herself in the mirror.
+Over the next two nights, the bugs complete their artwork on Luisa’s body. On her third morning, she wakes with a line of bites running down the length of her breastbone and onwards to her belly button. It reminds Rob of the stitching on Frida’s corset in the painting they saw at the house. He notices Luisa now looks at her marks differently. As if they give her a sense of pride. Like she is a martyr to their itchiness, her very own hairshirt. On the final morning, fresh bites run up along the ridge of her nose and onto her forehead. Once again, Rob wakes to find her studying herself in the mirror.
 
 “Look at what they have done,” she says, turning around. She is smiling broadly.
 
@@ -230,7 +229,5 @@ He thinks she looks like a work of art, a painting.
 “How can you?”
 
 “Just believe, Rob,” says Luisa. “Just believe.”
-
-![Orbit-lrg](images/Orbit.svg)
 
 *Thanks for reading - but we'd love feedback! Let us know what you think of **On Miracles** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

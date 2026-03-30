@@ -249,7 +249,7 @@ img[alt$="-lrg"] {
         rgba(15, 15, 35, 0.4) 0%,
         transparent 40%,
         transparent 75%,
-        rgba(255, 255, 255, 1) 100%
+        var(--color-accent) 100%
     );
     z-index: 2;
 }
@@ -2397,10 +2397,8 @@ html:has(.nebula2026-story-single) {
 }
 
 .story-end--listings .story-end__copyright {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    position: relative;
+    z-index: 1;
 }
 
 /* Author Footer

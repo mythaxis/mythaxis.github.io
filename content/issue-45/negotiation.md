@@ -21,7 +21,7 @@ slug: the-negotiation
 weight: 4
 ---
 
-{{<glyph>}}I{{</glyph>}} saw it happen with my eyes open.
+I saw it happen with my eyes open.
 
 The windshield shattered, a woman cupped your head, the gasoline bleeding from the wounded car. They strapped you into an ambulance, hooked you up to a tangle of clear tubing. I let Frank take the call when it came, hours later, let him book the first flight out.
 
@@ -41,9 +41,9 @@ I sensed it right away, I was asking for something illicit. The officer, short, 
 
 I am absolutely sure of this, but when I told Frank he insisted I was wrong, I had misheard. The officer, he said, had merely said: “It’s dreadful.”
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}F{{</glyph>}}rank lacked even a shred of superstition, but I married him anyway, over my family’s objections, proud of how unsuitable they thought him. Frank was light to my family’s crypt, reason to their paranoia, sanity to their sickness. I was smitten with Frank.
+Frank lacked even a shred of superstition, but I married him anyway, over my family’s objections, proud of how unsuitable they thought him. Frank was light to my family’s crypt, reason to their paranoia, sanity to their sickness. I was smitten with Frank.
 
 A man of cool manners, but with sufficient reserves of feeling to appreciate beauty, to marry, to produce offspring. He closed bathroom doors, knocked before entering, shared what was necessary, but never more, mindful of emotional waste. You and I, we admired him. In the beginning, Frank’s spartan ways had soothed me. I had stepped from the loud, crowded market of my family into an empty, sunlit room. I made myself at home, and Frank accepted my presence.
 
@@ -57,9 +57,9 @@ Now, deprived of you, I went numb. Cauterized.
 
 But Frank seamlessly strung together a thousand explanations, all reasonable, all building up to the latent accusation that I had pushed you to do this, that if you had fled an ocean away and kept secrets, it was to escape the burden of being my son.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}W{{</glyph>}}e met her at the museum, a former monastery studded with ancient, barred windows. You had worked here, in this severe building, its main gate a short walk from the scene of the accident. In the foyer hung a glistening painting, two infants with wizened faces, one naked and holding a snake-draped staff, his tiny foot propped on a human skull. Two fingers raised in a blessing.
+We met her at the museum, a former monastery studded with ancient, barred windows. You had worked here, in this severe building, its main gate a short walk from the scene of the accident. In the foyer hung a glistening painting, two infants with wizened faces, one naked and holding a snake-draped staff, his tiny foot propped on a human skull. Two fingers raised in a blessing.
 
 “Christ triumphing over death and sin,” a female voice announced, and then she appeared in the shaft of light bisecting the lobby. Her hair and dress shone a tarry black, her skin gleamed chalk-white. The dress drew my eyes, made of delicate scales, from which a faint, ceaseless rustle emanated. A strip of cream fabric adorned the short puff sleeves, and on the hem of the skirt large blue dots stared out like unblinking eyes.
 
@@ -93,9 +93,9 @@ Out on the sidewalk, I inhaled the daylight while the furious needles eased thei
 
 After which he felt he had done his duty, had earned the right to shelve the subject.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}M{{</glyph>}}y family despised Frank. They saw themselves as spiritual vessels, and they saw Frank as the static scrambling their message. They were specialists too, but their expertise was in things unexplained, omens, miracles, faith.
+My family despised Frank. They saw themselves as spiritual vessels, and they saw Frank as the static scrambling their message. They were specialists too, but their expertise was in things unexplained, omens, miracles, faith.
 
 He is offering a deal, they whispered.
 
@@ -109,9 +109,9 @@ This is what I did as a child, when they left me alone in our railroad apartment
 
 “Nonsense,” Frank said. “He is just afraid of the dark. All children are.”
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}W{{</glyph>}}e retreated to our hotel room, all accent-lighted beige tones. Frank took out his equipment, the box of dead butterflies, and set to doctoring a new specimen, inspecting its thorax before puncturing it with a pin. I lay still on the double bed, studying him. The strong back, the face glazed with concentration. This ability he had of compartmentalizing pain. His absorption vexed me. I felt a brutal urge to shatter it, because it excluded me. It excluded you.
+We retreated to our hotel room, all accent-lighted beige tones. Frank took out his equipment, the box of dead butterflies, and set to doctoring a new specimen, inspecting its thorax before puncturing it with a pin. I lay still on the double bed, studying him. The strong back, the face glazed with concentration. This ability he had of compartmentalizing pain. His absorption vexed me. I felt a brutal urge to shatter it, because it excluded me. It excluded you.
 
 “Why did she say that,” I said, sitting up. *“**He brings things back to life?**”*
 
@@ -145,9 +145,9 @@ I stared at the wings. I felt a kick, the sharp heel of my heartbeat. I knew wha
 
 My neck tingled. I sensed an alien presence biding its time, waiting to approach. I stared hard at the room, at Frank expelling air. My heart clanging, I moved furtively, as if under observation. I didn’t wake Frank, instead I dressed hurriedly, pocketed whatever bills lay on the table, and slipped out.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}T{{</glyph>}}he late afternoon was drenched in sunlight, a last show of summer. I walked down the traffic-jammed avenue and entered the park. There were very few people at this hour, on a meadow nearby shrieking children raced each other. I averted my eyes and headed in the opposite direction.
+The late afternoon was drenched in sunlight, a last show of summer. I walked down the traffic-jammed avenue and entered the park. There were very few people at this hour, on a meadow nearby shrieking children raced each other. I averted my eyes and headed in the opposite direction.
 
 I walked through the park far longer than I intended, always toward what I had assumed was the other side of town, wading in deeper instead. This section had something reclusive to it, the green bitter, the light ashen. I hadn’t spoken to anyone in my family in almost two decades, yet I felt they were slowly gathering in the luminous air around me, cheering me on, my dead grandmother, my mother, my uncle.
 
@@ -209,9 +209,9 @@ A polite pause.
 
 There was a delay before I understood. I tried to imagine what Frank would have done. *Nonsense*, he would have said and walked away. I stole a glance at my gnarled family. They sat proud and eager, a wool-clad black triptych, itching for a funeral. I thought of Frank’s breathing as he slept in our hotel room. How repulsed he would be to see me here. How astonished he would be to die.
 
-![Orbit-sml ><](images/Orbit.svg)
+---
 
-{{<glyph>}}I{{</glyph>}}t was dark when I returned to the hotel.
+It was dark when I returned to the hotel.
 
 You were waiting in the lobby, unscarred. My heart jumped at the sight of you.
 
@@ -234,7 +234,5 @@ You pulled away, annoyed, brushed off my touch from your shirt like dirt.
 You looked back at me then, a familiar air on your face.
 
 “Nonsense,” you said.
-
-![Orbit-lrg](images/Orbit.svg)
 
 *Thanks for reading - but we'd love feedback! Let us know what you think of **The Negotiation** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*
