@@ -327,10 +327,10 @@
   - [ ] 35.2 Add `srcset` / responsive images to hero and card templates
   - [ ] 35.3 Implement automatic image compression in build pipeline
 
-- [ ] **36.0** Hugo Pipes — combine JavaScript into single bundle
-  - [ ] 36.1 Research Hugo's `js.Build` / `resources.Concat` for JS bundling
-  - [ ] 36.2 Combine individual nebula2026 JS files into one minified bundle
-  - [ ] 36.3 Maintain conditional loading for optional scripts (e.g. audio-remote)
+- [x] **36.0** Hugo Pipes — combine JavaScript into single bundle
+  - [x] 36.1 Move 9 JS files from `static/js/nebula2026/` to `assets/js/nebula2026/`
+  - [x] 36.2 Bundle 7 core scripts via `resources.Concat` + `minify` + `fingerprint` → `nebula2026.bundle.min.{hash}.js` (20.5 KB → 8.4 KB, 7 requests → 1)
+  - [x] 36.3 Conditional scripts (audio-remote, submissions-status) piped individually with minify + fingerprint
 
 - [ ] **37.0** Hugo theme switch capability
   - [ ] 37.1 Evaluate whether nebula2026 should be refactored into its own Hugo theme module
