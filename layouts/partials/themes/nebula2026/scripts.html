@@ -1,7 +1,9 @@
 {{/*
   Nebula2026 Theme - Scripts Partial
   ==================================
-  Loads theme-specific JavaScript for interactive features.
+  Bundles theme JavaScript via Hugo Pipes (concat + minify).
+  Conditional scripts (audio-remote, submissions-status) are
+  piped separately so they only load on relevant pages.
 
   Expects context from theme-dispatch:
     .Page    - The current page context
@@ -10,17 +12,27 @@
     .Data    - Any extra data passed
 */}}
 
-<!-- Nebula2026 Scripts -->
-<script src="{{ "js/nebula2026/chapter-markers.js" | relURL }}" defer></script>
-<script src="{{ "js/nebula2026/roundel-animations.js" | relURL }}" defer></script>
-<script src="{{ "js/nebula2026/reading-progress.js" | relURL }}" defer></script>
-<script src="{{ "js/nebula2026/parallax-hero.js" | relURL }}" defer></script>
-<script src="{{ "js/nebula2026/nebula-nav.js" | relURL }}" defer></script>
-<script src="{{ "js/nebula2026/frontpage-nav.js" | relURL }}" defer></script>
-<script src="{{ "js/nebula2026/story-hero-nav.js" | relURL }}" defer></script>
-{{ with .Page }}{{ if .Params.audio }}
-<script src="{{ "js/nebula2026/audio-remote.js" | relURL }}" defer></script>
-{{ end }}{{ end }}
-{{ with .Page }}{{ if eq .RelPermalink "/submissions.html" }}
-<script src="{{ "js/nebula2026/submissions-status.js" | relURL }}" defer></script>
-{{ end }}{{ end }}
+<!-- Nebula2026 Scripts (bundled) -->
+{{- $chapterMarkers   := resources.Get "js/nebula2026/chapter-markers.js" -}}
+{{- $roundelAnims     := resources.Get "js/nebula2026/roundel-animations.js" -}}
+{{- $readingProgress  := resources.Get "js/nebula2026/reading-progress.js" -}}
+{{- $parallaxHero     := resources.Get "js/nebula2026/parallax-hero.js" -}}
+{{- $nebulaNav        := resources.Get "js/nebula2026/nebula-nav.js" -}}
+{{- $frontpageNav     := resources.Get "js/nebula2026/frontpage-nav.js" -}}
+{{- $storyHeroNav     := resources.Get "js/nebula2026/story-hero-nav.js" -}}
+{{- $bundle := slice $chapterMarkers $roundelAnims $readingProgress $parallaxHero $nebulaNav $frontpageNav $storyHeroNav | resources.Concat "js/nebula2026.bundle.js" | minify | fingerprint -}}
+<script src="{{ $bundle.RelPermalink }}" defer></script>
+
+{{- with .Page -}}
+  {{- if .Params.audio -}}
+    {{- $audio := resources.Get "js/nebula2026/audio-remote.js" | minify | fingerprint -}}
+    <script src="{{ $audio.RelPermalink }}" defer></script>
+  {{- end -}}
+{{- end -}}
+
+{{- with .Page -}}
+  {{- if eq .RelPermalink "/submissions.html" -}}
+    {{- $subs := resources.Get "js/nebula2026/submissions-status.js" | minify | fingerprint -}}
+    <script src="{{ $subs.RelPermalink }}" defer></script>
+  {{- end -}}
+{{- end -}}
