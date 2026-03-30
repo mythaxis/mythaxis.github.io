@@ -17,6 +17,11 @@ imageCopyright: "The image shows author [C. S. Forester](https://en.wikipedia.or
 type: stock
 slug: the-spear-cuts-through-waterd-simon-jimenez
 weight: 7
+
+cardLayout: stock-right
+# chapterMarker: MythaxisTarget  # roundel name for chapter breaks
+
+
 ---
 
 {{<glyph>}}T{{</glyph>}}here’s something almost unfair in the number of feats that Simon Jimenez’s *The Spear Cuts Through* manages to pull off. It is a lush, vivid fantasy that rarely seems to spend any time at all digressing into world-building or lyrical descriptions. It is a rewarding tale of love and tenderness that makes few concessions to romanticism, and is in fact painfully aware that the demands of everyday life leave most of us precious little time for pining. It is a work of art of remarkable complexity, a *story* about a *dream* about a *dance* abound a *legend*, arguably impossible to fit at once in the mind’s grasp yet evolving on the page in the most natural of ways.
