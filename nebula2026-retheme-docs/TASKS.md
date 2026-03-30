@@ -323,9 +323,11 @@
 ### Hugo Optimisation
 
 - [ ] **35.0** Hugo Pipes — image compression
-  - [ ] 35.1 Research Hugo Pipes image processing (resize, compress, WebP/AVIF)
-  - [ ] 35.2 Add `srcset` / responsive images to hero and card templates
-  - [ ] 35.3 Implement automatic image compression in build pipeline
+  - [x] 35.1 Research Hugo Pipes image processing — plan complete, see `PLAN-image-compression.md`
+  - [ ] 35.2 Move content images to `assets/` for Hugo Pipes access (key constraint: `__index.md` prevents `.Resources`)
+  - [ ] 35.3 Create `responsive-image.html` partial (WebP + srcset + fallback)
+  - [ ] 35.4 Update ~15 templates to use responsive-image partial
+  - [ ] 35.5 Verify: WebP served, responsive sizing, horizon2020 unaffected, inline SVGs intact
 
 - [x] **36.0** Hugo Pipes — combine JavaScript into single bundle
   - [x] 36.1 Move 9 JS files from `static/js/nebula2026/` to `assets/js/nebula2026/`
@@ -402,4 +404,4 @@
   - [ ] F3.3 Could be a wrapper UI over existing catalogue data
   - [ ] F3.4 Unique web feature — worth prototyping as a standalone experiment
 
-> *"The mythaxis tinder grinder, swipe right for story love"* — Andrew, 2am
+> *"The mythaxis tinder grinder, swipe right for story love"* — Marty
