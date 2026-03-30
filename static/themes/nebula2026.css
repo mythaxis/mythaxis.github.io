@@ -47,7 +47,7 @@
 }
 
 /* Basalte Display Font — Degheest Family (Velvetyne Type Foundry)
-   Three variants: Fond (base), Multicolor (striped), Volume (3D)
+   Two variants: Fond (base letterform), Volume (depth/embossed strokes)
    ========================================================================== */
 
 @font-face {
@@ -59,8 +59,8 @@
 }
 
 @font-face {
-    font-family: 'Basalte Multicolor';
-    src: url('../assets/fonts/nebula2026/Basalte-Multicolor.woff2') format('woff2');
+    font-family: 'Basalte Volume';
+    src: url('../assets/fonts/nebula2026/Basalte-Volume.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -74,6 +74,7 @@
     /* Colors */
     --color-primary: #1a2b4c;
     --color-secondary: #4a6d8c;
+    --color-accent: #0a1628;
     --color-text: #333333;
     --color-text-light: #666666;
     --color-text-muted: #999999;
@@ -248,7 +249,7 @@ img[alt$="-lrg"] {
         rgba(15, 15, 35, 0.4) 0%,
         transparent 40%,
         transparent 75%,
-        rgba(255, 255, 255, 1) 100%
+        var(--color-accent) 100%
     );
     z-index: 2;
 }
@@ -314,21 +315,23 @@ img[alt$="-lrg"] {
     margin: 0 0 0.5rem;
 }
 
-/* Chromatic layering on logotype text spans */
+/* Chromatic layering: Fond (base) + text-shadow (accent) + Volume overlay (secondary) */
 .nebula-title__myth,
 .nebula-title__axis {
     position: relative;
+    text-shadow: 0.06em 0.06em 0 var(--color-accent);
 }
 
 .nebula-title__myth::after,
 .nebula-title__axis::after {
     content: attr(data-text);
-    font-family: 'Basalte Multicolor', var(--font-secondary);
+    font-family: 'Basalte Volume', var(--font-secondary);
     color: var(--color-secondary);
     position: absolute;
     left: 0;
     top: 0;
     pointer-events: none;
+    text-shadow: none;
 }
 
 .nebula-title__link {
@@ -345,11 +348,11 @@ img[alt$="-lrg"] {
 }
 
 .nebula-title__link:hover {
-    opacity: 0.85;
+    filter: brightness(0.85);
 }
 
 .nebula-title__link:active {
-    opacity: 0.7;
+    filter: brightness(0.7);
 }
 
 .nebula-title__roundel {
@@ -357,19 +360,42 @@ img[alt$="-lrg"] {
     width: 1.5em;
     height: 1.5em;
     margin: 0 0.05em;
-    background: currentColor;
+    position: relative;
+    vertical-align: middle;
+}
+
+.nebula-title__roundel::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: var(--color-secondary);
+    box-shadow: 0.06em 0.06em 0 var(--color-accent);
+}
+
+.nebula-title__roundel::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--color-primary);
     -webkit-mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
     mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
 }
 
 .nebula-subtitle {
-    display: block;
+    display: inline-block;
+    width: fit-content;
     order: -1;
     font-size: clamp(1.5rem, 2.5vw + 0.5rem, 1.75rem);
     color: rgba(255, 255, 255, 0.9);
     font-weight: 300;
     margin-bottom: 0.25rem;
     text-decoration: none;
+    padding: 0.15em 0.6em;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }
 
 .nebula-subtitle:hover {
@@ -716,18 +742,21 @@ img[alt$="-lrg"] {
 .nebula-split-lead__title a {
     color: var(--color-primary);
     text-decoration: none;
+    display: block;
     position: relative;
+    text-shadow: 0.06em 0.06em 0 var(--color-accent);
 }
 
-/* Chromatic layering: Basalte Multicolor over Fond for two-colour effect */
+/* Chromatic layering: Fond (base) + text-shadow (accent) + Volume overlay (secondary) */
 .nebula-split-lead__title a::after {
     content: attr(data-text);
-    font-family: 'Basalte Multicolor', var(--font-secondary);
+    font-family: 'Basalte Volume', var(--font-secondary);
     color: var(--color-secondary);
     position: absolute;
     left: 0;
     top: 0;
     pointer-events: none;
+    text-shadow: none;
 }
 
 .nebula-split-lead__title a:hover {
@@ -855,6 +884,21 @@ img[alt$="-lrg"] {
 .nebula-content-row__title a {
     color: var(--color-primary);
     text-decoration: none;
+    display: block;
+    position: relative;
+    text-shadow: 0.06em 0.06em 0 var(--color-accent);
+}
+
+/* Chromatic layering: Fond (base) + text-shadow (accent) + Volume overlay (secondary) */
+.nebula-content-row__title a::after {
+    content: attr(data-text);
+    font-family: 'Basalte Volume', var(--font-secondary);
+    color: var(--color-secondary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    text-shadow: none;
 }
 
 .nebula-content-row__title a:hover {
@@ -888,18 +932,21 @@ img[alt$="-lrg"] {
 }
 
 .nebula-content-row__title--featured a {
+    display: block;
     position: relative;
+    text-shadow: 0.06em 0.06em 0 var(--color-accent);
 }
 
-/* Chromatic layering: Basalte Multicolor over Fond for two-colour effect */
+/* Chromatic layering: Fond (base) + text-shadow (accent) + Volume overlay (secondary) */
 .nebula-content-row__title--featured a::after {
     content: attr(data-text);
-    font-family: 'Basalte Multicolor', var(--font-secondary);
+    font-family: 'Basalte Volume', var(--font-secondary);
     color: var(--color-secondary);
     position: absolute;
     left: 0;
     top: 0;
     pointer-events: none;
+    text-shadow: none;
 }
 
 /* Featured authors: uppercase, non-italic (template places them before title) */
@@ -1517,8 +1564,6 @@ img[alt$="-lrg"] {
         order: 2;
         width: 1.5em;
         height: 1.5em;
-        -webkit-mask-position: center;
-        mask-position: center;
     }
     .nebula-title__axis {
         order: 3;
@@ -1727,7 +1772,8 @@ img[alt$="-lrg"] {
     .nebula-title__myth::after,
     .nebula-title__axis::after,
     .nebula-split-lead__title a::after,
-    .nebula-content-row__title--featured a::after {
+    .nebula-content-row__title--featured a::after,
+    .nebula-content-row__title a::after {
         display: none !important;
     }
 
@@ -1853,7 +1899,11 @@ img[alt$="-lrg"] {
     }
 
     /* Mask-based roundels: force black */
-    .nebula-title__roundel,
+    .nebula-title__roundel::before {
+        background: #999 !important;
+        box-shadow: none !important;
+    }
+    .nebula-title__roundel::after,
     .nebula-header__logo-roundel,
     .nebula-nav-panel__logotype-roundel {
         background: #000 !important;
@@ -2347,10 +2397,8 @@ html:has(.nebula2026-story-single) {
 }
 
 .story-end--listings .story-end__copyright {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    position: relative;
+    z-index: 1;
 }
 
 /* Author Footer

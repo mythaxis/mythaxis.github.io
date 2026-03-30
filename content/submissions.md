@@ -11,7 +11,7 @@ slug: submissions
 
 We are open to submissions within the following periods:
 
-- **January 23rd-30th**
+- January 23rd-30th
 - April 23rd-30th
 - July 23rd-30th
 - October 23rd-30th

@@ -1,146 +1,145 @@
-# Nebula2026 Design Critique
+# Nebula2026 Design Critique (Third Pass)
 
-> Second-pass critique, 2026-03-22. Evaluating the theme as a designed experience.
+> Updated critique, 2026-03-29. Evaluating the theme after catalogue enhancement, content type expansion (reviews/editorials), and multiple polish passes.
 
 ---
 
 ## AI Slop Verdict: PASS
 
-This does not look AI-generated. Not even close. The custom Basalte display font, hand-designed SVG roundels, and per-issue color system are all genuinely distinctive choices that no AI would converge on. The MYTH(roundel)AXIS logotype is memorable and specific. The restrained color palette, serif body font, and magazine-style layout all feel like deliberate editorial design, not template generation.
+This does not look AI-generated. The custom Basalte display font from Velvetyne Type Foundry, ten hand-designed SVG roundels, per-issue chromatic color system, and the MYTH(roundel)AXIS logotype are all genuinely distinctive choices no AI would converge on. The restrained serif-first typography, magazine-style editorial layout, and CSS mask technique for adaptive-color roundels show human curatorial intent.
 
-If someone said "AI made this," you'd say "which AI has custom SVG roundels and a French display typeface?"
+The first-pass audit's critical findings (purple gradient overlays, gradient text, generic card hover lifts) have all been eliminated. The backdrop blur on the header is functional (readability over hero images), not decorative glassmorphism.
 
-**No AI tells detected.** No gradient text, no glassmorphism, no cyan-on-dark, no rounded-corner card grids, no hero metrics, no monospace-for-technical-vibes. Clean bill of health.
+**No AI tells detected.** Clean bill of health.
 
 ---
 
 ## Overall Impression
 
-**Gut reaction:** This reads as a serious literary magazine — which is exactly the goal. The reading experience on story pages is excellent. The landing page hero-to-content flow is strong. The roundel system gives it genuine personality.
+**Gut reaction:** This reads as a serious literary magazine with genuine personality. The reading experience on story pages is excellent. The roundel system, chromatic logotype, and per-issue color theming give it an identity that's immediately recognizable.
 
-**What doesn't work:** The middle of the page — the story listing — is flat. Every story gets identical visual treatment (same grid ratio, same image height, same typographic weight), which undermines the editorial curation. A magazine that says "these are all equally important" is saying nothing. The taxonomy/catalogue pages feel like a different, lesser site. And the CSS architecture is a liability: the design token system exists on paper but isn't actually used, making the theme brittle.
+**What's improved since second pass:**
+- **Catalogue/taxonomy pages** now have visual consistency with story pages — issue roundel dividers, feathered issue image footers, A-Z alphabetical navigation with genre pills, and back-to-top indicators. These no longer feel like an afterthought.
+- **Story listing** now supports multiple card layouts (`stock-left`, `stock-right`, `editorial-center`, `featured-left`, `review-right`) controlled by frontmatter `cardLayout`. Editorials and reviews auto-integrate with explicit positioning.
+- **Content types** properly differentiated — stock stories get sticky headers with reading progress, reviews share the same treatment, editorials get a simpler `page-single` layout appropriate to their shorter form.
+- **Shared images** system (`/static/images/shared/`) means reviews spanning multiple issues don't duplicate assets.
 
-**Single biggest opportunity:** Vary the visual rhythm of the story listing to create editorial hierarchy — make the layout itself communicate which stories deserve attention.
+**What still needs attention:** The Basalte chromatic layering degradation on iOS Safari remains the most visible platform issue. The design token system is better utilized than before but still has gaps (print colors, some spacing values). The author footer, while functional, could be more refined.
+
+**Single biggest opportunity:** Resolve the iOS Safari Basalte rendering — either with a platform-specific workaround or by accepting it as intentional variation and documenting the decision.
 
 ---
 
 ## What's Working
 
 ### 1. The MYTH(roundel)AXIS Logotype
-The split-word logotype with the inline atom roundel is the single most distinctive element. It's immediately recognizable, works at multiple sizes (hero, header, nav panel), and the CSS mask technique means it adapts to any color context. This is genuine brand design, not decoration.
+The split-word logotype with the inline atom roundel remains the single most distinctive element. It works at hero, header, and nav panel scales. The CSS mask technique (`background: currentColor; mask: url(...)`) means it inherits any color context — white on dark headers, primary on light backgrounds. This is genuine brand design.
 
 ### 2. The Per-Issue Color System
-Each issue getting its own primary/secondary pair via frontmatter is smart editorial thinking. It means Issue 45 (cyan/red) feels different from Issue 43 (whatever its scheme is) while sharing structural DNA. This is how magazine seasons work — same bones, different dress. The implementation via CSS custom properties is clean and the dynamic injection through the styles partial is elegant.
+Each issue gets its own primary/secondary color pair via frontmatter `colorScheme`. Issue 45 uses green (#28c53d) and burgundy (#5d1212). The `styles.html` partial injects these as CSS custom properties, and they cascade through headers, roundels, nav strips, copyright, and link accents. This is how magazine seasons work — same bones, different dress.
 
 ### 3. The Reading Experience
-700px max-width, Alegreya at 1.125rem, 1.75 line-height, Basalte drop caps on first/post-break paragraphs. This is a genuinely comfortable reading column. The minimal sticky header with reading progress bar and blurred hero image is a nice touch — it maintains context without competing for attention. The roundel chapter markers replacing `<hr>` tags are more interesting than a horizontal rule.
+700px max-width, Alegreya at 1.125rem with 1.8 line-height, Basalte drop caps via CSS `::first-letter` on first and post-break paragraphs. The minimal sticky header with reading progress bar and story's own hero image maintains context without competing for attention. Chapter marker roundels replacing `<hr>` tags are more interesting than horizontal rules.
+
+### 4. The Roundel System
+Ten designer SVGs (MythaxisAbduction through MythaxisTarget) serve three roles: chapter markers controlled by `chapterMarker` frontmatter, issue identity via `issueRoundel`, and the MythaxisIcon brand roundel for the logotype. The system is detached from genre — editors choose roundels by aesthetic, not taxonomy. Scroll-triggered fade-in via IntersectionObserver adds life without being distracting.
+
+### 5. Catalogue Pages (New)
+The catalogue pages now have real editorial character:
+- **A-Z alphabetical navigation** with pill links showing explicit letter groups (A B C D, E F G H, etc.)
+- **Genre pill navigation** on the genres page with jump links
+- **Catalogue-nav dot menu** linking between Catalogue, Reviews, Editorials, Authors, Genres
+- **"Take me to a random..." buttons** with configurable label text per page
+- **Back-to-top SVG triangles** in group headings linking to the navigation area
+- **Story-end footers** with feathered issue image at 30% opacity and pinned copyright
+- **Issue roundel dividers** between content and footer
+
+### 6. Content Type Architecture
+The dispatch pattern (`stock` → `article-single`, `review` → `article-single`, `editorial` → `page-single`) gives appropriate treatment to each content type. The nav strip correctly filters to stock + review only (excluding editorials). Frontpage integration auto-alternates stock/reviews and only includes editorials with explicit `cardLayout` frontmatter.
 
 ---
 
-## Priority Issues
+## Remaining Issues
 
-### 1. Story Listing Is Visually Monotonous
+### 1. Basalte Chromatic Layering on iOS Safari
 
-**What:** After the featured story split, every remaining story gets identical treatment: 2:3 grid, 200px image, same type sizes. The alternating RTL direction is clever structurally but doesn't create visual rhythm — it just swaps which side the image is on.
+**What:** The two-colour font technique layers Basalte Fond (primary color base) with Basalte Multicolor (secondary color overlay via `::after` pseudo-elements). The Multicolor variant has diamond-shaped cutouts on vertical strokes — orange shows through on desktop where COLR/CPAL renders transparency. On iOS Safari, COLR support is limited and the Multicolor layer renders as solid glyphs, producing a muddier, single-tone appearance.
 
-**Why it matters:** This is a curated literary magazine, not a database listing. When every story looks the same, none stand out. The editor's curation — what's important, what's a discovery, what's the anchor piece — is invisible. A reader scanning the page has no visual cue about where to start after the featured story.
+**Affected elements:** `.nebula-title__myth::after`, `.nebula-title__axis::after`, `.nebula-split-lead__title a::after`
 
-**Fix:** Introduce 2-3 visual weights for story cards. The featured story already has one. Add a "highlight" variant (larger image, bigger title, maybe a pull quote from the description) and a "compact" variant (text-only or small thumbnail). Let frontmatter control which stories get which treatment (`weight` or a new `display` field). Even just making every third story visually different would break the monotony.
+**Impact:** 25-40% of users (iOS Safari) see a degraded version of the most prominent branding element.
 
-**Command:** `/arrange` — improve layout rhythm and visual hierarchy in the story listing
+**Options:**
+1. Disable the `::after` overlay on mobile/iOS (simpler, loses the two-tone effect)
+2. Accept platform variation as part of the design character (pragmatic)
+3. Use SVG or image-based titles for the logotype (most control, most maintenance)
 
----
+**Recommendation:** Document the decision. If the degradation is acceptable, note it. If not, option 1 is lowest effort.
 
-### 2. Hero-to-Content Transition Is Abrupt
+### 2. Author Footer Refinement
 
-**What:** The landing page goes from a dramatic full-bleed hero (100vh, parallax, gradient overlay, display type) to a flat white grid of stories with no transition. The header sits between them but it's narrow and dark — it reads as a divider, not a bridge.
+**What:** The author footer uses a flat `var(--color-secondary)` background with white text, a 150px circular photo, and display-font author name. It's visually heavy — the widest, most saturated section on a story page.
 
-**Why it matters:** The hero promises "this is a special, curated experience." The story grid says "here's a list." The tonal shift undermines the editorial authority established by the hero. Print magazines solve this with a table of contents page or a dramatic opening spread before the listing.
+**Why it matters:** This is the last thing a reader sees before the nav strip. It competes with the story's conclusion rather than complementing it.
 
-**Fix:** Add a transitional element between the hero and the story grid. Options: a brief issue summary or editor's note (2-3 lines), a more generous whitespace gap, or a subtle background tint/gradient on the first story section. The goal is to ease the reader from "immersive" to "navigational" rather than cutting between them.
+**Possible directions:** Reduce visual weight (lighter background or transparent with subtle dividers), use primary color for the author name instead of white, smaller photo. The goal is a graceful coda, not a color block.
 
-**Command:** `/arrange` — smooth the hero-to-content transition
+### 3. Token System Gaps
 
----
+**What:** The spacing tokens (`--space-1` through `--space-20`) and transition tokens are defined but underutilized. Most spacing values are hard-coded `rem` values rather than referencing tokens. Print styles use hard-coded hex colors.
 
-### 3. Taxonomy/Catalogue Pages Feel Like an Afterthought
+**Impact:** Maintainability — changing `--space-4` doesn't actually change anything because nothing references it. Future contributors may assume the tokens work and be confused when changes don't propagate.
 
-**What:** The catalogue, authors, editorials, and genres pages are plain lists with minimal styling. Basic `<ul>` with flex space-between, no imagery, no roundels (beyond the page header divider), no per-issue color. They share the `nebula-page` container at 800px but don't have the editorial personality of the rest of the site.
+**Fix:** Either commit fully (audit and replace hard-coded values with token references) or remove unused tokens so the CSS is honest about its architecture. The z-index tokens are well-utilized and should be the model for the rest.
 
-**Why it matters:** These are discovery pages — the way a reader finds something new to read. They should feel like part of the same magazine. Right now they feel like the index at the back of a book. A reader who arrives via the archive or authors page gets a diminished impression of the magazine's quality.
+### 4. Contrast & Touch Target Fixes
 
-**Fix:** Give these pages more magazine character. For the authors list: author photos (even small ones). For the catalogue: group by issue with issue color accents. For genres: more than just text pills — maybe a story count or featured story per genre. The roundel system could be used here too (each issue's roundel next to its stories in the catalogue).
+See AUDIT.md for specific issues. The key ones:
+- Copyright text at 0.4 opacity needs 0.7+
+- Nav strip links at 0.7 opacity need 0.85+
+- Genre pills need larger touch targets (44px minimum)
+- Dark-context focus-visible styles needed
 
-**Command:** `/bolder` — amplify the taxonomy pages to match the editorial quality of the rest of the site
-
----
-
-### 4. Author Footer Is Visually Heavy but Unrefined
-
-**What:** The author footer uses a flat `var(--color-secondary)` background with white text, a 150px square photo with a 4px primary-colored border, and a 12px border radius. It's the widest, most visually heavy section on a story page but gets less design attention than the story header.
-
-**Why it matters:** This is the last thing a reader sees before navigating away. It should reinforce the magazine's quality. Instead, the flat colored block feels like a different design system. The photo border radius (12px) is the only rounded-corner element in the theme, which creates visual inconsistency. The hardcoded `white` text color doesn't interact with the per-issue color system in a nuanced way.
-
-**Fix:** Consider: reduce the visual weight (lighter background, or transparent with subtle top/bottom border). Let the author photo be a circle or a more intentional shape. Use the per-issue primary color for the author name instead of white. Make the section feel like part of the story's conclusion rather than a bolted-on info card.
-
-**Command:** `/distill` — strip the author footer to its essence and rebuild with more intention
-
----
-
-### 5. Design Token System Is Theater
-
-**What:** The CSS declares spacing tokens (`--space-1` through `--space-20`), transition tokens (`--transition-fast` through `--transition-slower`), and z-index tokens (`--z-tooltip`, `--z-progress`) — but barely uses them. Out of ~40+ spacing declarations, almost none reference the tokens. Out of ~40 transition declarations, 2-3 use variables. Eleven instances of hardcoded `#000` exist alongside a color token system.
-
-**Why it matters:** This is a maintainability issue that becomes a design consistency issue. When someone changes `--color-primary` expecting all primary-colored elements to update, the 11 hardcoded blacks won't change. When someone adjusts the spacing scale, nothing moves because nothing references it. The tokens create an illusion of system that doesn't exist, which is worse than having no tokens at all — it misleads future contributors.
-
-**Fix:** Either commit to the token system (audit every declaration and replace hardcoded values) or remove the unused tokens so the CSS is honest about what it is. For z-index specifically, create `--z-header`, `--z-nav`, `--z-burger`, `--z-backdrop` tokens and use them. For spacing, pick a consistent subset and enforce it.
-
-**Command:** `/normalize` — align the actual CSS with the declared design system
+These are straightforward CSS fixes with no design decisions required.
 
 ---
 
 ## Minor Observations
 
-- **Story row images are all 200px tall.** This makes every story look the same regardless of its hero image's natural aspect ratio. Some images would benefit from more height to breathe.
+- **Story header text-shadow** (`2px 2px 4px rgba(0,0,0,0.8)`) is heavy. A softer shadow (larger blur, lower opacity) would feel more refined while maintaining legibility.
 
-- **Page title is hardcoded `#000`** (line 864). Every other text color uses tokens. This one outlier means page titles on non-story pages don't respond to theme changes.
+- **Multiple border-radius values** coexist: `--radius-base: 0.25rem` (4px), pill radius `15px`, page image `0.75rem` (12px). These could be consolidated into 2-3 named radius tokens.
 
-- **The scroll indicator ("Explore this issue") disappears after the hero** but there's no feedback about what happened to it. It bounces to draw attention, you click it, and it just scrolls. No animation of the indicator itself leaving. Minor, but the entry is more polished than the exit.
+- **Nav panel hierarchy** — section-specific links (Editorial, Contents) sit in a flat list with global links (Archive, About). The two groups could be visually separated.
 
-- **Story header text-shadow (`2px 2px 4px rgba(0,0,0,0.8)`)** is quite heavy. This is a "make it readable" brute-force approach. A slightly softer shadow (lower opacity, larger blur) would feel more refined while still ensuring legibility.
+- **Scroll indicator exit** — the "Explore this issue" arrow bounces to draw attention, you click it, and it just scrolls. The entry is more polished than the exit. Minor.
 
-- **Story header metadata pills** (issue/date) use `border-radius: 15px` — a specific value that creates fully rounded ends. This is the only pill/chip shape in the theme. It works but doesn't connect to `--radius-base: 0.25rem` (4px) used elsewhere.
-
-- **The `.nebula-page-image` has `border-radius: 0.75rem`** (12px). This is a third radius value (alongside 4px and 15px). No other images in the theme have border-radius. Inconsistent.
-
-- **Multiple breakpoint boundaries:** 736px, 737px, 768px, 980px, 1200px. The 736/737 split is confusing (1px gap between max-width and min-width queries). The 768px and 980px breakpoints appear in the story page section but not elsewhere. Consolidate to 2-3 breakpoints.
-
-- **The nav panel lists section-specific links** (Editorial, Contents) alongside global links (Archive, About). The hierarchy between these two groups is unclear — they're all in one flat list.
-
-- **Print styles exist** but are minimal. The drop caps, story header, and reading column could all be refined for print. Currently just hides interactive elements and makes chapter markers grayscale.
+- **Print styles** are minimal. The reading experience, drop caps, and story layout could be refined for print.
 
 ---
 
-## Questions to Consider
+## Quality Assessment
 
-- **What if the story listing had editorial hierarchy?** A featured story, two highlights, and the rest as compact entries — like a magazine table of contents with visual weight that signals "start here."
-
-- **What if the catalogue pages used the per-issue color system?** Each issue's stories could be tinted with that issue's colors, making the archive feel like browsing past seasons rather than scrolling a database.
-
-- **What if the author footer was quieter?** A subtle horizontal divider, author name in the issue's primary color, photo at 80px, bio in regular text weight. Let the story be the main event, with the author as a graceful coda rather than a color block competing for attention.
-
-- **Does the 100vh hero work on all devices?** On landscape mobile (500×350), you get a cramped hero with logotype, badge, subtitle, and scroll indicator all fighting for space. Is the hero serving readers on those devices, or just creating a speed bump?
-
-- **What would a "confident" version of the taxonomy pages look like?** Not minimal-because-we-ran-out-of-time, but minimal-because-the-information-is-clear. The current state reads as unfinished rather than intentionally spare.
+| Dimension | Score | Notes |
+|-----------|-------|-------|
+| Typography | 8/10 | Alegreya + Basalte is distinctive. iOS chromatic issue is the gap. |
+| Color System | 8/10 | Per-issue theming via CSS vars is elegant. Some hard-coded values remain. |
+| Layout | 7.5/10 | Story pages excellent. Landing page strong. Catalogue pages now consistent. |
+| Interaction | 8/10 | Understated, purposeful. Motion respect exemplary. |
+| Brand Identity | 9/10 | Logotype + roundels + color system = genuine editorial brand. |
+| Technical Quality | 7.5/10 | Clean CSS architecture. Token system needs commitment. Accessibility gaps fixable. |
+| **Overall** | **8/10** | Professional editorial design with genuine personality. Room for polish, not for rethinking. |
 
 ---
 
-## Summary: Priority Order
+## Priority Order
 
-| # | Issue | Impact | Effort | Command |
-|---|-------|--------|--------|---------|
-| 1 | Story listing monotony | High — undermines editorial voice | Medium | `/arrange` |
-| 2 | Hero-to-content transition | Medium — tonal whiplash | Low | `/arrange` |
-| 3 | Taxonomy pages underdeveloped | Medium — weak discovery experience | Medium | `/bolder` |
-| 4 | Author footer unrefined | Low-Medium — last impression matters | Low | `/distill` |
-| 5 | Token system unused | Medium — maintenance & consistency risk | High | `/normalize` |
+| # | Issue | Impact | Effort | Status |
+|---|-------|--------|--------|--------|
+| 1 | ~~Story listing monotony~~ | ~~High~~ | ~~Medium~~ | **RESOLVED** — cardLayout system |
+| 2 | ~~Hero-to-content transition~~ | ~~Medium~~ | ~~Low~~ | **RESOLVED** — intro redesign |
+| 3 | ~~Taxonomy pages underdeveloped~~ | ~~Medium~~ | ~~Medium~~ | **RESOLVED** — full catalogue enhancement |
+| 4 | iOS Safari Basalte rendering | Medium | Low-High | Open — needs decision |
+| 5 | Author footer refinement | Low-Medium | Low | Open |
+| 6 | Token system commitment | Medium | High | Open |
+| 7 | Contrast & touch target fixes | High (a11y) | Low | Open — see AUDIT.md |

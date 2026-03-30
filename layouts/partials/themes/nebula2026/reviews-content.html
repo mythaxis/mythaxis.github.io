@@ -14,9 +14,10 @@
 {{- $page := .Page -}}
 {{- $section := .Section -}}
 {{- $reviews := .Data.reviews | default slice -}}
-{{- $issueRoundel := "MythaxisTarget" -}}
+{{- $defaultRoundel := site.Params.issueRoundel | default "MythaxisIcon" -}}
+{{- $issueRoundel := $defaultRoundel -}}
 {{- with $section -}}
-  {{- $issueRoundel = .Params.issueRoundel | default "MythaxisTarget" -}}
+  {{- $issueRoundel = .Params.issueRoundel | default $defaultRoundel -}}
 {{- end -}}
 
 <section class="post catalogue nebula-catalogue">

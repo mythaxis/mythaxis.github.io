@@ -39,9 +39,10 @@
         {{ with $page.Description }}
         <p class="nebula-page-description">{{ . }}</p>
         {{ end }}
-        {{- $issueRoundel := "MythaxisTarget" -}}
+        {{- $defaultRoundel := site.Params.issueRoundel | default "MythaxisIcon" -}}
+        {{- $issueRoundel := $defaultRoundel -}}
         {{- with $section -}}
-          {{- $issueRoundel = .Params.issueRoundel | default "MythaxisTarget" -}}
+          {{- $issueRoundel = .Params.issueRoundel | default $defaultRoundel -}}
         {{- end -}}
         <div class="nebula-article-divider">
             <img src="/images/roundels/{{ $issueRoundel }}.svg"

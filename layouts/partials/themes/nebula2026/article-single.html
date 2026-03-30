@@ -15,11 +15,18 @@
 {{- $section := .Section -}}
 
 {{/* Resolve chapter marker / genre for roundels and fallback styling */}}
-{{- $chapterMarker := $page.Params.chapterMarker | default "MythaxisTarget" -}}
-{{- $issueRoundel := "orbit" -}}
+{{- $siteDefault := site.Params.chapterMarker | default "MythaxisIcon" -}}
+{{- $sectionMarker := "" -}}
 {{- if $section -}}
-  {{- $issueRoundel = $section.Params.issueRoundel | default "MythaxisTarget" -}}
+  {{- $sectionMarker = $section.Params.chapterMarker | default "" -}}
 {{- end -}}
+{{- $chapterMarker := $page.Params.chapterMarker | default $sectionMarker | default $siteDefault -}}
+{{- $siteDefaultRoundel := site.Params.issueRoundel | default "MythaxisIcon" -}}
+{{- $issueRoundel := "" -}}
+{{- if $section -}}
+  {{- $issueRoundel = $section.Params.issueRoundel | default $siteDefaultRoundel -}}
+{{- end -}}
+{{- $issueRoundel = $issueRoundel | default $siteDefaultRoundel -}}
 
 <article class="nebula2026-story-single" data-chapter-marker="{{ $chapterMarker }}" data-genre="{{ $chapterMarker }}">
 

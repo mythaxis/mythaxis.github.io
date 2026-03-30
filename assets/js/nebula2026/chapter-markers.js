@@ -3,13 +3,13 @@
  * ===========================
  * Replaces <hr> tags with roundel images.
  * Validates roundel name against whitelist; falls back to
- * MythaxisTarget on invalid name or missing image.
+ * MythaxisIcon on invalid name or missing image.
  */
 
 (function() {
   'use strict';
 
-  var DEFAULT_ROUNDEL = 'MythaxisTarget';
+  var DEFAULT_ROUNDEL = 'MythaxisIcon';
 
   var VALID_ROUNDELS = [
     'MythaxisAbduction', 'MythaxisEye', 'MythaxisGalaxy', 'MythaxisGrey',
