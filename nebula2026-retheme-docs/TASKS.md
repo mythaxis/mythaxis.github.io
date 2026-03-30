@@ -368,3 +368,29 @@
   - [ ] 41.7 Smoke-test live site on real device
 
 - [ ] **17.0 optional** Clean up duplicate images in issue folders (after confirming shared images work)
+
+---
+
+## Future — Editor Ideas (post-launch)
+
+> Recorded from Andrew's late-night brainstorm (via WhatsApp to Marty), 2026-03-30. Not blocking launch — these are ideas for a later site revision.
+
+- [ ] **F1.0** Retrofit nebula2026 build to all post-2020 issues
+  - [ ] F1.1 Evaluate effort to apply nebula2026 theme to issues 40–44
+  - [ ] F1.2 Content/frontmatter migration for older issues
+  - [ ] F1.3 Verify old content renders correctly in new theme
+
+- [ ] **F2.0** Swipe left/right issue navigation (mobile)
+  - [ ] F2.1 Swipe left → issue selector panel (plus archive button for legacy magazine)
+  - [ ] F2.2 Swipe right → genre/author story menu
+  - [ ] F2.3 Make default `mythaxis.co.uk` auto-load latest issue (`/issue##`)
+  - [ ] F2.4 Research feasibility of cross-issue card grid (e.g. issue40/story3 → issue41/story3)
+  - [ ] F2.5 Graceful fallback when issue story counts differ
+
+- [ ] **F3.0** "Mythaxis TOC TOC" — sideways-scrolling catalogue browser
+  - [ ] F3.1 TikTok-style horizontal swipe UI for browsing the catalogue
+  - [ ] F3.2 "Swipe right to like, swipe left for the TOC" — reader feedback/engagement mechanic
+  - [ ] F3.3 Could be a wrapper UI over existing catalogue data
+  - [ ] F3.4 Unique web feature — worth prototyping as a standalone experiment
+
+> *"The mythaxis tinder grinder, swipe right for story love"* — Andrew, 2am
