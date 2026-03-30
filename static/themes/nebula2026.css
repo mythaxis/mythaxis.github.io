@@ -2390,6 +2390,8 @@ html:has(.nebula2026-story-single) {
 
 .story-end--listings {
     min-height: 50vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .story-end--listings .story-end__image {
@@ -2399,6 +2401,7 @@ html:has(.nebula2026-story-single) {
 .story-end--listings .story-end__copyright {
     position: relative;
     z-index: 1;
+    margin-top: auto;
 }
 
 /* Author Footer
