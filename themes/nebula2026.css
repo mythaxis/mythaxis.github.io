@@ -1,0 +1,2950 @@
+/* ==========================================================================
+   Nebula2026 Theme - Complete Styles (Self-Contained, Plain CSS)
+   ========================================================================== */
+
+/* ==========================================================================
+   Web Fonts — Alegreya (subset: 5 weights for body + header)
+   ========================================================================== */
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../assets/fonts/nebula2026/Alegreya-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../assets/fonts/nebula2026/Alegreya-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../assets/fonts/nebula2026/Alegreya-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../assets/fonts/nebula2026/Alegreya-BoldItalic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('../assets/fonts/nebula2026/Alegreya-ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Basalte Display Font — Degheest Family (Velvetyne Type Foundry)
+   Two variants: Fond (base letterform), Volume (depth/embossed strokes)
+   ========================================================================== */
+
+@font-face {
+    font-family: 'Basalte';
+    src: url('../assets/fonts/nebula2026/Basalte-Fond.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Basalte Volume';
+    src: url('../assets/fonts/nebula2026/Basalte-Volume.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Design Tokens
+   ========================================================================== */
+
+:root {
+    /* Colors */
+    --color-primary: #1a2b4c;
+    --color-secondary: #4a6d8c;
+    --color-accent: #0a1628;
+    --color-text: #333333;
+    --color-text-light: #666666;
+    --color-text-muted: #999999;
+    --color-background: #ffffff;
+    --color-surface: #f8f9fa;
+    --color-border: #e9ecef;
+
+    /* Typography */
+    --font-primary: 'Alegreya', Georgia, "Times New Roman", serif;
+    --font-secondary: 'Basalte', 'Alegreya', Georgia, "Times New Roman", serif;
+    --font-normal: 400;
+    --font-bold: 700;
+
+    /* Spacing */
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+    --space-20: 5rem;
+
+    /* Borders */
+    --radius-base: 0.25rem;
+    --radius-snake: 2rem;
+
+    /* Transitions */
+    --transition-fast: 150ms ease-in-out;
+    --transition-base: 250ms ease-in-out;
+    --transition-slow: 350ms ease-in-out;
+    --transition-slower: 500ms ease-in-out;
+
+    /* Z-index scale */
+    --z-tooltip: 1070;
+    --z-progress: 9999;
+}
+
+.theme-nebula2026 {
+    font-family: var(--font-primary);
+}
+
+
+/* Reset default body margin — flush to edges */
+.theme-nebula2026 {
+    margin: 0;
+}
+
+
+/* ==========================================================================
+   PART 1: Content Styling (needed base styles)
+   Blockquotes, glyphs, author footers, and image layout utilities
+   ========================================================================== */
+
+/* Blockquote Styles
+   ========================================================================== */
+
+.nebula-article-content blockquote > p,
+.nebula-page-content blockquote > p {
+    margin: 0 0 1rem 0;
+}
+
+
+/* Drop Caps — CSS ::first-letter replaces <glyph> shortcode
+   ========================================================================== */
+
+.nebula-article-content > p:first-child::first-letter,
+.nebula-article-content > hr + p::first-letter,
+.nebula-article-content > .chapter-marker + p::first-letter {
+    font-family: var(--font-secondary);
+    font-weight: 600;
+    font-size: 3.5em;
+    float: left;
+    line-height: 0.85;
+    padding-top: 0.05em;
+    padding-right: 0.1em;
+    color: inherit;
+}
+
+
+/* Image Layout CSS3 Trick
+   Source: https://stackoverflow.com/a/39614958
+
+   Usage in markdown:
+   - ![alt <](image.jpg)   - Small left-aligned
+   - ![alt >](image.jpg)   - Small right-aligned
+   - ![alt ><](image.jpg)  - Small center-aligned
+   - ![alt -lrg](image.jpg) - Large-ish left-aligned
+   ========================================================================== */
+
+img[alt$="<"] {
+    max-width: 80px;
+}
+
+img[alt$=">"] {
+    display: block;
+    max-width: 80px;
+    height: auto;
+    margin-left: auto;
+    float: none !important;
+}
+
+img[alt$="><"] {
+    display: block;
+    max-width: 80px;
+    height: auto;
+    margin: auto;
+    float: none !important;
+}
+
+/* Large-ish left-aligned image */
+img[alt$="-lrg"] {
+    width: 40%;
+    max-width: 200px;
+}
+
+
+/* ==========================================================================
+   PART 2: Nebula2026 Modern Theme Styles
+   Modern gradient-based design with cards and smooth animations
+   ========================================================================== */
+
+/* Intro Section
+   ========================================================================== */
+
+.nebula-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    min-height: 100svh;
+    padding: 2rem;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Landing Hero Image (parallax target)
+   ========================================================================== */
+
+.landing-header__hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.landing-header__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+    will-change: transform;
+    object-position: center;
+    display: block;
+}
+
+.landing-header__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg,
+        rgba(15, 15, 35, 0.4) 0%,
+        transparent 40%,
+        transparent 75%,
+        var(--color-accent) 100%
+    );
+    z-index: 2;
+}
+
+.nebula-intro-content {
+    max-width: 800px;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 9-position intro layout system
+   Frontmatter `introPosition` maps to a modifier class on .nebula-intro-content.
+   :has() on the parent sets flexbox alignment; text-align on the content block. */
+
+.nebula-intro:has(.nebula-intro-content--top-left)      { justify-content: flex-start; align-items: flex-start; text-align: left; }
+.nebula-intro:has(.nebula-intro-content--top-center)     { justify-content: flex-start; align-items: center;     text-align: center; }
+.nebula-intro:has(.nebula-intro-content--top-right)      { justify-content: flex-start; align-items: flex-end;   text-align: right; }
+.nebula-intro:has(.nebula-intro-content--center-left)    { justify-content: center;     align-items: flex-start; text-align: left; }
+/* center is the default — no override needed */
+.nebula-intro:has(.nebula-intro-content--center-right)   { justify-content: center;     align-items: flex-end;   text-align: right; }
+.nebula-intro:has(.nebula-intro-content--bottom-left)    { justify-content: flex-end;   align-items: flex-start; text-align: left; }
+.nebula-intro:has(.nebula-intro-content--bottom-center)  { justify-content: flex-end;   align-items: center;     text-align: center; }
+.nebula-intro:has(.nebula-intro-content--bottom-right)   { justify-content: flex-end;   align-items: flex-end;   text-align: right; }
+
+/* Left-aligned positions: logotype flexbox follows text alignment */
+.nebula-intro:has(.nebula-intro-content--top-left) .nebula-title,
+.nebula-intro:has(.nebula-intro-content--center-left) .nebula-title,
+.nebula-intro:has(.nebula-intro-content--bottom-left) .nebula-title { justify-content: flex-start; }
+
+/* Right-aligned positions */
+.nebula-intro:has(.nebula-intro-content--top-right) .nebula-title,
+.nebula-intro:has(.nebula-intro-content--center-right) .nebula-title,
+.nebula-intro:has(.nebula-intro-content--bottom-right) .nebula-title { justify-content: flex-end; }
+
+/* Edge positions: extra padding to keep text away from viewport edges */
+.nebula-intro:has(.nebula-intro-content--top-left),
+.nebula-intro:has(.nebula-intro-content--top-center),
+.nebula-intro:has(.nebula-intro-content--top-right)     { padding-top: clamp(4rem, 10vh, 8rem); }
+.nebula-intro:has(.nebula-intro-content--bottom-left),
+.nebula-intro:has(.nebula-intro-content--bottom-center),
+.nebula-intro:has(.nebula-intro-content--bottom-right)  { padding-bottom: clamp(3rem, 15vh, 10rem); }
+
+/* Left/right positions: extra horizontal padding */
+.nebula-intro:has(.nebula-intro-content--top-left),
+.nebula-intro:has(.nebula-intro-content--center-left),
+.nebula-intro:has(.nebula-intro-content--bottom-left),
+.nebula-intro:has(.nebula-intro-content--top-right),
+.nebula-intro:has(.nebula-intro-content--center-right),
+.nebula-intro:has(.nebula-intro-content--bottom-right)  { padding-left: clamp(2rem, 5vw, 5rem); padding-right: clamp(2rem, 5vw, 5rem); }
+
+.nebula-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(3rem, 5vw + 1rem, 4.5rem);
+    font-weight: 800;
+    font-family: 'Basalte', var(--font-secondary);
+    color: var(--color-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0 0 0.5rem;
+}
+
+/* Chromatic layering: Fond (base) + text-shadow (accent) + Volume overlay (secondary) */
+.nebula-title__myth,
+.nebula-title__axis {
+    position: relative;
+    text-shadow: 0.06em 0.06em 0 var(--color-accent);
+}
+
+.nebula-title__myth::after,
+.nebula-title__axis::after {
+    content: attr(data-text);
+    font-family: 'Basalte Volume', var(--font-secondary);
+    color: var(--color-secondary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    text-shadow: none;
+}
+
+.nebula-title__link {
+    display: flex;
+    align-items: center;
+    justify-content: inherit;
+    flex-wrap: inherit;
+    column-gap: inherit;
+    row-gap: inherit;
+    color: inherit;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+.nebula-title__link:hover {
+    filter: brightness(0.85);
+}
+
+.nebula-title__link:active {
+    filter: brightness(0.7);
+}
+
+.nebula-title__roundel {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0 0.05em;
+    position: relative;
+    vertical-align: middle;
+}
+
+.nebula-title__roundel::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: var(--color-secondary);
+    box-shadow: 0.06em 0.06em 0 var(--color-accent);
+}
+
+.nebula-title__roundel::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--color-primary);
+    -webkit-mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
+    mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
+}
+
+.nebula-subtitle {
+    display: inline-block;
+    width: fit-content;
+    order: -1;
+    font-size: clamp(1.5rem, 2.5vw + 0.5rem, 1.75rem);
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 300;
+    margin-bottom: 0.25rem;
+    text-decoration: none;
+    padding: 0.15em 0.6em;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.nebula-subtitle:hover {
+    color: white;
+}
+
+.nebula-headline {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+}
+
+.nebula-scroll-indicator a {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nebula-scroll-indicator a:hover {
+    color: var(--color-secondary);
+    transform: translateY(4px);
+}
+
+.nebula-scroll-indicator a:active {
+    color: var(--color-secondary);
+    transform: translateY(6px);
+}
+
+.nebula-scroll-indicator span {
+    font-size: 0.875rem;
+    letter-spacing: 0.05em;
+}
+
+.nebula-scroll-indicator svg {
+    animation: nebula-bounce 3s ease-in-out infinite;
+}
+
+@keyframes nebula-bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(6px); }
+}
+
+
+/* Header — Slim Issue Bar
+   ========================================================================== */
+
+.nebula-header {
+    background: color-mix(in srgb, var(--color-primary) 80%, transparent);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding: 0.85rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nebula-header--sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+.nebula-header__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nebula-header__issue {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.3s ease;
+}
+
+.nebula-header__issue:hover {
+    color: white;
+}
+
+.nebula-header__issue-name {
+    font-family: var(--font-secondary);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.nebula-header__subhead {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.nebula-header__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    font-size: 1.6rem;
+    font-weight: 800;
+    font-family: var(--font-secondary);
+    border: none;
+    padding: 0.25rem 0;
+    min-height: 44px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.9);
+    transition: opacity 0.3s ease;
+    background: none;
+}
+
+.nebula-header__logo:hover {
+    opacity: 0.8;
+}
+
+.nebula-header__logo:active {
+    opacity: 0.6;
+}
+
+.nebula-header__logo--hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.nebula-header__logo-roundel {
+    display: inline-block;
+    width: 2.2em;
+    height: 2.2em;
+    background: currentColor;
+    -webkit-mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
+    mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
+}
+
+
+/* Slide-In Nav Panel
+   ========================================================================== */
+
+.nebula-nav-panel {
+    position: fixed;
+    top: 0.75rem;
+    right: 1.5rem;
+    width: 250px;
+    max-width: 80vw;
+    z-index: 1100;
+    background: white;
+    border: 2px solid var(--color-text);
+    border-radius: 12px;
+    box-shadow: -4px 0 20px rgba(0, 0, 0, 0.15);
+    transform: translateX(calc(100% + 2rem));
+    transition: transform 0.3s ease;
+    overflow-y: auto;
+}
+
+.nebula-nav-panel--open {
+    transform: translateX(0);
+}
+
+.nebula-nav-panel__content {
+    padding: 1rem 1rem 0.75rem;
+}
+
+.nebula-nav-panel__logotype {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4em;
+    font-size: 1.6rem;
+    font-weight: 800;
+    font-family: var(--font-secondary);
+    color: var(--color-text);
+    margin: 0 0 0.75rem 0;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.nebula-nav-panel__logotype:hover {
+    opacity: 0.5;
+}
+
+.nebula-nav-panel__logotype:active {
+    opacity: 0.3;
+}
+
+.nebula-nav-panel__logotype-roundel {
+    display: block;
+    width: 2.2em;
+    height: 2.2em;
+    background: currentColor;
+    -webkit-mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
+    mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
+}
+
+.nebula-nav-panel__roundel {
+    text-align: left;
+    padding: 0.5rem 0 0.5rem 0.75rem;
+    margin-top: 0.25rem;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.nebula-nav-panel__roundel:hover {
+    opacity: 0.5;
+}
+
+.nebula-nav-panel__roundel:active {
+    opacity: 0.3;
+}
+
+.nebula-nav-panel__roundel img {
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    filter: grayscale(1) brightness(0);
+}
+
+.nebula-nav-panel__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.nebula-nav-panel__link {
+    display: block;
+    padding: 0.65rem 0.75rem;
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.nebula-nav-panel__link:hover {
+    color: var(--color-primary);
+    border-color: var(--color-border);
+}
+
+.nebula-nav-panel__link:active {
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+.nebula-nav-panel__link.active {
+    color: var(--color-primary);
+    font-weight: 600;
+    border-color: var(--color-primary);
+}
+
+
+/* Nav Panel Backdrop
+   ========================================================================== */
+
+.nebula-nav-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 1099;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.nebula-nav-backdrop--visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* Alternating Split — Lead Story
+   ========================================================================== */
+
+/* Override Massively base #main > * padding/border for nebula2026 */
+.theme-nebula2026 #main > * {
+    padding: 0;
+    border-top: 0;
+}
+
+.nebula-split-lead {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    align-items: stretch;
+}
+
+/* Top hero: image on the right */
+.nebula-split-lead:first-child {
+    direction: rtl;
+}
+
+.nebula-split-lead:first-child > * {
+    direction: ltr;
+}
+
+.nebula-split-lead__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.nebula-split-lead__text {
+    padding: clamp(2rem, 4vw, 3.5rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nebula-split-lead__authors {
+    display: block;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-secondary);
+    margin-bottom: 0.75rem;
+}
+
+.nebula-split-lead__title {
+    font-size: clamp(1.75rem, 3vw + 0.5rem, 2.75rem);
+    font-family: 'Basalte', var(--font-secondary);
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+}
+
+.nebula-split-lead__title a {
+    color: var(--color-primary);
+    text-decoration: none;
+    display: block;
+    position: relative;
+    text-shadow: 0.06em 0.06em 0 var(--color-accent);
+}
+
+/* Chromatic layering: Fond (base) + text-shadow (accent) + Volume overlay (secondary) */
+.nebula-split-lead__title a::after {
+    content: attr(data-text);
+    font-family: 'Basalte Volume', var(--font-secondary);
+    color: var(--color-secondary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    text-shadow: none;
+}
+
+.nebula-split-lead__title a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 2px;
+}
+
+.nebula-split-lead__description {
+    font-size: 1.0625rem;
+    line-height: 1.75;
+    color: var(--color-text-light);
+    margin: 0;
+    max-width: 55ch;
+}
+
+/* Snake corners — hero images
+   Top hero (image RIGHT): bottom-right outer edge
+   Bottom hero (image LEFT): top-left outer edge */
+.nebula-split-lead__image {
+    overflow: hidden;
+}
+
+.nebula-split-lead:first-child .nebula-split-lead__image {
+    border-radius: 0 0 var(--radius-snake) 0;
+}
+
+.posts + .nebula-split-lead .nebula-split-lead__image {
+    border-radius: var(--radius-snake) 0 0 0;
+}
+
+
+/* Alternating Split — Content Rows (unified layout system)
+   ========================================================================== */
+
+/* Massively base sets overflow:hidden on #wrapper — override only on landing
+   pages (which have #intro) so story/normal pages keep their stacking context */
+.theme-nebula2026 #wrapper:has(#intro) {
+    overflow: visible;
+}
+
+.theme-nebula2026 .posts {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.nebula-content-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    align-items: stretch;
+    padding: 0;
+    /* Snake corners: all flat by default */
+    --tl: 0;
+    --tr: 0;
+    --br: 0;
+    --bl: 0;
+}
+
+.nebula-content-row__text {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Direction: right-positioned image flips column order */
+.nebula-content-row--right {
+    direction: rtl;
+}
+
+.nebula-content-row--right > * {
+    direction: ltr;
+}
+
+.nebula-content-row__image {
+    min-height: 200px;
+    overflow: hidden;
+    border-radius: var(--tl) var(--tr) var(--br) var(--bl);
+}
+
+.nebula-content-row__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Snake corners — transition-based model
+   Corners curve only at transitions between left and right sides.
+   Consecutive same-side rows form a straight edge. */
+
+/* TL: left image after a right image */
+.nebula-content-row--right + .nebula-content-row--left {
+    --tl: var(--radius-snake);
+}
+
+/* BL: left image before a right image */
+.nebula-content-row--left:has(+ .nebula-content-row--right) {
+    --bl: var(--radius-snake);
+}
+
+/* TR: right image after a left image */
+.nebula-content-row--left + .nebula-content-row--right {
+    --tr: var(--radius-snake);
+}
+
+/* BR: right image before a left image */
+.nebula-content-row--right:has(+ .nebula-content-row--left) {
+    --br: var(--radius-snake);
+}
+
+/* Stock text styling */
+.nebula-content-row__title {
+    font-size: clamp(1.2rem, 1.5vw + 0.5rem, 1.375rem);
+    font-family: var(--font-secondary);
+    line-height: 1.25;
+    margin: 0 0 0.25rem 0;
+}
+
+.nebula-content-row__title a {
+    color: var(--color-primary);
+    text-decoration: none;
+    display: block;
+    position: relative;
+    text-shadow: 0.06em 0.06em 0 var(--color-accent);
+}
+
+/* Chromatic layering: Fond (base) + text-shadow (accent) + Volume overlay (secondary) */
+.nebula-content-row__title a::after {
+    content: attr(data-text);
+    font-family: 'Basalte Volume', var(--font-secondary);
+    color: var(--color-secondary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    text-shadow: none;
+}
+
+.nebula-content-row__title a:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.nebula-content-row__authors {
+    display: block;
+    font-size: 0.875rem;
+    font-style: italic;
+    color: var(--color-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.nebula-content-row__description {
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: var(--color-text-light);
+    margin: 0;
+}
+
+/* Featured text styling */
+.nebula-content-row__title--featured {
+    font-size: clamp(1.75rem, 3vw + 0.5rem, 2.75rem);
+    font-family: 'Basalte', var(--font-secondary);
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+}
+
+.nebula-content-row__title--featured a {
+    display: block;
+    position: relative;
+    text-shadow: 0.06em 0.06em 0 var(--color-accent);
+}
+
+/* Chromatic layering: Fond (base) + text-shadow (accent) + Volume overlay (secondary) */
+.nebula-content-row__title--featured a::after {
+    content: attr(data-text);
+    font-family: 'Basalte Volume', var(--font-secondary);
+    color: var(--color-secondary);
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    text-shadow: none;
+}
+
+/* Featured authors: uppercase, non-italic (template places them before title) */
+.nebula-content-row__authors:has(+ .nebula-content-row__title--featured) {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 0.75rem;
+}
+
+/* Highlight rhythm: every 3rd row starting from 1st */
+.nebula-content-row:nth-child(3n+1) .nebula-content-row__image {
+    min-height: 280px;
+}
+
+.nebula-content-row:nth-child(3n+1) .nebula-content-row__text {
+    padding: 2.5rem 2rem;
+}
+
+.nebula-content-row:nth-child(3n+1) .nebula-content-row__title {
+    font-size: clamp(1.35rem, 2vw + 0.5rem, 1.625rem);
+}
+
+/* Center direction variant — full-width banner layout */
+.nebula-content-row--center {
+    display: block;
+    text-align: center;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+.nebula-content-row--center .nebula-content-row__image {
+    width: 100%;
+    max-height: 280px;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+.nebula-content-row--center .nebula-content-row__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.nebula-content-row--center .nebula-content-row__text {
+    padding: 0.5rem 1rem;
+    text-align: center;
+}
+
+/* Editorial style modifier */
+.nebula-content-row--editorial .nebula-content-row__title {
+    font-style: italic;
+}
+.nebula-content-row--editorial .nebula-content-row__title a {
+    font-style: italic;
+}
+
+
+/* Single Article
+   ========================================================================== */
+
+.nebula-article {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.nebula-article-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.nebula-article-meta {
+    margin-bottom: 1rem;
+}
+
+.nebula-article-authors {
+    color: var(--color-secondary);
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+}
+
+.nebula-article-title {
+    font-size: clamp(1.75rem, 3vw + 0.5rem, 2.5rem);
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
+}
+
+.nebula-article-divider {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+.nebula-article-divider__roundel {
+    width: 60px;
+    height: 60px;
+    opacity: 0.8;
+}
+
+.nebula-article-image {
+    margin: 2rem 0;
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.nebula-article-image img {
+    width: 100%;
+    height: auto;
+}
+
+.nebula-audio-player {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+}
+
+.nebula-audio-player audio {
+    width: 100%;
+}
+
+.nebula-article-content {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--color-text);
+}
+
+.nebula-article-footer {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.nebula-support-text {
+    color: var(--color-text-light);
+    font-size: 0.9375rem;
+}
+
+
+/* Page Single (about, submissions, etc.)
+   ========================================================================== */
+
+.nebula-page-hero {
+    position: relative;
+    width: 100%;
+    min-height: 40vh;
+    overflow: hidden;
+}
+
+.nebula-page-hero--clean .landing-header__overlay {
+    display: none;
+}
+
+.nebula-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.theme-nebula2026 #main > .nebula-page {
+    padding: 2rem 2rem;
+}
+
+.nebula-page-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.nebula-page-title {
+    font-size: clamp(1.75rem, 3vw + 0.5rem, 2.5rem);
+    font-family: 'Basalte', var(--font-secondary);
+    color: var(--color-text);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 0.5rem;
+    line-height: 1.15;
+}
+
+.nebula-page-author {
+    color: var(--color-secondary);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.nebula-page-description {
+    color: var(--color-text-light);
+    font-size: 1.125rem;
+}
+
+.nebula-page-image {
+    margin: 2rem 0;
+    border-radius: 0.75rem;
+    overflow: hidden;
+}
+
+.nebula-page-image img {
+    width: 100%;
+    height: auto;
+}
+
+.nebula-page-content {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--color-text);
+}
+
+
+/* Catalogue / Taxonomy Pages (authors, catalogue, editorials, genres)
+   ========================================================================== */
+
+.nebula-catalogue {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem;
+}
+
+.theme-nebula2026 #main > .nebula-catalogue {
+    padding: 2.5rem 2rem;
+}
+
+.nebula-catalogue-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.nebula-catalogue-header h1 {
+    font-size: clamp(1.75rem, 3vw + 0.5rem, 2.5rem);
+    font-family: 'Basalte', var(--font-secondary);
+    color: var(--color-text);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin-bottom: 0.5rem;
+    line-height: 1.15;
+}
+
+.nebula-catalogue-intro {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--color-text);
+    margin-bottom: 2rem;
+}
+
+.nebula-catalogue-nav {
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.nebula-nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.nebula-nav-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9375rem;
+    transition: color 0.2s ease;
+}
+
+.nebula-nav-link:hover {
+    color: var(--color-secondary);
+}
+
+.nebula-nav-separator {
+    color: var(--color-border);
+}
+
+/* Authors list */
+.nebula-authors-list {
+    margin-top: 2rem;
+}
+
+.nebula-author-entry {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.875rem 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.nebula-author-entry:last-child {
+    border-bottom: none;
+}
+
+.nebula-author-entry .nebula-author-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin: 0;
+    min-width: 200px;
+    flex-shrink: 0;
+    text-align: right;
+    padding-top: 0.2rem;
+}
+
+.nebula-author-works {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nebula-author-works li {
+    padding: 0.25rem 0;
+}
+
+.nebula-work-link {
+    text-decoration: none;
+}
+
+.nebula-work-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.nebula-work-date {
+    color: var(--color-text-muted);
+    font-size: 0.8125rem;
+    margin-left: 0.25rem;
+}
+
+/* Catalogue list (stories) */
+.nebula-catalogue-list {
+    margin-top: 2rem;
+}
+
+.nebula-catalogue-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0.625rem 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.nebula-catalogue-link {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nebula-catalogue-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.nebula-catalogue-author {
+    color: var(--color-text-muted);
+    font-size: 0.8125rem;
+    white-space: nowrap;
+}
+
+/* Editorials list */
+.nebula-editorials-list {
+    margin-top: 2rem;
+}
+
+.nebula-editorial-item {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0.625rem 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.nebula-editorial-issue {
+    color: var(--color-text-muted);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    min-width: 5rem;
+}
+
+.nebula-editorial-link {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nebula-editorial-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.nebula-editorial-author {
+    color: var(--color-text-muted);
+    font-size: 0.8125rem;
+    margin-left: 0.5rem;
+}
+
+/* Genres */
+.nebula-genre-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+.nebula-genre-link {
+    display: inline-block;
+    padding: 0.3rem 0.875rem;
+    background: var(--color-primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    transition: background 0.2s ease;
+}
+
+.nebula-genre-link:hover {
+    background: var(--color-secondary);
+}
+
+.nebula-genre-section {
+    margin-bottom: 2.5rem;
+}
+
+.nebula-genre-title {
+    font-size: 1.25rem;
+    font-family: 'Basalte', var(--font-secondary);
+    color: var(--color-text);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin: 0 0 0.75rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.nebula-genre-count {
+    color: var(--color-text-muted);
+    font-family: var(--font-primary);
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.nebula-genre-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nebula-genre-item {
+    padding: 0.375rem 0;
+}
+
+.nebula-item-link {
+    text-decoration: none;
+}
+
+.nebula-item-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.nebula-item-author {
+    color: var(--color-text-muted);
+    font-size: 0.8125rem;
+    margin-left: 0.5rem;
+}
+
+/* A-Z Navigation */
+.nebula-alpha-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+.nebula-alpha-group {
+    margin-bottom: 2.5rem;
+    scroll-margin-top: 6rem;
+}
+
+.nebula-genre-section {
+    scroll-margin-top: 6rem;
+}
+
+/* Back to top — group heading is the link */
+.nebula-group-heading-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.nebula-group-heading-link:hover {
+    color: inherit;
+}
+
+.nebula-back-to-top {
+    display: inline-block;
+    width: 0.6em;
+    height: 0.6em;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+    opacity: 0.3;
+    transition: opacity 0.2s ease;
+}
+
+.nebula-back-to-top svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    fill: var(--color-primary);
+}
+
+.nebula-group-heading-link:hover .nebula-back-to-top {
+    opacity: 0.7;
+}
+
+#listings-top {
+    scroll-margin-top: 2rem;
+}
+
+/* Random button */
+.random-button-wrap {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.theme-nebula2026 .random-button {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background: transparent;
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.theme-nebula2026 .random-button:hover {
+    background: var(--color-primary);
+    color: white;
+}
+
+.theme-nebula2026 .random-button:active {
+    background: var(--color-primary);
+    color: white;
+    opacity: 0.8;
+}
+
+@media (max-width: 736px) {
+    .nebula-catalogue,
+    .theme-nebula2026 #main > .nebula-catalogue {
+        padding: 1.5rem 1.5rem;
+    }
+
+
+    .nebula-catalogue-item {
+        flex-direction: column;
+        gap: 0.125rem;
+    }
+
+    .nebula-editorial-item {
+        flex-direction: column;
+        gap: 0.125rem;
+    }
+
+    .nebula-author-entry {
+        flex-direction: column;
+        gap: 0.25rem;
+    }
+
+    .nebula-author-entry .nebula-author-name {
+        text-align: left;
+        min-width: 0;
+    }
+}
+
+
+/* Responsive
+   ========================================================================== */
+
+@media screen and (max-width: 736px) {
+    /* Reset all intro positions to center on mobile.
+       Doubled/chained selectors override :has() position rules
+       which have specificity 0-2-0 (intro) and 0-3-0 (title). */
+    .nebula-intro.nebula-intro {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+    }
+    .nebula-intro-content {
+        align-items: center;
+    }
+    .nebula-intro .nebula-intro-content .nebula-title {
+        font-size: clamp(5rem, 22vw, 7rem);
+        justify-content: center;
+    }
+    .nebula-subtitle {
+        font-size: clamp(1.75rem, 5vw, 2.25rem);
+    }
+    .nebula-title__link {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 0.25rem;
+    }
+    .nebula-title__myth {
+        order: 1;
+    }
+    .nebula-title__roundel {
+        order: 2;
+        width: 1.5em;
+        height: 1.5em;
+    }
+    .nebula-title__axis {
+        order: 3;
+    }
+    .nebula-split-lead {
+        grid-template-columns: 1fr;
+        padding: 0;
+        gap: 0;
+    }
+    .nebula-split-lead:first-child {
+        direction: ltr;
+    }
+    .nebula-split-lead__text {
+        padding: 1rem;
+    }
+    .theme-nebula2026 .posts {
+        padding: 0;
+    }
+    html {
+        --header-h: 4.7rem;
+        scroll-snap-type: y mandatory;
+    }
+    .nebula-intro {
+        scroll-snap-align: start;
+        scroll-margin-top: var(--header-h);
+    }
+    .nebula-content-row {
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(200px, 40svh) 1fr;
+        gap: 0;
+        padding: 0;
+        scroll-snap-align: start;
+        height: calc(100svh - var(--header-h));
+        margin-bottom: 0;
+        overflow: hidden;
+    }
+    .nebula-content-row__text {
+        padding: 1rem;
+    }
+    .nebula-content-row__title {
+        font-size: 1.4rem;
+    }
+    .nebula-content-row__authors {
+        font-size: 1rem;
+    }
+    .nebula-content-row__description {
+        font-size: 1.0625rem;
+        line-height: 1.7;
+    }
+    .nebula-content-row--right {
+        direction: ltr;
+    }
+    .nebula-content-row__image {
+        min-height: 0;
+        border-radius: 0;
+    }
+    .nebula-content-row__image img {
+        height: 100%;
+    }
+    .nebula-content-row:nth-child(3n+1) .nebula-content-row__image {
+        min-height: 0;
+    }
+    .nebula-content-row:nth-child(3n+1) .nebula-content-row__text {
+        padding: 1rem;
+    }
+
+    /* Center variant on mobile: inherit scroll-snap behavior */
+    .nebula-content-row--center {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(200px, 40svh) 1fr;
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .nebula-content-row--center .nebula-content-row__image {
+        max-height: none;
+        border-radius: 0;
+    }
+    .nebula-content-row--center .nebula-content-row__text {
+        padding: 1rem;
+    }
+
+    /* Snake corners: reset on mobile (single-column stacking) */
+    .nebula-split-lead__image {
+        border-radius: 0;
+    }
+
+    .nebula-copyright {
+        scroll-snap-align: start;
+    }
+
+    .theme-nebula2026 #main > .nebula-page {
+        padding: 2rem 1.5rem;
+    }
+
+    .nebula-audio-player {
+        padding: 1rem;
+    }
+
+    .nebula-header__container {
+        padding: 0 1rem;
+    }
+
+    .nebula-header__issue-name {
+        font-size: 0.9rem;
+    }
+
+    .nebula-header__subhead {
+        display: none;
+    }
+
+}
+
+
+/* Chapter Marker Styles
+   ========================================================================== */
+
+.chapter-marker {
+    display: block;
+    margin: 2rem auto;
+    width: 100px;
+    height: auto;
+}
+
+.story-end-marker {
+    display: block;
+    margin: 3rem auto;
+    width: 200px;
+    height: auto;
+}
+
+
+/* ==========================================================================
+   PART 4: Snarktank/Synth Design System — Merged CSS
+   Resolved from SCSS: variables substituted, nesting flattened, mixins inlined
+   ========================================================================== */
+
+/* Print Styles
+   ========================================================================== */
+
+@media print {
+
+    /* --- Hide interactive / screen-only elements --- */
+    .story-header-minimal,
+    .story-nav-strip,
+    .story-nav-strip-wrap,
+    .nebula-nav-panel,
+    .nebula-nav-backdrop,
+    .nebula-header,
+    .nebula-scroll-indicator,
+    .reading-progress__bar,
+    .skip-to-content,
+    .random-button-wrap,
+    .nebula-genre-nav {
+        display: none !important;
+    }
+
+    /* --- Reset screen layout tricks --- */
+    html {
+        scroll-snap-type: none !important;
+        scroll-behavior: auto !important;
+    }
+
+    *:not(.story-header__hero):not(.story-header__hero *) {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    /* Story header title/author: white text over faded image */
+    .story-header__content,
+    .story-header__content * {
+        color: #000 !important;
+    }
+
+    /* --- Typography for print --- */
+    body {
+        font-size: 11pt;
+        line-height: 1.55;
+    }
+
+    .story-reading__container {
+        max-width: 100%;
+        font-size: 11pt;
+        line-height: 1.55;
+    }
+
+    .nebula-article-content,
+    .nebula-page-content {
+        font-size: 11pt;
+        line-height: 1.55;
+    }
+
+    /* Tighter drop caps for print */
+    .nebula-article-content > p:first-child::first-letter,
+    .nebula-article-content > hr + p::first-letter,
+    .nebula-article-content > .chapter-marker + p::first-letter {
+        font-size: 3em;
+        line-height: 0.8;
+    }
+
+    /* Disable chromatic layering — single-colour headings in print */
+    .nebula-title__myth::after,
+    .nebula-title__axis::after,
+    .nebula-split-lead__title a::after,
+    .nebula-content-row__title--featured a::after,
+    .nebula-content-row__title a::after {
+        display: none !important;
+    }
+
+    /* --- Page break control --- */
+    h1, h2, h3, h4 {
+        page-break-after: avoid;
+        break-after: avoid;
+    }
+
+    p {
+        orphans: 3;
+        widows: 3;
+    }
+
+    blockquote {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    /* --- Story header: flatten hero for print --- */
+    .story-header {
+        min-height: auto;
+        page-break-after: avoid;
+        break-after: avoid;
+        overflow: visible;
+    }
+
+    .story-header__hero {
+        position: relative;
+        height: auto;
+    }
+
+    .story-header__image {
+        position: relative;
+        transform: none !important;
+        will-change: auto;
+        max-height: 40vh;
+    }
+
+    .story-header__content {
+        position: relative;
+        z-index: auto;
+    }
+
+    /* --- Story end: flatten fixed/parallax image --- */
+    .story-end__hero {
+        display: none;
+    }
+
+    .story-end__fade {
+        display: none;
+    }
+
+    .story-end__author,
+    .story-end__copyright {
+        position: relative;
+        z-index: auto;
+    }
+
+    /* --- Landing page: linearise for print --- */
+    .nebula-intro {
+        min-height: auto;
+        padding: 2rem 0;
+    }
+
+    .landing-header__hero {
+        display: none;
+    }
+
+    .nebula-content-row {
+        height: auto;
+        overflow: visible;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    .nebula-split-lead {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    /* --- Links: show URLs for attribution --- */
+    .nebula-author-bio a[href]::after,
+    .nebula-copyright-secondary a[href]::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+        font-style: italic;
+        word-break: break-all;
+    }
+
+    /* Don't show URLs for internal nav links */
+    .story-nav-strip a::after,
+    .nebula-nav-panel a::after,
+    .nebula-content-row__title a::after,
+    .nebula-split-lead__title a::after {
+        content: none !important;
+    }
+
+    /* --- Chapter markers: black, smaller, act as page breaks --- */
+    .chapter-marker {
+        width: 50px;
+        filter: brightness(0);
+        page-break-before: always;
+        break-before: page;
+        margin: 1.5rem auto;
+    }
+
+    .story-end-marker {
+        width: 100px;
+        filter: brightness(0);
+    }
+
+    /* --- Roundels: grayscale for print --- */
+    .story-divider__roundel,
+    .nebula-article-divider__roundel {
+        filter: grayscale(100%);
+    }
+
+    /* Mask-based roundels: force black */
+    .nebula-title__roundel::before {
+        background: #999 !important;
+        box-shadow: none !important;
+    }
+    .nebula-title__roundel::after,
+    .nebula-header__logo-roundel,
+    .nebula-nav-panel__logotype-roundel {
+        background: #000 !important;
+    }
+
+    /* --- Story header: title/author over image, hide description --- */
+    .story-header {
+        position: relative;
+    }
+
+    .story-header__hero {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .story-header__image {
+        max-height: none;
+        height: 100%;
+        opacity: 0.3;
+    }
+
+    .story-header__overlay {
+        display: none !important;
+    }
+
+    .story-header__content {
+        position: relative;
+        z-index: 2;
+        padding: 3rem 2rem;
+    }
+
+    .story-header__abstract {
+        display: none !important;
+    }
+
+    .story-header__publication {
+        display: none !important;
+    }
+
+    /* --- Audio player: hide in print --- */
+    .nebula-audio-player {
+        display: none !important;
+    }
+
+    /* --- Copyright footer: visible in print --- */
+    .nebula-copyright {
+        padding: 1rem 0;
+        border-top: 1pt solid #999;
+    }
+
+    /* --- Author footer: horizontal layout (image left, text right) --- */
+    .nebula-author-footer {
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    .nebula-author-card {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: flex-start !important;
+        text-align: left !important;
+        gap: 1.5rem;
+    }
+
+    .nebula-author-photo img {
+        width: 100px !important;
+        height: 100px !important;
+        border-color: #000 !important;
+    }
+
+    .nebula-author-info {
+        flex: 1;
+    }
+
+}
+
+
+/* Roundel scroll-into-view animation
+   ========================================================================== */
+
+.roundel-animate {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 400ms ease-out, transform 400ms ease-out;
+}
+
+.roundel-animate--visible {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+/* Reading progress bar
+   ========================================================================== */
+
+.reading-progress__bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    z-index: 9999;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+    transition: width 100ms ease-out;
+}
+
+
+/* Layout Containers (from _components.scss)
+   ========================================================================== */
+
+.nebula2026-section-landing {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--space-6);
+}
+
+.nebula2026-story-single {
+    width: 100%;
+    min-height: 100vh;
+    background: var(--color-background);
+}
+
+
+/* Responsive Layout (from _responsive.scss)
+   ========================================================================== */
+
+@media (max-width: 736px) {
+    .nebula2026-section-landing {
+        padding: var(--space-4);
+    }
+}
+
+@media (min-width: 737px) {
+    .nebula2026-section-landing {
+        padding: var(--space-6);
+    }
+}
+
+@media (min-width: 1200px) {
+    .nebula2026-section-landing {
+        max-width: 1400px;
+        padding: var(--space-8);
+    }
+}
+
+
+/* ==========================================================================
+   PART 5: Story Single Page
+   Hero header, sticky header, reading area, footer, navigation
+   ========================================================================== */
+
+/* Story Header — Full Hero Section
+   ========================================================================== */
+
+/* Scroll snap: hero image → content on story pages */
+html:has(.nebula2026-story-single) {
+    scroll-snap-type: y proximity;
+}
+
+.story-header {
+    position: relative;
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    scroll-snap-align: start;
+}
+
+.story-header__hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.story-header__hero--fallback {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+}
+
+.story-header__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+    will-change: transform;
+    object-position: center;
+    display: block;
+}
+
+.story-header__overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background: linear-gradient(transparent 0%, transparent 40%, rgba(0, 0, 0, 0.55) 100%);
+    z-index: 2;
+}
+
+.story-header__content {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    padding: 3rem 2rem 2rem;
+}
+
+.story-header__metadata {
+    max-width: 800px;
+    margin: 0 auto;
+    color: white;
+}
+
+.story-header__title {
+    font-size: clamp(1.5rem, 3.5vw + 0.5rem, 3rem);
+    font-weight: 700;
+    font-family: var(--font-secondary);
+    margin: 0 0 1rem 0;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.story-header__byline {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    opacity: 0.95;
+}
+
+.story-header__author {
+    font-weight: 500;
+}
+
+.story-header__abstract {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    opacity: 0.9;
+    max-width: 700px;
+}
+
+.story-header__publication {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.story-header__issue,
+.story-header__date {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    padding: 0.4rem 0.8rem;
+    border-radius: 15px;
+    font-weight: 500;
+}
+
+
+/* Minimal Sticky Header
+   ========================================================================== */
+
+.story-header-minimal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1002;
+    background: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.story-header-minimal__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.story-header-minimal__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.story-header-minimal__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.story-header-minimal.visible {
+    transform: translateY(0);
+}
+
+.story-header-minimal__content {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.story-header-minimal__logotype {
+    flex-shrink: 0;
+    margin-right: 1.5rem;
+}
+
+.story-header-minimal__issue-roundel {
+    width: 3.5rem;
+    height: 3.5rem;
+    display: block;
+    filter: grayscale(1) brightness(0);
+}
+
+/* Menu trigger in story header — inherits .nebula-header__logo styles but dark text */
+.story-header-minimal .nebula-header__logo {
+    color: var(--color-text);
+    flex-shrink: 0;
+    margin-left: 1rem;
+}
+
+.story-header-minimal__info {
+    flex: 1;
+    min-width: 0;
+}
+
+.story-header-minimal__title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: var(--font-secondary);
+    margin: 0 0 0.25rem 0;
+    color: var(--color-text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.story-header-minimal__author {
+    font-size: 0.9rem;
+    font-family: var(--font-primary);
+    color: var(--color-text);
+    font-style: italic;
+}
+
+
+/* Reading Area
+   ========================================================================== */
+
+.story-reading {
+    padding: 3rem 2rem 2rem;
+    background: var(--color-background);
+    scroll-snap-align: start;
+    scroll-margin-top: var(--header-h, 5.5rem);
+}
+
+.story-reading__container {
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: var(--color-text);
+}
+
+.story-reading__container p {
+    margin-bottom: 1.5rem;
+}
+
+.story-reading__container h2,
+.story-reading__container h3 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+    color: var(--color-primary);
+}
+
+.story-reading__container h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.story-reading__container h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+
+/* Story Divider & Footer
+   ========================================================================== */
+
+.story-divider {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 3rem 0;
+}
+
+.story-divider__roundel {
+    width: 240px;
+    height: 240px;
+    opacity: 0.8;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.story-divider__roundel:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.story-footer {
+    padding: 0 2rem 2rem;
+    background: var(--color-background);
+    text-align: center;
+}
+
+
+/* Story End — parallax issue image behind author + nav
+   ========================================================================== */
+
+.story-end {
+    position: relative;
+    overflow: hidden;
+}
+
+.story-end__hero {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    /* clip (not clip-path) lets the fixed child stay viewport-positioned
+       while being visually clipped to this element's bounds */
+    clip: rect(auto, auto, auto, auto);
+}
+
+.story-end__image {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center 50%;
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+.story-end__fade {
+    position: relative;
+    z-index: 1;
+    height: 6rem;
+    background: linear-gradient(to bottom, var(--color-background), transparent);
+}
+
+.story-end__author {
+    position: relative;
+    z-index: 1;
+}
+
+.story-end__copyright {
+    position: relative;
+    z-index: 1;
+}
+
+.story-end__copyright .nebula-copyright {
+    background: color-mix(in srgb, var(--color-secondary) 80%, transparent);
+}
+
+.story-end--listings {
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.story-end--listings .story-end__image {
+    opacity: 0.3;
+}
+
+.story-end--listings .story-end__copyright {
+    position: relative;
+    z-index: 1;
+    margin-top: auto;
+}
+
+/* Author Footer
+   ========================================================================== */
+
+.nebula-author-footer {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 2rem 2.5rem;
+}
+
+.nebula-author-card {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.nebula-author-photo {
+    flex-shrink: 0;
+}
+
+.nebula-author-photo img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+    border: 4px solid var(--color-primary);
+}
+
+.nebula-author-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.nebula-author-name {
+    font-family: 'Basalte', var(--font-secondary);
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    margin: 0 0 0.5rem 0;
+    color: var(--color-text);
+}
+
+.nebula-author-bio {
+    font-size: 0.875rem;
+    line-height: 1.65;
+    color: var(--color-text-light);
+}
+
+.nebula-author-bio p {
+    margin: 0 0 0.5rem 0;
+}
+
+.nebula-author-bio a {
+    color: var(--color-text);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.nebula-author-bio a:hover {
+    color: var(--color-primary);
+}
+
+.nebula-copyright-info {
+    max-width: 700px;
+    margin: 1.25rem auto 0;
+}
+
+.nebula-copyright-text,
+.nebula-image-copyright {
+    font-size: 0.75rem;
+    color: var(--color-text-muted);
+    margin: 0 0 0.25rem 0;
+    line-height: 1.5;
+}
+
+.nebula-image-copyright a {
+    color: var(--color-text-light);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+/* Author & copyright text — darken on hover inside story-end */
+.story-end__author .nebula-author-bio,
+.story-end__author .nebula-copyright-text,
+.story-end__author .nebula-image-copyright {
+    transition: color 0.3s ease;
+}
+
+.story-end__author:hover .nebula-author-bio {
+    color: var(--color-text);
+}
+
+.story-end__author:hover .nebula-copyright-text,
+.story-end__author:hover .nebula-image-copyright {
+    color: var(--color-text-light);
+}
+
+/* Author Footer — Mobile */
+@media (max-width: 736px) {
+    .story-end__fade {
+        height: 4rem;
+    }
+
+    .nebula-author-footer {
+        padding: 0 1.5rem 2rem;
+    }
+
+    .nebula-author-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .nebula-author-photo img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .nebula-author-name {
+        font-size: 1rem;
+    }
+
+    .nebula-copyright-info {
+        text-align: center;
+    }
+}
+
+
+/* Navigation Footer
+   ========================================================================== */
+
+/* Story Nav Strip — minimal prev / contents / next row */
+.story-nav-strip-wrap {
+    position: relative;
+    z-index: 1;
+    background: color-mix(in srgb, var(--color-primary) 80%, transparent);
+}
+
+.story-nav-strip {
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0.75rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.story-nav-strip__prev,
+.story-nav-strip__next {
+    flex: 1;
+    min-width: 0;
+}
+
+.story-nav-strip__next {
+    text-align: right;
+}
+
+.story-nav-strip__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.story-nav-strip__link:hover {
+    color: white;
+}
+
+.story-nav-strip__link:active {
+    color: white;
+    opacity: 0.7;
+}
+
+.story-nav-strip__icon {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+}
+
+.story-nav-strip__title {
+    font-size: 0.85rem;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.story-nav-strip__toc {
+    flex-shrink: 0;
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 0.25rem 1rem;
+    opacity: 0.9;
+    transition: opacity 0.2s ease;
+}
+
+.story-nav-strip__toc:hover {
+    opacity: 1;
+}
+
+
+/* Site Copyright Footer
+   ========================================================================== */
+
+.nebula-copyright {
+    background: var(--color-secondary);
+    padding: 1.5rem 2rem;
+    text-align: center;
+}
+
+.nebula-copyright-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.nebula-copyright-main,
+.nebula-copyright-secondary,
+.nebula-copyright-notice {
+    margin: 0;
+    font-size: 0.7rem;
+    letter-spacing: 0.02em;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.4);
+    transition: color 0.5s ease;
+}
+
+.nebula-copyright:hover .nebula-copyright-main,
+.nebula-copyright:hover .nebula-copyright-secondary,
+.nebula-copyright:hover .nebula-copyright-notice {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.nebula-copyright-main strong {
+    font-weight: 600;
+}
+
+.nebula-copyright-secondary a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.nebula-copyright:hover .nebula-copyright-secondary a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.nebula-copyright-divider {
+    margin: 0 0.4em;
+    opacity: 0.5;
+}
+
+/* Hide Massively navPanel toggle (replaced by nebula burger menu) */
+.theme-nebula2026 #navPanelToggle {
+    display: none;
+}
+
+
+/* Story Page Responsive
+   ========================================================================== */
+
+@media (max-width: 980px) {
+    .story-reading {
+        padding: 2rem 1.5rem 2rem;
+    }
+
+    .story-nav-strip__title {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .story-header {
+        min-height: 50vh;
+    }
+
+    .story-header__content {
+        padding: 2rem 1rem 1.5rem;
+    }
+
+    .story-header__byline {
+        font-size: 1.1rem;
+    }
+
+    .story-header__abstract {
+        font-size: 1rem;
+    }
+
+    /* Hide "Mythaxis" text on mobile — roundel-only menu trigger */
+    .nebula-header__logo > span:first-child {
+        display: none;
+    }
+
+    .nebula-header__logo {
+        gap: 0;
+    }
+
+    .nebula-header__logo-roundel {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .story-header-minimal__content {
+        padding: 0.75rem 1rem;
+    }
+
+    .story-header-minimal__issue-roundel {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .story-header-minimal__logotype {
+        margin-right: 0.75rem;
+    }
+
+    .story-header-minimal .nebula-header__logo {
+        margin-left: 0.5rem;
+    }
+
+    .story-header-minimal__title {
+        font-size: 1rem;
+    }
+
+    .story-header-minimal__author {
+        font-size: 0.8rem;
+    }
+
+    .story-reading {
+        padding: 2rem 1rem 2rem;
+    }
+
+    .story-reading__container {
+        font-size: 1.063rem;
+        line-height: 1.7;
+    }
+
+    .story-divider__roundel {
+        width: 200px;
+        height: 200px;
+    }
+
+    .story-nav-strip {
+        padding: 0.75rem 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .story-header {
+        min-height: 40vh;
+    }
+
+    .story-header__byline {
+        font-size: 1rem;
+    }
+
+    .story-header-minimal__info {
+        margin-right: 1rem;
+    }
+
+    .story-reading__container {
+        font-size: 1rem;
+    }
+
+    .story-divider__roundel {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+
+/* Skip to Content (from _interactions.scss)
+   ========================================================================== */
+
+.skip-to-content {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    background: var(--color-primary);
+    color: white;
+    padding: var(--space-3) var(--space-6);
+    text-decoration: none;
+    border-radius: var(--radius-base);
+    z-index: var(--z-tooltip);
+    transition: top var(--transition-fast);
+}
+
+.skip-to-content:focus {
+    top: var(--space-4);
+}
+
+
+/* Global Focus Styles (from _interactions.scss)
+   ========================================================================== */
+
+*:focus:not(:focus-visible) {
+    outline: none;
+}
+
+*:focus-visible {
+    outline: 3px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+
+/* Smooth scroll
+   ========================================================================== */
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--header-h, 5.5rem);
+}
+
+
+/* Audio Remote Button
+   ========================================================================== */
+
+.audio-remote {
+    perspective: 600px;
+    cursor: pointer;
+}
+
+.audio-remote__card {
+    position: relative;
+    width: 3.5rem;
+    height: 3.5rem;
+    transform-style: preserve-3d;
+    transition: transform 400ms cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.audio-remote__card--reverting {
+    transition-duration: 300ms;
+}
+
+.audio-remote__card--flipped {
+    transform: rotateY(180deg);
+}
+
+.audio-remote__front,
+.audio-remote__back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.audio-remote__back {
+    transform: rotateY(180deg);
+    background: #1a1a1a;
+    border-radius: 50%;
+}
+
+.audio-remote__icon {
+    width: 60%;
+    height: 60%;
+    fill: #fff;
+}
+
+@keyframes audio-pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.06); }
+}
+
+.audio-remote--playing .audio-remote__front {
+    animation: audio-pulse 2s ease-in-out infinite;
+}
+
+@media (max-width: 768px) {
+    .audio-remote__card {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+
+/* Reduced Motion Accessibility (from _animations.scss, _interactions.scss)
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+    .roundel-animate,
+    .story-header-minimal,
+    .story-nav-strip__link,
+    .story-divider__roundel,
+    .nebula-nav-panel,
+    .nebula-nav-backdrop,
+    .nebula-scroll-indicator svg {
+        transition: none !important;
+        animation: none !important;
+    }
+
+    .roundel-animate--visible {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    .story-header {
+        transition: none !important;
+        animation: none !important;
+    }
+
+    html {
+        scroll-behavior: auto !important;
+    }
+
+    .audio-remote__card {
+        transition: none !important;
+    }
+
+    .audio-remote--playing .audio-remote__front {
+        animation: none !important;
+    }
+
+    .audio-remote__front,
+    .audio-remote__back {
+        backface-visibility: visible;
+        transform: none;
+    }
+
+    .audio-remote__back {
+        opacity: 0;
+    }
+
+    .audio-remote__card--flipped {
+        transform: none;
+    }
+
+    .audio-remote__card--flipped .audio-remote__front {
+        opacity: 0;
+    }
+
+    .audio-remote__card--flipped .audio-remote__back {
+        opacity: 1;
+    }
+}
