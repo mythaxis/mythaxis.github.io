@@ -9,12 +9,12 @@ authors:
 - Jon Clendaniel
 copyright: '© Jon Clendaniel 2026 All Rights Reserved'
 
-description: "xxx"
+description: "List stories are an exemplar of /“format/” fiction, but often what you really get are numbered section headers that frame a longer, more detailed text, bestowing convenient creative elbow room instead of challenging constraints. In my opinion, at their best, list stories just present The List, whatever it is, and force the reader to construct a world unseen beyond the few words the author chooses. Reader, I give you Jon Clendaniel."
 
 image: images/SearchHistory10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Bruno Curly](https://www.pexels.com/photo/young-woman-posing-in-studio-in-a-simple-outfit-19290491/), [stas336](https://pixabay.com/photos/old-iron-building-house-dark-2708409/), and [u_oi533yuyt2](https://pixabay.com/photos/man-character-player-battle-gun-8171264/) - many thanks!"
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/5.Smart.Contract.mp3"
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i45/Search.History.mp3"
 
 type: stock
 slug: search-history
