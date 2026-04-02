@@ -9,7 +9,7 @@ authors:
 - Jude Clee
 copyright: '© Jude Clee 2026 All Rights Reserved'
 
-description: "After I finished reading The Perfect Mother for the first time, I lay back against the submissions pile and thought, \“That sort of reminds me of 'My Beloved Is Mine' from back in issue 34.\” Imagine my surprise, then, when et cetera et cetera et cetera Jude Clee. They make for sharply pointed family-life bookends, these stories!"
+description: "After I finished reading The Perfect Mother for the first time, I lay back against the submissions pile and thought, /“That sort of reminds me of 'My Beloved Is Mine' from back in issue 34./” Imagine my surprise, then, when et cetera et cetera et cetera Jude Clee. They make for sharply pointed family-life bookends, these stories!"
 
 image: images/PerfectMother10x6.jpg
 imageCopyright: "The title picture was created using a Creative Commons image by [aceembelif](https://pixabay.com/photos/woman-model-beanie-rifle-gun-5663421/) - many thanks!"
