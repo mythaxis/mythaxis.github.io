@@ -9,12 +9,12 @@ authors:
 - Sean Myers
 copyright: '© Sean Myers 2026 All Rights Reserved'
 
-description: "xxx"
+description: "Clearly Mythaxis is becoming didactic, as for the second consecutive issue we finish our fiction offering with a lesson. Somewhat less final than the previous, though, since Sean Myers provides a learning experience which, while still painful, its recipient will have more than mere seconds to reflect upon!"
 
 image: images/Pultu10x6.jpg
 imageCopyright: "The title picture was created using a Creative Commons image by [Martin Lopez](https://www.pexels.com/photo/woman-sitting-on-chair-2157191/) - many thanks!"
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/6.The.Valkyries.Lesson.mp3"
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i45/Pultus.Lesson.mp3"
 
 type: stock
 slug: pultus-lesson
