@@ -1,5 +1,5 @@
 ---
-title: "Editorial"
+title: "Reintroduction"
 date: 2026-04-01
 issue: Issue 45
 
@@ -15,7 +15,7 @@ Five years ago (impossible! yet true!) Thai concept artist, illustrator, and vis
 
 type: editorial
 weight: 1
-slug: editorial
+slug: reintroduction
 cardLayout: editorial-left
 ---
 
