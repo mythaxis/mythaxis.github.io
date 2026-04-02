@@ -9,7 +9,7 @@ authors:
 - Frank Baird Hughes
 copyright: '© Frank Baird Hughes 2026 All Rights Reserved'
 
-description: "xxx."
+description: "Your editor enjoys genre fiction of significant conceptual scope, and right from the off here we have that. But there is also something about short stories that effectively embrace great temporal scope that catches my attention. Spinning a tale that spans years “against the clock”, as it were, while maintaining a sense of the weight of passing time requires a deft touch, and Frank Baird Hughes shows he has just that."
 
 image: images/AgenticNecklace10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [brenoanp](https://www.pexels.com/photo/silhouette-of-man-during-nighttime-1136575/), [Arcaion](https://pixabay.com/photos/tree-dead-dry-sky-yellow-sunrise-2834894/), and [katja](https://pixabay.com/photos/tree-desert-namibia-dead-vlei-64309/) - many thanks!"
