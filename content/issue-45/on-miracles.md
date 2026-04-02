@@ -12,9 +12,9 @@ copyright: '© P. W. Lewis 2026 All Rights Reserved.'
 description: "I dislike the term “literary fiction” as a genre label. It smacks of pretension (to abuse Orwell, “All fic are lit, but some fic are more lit than others”) or marketing desperation (“We can't just call this thing ‘a drama’, damnit”), and it's probably both. Yet when I think about P. W. Lewis’ story, with its faintest of magic realist touches, “lit-fic” keeps popping into my head… rats, maybe I like it."
 
 image: images/OnMiracles10x6.jpg
-imageCopyright: "The title picture was created using Creative Commons images by [rperucho](https://pixabay.com/photos/spiral-barrel-of-a-gun-striated-4209283/) and from [Wikipedia](https://en.wikipedia.org/wiki/Uncle_Sam#/media/File:I_Want_You_for_U.S._Army_by_James_Montgomery_Flagg.jpg) - many thanks!"
+imageCopyright: "The title picture was created using a Creative Commons image by [cottonbro studio](https://www.pexels.com/photo/woman-lying-down-on-bed-10061440/) - many thanks!"
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/2.Shooter.mp3"
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i45/On.Miracles.mp3"
 
 type: stock
 slug: on-miracles
