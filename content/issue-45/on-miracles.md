@@ -9,7 +9,7 @@ authors:
 - P. W. Lewis
 copyright: '© P. W. Lewis 2026 All Rights Reserved.'
 
-description: "I dislike the term “literary fiction” as a genre label. It smacks of pretension (to abuse Orwell, “All fic are lit, but some fic are more lit than others”) or marketing desperation (“We can't just call this thing ‘a drama’, damnit”), and it's probably both. Yet when I think about P. W. Lewis’ story, with its faintest of magic realist touches, “lit-fic” keeps popping into my head… rats, maybe I like it after all."
+description: "I dislike the term “literary fiction” as a genre label. It smacks of pretension (to abuse Orwell, “All fic are lit, but some fic are more lit than others”) or marketing desperation (“We can't just call this thing ‘a drama’, damnit”), and it's probably both. Yet when I think about P. W. Lewis’ story, with its faintest of magic realist touches, “lit-fic” keeps popping into my head… maybe I like it after all."
 
 image: images/OnMiracles10x6.jpg
 imageCopyright: "The title picture was created using a Creative Commons image by [cottonbro studio](https://www.pexels.com/photo/woman-lying-down-on-bed-10061440/) - many thanks!"
