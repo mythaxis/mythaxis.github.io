@@ -19,7 +19,7 @@ slug: the-spear-cuts-through-waterd-simon-jimenez
 weight: 7
 
 cardLayout: stock-right
-# chapterMarker: MythaxisTarget  # roundel name for chapter breaks
+chapterMarker: MythaxisIcon
 
 
 ---
