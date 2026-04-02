@@ -9,7 +9,7 @@ authors:
 - Vanessa Fabiano
 copyright: '© Vanessa Fabiano 2026 All Rights Reserved'
 
-description: "Vanessa Fabiano's fiction is invariably character-driven and often grounded in her first-hand experience of various world cultures – possibly also of some unusual people. The results are always striking and vivid, even spilling over into the surreal, if not necessarily the fantastical. On this occasion, however…"
+description: "Vanessa Fabiano's fiction is invariably character-driven and often grounded in her first-hand experience of various world cultures – possibly also of some spectacularly unusual people. The results are always striking and vivid, even spilling over into the surreal, if not necessarily the outright fantastical. On this occasion, however…"
 
 image: images/Negotiation10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Egor Kamelev](https://www.pexels.com/photo/butterfly-on-yellow-flower-1126790/), [Diana Reyes](https://www.pexels.com/photo/elegant-woman-in-blue-dress-leaning-on-weathered-wall-31800053/), and [Pixabay](https://www.pexels.com/photo/white-and-brown-trees-on-forest-during-daytime-47334/) - many thanks!"
