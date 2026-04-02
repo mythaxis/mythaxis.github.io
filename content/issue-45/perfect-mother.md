@@ -14,7 +14,7 @@ description: "After I finished reading The Perfect Mother for the first time, I 
 image: images/PerfectMother10x6.jpg
 imageCopyright: "The title picture was created using a Creative Commons image by [aceembelif](https://pixabay.com/photos/woman-model-beanie-rifle-gun-5663421/) - many thanks!"
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/3.Twelve.Gauge.Tune-up.mp3"
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i45/The.Perfect.Mother.mp3"
 
 type: stock
 slug: the-perfect-mother
