@@ -19,6 +19,7 @@ audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i45/Pul
 type: stock
 slug: pultus-lesson
 weight: 6
+chapterMarker: MythaxisIcon250
 ---
 
 “By the sweet Sisters of Fate,” the massive, black, pot-bellied hog roared at the cardinal, “her broomstick is gone, there will be no tracks!”
