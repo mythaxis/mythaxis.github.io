@@ -20,7 +20,7 @@ When open, we seek the following:
 
 Our overall upper and lower word counts are *firm* limits. Shorter or longer works are considered, but the further a story goes outside these bounds the more it will need to impress. 
 
-**Compensation:** $0.01 per word, with a $20 minimum/ $50 maximum. Please be aware before submitting that payment is via PayPal only.
+**Compensation:** $0.01 per word, with a $20 minimum / $50 maximum. Please be aware before submitting that payment is via PayPal only.
 
 We seek speculative fiction (sf/f/h/weird/slipstream/…), crime (also including police procedural/detective/mystery/cosy/…), and mashups of the same. All genres are equally welcome in each submission window. We don't receive enough crime fiction, so if that's your bag we're always eager!
 
@@ -63,7 +63,7 @@ We recognise the importance of authorial ownership when it comes to an individua
 
 In our experience, fiction generated using these tools is accurate from a grammatical point of view but lifeless when read. "World English" has many distinctive voices, which brings great value; "AI English" filters them into one voice, which does not. We would rather receive a rough diamond that still gleams than machine-polished plastic that is immediately disposable.
 
-> In the early days of the AI boom, ***Mythaxis*** experimented with generative image tools. For a period, we also used data analytics to investigate the nature of the stories submitted to us. We documented these experiences in a number of editorials (see Issue [28](https://mythaxis.co.uk/issue-28/editorial.html) for art, Issues [31](https://mythaxis.co.uk/issue-31/editorial.html), [32](https://mythaxis.co.uk/issue-32/editorial.html), and [33](https://mythaxis.co.uk/issue-32/editorial.html) for data analysis, plus our final round up [in issue 34](https://mythaxis.co.uk/issue-34/artificial-artificial-intelligence.html)). All data analysed was fully anonymised and never employed tools capable of producing derivative creative works.
+> **NOTE:** In the early days of the AI boom, ***Mythaxis*** experimented with generative image tools. For a period, we also used data analytics to investigate the nature of the stories submitted to us. We documented these experiences in a number of editorials (see issue [28](https://mythaxis.co.uk/issue-28/editorial.html) for art, issues [31](https://mythaxis.co.uk/issue-31/editorial.html), [32](https://mythaxis.co.uk/issue-32/editorial.html), and [33](https://mythaxis.co.uk/issue-32/editorial.html) for data analysis, plus our final round up in [issue 34](https://mythaxis.co.uk/issue-34/artificial-artificial-intelligence.html)). All data analysed was fully anonymised and never employed tools capable of producing derivative creative works.
 
 ### Have a question?
 
