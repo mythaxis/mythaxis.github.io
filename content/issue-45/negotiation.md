@@ -9,7 +9,7 @@ authors:
 - Vanessa Fabiano
 copyright: '© Vanessa Fabiano 2026 All Rights Reserved'
 
-description: "xxx."
+description: "Vanessa Fabiano's fiction is invariably character-driven and often grounded in her first-hand experience of various world cultures – possibly also of some unusual people. The results are always striking and vivid, even spilling over into the surreal, if not necessarily the fantastical. On this occasion, however…"
 
 image: images/Negotiation10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Elias Boberg](https://www.pexels.com/photo/face-of-man-in-blur-14510571/), [Saulo Hernandez](https://www.pexels.com/photo/man-with-bandaged-eyes-tilting-his-head-back-19077365/), [Chris F](https://www.pexels.com/photo/grayscale-photo-of-a-man-screaming-10675499/), [Nothing Ahead](https://www.pexels.com/photo/crop-ethnic-person-with-dark-eyes-7531997/) [twice](https://www.pexels.com/photo/human-face-peeping-out-of-darkness-7531999/), and [Jrfotosgrand Fotografia](https://www.pexels.com/photo/grayscale-photo-of-a-bearded-man-looking-up-12762615/) - many thanks!"
