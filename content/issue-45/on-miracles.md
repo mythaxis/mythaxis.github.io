@@ -9,7 +9,7 @@ authors:
 - P. W. Lewis
 copyright: '© P. W. Lewis 2026 All Rights Reserved.'
 
-description: "xxx."
+description: "I dislike the term “literary fiction” as a genre label. It smacks of pretension (to abuse Orwell, “All fic are lit, but some fic are more lit than others”) or marketing desperation (“We can't just call this thing ‘a drama’, damnit”), and it's probably both. Yet when I think about P. W. Lewis’ story, with its faintest of magic realist touches, “lit-fic” keeps popping into my head… rats, maybe I like it."
 
 image: images/OnMiracles10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [rperucho](https://pixabay.com/photos/spiral-barrel-of-a-gun-striated-4209283/) and from [Wikipedia](https://en.wikipedia.org/wiki/Uncle_Sam#/media/File:I_Want_You_for_U.S._Army_by_James_Montgomery_Flagg.jpg) - many thanks!"
