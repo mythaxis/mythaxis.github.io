@@ -7,7 +7,7 @@ theme: nebula2026
 
 issue: Issue 45
 subhead: Spring 2026
-# scrollLineText: "\/"
+# scrollLineText: "↕↕↕↕↕↕↕↕"
 introPosition: center # [top|center|bottom]-[left|center|right] or "center" (default)
 introPositionMobile: bottom # top, center, bottom
 issueRoundel: MythaxisHand
