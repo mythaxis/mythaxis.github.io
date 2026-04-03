@@ -1083,7 +1083,7 @@ img[alt$="-lrg"] {
 
 .nebula-support-text {
     color: var(--color-text-light);
-    font-size: 0.9375rem;
+    font-size: 1.125rem;
 }
 
 
@@ -2448,7 +2448,7 @@ html:has(.nebula2026-story-single) {
 }
 
 .nebula-author-bio {
-    font-size: 0.875rem;
+    font-size: 1.125rem;
     line-height: 1.65;
     color: var(--color-text-light);
 }
@@ -2464,6 +2464,27 @@ html:has(.nebula2026-story-single) {
 }
 
 .nebula-author-bio a:hover {
+    color: var(--color-primary);
+}
+
+.nebula-reader-note {
+    margin: 1.5rem 0;
+}
+
+.nebula-thanks-text {
+    font-size: 1.125rem;
+    line-height: 1.75;
+    color: var(--color-text-light);
+    margin: 0 0 0.5rem 0;
+}
+
+.nebula-thanks-text a {
+    color: var(--color-text);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.nebula-thanks-text a:hover {
     color: var(--color-primary);
 }
 
@@ -2488,12 +2509,16 @@ html:has(.nebula2026-story-single) {
 
 /* Author & copyright text — darken on hover inside story-end */
 .story-end__author .nebula-author-bio,
+.story-end__author .nebula-thanks-text,
+.story-end__author .nebula-support-text,
 .story-end__author .nebula-copyright-text,
 .story-end__author .nebula-image-copyright {
     transition: color 0.3s ease;
 }
 
-.story-end__author:hover .nebula-author-bio {
+.story-end__author:hover .nebula-author-bio,
+.story-end__author:hover .nebula-thanks-text,
+.story-end__author:hover .nebula-support-text {
     color: var(--color-text);
 }
 
