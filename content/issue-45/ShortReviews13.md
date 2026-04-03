@@ -9,7 +9,7 @@ authors:
 - Andrew Leon Hudson
 copyright: '© Andrew Leon Hudson 2026 All Rights Reserved'
 
-description: "xxx."
+description: "A bit of a format change. Since Mythaxis began closing each year with an all-crime issue (including a pick of the year’s short crime fiction), our quarterly round up of short speculative stories from around the web developed a gap. Therefore, our regular issues will now cover four-month periods to encompass the whole, first reaching all the way back to last October."
 
 image: /images/shared/ShortReviews01_10x6.jpg
 imageCopyright: "The image is by [grandfailure](https://depositphotos.com/368748152/stock-photo-man-standing-mysterious-library-digital.html) via DepositPhotos.com."

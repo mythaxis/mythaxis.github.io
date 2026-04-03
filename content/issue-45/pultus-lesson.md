@@ -9,16 +9,17 @@ authors:
 - Sean Myers
 copyright: '© Sean Myers 2026 All Rights Reserved'
 
-description: "xxx"
+description: "Clearly Mythaxis is becoming didactic, as for the second consecutive issue we finish our fiction offering with a lesson. Somewhat less final than the previous, though, since Sean Myers provides a learning experience which, while still painful, its recipient will have more than mere seconds to reflect upon!"
 
 image: images/Pultu10x6.jpg
-imageCopyright: "The title picture was created using a Creative Commons image by [Martin Lopez](https://www.pexels.com/photo/woman-sitting-on-chair-2157191/) - many thanks!"
+imageCopyright: The title picture was created using Creative Commons images by [Nicolas Veithen](https://www.pexels.com/photo/foot-path-in-the-middle-of-a-forest-1719627/), [Skyler Ewing](https://www.pexels.com/photo/attentive-bird-sitting-on-twig-in-cold-winter-woods-5748864/), and [Deann DaSilva](https://www.pexels.com/photo/a-pig-resting-on-the-ground-6422248/) - many thanks!
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i44/6.The.Valkyries.Lesson.mp3"
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i45/Pultus.Lesson.mp3"
 
 type: stock
 slug: pultus-lesson
 weight: 6
+chapterMarker: MythaxisIcon250
 ---
 
 “By the sweet Sisters of Fate,” the massive, black, pot-bellied hog roared at the cardinal, “her broomstick is gone, there will be no tracks!”

@@ -9,7 +9,7 @@ authors:
 - Mattia Ravasi
 copyright: '© Mattia Ravasi 2026 All Rights Reserved'
 
-description: "xxx"
+description: "I, the editor, considered Simon Jimenez's debut novel The Vanished Birds one of the most entertaining space operas since the passing of Iain M. Banks (rather shorter than the field leader, that being the whole of The Expanse series). Interesting then to hear the perspective of Mattia Ravasi on Jimenez's continuation into epic fantasy."
 
 image: images/Spear10x6.jpg
 imageCopyright: "The image shows author [C. S. Forester](https://en.wikipedia.org/wiki/C._S._Forester) and [the first edition's cover](https://en.wikipedia.org/wiki/Payment_Deferred), both from Wikipedia."
@@ -19,7 +19,7 @@ slug: the-spear-cuts-through-waterd-simon-jimenez
 weight: 7
 
 cardLayout: stock-right
-# chapterMarker: MythaxisTarget  # roundel name for chapter breaks
+chapterMarker: MythaxisIcon
 
 
 ---
