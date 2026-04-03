@@ -23,12 +23,40 @@
 <div id="intro" class="nebula-intro">
     {{/* Hero image with parallax support */}}
     {{ if .Params.image }}
+    {{- $sectionName := .Section -}}
+    {{- $imagePath := path.Join $sectionName .Params.image | relURL -}}
+    {{- $mobPath := "" -}}
+    {{/* Explicit imageMobile frontmatter */}}
+    {{- with .Params.imageMobile -}}
+      {{- $mobPath = path.Join $sectionName . | relURL -}}
+    {{- end -}}
+    {{/* Auto-detect _mob suffix if no explicit mobile image */}}
+    {{- if not $mobPath -}}
+      {{- $ext := path.Ext .Params.image -}}
+      {{- $base := strings.TrimSuffix $ext .Params.image -}}
+      {{- $mobFile := printf "%s_mob%s" $base $ext -}}
+      {{- $mobDiskPath := printf "content/%s" (path.Join $sectionName $mobFile) -}}
+      {{- if fileExists $mobDiskPath -}}
+        {{- $mobPath = path.Join $sectionName $mobFile | relURL -}}
+      {{- end -}}
+    {{- end -}}
     <div class="landing-header__hero">
-      <img src="{{ path.Join .Section .Params.image | relURL }}"
+      {{ if $mobPath -}}
+      <picture>
+        <source media="(max-width: 736px)" srcset="{{ $mobPath }}">
+        <img src="{{ $imagePath }}"
+             alt="{{ .Params.issue }}"
+             class="landing-header__image"
+             loading="eager"
+             decoding="sync" />
+      </picture>
+      {{- else -}}
+      <img src="{{ $imagePath }}"
            alt="{{ .Params.issue }}"
            class="landing-header__image"
            loading="eager"
            decoding="sync" />
+      {{- end }}
       <div class="landing-header__overlay"></div>
     </div>
     {{ end }}

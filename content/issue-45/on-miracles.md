@@ -229,5 +229,3 @@ He thinks she looks like a work of art, a painting.
 “How can you?”
 
 “Just believe, Rob,” says Luisa. “Just believe.”
-
-*Thanks for reading - but we'd love feedback! Let us know what you think of **On Miracles** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

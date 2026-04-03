@@ -234,5 +234,3 @@ You pulled away, annoyed, brushed off my touch from your shirt like dirt.
 You looked back at me then, a familiar air on your face.
 
 “Nonsense,” you said.
-
-*Thanks for reading - but we'd love feedback! Let us know what you think of **The Negotiation** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

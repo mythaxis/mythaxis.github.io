@@ -366,5 +366,3 @@ Fariyah was doing this for him. It didn’t really help him relax, but she thoug
 Unwanted. How he had made Fariyah feel. Whether he had treated her that way because he feared he was unwanted too didn’t matter anymore.
 
 It only mattered that he do better.
-
-*Thanks for reading - but we'd love feedback! Let us know what you think of **Pultu's Lesson** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

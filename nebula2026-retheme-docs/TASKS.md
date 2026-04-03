@@ -303,22 +303,22 @@
 
 ### Mobile Cover Art
 
-- [ ] **43.0** Mobile variant cover image (`_mob` suffix) on landing/issue hero
-  - [ ] 43.1 In `intro.html`, derive `_mob` filename from `image` frontmatter (e.g. `cover.jpg` → `cover_mob.jpg`)
-  - [ ] 43.2 Use Hugo `fileExists` to check for mobile variant in `static/{section}/`
-  - [ ] 43.3 Wrap hero `<img>` in `<picture>` with `<source media="(max-width: 736px)">` when `_mob` exists
-  - [ ] 43.4 Falls back to regular image when no `_mob` variant — zero breakage for existing issues
-  - [ ] 43.5 Landing hero only (not story hero)
+- [x] **43.0** Mobile variant cover image (`_mob` suffix) on landing/issue hero
+  - [x] 43.1 In `intro.html`, derive `_mob` filename from `image` frontmatter (e.g. `cover.jpg` → `cover_mob.jpg`)
+  - [x] 43.2 Use Hugo `fileExists` to check for mobile variant in `content/{section}/`
+  - [x] 43.3 Wrap hero `<img>` in `<picture>` with `<source media="(max-width: 736px)">` when `_mob` exists
+  - [x] 43.4 Falls back to regular image when no `_mob` variant — zero breakage for existing issues
+  - [x] 43.5 Landing hero only (not story hero)
 
 ### Author Footer Restructure
 
-- [ ] **42.0** Author footer — support text, "thanks for reading", text sizing
-  - [ ] 42.1 Move `.nebula-support-text` from story-footer into author-footer (between author-card and copyright-info)
-  - [ ] 42.2 Add "thanks for reading" line above support-text: "*Thanks for reading - but we'd love feedback! Let us know what you think of **{Title}** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*" (hardcoded link, dynamic story title)
-  - [ ] 42.3 Order: author-card → thanks-for-reading → support-text → copyright-info
-  - [ ] 42.4 Size thanks-for-reading and support-text to match body content font size
-  - [ ] 42.5 Increase `.nebula-author-info-bio` font size to match body content (currently too small)
-  - [ ] 42.6 Leave `.nebula-copyright-text` small — no change
+- [x] **42.0** Author footer — support text, "thanks for reading", text sizing
+  - [x] 42.1 Move `.nebula-support-text` from story-footer into author-footer (between author-card and copyright-info)
+  - [x] 42.2 Add "thanks for reading" line above support-text: "*Thanks for reading - but we'd love feedback! Let us know what you think of **{Title}** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*" (hardcoded link, dynamic story title)
+  - [x] 42.3 Order: author-card → thanks-for-reading → support-text → copyright-info
+  - [x] 42.4 Size thanks-for-reading and support-text to match body content font size
+  - [x] 42.5 Increase `.nebula-author-bio` font size to match body content (was 0.875rem → 1.125rem)
+  - [x] 42.6 Leave `.nebula-copyright-text` small — no change
 
 ### Frontpage
 

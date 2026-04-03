@@ -336,5 +336,3 @@ I scrambled to think of something to say, but all I could do was stare.
 I managed one last look at the total mess that was my sister, then I stood up.
 
 "Yeah, okay.” I swallowed. “Take all the space you need.”
-
-*Thanks for reading - but we'd love feedback! Let us know what you think of **The Perfect Mother** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*

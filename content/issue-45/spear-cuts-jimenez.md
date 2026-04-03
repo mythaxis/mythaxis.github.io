@@ -47,5 +47,3 @@ The more fantastical elements of the plot might feel like a big departure from t
 *The Spear Cuts Through Water* is an incredible performance, a story that is at once comforting and nourishing, wise and passionate. A tale that delivers on many of the familiar comforts of epic fantasy – its ravenous monsters, its temperamental heroes – but eschews some of the genre’s simplistic pitfalls. Every development in this story brings along more complexity; this is not a fight between absolute good and evil, but a quest to see if a modicum of balance can ever be reintroduced into a fundamentally broken world. With its uniquely intricate and beautiful frame narrative, it calls to mind a short story by Cortázar or a novel by Calvino, while remaining very much an original creation.
 
 It is said that dreamers can only visit the Inverted Theater once, and never come back. We should thank our lucky star, then, that during our brief time there we get to experience the performance of a lifetime.
-
-*Thanks for reading - but we'd love feedback! Let us know what you think of Mattia's thoughts at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*
