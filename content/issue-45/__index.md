@@ -7,10 +7,10 @@ theme: nebula2026
 
 issue: Issue 45
 subhead: Spring 2026
-scrollLineText: "Bloop!"
-introPosition: bottom-right # [top|center|bottom]-[left|center|right] or "center" (default)
-#issueRoundel: MythaxisHand
-#chapterMarker: MythaxisMonster
+# scrollLineText: "\/"
+introPosition: center # [top|center|bottom]-[left|center|right] or "center" (default)
+introPositionMobile: bottom # top, center, bottom
+issueRoundel: MythaxisHand
 
 
 editor: Andrew Leon Hudson

@@ -130,6 +130,22 @@ Available roundels: MythaxisAbduction, MythaxisEye, MythaxisGalaxy, MythaxisGrey
 
 ---
 
+## Issue Roundel
+
+The `issueRoundel` is the issue-wide default roundel, distinct from per-story `chapterMarker` assignments. It appears in the story footer divider, the minimal sticky header, the article divider on non-story pages, and the nav panel bottom. It represents the issue as a whole rather than any individual story.
+
+**Chosen: MythaxisHand**
+
+The cover art is the Monkey King — Sun Wukong — a mythic trickster from Chinese legend, depicted mid-flight through swirling clouds, reaching forward with dynamic energy. The reaching hand is the most fitting issue roundel for several reasons:
+
+1. **The Monkey King's nature.** He is defined by reaching — reaching for immortality, reaching for heaven, reaching beyond his station. The grasping hand captures that restless ambition.
+2. **Kinetic energy.** The cover art is all motion and flow. Of the ten roundels, the hand is the most dynamic — it implies action, not observation (Eye) or stillness (Target).
+3. **Ambiguity.** The hand can read as grasping, offering, beckoning, or warning. That ambiguity suits an issue that spans sci-fi, horror, fantasy, and literary fiction — no single tone dominates.
+4. **Not duplicated.** MythaxisHand is assigned to The Perfect Mother as a per-story `chapterMarker`, but the issue roundel and chapter markers serve different purposes in different contexts, so the overlap is acceptable. (The story's hand is maternal/possessive; the issue's hand is mythic/aspirational.)
+5. **Editorial instinct confirmed.** Andrew had `MythaxisHand` pencilled in as a comment in the frontmatter before this analysis — independent convergence on the same choice suggests the match is genuine.
+
+---
+
 ## Design Principles
 
 A few notes on the approach taken:
