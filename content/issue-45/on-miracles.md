@@ -25,7 +25,6 @@ colorScheme:
 type: stock
 slug: on-miracles
 weight: 2
-chapterMarker: MythaxisKnot
 ---
 
 *There’s a church in this city, no, it’s not a church, it’s a huge basilica, where you can queue, along with many other people, to see an image. At the end of the wait, you step onto a short travelator that slowly carries the conveyor belt of viewers past the vision they have all come to see.*

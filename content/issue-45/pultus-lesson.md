@@ -25,7 +25,6 @@ colorScheme:
 type: stock
 slug: pultus-lesson
 weight: 6
-chapterMarker: MythaxisIcon
 ---
 
 “By the sweet Sisters of Fate,” the massive, black, pot-bellied hog roared at the cardinal, “her broomstick is gone, there will be no tracks!”

@@ -26,7 +26,6 @@ type: stock
 slug: the-witness
 weight: 1
 featured: true
-chapterMarker: MythaxisIcon
 
 ---
 

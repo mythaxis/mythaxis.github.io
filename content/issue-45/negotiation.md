@@ -25,7 +25,6 @@ colorScheme:
 type: stock
 slug: the-negotiation
 weight: 4
-chapterMarker: MythaxisEye
 ---
 
 I saw it happen with my eyes open.

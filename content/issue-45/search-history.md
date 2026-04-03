@@ -25,7 +25,6 @@ colorScheme:
 type: stock
 slug: search-history
 weight: 5
-chapterMarker: MythaxisHand
 ---
 
 ### 08/15/2034
