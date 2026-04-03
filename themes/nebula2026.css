@@ -286,6 +286,12 @@ img[alt$="-lrg"] {
 .nebula-intro:has(.nebula-intro-content--center-right) .nebula-title,
 .nebula-intro:has(.nebula-intro-content--bottom-right) .nebula-title { justify-content: flex-end; }
 
+/* Subtitle pill: left (above "Myth") by default, right (above "axis") for *-right positions */
+.nebula-subtitle { align-self: flex-start; }
+.nebula-intro:has(.nebula-intro-content--top-right) .nebula-subtitle,
+.nebula-intro:has(.nebula-intro-content--center-right) .nebula-subtitle,
+.nebula-intro:has(.nebula-intro-content--bottom-right) .nebula-subtitle { align-self: flex-end; }
+
 /* Edge positions: extra padding to keep text away from viewport edges */
 .nebula-intro:has(.nebula-intro-content--top-left),
 .nebula-intro:has(.nebula-intro-content--top-center),
@@ -1539,6 +1545,10 @@ img[alt$="-lrg"] {
         text-align: center;
         padding: 2rem;
     }
+    /* introPositionMobile: top / center / bottom — vertical only, always centered horizontally */
+    .nebula-intro.nebula-intro:has(.nebula-intro-content--mob-top)    { justify-content: flex-start; padding-top: clamp(4rem, 10vh, 8rem); }
+    .nebula-intro.nebula-intro:has(.nebula-intro-content--mob-center) { justify-content: center; }
+    .nebula-intro.nebula-intro:has(.nebula-intro-content--mob-bottom) { justify-content: flex-end; padding-bottom: clamp(3rem, 15vh, 10rem); }
     .nebula-intro-content {
         align-items: center;
     }
