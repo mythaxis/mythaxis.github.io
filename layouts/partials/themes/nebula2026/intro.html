@@ -10,10 +10,12 @@
     .Data    - Any extra data passed
 
   Frontmatter fields:
-    introPosition  - 9-position grid: top-left, top-center, top-right,
-                     center-left, center, center-right,
-                     bottom-left, bottom-center, bottom-right (default: center)
-    scrollLineText - Text for the scroll indicator. Omit to hide it entirely.
+    introPosition       - 9-position grid: top-left, top-center, top-right,
+                          center-left, center, center-right,
+                          bottom-left, bottom-center, bottom-right (default: center)
+    introPositionMobile - Mobile vertical override: top, center, bottom (default: center)
+                          Always centered horizontally on mobile.
+    scrollLineText      - Text for the scroll indicator. Omit to hide it entirely.
 */}}
 
 {{- $page := .Page -}}
@@ -61,7 +63,7 @@
     </div>
     {{ end }}
 
-    <div class="nebula-intro-content nebula-intro-content--{{ .Params.introPosition | default "center" }}">
+    <div class="nebula-intro-content nebula-intro-content--{{ .Params.introPosition | default "center" }}{{ with .Params.introPositionMobile }} nebula-intro-content--mob-{{ . }}{{ end }}">
         <a href="#main" class="nebula-subtitle scrolly">{{ .Params.subhead }}</a>
         <h1 class="nebula-title">
             <a href="#main" class="nebula-title__link scrolly">

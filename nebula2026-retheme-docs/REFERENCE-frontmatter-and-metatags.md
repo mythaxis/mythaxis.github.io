@@ -107,7 +107,8 @@ Archetype: `archetypes/section.md` | File: `content/issue-XX/__index.md`
 | `image` | string | yes | — | Hero image path (section-relative) |
 | `imageMobile` | string | no | — | Mobile hero image variant |
 | `imageCopyright` | string | no | — | Image attribution |
-| `introPosition` | string | no | `center` | Intro block position: `center`, `center-left`, `top-right`, etc. |
+| `introPosition` | string | no | `center` | Intro block position: `center`, `center-left`, `top-right`, etc. (9-position grid) |
+| `introPositionMobile` | string | no | `center` | Mobile vertical override: `top`, `center`, `bottom`. Always centered horizontally. |
 | `scrollLineText` | string | no | — | Scroll indicator text (defined in archetype, used in intro partial) |
 
 ---
