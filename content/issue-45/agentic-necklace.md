@@ -421,6 +421,3 @@ Steven Michael looked at the bed. “Not sure how I feel about sleeping high up 
 “Then don’t,” said the necklace.
 
 So, just as we sit now, man and necklace made camp on the floor beside the bed, and just as we speak, they stayed awake long into the night talking and constructing a story about it all to tell in the evenings back home, one that would instruct children, elicit knowing nods from those who’d traveled and the occasional polite dissent from elders, and entertain all who gathered fireside.
-
-
-*Thanks for reading – but we'd love feedback! Let us know what you think of **The Agentic Necklace** at [Bluesky](https://bsky.app/profile/mythaxis.bsky.social).*
