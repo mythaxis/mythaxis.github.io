@@ -15,11 +15,17 @@ image: images/PerfectMother10x6.jpg
 imageCopyright: "The title picture was created using a Creative Commons image by [Pixabay](https://www.pexels.com/photo/woman-wearing-white-framed-sunglasses-photo-46244/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i45/The.Perfect.Mother.mp3"
+chapterMarker: MythaxisHand
+
+colorScheme:
+  primary: "#b82858"
+  secondary: "#d46a4a"
+  accent: "#5a0a24"
 
 type: stock
 slug: the-perfect-mother
 weight: 3
-chapterMarker: MythaxisEye250
+chapterMarker: MythaxisEye
 ---
 
 As far as I know, no one’s seen my sister, Maddie McCall, in three weeks. Oh, she’s not missing. She still responds to the family group chat and posts on social media so frequently it could be a part time job, the kind that clocks in just a few hours short for legally mandated health benefits. She just wouldn’t leave the yellow stucco walls of 148 White Owl Court, or at least, wouldn’t go past the McCalls’ six-foot-tall vinyl fence.

@@ -15,11 +15,17 @@ image: images/Negotiation10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Egor Kamelev](https://www.pexels.com/photo/butterfly-on-yellow-flower-1126790/), [Diana Reyes](https://www.pexels.com/photo/elegant-woman-in-blue-dress-leaning-on-weathered-wall-31800053/), and [Pixabay](https://www.pexels.com/photo/white-and-brown-trees-on-forest-during-daytime-47334/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i45/The.Negotiation.mp3"
+chapterMarker: MythaxisEye
+
+colorScheme:
+  primary: "#1a4d2e"
+  secondary: "#2444a0"
+  accent: "#0a2414"
 
 type: stock
 slug: the-negotiation
 weight: 4
-chapterMarker: MythaxisEye250
+chapterMarker: MythaxisEye
 ---
 
 I saw it happen with my eyes open.

@@ -14,6 +14,13 @@ description: "I, the editor, considered Simon Jimenez's debut novel The Vanished
 image: images/Spear10x6.jpg
 imageCopyright: "The image shows author [C. S. Forester](https://en.wikipedia.org/wiki/C._S._Forester) and [the first edition's cover](https://en.wikipedia.org/wiki/Payment_Deferred), both from Wikipedia."
 
+chapterMarker: MythaxisSwords
+
+colorScheme:
+  primary: "#0e5e5a"
+  secondary: "#44b896"
+  accent: "#042e2c"
+
 type: review
 slug: the-spear-cuts-through-waterd-simon-jimenez
 weight: 7

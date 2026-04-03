@@ -15,11 +15,17 @@ image: images/Pultu10x6.jpg
 imageCopyright: The title picture was created using Creative Commons images by [Nicolas Veithen](https://www.pexels.com/photo/foot-path-in-the-middle-of-a-forest-1719627/), [Skyler Ewing](https://www.pexels.com/photo/attentive-bird-sitting-on-twig-in-cold-winter-woods-5748864/), and [Deann DaSilva](https://www.pexels.com/photo/a-pig-resting-on-the-ground-6422248/) - many thanks!
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i45/Pultus.Lesson.mp3"
+chapterMarker: MythaxisMonster
+
+colorScheme:
+  primary: "#4a6a1e"
+  secondary: "#b89a2a"
+  accent: "#1e2e0a"
 
 type: stock
 slug: pultus-lesson
 weight: 6
-chapterMarker: MythaxisIcon250
+chapterMarker: MythaxisIcon
 ---
 
 “By the sweet Sisters of Fate,” the massive, black, pot-bellied hog roared at the cardinal, “her broomstick is gone, there will be no tracks!”

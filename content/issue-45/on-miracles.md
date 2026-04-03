@@ -15,11 +15,17 @@ image: images/OnMiracles10x6.jpg
 imageCopyright: "The title picture was created using a Creative Commons image by [cottonbro studio](https://www.pexels.com/photo/woman-lying-down-on-bed-10061440/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i45/On.Miracles.mp3"
+chapterMarker: MythaxisGalaxy
+
+colorScheme:
+  primary: "#5c8a82"
+  secondary: "#9aaca6"
+  accent: "#2a4a44"
 
 type: stock
 slug: on-miracles
 weight: 2
-chapterMarker: MythaxisKnot250
+chapterMarker: MythaxisKnot
 ---
 
 *There’s a church in this city, no, it’s not a church, it’s a huge basilica, where you can queue, along with many other people, to see an image. At the end of the wait, you step onto a short travelator that slowly carries the conveyor belt of viewers past the vision they have all come to see.*

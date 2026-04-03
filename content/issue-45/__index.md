@@ -18,6 +18,10 @@ image: images/monkeyking.jpg
 imageMobile: images/monkeyking_mob.jpg
 imageCopyright: "xxx by xxx"
 
+colorScheme:
+  primary: "#6e2e18"
+  secondary: "#9a6a3a"
+  accent: "#2e0e04"
 
 ---
 

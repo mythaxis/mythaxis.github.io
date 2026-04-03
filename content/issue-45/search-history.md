@@ -15,11 +15,17 @@ image: images/SearchHistory10x6.jpg
 imageCopyright: "The title picture was created from a free to use image by [Quang Nguyen Vinh](https://www.pexels.com/photo/colpophyllia-coral-on-wet-seashore-in-daylight-5116363/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i45/Search.History.mp3"
+chapterMarker: MythaxisGrey
+
+colorScheme:
+  primary: "#1a4a6a"
+  secondary: "#3a7a9a"
+  accent: "#0a1e2e"
 
 type: stock
 slug: search-history
 weight: 5
-chapterMarker: MythaxisHand250
+chapterMarker: MythaxisHand
 ---
 
 ### 08/15/2034
