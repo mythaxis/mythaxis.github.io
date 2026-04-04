@@ -2105,6 +2105,11 @@ html:has(.nebula2026-story-single) {
     will-change: transform;
     object-position: center;
     display: block;
+    transition: filter 0.4s ease;
+}
+
+.story-header:hover .story-header__image {
+    filter: blur(3px);
 }
 
 .story-header__overlay {
@@ -2128,6 +2133,7 @@ html:has(.nebula2026-story-single) {
     max-width: 800px;
     margin: 0 auto;
     color: white;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.7);
 }
 
 .story-header__title {
@@ -2136,7 +2142,6 @@ html:has(.nebula2026-story-single) {
     font-family: var(--font-secondary);
     margin: 0 0 1rem 0;
     line-height: 1.2;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .story-header__byline {
@@ -2144,7 +2149,6 @@ html:has(.nebula2026-story-single) {
     margin-bottom: 1.5rem;
     font-style: italic;
     opacity: 0.95;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 .story-header__author {
@@ -2157,7 +2161,6 @@ html:has(.nebula2026-story-single) {
     margin-bottom: 1.5rem;
     opacity: 0.9;
     max-width: 700px;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 .story-header__publication {
