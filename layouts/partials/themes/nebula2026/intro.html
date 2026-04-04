@@ -64,9 +64,9 @@
     {{ end }}
 
     <div class="nebula-intro-content nebula-intro-content--{{ .Params.introPosition | default "center" }}{{ with .Params.introPositionMobile }} nebula-intro-content--mob-{{ . }}{{ end }}">
-        <a href="#main" class="nebula-subtitle scrolly">{{ .Params.subhead }}</a>
+        <a href="#main" class="nebula-subtitle scrolly" aria-label="{{ .Params.subhead }} — scroll to content">{{ .Params.subhead }}</a>
         <h1 class="nebula-title">
-            <a href="#main" class="nebula-title__link scrolly">
+            <a href="#main" class="nebula-title__link scrolly" aria-label="Mythaxis — scroll to content">
                 <span class="nebula-title__myth" data-text="Myth">Myth</span>
                 <span class="nebula-title__roundel" aria-hidden="true"></span>
                 <span class="nebula-title__axis" data-text="axis">axis</span>
@@ -77,7 +77,7 @@
         {{ end }}
         {{ with .Params.scrollLineText }}
         <div class="nebula-scroll-indicator">
-            <a href="#main" class="scrolly">
+            <a href="#main" class="scrolly" aria-label="Scroll to content">
                 <span>{{ . }}</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <path d="M12 5v14M5 12l7 7 7-7"/>

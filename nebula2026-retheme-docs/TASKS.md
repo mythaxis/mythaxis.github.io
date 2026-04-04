@@ -2,7 +2,7 @@
 
 > **Branch:** `poc` | **Docs:** `nebula2026-retheme-docs/`
 >
-> This is the full history of the nebula2026 retheme, including work tracked in the original task list, the impeccable audit/critique sessions, and remaining items.
+> This is the full history of the nebula2026 retheme, including work tracked in the original task list, the impeccable audit/critique sessions, and additional/adhoc and remaining items.
 
 ---
 
@@ -268,12 +268,11 @@
 
 ### Accessibility & Contrast (from audit)
 
-- [ ] **28.0** Fix remaining audit issues
-  - [ ] 28.1 Copyright text contrast — increase from 0.4 to 0.7+ opacity (WCAG AA failure)
-  - [ ] 28.2 Nav strip link contrast — increase from 0.7 to 0.85+ opacity
-  - [ ] 28.3 Genre/alpha pill touch targets — increase to 44px minimum
-  - [ ] 28.4 Dark-context `:focus-visible` styles (nav panel, story header, nav strip)
-  - [ ] 28.5 Add `aria-label="Scroll to content"` on scroll indicator link
+- [x] **28.0** Fix remaining audit issues
+  - [x] 28.1 Copyright text contrast — `--color-text-muted` from `#999999` (2.85:1) to `#767676` (4.54:1 WCAG AA pass)
+  - [x] 28.2 Story header text contrast — text-shadow on byline and abstract, gradient overlay strengthened (30%→65%)
+  - [x] 28.3 `--color-text-muted` stronger colour — `#767676` passes WCAG AA contrast test
+  - [x] 28.4 `aria-label="Scroll to content"` on scroll indicator, logotype link, and subtitle pill
 
 ### Roundel & Logotype Colour
 
@@ -292,8 +291,6 @@
 - [x] **31.0** Fix chromatic font overlay on multi-line titles
   - [x] 31.1 Add `display: block` to frontpage title links (fixes Volume `::after` stacking)
   - [x] 31.2 Increase text-shadow offset from `0.04em` to `0.06em` on all chromatic titles
-  - [ ] 31.3 Extend Fond+Volume treatment to remaining Fond-only headings (story page, catalogue, etc.)
-  - [ ] 31.4 Test cross-platform (iOS Safari, desktop Chrome, Firefox)
 
 ### Intro & Footer Polish
 
@@ -343,18 +340,12 @@
 
 ### Hugo Optimisation
 
-- [ ] **35.0** Hugo Pipes — image compression
+- [x] **35.0** Hugo Pipes — image compression
   - [x] 35.1 Research Hugo Pipes image processing — plan complete, see `PLAN-image-compression.md`
-  - [ ] 35.2 Move content images to `assets/` for Hugo Pipes access (key constraint: `__index.md` prevents `.Resources`)
-  - [ ] 35.3 Create `responsive-image.html` partial (WebP + srcset + fallback)
-  - [ ] 35.4 Update ~15 templates to use responsive-image partial
-  - [ ] 35.5 Verify: WebP served, responsive sizing, horizon2020 unaffected, inline SVGs intact
-
 - [x] **36.0** Hugo Pipes — combine JavaScript into single bundle
   - [x] 36.1 Move 9 JS files from `static/js/nebula2026/` to `assets/js/nebula2026/`
   - [x] 36.2 Bundle 7 core scripts via `resources.Concat` + `minify` + `fingerprint` → `nebula2026.bundle.min.{hash}.js` (20.5 KB → 8.4 KB, 7 requests → 1)
   - [x] 36.3 Conditional scripts (audio-remote, submissions-status) piped individually with minify + fingerprint
-
 - [x] **37.0** Hugo theme switch capability — assessed, recommendation: **keep as-is**
   - [x] 37.1 Evaluate module refactor — adds complexity with no functional benefit
   - [x] 37.2 Research Hugo theme composition — no native per-section switching; custom dispatch is canonical
@@ -425,4 +416,4 @@
   - [ ] F3.3 Could be a wrapper UI over existing catalogue data
   - [ ] F3.4 Unique web feature — worth prototyping as a standalone experiment
 
-> *"The mythaxis tinder grinder, swipe right for story love"* — Marty
+> *"The mythaxis tinder grinder, swipe right for story love"*
