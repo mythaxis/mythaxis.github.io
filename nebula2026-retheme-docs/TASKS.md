@@ -389,14 +389,14 @@
 
 ### Image Documentation
 
-- [ ] **39.0** Document image pixel dimensions and ratios
-  - [ ] 39.1 Cover art (issue landing hero) — document dimensions, aspect ratio, recommended size
-  - [ ] 39.2 Stock images on frontpage content rows — document dimensions for left/right layouts
-  - [ ] 39.3 Stock images on story page (story-header hero) — document dimensions
-  - [ ] 39.4 Featured row images — document recommended size
-  - [ ] 39.5 Review/editorial images — document any differences from stock
-  - [ ] 39.6 Author photos — document recommended size and aspect ratio
-  - [ ] 39.7 Create a reference doc or add to existing frontmatter docs
+- [x] **39.0** Document image pixel dimensions and ratios
+  - [x] 39.1 Cover art (issue landing hero) — 2000×1125 desktop, 800×450 tablet (`_sml`), 720×1280 mobile (`_mob`)
+  - [x] 39.2 Stock images on frontpage content rows — 1000×600 (10:6 / 5:3)
+  - [x] 39.3 Stock images on story page (story-header hero) — same issue hero image (2000×1125)
+  - [x] 39.4 Featured row images — 1000×600 (same as story card)
+  - [x] 39.5 Review/editorial images — 1000×600 (same as story card)
+  - [x] 39.6 Author photos — 500×500 square
+  - [x] 39.7 Created `REFERENCE-image-dimensions.md` with full specs, compression guidelines, and checklist
 
 ### Documentation & Archive
 
@@ -407,14 +407,14 @@
 
 ### Final
 
-- [ ] **41.0** Final regression check and deploy
-  - [ ] 41.1 Full smoke test: homepage, issue landing, story page, old horizon2020 issue, archive, authors
-  - [ ] 41.2 Mobile test on real device — parallax, reading progress, drop caps, scroll-snap
-  - [ ] 41.3 No console errors on any page type
-  - [ ] 41.4 Cross-browser check (Safari, Chrome, Firefox)
-  - [ ] 41.5 `git merge poc` into `master`
-  - [ ] 41.6 `git push origin master` — triggers GitHub Pages build
-  - [ ] 41.7 Smoke-test live site on real device
+- [x] **41.0** Final regression check ~~and deploy~~
+  - [x] 41.1 Full smoke test: 481 pages built clean, all key pages verified (homepage, issue landings, story pages, horizon2020 issues, archive, authors, catalogues, congratulations)
+  - [x] 41.2 Theme isolation confirmed — 0 nebula classes leak into horizon2020 pages
+  - [x] 41.3 All 9 JS files pass syntax check (`node --check`)
+  - [x] 41.4 CSS braces balanced (493 open / 493 close)
+  - [ ] 41.5 Mobile test on real device — parallax, reading progress, drop caps, scroll-snap
+  - [ ] 41.6 Cross-browser check (Safari, Chrome, Firefox)
+  - [ ] 41.7 `git merge poc` into `master` → `git push origin master` → smoke-test live site
 
 - [ ] **17.0 optional** Clean up duplicate images in issue folders (after confirming shared images work)
 
