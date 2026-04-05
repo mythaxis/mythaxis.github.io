@@ -26,7 +26,7 @@ featured: true
 
 ## 2012
 
-{{<glyph>}}I{{</glyph>}} perch on a stool in the kitchen and watch my mother stir the soup. She has the recipe out on the countertop and she double, triple checks, making sure she has done everything she is supposed to. She stirs, sniffs, but never tastes the soup.
+I perch on a stool in the kitchen and watch my mother stir the soup. She has the recipe out on the countertop and she double, triple checks, making sure she has done everything she is supposed to. She stirs, sniffs, but never tastes the soup.
 
 The whole house smells of chicken stock, and the brisket in the oven, and later it will smell of browning coconut, the macaroons perfectly measured, moulded, baked. No fingers or spoons licked. My mother has a recipe for each thing, which she follows exactly the same every year. It’s one of the few meals she cooks.
 
@@ -44,7 +44,7 @@ My mother knows all the tricks.
 
 ## 2011
 
-{{<glyph>}}I{{</glyph>}} am fourteen and this curse only landed on me a few weeks ago.
+I am fourteen and this curse only landed on me a few weeks ago.
 
 My mother had watched me like a hawk on my birthday, saying nothing, just staring, as I ate the cake she’d bought from the shops, the pizza we had ordered in, as I downed mug after mug of hot chocolate with freeze dried marshmallows made from packets.
 
@@ -72,7 +72,7 @@ I notice, after that, how little my mother eats, how much water she drinks. How 
 
 ## 1984
 
-{{<glyph>}}M{{</glyph>}}iriam was fourteen when the food in her mouth turned to ash. It was evening, and her mother had made fresh challah and brisket and honey-glazed carrots. She worked directly from the recipe, never deviating, never tasting the food as it cooked. Two tablespoons of honey. Three eggs. Twenty-five peppercorns. No about this or approximately that. It was how her mother always cooked, every meal planned the week before, recipe and exact ingredients to hand.
+Miriam was fourteen when the food in her mouth turned to ash. It was evening, and her mother had made fresh challah and brisket and honey-glazed carrots. She worked directly from the recipe, never deviating, never tasting the food as it cooked. Two tablespoons of honey. Three eggs. Twenty-five peppercorns. No about this or approximately that. It was how her mother always cooked, every meal planned the week before, recipe and exact ingredients to hand.
 
 The smells were rich and full, and her mother took long breaths in through her nose, inhaling it all, then gulping seltzer from a tall glass near the sink. Miriam could barely wait for her birthday meal to be served. She hopped around the kitchen, getting in the way and sneaking bits from this or that whenever her mother took a drink.
 
@@ -96,7 +96,7 @@ Miriam nodded, lying. She wouldn’t talk to anyone, but she didn’t understand
 
 ## 2013
 
-{{<glyph>}}P{{</glyph>}}eople begin to comment on my weight.
+People begin to comment on my weight.
 
 How slender I’m looking. How I look so much like my mother.
 
@@ -122,7 +122,7 @@ My mother hugs me, after, tells me I did really well.
 
 ## 1963
 
-{{<glyph>}}R{{</glyph>}}uth’s desk was at the front of the classroom, and she wished it wasn’t. She didn’t like that her back was exposed.
+Ruth’s desk was at the front of the classroom, and she wished it wasn’t. She didn’t like that her back was exposed.
 
 The other girls in the class – all blonde and blue-eyed with soft, round cheeks and sweaters just starting to fill out – were giggling behind her. Ruth wished their teacher would tell them to hush, but he just smiled indulgently at them.
 
@@ -150,7 +150,7 @@ It all tasted the same to her. Everything she ate tasted like sadness, and guilt
 
 ## 2029
 
-{{<glyph>}}I{{</glyph>}} am pregnant, because of course I am. I am shocked, and impressed that mother nature has battled onwards despite my desiccated, stick insect, barely-there body.
+I am pregnant, because of course I am. I am shocked, and impressed that mother nature has battled onwards despite my desiccated, stick insect, barely-there body.
 
 It was an accident, a once-off with a friend, someone I had met last year at an evening lecture series about the legacies of intergenerational trauma. He had volunteered his own story during a session on the legacies that children and grandchildren carry, long after an event. He had offered himself up as an example, talked about the taint that runs in his family, and how none of the men can ever be happy. He explained how everything smells of rot whenever the men are happy.
 
@@ -186,7 +186,7 @@ I suck down the green sludge through a straw, and ignore the aftertaste of dust 
 
 ## 1947
 
-{{<glyph>}}B{{</glyph>}}erta was pregnant. She didn’t even know it would be possible for her to get pregnant, not after the camps and the illness and the starvation and the despair and the fear. She was pregnant and her new husband, who had also lost everything, had promised her that after the baby was born, after they were all healthy, they would travel to a new country. They would go somewhere that would be sympathetic to them, to their plight. Somewhere they could start a new life.
+Berta was pregnant. She didn’t even know it would be possible for her to get pregnant, not after the camps and the illness and the starvation and the despair and the fear. She was pregnant and her new husband, who had also lost everything, had promised her that after the baby was born, after they were all healthy, they would travel to a new country. They would go somewhere that would be sympathetic to them, to their plight. Somewhere they could start a new life.
 
 Berta struggled to eat. She wondered if she could blame it on the morning sickness – and why did they call it that, anyway, when it lasted all day long? – but it had been going on for years. Since the camps, even after they were rescued. The food she made, the food she ate, it gave her no pleasure. It tasted all wrong. She knew others who had survived the camps, other people who also struggled to eat, struggled to sleep, struggled to love. Their bodies and minds just weren’t used to it anymore. It was probably that, she decided. She just wasn’t used to it.
 
@@ -208,7 +208,7 @@ She would tell him that when they move, which must be soon, she wants to be in a
 
 ## 2030
 
-{{<glyph>}}T{{</glyph>}} here is a girl, and he is thrilled.
+There is a girl, and he is thrilled.
 
 There is also a boy, and I am.
 

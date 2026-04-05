@@ -21,7 +21,7 @@ slug: with-nothing-left
 weight: 4
 ---
 
-{{<glyph>}}I{{</glyph>}} buy us some printed burgers. One for you, two for me. One because you always loved them. Said they tasted almost like the real thing, not that I would know, you’d say, but just believe me. Two because you like me soft, for comfort, and this body needs to eat to keep the padding fed, all wrapped around and through the metal subframe.
+I buy us some printed burgers. One for you, two for me. One because you always loved them. Said they tasted almost like the real thing, not that I would know, you’d say, but just believe me. Two because you like me soft, for comfort, and this body needs to eat to keep the padding fed, all wrapped around and through the metal subframe.
 
 I unwrap the three burgers and hold one up under your nose, and although you don’t do much more than breathe in the smell you say it’s delicious. I position four pillows, tucking them behind your head and your back to keep you upright. You thank me, although you don’t have to, you always have, and I sit myself next to you on the bed and eat. Burger juices run down my chin. Burger nutrients course into my padding. You rest a hand on the warm burger sitting on crinkled paper on your lap and smile.
 

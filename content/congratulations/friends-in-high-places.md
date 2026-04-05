@@ -23,7 +23,7 @@ weight: 4
 
 
 
-{{<glyph>}}A{{</glyph>}} priest, a scribe, and a whore walk into a pub, but none of them is in the mood for a joke.
+A priest, a scribe, and a whore walk into a pub, but none of them is in the mood for a joke.
 
 The priest arrives first. She’s not wearing her priestly robes, but between the tree pendant pinned to her shoulder, the limp, atrophied wings tied down at her back, and the perma-judgement scowl on her face, there’s no question about her job. People avoid eye contact. She stalks through the crowd and claims a suddenly vacant booth at the back.
 
@@ -91,7 +91,7 @@ He scowls, and his wings open and close a few times. He knows the city guard, ma
 
 ---
 
-{{<glyph>}}T{{</glyph>}}he route the scribe has planned is not difficult for the most part. The whore regrets mussing up a pair of couture boots in the underbrush of the woods, and the scribe – who had never missed a night in his bed – grumbles about sleeping outdoors. But the priest proves handy on their hike, using skills built through years with the guardians of the underbrush. She chooses campsites, lights cooking fires, harvests wild plants, prepares meals. Although she isn’t overly talkative, she is even-tempered.
+The route the scribe has planned is not difficult for the most part. The whore regrets mussing up a pair of couture boots in the underbrush of the woods, and the scribe – who had never missed a night in his bed – grumbles about sleeping outdoors. But the priest proves handy on their hike, using skills built through years with the guardians of the underbrush. She chooses campsites, lights cooking fires, harvests wild plants, prepares meals. Although she isn’t overly talkative, she is even-tempered.
 
 “So, what’re you going to wish for?” asks the whore on their fourth day. He is tired of the priest’s silence and the scribe’s grumbling. “When we reach the troll?”
 
@@ -125,7 +125,7 @@ The whore grins at her, sharp teeth on full show and colourful wings spread wide
 
 ---
 
-{{<glyph>}}T{{</glyph>}}he way becomes harder as they climb up into the mountains. The trees thin, and the suns shine boldly down on them.
+The way becomes harder as they climb up into the mountains. The trees thin, and the suns shine boldly down on them.
 
 “You know, this would be easier if you’d just get your wings out,” complains the scribe, who had long ago decided he was built for comfort. “It’s ridiculous what your lot do, pinning them down.”
 
@@ -167,7 +167,7 @@ The scribe is panting trying to keep up. “We’re not hunting! We’re searchi
 
 ---
 
-{{<glyph>}}T{{</glyph>}}he priest, the scribe, and the whore arrive at the wishing troll’s cave entrance, hidden behind a crashing waterfall on the south side of a beautiful nameless mountain, just before sunsdown.
+The priest, the scribe, and the whore arrive at the wishing troll’s cave entrance, hidden behind a crashing waterfall on the south side of a beautiful nameless mountain, just before sunsdown.
 
 The suns shine through the needles on the trees, reflecting off the water. It is beautiful, but none of the scenery is as beautiful as the troll, golden skinned and massive, who stands to greet them as the three travellers arrive. The troll holds out their arms, a welcoming gesture, and the priest, thus far patient and calm, gasps and rushes towards them.
 
@@ -187,7 +187,7 @@ The scribe stands rooted to the spot, a few steps in front of the whore, and sta
 
 ---
 
-{{<glyph>}}A{{</glyph>}} troll and a faerie sit with their legs dangling off the edge of the cliff. The waterfall spray is cool on their skin, and they share a bottle of winterberry wine. The whore tells a few dirty jokes. The troll tells a few mountain jokes.
+A troll and a faerie sit with their legs dangling off the edge of the cliff. The waterfall spray is cool on their skin, and they share a bottle of winterberry wine. The whore tells a few dirty jokes. The troll tells a few mountain jokes.
 
 After a while, the troll asks, “You okay?”
 
