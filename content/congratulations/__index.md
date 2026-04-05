@@ -8,8 +8,9 @@ theme: nebula2026
 issue: Congratulations
 subhead: Congratulations, Emma Burnett!
 # scrollLineText: "↕↕↕↕↕↕↕↕"
-introPosition: center # [top|center|bottom]-[left|center|right] or "center" (default)
-introPositionMobile: bottom # top, center, bottom
+introPosition: top-center # [top|center|bottom]-[left|center|right] or "center" (default)
+introSubtitlePosition: center # left, center, right
+introPositionMobile: center # top, center, bottom
 issueRoundel: MythaxisHand
 
 

@@ -891,7 +891,8 @@ img[alt$="-lrg"] {
     margin: 0 0 0.25rem 0;
 }
 
-.nebula-content-row__title a {
+.nebula-content-row__title a,
+.nebula-content-row__title span {
     color: var(--color-primary);
     text-decoration: none;
     display: block;
@@ -900,7 +901,8 @@ img[alt$="-lrg"] {
 }
 
 /* Chromatic layering: Fond (base) + text-shadow (accent) + Volume overlay (secondary) */
-.nebula-content-row__title a::after {
+.nebula-content-row__title a::after,
+.nebula-content-row__title span::after {
     content: attr(data-text);
     font-family: 'Basalte Volume', var(--font-secondary);
     color: var(--color-secondary);
@@ -942,14 +944,16 @@ img[alt$="-lrg"] {
     margin: 0 0 1rem 0;
 }
 
-.nebula-content-row__title--featured a {
+.nebula-content-row__title--featured a,
+.nebula-content-row__title--featured span {
     display: block;
     position: relative;
     text-shadow: 0.06em 0.06em 0 var(--color-accent);
 }
 
 /* Chromatic layering: Fond (base) + text-shadow (accent) + Volume overlay (secondary) */
-.nebula-content-row__title--featured a::after {
+.nebula-content-row__title--featured a::after,
+.nebula-content-row__title--featured span::after {
     content: attr(data-text);
     font-family: 'Basalte Volume', var(--font-secondary);
     color: var(--color-secondary);
@@ -1788,7 +1792,9 @@ img[alt$="-lrg"] {
     .nebula-title__axis::after,
     .nebula-split-lead__title a::after,
     .nebula-content-row__title--featured a::after,
-    .nebula-content-row__title a::after {
+    .nebula-content-row__title--featured span::after,
+    .nebula-content-row__title a::after,
+    .nebula-content-row__title span::after {
         display: none !important;
     }
 

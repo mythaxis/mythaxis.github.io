@@ -15,6 +15,7 @@ type: editorial
 weight: 1
 slug: congratulations-emma-burnett
 cardLayout: editorial-left
+cardLink: false
 ---
 
 We're delighted that Emma Burnett's story ***25 Peppercorns*** has won the *British Science Fiction Association*'s award for Best Short Story, 2025!

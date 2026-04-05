@@ -11,6 +11,10 @@
 {{- $page := .Page -}}
 {{- $direction := .Data.direction -}}
 {{- $style := .Data.style -}}
+{{- $cardLink := true -}}
+{{- if isset $page.Params "cardlink" -}}
+  {{- $cardLink = $page.Params.cardLink -}}
+{{- end -}}
 
 {{/* Resolve image path: absolute (/images/...) or section-relative (images/...) */}}
 {{- $imagePath := "" -}}
@@ -25,22 +29,22 @@
 <article class="nebula-content-row nebula-content-row--{{ $direction }}{{ if eq $style "editorial" }} nebula-content-row--editorial{{ end }}{{ if eq $style "review" }} nebula-content-row--review{{ end }}">
     {{ if $imagePath }}
     <div class="nebula-content-row__image">
-        <a href="{{ $page.Permalink }}">
+        {{ if $cardLink }}<a href="{{ $page.Permalink }}">{{ end }}
             <img src="{{ $imagePath }}" alt="Story image for {{ $page.Title }} by {{ collections.Delimit $page.Params.authors ", " }}" />
-        </a>
+        {{ if $cardLink }}</a>{{ end }}
     </div>
     {{ end }}
     <div class="nebula-content-row__text">
         {{ if eq $style "featured" }}
         <span class="nebula-content-row__authors">{{ collections.Delimit $page.Params.authors ", " }}</span>
         <h2 class="nebula-content-row__title nebula-content-row__title--featured">
-            <a href="{{ $page.Permalink }}" data-text="{{ $page.Title }}">{{ $page.Title }}</a>
+            {{ if $cardLink }}<a href="{{ $page.Permalink }}" data-text="{{ $page.Title }}">{{ $page.Title }}</a>{{ else }}<span data-text="{{ $page.Title }}">{{ $page.Title }}</span>{{ end }}
         </h2>
         {{ if $page.Description }}
         <p class="nebula-content-row__description">{{ $page.Description }}</p>
         {{ end }}
         {{ else }}
-        <h3 class="nebula-content-row__title"><a href="{{ $page.Permalink }}" data-text="{{ $page.Title }}">{{ $page.Title }}</a></h3>
+        <h3 class="nebula-content-row__title">{{ if $cardLink }}<a href="{{ $page.Permalink }}" data-text="{{ $page.Title }}">{{ $page.Title }}</a>{{ else }}<span data-text="{{ $page.Title }}">{{ $page.Title }}</span>{{ end }}</h3>
         <span class="nebula-content-row__authors">{{ collections.Delimit $page.Params.authors ", " }}</span>
         {{ if $page.Description }}
         <p class="nebula-content-row__description">{{ $page.Description }}</p>
