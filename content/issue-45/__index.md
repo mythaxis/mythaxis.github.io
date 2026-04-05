@@ -10,13 +10,13 @@ subhead: Spring 2026
 # scrollLineText: "↕↕↕↕↕↕↕↕"
 introPosition: center # [top|center|bottom]-[left|center|right] or "center" (default)
 introPositionMobile: bottom # top, center, bottom
-issueRoundel: MythaxisHand
+issueRoundel: MythaxisIcon
 
 
 editor: Andrew Leon Hudson
 image: images/monkeyking.jpg
 imageMobile: images/monkeyking_mob.jpg
-imageCopyright: "xxx by xxx"
+imageCopyright: "Monkey King by Narupiti Harunsong"
 
 colorScheme:
   primary: "#5c6b4a"
