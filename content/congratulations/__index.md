@@ -1,9 +1,10 @@
 ---
+theme: nebula2026
 title: "Mythaxis Magazine - Congratulations!"
 date: 2026-04-05
 slug: index
 layout: section
-theme: nebula2026
+
 
 issue: Congratulations
 subhead: Congratulations, Emma Burnett!
