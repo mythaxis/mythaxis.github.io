@@ -23,7 +23,7 @@ colorScheme:
   accent: "#3e1208"
 
 type: stock
-slug: the-witness
+slug: the-agentic-necklace
 weight: 1
 featured: true
 
