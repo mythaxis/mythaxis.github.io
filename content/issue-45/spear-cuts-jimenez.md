@@ -1,6 +1,6 @@
 ---
 title: "The Spear Cuts Through Water, by Simon Jimenez"
-date: 2025-04-01
+date: 2025-04-11
 issue: Issue 45
 
 genre:

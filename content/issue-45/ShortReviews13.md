@@ -1,6 +1,6 @@
 ---
 title: "Short Reviews – October 2025 to January 2026"
-date: 2026-04-01
+date: 2026-04-11
 issue: Issue 45
 
 genres:
@@ -43,14 +43,14 @@ The story critiques (perhaps complacently utopian) external interests that seem 
 
 Next up was Issue 11 of the always reliable *[Radon Journal](https://www.radonjournal.com/)* and Elisabeth Ring's sort-of-body-horror **[Like an Arm Outstretched, Reaching](https://www.radonjournal.com/issue-11/like-an-arm-outstretched%2C-reaching)**. Sort of, I say, not because the physioillogical element lacks grue, but as a more mundane social horror is right there next to it to provide further disturbance. I refer here to the pernicious… (how to put it? Well, as a non-resident of the USA, "evil" doesn't feel like too much of a stretch) …*evil* that is the medical insurance industry.
 
-I won't get into the precise details of why one might discover the need for that kind of coverage (the title may have you way ahead of me already), but that's not the only kind of coverage the protagonist feels in need of. Themes of distress and dysmorphia abound, not to mention society's disinterested rubber-necking of The Other; but also a brazen taking ownership of oneself in a way that hints at unexpected strength of character. This might just be an origin story…
+I won't get into the precise details of why one might discover the need for that kind of coverage (the title may have you way ahead of me already), but that's not the only kind of coverage the protagonist feels in need of. Themes of distress and dysmorphia abound, not to mention society's disinterested rubber-necking of The Other; but also a brazen taking ownership of oneself in a way that hints at unexpected strength of character. Squint, and this might be an origin story…
 
 Also from that issue, a brief shout-out to Parker M. O'Neill for **[Instructions for Self-Reflection](https://www.radonjournal.com/issue-11/instructions-for-self-reflection)**, a tight little tale from the other side of the mirror that starts with a discomforting tone that only gets darker as we get closer to the surface.
 
 ---
 
-{{<glyph>}}F{{</glyph>}}inally, I was happy to dip into *[ergot.](https://www.ergot.press/)* after far too long away. One drawback of running a magazine yourself is the erosion of your opportunity (even appetite) for simply reading short fiction for pleasure, but I invariably find that when I go looking there.
+{{<glyph>}}L{{</glyph>}}astly, I was happy to dip back into *[ergot.](https://www.ergot.press/)* after far too long away. One drawback of running a magazine yourself is the erosion of your opportunity (or maybe appetite) for simply reading short fiction for pleasure, but I invariably take that when I go looking there.
 
-**[Gowpen](https://www.ergot.press/authors/Max_Olesen/Gowpen)** by Max Olesen
+Pleasure of a certain sort, that is. **[Gowpen](https://www.ergot.press/authors/Max_Olesen/Gowpen)** is a prison story, sinking the reader into the monotony and repetition of an environment where time loses focus, where it seems every day is intake day, every day is *Wednesday*, and every night one is plagued by dreams far more vivid and alive than the waking experience, dreams that may bestow freedom from confinement in a very final sense.
 
-zzz
+Author Max Olesen tells a sinister, effective tale, one similar to another piece he has in *ergot.*, *[The Tunnels](https://www.ergot.press/authors/Max_Olesen/The_Tunnels)*, which shares the hallucinatory sense of confinement, lost time, lost people, and uncertain self that is found here. This story takes it up a notch, though; while *The Tunnels* injects a touch of pathos, and deadpan humour, in its narrator's self-talky mannerisms and anxious drive to exceed his limitations, **Gowpen** is a place where guilty people go to endure themselves, where the only way out is one you woudn't want to take, and – unlike *The Last Fisher of Oporoza* – you gain nothing good when living the same day yet again.
