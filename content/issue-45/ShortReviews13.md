@@ -14,7 +14,7 @@ description: "A bit of a format change. Since Mythaxis began closing each year w
 image: /images/shared/ShortReviews01_10x6.jpg
 imageCopyright: "The image is by [grandfailure](https://depositphotos.com/368748152/stock-photo-man-standing-mysterious-library-digital.html) via DepositPhotos.com."
 
-chapterMarker: MythaxisTarget
+chapterMarker: MythaxisIcon
 
 colorScheme:
   primary: "#5a3e1e"

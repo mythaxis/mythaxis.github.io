@@ -15,7 +15,7 @@ image: images/AgenticNecklace10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Kindel Media](https://www.pexels.com/photo/brown-rocks-and-stones-on-brown-earth-surface-7527857/), [Phong Nguyen](https://www.pexels.com/photo/motorcycle-engine-185545/), [George Becker](https://www.pexels.com/photo/close-up-gray-hoppe-tubular-key-115642/), and [Pixabay](https://www.pexels.com/photo/deadlock-with-key-on-hole-279810/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i45/The.Agentic.Necklace.mp3"
-chapterMarker: MythaxisKnot
+chapterMarker: MythaxisGalaxy
 
 colorScheme:
   primary: "#8b3422"

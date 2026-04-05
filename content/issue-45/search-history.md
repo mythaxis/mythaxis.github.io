@@ -15,7 +15,7 @@ image: images/SearchHistory10x6.jpg
 imageCopyright: "The title picture was created from a free to use image by [Quang Nguyen Vinh](https://www.pexels.com/photo/colpophyllia-coral-on-wet-seashore-in-daylight-5116363/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i45/Search.History.mp3"
-chapterMarker: MythaxisGrey
+chapterMarker: MythaxisIcon
 
 colorScheme:
   primary: "#1a4a6a"
