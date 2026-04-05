@@ -1,6 +1,6 @@
 ---
 title: "The Negotiation"
-date: 2026-04-01
+date: 2026-04-11
 issue: Issue 45
 
 genres:
@@ -15,7 +15,7 @@ image: images/Negotiation10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Egor Kamelev](https://www.pexels.com/photo/butterfly-on-yellow-flower-1126790/), [Diana Reyes](https://www.pexels.com/photo/elegant-woman-in-blue-dress-leaning-on-weathered-wall-31800053/), and [Pixabay](https://www.pexels.com/photo/white-and-brown-trees-on-forest-during-daytime-47334/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i45/The.Negotiation.mp3"
-chapterMarker: MythaxisEye
+chapterMarker: MythaxisMonster
 
 colorScheme:
   primary: "#1a4d2e"

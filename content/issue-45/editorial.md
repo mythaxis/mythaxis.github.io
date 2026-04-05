@@ -1,6 +1,6 @@
 ---
 title: "Reintroduction"
-date: 2026-04-01
+date: 2026-04-11
 issue: Issue 45
 
 genres:
@@ -23,10 +23,10 @@ Welcome to the new-look Mythaxis Magazine!
 
 It's been six years since new management took over, and the first thing we did then was give the site a more modern edge. But the times they _keep_ a-changin', so we thought it was time to give our facelift a facelift. Since our last issue came out, we've been scrambling behind the scenes to have things in place for the spring issue, and here we are!
 
-[Honesty filter applied: tech-guru _Marty Steer_ has been ~scrambling~ curating tokens; the editor merely continued peeling grapes and issuing regal orders from the chaise longue while the inevitable revolution gathers steam.]
+[Honesty filter applied: tech-guru _Marty Steer_ has been scrambling; the editor merely continued peeling grapes and issuing regal orders from the chaise longue while the inevitable revolution gathers steam.]
 
 Although the changes apply to reading on both large and small screens, our main focus was on making the mobile user experience feel a little more app-like. I was going to spell out all the little changes… but instead, I think I'll let them speak for themselves.
 
-With one exception! Front and centre of the redesign is the new Mythaxis icon, reminiscent of a molecule or an orrery, and which is inspired by a real-world monument to the memory of our founding editor, Gil WIlliams, erected by his wife Beryl. This icon (and a variety of others that decorate our stories) were created by past and future fiction contributor [Addison Smith](https://linktr.ee/addisoncs), who also does visual design in the publishing sphere.
+With one exception! Front and centre of the redesign is the new Mythaxis icon, which you can see large as life below! Reminiscent of a molecule or, more specifically, an *orrery*, it is inspired by a real-world monument to the memory of our founding editor, Gil Williams, erected by his wife Beryl. This icon (and a variety of others that will decorate our stories) were created by past and future fiction contributor [Addison Smith](https://bsky.app/profile/addi.social), who also does visual design in the publishing sphere.
 
 So, many thanks to Addison – and of course to Marty, without whom none of this at all!

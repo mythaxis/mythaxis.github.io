@@ -1,6 +1,6 @@
 ---
 title: "The Perfect Mother"
-date: 2026-04-01
+date: 2026-04-11
 issue: Issue 45
 
 genres:
@@ -15,7 +15,7 @@ image: images/PerfectMother10x6.jpg
 imageCopyright: "The title picture was created using a Creative Commons image by [Pixabay](https://www.pexels.com/photo/woman-wearing-white-framed-sunglasses-photo-46244/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i45/The.Perfect.Mother.mp3"
-chapterMarker: MythaxisHand
+chapterMarker: MythaxisEye
 
 colorScheme:
   primary: "#b82858"
