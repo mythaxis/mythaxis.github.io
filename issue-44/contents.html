@@ -13,20 +13,85 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	
 	
+	<link rel="stylesheet" href='../assets/css/main.min.css'>
+	<noscript><link rel="stylesheet" href='../assets/css/noscript.css' /></noscript>
+	
 	<link rel="icon" href='../favicon.ico' type="image/x-icon">
 
 	
-<link rel="stylesheet" href='../themes/nebula2026.css' />
+<link rel="stylesheet" href='../themes/horizon2020.css' />
 
 
 <style type="text/css">
+	#wrapper > .bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: 
+			linear-gradient(0deg,
+				rgba(255,255,255,1) 5%,
+				rgba(255,255,255,0.50) 10%,
+				rgba(255,255,255,0) 20%
+			)
+			,
+			url(images/Sanka_footsteps_sqr.jpg);
+		background-size: auto, 100% auto;
+		background-position: bottom, top center;
+		background-repeat: no-repeat, no-repeat;
+		background-attachment: no-scroll, scroll;
+	}
 
-.theme-nebula2026 {
-    
-}
+	
+	@media screen and (max-width: 980px) {
+		#wrapper > .bg {
+		    background-image: url(images/Sanka_footsteps_sml.jpg);
+		}
+	}
+	@media screen and (max-width: 500px) {
+		#wrapper > .bg {
+			background-size: cover;
+		}
+	}
 
+	
+		
+		#intro h1 {
+			
+			color: #f1401d;
+		}
+	
 
+	@media screen and (min-width: 736px) {
+		#intro {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			
+			
+		}
+		
+		#intro h1 {
+			
+			
+			
+			
+		}
+		
 
+		
+		
+		
+		#intro ul.actions {
+			display: none;
+			
+			
+			
+			
+		}
+		
+	}
 </style>
 
 	
@@ -52,312 +117,118 @@
 
 </head>
 
-  <body lang='en' class="is-preload theme-nebula2026">
-    <a href="#main" class="skip-to-content">Skip to content</a>
+  <body lang='en' class="is-preload theme-horizon2020">
+    
     
     <div id="wrapper">
       
 
 
-<header id="header" class="nebula-header">
-  <div class="nebula-header__container">
-    
-    <a href="../issue-44/" class="nebula-header__issue">
-      <span class="nebula-header__issue-name">Issue 44</span>
-      <span class="nebula-header__subhead">Winter 2025</span>
-    </a>
-    
-    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu" aria-controls="nebula-nav-panel">
-      <span>Mythaxis</span>
-      <span class="nebula-header__logo-roundel" aria-hidden="true"></span>
-    </button>
-  </div>
+<header id="header">
+	
+    <a href='../issue-44/' class="logo">Mythaxis Magazine Issue 44</a>
+	
 </header>
 
 
       
 
 
-<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Site navigation">
-  <div class="nebula-nav-panel__content">
-    <div class="nebula-nav-panel__logotype">
-      <span>Mythaxis</span>
-      <span class="nebula-nav-panel__logotype-roundel" aria-hidden="true"></span>
-    </div>
-    <ul class="nebula-nav-panel__links">
-      
-      
-      <li>
-        <a href="../" class="nebula-nav-panel__link ">Home</a>
-      </li>
-      
+<nav id="nav">
+    <ul class="links">
+        
+        
+        
+        <li >
+            <a href="../" class="">
+                <span>Home</span>
+            </a>
+        </li>
+        
 
-      
-      
-          
-          
-            
-      <li>
-        <a href="../issue-44/editorial.html" class="nebula-nav-panel__link ">Editorial</a>
-      </li>
-          
-            
-      <li>
-        <a href="../issue-44/contents.html" class="nebula-nav-panel__link active">Contents</a>
-      </li>
-          
         
-      
+        
+        
+            
+            <li >
+                <a href="../issue-44/editorial.html" class="">
+                    <span>Editorial</span>
+                </a>
+            </li>
+        
+            
+            <li class="active">
+                <a href="../issue-44/contents.html" class="active">
+                    <span>Contents</span>
+                </a>
+            </li>
+        
+        
 
-      
-      
         
-      <li>
-        <a href="../archive.html" class="nebula-nav-panel__link ">Archive</a>
-      </li>
-      
         
-      <li>
-        <a href="../submissions.html" class="nebula-nav-panel__link ">Submissions</a>
-      </li>
-      
+            
+            <li >
+                <a href="../archive.html" class="">
+                    <span>Archive</span>
+                </a>
+            </li>
         
-      <li>
-        <a href="../about.html" class="nebula-nav-panel__link ">About</a>
-      </li>
-      
+            
+            <li >
+                <a href="../submissions.html" class="">
+                    <span>Submissions</span>
+                </a>
+            </li>
+        
+            
+            <li >
+                <a href="../about.html" class="">
+                    <span>About</span>
+                </a>
+            </li>
+        
     </ul>
-    <div class="nebula-nav-panel__roundel">
-      <img src="../images/roundels/MythaxisIcon.svg" alt="" aria-hidden="true" />
-    </div>
-  </div>
-</div>
-
-
-<div class="nebula-nav-backdrop" id="nebula-nav-backdrop"></div>
+</nav>
 
 
 
       
       <div id="main">
+        <section class="post">
+    <header class="major">
+        <img src="../themes/horizon2020/toplist.svg" />
+        <h1>Table of Contents</h1>
         
-
-
-<div class="nebula-page-hero">
-  <div class="landing-header__hero">
-    <img src="../issue-44/images/Sanka_footsteps_sqr.jpg"
-         alt="Issue 44"
-         class="landing-header__image"
-         loading="eager"
-         decoding="sync" />
-  </div>
-</div>
-
-
-
-<section class="post nebula-page nebula-toc">
-    <header class="nebula-page-header">
-        <h1 class="nebula-page-title">Issue 44</h1>
-        <div class="nebula-article-divider">
-            <img src="../images/roundels/MythaxisIcon.svg"
-                 class="nebula-article-divider__roundel"
-                 alt=""
-                 aria-hidden="true" />
-        </div>
+        
     </header>
 
     
-    
-    <div class="nebula-toc-preamble">
-        <p>What did I say last time out? That it&rsquo;s time to wind down the editorialising in favour of the things that really matter, like enjoying great creative writing and maybe even doing a bit more of my own? Yeah, I think that about sums it up.</p>
-<p>On the subject of the first, we do indeed have six great new stories. As well as delivering your crime neat they also mix it with comedy, horror and science fiction, including pieces from one returning contributor and one debutant to the fiction scene. Plus we of course have another longform non-fiction essay and a cluster of bite-sized recommendations from amongst the crime shorts I&rsquo;ve read elsewhere online.</p>
-<p>In fact, 2025 has predominantly been about crime reading for me. Of the nearly 70 books I&rsquo;ll have finished come the end of the year, 40 were crime novels of one variety or another, two were collections of classic shorts (Dashiell Hammett&rsquo;s <em>The Continental Op</em> and <em>Raffles: The Amateur Cracksman</em> by E. W. Hornung, this last pair contemporaries of Sherlock Holmes and Arthur Conan-Doyle respectively), and one a novella (<em>Leystone</em> by Stephen Volk, whom I intend to read much more of in 2026). I won&rsquo;t go into detail about the novels here, because several will feature in <a href="https://cartesiantheatre.wordpress.com/">my largely defunct blog</a>&rsquo;s single annual post presenting my top ten reads, and I wouldn&rsquo;t want to spoil <em>that</em>.</p>
-<p>This shift from reading mostly speculative fiction is no coincidence, as the uptick in my crime reading over the last few years has coincided with an increasing urge to venture out with my writing into the genre. In <a href="https://mythaxis.co.uk/issue-40/editorial.html">my previous crime issue editorial</a>, I didn&rsquo;t so much swallow my pride as vomit it forth due to the sale of my first short crime story – a tale of drug dealing at a late-90s rural disco called <strong>The Ends</strong>, now available in the <strong><a href="https://deadinkbooks.com/product/motives-unknown-a-northern-crime-anthology/">Motives Unknown</a></strong> anthology. And it&rsquo;s a nice collection, my pride only increased after I had a chance to read the pieces it was buried with. You should go support <em>Dead Ink Books</em> and buy a copy!</p>
-<p>Since then, I&rsquo;ve been planning a novel spinning off characters from <em>The Ends</em>, strongly inspired by the writing of Derek Raymond, from whose <em>Factory</em> series came one of my favourite books of the year. I also finished the first draft of a short genre-straddling fantasy/action/legal thriller novel, now undergoing revision into a not-so-short version of the same. If you&rsquo;re reading these words before New Year&rsquo;s Eve, there&rsquo;s a pretty good chance I&rsquo;m working on draft two as you finish this sentence.</p>
-<p>If you&rsquo;re reading these words after New Year&rsquo;s Eve… let&rsquo;s be honest, I&rsquo;m probably <em>still</em> working on it.</p>
-<p>Anyway, that&rsquo;s enough for this supposed-to-be-vestigial editorial. Forgive me as I take a final moment of your time in order to thank: you, for reading our stories; our contributors, for writing them; Micah Hyatt, for his fantastic audio production efforts; and Marty Steer, without whose work behind the scenes <em>Mythaxis</em> would long since have become a nostalgic memory.</p>
-<h3 id="i-wish-you-all-a-happy-new-year">I wish you all a <em>Happy New Year!</em></h3>
 
-    </div>
-    
+    <p>;-p~</p>
 
     
-    
-    <div class="nebula-toc-manual">
-        <ul>
-<li><a href="../issue-44/the-witness.html">The Witness</a>, by Donald McCarthy</li>
-<li><a href="../issue-44/shooter.html">Shooter</a>, by Mark H. Harris</li>
-<li><a href="../issue-44/twelve-gauge-tune-up.html">Twelve Gauge Tune-up</a>, by Devin James Leonard</li>
-<li><a href="../issue-44/mad-gods-and-englishmen.html">Mad Gods &amp; Englishmen</a>, by Shamus Maxwell</li>
-<li><a href="../issue-44/smart-contract.html">Smart Contract</a>, by Angus McIntyre</li>
-<li><a href="../issue-44/the-valkyries-lesson.html">The Valkyrie&rsquo;s Lesson</a>, by Ayame</li>
-<li><a href="../issue-44/payment-deferred-c-s-forester.html">Payment Deferred, by C. S. Forester</a>, reviewed by Bill Ryan</li>
-<li><a href="../issue-44/short-reviews-crime-fiction-in-2025.html">Short Reviews – Crime Fiction in 2025</a>, by Andrew Leon Hudson</li>
-</ul>
+	
 
-    </div>
-    
+	
 
-    
-    
-    <nav class="nebula-toc-list" aria-label="Table of Contents">
-        <a href="../issue-44/the-witness.html"
-           class="nebula-toc-pill nebula-toc-pill--stock"
-           >
-            <span class="nebula-toc-pill__title" data-text="The Witness">The Witness</span>
-            <span class="nebula-toc-pill__meta">
-                
-                <span class="nebula-toc-pill__author">Donald McCarthy</span>
-                
-                
-                
-            </span>
-        </a>
-        <a href="../issue-44/shooter.html"
-           class="nebula-toc-pill nebula-toc-pill--stock"
-           >
-            <span class="nebula-toc-pill__title" data-text="Shooter">Shooter</span>
-            <span class="nebula-toc-pill__meta">
-                
-                <span class="nebula-toc-pill__author">Mark H. Harris</span>
-                
-                
-                
-            </span>
-        </a>
-        <a href="../issue-44/twelve-gauge-tune-up.html"
-           class="nebula-toc-pill nebula-toc-pill--stock"
-           >
-            <span class="nebula-toc-pill__title" data-text="Twelve Gauge Tune-up">Twelve Gauge Tune-up</span>
-            <span class="nebula-toc-pill__meta">
-                
-                <span class="nebula-toc-pill__author">Devin James Leonard</span>
-                
-                
-                
-            </span>
-        </a>
-        <a href="../issue-44/mad-gods-and-englishmen.html"
-           class="nebula-toc-pill nebula-toc-pill--stock"
-           >
-            <span class="nebula-toc-pill__title" data-text="Mad Gods &amp; Englishmen">Mad Gods &amp; Englishmen</span>
-            <span class="nebula-toc-pill__meta">
-                
-                <span class="nebula-toc-pill__author">Shamus Maxwell</span>
-                
-                
-                
-            </span>
-        </a>
-        <a href="../issue-44/smart-contract.html"
-           class="nebula-toc-pill nebula-toc-pill--stock"
-           >
-            <span class="nebula-toc-pill__title" data-text="Smart Contract">Smart Contract</span>
-            <span class="nebula-toc-pill__meta">
-                
-                <span class="nebula-toc-pill__author">Angus McIntyre</span>
-                
-                
-                
-            </span>
-        </a>
-        <a href="../issue-44/the-valkyries-lesson.html"
-           class="nebula-toc-pill nebula-toc-pill--stock"
-           >
-            <span class="nebula-toc-pill__title" data-text="The Valkyrie&#39;s Lesson">The Valkyrie&#39;s Lesson</span>
-            <span class="nebula-toc-pill__meta">
-                
-                <span class="nebula-toc-pill__author">Ayame</span>
-                
-                
-                
-            </span>
-        </a>
-        <a href="../issue-44/payment-deferred-c-s-forester.html"
-           class="nebula-toc-pill nebula-toc-pill--review"
-           >
-            <span class="nebula-toc-pill__title" data-text="Payment Deferred, by C. S. Forester">Payment Deferred, by C. S. Forester</span>
-            <span class="nebula-toc-pill__meta">
-                
-                <span class="nebula-toc-pill__author">Bill Ryan</span>
-                
-                <span class="nebula-toc-pill__badge">Review</span>
-                
-            </span>
-        </a>
-        <a href="../issue-44/short-reviews-crime-fiction-in-2025.html"
-           class="nebula-toc-pill nebula-toc-pill--review"
-           >
-            <span class="nebula-toc-pill__title" data-text="Short Reviews – Crime Fiction in 2025">Short Reviews – Crime Fiction in 2025</span>
-            <span class="nebula-toc-pill__meta">
-                
-                <span class="nebula-toc-pill__author">Andrew Leon Hudson</span>
-                
-                <span class="nebula-toc-pill__badge">Review</span>
-                
-            </span>
-        </a>
-        
-    </nav>
-    
 
-    <div class="story-divider">
-      <img src="../images/roundels/MythaxisIcon.svg"
-           class="story-divider__roundel roundel-animate"
-           alt=""
-           aria-hidden="true" />
-    </div>
 </section>
-
-
-<div class="story-end story-end--listings" id="story-end">
-  
-  <div class="story-end__hero">
-    <img src="../issue-44/images/Sanka_footsteps_sqr.jpg"
-         alt=""
-         aria-hidden="true"
-         class="story-end__image"
-         loading="lazy"
-         decoding="async" />
-  </div>
-  
-
-  <div class="story-end__fade"></div>
-
-  <div class="story-end__author">
-    
-	
-
-	
-
-
-  </div>
-
-  <div class="story-end__copyright">
-    
-
-<div class="nebula-copyright">
-    <div class="nebula-copyright-content">
-        <p class="nebula-copyright-main">
-            © 2026 <strong>Mythaxis Magazine</strong>. All Rights Reserved.
-        </p>
-        <p class="nebula-copyright-secondary">
-            Portions of this site are copyrighted to third parties.
-        </p>
-        <p class="nebula-copyright-notice">
-            Theme: nebula2026
-            <span class="nebula-copyright-divider">•</span>
-            This site uses Google Analytics.
-        </p>
-    </div>
-</div>
-
-  </div>
-</div>
 
       </div>
       
       
+
+
+<div id="copyright">
+    <ul>
+        <li>Copyright © Mythaxis Magazine 2026 All Rights Reserved</li>
+        <li>Portions of this site are copyrighted to third parties</li>
+        <li>Theme: <a href="https://web.archive.org/web/20210423113558/https://themes.gohugo.io/hugo-theme-massively/">HTML5 UP Massively</a></li>
+        <li>This site uses Google analytics</li>
+    </ul>
+</div>
+
       <a href="#navPanel" id="navPanelToggle">Menu</a>
     </div>
 
@@ -380,7 +251,9 @@
 
 
 
-<script src="../js/nebula2026.bundle.min.fd16f7f5a07e688d1ba82b4456f6af12376bf4709d563eced379d382bbf921c3.js" defer></script>
+
+<script src='../assets/js/bundle.js'></script>
+
 
 
 
