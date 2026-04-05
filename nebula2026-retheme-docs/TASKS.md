@@ -317,6 +317,21 @@
   - [x] 42.5 Increase `.nebula-author-bio` font size to match body content (was 0.875rem → 1.125rem)
   - [x] 42.6 Leave `.nebula-copyright-text` small — no change
 
+### Intro & Frontpage Polish
+
+- [x] **44.0** Intro subtitle position override
+  - [x] 44.1 Add `introSubtitlePosition: left|center|right` frontmatter
+  - [x] 44.2 CSS override classes with specificity to beat `:has()` rules
+
+- [x] **45.0** Frontpage card link control
+  - [x] 45.1 Add `cardLink: true|false` frontmatter — disables `<a>` on image + title
+  - [x] 45.2 Fallback to `<span>` with same chromatic styling when `cardLink: false`
+  - [x] 45.3 CSS `span` selectors mirror `a` selectors for content-row titles
+
+- [x] **46.0** Frontpage title and author size bump
+  - [x] 46.1 Content-row titles: `clamp(1.375rem, 2vw+0.5rem, 1.625rem)`, mobile `1.5rem`
+  - [x] 46.2 All author names: `1.125rem` (split-lead, content-row, featured)
+
 ### Frontpage
 
 - [ ] **32.0** Featured row + editorial card on frontpage — plan complete, see `PLAN-featured-editorial-cards.md`
@@ -326,17 +341,27 @@
   - [ ] 32.4 Add `cardLayout: editorial-left` to issue-45 editorial frontmatter
   - [ ] 32.5 Test all variants (featured/editorial x left/right/center) at mobile + desktop
 
-### TOC / Contents Page
+### Menu, TOC & Editorial System
 
-- [ ] **33.0** Restyle TOC page — fancy, auto-generated
-  - [ ] 33.1 Design new TOC layout with visual hierarchy
-  - [ ] 33.2 Auto-group content under subheads: Editorial, Reviews, Stories (stock)
-  - [ ] 33.3 Use issue colour scheme and roundels in TOC design
+> Plan: `PLAN-menu-editorial-toc.md`
 
-- [ ] **34.0** Automatic TOC page/shortcode/template
-  - [ ] 34.1 Create Hugo template that auto-generates TOC from section pages
-  - [ ] 34.2 Group by content type (editorial / review / stock) with subheadings
-  - [ ] 34.3 Consider shortcode for embedding TOC in other pages
+- [ ] **33.0** Nav panel menu — Hugo native `menus: issue` with fallback
+  - [ ] 33.1 Update `nav.html`: iterate `site.Menus.issue` filtered to current section
+  - [ ] 33.2 Fallback: if no `menus: issue` items, use legacy slug query (`slug IN ("editorial", "contents")`)
+  - [ ] 33.3 Add `menus: issue` to congratulations issue content (contents.md, editorial.md if needed)
+  - [ ] 33.4 Test: congratulations menu shows items; issue-44 still works via fallback; horizon2020 unaffected
+
+- [ ] **34.0** Auto-TOC page with editorial preamble and bespoke design
+  - [ ] 34.1 Create `toc-page.html` partial — dispatched from `page-single.html` when `slug == "contents"`
+  - [ ] 34.2 Editorial preamble: find editorial page in section, inject `.Content` as text-only preamble (no image)
+  - [ ] 34.3 Auto-TOC: query section pages (stock + review), sort by weight, render as pill-shaped items
+  - [ ] 34.4 Pill design: title + author, per-story `colorScheme.primary` accent, Basalte chromatic font
+  - [ ] 34.5 Content type visual distinction: reviews/editorials noticeably different from stock stories
+  - [ ] 34.6 Manual content: if `contents.md` has body text, render between preamble and auto-TOC
+  - [ ] 34.7 TOC works without editorial page (preamble simply omitted)
+  - [ ] 34.8 Responsive: stacked pills on mobile, grid/stagger on desktop
+  - [ ] 34.9 Hover/focus micro-interactions
+  - [ ] 34.10 Backward compat: horizon2020 contents pages render via their own `page-single.html` — unaffected
 
 ### Hugo Optimisation
 

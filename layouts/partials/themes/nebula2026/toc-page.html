@@ -1,0 +1,158 @@
+{{/*
+  Nebula2026 Theme - TOC Page
+  ===========================
+  Auto-generated Table of Contents with editorial preamble.
+  Dispatched from page-single.html when slug == "contents".
+
+  Features:
+    - Editorial preamble: injects editorial page .Content (text only, no image)
+    - Manual content: renders contents.md body between preamble and auto-TOC
+    - Auto-TOC: queries section pages (stock + review), sorted by weight
+    - Pill-shaped items with per-story colorScheme accent and Basalte font
+    - Content type designed into pills (stock vs review vs editorial)
+
+  Expects context from theme-dispatch:
+    .Page    - The contents page
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Any extra data passed
+*/}}
+
+{{- $page := .Page -}}
+{{- $section := .Section -}}
+
+{{/* Resolve issue-level colour tokens */}}
+{{- $issuePrimary := "" -}}
+{{- $issueSecondary := "" -}}
+{{- $issueAccent := "" -}}
+{{- with $section -}}
+  {{- with .Params.colorScheme -}}
+    {{- $issuePrimary = .primary | default "" -}}
+    {{- $issueSecondary = .secondary | default "" -}}
+    {{- $issueAccent = .accent | default "" -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* Resolve issue roundel */}}
+{{- $defaultRoundel := site.Params.issueRoundel | default "MythaxisIcon" -}}
+{{- $issueRoundel := $defaultRoundel -}}
+{{- with $section -}}
+  {{- $issueRoundel = .Params.issueRoundel | default $defaultRoundel -}}
+{{- end -}}
+
+{{/* Find the editorial page in this section (if any) */}}
+{{- $editorial := false -}}
+{{- range where (where site.RegularPages "Section" $section.Section) ".Type" "editorial" -}}
+  {{- $editorial = . -}}
+{{- end -}}
+
+{{/* Collect displayable pages: stock + review + editorial (excluding the preamble editorial) */}}
+{{- $tocPages := slice -}}
+{{- range sort (where (where site.RegularPages "Section" $section.Section) ".Type" "in" (slice "stock" "review" "editorial")) "Weight" "asc" -}}
+  {{- if and $editorial (eq .RelPermalink $editorial.RelPermalink) -}}
+    {{/* Skip the editorial used as preamble */}}
+  {{- else -}}
+    {{- $tocPages = $tocPages | append . -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* Hero image with parallax support (uses current issue image) */}}
+{{ with $section }}
+{{ if .Params.image }}
+<div class="nebula-page-hero">
+  <div class="landing-header__hero">
+    <img src="{{ path.Join .Section .Params.image | relURL }}"
+         alt="{{ .Params.issue }}"
+         class="landing-header__image"
+         loading="eager"
+         decoding="sync" />
+  </div>
+</div>
+{{ end }}
+{{ end }}
+
+<section class="post nebula-page nebula-toc">
+    <header class="nebula-page-header">
+        <h1 class="nebula-page-title">{{ $section.Params.issue | default $page.Title }}</h1>
+        <div class="nebula-article-divider">
+            <img src="/images/roundels/{{ $issueRoundel }}.svg"
+                 class="nebula-article-divider__roundel"
+                 alt=""
+                 aria-hidden="true" />
+        </div>
+    </header>
+
+    {{/* Editorial preamble — text only */}}
+    {{ with $editorial }}
+    <div class="nebula-toc-preamble">
+        {{ .Content }}
+    </div>
+    {{ end }}
+
+    {{/* Manual content from contents.md (if any) */}}
+    {{ if $page.Content }}
+    <div class="nebula-toc-manual">
+        {{ $page.Content }}
+    </div>
+    {{ end }}
+
+    {{/* Auto-generated TOC pills */}}
+    {{ if $tocPages }}
+    <nav class="nebula-toc-list" aria-label="Table of Contents">
+        {{ range $tocPages }}
+        {{- $type := .Type -}}
+        {{- $primary := $issuePrimary -}}
+        {{- $secondary := $issueSecondary -}}
+        {{- $accent := $issueAccent -}}
+        {{- with .Params.colorScheme -}}
+          {{- $primary = .primary | default $primary -}}
+          {{- $secondary = .secondary | default $secondary -}}
+          {{- $accent = .accent | default $accent -}}
+        {{- end -}}
+        <a href="{{ .Permalink }}"
+           class="nebula-toc-pill nebula-toc-pill--{{ $type }}"
+           {{ if $primary }}style="--pill-primary: {{ $primary }}; --pill-secondary: {{ $secondary }}; --pill-accent: {{ $accent }};"{{ end }}>
+            <span class="nebula-toc-pill__title" data-text="{{ .Title }}">{{ .Title }}</span>
+            <span class="nebula-toc-pill__meta">
+                {{ if .Params.authors }}
+                <span class="nebula-toc-pill__author">{{ collections.Delimit .Params.authors ", " }}</span>
+                {{ end }}
+                {{ if eq $type "review" }}<span class="nebula-toc-pill__badge">Review</span>{{ end }}
+                {{ if eq $type "editorial" }}<span class="nebula-toc-pill__badge">Editorial</span>{{ end }}
+            </span>
+        </a>
+        {{ end }}
+    </nav>
+    {{ end }}
+
+    <div class="story-divider">
+      <img src="/images/roundels/MythaxisIcon.svg"
+           class="story-divider__roundel roundel-animate"
+           alt=""
+           aria-hidden="true" />
+    </div>
+</section>
+
+{{/* Footer area with fixed issue image backdrop */}}
+<div class="story-end story-end--listings" id="story-end">
+  {{ with $section }}{{ if .Params.image }}
+  <div class="story-end__hero">
+    <img src="{{ path.Join .Section .Params.image | relURL }}"
+         alt=""
+         aria-hidden="true"
+         class="story-end__image"
+         loading="lazy"
+         decoding="async" />
+  </div>
+  {{ end }}{{ end }}
+
+  <div class="story-end__fade"></div>
+
+  <div class="story-end__author">
+    {{ partial "authorfooter" $page }}
+  </div>
+
+  <div class="story-end__copyright">
+    {{ partial "copyright" $page }}
+  </div>
+</div>

@@ -3,10 +3,11 @@ title: "Table of Contents"
 date: 2026-04-05
 issue: Congratulations
 
-description: 
+description:
 
 type: page
 slug: contents
+menus: issue
 ---
 
 - [25 Peppercorns]({{< relref path="25-peppercorns.md" >}}), from Issue 43

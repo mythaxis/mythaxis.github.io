@@ -34,14 +34,32 @@
       </li>
       {{ end }}
 
-      {{/* Section-specific */}}
+      {{/* Section-specific: Hugo menus.issue with fallback to legacy slug query */}}
       {{ with $section }}
-      {{ range where (where $page.Site.RegularPages "Section" .Section) "Slug" "in" (slice "editorial" "contents") }}
-        {{ $active := eq $page.RelPermalink .RelPermalink }}
+        {{- $sectionName := .Section -}}
+        {{- $issueItems := slice -}}
+        {{- range site.Menus.issue -}}
+          {{- if and .Page (eq .Page.Section $sectionName) -}}
+            {{- $issueItems = $issueItems | append . -}}
+          {{- end -}}
+        {{- end -}}
+        {{ if $issueItems }}
+          {{/* New system: menus.issue frontmatter */}}
+          {{ range $issueItems }}
+            {{ $active := eq $page.RelPermalink .Page.RelPermalink }}
+      <li>
+        <a href="{{ .Page.RelPermalink }}" class="nebula-nav-panel__link {{ if $active }}active{{ end }}">{{ .Name | default .Page.Title }}</a>
+      </li>
+          {{ end }}
+        {{ else }}
+          {{/* Fallback: legacy slug-based query for issues without menus.issue */}}
+          {{ range where (where $page.Site.RegularPages "Section" $sectionName) "Slug" "in" (slice "editorial" "contents") }}
+            {{ $active := eq $page.RelPermalink .RelPermalink }}
       <li>
         <a href="{{ .RelPermalink }}" class="nebula-nav-panel__link {{ if $active }}active{{ end }}">{{ .Slug | title }}</a>
       </li>
-      {{ end }}
+          {{ end }}
+        {{ end }}
       {{ end }}
 
       {{/* Global */}}

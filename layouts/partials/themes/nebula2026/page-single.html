@@ -13,6 +13,12 @@
 {{- $page := .Page -}}
 {{- $section := .Section -}}
 
+{{/* Dispatch to TOC layout for contents pages */}}
+{{- if and (eq $page.Slug "contents") $section -}}
+  {{- partial "themes/nebula2026/toc-page" . -}}
+  {{- return -}}
+{{- end -}}
+
 {{/* Hero image with parallax support (uses current issue image) */}}
 {{ with $section }}
 {{ if .Params.image }}

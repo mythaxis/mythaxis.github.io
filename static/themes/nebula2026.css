@@ -1170,6 +1170,200 @@ img[alt$="-lrg"] {
 }
 
 
+/* TOC Page — Auto-generated Table of Contents
+   ========================================================================== */
+
+.nebula-toc {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Editorial preamble */
+.nebula-toc-preamble {
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    padding: 0 2rem;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--color-text);
+    text-align: center;
+}
+
+.nebula-toc-preamble p {
+    margin-bottom: 1rem;
+}
+
+.nebula-toc-preamble h2 {
+    font-family: 'Basalte', var(--font-secondary);
+    font-size: clamp(1.5rem, 2.5vw + 0.5rem, 2rem);
+    text-transform: uppercase;
+    color: var(--color-primary);
+    margin: 1.5rem 0 1rem;
+}
+
+/* Manual contents.md content */
+.nebula-toc-manual {
+    max-width: 700px;
+    margin: 0 auto 2.5rem;
+    padding: 0 2rem;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--color-text-light);
+    text-align: center;
+}
+
+/* Pill list */
+.nebula-toc-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 1.5rem;
+    margin: 0 auto 3rem;
+    max-width: 700px;
+}
+
+/* Individual pill */
+.nebula-toc-pill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.125rem 1.75rem;
+    border-radius: 100px;
+    text-decoration: none;
+    border: 2px solid var(--pill-primary, var(--color-primary));
+    background: transparent;
+    transition: background 0.25s ease, border-color 0.25s ease, transform 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.nebula-toc-pill:hover {
+    background: var(--pill-primary, var(--color-primary));
+    transform: translateX(4px);
+}
+
+.nebula-toc-pill:focus-visible {
+    outline: 2px solid var(--pill-primary, var(--color-primary));
+    outline-offset: 3px;
+}
+
+/* Pill title — Basalte chromatic layering */
+.nebula-toc-pill__title {
+    font-family: 'Basalte', var(--font-secondary);
+    font-size: clamp(1.125rem, 1.5vw + 0.5rem, 1.375rem);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: var(--pill-primary, var(--color-primary));
+    position: relative;
+    display: inline-block;
+    text-shadow: 0.06em 0.06em 0 var(--pill-accent, var(--color-accent));
+    transition: color 0.25s ease, text-shadow 0.25s ease;
+}
+
+/* Chromatic Volume overlay */
+.nebula-toc-pill__title::after {
+    content: attr(data-text);
+    font-family: 'Basalte Volume', var(--font-secondary);
+    color: var(--pill-secondary, var(--color-secondary));
+    position: absolute;
+    left: 0;
+    top: 0;
+    pointer-events: none;
+    text-shadow: none;
+    transition: color 0.25s ease;
+}
+
+/* Hover: invert title colours to white */
+.nebula-toc-pill:hover .nebula-toc-pill__title {
+    color: #fff;
+    text-shadow: none;
+}
+
+.nebula-toc-pill:hover .nebula-toc-pill__title::after {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/* Meta line (author + badge) */
+.nebula-toc-pill__meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-shrink: 0;
+}
+
+.nebula-toc-pill__author {
+    font-size: 0.875rem;
+    font-style: italic;
+    color: var(--color-text-light);
+    white-space: nowrap;
+    transition: color 0.25s ease;
+}
+
+.nebula-toc-pill:hover .nebula-toc-pill__author {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Type badge (review / editorial) */
+.nebula-toc-pill__badge {
+    font-size: 0.6875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding: 0.2em 0.65em;
+    border-radius: 100px;
+    border: 1.5px solid var(--pill-primary, var(--color-primary));
+    color: var(--pill-primary, var(--color-primary));
+    white-space: nowrap;
+    transition: color 0.25s ease, border-color 0.25s ease;
+}
+
+.nebula-toc-pill:hover .nebula-toc-pill__badge {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+/* Review pill — dashed border for distinction */
+.nebula-toc-pill--review {
+    border-style: dashed;
+}
+
+/* Editorial pill — double border for distinction */
+.nebula-toc-pill--editorial {
+    border-width: 3px;
+    border-style: double;
+}
+
+/* Mobile TOC */
+@media (max-width: 736px) {
+    .nebula-toc-list {
+        padding: 0 1rem;
+    }
+
+    .nebula-toc-pill {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+        padding: 1rem 1.25rem;
+        border-radius: 1.5rem;
+    }
+
+    .nebula-toc-pill__title {
+        font-size: 1.125rem;
+    }
+
+    .nebula-toc-pill__meta {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .nebula-toc-preamble {
+        padding: 0 1.25rem;
+    }
+}
+
+
 /* Catalogue / Taxonomy Pages (authors, catalogue, editorials, genres)
    ========================================================================== */
 
@@ -1794,7 +1988,8 @@ img[alt$="-lrg"] {
     .nebula-content-row__title--featured a::after,
     .nebula-content-row__title--featured span::after,
     .nebula-content-row__title a::after,
-    .nebula-content-row__title span::after {
+    .nebula-content-row__title span::after,
+    .nebula-toc-pill__title::after {
         display: none !important;
     }
 
