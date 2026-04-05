@@ -292,6 +292,11 @@ img[alt$="-lrg"] {
 .nebula-intro:has(.nebula-intro-content--center-right) .nebula-subtitle,
 .nebula-intro:has(.nebula-intro-content--bottom-right) .nebula-subtitle { align-self: flex-end; }
 
+/* Explicit subtitle position override — specificity must beat the :has() rules above (0,3,0) */
+.nebula-intro .nebula-subtitle.nebula-subtitle--left { align-self: flex-start; }
+.nebula-intro .nebula-subtitle.nebula-subtitle--center { align-self: center; }
+.nebula-intro .nebula-subtitle.nebula-subtitle--right { align-self: flex-end; }
+
 /* Edge positions: extra padding to keep text away from viewport edges */
 .nebula-intro:has(.nebula-intro-content--top-left),
 .nebula-intro:has(.nebula-intro-content--top-center),

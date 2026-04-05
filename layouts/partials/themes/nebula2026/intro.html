@@ -64,7 +64,7 @@
     {{ end }}
 
     <div class="nebula-intro-content nebula-intro-content--{{ .Params.introPosition | default "center" }}{{ with .Params.introPositionMobile }} nebula-intro-content--mob-{{ . }}{{ end }}">
-        <a href="#main" class="nebula-subtitle scrolly" aria-label="{{ .Params.subhead }} — scroll to content">{{ .Params.subhead }}</a>
+        <a href="#main" class="nebula-subtitle scrolly{{ with .Params.introSubtitlePosition }} nebula-subtitle--{{ . }}{{ end }}" aria-label="{{ .Params.subhead }} — scroll to content">{{ .Params.subhead }}</a>
         <h1 class="nebula-title">
             <a href="#main" class="nebula-title__link scrolly" aria-label="Mythaxis — scroll to content">
                 <span class="nebula-title__myth" data-text="Myth">Myth</span>
