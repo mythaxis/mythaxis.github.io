@@ -345,23 +345,24 @@
 
 > Plan: `PLAN-menu-editorial-toc.md`
 
-- [ ] **33.0** Nav panel menu — Hugo native `menus: issue` with fallback
-  - [ ] 33.1 Update `nav.html`: iterate `site.Menus.issue` filtered to current section
-  - [ ] 33.2 Fallback: if no `menus: issue` items, use legacy slug query (`slug IN ("editorial", "contents")`)
-  - [ ] 33.3 Add `menus: issue` to congratulations issue content (contents.md, editorial.md if needed)
-  - [ ] 33.4 Test: congratulations menu shows items; issue-44 still works via fallback; horizon2020 unaffected
+- [x] **33.0** Nav panel menu — Hugo native `menus: issue` with fallback
+  - [x] 33.1 Update `nav.html`: iterate `site.Menus.issue` filtered to current section
+  - [x] 33.2 Fallback: if no `menus: issue` items, use legacy slug query (`slug IN ("editorial", "contents")`)
+  - [x] 33.3 Add `menus: issue` to congratulations issue content (contents.md)
+  - [x] 33.4 Test: congratulations menu shows items; issue-44 still works via fallback; horizon2020 unaffected
 
-- [ ] **34.0** Auto-TOC page with editorial preamble and bespoke design
-  - [ ] 34.1 Create `toc-page.html` partial — dispatched from `page-single.html` when `slug == "contents"`
-  - [ ] 34.2 Editorial preamble: find editorial page in section, inject `.Content` as text-only preamble (no image)
-  - [ ] 34.3 Auto-TOC: query section pages (stock + review), sort by weight, render as pill-shaped items
-  - [ ] 34.4 Pill design: title + author, per-story `colorScheme.primary` accent, Basalte chromatic font
-  - [ ] 34.5 Content type visual distinction: reviews/editorials noticeably different from stock stories
-  - [ ] 34.6 Manual content: if `contents.md` has body text, render between preamble and auto-TOC
-  - [ ] 34.7 TOC works without editorial page (preamble simply omitted)
-  - [ ] 34.8 Responsive: stacked pills on mobile, grid/stagger on desktop
-  - [ ] 34.9 Hover/focus micro-interactions
-  - [ ] 34.10 Backward compat: horizon2020 contents pages render via their own `page-single.html` — unaffected
+- [x] **34.0** Auto-TOC page with editorial preamble and bespoke design
+  - [x] 34.1 Create `toc-page.html` partial — dispatched from `page-single.html` when `slug == "contents"`
+  - [x] 34.2 Editorial preamble: find editorial page in section, inject `.Content` as text-only preamble (no image)
+  - [x] 34.3 Auto-TOC: query section pages (stock + review), sort by weight, render as pill-shaped items
+  - [x] 34.4 Pill design: title + author, per-story `colorScheme.primary` accent, Basalte chromatic font
+  - [x] 34.5 Content type visual distinction: reviews = dashed border + badge, editorials = double border + badge
+  - [x] 34.6 Manual content: if `contents.md` has body text, render between preamble and auto-TOC
+  - [x] 34.7 TOC works without editorial page (preamble simply omitted)
+  - [x] 34.8 Responsive: stacked pills on mobile, rounded corners
+  - [x] 34.9 Hover/focus micro-interactions (fill + translateX + colour invert)
+  - [x] 34.10 Backward compat: horizon2020 contents pages render via their own `page-single.html` — unaffected
+  - [x] 34.11 Fix: `if/else` dispatch instead of `return` (Hugo partials don't support early return)
 
 ### Hugo Optimisation
 
