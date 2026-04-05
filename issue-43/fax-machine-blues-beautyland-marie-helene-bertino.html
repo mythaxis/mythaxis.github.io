@@ -13,20 +13,49 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	
 	
+	<link rel="stylesheet" href='../assets/css/main.min.css'>
+	<noscript><link rel="stylesheet" href='../assets/css/noscript.css' /></noscript>
+	
 	<link rel="icon" href='../favicon.ico' type="image/x-icon">
 
 	
-<link rel="stylesheet" href='../themes/nebula2026.css' />
+<link rel="stylesheet" href='../themes/horizon2020.css' />
 
 
 <style type="text/css">
+	#wrapper > .bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: 
+			linear-gradient(0deg,
+				rgba(255,255,255,1) 5%,
+				rgba(255,255,255,0.50) 10%,
+				rgba(255,255,255,0) 20%
+			)
+			,
+			url(images/synthwave.jpg);
+		background-size: auto, 100% auto;
+		background-position: bottom, top center;
+		background-repeat: no-repeat, no-repeat;
+		background-attachment: no-scroll, scroll;
+	}
 
-.theme-nebula2026 {
-    
-}
+	
+	@media screen and (max-width: 980px) {
+		#wrapper > .bg {
+		    background-image: url(images/synthwave_mob.jpg);
+		}
+	}
+	@media screen and (max-width: 500px) {
+		#wrapper > .bg {
+			background-size: cover;
+		}
+	}
 
-
-
+	
 </style>
 
 	
@@ -54,172 +83,104 @@
 
 </head>
 
-  <body lang='en' class="is-preload theme-nebula2026">
-    <a href="#main" class="skip-to-content">Skip to content</a>
+  <body lang='en' class="is-preload theme-horizon2020">
+    
     
     <div id="wrapper">
       
 
 
-<header id="header" class="nebula-header">
-  <div class="nebula-header__container">
-    
-    <a href="../issue-43/" class="nebula-header__issue">
-      <span class="nebula-header__issue-name">Issue 43</span>
-      <span class="nebula-header__subhead">Autumn 2025</span>
-    </a>
-    
-    <button class="nebula-header__logo" id="nebula-menu-trigger" aria-label="Open menu" aria-controls="nebula-nav-panel">
-      <span>Mythaxis</span>
-      <span class="nebula-header__logo-roundel" aria-hidden="true"></span>
-    </button>
-  </div>
+<header id="header">
+	
+    <a href='../issue-43/' class="logo">Mythaxis Magazine Issue 43</a>
+	
 </header>
 
 
       
 
 
-<div class="nebula-nav-panel" id="nebula-nav-panel" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Site navigation">
-  <div class="nebula-nav-panel__content">
-    <div class="nebula-nav-panel__logotype">
-      <span>Mythaxis</span>
-      <span class="nebula-nav-panel__logotype-roundel" aria-hidden="true"></span>
-    </div>
-    <ul class="nebula-nav-panel__links">
-      
-      
-      <li>
-        <a href="../" class="nebula-nav-panel__link ">Home</a>
-      </li>
-      
+<nav id="nav">
+    <ul class="links">
+        
+        
+        
+        <li >
+            <a href="../" class="">
+                <span>Home</span>
+            </a>
+        </li>
+        
 
-      
-      
-      
         
-      <li>
-        <a href="../issue-43/editorial.html" class="nebula-nav-panel__link ">Editorial</a>
-      </li>
-      
         
-      <li>
-        <a href="../issue-43/contents.html" class="nebula-nav-panel__link ">Contents</a>
-      </li>
-      
-      
+        
+            
+            <li >
+                <a href="../issue-43/editorial.html" class="">
+                    <span>Editorial</span>
+                </a>
+            </li>
+        
+            
+            <li >
+                <a href="../issue-43/contents.html" class="">
+                    <span>Contents</span>
+                </a>
+            </li>
+        
+        
 
-      
-      
         
-      <li>
-        <a href="../archive.html" class="nebula-nav-panel__link ">Archive</a>
-      </li>
-      
         
-      <li>
-        <a href="../submissions.html" class="nebula-nav-panel__link ">Submissions</a>
-      </li>
-      
+            
+            <li >
+                <a href="../archive.html" class="">
+                    <span>Archive</span>
+                </a>
+            </li>
         
-      <li>
-        <a href="../about.html" class="nebula-nav-panel__link ">About</a>
-      </li>
-      
+            
+            <li >
+                <a href="../submissions.html" class="">
+                    <span>Submissions</span>
+                </a>
+            </li>
+        
+            
+            <li >
+                <a href="../about.html" class="">
+                    <span>About</span>
+                </a>
+            </li>
+        
     </ul>
-    <div class="nebula-nav-panel__roundel">
-      <img src="../images/roundels/MythaxisKnot.svg" alt="" aria-hidden="true" />
-    </div>
-  </div>
-</div>
-
-
-<div class="nebula-nav-backdrop" id="nebula-nav-backdrop"></div>
+</nav>
 
 
 
       
       <div id="main">
-        <article class="nebula2026-story-single" data-chapter-marker="MythaxisSwords" data-genre="MythaxisSwords">
-
-  
-  <header class="story-header" id="story-header">
-
-    
-    <div class="story-header__hero">
-      <img src="../issue-43/images/Beautyland10x6.jpg"
-           alt="Illustration for Beautyland, by Marie-Helene Bertino"
-           class="story-header__image"
-           loading="eager"
-           decoding="sync" />
-      <div class="story-header__overlay"></div>
-    </div>
-    
-
-    <div class="story-header__content">
-      <div class="story-header__metadata">
-
-        <h1 class="story-header__title">Beautyland, by Marie-Helene Bertino</h1>
-
-        <div class="story-header__byline">
-          
-            
-            
-              <span class="story-header__author">by Mattia Ravasi</span>
-            
-          
-        </div>
-
+        <section class="post">
+    <header class="major">
+        <img src="../themes/horizon2020/toplist.svg" />
+        <h1>Beautyland, by Marie-Helene Bertino</h1>
+        <p>Mattia Ravasi</p>
         
-        <div class="story-header__abstract">
-          <p>Back with his second article of the year, all-too-human Mattia Ravasi takes a close look at one of those infinitely strange and wonderful things that only seem commonplace to us because they are so familiar… I&#39;m referring, of course, to books, in this case Marie-Helene Bertino&#39;s &#39;Beautyland&#39;. What will we glean from his musings, and why are we so keen to know more?</p>
-        </div>
-        
+<img src="../themes/horizon2020/divider.svg" alt="" />
 
-      </div>
-    </div>
 
-  </header>
-
-  
-  <div class="story-header-minimal" id="story-header-minimal">
+    </header>
     
-    <div class="story-header-minimal__bg">
-      <img src="../issue-43/images/Beautyland10x6.jpg"
-           alt=""
-           aria-hidden="true"
-           class="story-header-minimal__image"
-           loading="lazy"
-           decoding="async" />
-      <div class="story-header-minimal__overlay"></div>
+    
+    <div class="image main">
+        <img src="../issue-43/images/Beautyland10x6.jpg" alt="Story image for Beautyland, by Marie-Helene Bertino by " title="Story image for Beautyland, by Marie-Helene Bertino by "/>
     </div>
     
-    <div class="story-header-minimal__content">
-      
-      <div class="story-header-minimal__logotype">
-        <img src="../images/roundels/MythaxisKnot.svg" class="story-header-minimal__issue-roundel" alt="" aria-hidden="true" />
-      </div>
-      
-      <div class="story-header-minimal__info">
-        <h2 class="story-header-minimal__title">Beautyland, by Marie-Helene Bertino</h2>
-        <span class="story-header-minimal__author">
-          Mattia Ravasi
-        </span>
-      </div>
-      <button class="nebula-header__logo nebula-menu-trigger" aria-label="Open menu" aria-controls="nebula-nav-panel">
-        <span>Mythaxis</span>
-        <span class="nebula-header__logo-roundel" aria-hidden="true"></span>
-      </button>
-    </div>
-  </div>
 
-  
-  
+    
 
-  
-  <div class="story-reading">
-    <div class="story-reading__container nebula-article-content">
-      <p><glyph >M</glyph>
+    <p><glyph >M</glyph>
 
 arie-Helene Bertino’s <em>Beautyland</em> opens with a detailed description of the protagonist’s birth: a routine delivery in a Philadelphia hospital, relatively unremarkable if not for one crucial detail. An intrusion in the process; an <em>impulse</em> from far away that makes newborn Adina no conventional baby. The moment of her birth coincides precisely with the launch of the Voyager 1 space probe, sending its “golden disc” recording of the sounds of life on Earth into the space it is meant to photograph and explore. And it seems that, at the same time as humanity is reaching out toward the stars, something reaches out from the opposite direction.</p>
 <p>Fast-forward a few years, and two fateful incidents set Adina on the course of her life’s mission. First, a fax machine is recovered from the neighbors’ trash by her resourceful (and cash-strapped) mother and placed in Adina’s bedroom. Later, after her deadbeat dad pushes her and causes her to fall and hit her head, Adina is “activated”: that night, she visits a strange classroom in her sleep where mysterious entities inform her of her true nature.</p>
@@ -238,141 +199,53 @@ arie-Helene Bertino’s <em>Beautyland</em> opens with a detailed description of
 <p>It’s unsurprising that this quietly charming novel is so obsessed with its leitmotiv of star and space exploration. Throughout its various narrative strands, <em>Beautyland</em> is ultimately a novel about humanity’s relationship with the vast, the awe-inspiring, and the extraordinary: about how we can embrace it and find in it great meaning, and how we can sometimes also come to fear and despise it, gripped as we are by the distractions of our earthly concerns. It’s a novel about the loneliness of a peculiarly crowded cosmos. A fantastic book about different ways of being alien.</p>
 <p><img src="images/Orbit.svg" alt="Orbit-lrg"></p>
 <p><em>Thanks for reading - but we&rsquo;d love feedback! Let us know what you think of Mattia&rsquo;s thoughts at <a href="https://bsky.app/profile/mythaxis.bsky.social">Bluesky</a>.</em></p>
-
-    </div>
-  </div>
-
-  
-  <footer class="story-footer">
-    <div class="story-divider">
-      <img src="../images/roundels/MythaxisKnot.svg"
-           class="story-divider__roundel roundel-animate"
-           alt=""
-           aria-hidden="true" />
-    </div>
-  </footer>
-
-  
-  <div class="story-end" id="story-end">
+          
     
-    
-    <div class="story-end__hero">
-      <img src="../issue-43/images/synthwave.jpg"
-           alt=""
-           aria-hidden="true"
-           class="story-end__image"
-           loading="lazy"
-           decoding="async" />
-    </div>
-    
-
-    
-    <div class="story-end__fade"></div>
-
-    
-    <div class="story-end__author">
-      
 	
 
 	
 		
 			
-				<footer class="nebula-author-footer">
-					<div class="nebula-author-card">
+				<footer class="row author">
+					<h3>Mattia Ravasi</h3>
+					<p>
 						
-						<div class="nebula-author-photo">
-							<img src="../authors/images/mattia-ravasi.jpg" alt="Author image of Mattia Ravasi" />
-						</div>
+						<span class="image left"><img src="../authors/images/mattia-ravasi.jpg" alt="Author image of Mattia Ravasi" title="Author image of Mattia Ravasi"></span>
 						
-						<div class="nebula-author-info">
-							<h3 class="nebula-author-name">Mattia Ravasi</h3>
-							<div class="nebula-author-bio">
-								<em><strong>Mattia Ravasi</strong></em> <em>is from Monza, Italy, and lives and works in Bath. He has written for</em> The Millions, Modern Fiction Studies, <em>and</em> The Submarine. <em>His stories have appeared in independent magazines, including</em> Planet Scumm, Underland Arcana, <em>and</em> Andromeda Spaceways Magazine. <em>He talks about books on his YouTube channel, <a href="https://www.youtube.com/c/thebookchemist">The Bookchemist</a>, and tweets as <a href="https://twitter.com/The_Bookchemist">@thebookchemist</a> too.</em>
-							</div>
-						</div>
-					</div>
 					
-					<div class="nebula-reader-note">
-						<p class="nebula-thanks-text"><em>Thanks for reading - but we'd love feedback! Let us know what you think of <strong>Beautyland, by Marie-Helene Bertino</strong> at <a href="https://bsky.app/profile/mythaxis.bsky.social">Bluesky</a>.</em></p>
-						<p class="nebula-support-text"><strong>Mythaxis</strong> is forever free to read, but if you'd like to support us you can do so <a href="https://ko-fi.com/mythaxismagazine">here</a> (but only if you <em>really</em> want to!)</p>
-					</div>
-					
-					<div class="nebula-copyright-info">
-						
-						<p class="nebula-copyright-text">© Mattia Ravasi 2025 All Rights Reserved</p>
-						
-						
-						<p class="nebula-image-copyright">The image shows author <a href="https://en.wikipedia.org/wiki/Marie-Helene_Bertino">Marie-Helene Bertino</a> and <a href="https://en.wikipedia.org/wiki/Beautyland">the book&rsquo;s cover</a>, both from Wikipedia.</p>
-						
-					</div>
+						<em><strong>Mattia Ravasi</strong></em> <em>is from Monza, Italy, and lives and works in Bath. He has written for</em> The Millions, Modern Fiction Studies, <em>and</em> The Submarine. <em>His stories have appeared in independent magazines, including</em> Planet Scumm, Underland Arcana, <em>and</em> Andromeda Spaceways Magazine. <em>He talks about books on his YouTube channel, <a href="https://www.youtube.com/c/thebookchemist">The Bookchemist</a>, and tweets as <a href="https://twitter.com/The_Bookchemist">@thebookchemist</a> too.</em></p>
+					<p>© Mattia Ravasi 2025 All Rights Reserved</p>
+					<p>The image shows author <a href="https://en.wikipedia.org/wiki/Marie-Helene_Bertino">Marie-Helene Bertino</a> and <a href="https://en.wikipedia.org/wiki/Beautyland">the book&rsquo;s cover</a>, both from Wikipedia.</p>
 				</footer>
 			
 		
 	
 
 
-    </div>
-
     
-    <div class="story-nav-strip-wrap">
-    <nav class="story-nav-strip" aria-label="Story navigation">
-      <div class="story-nav-strip__prev">
-        
-        <a href="../issue-43/the-twelve-blackened-slippers.html" class="story-nav-strip__link" title="The Twelve Blackened Slippers">
-          <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M15 18l-6-6 6-6"/>
-          </svg>
-          <span class="story-nav-strip__title">The Twelve Blackened Slippers</span>
-        </a>
-        
+    
+<p class="align-center">
+    <img src="../themes/horizon2020/divider.svg" alt="" />
+</p>
+
+
+    <p class="align-center"><strong>Mythaxis</strong> is forever free to read, but if you'd like to support us you can do so <a href="https://ko-fi.com/mythaxismagazine">here</a> (but only if you <em>really</em> want to!)</p>
+</section>
+
       </div>
 
-      <a href="../issue-43/contents.html" class="story-nav-strip__toc">
-        Contents
-      </a>
-
-      <div class="story-nav-strip__next">
-        
-        <a href="../issue-43/short-reviews-july-to-september-2025.html" class="story-nav-strip__link" title="Short Reviews – July to September, 2025">
-          <span class="story-nav-strip__title">Short Reviews – July to September, 2025</span>
-          <svg class="story-nav-strip__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M9 18l6-6-6-6"/>
-          </svg>
-        </a>
-        
-      </div>
-    </nav>
-    </div>
-    
-
-    
-    <div class="story-end__copyright">
       
 
-<div class="nebula-copyright">
-    <div class="nebula-copyright-content">
-        <p class="nebula-copyright-main">
-            © 2026 <strong>Mythaxis Magazine</strong>. All Rights Reserved.
-        </p>
-        <p class="nebula-copyright-secondary">
-            Portions of this site are copyrighted to third parties.
-        </p>
-        <p class="nebula-copyright-notice">
-            Theme: nebula2026
-            <span class="nebula-copyright-divider">•</span>
-            This site uses Google Analytics.
-        </p>
-    </div>
+
+<div id="copyright">
+    <ul>
+        <li>Copyright © Mythaxis Magazine 2026 All Rights Reserved</li>
+        <li>Portions of this site are copyrighted to third parties</li>
+        <li>Theme: <a href="https://web.archive.org/web/20210423113558/https://themes.gohugo.io/hugo-theme-massively/">HTML5 UP Massively</a></li>
+        <li>This site uses Google analytics</li>
+    </ul>
 </div>
 
-    </div>
-  </div>
-
-</article>
-
-      </div>
-
-      
       <a href="#navPanel" id="navPanelToggle">Menu</a>
     </div>
 
@@ -395,7 +268,9 @@ arie-Helene Bertino’s <em>Beautyland</em> opens with a detailed description of
 
 
 
-<script src="../js/nebula2026.bundle.min.fd16f7f5a07e688d1ba82b4456f6af12376bf4709d563eced379d382bbf921c3.js" defer></script>
+
+<script src='../assets/js/bundle.js'></script>
+
 
 
 
