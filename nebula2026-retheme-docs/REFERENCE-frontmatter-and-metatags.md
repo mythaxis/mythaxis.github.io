@@ -52,6 +52,7 @@ Archetype: `archetypes/stock.md` | Layout: `article-single` (sticky header, read
 | `audio` | string | no | — | MP3 URL for audio player and remote button |
 | `featured` | bool | no | `false` | Legacy horizon2020 featured flag |
 | `cardLayout` | string | no | auto-alternate | Frontpage layout: `stock-left`, `stock-right`, `featured-left`, etc. |
+| `cardLink` | bool | no | `true` | When `false`, frontpage card is visible but not clickable (no link to standalone page) |
 | `chapterMarker` | string | no | `MythaxisTarget` | Roundel name for chapter breaks |
 | `colorScheme` | object | no | inherits from section | Per-story color override |
 | `colorScheme.primary` | string | no | — | Primary CSS color |
@@ -88,9 +89,28 @@ Archetype: `archetypes/editorial.md` | Layout: `page-single` (simpler, no sticky
 | `image` | string | no | — | Image path |
 | `imageCopyright` | string | no | — | Image attribution |
 | `cardLayout` | string | no | — | Only appears on frontpage if this is explicitly set (e.g. `editorial-center`) |
+| `cardLink` | bool | no | `true` | When `false`, frontpage card is visible but not clickable |
 | `colorScheme` | object | no | inherits from section | Per-page color override |
 
-Editorials are excluded from the nav strip. They only appear on the frontpage when `cardLayout` is explicitly set.
+Editorials are excluded from the nav strip and the TOC. They only appear on the frontpage when `cardLayout` is explicitly set.
+
+#### Frontpage-only editorial (no standalone page)
+
+To show an editorial card on the frontpage without linking to a separate page, combine `cardLink` with Hugo's `_build`:
+
+```yaml
+cardLayout: editorial-left
+cardLink: false
+_build:
+  render: never
+  list: always
+```
+
+- `cardLink: false` — card renders without any hyperlinks (title and image are plain text/image)
+- `_build.render: never` — Hugo skips generating the standalone page (no `/issue-XX/slug.html`)
+- `_build.list: always` — page still appears in page collections (frontpage query, taxonomy, etc.)
+
+Without `_build.render: never`, the standalone page still exists at its URL and is accessible directly or via the nav menu — only the frontpage card is affected by `cardLink`.
 
 ### Page (generic)
 
@@ -228,6 +248,7 @@ Template: `layouts/partials/htmlhead.html`
 - **Stock + Review:** auto-alternate left/right rows by default. `cardLayout` overrides position.
 - **Editorial:** only appears on frontpage if `cardLayout` is explicitly set in frontmatter.
 - **Center variant:** `cardLayout: editorial-center` (or `stock-center`, `review-center`) renders a full-width banner row.
+- **`cardLink: false`:** any content type — card is visible but title/image don't link to the standalone page. Useful for editorials that serve as frontpage-only announcements.
 
 ### Nav Strip Rules
 

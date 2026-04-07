@@ -17,6 +17,7 @@ type: editorial
 weight: 1
 slug: reintroduction
 cardLayout: editorial-left
+cardLink: false
 ---
 
 Welcome to the new-look Mythaxis Magazine!

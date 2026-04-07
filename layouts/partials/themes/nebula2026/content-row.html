@@ -6,11 +6,18 @@
 
   Data.direction: "left" | "right" | "center"
   Data.style:     "stock" | "featured" | "review" | "editorial"
+
+  Frontmatter:
+    cardLink: false   — render card without links (visible but not clickable).
+                        Combine with Hugo's _build.render: never to also
+                        skip generating the standalone page.
 */}}
 
 {{- $page := .Page -}}
 {{- $direction := .Data.direction -}}
 {{- $style := .Data.style -}}
+
+{{/* Resolve card link: cardLink: false suppresses all links on the card */}}
 {{- $cardLink := true -}}
 {{- if isset $page.Params "cardlink" -}}
   {{- $cardLink = $page.Params.cardLink -}}
