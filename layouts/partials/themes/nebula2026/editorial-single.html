@@ -1,0 +1,101 @@
+{{/*
+  Nebula2026 Theme - Editorial Single Content Partial
+  ====================================================
+  Hero-overlay layout for editorial pages. The editorial's own
+  image fills the hero; title, author, and roundel overlay the
+  bottom as individually-backgrounded cutout pills.
+
+  Expects context from theme-dispatch:
+    .Page    - The editorial page being rendered
+    .Section - The current section
+    .Theme   - The theme name
+    .Data    - Any extra data passed
+*/}}
+
+{{- $page := .Page -}}
+{{- $section := .Section -}}
+
+{{/* Resolve image path: absolute (/images/...) or section-relative (images/...) */}}
+{{- $editorialImagePath := "" -}}
+{{- with $page.Params.image -}}
+  {{- if hasPrefix . "/" -}}
+    {{- $editorialImagePath = . | relURL -}}
+  {{- else -}}
+    {{- $editorialImagePath = path.Join $page.Section . | relURL -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* Hero header with cutout overlay */}}
+<header class="editorial-header" id="story-header">
+  {{ if $editorialImagePath }}
+  <div class="editorial-header__hero">
+    <img src="{{ $editorialImagePath }}"
+         alt="Illustration for {{ $page.Title }}"
+         class="editorial-header__image"
+         loading="eager"
+         decoding="sync" />
+    <div class="editorial-header__overlay"></div>
+  </div>
+  {{ else }}
+  <div class="editorial-header__hero editorial-header__hero--fallback"></div>
+  {{ end }}
+
+  <div class="editorial-header__content">
+    <div class="editorial-header__cutout">
+      <h1 class="editorial-header__title">{{ $page.Title }}</h1>
+    </div>
+    {{ if $page.Params.authors }}
+    <div class="editorial-header__cutout">
+      <p class="editorial-header__author">{{ collections.Delimit $page.Params.authors ", " }}</p>
+    </div>
+    {{ else if $page.Params.author }}
+    <div class="editorial-header__cutout">
+      <p class="editorial-header__author">{{ $page.Params.author }}</p>
+    </div>
+    {{ end }}
+    <div class="editorial-header__cutout editorial-header__cutout--roundel">
+      <img src="/images/roundels/{{ site.Params.brandRoundel | default "MythaxisIcon" }}.svg"
+           class="editorial-header__roundel"
+           alt=""
+           aria-hidden="true" />
+    </div>
+  </div>
+</header>
+
+{{/* Reading area */}}
+<section class="post nebula-page">
+    <div class="nebula-page-content">
+        {{ $page.Content }}
+    </div>
+
+    <div class="story-divider">
+      <img src="/images/roundels/{{ site.Params.brandRoundel | default "MythaxisIcon" }}.svg"
+           class="story-divider__roundel roundel-animate"
+           alt=""
+           aria-hidden="true" />
+    </div>
+</section>
+
+{{/* Footer area with fixed issue image backdrop */}}
+<div class="story-end story-end--listings" id="story-end">
+  {{ with $section }}{{ if .Params.image }}
+  <div class="story-end__hero">
+    <img src="{{ path.Join .Section .Params.image | relURL }}"
+         alt=""
+         aria-hidden="true"
+         class="story-end__image"
+         loading="lazy"
+         decoding="async" />
+  </div>
+  {{ end }}{{ end }}
+
+  <div class="story-end__fade"></div>
+
+  <div class="story-end__author">
+    {{ partial "authorfooter" $page }}
+  </div>
+
+  <div class="story-end__copyright">
+    {{ partial "copyright" $page }}
+  </div>
+</div>

@@ -20,7 +20,7 @@
 
       <!-- Main -->
       <div id="main">
-        {{ partial "theme-dispatch" (dict "partial" "page-single" "context" .) }}
+        {{ partial "theme-dispatch" (dict "partial" "editorial-single" "context" .) }}
       </div>
 
       {{ if ne $themeCtx.Theme "nebula2026" }}{{ partial "copyright" . }}{{ end }}

@@ -7,6 +7,9 @@ description:
 
 type: page
 slug: contents
+menus:
+  issue:
+    name: "TOC"
 ---
 
 ;-p~
