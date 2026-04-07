@@ -16,8 +16,17 @@
 {{/* Load nebula2026 complete theme styles (includes base styles) */}}
 <link rel="stylesheet" href='{{ "themes/nebula2026.css" | relURL }}' />
 
+{{/* Resolve brand roundel: section → site (for CSS mask-based logotype roundels) */}}
+{{- $brandRoundel := site.Params.brandRoundel | default "MythaxisIcon" -}}
+{{- with $section -}}
+  {{- $brandRoundel = .Params.brandRoundel | default $brandRoundel -}}
+{{- end -}}
+
 {{/* Dynamic theme colors: issue-level, with optional story-level override */}}
 <style type="text/css">
+.theme-nebula2026 {
+    --brand-roundel-url: url('/images/roundels/{{ $brandRoundel }}.svg');
+}
 {{ with $section }}
 .theme-nebula2026 {
     {{ with .Params.colorScheme }}

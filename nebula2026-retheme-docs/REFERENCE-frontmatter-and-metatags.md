@@ -9,7 +9,7 @@ Reference for all frontmatter fields and HTML meta tag output in the Mythaxis Hu
 | Field | Type | Default | Description |
 |-------|------|---------|-------------|
 | `defaultTheme` | string | `nebula2026` | Active theme (`nebula2026` or `horizon2020`). Override per-section in `__index.md`. |
-| `brandRoundel` | string | `MythaxisIcon` | Brand roundel SVG name. Used on all site-level pages (contents, about, submissions, catalogue, taxonomy) in both divider positions. Also the ultimate fallback for `issueRoundel` and `chapterMarker`. |
+| `brandRoundel` | string | `MythaxisIcon` | Brand roundel SVG name. Used on site-level page dividers, and drives the MYTH(roundel)AXIS logotype via `--brand-roundel-url` CSS custom property. Overridden per-section in `__index.md`. Also the ultimate fallback for `issueRoundel` and `chapterMarker`. |
 | `issueRoundel` | string | `MythaxisIcon` | Default issue roundel. Overridden per-section in `__index.md`. Used on story pages (footer, sticky header, nav panel). Falls back to `brandRoundel`. |
 | `chapterMarker` | string | `MythaxisIcon` | Default chapter-break roundel. Overridden per-section and per-story. Falls back to `brandRoundel`. |
 | `colorScheme.primary` | string | `#3a5f7d` | Fallback primary CSS color |
@@ -20,7 +20,8 @@ Reference for all frontmatter fields and HTML meta tag output in the Mythaxis Hu
 
 | Context | Resolution order |
 |---------|-----------------|
-| **Site-level pages** (contents, about, catalogue, taxonomy) | `brandRoundel` only |
+| **Logotype roundel** (intro, header, nav panel) | section `brandRoundel` → site `brandRoundel` (via `--brand-roundel-url` CSS custom property) |
+| **Site-level page dividers** (contents, about, catalogue, taxonomy) | site `brandRoundel` only |
 | **Story footer / sticky header** | section `issueRoundel` → site `issueRoundel` → `brandRoundel` |
 | **Chapter breaks** | story `chapterMarker` → section `chapterMarker` → site `chapterMarker` → `brandRoundel` |
 
@@ -122,6 +123,7 @@ Archetype: `archetypes/section.md` | File: `content/issue-XX/__index.md`
 | `issue` | string | yes | — | Display label, e.g. "Issue 45" |
 | `subhead` | string | no | — | Subtitle shown in intro, e.g. "Spring 2026" |
 | `editor` | string | no | — | Editor name (defined but not currently rendered in templates) |
+| `brandRoundel` | string | no | inherits from site | Brand roundel for this issue. Drives the logotype roundel (`--brand-roundel-url`) and site-level page dividers when viewing this section. |
 | `issueRoundel` | string | no | `MythaxisTarget` | Roundel SVG name for the issue (story pages only; site-level pages always use `brandRoundel`) |
 | `colorScheme` | object | no | — | Issue-wide color scheme |
 | `colorScheme.primary` | string | no | — | Primary CSS color |

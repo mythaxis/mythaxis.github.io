@@ -111,6 +111,9 @@
     --transition-slow: 350ms ease-in-out;
     --transition-slower: 500ms ease-in-out;
 
+    /* Roundels */
+    --brand-roundel-url: url('../images/roundels/MythaxisIcon.svg');
+
     /* Z-index scale */
     --z-tooltip: 1070;
     --z-progress: 9999;
@@ -389,8 +392,8 @@ img[alt$="-lrg"] {
     position: absolute;
     inset: 0;
     background: var(--color-primary);
-    -webkit-mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
-    mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
+    -webkit-mask: var(--brand-roundel-url) center/contain no-repeat;
+    mask: var(--brand-roundel-url) center/contain no-repeat;
 }
 
 .nebula-subtitle {
@@ -542,8 +545,8 @@ img[alt$="-lrg"] {
     width: 2.2em;
     height: 2.2em;
     background: currentColor;
-    -webkit-mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
-    mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
+    -webkit-mask: var(--brand-roundel-url) center/contain no-repeat;
+    mask: var(--brand-roundel-url) center/contain no-repeat;
 }
 
 
@@ -602,8 +605,8 @@ img[alt$="-lrg"] {
     width: 2.2em;
     height: 2.2em;
     background: currentColor;
-    -webkit-mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
-    mask: url('../images/roundels/MythaxisIcon.svg') center/contain no-repeat;
+    -webkit-mask: var(--brand-roundel-url) center/contain no-repeat;
+    mask: var(--brand-roundel-url) center/contain no-repeat;
 }
 
 .nebula-nav-panel__roundel {
