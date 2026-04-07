@@ -132,7 +132,9 @@ Available roundels: MythaxisAbduction, MythaxisEye, MythaxisGalaxy, MythaxisGrey
 
 ## Issue Roundel
 
-The `issueRoundel` is the issue-wide default roundel, distinct from per-story `chapterMarker` assignments. It appears in the story footer divider, the minimal sticky header, the article divider on non-story pages, and the nav panel bottom. It represents the issue as a whole rather than any individual story.
+The `issueRoundel` is the issue-wide default roundel, distinct from per-story `chapterMarker` assignments. It appears in the story footer divider, the minimal sticky header, and the nav panel bottom. It represents the issue as a whole rather than any individual story.
+
+> **Note:** Site-level pages (contents, about, submissions, catalogue listings, taxonomy pages) always use the brand roundel (`brandRoundel` from `config.yaml`, currently MythaxisIcon) in both divider positions — they are not tied to any specific issue.
 
 **Chosen: MythaxisHand**
 

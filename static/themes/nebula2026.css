@@ -1178,29 +1178,6 @@ img[alt$="-lrg"] {
     margin: 0 auto;
 }
 
-/* Editorial preamble */
-.nebula-toc-preamble {
-    max-width: 700px;
-    margin: 0 auto 2rem;
-    padding: 0 2rem;
-    font-size: 1.125rem;
-    line-height: 1.8;
-    color: var(--color-text);
-    text-align: center;
-}
-
-.nebula-toc-preamble p {
-    margin-bottom: 1rem;
-}
-
-.nebula-toc-preamble h2 {
-    font-family: 'Basalte', var(--font-secondary);
-    font-size: clamp(1.5rem, 2.5vw + 0.5rem, 2rem);
-    text-transform: uppercase;
-    color: var(--color-primary);
-    margin: 1.5rem 0 1rem;
-}
-
 /* Manual contents.md content */
 .nebula-toc-manual {
     max-width: 700px;
@@ -1329,12 +1306,6 @@ img[alt$="-lrg"] {
     border-style: dashed;
 }
 
-/* Editorial pill — double border for distinction */
-.nebula-toc-pill--editorial {
-    border-width: 3px;
-    border-style: double;
-}
-
 /* Mobile TOC */
 @media (max-width: 736px) {
     .nebula-toc-list {
@@ -1358,9 +1329,6 @@ img[alt$="-lrg"] {
         justify-content: space-between;
     }
 
-    .nebula-toc-preamble {
-        padding: 0 1.25rem;
-    }
 }
 
 

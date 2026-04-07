@@ -4,6 +4,28 @@ Reference for all frontmatter fields and HTML meta tag output in the Mythaxis Hu
 
 ---
 
+## Site Config (`config.yaml` params)
+
+| Field | Type | Default | Description |
+|-------|------|---------|-------------|
+| `defaultTheme` | string | `nebula2026` | Active theme (`nebula2026` or `horizon2020`). Override per-section in `__index.md`. |
+| `brandRoundel` | string | `MythaxisIcon` | Brand roundel SVG name. Used on all site-level pages (contents, about, submissions, catalogue, taxonomy) in both divider positions. Also the ultimate fallback for `issueRoundel` and `chapterMarker`. |
+| `issueRoundel` | string | `MythaxisIcon` | Default issue roundel. Overridden per-section in `__index.md`. Used on story pages (footer, sticky header, nav panel). Falls back to `brandRoundel`. |
+| `chapterMarker` | string | `MythaxisIcon` | Default chapter-break roundel. Overridden per-section and per-story. Falls back to `brandRoundel`. |
+| `colorScheme.primary` | string | `#3a5f7d` | Fallback primary CSS color |
+| `colorScheme.secondary` | string | `#8b6f4e` | Fallback secondary CSS color |
+| `currentIssue` | string | — | Display label for the current issue, e.g. "Issue 45" |
+
+### Roundel Cascade
+
+| Context | Resolution order |
+|---------|-----------------|
+| **Site-level pages** (contents, about, catalogue, taxonomy) | `brandRoundel` only |
+| **Story footer / sticky header** | section `issueRoundel` → site `issueRoundel` → `brandRoundel` |
+| **Chapter breaks** | story `chapterMarker` → section `chapterMarker` → site `chapterMarker` → `brandRoundel` |
+
+---
+
 ## Content Type Frontmatter
 
 ### Stock (stories)
@@ -100,7 +122,7 @@ Archetype: `archetypes/section.md` | File: `content/issue-XX/__index.md`
 | `issue` | string | yes | — | Display label, e.g. "Issue 45" |
 | `subhead` | string | no | — | Subtitle shown in intro, e.g. "Spring 2026" |
 | `editor` | string | no | — | Editor name (defined but not currently rendered in templates) |
-| `issueRoundel` | string | no | `MythaxisTarget` | Roundel SVG name for the issue |
+| `issueRoundel` | string | no | `MythaxisTarget` | Roundel SVG name for the issue (story pages only; site-level pages always use `brandRoundel`) |
 | `colorScheme` | object | no | — | Issue-wide color scheme |
 | `colorScheme.primary` | string | no | — | Primary CSS color |
 | `colorScheme.secondary` | string | no | — | Secondary CSS color |

@@ -45,13 +45,8 @@
         {{ with $page.Description }}
         <p class="nebula-page-description">{{ . }}</p>
         {{ end }}
-        {{- $defaultRoundel := site.Params.issueRoundel | default "MythaxisIcon" -}}
-        {{- $issueRoundel := $defaultRoundel -}}
-        {{- with $section -}}
-          {{- $issueRoundel = .Params.issueRoundel | default $defaultRoundel -}}
-        {{- end -}}
         <div class="nebula-article-divider">
-            <img src="/images/roundels/{{ $issueRoundel }}.svg"
+            <img src="/images/roundels/{{ site.Params.brandRoundel | default "MythaxisIcon" }}.svg"
                  class="nebula-article-divider__roundel"
                  alt=""
                  aria-hidden="true" />
@@ -78,7 +73,7 @@
     </div>
 
     <div class="story-divider">
-      <img src="/images/roundels/MythaxisIcon.svg"
+      <img src="/images/roundels/{{ site.Params.brandRoundel | default "MythaxisIcon" }}.svg"
            class="story-divider__roundel roundel-animate"
            alt=""
            aria-hidden="true" />

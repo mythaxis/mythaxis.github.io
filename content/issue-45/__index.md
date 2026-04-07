@@ -10,8 +10,8 @@ subhead: Spring 2026
 # scrollLineText: "↕↕↕↕↕↕↕↕"
 introPosition: center # [top|center|bottom]-[left|center|right] or "center" (default)
 introPositionMobile: bottom # top, center, bottom
-issueRoundel: MythaxisIcon
-
+issueRoundel: MythaxisEye
+brandRoundel: MythaxisHand
 
 editor: Andrew Leon Hudson
 image: images/monkeyking.jpg

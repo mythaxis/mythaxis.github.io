@@ -16,18 +16,13 @@
 {{- $section := .Section -}}
 {{- $genreIndex := .Data.genres | default dict -}}
 {{- $allGenres := .Data.genreNames | default slice -}}
-{{- $defaultRoundel := site.Params.issueRoundel | default "MythaxisIcon" -}}
-{{- $issueRoundel := $defaultRoundel -}}
-{{- with $section -}}
-  {{- $issueRoundel = .Params.issueRoundel | default $defaultRoundel -}}
-{{- end -}}
 
 <section class="post catalogue nebula-catalogue">
     <header class="major nebula-catalogue-header">
         <h1>{{ $page.Title }}</h1>
         <p class="nebula-page-description">{{ len $allGenres }} {{ $page.Description }}</p>
         <div class="nebula-article-divider">
-            <img src="/images/roundels/{{ $issueRoundel }}.svg"
+            <img src="/images/roundels/{{ site.Params.brandRoundel | default "MythaxisIcon" }}.svg"
                  class="nebula-article-divider__roundel"
                  alt="" aria-hidden="true" />
         </div>
@@ -69,7 +64,7 @@
 </section>
 
 <div class="story-divider">
-    <img src="/images/roundels/{{ $issueRoundel }}.svg"
+    <img src="/images/roundels/{{ site.Params.brandRoundel | default "MythaxisIcon" }}.svg"
          class="story-divider__roundel roundel-animate"
          alt="" aria-hidden="true" />
 </div>

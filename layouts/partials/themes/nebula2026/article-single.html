@@ -15,13 +15,13 @@
 {{- $section := .Section -}}
 
 {{/* Resolve chapter marker / genre for roundels and fallback styling */}}
-{{- $siteDefault := site.Params.chapterMarker | default "MythaxisIcon" -}}
+{{- $siteDefault := site.Params.chapterMarker | default (site.Params.brandRoundel | default "MythaxisIcon") -}}
 {{- $sectionMarker := "" -}}
 {{- if $section -}}
   {{- $sectionMarker = $section.Params.chapterMarker | default "" -}}
 {{- end -}}
 {{- $chapterMarker := $page.Params.chapterMarker | default $sectionMarker | default $siteDefault -}}
-{{- $siteDefaultRoundel := site.Params.issueRoundel | default "MythaxisIcon" -}}
+{{- $siteDefaultRoundel := site.Params.issueRoundel | default (site.Params.brandRoundel | default "MythaxisIcon") -}}
 {{- $issueRoundel := "" -}}
 {{- if $section -}}
   {{- $issueRoundel = $section.Params.issueRoundel | default $siteDefaultRoundel -}}

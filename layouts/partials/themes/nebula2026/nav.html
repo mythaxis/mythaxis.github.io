@@ -13,7 +13,7 @@
 
 {{- $page := .Page -}}
 {{- $section := .Section -}}
-{{- $defaultRoundel := site.Params.issueRoundel | default "MythaxisIcon" -}}
+{{- $defaultRoundel := site.Params.issueRoundel | default (site.Params.brandRoundel | default "MythaxisIcon") -}}
 {{- $issueRoundel := $defaultRoundel -}}
 {{- if $section -}}
   {{- $issueRoundel = $section.Params.issueRoundel | default $defaultRoundel -}}
