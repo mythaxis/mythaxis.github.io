@@ -5,6 +5,10 @@ issue: Issue 23
 
 type: page
 slug: about
+menus:
+  nebula:
+    name: "About"
+    weight: 30
 ---
 
 
@@ -20,7 +24,7 @@ For a "subscription" to *Mythaxis*, sign up **[here](http://eepurl.com/hdhvMT)**
 Andrew is a technical writer by day, and is technically a writer by night as well. In addition to editing *Mythaxis* he has been published in a small handful of quality zines, and co-authored a serialised alternate history adventure novel. He lives in Barcelona, Spain, and doesn’t [do things online](https://linktr.ee/andrewleonhudson) often enough to count.
 
 ### Marty Steer - *Digital Huperson*
-Marty is a human-like person who emerged from a Digital Humanities Research Hub at the School of Advanced Study. He likes messing about with humanities data, minimal computing and I also enjoy liminal ideas.
+Marty is a human-like person who emerged from a Digital Humanities Research Hub at the School of Advanced Study and has since stepped into the SOAS digital library. He likes messing about with humanities data, minimal computing and I also enjoy liminal ideas.
 
 ### Micah Hyatt - *the Voice of Mythaxis*
 

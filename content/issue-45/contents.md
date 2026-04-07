@@ -1,15 +1,16 @@
 ---
 title: "Table of Contents"
 date: 2026-04-11
-issue: Issue 45
+issue: Table of Contents
 
-description: 
+description: Issue 45
 
 type: page
 slug: contents
 menus:
   issue:
-    name: "TOC"
+    name: "Contents"
+    weight: 50
 ---
 
 ;-p~

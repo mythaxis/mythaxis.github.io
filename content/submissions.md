@@ -5,6 +5,10 @@ issue: Issue 23
 
 type: page
 slug: submissions
+menus:
+  nebula:
+    name: "Submissions"
+    weight: 20
 ---
 
 ***Mythaxis Magazine* is currently closed to submissions.**

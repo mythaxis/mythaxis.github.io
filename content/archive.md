@@ -5,7 +5,10 @@ description: Speculative Fiction Without Distraction
 
 type: page
 slug: archive
-
+menus:
+  nebula:
+    name: "Archive"
+    weight: 10
 ---
 
 ***Mythaxis Magazine*** has been seeking out quality writing since 2008. We aim to provide a mixture of  speculative fiction in classic and contemporary styles, free from the typical web trappings of click-hungry advertising, and forever free to read.

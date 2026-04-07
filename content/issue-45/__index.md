@@ -12,6 +12,10 @@ introPosition: center # [top|center|bottom]-[left|center|right] or "center" (def
 introPositionMobile: bottom # top, center, bottom
 issueRoundel: MythaxisEye
 brandRoundel: MythaxisHand
+menus:
+  issue:
+    name: "Homewards"
+    weight: 1
 
 editor: Andrew Leon Hudson
 image: images/monkeyking.jpg

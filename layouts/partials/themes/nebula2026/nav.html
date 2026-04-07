@@ -27,46 +27,43 @@
       <span class="nebula-nav-panel__logotype-roundel" aria-hidden="true"></span>
     </div>
     <ul class="nebula-nav-panel__links">
-      {{/* Home */}}
+      {{/* Home — section __index.md menus.issue overrides the default Home link.
+           Falls back to menus.main Home if no issue home is defined. */}}
+      {{- $hasIssueHome := false -}}
+      {{- with $section -}}
+        {{- $sectionPath := .RelPermalink -}}
+        {{- range site.Menus.issue -}}
+          {{- if and .Page (eq .Page.RelPermalink $sectionPath) -}}
+            {{- $hasIssueHome = true -}}
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+      {{ if not $hasIssueHome }}
       {{ range first 1 $page.Site.Menus.main }}
       <li>
         <a href="{{ .URL }}" class="nebula-nav-panel__link {{ if $page.IsHome }}active{{ end }}">{{ .Name }}</a>
       </li>
       {{ end }}
+      {{ end }}
 
-      {{/* Section-specific: Hugo menus.issue with fallback to legacy slug query */}}
+      {{/* Section-specific items from menus.issue frontmatter, sorted by weight */}}
       {{ with $section }}
         {{- $sectionName := .Section -}}
-        {{- $issueItems := slice -}}
         {{- range site.Menus.issue -}}
           {{- if and .Page (eq .Page.Section $sectionName) -}}
-            {{- $issueItems = $issueItems | append . -}}
-          {{- end -}}
-        {{- end -}}
-        {{ if $issueItems }}
-          {{/* New system: menus.issue frontmatter */}}
-          {{ range $issueItems }}
-            {{ $active := eq $page.RelPermalink .Page.RelPermalink }}
+            {{- $active := eq $page.RelPermalink .Page.RelPermalink -}}
       <li>
         <a href="{{ .Page.RelPermalink }}" class="nebula-nav-panel__link {{ if $active }}active{{ end }}">{{ .Name | default .Page.Title }}</a>
       </li>
-          {{ end }}
-        {{ else }}
-          {{/* Fallback: legacy slug-based query for issues without menus.issue */}}
-          {{ range where (where $page.Site.RegularPages "Section" $sectionName) "Slug" "in" (slice "editorial" "contents") }}
-            {{ $active := eq $page.RelPermalink .RelPermalink }}
-      <li>
-        <a href="{{ .RelPermalink }}" class="nebula-nav-panel__link {{ if $active }}active{{ end }}">{{ .Slug | title }}</a>
-      </li>
-          {{ end }}
-        {{ end }}
+          {{- end -}}
+        {{- end -}}
       {{ end }}
 
-      {{/* Global */}}
-      {{ range after 1 $page.Site.Menus.main }}
-        {{ $active := eq $page.RelPermalink .URL }}
+      {{/* Global items from menus.nebula frontmatter (independent of config.yaml menus.main) */}}
+      {{ range site.Menus.nebula }}
+        {{ $active := and .Page (eq $page.RelPermalink .Page.RelPermalink) }}
       <li>
-        <a href="{{ .URL }}" class="nebula-nav-panel__link {{ if $active }}active{{ end }}">{{ .Name }}</a>
+        <a href="{{ with .Page }}{{ .RelPermalink }}{{ else }}{{ .URL }}{{ end }}" class="nebula-nav-panel__link {{ if $active }}active{{ end }}">{{ .Name }}</a>
       </li>
       {{ end }}
     </ul>
