@@ -375,4 +375,5 @@ It only mattered that he do better.
 
 ---
 
-*EDITOR'S NOTE: As mentioned in the editorial,* [click here](https://youtu.be/6HsQTJynlao) *to check out behind-the-scenes video of the audio recording of **Pultu's Lesson**!*
+### EDITOR'S NOTE:
+*As mentioned in the editorial,* [click here](https://youtu.be/6HsQTJynlao) *to check out behind-the-scenes video of the audio recording of **Pultu's Lesson**!*
