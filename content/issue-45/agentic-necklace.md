@@ -429,4 +429,5 @@ So, just as we sit now, man and necklace made camp on the floor beside the bed, 
 
 ---
 
-*EDITOR'S NOTE: As mentioned in the editorial,* [click here](https://youtu.be/97TZ7tFN9c0) *to check out behind-the-scenes video of the audio recording of **The Agentic Necklace**!*
+### EDITOR'S NOTE:
+*As mentioned in the editorial,* [click here](https://youtu.be/97TZ7tFN9c0) *to check out behind-the-scenes video of the audio recording of **The Agentic Necklace**!*
