@@ -14,7 +14,7 @@ description: "Five years ago (impossible! yet true!) Thai concept artist, illust
 type: editorial
 weight: 100
 slug: afterword
-cardLayout: stock-left
+cardLayout: editorial-center
 cardLink: true
 menus:
   issue:

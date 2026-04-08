@@ -16,7 +16,7 @@ Five years ago (impossible! yet true!) Thai concept artist, illustrator, and vis
 type: editorial
 weight: 1
 slug: reintroduction
-cardLayout: editorial-left
+cardLayout: editorial-center
 cardLink: false
 ---
 

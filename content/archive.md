@@ -7,7 +7,7 @@ type: page
 slug: archive
 menus:
   nebula:
-    name: "Archive"
+    name: "Archives"
     weight: 10
 ---
 
