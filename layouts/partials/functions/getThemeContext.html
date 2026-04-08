@@ -19,9 +19,9 @@
 {{- $overridableSections := slice "authors" "catalogue" "genres" -}}
 {{- $currSection := .Section | default (urlize .Site.Params.currentIssue) -}}
 {{- if in $overridableSections $currSection -}}
-  {{- $currSection = default (urlize .Site.Params.currentIssue) -}}
+  {{- $currSection = urlize .Site.Params.currentIssue -}}
 {{- end -}}
-{{- $currSection := .Site.GetPage "section" (print $currSection "/__index.md") -}}
+{{- $currSection = .Site.GetPage "section" (print $currSection "/__index.md") -}}
 
 {{/* Resolve theme from section -> site -> default */}}
 {{- $theme := "nebula2026" -}}
