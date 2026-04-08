@@ -52,11 +52,24 @@
         {{ end }}
         {{ else if and (eq $style "editorial") (eq $direction "center") }}
         {{/* Editorial banner: title, description as subtitle, trimmed content */}}
-        <h2 class="nebula-content-row__title">{{ if $cardLink }}<a href="{{ $page.Permalink }}">{{ $page.Title }}</a>{{ else }}<span>{{ $page.Title }}</span>{{ end }}</h2>
-        {{ with $page.Description }}
-        <p class="nebula-content-row__subtitle">{{ . }}</p>
+        <div class="nebula-content-row__header">
+            <h2 class="nebula-content-row__title">{{ if $cardLink }}<a href="{{ $page.Permalink }}">{{ $page.Title }}</a>{{ else }}<span>{{ $page.Title }}</span>{{ end }}</h2>
+            {{ with $page.Description }}
+            <span class="nebula-content-row__subtitle">{{ . }}</span>
+            {{ end }}
+        </div>
+        {{/* Excerpt precedence: 1. excerptLength (if set), 2. <!--more--> marker, 3. default 280 */}}
+        {{ $excerptLength := $page.Params.excerptLength }}
+        {{ if $excerptLength }}
+        {{/* User explicitly set excerptLength - use it */}}
+        <div class="nebula-content-row__excerpt">{{ $page.Content | plainify | truncate $excerptLength }}</div>
+        {{ else if $page.Truncated }}
+        {{/* No excerptLength, but <!--more--> exists - use Summary */}}
+        <div class="nebula-content-row__excerpt">{{ $page.Summary | plainify }}</div>
+        {{ else }}
+        {{/* No excerptLength, no <!--more--> - use default 280 */}}
+        <div class="nebula-content-row__excerpt">{{ $page.Content | plainify | truncate 280 }}</div>
         {{ end }}
-        <div class="nebula-content-row__excerpt">{{ $page.Plain | truncate 280 }}</div>
         {{ else }}
         <h3 class="nebula-content-row__title">{{ if $cardLink }}<a href="{{ $page.Permalink }}" data-text="{{ $page.Title }}">{{ $page.Title }}</a>{{ else }}<span data-text="{{ $page.Title }}">{{ $page.Title }}</span>{{ end }}</h3>
         {{ if ne $style "editorial" }}

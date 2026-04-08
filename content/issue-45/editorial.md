@@ -18,11 +18,12 @@ weight: 1
 slug: reintroduction
 cardLayout: editorial-center
 cardLink: false
+#excerptLength: 150 # default 280 chars
 description: "Welcome to the new-look Mythaxis Magazine!"
 ---
 
 It's been six years since new management took over, and the first thing we did then was give the site a more modern edge. But the times they _keep_ a-changin', so we thought it was time to give our facelift a facelift. Since our last issue came out, we've been scrambling behind the scenes to have things in place for the spring issue, and here we are!
-
+<!--more-->
 [Honesty filter applied: tech-guru _Marty Steer_ has been scrambling; the editor merely continued peeling grapes and issuing regal orders from the chaise longue while the inevitable revolution gathers steam.]
 
 Although the changes apply to reading on both large and small screens, our main focus was on making the mobile user experience feel a little more app-like. I was going to spell out all the little changes… but instead, I think I'll let them speak for themselves.

@@ -25,7 +25,6 @@ colorScheme:
 type: stock
 slug: search-history
 weight: 5
-#cardLayout: stock-center
 ---
 
 ### 08/15/2034

@@ -9,13 +9,15 @@ authors:
 - Andrew Leon Hudson
 
 image: images/monkeyking.jpg
-description: "Five years ago (impossible! yet true!) Thai concept artist, illustrator, and visual development artist Narupiti Harunsong permitted us to use a stunningly intense image of gods dwarfing the solar system for our cover art........"
+#description: "Five years ago (impossible! yet true!)...."
 
 type: editorial
 weight: 100
 slug: afterword
 cardLayout: editorial-center
 cardLink: true
+#excerptLength: 150 # default 280 chars
+
 menus:
   issue:
     name: "Afterwords"
