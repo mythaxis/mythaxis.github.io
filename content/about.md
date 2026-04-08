@@ -7,7 +7,7 @@ type: page
 slug: about
 menus:
   nebula:
-    name: "Abouts"
+    name: "About"
     weight: 30
 ---
 

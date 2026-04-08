@@ -10,11 +10,11 @@ subhead: Spring 2026
 # scrollLineText: "↕↕↕↕↕↕↕↕"
 introPosition: center # [top|center|bottom]-[left|center|right] or "center" (default)
 introPositionMobile: bottom # top, center, bottom
-issueRoundel: MythaxisEye
-brandRoundel: MythaxisHand
+issueRoundel: MythaxisIcon
+brandRoundel: MythaxisIcon
 menus:
   issue:
-    name: "Homewards"
+    name: "Front page"
     weight: 1
 
 editor: Andrew Leon Hudson

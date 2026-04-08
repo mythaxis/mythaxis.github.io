@@ -45,7 +45,7 @@ params:
   currentIssue: Issue 45
 
   # Nebula2026 theme defaults
-  brandRoundel: MythaxisGrey
+  brandRoundel: MythaxisIcon
   issueRoundel: MythaxisIcon
   chapterMarker: MythaxisIcon
   colorScheme:

@@ -24,7 +24,9 @@ colorScheme:
 type: reviews
 slug: short-reviews-oct-2025-to-jan-2026
 weight: 8
-featured: true
+
+cardLayout: stock-left
+
 ---
 
 {{<glyph>}}W{{</glyph>}}ith our stated intent now to plug the gap in our coverage of easy-to-access speculative fiction, it's appropriate that all the stories we're waving the flag for here came out in the last quarter of 2025. Let's dive in!
