@@ -240,3 +240,7 @@ You pulled away, annoyed, brushed off my touch from your shirt like dirt.
 You looked back at me then, a familiar air on your face.
 
 “Nonsense,” you said.
+
+---
+
+*EDITOR'S NOTE: As mentioned in the editorial,* [click here](https://youtu.be/6se1srrdxHA) *to check out behind-the-scenes video of the audio recording of **The Negotiation**!*
