@@ -33,7 +33,7 @@
   {{- end -}}
 {{- end -}}
 
-<article class="nebula-content-row nebula-content-row--{{ $direction }}{{ if eq $style "editorial" }} nebula-content-row--editorial{{ end }}{{ if eq $style "review" }} nebula-content-row--review{{ end }}">
+<article class="nebula-content-row nebula-content-row--{{ $direction }}{{ if eq $style "editorial" }} nebula-content-row--editorial{{ end }}{{ if eq $style "review" }} nebula-content-row--review{{ end }}{{ if and (eq $style "editorial") (eq $direction "center") }} nebula-content-row--banner{{ end }}">
     {{ if $imagePath }}
     <div class="nebula-content-row__image">
         {{ if $cardLink }}<a href="{{ $page.Permalink }}">{{ end }}
@@ -52,7 +52,9 @@
         {{ end }}
         {{ else }}
         <h3 class="nebula-content-row__title">{{ if $cardLink }}<a href="{{ $page.Permalink }}" data-text="{{ $page.Title }}">{{ $page.Title }}</a>{{ else }}<span data-text="{{ $page.Title }}">{{ $page.Title }}</span>{{ end }}</h3>
+        {{ if ne $style "editorial" }}
         <span class="nebula-content-row__authors">{{ collections.Delimit $page.Params.authors ", " }}</span>
+        {{ end }}
         {{ if $page.Description }}
         <p class="nebula-content-row__description">{{ $page.Description }}</p>
         {{ else }}
