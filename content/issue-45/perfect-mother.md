@@ -345,4 +345,5 @@ I managed one last look at the total mess that was my sister, then I stood up.
 
 ---
 
-*EDITOR'S NOTE: As mentioned in the editorial,* [click here](https://youtu.be/_fhZ_m4EBkM) *to check out behind-the-scenes video of the audio recording of **The Perfect Mother**!*
+### EDITOR'S NOTE:
+*As mentioned in the editorial,* [click here](https://youtu.be/_fhZ_m4EBkM) *to check out behind-the-scenes video of the audio recording of **The Perfect Mother**!*
