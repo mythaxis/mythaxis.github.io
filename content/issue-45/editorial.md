@@ -18,9 +18,8 @@ weight: 1
 slug: reintroduction
 cardLayout: editorial-center
 cardLink: false
+description: "Welcome to the new-look Mythaxis Magazine!"
 ---
-
-Welcome to the new-look Mythaxis Magazine!
 
 It's been six years since new management took over, and the first thing we did then was give the site a more modern edge. But the times they _keep_ a-changin', so we thought it was time to give our facelift a facelift. Since our last issue came out, we've been scrambling behind the scenes to have things in place for the spring issue, and here we are!
 
