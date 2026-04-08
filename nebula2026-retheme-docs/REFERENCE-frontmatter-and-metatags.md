@@ -14,6 +14,7 @@ Reference for all frontmatter fields and HTML meta tag output in the Mythaxis Hu
 | `chapterMarker` | string | `MythaxisIcon` | Default chapter-break roundel. Overridden per-section and per-story. Falls back to `brandRoundel`. |
 | `colorScheme.primary` | string | `#3a5f7d` | Fallback primary CSS color |
 | `colorScheme.secondary` | string | `#8b6f4e` | Fallback secondary CSS color |
+| `colorScheme.accent` | string | — | Fallback accent color (used for chromatic font text-shadow) |
 | `currentIssue` | string | — | Display label for the current issue, e.g. "Issue 45" |
 
 ### Roundel Cascade
@@ -57,6 +58,7 @@ Archetype: `archetypes/stock.md` | Layout: `article-single` (sticky header, read
 | `colorScheme` | object | no | inherits from section | Per-story color override |
 | `colorScheme.primary` | string | no | — | Primary CSS color |
 | `colorScheme.secondary` | string | no | — | Secondary CSS color |
+| `colorScheme.accent` | string | no | — | Accent color (text-shadow for chromatic font) |
 
 ### Review
 
@@ -74,7 +76,7 @@ Identical fields to stock, with these typical differences:
 
 ### Editorial
 
-Archetype: `archetypes/editorial.md` | Layout: `page-single` (simpler, no sticky header/nav strip)
+Archetype: `archetypes/editorial.md` | Layout: `editorial-single` (hero overlay with cutout header)
 
 | Field | Type | Required | Default | Description |
 |-------|------|----------|---------|-------------|
@@ -85,14 +87,27 @@ Archetype: `archetypes/editorial.md` | Layout: `page-single` (simpler, no sticky
 | `weight` | int | yes | `1` | Typically first in issue |
 | `type` | string | yes | `editorial` | Must be `editorial` |
 | `authors` | list | yes | — | Author name(s) |
+| `description` | string | no | — | Subtitle for editorial-center banner cards |
 | `genres` | list | no | `[editorial]` | Genre taxonomy tag |
-| `image` | string | no | — | Image path |
+| `image` | string | no | — | Image path (editorial's own image fills the hero) |
 | `imageCopyright` | string | no | — | Image attribution |
-| `cardLayout` | string | no | — | Only appears on frontpage if this is explicitly set (e.g. `editorial-center`) |
+| `cardLayout` | string | no | — | Only appears on frontpage if explicitly set: `editorial-left`, `editorial-right`, `editorial-center` |
+| `excerptLength` | int | no | `280` | Character count for truncating body content on editorial-center banner cards |
 | `cardLink` | bool | no | `true` | When `false`, frontpage card is visible but not clickable |
 | `colorScheme` | object | no | inherits from section | Per-page color override |
 
+Editorials use a distinct hero-overlay layout where the editorial's own image fills the hero area (not the issue cover), with title, author, and roundel overlaying the bottom as individually-backgrounded cutout pills.
+
 Editorials are excluded from the nav strip and the TOC. They only appear on the frontpage when `cardLayout` is explicitly set.
+
+#### Editorial Banner Cards (`editorial-center`)
+
+The `editorial-center` layout creates a full-width banner card with distinctive styling:
+- Title and subtitle (description) flow inline
+- Excerpt shows trimmed body content
+- Excerpt control: `<!--more-->` marker takes precedence, then `excerptLength`, then default 280 chars
+- Author name hidden on card (appears on editorial page itself)
+- Unified title sizing across all editorial layouts
 
 #### Frontpage-only editorial (no standalone page)
 
@@ -148,6 +163,7 @@ Archetype: `archetypes/section.md` | File: `content/issue-XX/__index.md`
 | `colorScheme` | object | no | — | Issue-wide color scheme |
 | `colorScheme.primary` | string | no | — | Primary CSS color |
 | `colorScheme.secondary` | string | no | — | Secondary CSS color |
+| `colorScheme.accent` | string | no | — | Accent color (text-shadow for chromatic Basalte font on featured titles) |
 | `image` | string | yes | — | Hero image path (section-relative) |
 | `imageMobile` | string | no | — | Mobile hero image variant |
 | `imageCopyright` | string | no | — | Image attribution |

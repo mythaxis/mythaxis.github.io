@@ -2,63 +2,42 @@
 
 **Speculative Fiction Without Distraction**
 
-[mythaxis.co.uk](https://mythaxis.co.uk) — a quarterly online magazine of science fiction, fantasy, and modern speculative fiction, edited by Andrew Leon Hudson. Published since 2008 and still going.
+[mythaxis.co.uk](https://mythaxis.co.uk)
 
-Built with [Hugo](https://gohugo.io/). Hosted on GitHub Pages.
+A quarterly online magazine featuring original science fiction, fantasy, and modern speculative fiction. Edited by Andrew Leon Hudson. Published since 2008.
+
+## What We Publish
+
+Mythaxis features short fiction (typically 3,000–7,000 words), flash fiction, book reviews, and occasional editorials. We publish established and emerging writers from around the world.
+
+Each quarterly issue presents a curated selection of stories with custom artwork and a distinctive visual identity — every issue has its own color scheme, hero image, and decorative roundel design.
+
+**Current issue:** Issue 45 (Spring 2026)
+**Archive:** 43 issues, 500+ stories since 2008
+
+## Submissions
+
+Writers: see [mythaxis.co.uk/submissions](https://mythaxis.co.uk/submissions.html) for guidelines.
+
+Artists: we commission cover art and story illustrations. Contact the editor via the website.
 
 ---
 
-## The Nebula2026 Theme
+## Technical Notes
 
-Mythaxis runs a custom dual-theme system. Each issue section can declare its own theme in frontmatter:
+Built with [Hugo](https://gohugo.io/) static site generator. Hosted on GitHub Pages.
 
-| Theme | Issues | Style |
-|-------|--------|-------|
-| **nebula2026** | 43+ | Bespoke design with chromatic typography, parallax heroes, and hand-drawn SVG roundels |
-| **horizon2020** | 1–42 | Legacy theme based on HTML5 UP's *Massively* |
+The site uses a dual-theme system allowing each issue to declare its own design:
+- **nebula2026** (Issues 43+) — Bespoke magazine design with chromatic typography and custom SVG roundels
+- **horizon2020** (Issues 1–42) — Legacy archive theme
 
-Themes coexist via a two-file dispatch system (`getThemeContext.html` + `theme-dispatch.html`) that routes templates per-section — the canonical Hugo approach for multi-theme sites.
-
-### nebula2026 at a glance
-
-- **Basalte Fond + Volume** — three-layer chromatic display font (shadow, base, outline overlay)
-- **10 designer SVG roundels** — hand-picked per issue and story; used as chapter markers, dividers, and logotype inlays
-- **Parallax heroes** — full-viewport cover art with object-position panning on scroll
-- **Translucent sticky header** — frosted-glass backdrop-filter, reading progress bar
-- **CSS-only frontpage** — two-column grid with scroll-snap, snake-corner transitions, no JavaScript overlays
-- **Three content types** — stories (`stock`), reviews, and editorials, each with their own layout and frontpage card style
-- **Per-issue colour schemes** — `colorScheme` frontmatter injects CSS custom properties (primary, secondary, accent)
-- **9 bundled JS modules** — concatenated, minified, and fingerprinted via Hugo Pipes into a single `<script>`
-
-## Project structure
-
-```
-content/
-  issue-45/             # Current issue (branch with __index.md)
-    __index.md          # Section frontmatter: theme, colours, roundels
-    images/             # Story illustrations
-    story-slug.md       # type: stock
-    review-slug.md      # type: review
-  catalogue/            # Reviews + editorials catalogue pages
-  authors/              # Author taxonomy
-layouts/
-  partials/
-    themes/nebula2026/  # 19 theme partials (intro, article-single, content-row, etc.)
-    themes/horizon2020/ # 17 legacy partials
-    functions/          # getThemeContext.html, theme-dispatch.html
-assets/
-  js/nebula2026/        # 9 JS modules (Hugo Pipes bundled)
-static/
-  themes/nebula2026.css # Theme stylesheet
-  images/roundels/      # 10 SVG roundels
-  assets/fonts/nebula2026/ # Alegreya + Basalte web fonts
-```
-
-## Local development
+### Development
 
 ```sh
 hugo server -D --disableFastRender
 ```
+
+See `/nebula2026-retheme-docs/` for theme documentation, frontmatter reference, and development notes.
 
 ## Licence
 
