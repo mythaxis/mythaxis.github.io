@@ -244,4 +244,4 @@ You looked back at me then, a familiar air on your face.
 ---
 
 ### EDITOR'S NOTE:
-As mentioned in the editorial,* [click here](https://youtu.be/6se1srrdxHA) *to check out behind-the-scenes video of the audio recording of **The Negotiation**!*
+*As mentioned in the editorial,* [click here](https://youtu.be/6se1srrdxHA) *to check out behind-the-scenes video of the audio recording of **The Negotiation**!*
