@@ -21,7 +21,7 @@ colorScheme:
   secondary: "#a87a3e"
   accent: "#2a1a0a"
 
-type: reviews
+type: review
 slug: short-reviews-oct-2025-to-jan-2026
 weight: 8
 
