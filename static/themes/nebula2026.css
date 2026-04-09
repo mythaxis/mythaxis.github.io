@@ -659,8 +659,8 @@ img[alt$="-lrg"] {
 }
 
 .nebula-nav-toggle__handle img {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     opacity: 1;
     filter: grayscale(1) brightness(0);
 }
@@ -691,6 +691,11 @@ img[alt$="-lrg"] {
     }
 
     .nebula-nav-toggle__handle {
+        width: 60px;
+        height: 60px;
+    }
+
+    .nebula-nav-toggle__handle img {
         width: 60px;
         height: 60px;
     }
