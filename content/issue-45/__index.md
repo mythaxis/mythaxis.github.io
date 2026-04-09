@@ -12,7 +12,7 @@ editor: Andrew Leon Hudson
 image: images/monkeyking.jpg
 imageMobile: images/monkeyking_mob.jpg
 imageCopyright: "Monkey King by Narupiti Harunsong"
-coverArtist: Andrew Leon Hudson
+coverArtist: Narupiti Harunsong
 
 introPosition: center # [top|center|bottom]-[left|center|right] or "center" (default)
 introPositionMobile: bottom # top, center, bottom

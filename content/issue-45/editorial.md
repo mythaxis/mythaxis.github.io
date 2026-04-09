@@ -40,4 +40,8 @@ But… why only *five* of the stories? Well, for just the second time yours trul
 
 ---
 
-Finally, five years ago (impossible, yet true) Thai concept artist, illustrator, and visual development artist Narupiti Harunsong permitted us to use a stunningly intense image of [gods dwarfing the solar system](https://mythaxis.co.uk/issue-25/) for our cover art. Delighted now to be able to share another, this time depicting the mythic Monkey King emerging from his cloud – a picture no less full of activity, yet which somehow makes me feel serene when I look at it. Find more of Narupiti's art at [Instagram](https://www.instagram.com/narupiti.dg3/) and [Artstation](https://www.artstation.com/demong3). Many thanks!
+We're going to continue tinkering with the site in 2026, but for all that we plan to add, it's time to take something away. As I mentioned towards the end of last year, I'm going to bring an end to the editorial "feature" in future issues. We may add a short afterword if we have interesting news to share, and *perhaps* I'll write and annual editorial, but as a standard element of the zine they are no more.
+
+However, as the editorials used to be where I'd salute the generosity of our cover artists, I'm going to highlight one change in the new format: from now on, the **About** page on the issue's menu acknowledges the current cover artist along with our permanent members of staff. So if you want to know more about Narupiti Harunsong, who created this issue's thing of beauty, go take a look!
+
+Okay, preamble enough – time to read some stories, if you haven't already!
