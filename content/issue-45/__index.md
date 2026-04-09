@@ -7,26 +7,29 @@ layout: section
 
 issue: Issue 45
 subhead: Spring 2026
-# scrollLineText: "↕↕↕↕↕↕↕↕"
-introPosition: center # [top|center|bottom]-[left|center|right] or "center" (default)
-introPositionMobile: bottom # top, center, bottom
-issueRoundel: MythaxisIcon
-brandRoundel: MythaxisIcon
-menus:
-  issue:
-    name: "Front page"
-    weight: 1
-
 editor: Andrew Leon Hudson
+# scrollLineText: "↕↕↕↕↕↕↕↕"
 image: images/monkeyking.jpg
 imageMobile: images/monkeyking_mob.jpg
 imageCopyright: "Monkey King by Narupiti Harunsong"
 coverArtist: Andrew Leon Hudson
 
+introPosition: center # [top|center|bottom]-[left|center|right] or "center" (default)
+introPositionMobile: bottom # top, center, bottom
+
+brandRoundel: MythaxisIcon
+issueRoundel: MythaxisGrey
+# or storyRoundel: and chapterMarker:
+
 colorScheme:
   primary: "#5c6b4a"
   secondary: "#b8622e"
   accent: "#2a3020"
+menus:
+  issue:
+    name: "Front page"
+    weight: 1
+
 
 ---
 
