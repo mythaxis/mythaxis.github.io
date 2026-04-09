@@ -626,6 +626,10 @@ img[alt$="-lrg"] {
     touch-action: pan-y;
 }
 
+.nebula-nav-toggle__track:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
 .nebula-nav-toggle__track:active {
     cursor: grabbing;
 }
@@ -645,6 +649,7 @@ img[alt$="-lrg"] {
     justify-content: center;
     pointer-events: none;
     will-change: transform;
+    transition: box-shadow 0.15s ease;
 }
 
 .nebula-nav-toggle__handle img {
@@ -654,6 +659,11 @@ img[alt$="-lrg"] {
     filter: grayscale(1) brightness(0);
 }
 
+.nebula-nav-toggle__track:active .nebula-nav-toggle__handle {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3),
+                0 0 20px rgba(255, 255, 255, 0.4);
+}
+
 .nebula-nav-toggle__label {
     display: block;
     margin-top: 0.5rem;
@@ -661,6 +671,23 @@ img[alt$="-lrg"] {
     color: rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    transition: opacity 0.2s ease;
+}
+
+.nebula-nav-toggle__track:active ~ .nebula-nav-toggle__label {
+    opacity: 0.5;
+}
+
+/* Mobile: increase touch target */
+@media (max-width: 736px) {
+    .nebula-nav-toggle__track {
+        height: 70px;
+    }
+
+    .nebula-nav-toggle__handle {
+        width: 60px;
+        height: 60px;
+    }
 }
 
 .nebula-nav-panel__links {
