@@ -149,11 +149,12 @@
 
       if (thresholdCrossed) {
         // Navigate to next/prev issue based on drag direction
-        var bodyClasses = document.body.className;
-        var issueMatch = bodyClasses.match(/\bissue-(\d+)\b/);
+        // Extract issue number from URL path (e.g., /issue-45/ or /issue-45/story-title/)
+        var pathname = window.location.pathname;
+        var issueMatch = pathname.match(/\/issue-(\d+)\//);
 
         console.log('[nav-toggle] Navigation triggered:', {
-          bodyClasses: bodyClasses,
+          pathname: pathname,
           issueMatch: issueMatch,
           dragDirection: offsetX < 0 ? 'left' : 'right'
         });
@@ -175,7 +176,7 @@
             console.warn('[nav-toggle] Invalid target issue (must be > 0):', targetIssue);
           }
         } else {
-          console.warn('[nav-toggle] No issue match found in body classes');
+          console.warn('[nav-toggle] No issue match found in pathname:', pathname);
         }
       }
 
