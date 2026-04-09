@@ -11,6 +11,12 @@
     .Data    - Any extra data passed
 */}}
 
+{{/* Theme guard: only execute for nebula2026 */}}
+{{- if ne .Theme "nebula2026" -}}
+  <!-- Nebula2026 coverartist-footer template cannot be used for {{ .Theme }} theme -->
+  {{- return -}}
+{{- end -}}
+
 {{- $page := .Page -}}
 {{- $section := .Section -}}
 

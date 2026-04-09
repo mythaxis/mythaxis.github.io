@@ -13,6 +13,12 @@
                         skip generating the standalone page.
 */}}
 
+{{/* Theme guard: only execute for nebula2026 */}}
+{{- if ne .Theme "nebula2026" -}}
+  <!-- Nebula2026 content-row template cannot be used for {{ .Theme }} theme -->
+  {{- return -}}
+{{- end -}}
+
 {{- $page := .Page -}}
 {{- $direction := .Data.direction -}}
 {{- $style := .Data.style -}}

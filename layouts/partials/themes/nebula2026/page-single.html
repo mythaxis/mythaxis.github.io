@@ -11,6 +11,14 @@
     .Data    - Any extra data passed
 */}}
 
+{{/* Theme guard: only execute for nebula2026 */}}
+{{- if ne .Theme "nebula2026" -}}
+  <!-- Nebula2026 page-single template cannot be used for {{ .Theme }} theme -->
+  {{/* Fallback to horizon2020 page layout */}}
+  {{- partial "themes/horizon2020/page-single" . -}}
+  {{- return -}}
+{{- end -}}
+
 {{- $page := .Page -}}
 {{- $section := .Section -}}
 

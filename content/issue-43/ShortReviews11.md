@@ -15,7 +15,7 @@ description: "As always, we round out the issue with a selection of interesting 
 image: /images/shared/ShortReviews01_10x6.jpg
 imageCopyright: "The image is by [grandfailure](https://depositphotos.com/368748152/stock-photo-man-standing-mysterious-library-digital.html) via DepositPhotos.com."
 
-type: review
+type: page
 slug: short-reviews-july-to-september-2025
 weight: 8
 featured: true

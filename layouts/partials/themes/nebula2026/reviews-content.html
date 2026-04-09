@@ -11,6 +11,14 @@
                .reviews - Slice of review dicts with title, relurl, author, issue, number
 */}}
 
+{{/* Theme guard: only execute for nebula2026 */}}
+{{- if ne .Theme "nebula2026" -}}
+  <!-- Nebula2026 reviews-content template cannot be used for {{ .Theme }} theme -->
+  {{/* Fallback to horizon2020 catalogue layout */}}
+  {{- partial "themes/horizon2020/catalogue-content" . -}}
+  {{- return -}}
+{{- end -}}
+
 {{- $page := .Page -}}
 {{- $section := .Section -}}
 {{- $reviews := .Data.reviews | default slice -}}
