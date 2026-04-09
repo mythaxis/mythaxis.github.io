@@ -133,12 +133,18 @@
       var absVelocity = Math.abs(velocityX);
 
       // Determine if threshold crossed (velocity OR distance)
-      var shouldClose = absVelocity > VELOCITY_THRESHOLD || distanceRatio > DISTANCE_THRESHOLD;
+      var thresholdCrossed = absVelocity > VELOCITY_THRESHOLD || distanceRatio > DISTANCE_THRESHOLD;
 
-      if (shouldClose) {
-        // Close the nav panel
-        var closeEvent = new CustomEvent('nav-toggle-close');
-        document.dispatchEvent(closeEvent);
+      if (thresholdCrossed) {
+        // Dispatch arrow key event based on drag direction
+        var keyName = offsetX < 0 ? 'ArrowLeft' : 'ArrowRight';
+        var arrowEvent = new KeyboardEvent('keydown', {
+          key: keyName,
+          code: keyName,
+          bubbles: true,
+          cancelable: true
+        });
+        document.dispatchEvent(arrowEvent);
       }
 
       // Animate handle back to center
@@ -168,13 +174,6 @@
     document.addEventListener('touchend', handlePointerUp);
 
     document.addEventListener('touchcancel', handlePointerCancel);
-
-    // Listen for custom close event and trigger menu close
-    document.addEventListener('nav-toggle-close', function() {
-      // Find and trigger existing close function
-      var backdrop = document.getElementById('nebula-nav-backdrop');
-      if (backdrop) backdrop.click();
-    });
 
     // Reset handle position when panel opens
     var observer = new MutationObserver(function(mutations) {
