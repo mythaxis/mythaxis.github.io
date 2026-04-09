@@ -23,8 +23,39 @@ Reference for all frontmatter fields and HTML meta tag output in the Mythaxis Hu
 |---------|-----------------|
 | **Logotype roundel** (intro, header, nav panel) | section `brandRoundel` → site `brandRoundel` (via `--brand-roundel-url` CSS custom property) |
 | **Site-level page dividers** (contents, about, catalogue, taxonomy) | site `brandRoundel` only |
-| **Story footer / sticky header** | section `issueRoundel` → site `issueRoundel` → `brandRoundel` |
-| **Chapter breaks** | story `chapterMarker` → section `chapterMarker` → site `chapterMarker` → `brandRoundel` |
+| **Story footer / sticky header** | story `storyRoundel` → section `issueRoundel` → site `issueRoundel` → `brandRoundel` |
+| **Chapter breaks** (`<hr>` tags) | story `chapterMarker` → section `chapterMarker` → story `storyRoundel` → site `chapterMarker` → `brandRoundel` |
+
+#### Bidirectional Inheritance
+
+The `storyRoundel` and `chapterMarker` frontmatter fields work bidirectionally:
+
+- **Set only `storyRoundel`:** Both footer/header AND chapter breaks inherit it
+- **Set only `chapterMarker`:** Chapter breaks use it; footer/header use issue default
+- **Set both:** Chapter breaks use `chapterMarker`; footer/header use `storyRoundel`
+
+**Examples:**
+```yaml
+# Scenario 1: MythaxisFaces everywhere
+storyRoundel: MythaxisFaces
+# → Footer/header: MythaxisFaces
+# → Chapter breaks: MythaxisFaces (inherited from storyRoundel)
+
+# Scenario 2: Different roundels for different contexts
+storyRoundel: MythaxisFaces
+chapterMarker: MythaxisTarget
+# → Footer/header: MythaxisFaces
+# → Chapter breaks: MythaxisTarget
+
+# Scenario 3: Custom chapter breaks only
+chapterMarker: MythaxisTarget
+# → Footer/header: (uses issueRoundel default)
+# → Chapter breaks: MythaxisTarget
+```
+
+#### No Validation
+
+Roundel names are **not validated** against a whitelist. Any roundel name can be used in frontmatter. If the SVG file doesn't exist at `/images/roundels/{name}.svg`, the system falls back to `MythaxisIcon` via JavaScript 404 handling. This means you can add new roundels to `/static/images/roundels/` without updating any code.
 
 ---
 
@@ -54,7 +85,8 @@ Archetype: `archetypes/stock.md` | Layout: `article-single` (sticky header, read
 | `featured` | bool | no | `false` | Legacy horizon2020 featured flag |
 | `cardLayout` | string | no | auto-alternate | Frontpage layout: `stock-left`, `stock-right`, `featured-left`, etc. |
 | `cardLink` | bool | no | `true` | When `false`, frontpage card is visible but not clickable (no link to standalone page) |
-| `chapterMarker` | string | no | `MythaxisTarget` | Roundel name for chapter breaks |
+| `storyRoundel` | string | no | inherits from `issueRoundel` | Roundel for story footer/header. Also inherited by chapter breaks if `chapterMarker` not set. |
+| `chapterMarker` | string | no | inherits from `storyRoundel` | Roundel name for chapter breaks (`<hr>` tags). Falls back to `storyRoundel` if not set. |
 | `colorScheme` | object | no | inherits from section | Per-story color override |
 | `colorScheme.primary` | string | no | — | Primary CSS color |
 | `colorScheme.secondary` | string | no | — | Secondary CSS color |
