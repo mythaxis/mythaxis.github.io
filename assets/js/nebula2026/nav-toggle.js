@@ -94,16 +94,17 @@
       lastTime = nowTime;
 
       // Show directional hints based on drag distance (15% threshold)
+      // Inverted: dragging left reveals right label, dragging right reveals left label
       var hintThreshold = trackWidth * 0.15;
       if (hintLeft && hintRight) {
         if (offsetX < -hintThreshold) {
-          // Dragging left
-          hintLeft.classList.add('visible');
-          hintRight.classList.remove('visible');
-        } else if (offsetX > hintThreshold) {
-          // Dragging right
+          // Dragging left → show right hint
           hintRight.classList.add('visible');
           hintLeft.classList.remove('visible');
+        } else if (offsetX > hintThreshold) {
+          // Dragging right → show left hint
+          hintLeft.classList.add('visible');
+          hintRight.classList.remove('visible');
         } else {
           // Not dragging far enough
           hintLeft.classList.remove('visible');
