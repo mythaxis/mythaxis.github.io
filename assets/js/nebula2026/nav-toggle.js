@@ -137,15 +137,19 @@
       var thresholdCrossed = absVelocity > VELOCITY_THRESHOLD || distanceRatio > DISTANCE_THRESHOLD;
 
       if (thresholdCrossed) {
-        // Dispatch arrow key event based on drag direction
-        var keyName = offsetX < 0 ? 'ArrowLeft' : 'ArrowRight';
-        var arrowEvent = new KeyboardEvent('keydown', {
-          key: keyName,
-          code: keyName,
-          bubbles: true,
-          cancelable: true
-        });
-        document.dispatchEvent(arrowEvent);
+        // Navigate to next/prev issue based on drag direction
+        var bodyClasses = document.body.className;
+        var issueMatch = bodyClasses.match(/\bissue-(\d+)\b/);
+
+        if (issueMatch) {
+          var currentIssue = parseInt(issueMatch[1], 10);
+          var targetIssue = offsetX < 0 ? currentIssue - 1 : currentIssue + 1;
+
+          if (targetIssue > 0) {
+            var targetUrl = '/issue-' + targetIssue + '/';
+            window.location.href = targetUrl;
+          }
+        }
       }
 
       // Animate handle back to center
