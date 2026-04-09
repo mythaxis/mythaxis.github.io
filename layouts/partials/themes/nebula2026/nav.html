@@ -68,7 +68,11 @@
       {{ end }}
     </ul>
     <div class="nebula-nav-toggle">
-      <div class="nebula-nav-toggle__track" aria-hidden="true">
+      <div class="nebula-nav-toggle__track"
+           role="button"
+           tabindex="0"
+           aria-label="Drag to close navigation"
+           aria-hidden="true">
         <div class="nebula-nav-toggle__handle" id="nebula-nav-toggle-handle">
           <img src="/images/roundels/{{ $issueRoundel }}.svg" alt="" aria-hidden="true" />
         </div>
