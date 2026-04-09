@@ -14,11 +14,21 @@
 {{- $page := .Page -}}
 {{- $section := .Section -}}
 
-{{/* Resolve cover artist: page-level OR section-level */}}
+{{/* Resolve cover artist: page-level OR section-level OR current issue */}}
 {{- $coverArtist := $page.Params.coverArtist -}}
 {{- if not $coverArtist -}}
   {{- if $section -}}
     {{- $coverArtist = $section.Params.coverArtist -}}
+  {{- end -}}
+{{- end -}}
+{{/* Fall back to current issue if still not set */}}
+{{- if not $coverArtist -}}
+  {{- with site.Params.currentIssue -}}
+    {{- $issueSlug := . | urlize -}}
+    {{- $currentIssue := site.GetPage (print "/" $issueSlug "/__index.md") -}}
+    {{- if $currentIssue -}}
+      {{- $coverArtist = $currentIssue.Params.coverArtist -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 
