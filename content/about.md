@@ -1,8 +1,6 @@
 ---
 title: "About Mythaxis"
 date: 2020-08-01
-issue: Issue 23
-
 type: page
 slug: about
 menus:
