@@ -37,12 +37,12 @@ Another note of gratitude goes out to Micah Hyatt, who for almost all of the las
 
 With this issue, he's also gone a little further. If you're interested in pulling back the curtain a little, at the end of five of this issue's stories we link to a video of Micah's cold-read: a warts-and-all glimpse into the recording booth, where the hard work happens (the magic happens later). We recommend you enjoy the finished products first, of course!
 
-But… why only *five* of the stories? Well, for just the second time yours truly has stepped up the mic, strategically making my far inferior recording resources work to the read's advantage (or, at least, not to its disadvantage!). Sadly, that means there's no behind-the-scenes footage for that one. On the other hand, since I have a face for radio and a voice for the silent movie era, that might be a good thing!
+But why only *five* of the stories? Well, for just the second time yours truly has stepped up the mic, strategically making my far inferior recording resources work to the story's advantage (or, at least, not to its disadvantage). Sadly, that means there's no behind-the-scenes footage for that one. On the other hand, since I have a face for radio and a voice for the silent movie era, that might be a good thing…
 
 ---
 
-We're going to continue tinkering with the site in 2026, but for all that we plan to add, it's time to take something away. As I mentioned towards the end of last year, I'm going to bring an end to the editorial "feature" in future issues. We may add a short afterword if we have interesting news to share, and *perhaps* I'll write and annual editorial, but as a standard element of the zine they are no more.
+We're going to continue tinkering with the site in 2026, but to balance what we add it's time to take something away. As I mentioned towards the end of last year, I'm bringing an end to the editorial "feature" in future issues. We may add a short afterword if we have interesting news to share, and *perhaps* I'll write an annual editorial, but as a standard element of the zine they are no more.
 
-However, as the editorials used to be where I'd salute the generosity of our cover artists, I'm going to highlight one change in the new format: from now on, the **About** page on the issue's menu acknowledges the current cover artist along with our permanent members of staff. So if you want to know more about Narupiti Harunsong, who created this issue's thing of beauty, go take a look!
+However, as this used to be where I'd salute the generosity of our cover artists, I'm going to mention one more change in the new format: from now on, the **About** page on the issue's menu acknowledges the current cover artist alongside our permanent members of staff. So if you want to know more about Narupiti Harunsong, who created this issue's thing of beauty, go take a look.
 
 Okay, preamble enough – time to read some stories, if you haven't already!
