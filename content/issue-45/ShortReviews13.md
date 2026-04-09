@@ -29,7 +29,7 @@ cardLayout: stock-left
 
 ---
 
-{{<glyph>}}W{{</glyph>}}ith our stated intent now to plug the gap in our coverage of easy-to-access speculative fiction, it's appropriate that all the stories we're waving the flag for here came out in the last quarter of 2025. Let's dive in!
+With our stated intent now to plug the gap in our coverage of easy-to-access speculative fiction, it's appropriate that all the stories we're waving the flag for here came out in the last quarter of 2025. Let's dive in!
 
 ---
 

@@ -47,6 +47,7 @@ params:
   # Nebula2026 theme defaults
   brandRoundel: MythaxisIcon
   issueRoundel: MythaxisIcon
+  storyRoundel: MythaxisIcon
   chapterMarker: MythaxisIcon
   colorScheme:
     primary: "#3a5f7d"              # fallback primary color

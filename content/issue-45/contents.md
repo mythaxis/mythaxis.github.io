@@ -1,7 +1,7 @@
 ---
 title: "Table of Contents"
 date: 2026-04-11
-issue: Table of Contents
+issue: Issue 45
 
 description: Issue 45
 
@@ -13,4 +13,3 @@ menus:
     weight: 50
 ---
 
-Table of Contents
