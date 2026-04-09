@@ -26,7 +26,7 @@ Marty is a human-like person who emerged from a Digital Humanities Research Hub 
 
 ### Micah Hyatt - *the Voice of Mythaxis*
 
-Micah is a veteran soldier, freight train conductor, and graduate of the Seton Hill *Writing Popular Fiction* MFA program. His fiction has been published all across the web, and his light-hearted zombie survival novella, *Eating the Exhibits*, is available through Amazon. He narrates and produces the audio-format of the Mythaxis stories.
+Micah is a veteran soldier, freight train conductor, and graduate of the Seton Hill *Writing Popular Fiction* MFA program. His fiction has been published all across the web, his light-hearted zombie survival novella [Eating the Exhibits](https://www.amazon.com/dp/B0BPYYF5RK) is available through Amazon, and he performs as [M/F](https://open.spotify.com/album/6UG9ykA7m8ltUO6lri3lPN?si=QhR75JFZRWS3bEtaBhAq3Q) on Spotify. He narrates and produces the audio-format of the Mythaxis stories.
 
 ### The Story Oracle - *Fictional Genius*
 Blessed with guru-like serenity, the Story Oracle graciously bestows their wisdom on such editors as who climb to the peak of Slush Mountain and ask, *"Is this thing as good as I think it is?"* Occasionally, the answer is comprehensible.
