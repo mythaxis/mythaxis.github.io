@@ -141,11 +141,9 @@
 
     backdrop.addEventListener('click', closePanel);
 
-    // Panel logotype and bottom roundel close the menu on click
+    // Panel logotype closes the menu on click
     var panelLogotype = panel.querySelector('.nebula-nav-panel__logotype');
-    var panelRoundel = panel.querySelector('.nebula-nav-panel__roundel');
     if (panelLogotype) panelLogotype.addEventListener('click', closePanel);
-    if (panelRoundel) panelRoundel.addEventListener('click', closePanel);
 
     document.addEventListener('keydown', function(e) {
       if (e.key === 'Escape' && isOpen) {
