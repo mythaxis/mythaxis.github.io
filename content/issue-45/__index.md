@@ -18,7 +18,7 @@ introPosition: center # [top|center|bottom]-[left|center|right] or "center" (def
 introPositionMobile: bottom # top, center, bottom
 
 brandRoundel: MythaxisIcon
-issueRoundel: MythaxisGrey
+issueRoundel: MythaxisIcon
 # or storyRoundel: and chapterMarker:
 
 colorScheme:
