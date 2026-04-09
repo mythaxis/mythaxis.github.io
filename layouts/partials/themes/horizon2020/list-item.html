@@ -12,15 +12,25 @@
 
 {{- $page := .Page -}}
 
+{{/* Resolve image path: absolute (/images/...) or section-relative (images/...) */}}
+{{- $imagePath := "" -}}
+{{- with $page.Params.image -}}
+  {{- if hasPrefix . "/" -}}
+    {{- $imagePath = . | relURL -}}
+  {{- else -}}
+    {{- $imagePath = path.Join $page.Section . | relURL -}}
+  {{- end -}}
+{{- end -}}
+
 <!-- Post List Item -->
 <article>
     <header>
         <h2><a href="{{ $page.Permalink }}">{{ $page.Title }}</a></h2>
         <span>{{ collections.Delimit $page.Params.authors ", " }}</span>
     </header>
-    
-    {{ if $page.Params.image }}
-    <a href="{{ $page.Permalink }}" class="image fit"><img src="{{ path.Join $page.Section $page.Params.image | relURL }}" alt="Thumbnail of Story image for {{ $page.Title }} by {{ $page.Params.author}}" title="Thumbnail of Story image for {{ $page.Title }} by {{ $page.Params.author}}"/></a>
+
+    {{ if $imagePath }}
+    <a href="{{ $page.Permalink }}" class="image fit"><img src="{{ $imagePath }}" alt="Thumbnail of Story image for {{ $page.Title }} by {{ $page.Params.author}}" title="Thumbnail of Story image for {{ $page.Title }} by {{ $page.Params.author}}"/></a>
     {{ end }}
     
     {{ if $page.Description }}

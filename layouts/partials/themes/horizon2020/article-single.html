@@ -12,6 +12,16 @@
 
 {{- $page := .Page -}}
 
+{{/* Resolve image path: absolute (/images/...) or section-relative (images/...) */}}
+{{- $imagePath := "" -}}
+{{- with $page.Params.image -}}
+  {{- if hasPrefix . "/" -}}
+    {{- $imagePath = . | relURL -}}
+  {{- else -}}
+    {{- $imagePath = path.Join $page.Section . | relURL -}}
+  {{- end -}}
+{{- end -}}
+
 <section class="post">
     <header class="major">
         <img src="{{ "/themes/horizon2020/toplist.svg" | safeURL }}" />
@@ -19,10 +29,10 @@
         <p>{{ collections.Delimit $page.Params.authors ", " }}</p>
         {{ partial "theme-dispatch" (dict "partial" "divider" "context" .Page) }}
     </header>
-    
-    {{ if $page.Params.image }}
+
+    {{ if $imagePath }}
     <div class="image main">
-        <img src="{{ path.Join $page.Section $page.Params.image | relURL }}" alt="Story image for {{ $page.Title }} by {{ $page.Params.author }}" title="Story image for {{ $page.Title }} by {{ $page.Params.author }}"/>
+        <img src="{{ $imagePath }}" alt="Story image for {{ $page.Title }} by {{ $page.Params.author }}" title="Story image for {{ $page.Title }} by {{ $page.Params.author }}"/>
     </div>
     {{ end }}
 

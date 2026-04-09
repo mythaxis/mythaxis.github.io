@@ -15,7 +15,7 @@ description: "Time to stand 2025 up against the wall and put it out of our miser
 image: /images/shared/ShortCrimeReviews10x6.jpg
 imageCopyright: "The title picture was created using Creative Commons images – many thanks to [Darcy Lawrey](https://www.pexels.com/photo/photo-of-books-1117153/) and [Luis Quintero](https://www.pexels.com/photo/black-book-2294881/)."
 
-type: stock
+type: review
 slug: short-reviews-crime-fiction-in-2025
 weight: 8
 featured: true

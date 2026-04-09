@@ -12,6 +12,16 @@
 
 {{- $page := .Page -}}
 
+{{/* Resolve image path: absolute (/images/...) or section-relative (images/...) */}}
+{{- $imagePath := "" -}}
+{{- with $page.Params.image -}}
+  {{- if hasPrefix . "/" -}}
+    {{- $imagePath = . | relURL -}}
+  {{- else -}}
+    {{- $imagePath = path.Join $page.Section . | relURL -}}
+  {{- end -}}
+{{- end -}}
+
 <!-- Featured Post -->
 <article class="post featured">
     <header class="major">
@@ -25,8 +35,8 @@
     <p>{{ $page.Summary }}</p>
     {{ end }}
 
-    {{ if $page.Params.image }}
-    <a href="{{ $page.Permalink }}" class="image main"><img src="{{ path.Join $page.Section $page.Params.image | relURL }}" alt="Story image for {{ $page.Title }} by {{ $page.Params.author}}" title="Story image for {{ $page.Title }} by {{ $page.Params.author}}" /></a>
+    {{ if $imagePath }}
+    <a href="{{ $page.Permalink }}" class="image main"><img src="{{ $imagePath }}" alt="Story image for {{ $page.Title }} by {{ $page.Params.author}}" title="Story image for {{ $page.Title }} by {{ $page.Params.author}}" /></a>
     {{ end }}
 
     {{ if $page.Params.morelink }}
