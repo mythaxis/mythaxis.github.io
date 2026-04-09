@@ -18,9 +18,10 @@
 {{- $readingProgress  := resources.Get "js/nebula2026/reading-progress.js" -}}
 {{- $parallaxHero     := resources.Get "js/nebula2026/parallax-hero.js" -}}
 {{- $nebulaNav        := resources.Get "js/nebula2026/nebula-nav.js" -}}
+{{- $navToggle        := resources.Get "js/nebula2026/nav-toggle.js" -}}
 {{- $frontpageNav     := resources.Get "js/nebula2026/frontpage-nav.js" -}}
 {{- $storyHeroNav     := resources.Get "js/nebula2026/story-hero-nav.js" -}}
-{{- $bundle := slice $chapterMarkers $roundelAnims $readingProgress $parallaxHero $nebulaNav $frontpageNav $storyHeroNav | resources.Concat "js/nebula2026.bundle.js" | minify | fingerprint -}}
+{{- $bundle := slice $chapterMarkers $roundelAnims $readingProgress $parallaxHero $nebulaNav $navToggle $frontpageNav $storyHeroNav | resources.Concat "js/nebula2026.bundle.js" | minify | fingerprint -}}
 <script src="{{ $bundle.RelPermalink }}" defer></script>
 
 {{- with .Page -}}
