@@ -11,12 +11,6 @@
 
   var DEFAULT_ROUNDEL = 'MythaxisIcon';
 
-  var VALID_ROUNDELS = [
-    'MythaxisAbduction', 'MythaxisEye', 'MythaxisGalaxy', 'MythaxisGrey',
-    'MythaxisHand', 'MythaxisIcon', 'MythaxisKnot', 'MythaxisMonster',
-    'MythaxisSwords', 'MythaxisTarget'
-  ];
-
   /**
    * Initialize chapter markers on page load
    */
@@ -27,10 +21,9 @@
       return;
     }
 
-    // Get the chapter marker type from data attribute
+    // Get the chapter marker type from data attribute - trust whatever is set
     var container = article.closest('[data-chapter-marker]');
-    var rawGenre = container ? container.dataset.chapterMarker : DEFAULT_ROUNDEL;
-    var genre = VALID_ROUNDELS.indexOf(rawGenre) !== -1 ? rawGenre : DEFAULT_ROUNDEL;
+    var genre = container && container.dataset.chapterMarker ? container.dataset.chapterMarker : DEFAULT_ROUNDEL;
 
     // Find all <hr> tags within the article content
     var hrs = article.querySelectorAll('hr');

@@ -20,13 +20,16 @@
 {{- if $section -}}
   {{- $sectionMarker = $section.Params.chapterMarker | default "" -}}
 {{- end -}}
-{{- $chapterMarker := $page.Params.chapterMarker | default $sectionMarker | default $siteDefault -}}
 {{- $siteDefaultRoundel := site.Params.issueRoundel | default (site.Params.brandRoundel | default "MythaxisIcon") -}}
 {{- $issueRoundel := "" -}}
 {{- if $section -}}
   {{- $issueRoundel = $section.Params.issueRoundel | default $siteDefaultRoundel -}}
 {{- end -}}
 {{- $issueRoundel = $issueRoundel | default $siteDefaultRoundel -}}
+{{/* storyRoundel: page-level override for footer/header roundels */}}
+{{- $storyRoundel := $page.Params.storyRoundel | default $issueRoundel -}}
+{{/* chapterMarker: explicit chapterMarker OR falls back to storyRoundel OR section/site defaults */}}
+{{- $chapterMarker := $page.Params.chapterMarker | default $sectionMarker | default $storyRoundel | default $siteDefault -}}
 
 <article class="nebula2026-story-single" data-chapter-marker="{{ $chapterMarker }}" data-genre="{{ $chapterMarker }}">
 
@@ -105,7 +108,7 @@
            aria-label="Audio controls">
         <div class="audio-remote__card">
           <div class="audio-remote__front">
-            <img src="/images/roundels/{{ $issueRoundel }}.svg" class="story-header-minimal__issue-roundel" alt="" aria-hidden="true" />
+            <img src="/images/roundels/{{ $storyRoundel }}.svg" class="story-header-minimal__issue-roundel" alt="" aria-hidden="true" />
           </div>
           <div class="audio-remote__back">
             <svg class="audio-remote__icon" viewBox="0 0 48 48" aria-hidden="true">
@@ -120,7 +123,7 @@
       </div>
       {{ else }}
       <div class="story-header-minimal__logotype">
-        <img src="/images/roundels/{{ $issueRoundel }}.svg" class="story-header-minimal__issue-roundel" alt="" aria-hidden="true" />
+        <img src="/images/roundels/{{ $storyRoundel }}.svg" class="story-header-minimal__issue-roundel" alt="" aria-hidden="true" />
       </div>
       {{ end }}
       <div class="story-header-minimal__info">
@@ -156,7 +159,7 @@
   {{/* 5. Story Footer (roundel + support text) */}}
   <footer class="story-footer">
     <div class="story-divider">
-      <img src="/images/roundels/{{ $issueRoundel }}.svg"
+      <img src="/images/roundels/{{ $storyRoundel }}.svg"
            class="story-divider__roundel roundel-animate"
            alt=""
            aria-hidden="true" />
