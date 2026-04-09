@@ -67,8 +67,31 @@
       </li>
       {{ end }}
     </ul>
-    <div class="nebula-nav-panel__roundel">
-      <img src="/images/roundels/{{ $issueRoundel }}.svg" alt="" aria-hidden="true" />
+    <div class="nebula-nav-toggle">
+      <div class="nebula-nav-toggle__track"
+           role="button"
+           tabindex="0"
+           aria-label="Drag to navigate or close"
+           aria-hidden="true">
+        <span class="nebula-nav-toggle__hint nebula-nav-toggle__hint--left" aria-hidden="true">
+          {{- if $section -}}
+            {{- $currentNum := replaceRE "^issue-" "" $section.Section | int -}}
+            {{- $nextNum := add $currentNum 1 -}}
+            i{{ $nextNum }}
+          {{- else -}}Home{{- end -}}
+        </span>
+        <span class="nebula-nav-toggle__hint nebula-nav-toggle__hint--right" aria-hidden="true">
+          {{- if $section -}}
+            {{- $currentNum := replaceRE "^issue-" "" $section.Section | int -}}
+            {{- $prevNum := sub $currentNum 1 -}}
+            i{{ $prevNum }}
+          {{- else -}}Close{{- end -}}
+        </span>
+        <div class="nebula-nav-toggle__handle" id="nebula-nav-toggle-handle">
+          <img src="/images/roundels/{{ $issueRoundel }}.svg" alt="" aria-hidden="true" />
+        </div>
+      </div>
+      <span class="nebula-nav-toggle__label">Drag to navigate</span>
     </div>
   </div>
 </div>
