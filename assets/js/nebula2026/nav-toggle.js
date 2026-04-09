@@ -13,6 +13,8 @@
     var track = document.querySelector('.nebula-nav-toggle__track');
     var handle = document.querySelector('.nebula-nav-toggle__handle');
     var panel = document.getElementById('nebula-nav-panel');
+    var hintLeft = document.querySelector('.nebula-nav-toggle__hint--left');
+    var hintRight = document.querySelector('.nebula-nav-toggle__hint--right');
 
     if (!track || !handle || !panel) return;
 
@@ -91,6 +93,24 @@
       lastX = nowX;
       lastTime = nowTime;
 
+      // Show directional hints based on drag distance (15% threshold)
+      var hintThreshold = trackWidth * 0.15;
+      if (hintLeft && hintRight) {
+        if (offsetX < -hintThreshold) {
+          // Dragging left
+          hintLeft.classList.add('visible');
+          hintRight.classList.remove('visible');
+        } else if (offsetX > hintThreshold) {
+          // Dragging right
+          hintRight.classList.add('visible');
+          hintLeft.classList.remove('visible');
+        } else {
+          // Not dragging far enough
+          hintLeft.classList.remove('visible');
+          hintRight.classList.remove('visible');
+        }
+      }
+
       // Apply transform
       handle.style.transform = 'translate(calc(-50% + ' + offsetX + 'px), -50%)';
 
@@ -102,6 +122,10 @@
 
       isDragging = false;
       track.style.cursor = 'grab';
+
+      // Hide directional hints
+      if (hintLeft) hintLeft.classList.remove('visible');
+      if (hintRight) hintRight.classList.remove('visible');
 
       // Calculate final metrics
       var distance = Math.abs(offsetX);

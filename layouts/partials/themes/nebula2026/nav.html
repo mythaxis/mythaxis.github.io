@@ -71,13 +71,23 @@
       <div class="nebula-nav-toggle__track"
            role="button"
            tabindex="0"
-           aria-label="Drag to close navigation"
+           aria-label="Drag to navigate or close"
            aria-hidden="true">
+        <span class="nebula-nav-toggle__hint nebula-nav-toggle__hint--left" aria-hidden="true">
+          {{- if $section -}}
+            {{- with $section.NextInSection -}}{{ .Title }}{{- else -}}Home{{- end -}}
+          {{- else -}}Home{{- end -}}
+        </span>
+        <span class="nebula-nav-toggle__hint nebula-nav-toggle__hint--right" aria-hidden="true">
+          {{- if $section -}}
+            {{- with $section.PrevInSection -}}{{ .Title }}{{- else -}}Close{{- end -}}
+          {{- else -}}Close{{- end -}}
+        </span>
         <div class="nebula-nav-toggle__handle" id="nebula-nav-toggle-handle">
           <img src="/images/roundels/{{ $issueRoundel }}.svg" alt="" aria-hidden="true" />
         </div>
       </div>
-      <span class="nebula-nav-toggle__label">Drag to close</span>
+      <span class="nebula-nav-toggle__label">Drag to navigate</span>
     </div>
   </div>
 </div>
