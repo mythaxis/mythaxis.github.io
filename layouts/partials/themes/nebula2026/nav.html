@@ -75,12 +75,18 @@
            aria-hidden="true">
         <span class="nebula-nav-toggle__hint nebula-nav-toggle__hint--left" aria-hidden="true">
           {{- if $section -}}
-            {{- with $section.NextInSection -}}{{ .Title }}{{- else -}}Home{{- end -}}
+            {{- with $section.NextInSection -}}
+              {{- $num := replaceRE "^issue-" "" .Section -}}
+              i{{ $num }}
+            {{- else -}}Home{{- end -}}
           {{- else -}}Home{{- end -}}
         </span>
         <span class="nebula-nav-toggle__hint nebula-nav-toggle__hint--right" aria-hidden="true">
           {{- if $section -}}
-            {{- with $section.PrevInSection -}}{{ .Title }}{{- else -}}Close{{- end -}}
+            {{- with $section.PrevInSection -}}
+              {{- $num := replaceRE "^issue-" "" .Section -}}
+              i{{ $num }}
+            {{- else -}}Close{{- end -}}
           {{- else -}}Close{{- end -}}
         </span>
         <div class="nebula-nav-toggle__handle" id="nebula-nav-toggle-handle">

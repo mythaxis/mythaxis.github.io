@@ -644,11 +644,11 @@ img[alt$="-lrg"] {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 0.875rem;
-    font-weight: 600;
-    color: rgba(255, 255, 255, 0.7);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: lowercase;
+    letter-spacing: 0;
     opacity: 0;
     transition: opacity 0.2s ease;
     pointer-events: none;
@@ -656,11 +656,13 @@ img[alt$="-lrg"] {
 }
 
 .nebula-nav-toggle__hint--left {
-    left: 1.25rem;
+    left: 1rem;
+    text-align: left;
 }
 
 .nebula-nav-toggle__hint--right {
-    right: 1.25rem;
+    right: 1rem;
+    text-align: right;
 }
 
 .nebula-nav-toggle__hint.visible {
