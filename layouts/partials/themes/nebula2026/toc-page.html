@@ -52,7 +52,10 @@
 
 <section class="post nebula-page nebula-toc">
     <header class="nebula-page-header">
-        <h1 class="nebula-page-title">{{ $section.Params.issue | default $page.Title }}</h1>
+        <h1 class="nebula-page-title">{{ $page.Title }}</h1>
+        {{ with $page.Description }}
+        <p class="nebula-page-description">{{ . }}</p>
+        {{ end }}
         <div class="nebula-article-divider">
             <img src="/images/roundels/{{ site.Params.brandRoundel | default "MythaxisIcon" }}.svg"
                  class="nebula-article-divider__roundel"
