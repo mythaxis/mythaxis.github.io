@@ -17,8 +17,9 @@ cardLayout: stock-left
 cardLink: True
 chapterMarker: MythaxisIcon
 #excerptLength: 150 # default 280 chars
-description: "Welcome to the new-look Mythaxis Magazine!"
 ---
+
+Welcome to the new-look Mythaxis Magazine!
 
 It's been six years since new management took over, and the first thing we did then was give the site a more modern edge. But the times they keep a-changin', so we thought it was time to give our facelift a facelift. Since our last issue came out, we've been scrambling behind the scenes to have things in place for the spring issue, and here we are!
 <!--more-->
