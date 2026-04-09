@@ -15,6 +15,23 @@
 {{- $page := .Page -}}
 {{- $section := .Section -}}
 
+{{/* Resolve roundels for chapter markers and dividers */}}
+{{- $siteDefault := site.Params.chapterMarker | default (site.Params.brandRoundel | default "MythaxisIcon") -}}
+{{- $sectionMarker := "" -}}
+{{- if $section -}}
+  {{- $sectionMarker = $section.Params.chapterMarker | default "" -}}
+{{- end -}}
+{{- $siteDefaultRoundel := site.Params.issueRoundel | default (site.Params.brandRoundel | default "MythaxisIcon") -}}
+{{- $issueRoundel := "" -}}
+{{- if $section -}}
+  {{- $issueRoundel = $section.Params.issueRoundel | default $siteDefaultRoundel -}}
+{{- end -}}
+{{- $issueRoundel = $issueRoundel | default $siteDefaultRoundel -}}
+{{/* storyRoundel: page-level override for footer/header roundels */}}
+{{- $storyRoundel := $page.Params.storyRoundel | default $issueRoundel -}}
+{{/* chapterMarker: explicit chapterMarker OR falls back to storyRoundel OR section/site defaults */}}
+{{- $chapterMarker := $page.Params.chapterMarker | default $sectionMarker | default $storyRoundel | default $siteDefault -}}
+
 {{/* Resolve image path: absolute (/images/...) or section-relative (images/...) */}}
 {{- $editorialImagePath := "" -}}
 {{- with $page.Params.image -}}
@@ -63,18 +80,18 @@
 </header>
 
 {{/* Reading area */}}
-<section class="post nebula-page">
-    <div class="nebula-page-content">
+<article class="post nebula-page" data-chapter-marker="{{ $chapterMarker }}">
+    <div class="nebula-article-content">
         {{ $page.Content }}
     </div>
 
     <div class="story-divider">
-      <img src="/images/roundels/{{ site.Params.brandRoundel | default "MythaxisIcon" }}.svg"
+      <img src="/images/roundels/{{ $storyRoundel }}.svg"
            class="story-divider__roundel roundel-animate"
            alt=""
            aria-hidden="true" />
     </div>
-</section>
+</article>
 
 {{/* Footer area with fixed issue image backdrop */}}
 <div class="story-end story-end--listings" id="story-end">
