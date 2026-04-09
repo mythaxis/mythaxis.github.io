@@ -1,0 +1,7 @@
+{{/*
+  Review Featured - Theme Dispatcher Wrapper
+  ==========================================
+  This render template delegates to the theme-specific featured implementation.
+*/}}
+
+{{ partial "theme-dispatch" (dict "partial" "featured" "context" .) }}

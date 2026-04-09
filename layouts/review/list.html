@@ -1,0 +1,7 @@
+{{/*
+  Review List - Theme Dispatcher Wrapper
+  ======================================
+  This render template delegates to the theme-specific list-item implementation.
+*/}}
+
+{{ partial "theme-dispatch" (dict "partial" "list-item" "context" .) }}
