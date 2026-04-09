@@ -21,7 +21,7 @@ editor: Andrew Leon Hudson
 image: images/monkeyking.jpg
 imageMobile: images/monkeyking_mob.jpg
 imageCopyright: "Monkey King by Narupiti Harunsong"
-#coverArtist: Aaron Emmel
+coverArtist: Andrew Leon Hudson
 
 colorScheme:
   primary: "#5c6b4a"
