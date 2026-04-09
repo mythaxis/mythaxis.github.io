@@ -136,19 +136,46 @@
       // Determine if threshold crossed (velocity OR distance)
       var thresholdCrossed = absVelocity > VELOCITY_THRESHOLD || distanceRatio > DISTANCE_THRESHOLD;
 
+      console.log('[nav-toggle] Drag release:', {
+        offsetX: offsetX,
+        distance: distance,
+        distanceRatio: distanceRatio,
+        velocity: velocityX,
+        absVelocity: absVelocity,
+        thresholdCrossed: thresholdCrossed,
+        velocityThreshold: VELOCITY_THRESHOLD,
+        distanceThreshold: DISTANCE_THRESHOLD
+      });
+
       if (thresholdCrossed) {
         // Navigate to next/prev issue based on drag direction
         var bodyClasses = document.body.className;
         var issueMatch = bodyClasses.match(/\bissue-(\d+)\b/);
 
+        console.log('[nav-toggle] Navigation triggered:', {
+          bodyClasses: bodyClasses,
+          issueMatch: issueMatch,
+          dragDirection: offsetX < 0 ? 'left' : 'right'
+        });
+
         if (issueMatch) {
           var currentIssue = parseInt(issueMatch[1], 10);
           var targetIssue = offsetX < 0 ? currentIssue - 1 : currentIssue + 1;
+          var targetUrl = '/issue-' + targetIssue + '/';
+
+          console.log('[nav-toggle] Navigating:', {
+            currentIssue: currentIssue,
+            targetIssue: targetIssue,
+            targetUrl: targetUrl
+          });
 
           if (targetIssue > 0) {
-            var targetUrl = '/issue-' + targetIssue + '/';
             window.location.href = targetUrl;
+          } else {
+            console.warn('[nav-toggle] Invalid target issue (must be > 0):', targetIssue);
           }
+        } else {
+          console.warn('[nav-toggle] No issue match found in body classes');
         }
       }
 
