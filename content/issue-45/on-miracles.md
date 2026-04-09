@@ -15,7 +15,6 @@ image: images/OnMiracles10x6.jpg
 imageCopyright: "The title picture was created using a Creative Commons image by [cottonbro studio](https://www.pexels.com/photo/woman-lying-down-on-bed-10061440/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i45/On.Miracles.mp3"
-storyRoundel: MythaxisAbduction
 chapterMarker: MythaxisFaces
 
 colorScheme:
