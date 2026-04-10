@@ -148,35 +148,22 @@
       });
 
       if (thresholdCrossed) {
-        // Navigate to next/prev issue based on drag direction
-        // Extract issue number from URL path (e.g., /issue-45/ or /issue-45/story-title/)
-        var pathname = window.location.pathname;
-        var issueMatch = pathname.match(/\/issue-(\d+)\//);
+        // Read navigation URLs from data attributes
+        var navLeftUrl = track.getAttribute('data-nav-left-url');
+        var navRightUrl = track.getAttribute('data-nav-right-url');
+        var targetUrl = offsetX < 0 ? navLeftUrl : navRightUrl;
 
         console.log('[nav-toggle] Navigation triggered:', {
-          pathname: pathname,
-          issueMatch: issueMatch,
-          dragDirection: offsetX < 0 ? 'left' : 'right'
+          dragDirection: offsetX < 0 ? 'left' : 'right',
+          navLeftUrl: navLeftUrl,
+          navRightUrl: navRightUrl,
+          targetUrl: targetUrl
         });
 
-        if (issueMatch) {
-          var currentIssue = parseInt(issueMatch[1], 10);
-          var targetIssue = offsetX < 0 ? currentIssue - 1 : currentIssue + 1;
-          var targetUrl = '/issue-' + targetIssue + '/';
-
-          console.log('[nav-toggle] Navigating:', {
-            currentIssue: currentIssue,
-            targetIssue: targetIssue,
-            targetUrl: targetUrl
-          });
-
-          if (targetIssue > 0) {
-            window.location.href = targetUrl;
-          } else {
-            console.warn('[nav-toggle] Invalid target issue (must be > 0):', targetIssue);
-          }
+        if (targetUrl && targetUrl !== '') {
+          window.location.href = targetUrl;
         } else {
-          console.warn('[nav-toggle] No issue match found in pathname:', pathname);
+          console.warn('[nav-toggle] No target URL found in data attributes');
         }
       }
 
