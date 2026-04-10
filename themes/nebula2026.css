@@ -653,6 +653,9 @@ img[alt$="-lrg"] {
     transition: opacity 0.2s ease;
     pointer-events: none;
     white-space: nowrap;
+    max-width: 10ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .nebula-nav-toggle__hint--left {
