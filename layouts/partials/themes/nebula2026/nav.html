@@ -124,12 +124,12 @@
 
     {{- else -}}
       {{- /* TOC, Issue Home, Site-Level Pages: issue-to-issue navigation */ -}}
-      {{- $archives := site.GetPage "/archives.md" -}}
+      {{- $archives := site.GetPage "/archive.md" -}}
       {{- $archivesUrl := "" -}}
       {{- if $archives -}}
         {{- $archivesUrl = $archives.RelPermalink -}}
       {{- else -}}
-        {{- $archivesUrl = "/archives/" -}}
+        {{- $archivesUrl = "/archive/" -}}
       {{- end -}}
 
       {{- if $section -}}
