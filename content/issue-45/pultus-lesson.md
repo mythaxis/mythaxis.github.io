@@ -288,7 +288,7 @@ Garba grinned mischievously. But then her eyes became sad. She sighed and put th
 
 “Why didn’t you just leave me?” It wasn’t until he’d asked the question that Pultu realized that he had wanted to ask it for a long time.
 
-“Because that’s not something witches do,” Garba told him simply. “A couple have, but they’ve all regretted it. It’s a piece of them that they’ve left behind. And it’s tortuous for the familiar.”
+“Because that’s not something witches do,” Garba told him simply. “A couple have, but they’ve all regretted it. It’s a piece of them that they’ve left behind. And it’s torturous for the familiar.”
 
 Pultu tried to imagine the anxiety that he’d just felt lasting for the rest of his life. He shuddered. Not that it would have lasted for long. He knew why he’d been brought to that town. It would have been sheer terror to go through that the way he was now, not as an animal.
 
