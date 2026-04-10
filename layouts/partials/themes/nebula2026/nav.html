@@ -67,25 +67,115 @@
       </li>
       {{ end }}
     </ul>
+    {{- /* Calculate context-aware navigation URLs for toggle */ -}}
+    {{- $navLeftUrl := "" -}}
+    {{- $navLeftLabel := "" -}}
+    {{- $navRightUrl := "" -}}
+    {{- $navRightLabel := "" -}}
+
+    {{- if or (eq $page.Type "stock") (eq $page.Type "review") -}}
+      {{- /* Story/Review pages: navigate through filtered sequence */ -}}
+      {{- $currentSection := $page.Section -}}
+      {{- $currentWeight := $page.Weight -}}
+
+      {{- /* Build filtered story sequence: stock + review types, weight-ordered */ -}}
+      {{- $stories := sort (where (where site.RegularPages "Section" $currentSection) ".Type" "in" (slice "stock" "review")) "Weight" "asc" -}}
+
+      {{- /* Find current position in sequence */ -}}
+      {{- $currentIndex := -1 -}}
+      {{- range $idx, $story := $stories -}}
+        {{- if eq $story.RelPermalink $page.RelPermalink -}}
+          {{- $currentIndex = $idx -}}
+        {{- end -}}
+      {{- end -}}
+
+      {{- /* Calculate prev/next with fallbacks */ -}}
+      {{- $prevIndex := sub $currentIndex 1 -}}
+      {{- $nextIndex := add $currentIndex 1 -}}
+
+      {{- if ge $prevIndex 0 -}}
+        {{- /* Previous story exists */ -}}
+        {{- $prevStory := index $stories $prevIndex -}}
+        {{- $navLeftUrl = $prevStory.RelPermalink -}}
+        {{- $navLeftLabel = $prevStory.Title -}}
+      {{- else -}}
+        {{- /* First story: fallback to TOC (contents.md) */ -}}
+        {{- $toc := $section.GetPage "contents.md" -}}
+        {{- if $toc -}}
+          {{- $navLeftUrl = $toc.RelPermalink -}}
+          {{- $navLeftLabel = "Contents" -}}
+        {{- else -}}
+          {{- /* Fallback to section home if no contents.md */ -}}
+          {{- $navLeftUrl = $section.RelPermalink -}}
+          {{- $navLeftLabel = $section.Title -}}
+        {{- end -}}
+      {{- end -}}
+
+      {{- if lt $nextIndex (len $stories) -}}
+        {{- /* Next story exists */ -}}
+        {{- $nextStory := index $stories $nextIndex -}}
+        {{- $navRightUrl = $nextStory.RelPermalink -}}
+        {{- $navRightLabel = $nextStory.Title -}}
+      {{- else -}}
+        {{- /* Last story: fallback to Issue Home (_index.md) */ -}}
+        {{- $navRightUrl = $section.RelPermalink -}}
+        {{- $navRightLabel = $section.Title -}}
+      {{- end -}}
+
+    {{- else -}}
+      {{- /* TOC, Issue Home, Site-Level Pages: issue-to-issue navigation */ -}}
+      {{- $archives := site.GetPage "/archives.md" -}}
+      {{- $archivesUrl := "" -}}
+      {{- if $archives -}}
+        {{- $archivesUrl = $archives.RelPermalink -}}
+      {{- else -}}
+        {{- $archivesUrl = "/archives/" -}}
+      {{- end -}}
+
+      {{- if $section -}}
+        {{- /* Extract current issue number */ -}}
+        {{- $currentIssueNum := replaceRE "^issue-" "" $section.Section | int -}}
+        {{- $prevIssueNum := sub $currentIssueNum 1 -}}
+
+        {{- /* Find previous issue section */ -}}
+        {{- $prevIssueSection := printf "issue-%d" $prevIssueNum -}}
+        {{- $prevIssue := site.GetPage $prevIssueSection -}}
+
+        {{- if and (gt $prevIssueNum 0) $prevIssue -}}
+          {{- /* Previous issue exists */ -}}
+          {{- $navLeftUrl = $prevIssue.RelPermalink -}}
+          {{- $navLeftLabel = printf "i%d" $prevIssueNum -}}
+        {{- else -}}
+          {{- /* Issue 1 or no prev: fallback to archives */ -}}
+          {{- $navLeftUrl = $archivesUrl -}}
+          {{- $navLeftLabel = "Archives" -}}
+        {{- end -}}
+
+        {{- /* Right always goes to archives (pseudo-future issue) */ -}}
+        {{- $navRightUrl = $archivesUrl -}}
+        {{- $navRightLabel = "Archives" -}}
+      {{- else -}}
+        {{- /* Site-level page (no section): both directions go to archives */ -}}
+        {{- $navLeftUrl = $archivesUrl -}}
+        {{- $navLeftLabel = "Archives" -}}
+        {{- $navRightUrl = $archivesUrl -}}
+        {{- $navRightLabel = "Archives" -}}
+      {{- end -}}
+    {{- end -}}
     <div class="nebula-nav-toggle">
       <div class="nebula-nav-toggle__track"
            role="button"
            tabindex="0"
-           aria-label="Drag to navigate or close"
-           aria-hidden="true">
+           aria-label="Drag to navigate"
+           data-nav-left-url="{{ $navLeftUrl }}"
+           data-nav-left-label="{{ $navLeftLabel }}"
+           data-nav-right-url="{{ $navRightUrl }}"
+           data-nav-right-label="{{ $navRightLabel }}">
         <span class="nebula-nav-toggle__hint nebula-nav-toggle__hint--left" aria-hidden="true">
-          {{- if $section -}}
-            {{- $currentNum := replaceRE "^issue-" "" $section.Section | int -}}
-            {{- $nextNum := add $currentNum 1 -}}
-            i{{ $nextNum }}
-          {{- else -}}Home{{- end -}}
+          {{ $navLeftLabel }}
         </span>
         <span class="nebula-nav-toggle__hint nebula-nav-toggle__hint--right" aria-hidden="true">
-          {{- if $section -}}
-            {{- $currentNum := replaceRE "^issue-" "" $section.Section | int -}}
-            {{- $prevNum := sub $currentNum 1 -}}
-            i{{ $prevNum }}
-          {{- else -}}Close{{- end -}}
+          {{ $navRightLabel }}
         </span>
         <div class="nebula-nav-toggle__handle" id="nebula-nav-toggle-handle">
           <img src="/images/roundels/{{ $issueRoundel }}.svg" alt="" aria-hidden="true" />
