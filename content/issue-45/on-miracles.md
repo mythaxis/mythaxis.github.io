@@ -109,9 +109,9 @@ Luisa laughs. Rob always likes to see her laugh, throat extended, even when he k
 
 ---
 
-W*hile at the Blue House, you can see a painting called* El marxismo dará salud*,* “Marxism gives health”*. It’s one of Frida’s self-portraits. One she painted for Trotsky. Her body is encased in an armour-like corset that shows the outline of her breasts. It is edged with red stitches that run up the centre of her torso. You might mistake them for small bites. In her left hand, she grips a book. The book is also red. As the crippled Frida casts away her crutches, her outstretched arms could be about to form the shape of a cross, while she is cradled by the hands of Marx. It’s a communist miracle.*
+W*hile at the Blue House, you can see a painting called* El marxismo dará salud, *“Marxism gives health”. It’s one of Frida’s self-portraits. One she painted for Trotsky. Her body is encased in an armour-like corset that shows the outline of her breasts. It is edged with red stitches that run up the centre of her torso. You might mistake them for small bites. In her left hand, she grips a book. The book is also red. As the crippled Frida casts away her crutches, her outstretched arms could be about to form the shape of a cross, while she is cradled by the hands of Marx. It’s a communist miracle.*
 
-*While at the Blue House, you can look at the display of* retablos*. Some of these altarpieces show a depiction of the Virgin of Guadalupe. An image that mysteriously appeared on a peasant’s cloak in the middle ages. An image that can still be seen at the basilica named after her in Mexico City. The impression incorporates representations of the sun and the moon, symbolism from the indigenous Aztec culture. It’s a Christian miracle.*
+*While at the Blue House, you can look at the display of* retablos. *Some of these altarpieces show a depiction of the Virgin of Guadalupe. An image that mysteriously appeared on a peasant’s cloak in the middle ages. An image that can still be seen at the basilica named after her in Mexico City. The impression incorporates representations of the sun and the moon, symbolism from the indigenous Aztec culture. It’s a Christian miracle.*
 
 *When you have left the Blue House, you might ask yourself why one tradition incorporates another. Why they feel the need to do this. Why they don’t have the courage of their own convictions.*
 
@@ -197,7 +197,7 @@ Luisa shrugs again. “No bites, no water,” she says.
 
 ---
 
-I*nsects are significant in Mexican culture, ancient and modern. For indigenous peoples, their arrival and departure can mark a change in season, like the chicatana ants, whose exit announces the coming of the rains. Then there is the maguey worm, considered a symbol of fertility and also found in bottles of mezcal. In Kahlo’s self-portrait,* Autorretrato con Bonito*, bugs can be seen amongst the leaves in the background. Insects are a part of life. They also sustain life. They are edible.*
+I*nsects are significant in Mexican culture, ancient and modern. For indigenous peoples, their arrival and departure can mark a change in season, like the chicatana ants, whose exit announces the coming of the rains. Then there is the maguey worm, considered a symbol of fertility and also found in bottles of mezcal. In Kahlo’s self-portrait,* Autorretrato con Bonito, *bugs can be seen amongst the leaves in the background. Insects are a part of life. They also sustain life. They are edible.*
 
 *If you go to one of the markets in Mexico City you are sure to find vendors selling street food.* Chapulines *– grasshoppers toasted and marinated – are plentiful, making them a cheap and popular crunchy snack. Other insects have gone up-market, seasonality giving them a rarity value, which increases price and puts them on the menus of high-end restaurants. One such bug is the jumil.*
 
