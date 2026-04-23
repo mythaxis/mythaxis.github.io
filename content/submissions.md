@@ -12,7 +12,10 @@ menus:
 ***Mythaxis Magazine* is currently closed to submissions.**
 
 > Thank you for your interest in submitting your work! Our forthcoming issues are complete, but we will reopen for submissions later in 2026, with a particular interest in crime fiction and crime/spec-fic mashups for our end-of-year issue. We recommend following us on [The Submissions Grinder](https://thegrinder.diabolicalplots.com/Market?id=10939#), [Duotrope](https://duotrope.com/listing/10263/mythaxis-magazine), or [Bluesky](https://bsky.app/profile/mythaxis.bsky.social) for notification of when we reopen.
->
+
+THAT **APRIL 2026** MESSAGE AGAIN: MYTHAXIS IS **NOT OPEN** TO SUBMISSIONS!
+
+The following information is preserved for future reference:
 
 ### REQUIREMENTS
 
@@ -44,19 +47,6 @@ We acquire **First Print, Digital, and Audio rights with a six month period of e
 > **Content note:** We anticipate an adult readership in the sense of maturity, so reasonable depictions of violence, sexuality, philosophy, or bad language are acceptable. However, this is not a market for pornographic or offensively extreme content, categorisation of which is at the editor's discretion. For additional notes regarding what we **are** and **are not** looking for in submissions, see **[here](./editorial-policy.html)**.
 
 **We welcome writers of any and all backgrounds** and invite submissions exploring diverse perspectives and experiences, both cultural and personal, provided they do not seek to attack or demean those of others.
-
-### HOW TO SUBMIT
-
-* **NEW:** Access our automated [**submissions form here**](https://forms.gle/mCL4MQFbWTWLDzS18) (may require a Google account sign in).
-* Or, email files as an attachment to: **MythaxisMagazine@gmail.com**. Please use a subject line like **MYTHAXIS SUBMISSION – YOUR STORY TITLE** to evade spam filters (and when we say *"your story title"*, we don't mean that literally…).
-
-If you do not receive an acknowledgment within 24 hours of submission, please get in touch at our email address. We aim to accept or reject within 30 days of acknowledgment, but rl (real life) and rl (reading load) can get in the way. If you do not receive a decision from us after 60 days, feel free to query.
-
-**File types:** Acceptable attachments are DOC, DOCX, and ODT (plus RTF, if you absolutely have to). **Do not submit in PDF format.** For recommendations regarding attachment titles and document formatting that will make the editor well disposed towards your work, see **[here](./editorial-policy.html)**.
-
-Feel free to include a concise cover letter and/or author bio in your email, though neither is mandatory. ***Mythaxis*** welcomes authors of all levels of experience. We have a history of publishing first-time authors, and we mean to continue this tradition.
-
-If you track your submissions, you can find ***Mythaxis Magazine*** on [The Submissions Grinder](https://thegrinder.diabolicalplots.com/Market?id=10939#) and [Duotrope](https://duotrope.com/listing/10263/mythaxis-magazine).
 
 ### A NOTE ON 'ARTIFICIAL INTELLIGENCE'
 
