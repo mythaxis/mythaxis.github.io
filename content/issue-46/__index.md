@@ -1,7 +1,7 @@
 ---
 theme: nebula2026
 title: "Mythaxis Magazine Issue 46"
-date: 2026-07-11
+date: 2026-07-19
 slug: index
 layout: section
 
@@ -9,22 +9,22 @@ issue: Issue 46
 subhead: Summer 2026
 editor: Andrew Leon Hudson
 # scrollLineText: "↕↕↕↕↕↕↕↕"
-image: images/monkeyking.jpg
-imageMobile: images/monkeyking_mob.jpg
-imageCopyright: "Monkey King by Narupiti Harunsong"
-coverArtist: Narupiti Harunsong
+image: images/AtPeace_cover.jpg
+imageMobile: images/AtPeace_mob.jpg
+imageCopyright: "At Peace by Frank Forrestall"
+coverArtist: Frank Forrestall
 
-introPosition: center # [top|center|bottom]-[left|center|right] or "center" (default)
-introPositionMobile: bottom # top, center, bottom
+introPosition: bottom-right # [top|center|bottom]-[left|center|right] or "center" (default)
+introPositionMobile: center # top, center, bottom
 
 brandRoundel: MythaxisIcon
 issueRoundel: MythaxisIcon
 # or storyRoundel: and chapterMarker:
 
 colorScheme:
-  primary: "#5c6b4a"
-  secondary: "#b8622e"
-  accent: "#2a3020"
+  primary: "#a56f29"
+  secondary: "#e0c02d"
+  accent: "#864a10"
 menus:
   issue:
     name: "Front page"

@@ -1,6 +1,6 @@
 ---
 title: "The Twilight Pariah, by Jeffrey Ford"
-date: 2025-07-11
+date: 2025-07-19
 issue: Issue 46
 
 genre:
@@ -9,23 +9,23 @@ authors:
 - Bill Ryan
 copyright: '© Bill Ryan 2026 All Rights Reserved'
 
-description: "xxx"
+description: "Perhaps you're unaware, but Bill Ryan is years deep into a fairly astonishing project: paired reviews of titles from his heaving shelves, one each by authors familiar and unfamiliar to him, always delivered in his switchbacking conversational style. They don't wade into the speculative genres often, but he's always welcome here when that itch needs a scratch. And there's a link at the end of this one you may want to follow."
 
 image: images/TwilightPariah1000.jpg
-imageCopyright: "The image shows author [Jeffrey Ford](https://en.wikipedia.org/wiki/C._S._Forester) and [the first edition's cover](https://en.wikipedia.org/wiki/Payment_Deferred), both from Wikipedia."
+imageCopyright: "The image shows author Jeffrey Ford and the paperback edition's cover, both from [macmillan.com](https://us.macmillan.com/books/9780765397348/thetwilightpariah/)."
 
-chapterMarker: MythaxisIcon
+chapterMarker: MythaxisMonster
 
 colorScheme:
-  primary: "#0e5e5a"
-  secondary: "#44b896"
-  accent: "#042e2c"
+  primary: "#004300"
+  secondary: "#124b16"
+  accent: "#b9d537"
 
 type: review
 slug: the-twilight-pariah-jeffrey-ford
 weight: 7
 
-cardLayout: stock-right
+cardLayout: stock-left
 
 ---
 

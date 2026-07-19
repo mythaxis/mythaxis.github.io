@@ -9,19 +9,19 @@ authors:
 - Tim Borella
 copyright: '© Tim Borella 2026 All Rights Reserved.'
 
-description: "Many years ago, while researching for a screenplay, the editor stumbled across the tradition of 'couvade', in which a father-to-be undergoes a symbolic childbirth as the expectant mother delivered their child. The ritual I read about sounded somewhat more intense (and potentially less voluntary) than what Wikipedia presently describes… perhaps Tim Borella's researches took him down a similar rabbit hole."
+description: "Many years ago, while doing research for a screenplay, the editor stumbled across the tradition of 'couvade', in which a father-to-be undergoes a symbolic childbirth as the expectant mother delivers their child. The ritual I read about sounded somewhat more intense (and potentially less voluntary) than what Wikipedia presently describes… perhaps Tim Borella's researches took him down a similar rabbit hole."
 
 image: images/ApexBestLives1000.jpg
-imageCopyright: "The title picture was created using a Creative Commons image by [cottonbro studio](https://www.pexels.com/photo/woman-lying-down-on-bed-10061440/) - many thanks!"
+imageCopyright: "The title picture was created using Creative Commons images by [Vinh Chế](https://www.pexels.com/photo/muscular-bodybuilder-posing-in-dramatic-light-38131593/), [WikiImages](https://pixabay.com/photos/camera-photo-photography-67714/), and [Clker Free Vector Images](https://pixabay.com/vectors/forward-left-arrow-direction-44026/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i46/Apex.BestLives.mp3"
 storyRoundel: MythaxisFaces
 chapterMarker: MythaxisFaces
 
 colorScheme:
-  primary: "#5c8a82"
-  secondary: "#9aaca6"
-  accent: "#2a4a44"
+  primary: "#f0aa3b"
+  secondary: "#03615b"
+  accent: "#f0aa3b"
 
 type: stock
 slug: apex-bestlives

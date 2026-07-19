@@ -1,27 +1,27 @@
 ---
-title: "The Perfect Mother"
-date: 2026-04-11
-issue: Issue 45
+title: "The Loneliest Dog on the Moon"
+date: 2026-07-19
+issue: Issue 46
 
 genres:
-- horror
+- science fiction
 authors:
-- Jude Clee
-copyright: '© Jude Clee 2026 All Rights Reserved'
+- Alya Marchenko
+copyright: '© Alya Marchenko 2026 All Rights Reserved'
 
 description: "xxx"
 
 image: images/LoneliestDogMoon1000.jpg
-imageCopyright: "The title picture was created using a Creative Commons image by [Pixabay](https://www.pexels.com/photo/woman-wearing-white-framed-sunglasses-photo-46244/) - many thanks!"
+imageCopyright: "The title picture was created using Creative Commons images by [Vincent Santamaria](https://www.pexels.com/photo/confident-businessman-in-blue-suit-gesturing-37148334/),[Eda Yurtkuran](https://www.pexels.com/photo/golden-retriever-sitting-on-stairs-17859994/), [Max Vakhtbovych](https://www.pexels.com/photo/simple-and-classy-office-interior-8135119/), and [fauxels](https://www.pexels.com/photo/polaroid-photo-of-friends-3228729/) - many thanks!"
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i45/The.Perfect.Mother.mp3"
-storyRoundel: MythaxisGalaxy
-chapterMarker: MythaxisGalaxy
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i46/The.Perfect.Mother.mp3"
+storyRoundel: MythaxisIcon
+chapterMarker: MythaxisIcon
 
 colorScheme:
-  primary: "#b82858"
-  secondary: "#d46a4a"
-  accent: "#5a0a24"
+  primary: "#8ff2f8"
+  secondary: "#d2b931"
+  accent: "#d2b931"
 
 type: stock
 slug: the-loneliest-dog-on-the-moon

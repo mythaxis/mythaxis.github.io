@@ -1,27 +1,27 @@
 ---
 title: "Strip Mine"
-date: 2026-07-11
+date: 2026-07-19
 issue: Issue 46
 
 genres:
-- horror
+- science fiction
 authors:
 - Aaron Emmel
 copyright: '© Arron Emmel 2026 All Rights Reserved'
 
-description: "xxx"
+description: "Another instance of workplace stress driving motivation, but this time we get the flipside: What's going to give when the tempting urge to just say 'To hell with it' and head for the door crashes you into the bitter reality of responsibilities, commitments, and the forever need for cold hard cash? It might just be your self-respect. Returning contributor Aaron Emmel sugar-coats nothing."
 
 image: images/StripMine1000.jpg
-imageCopyright: "The title picture was created using Creative Commons images by [Egor Kamelev](https://www.pexels.com/photo/butterfly-on-yellow-flower-1126790/), [Diana Reyes](https://www.pexels.com/photo/elegant-woman-in-blue-dress-leaning-on-weathered-wall-31800053/), and [Pixabay](https://www.pexels.com/photo/white-and-brown-trees-on-forest-during-daytime-47334/) - many thanks!"
+imageCopyright: "The title picture was created using Creative Commons images by [Francois Maans](https://www.pexels.com/photo/artistic-stone-sculpture-in-lush-green-park-setting-35251031/) and [Eriscolors](https://pixabay.com/photos/woman-model-portrait-pose-style-6496881/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i46/Strip.Mine.mp3"
-storyRoundel: MythaxisMonster
-chapterMarker: MythaxisMonster
+storyRoundel: MythaxisEye
+chapterMarker: MythaxisEye
 
 colorScheme:
-  primary: "#1a4d2e"
-  secondary: "#2444a0"
-  accent: "#0a2414"
+  primary: "#fff6c4"
+  secondary: "#fff338"
+  accent: "#fff338"
 
 type: stock
 slug: strip-mine

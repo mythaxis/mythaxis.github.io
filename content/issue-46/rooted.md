@@ -1,27 +1,27 @@
 ---
 title: "Rooted"
-date: 2026-07-11
+date: 2026-07-19
 issue: Issue 46
 
 genres:
-- science fiction
+- fantasy
 authors:
 - Melanie Bell
 copyright: '© Melanie Bell 2026 All Rights Reserved'
 
-description: "xxx"
+description: "There comes a point we all tire of the daily grind, isn't that so, folks? Voluntarily separated from everything that gives life meaning, reluctantly self-sacrificed on an alter of necessity. Do we even know any longer what it is we lack? Helpfully, Melanie Bell pulls back the veil. The solution might be nothing more than rethinking what it is we choose to do."
 
-image: images/AgenticNecklace10x6.jpg
-imageCopyright: "The title picture was created using Creative Commons images by [Kindel Media](https://www.pexels.com/photo/brown-rocks-and-stones-on-brown-earth-surface-7527857/), [Phong Nguyen](https://www.pexels.com/photo/motorcycle-engine-185545/), [George Becker](https://www.pexels.com/photo/close-up-gray-hoppe-tubular-key-115642/), and [Pixabay](https://www.pexels.com/photo/deadlock-with-key-on-hole-279810/) - many thanks!"
+image: images/Rooted1000.jpg
+imageCopyright: "The title picture was created using Creative Commons images by [Tim Mossholder](https://www.pexels.com/photo/green-plants-on-the-tiles-11062912/) and [Nikolett Emmert](https://www.pexels.com/photo/agricultural-field-under-the-cloudy-sky-12508141/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i46/Rooted.mp3"
-storyRoundel: MythaxisGalaxy
-chapterMarker: MythaxisGalaxy
+storyRoundel: MythaxisKnot
+chapterMarker: MythaxisKnot
 
 colorScheme:
-  primary: "#8b3422"
-  secondary: "#c47a3a"
-  accent: "#3e1208"
+  primary: "#0aceff"
+  secondary: "#1bb73c"
+  accent: "#ffe508"
 
 type: stock
 slug: rooted

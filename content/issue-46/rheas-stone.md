@@ -1,6 +1,6 @@
 ---
 title: "Rhea's Stone"
-date: 2026-07-11
+date: 2026-07-19
 issue: Issue 46
 
 genres:
@@ -12,11 +12,11 @@ copyright: '© Gordon Graham 2026 All Rights Reserved'
 description: "xxx"
 
 image: images/RheasStone1000.jpg
-imageCopyright: The title picture was created using Creative Commons images by [Nicolas Veithen](https://www.pexels.com/photo/foot-path-in-the-middle-of-a-forest-1719627/), [Skyler Ewing](https://www.pexels.com/photo/attentive-bird-sitting-on-twig-in-cold-winter-woods-5748864/), and [Deann DaSilva](https://www.pexels.com/photo/a-pig-resting-on-the-ground-6422248/) - many thanks!
+imageCopyright: The title picture was created using Creative Commons images by [Daniel Gomez](https://www.pexels.com/photo/face-of-a-woman-gesturing-in-a-dark-room-13465665/), [Rostislav Uzunov](https://www.pexels.com/photo/purple-and-pink-diamond-on-blue-background-5011647/), and [Dagmara Dombrovska](https://www.pexels.com/photo/abalone-shell-interior-lined-with-shining-mother-of-pearl-8802637/) - many thanks!
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i46/Rheas.Stone.mp3"
-storyRoundel: MythaxisKnot
-chapterMarker: MythaxisKnot
+storyRoundel: MythaxisHand
+chapterMarker: MythaxisHand
 
 colorScheme:
   primary: "#4a6a1e"
