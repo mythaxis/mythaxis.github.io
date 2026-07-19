@@ -114,7 +114,7 @@ On a whim, she checked the harvester’s destination in Refinement and decided t
 
 She arrived in Refinement to see the spider depositing the last of the UPMs into conveyor-mounted grips to be given into their final structures. She put a tracking bookmark on the last, H4632-05, and more statistics came in over her tablet: projected spatial reasoning, highly integrated language centers, relatively low neuroplasticity. Lists of likely applications were filtered away as the sorter came to a decision of H46’s ultimate fate: *Medical Interface Pattern Type 13.* A rare profile: appropriate for an emergency psych response program or maybe part of an obstetrics array. For a moment Rhea felt a sense of accomplishment, no matter how little she actually contributed. 
 
-She turned to leave as a a dog-whistle *fweeeeee* spiked the upper edge of her hearing and she winced. Below the observation walkway, a UPM was sliding out from within a cluster of precision-calibrated radiation guns. The next glowing lump slid into the processor. *Fweeeeee.*
+She turned to leave as a dog-whistle *fweeeeee* spiked the upper edge of her hearing and she winced. Below the observation walkway, a UPM was sliding out from within a cluster of precision-calibrated radiation guns. The next glowing lump slid into the processor. *Fweeeeee.*
 
 The formerly unstructured processing module slid out, then Rhea’s tablet chirped as H46 slid into place. Her arms danced with goosebumps. She’d seen the process before, but at the same time she couldn’t help thinking that H46 was special. There weren’t many like it. It would be a shame to vandalize something so unique. 
 
