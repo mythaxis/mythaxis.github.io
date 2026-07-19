@@ -9,7 +9,7 @@ authors:
 - Bill Ryan
 copyright: '© Bill Ryan 2026 All Rights Reserved'
 
-description: "Perhaps you're unaware, but Bill Ryan is years deep into a fairly astonishing project: paired reviews of titles from his heaving shelves, one each by authors familiar and unfamiliar to him, always delivered in his switchbacking conversational style. They don't wade into the speculative genres often, but he's always welcome here when that itch needs a scratch. And there's a link at the end of this one you may want to follow."
+description: "Perhaps you're unaware, but Bill Ryan is years deep into a fairly astonishing project: paired reviews of books from his heaving shelves, one each by authors familiar and unfamiliar to him, always delivered in his switchbacking conversational style. They don't wade into the speculative genres often, but he's always welcome here when that itch needs a scratch. And there's a link at the end of this one you may want to follow."
 
 image: images/TwilightPariah1000.jpg
 imageCopyright: "The image shows author Jeffrey Ford and the paperback edition's cover, both from [macmillan.com](https://us.macmillan.com/books/9780765397348/thetwilightpariah/)."

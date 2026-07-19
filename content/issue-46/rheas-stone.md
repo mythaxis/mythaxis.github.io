@@ -9,7 +9,7 @@ authors:
 - Gordon Graham
 copyright: '© Gordon Graham 2026 All Rights Reserved'
 
-description: "xxx"
+description: "AI stories are nothing new in sf, though for some reason the subject does seem to have been on people's minds a lot recently. In any case, this isn't exactly 'an AI story', though it does feature what increasingly threatens to be a central implication of them. No, this is another example of what the editor thinks of as speculative employment fiction, which maybe isn't a proper subgenre at all. Gordon Graham and I can debate it later."
 
 image: images/RheasStone1000.jpg
 imageCopyright: The title picture was created using Creative Commons images by [Daniel Gomez](https://www.pexels.com/photo/face-of-a-woman-gesturing-in-a-dark-room-13465665/), [Rostislav Uzunov](https://www.pexels.com/photo/purple-and-pink-diamond-on-blue-background-5011647/), and [Dagmara Dombrovska](https://www.pexels.com/photo/abalone-shell-interior-lined-with-shining-mother-of-pearl-8802637/) - many thanks!
