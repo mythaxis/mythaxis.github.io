@@ -4,6 +4,6 @@ type: author
 name: Aaron Emmel
 photo: 'images/AaronEmmel.jpg'
 avatar: 'images/AaronEmmel.jpg'
-copyright: "© Aaron Emmel 2021 All Rights Reserved"
-description: "***Aaron Emmel***’*s stories have appeared in numerous magazines and anthologies. Thanks to the patience of his wonderful wife, and despite the impatience of his wonderful children, Aaron also writes essays, graphic novels and interactive fiction. He grew up in the mountains of New Mexico and on Central America’s Caribbean coast. Find him online at [www.aaronemmel.com](https://aaronemmel.com/) and on Twitter at [@justicioaje](https://twitter.com/justicioaje).*"
+copyright: "© Aaron Emmel 2021-2026 All Rights Reserved"
+description: "***Aaron Emmel***’*s stories have appeared in* Fireside Magaine, Daily Science Fiction, Starship Sofa, *and many other excellent magazines and anthologies. Find him online at [www.aaronemmel.com](https://aaronemmel.com/) and on [Threads](https://www.threads.com/@aaronjemmel) or [Bluesky](https://bsky.app/profile/aaronjemmel.bsky.social).*"
 ---
