@@ -9,7 +9,7 @@ authors:
 - Andrew Leon Hudson
 copyright: '© Andrew Leon Hudson 2026 All Rights Reserved'
 
-description: "The customary closer: three short reviews of three stories that caught in the editor's mind while reading over the last year. This time they're somewhat unbalanced, two very short ones and one quite a bit longer; the first pair of a passing similarity, the latter not remotely. But all interesting, and free to read at the links you'll find waiting."
+description: "The customary closer: a set of short reviews that bring together three stories that caught on the editor's mind while reading through the year. This time they're somewhat unbalanced, two very short ones and one considerably longer; the first pair of passing similarity, the latter not remotely. But all interesting, and free to read at the links you'll find waiting."
 
 image: /images/shared/ShortReviews1000.jpg
 imageCopyright: "The image is by [grandfailure](https://depositphotos.com/368748152/stock-photo-man-standing-mysterious-library-digital.html) via DepositPhotos.com."
@@ -29,7 +29,7 @@ cardLayout: stock-right
 
 ---
 
-{{<glyph>}}F{{</glyph>}}irst up, a first mention here for *[Daikaiju Zine](https://daikaijuzine.org/)*, named for and home to strange creatures (kaiju), specifically *large* strange creatures (daikaiju), although in Jenny Hart's story size is a relative factor. And strangeness, well, inherently so whatever the context, really. There is no “strange” without an opinion about “normal” against which to frame it.
+{{<glyph>}}F{{</glyph>}}irst up, [nine issues on](https://mythaxis.co.uk/issue-37/short-reviews-january-to-march-2024.html), a first proper mention here for *[Daikaiju Zine](https://daikaijuzine.org/)*, named for and home to strange creatures (kaiju), specifically *large* strange creatures (daikaiju), though in Jenny Hart's story size is a relative factor. And strangeness, well, inherently so whatever the context, really. There is no “strange” without an opinion about “normal” against which to frame it.
 
 Creatures, though, no question. There's humans all over the place. **[Beneath, Below](https://daikaijuzine.org/jennyhart/beneathbelow)** is not a long story, and I don't want to spoil, so I'll focus mostly on the fact that it's set in an inconceivably distant lunar habitat – not our moon; our habitat only through artefice – and does a fine job of presenting the subtle and not so subtle stressors of life lived in a superficially comfortable extreme. Which is how it will have to be, when we finally do leave the familiar environments of home to explore what the outer universe consists of. We humans, I mean.
 

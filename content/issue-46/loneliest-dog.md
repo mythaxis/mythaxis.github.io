@@ -14,7 +14,7 @@ description: "Some stories arrive in their perfected form, others evolve between
 image: images/LoneliestDogMoon1000.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Vincent Santamaria](https://www.pexels.com/photo/confident-businessman-in-blue-suit-gesturing-37148334/),[Eda Yurtkuran](https://www.pexels.com/photo/golden-retriever-sitting-on-stairs-17859994/), [Max Vakhtbovych](https://www.pexels.com/photo/simple-and-classy-office-interior-8135119/), and [fauxels](https://www.pexels.com/photo/polaroid-photo-of-friends-3228729/) - many thanks!"
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i46/The.Perfect.Mother.mp3"
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i46/The.Loneliest.Dog.On.The.Moon.mp3"
 storyRoundel: MythaxisIcon
 chapterMarker: MythaxisIcon
 
