@@ -9,7 +9,7 @@ authors:
 - Julia Tilford
 copyright: '© Julia Tilford 2026 All Rights Reserved'
 
-description: "When overwhelming grief strikes, you have little choice but to endure, to whatever extent you are able to. Some might need companionship. Some might need space. Julia Tilford gives her protagonist both, if you'll forgive a small pun at an inappropriate time. And speaking of which, they say time heals all wounds, but when your whole universe comes crashing down you'll find there is no time in your new singularity."
+description: "When overwhelming grief strikes, you have little choice but to endure, to whatever extent you are able to. Some might need companionship. Some might need space. Julia Tilford gives her protagonist both, if you'll forgive a small pun at an inappropriate time. And speaking of which, they say time heals all wounds, but when your whole universe comes crashing down you'll find there is none of that in your new singularity."
 
 image: images/FeelCool1000.jpg
 imageCopyright: "The title picture was created from a free to use image by [Mikhail Nilov](https://www.pexels.com/photo/woman-in-blue-spacesuit-7662630/) - many thanks!"
