@@ -9,7 +9,7 @@ authors:
 - Melanie Bell
 copyright: '© Melanie Bell 2026 All Rights Reserved'
 
-description: "There comes a point we all tire of the daily grind, isn't that so, folks? Voluntarily separated from everything that gives life meaning, reluctantly self-sacrificed on an alter of necessity. Do we even know any longer what it is we lack? Helpfully, Melanie Bell pulls back the veil. The solution might be nothing more than rethinking what it is we choose to do."
+description: "There comes a point we all tire of the daily grind, isn't that so, folks? Voluntarily separated from everything that gives life meaning, reluctantly self-sacrificed on an altar of necessity. Do we even know any longer what it is we lack? Helpfully, Melanie Bell pulls back the veil. The solution might be nothing more than rethinking what it is we choose to do."
 
 image: images/Rooted1000.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Tim Mossholder](https://www.pexels.com/photo/green-plants-on-the-tiles-11062912/) and [Nikolett Emmert](https://www.pexels.com/photo/agricultural-field-under-the-cloudy-sky-12508141/) - many thanks!"
