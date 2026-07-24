@@ -41,7 +41,7 @@ Call me “Neppo-Daddy”, but a month or few ago *[Foofaraw Press](https://foof
 
 ---
 
-{{<glyph>}}B{{</glyph>}}oth the previous stories came out back in March, but to wrap things up we'll close in on the present – on the one hand, because **[The Trident-Tailed Water Monster](https://futurefire.net/2026.76/fiction/trident.html)** appears in *[The Future Fire](https://futurefire.net/)*'s May 2026 issue, and on the other because Rae Zalopany introduces us to a run-down corner of Florida with a kind of timeless, contemporary air.
+{{<glyph>}}B{{</glyph>}}oth the previous stories came out back in March, but to wrap things up we'll close in on the present – on the one hand, because **[The Trident-Tailed Water Monster](https://web.archive.org/web/20260516120729/http://futurefire.net/2026.76/fiction/trident.html)** appears in *[The Future Fire](https://futurefire.net/)*'s May 2026 issue, and on the other because Rae Zalopany introduces us to a run-down corner of Florida with a kind of timeless, contemporary air.
 
 I say this because in a way the story feels like (if it wasn't for the appearance of a mobile phone) it could take place any time since say the 70s. Perhaps because the protagonist's perspective (uncertainty about the intentions of others, uncertainty about those of herself) and the environments she occupies (decaying social spaces, natural zones that don't feel ours, the liminal borders between them) are in the greater scheme of things persistent conditions, even if the players and the places shift.
 
