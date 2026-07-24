@@ -321,8 +321,3 @@ He was silent for a while, then climbed onto my lap and purred. I stroked his ea
 I thought of Mr. Duner.
 
 “Tomorrow,” I added, “and every day for the next fifty years.”
-
----
-
-### EDITOR'S NOTE:
-*As mentioned in the editorial,* [click here](https://youtu.be/_fhZ_m4EBkM) *to check out behind-the-scenes video of the audio recording of **The Loneliest Dog on the Moon**!*
