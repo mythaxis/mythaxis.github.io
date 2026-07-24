@@ -203,8 +203,3 @@ My finger found the off button and pressed.
 “Give me the two years.”
 
 Bob grinned and put down his sweat rag. “I’ll get the paperwork.”
-
----
-
-### EDITOR'S NOTE:
-*As mentioned in the editorial,* [click here](https://youtu.be/6se1srrdxHA) *to check out behind-the-scenes video of the audio recording of **Strip Mine**!*
