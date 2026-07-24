@@ -323,8 +323,3 @@ At the platform, she closed her bloody fist around the glittering stone in her p
 Someday it might come back and tear the factory that had birthed it to pieces, until even the foundations were dust.
 
 Rhea smiled as her train pulled away into the night.
-
----
-
-### EDITOR'S NOTE:
-*As mentioned in the editorial,* [click here](https://youtu.be/6HsQTJynlao) *to check out behind-the-scenes video of the audio recording of **Rhea's Stone**!*
