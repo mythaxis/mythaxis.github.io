@@ -19,9 +19,9 @@ storyRoundel: MythaxisEye
 chapterMarker: MythaxisEye
 
 colorScheme:
-  primary: "#fff6c4"
-  secondary: "#fff338"
-  accent: "#fff338"
+  primary: "#fff338"
+  secondary: "#fff6c4"
+  accent: "#fff6c4"
 
 type: stock
 slug: strip-mine
