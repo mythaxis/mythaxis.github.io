@@ -264,8 +264,3 @@ Curtis pulls at the straps on Harrison’s filthy suit. *Airway, yes*. *Breathin
 Amayah, spent, cradles the baby to her breast. Curtis stumbles towards her, but her hostile glare stops him dead. Is she even fully aware of what’s happening? *Does she blame me?*
 
 Nobody speaks. The medics keep working, but what’s the point? Harrison’s gone. The baby cries, strong and vital, and Curtis’s eyes fill with tears. His blurred gaze drifts to the online viewer stats, where numbers have gone absolutely ballistic.
-
----
-
-### EDITOR'S NOTE:
-*As mentioned in the editorial,* [click here](https://youtu.be/IF4wl237I-E) *to check out behind-the-scenes video of the audio recording of **Apex BestLives**!*
