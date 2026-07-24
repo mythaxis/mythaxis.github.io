@@ -29,9 +29,9 @@ cardLayout: stock-right
 
 ---
 
-{{<glyph>}}F{{</glyph>}}irst up, [nine issues on](https://mythaxis.co.uk/issue-37/short-reviews-january-to-march-2024.html), a first proper mention here for *[Daikaiju Zine](https://daikaijuzine.org/)*, named for and home to strange creatures (kaiju), specifically *large* strange creatures (daikaiju), though in Jenny Hart's story size is a relative factor. And strangeness, well, inherently so whatever the context, really. There is no “strange” without an opinion about “normal” against which to frame it.
+{{<glyph>}}F{{</glyph>}}irst up, [nine issues on](https://mythaxis.co.uk/issue-37/short-reviews-january-to-march-2024.html), a proper mention here for *[Daikaiju Zine](https://daikaijuzine.org/)*, named for and home to strange creatures (kaiju), specifically *large* strange creatures (daikaiju). In Jenny Hart's story, size is a relative factor. And strangeness, well, inherently so whatever the context, really. There is no “strange” without an opinion about “normal” against which to frame it.
 
-Creatures, though, no question. There's humans all over the place. **[Beneath, Below](https://daikaijuzine.org/jennyhart/beneathbelow)** is not a long story, and I don't want to spoil, so I'll focus mostly on the fact that it's set in an inconceivably distant lunar habitat – not our moon; our habitat only through artefice – and does a fine job of presenting the subtle and not so subtle stressors of life lived in a superficially comfortable extreme. Which is how it will have to be, when we finally do leave the familiar environments of home to explore what the outer universe consists of. We humans, I mean.
+Creatures, though, no question. There're humans all over the place. **[Beneath, Below](https://daikaijuzine.org/jennyhart/beneathbelow)** is not a long story, and I don't want to spoil, so I'll focus mostly on the fact that it's set in an inconceivably distant lunar habitat – not our moon; our habitat only through artifice – and does a fine job of presenting the subtle and not so subtle stressors of life lived in a superficially comfortable extreme. Which is how it will have to be, when we finally do leave the familiar environments of home to explore what the outer universe consists of. We humans, I mean.
 
 ---
 
