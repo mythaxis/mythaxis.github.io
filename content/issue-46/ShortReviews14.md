@@ -9,7 +9,7 @@ authors:
 - Andrew Leon Hudson
 copyright: '© Andrew Leon Hudson 2026 All Rights Reserved'
 
-description: "The customary closer: a set of short reviews that bring together three stories that caught on the editor's mind while reading through the year. This time they're somewhat unbalanced, two very short ones and one considerably longer; the first pair of passing similarity, the latter not remotely. But all interesting, and free to read at the links you'll find waiting."
+description: "The customary closer: a set of short reviews that bring together three stories that stuck in the editor's mind while reading through the year. This time they're somewhat unbalanced, two very short ones and one considerably longer; the first pair of passing similarity, the latter not remotely. But all interesting, and free to read at the links you'll find waiting."
 
 image: /images/shared/ShortReviews1000.jpg
 imageCopyright: "The image is by [grandfailure](https://depositphotos.com/368748152/stock-photo-man-standing-mysterious-library-digital.html) via DepositPhotos.com."
