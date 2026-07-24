@@ -38,8 +38,9 @@ Wanted: someone to help with a large organic garden and food forest. Will provid
 
 
 
-> *Rosemary, elderberry, watercress, thyme
->  Currants as red as a sweet summer wine*
+> *Rosemary, elderberry, watercress, thyme*
+> 
+> *Currants as red as a sweet summer wine*
 
 
 
@@ -196,8 +197,3 @@ A figure extends from a tree, a giant ruffled fungus. I blink and it’s a woman
 Her feet are bare, her smile serene. For a time, I called her Mary. She looks at me with acknowledgment: one thing looking at itself.
 
 “Hello,” she says. “I’ve been waiting.”
-
----
-
-### EDITOR'S NOTE:
-*As mentioned in the editorial,* [click here](https://youtu.be/97TZ7tFN9c0) *to check out behind-the-scenes video of the audio recording of **Rooted**!*
