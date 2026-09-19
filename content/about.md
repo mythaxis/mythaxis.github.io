@@ -10,7 +10,9 @@ menus:
 ---
 
 
-Established in 2008 by Gil Williamson, *Mythaxis* began as a self-coded webzine with an unpredictable release schedule and a close-knit group of regular contributors. Edited by Andrew Leon Hudson since 2020, the magazine is now a clockwork-quarterly publication and welcomes writers from around the world, and in 2026 we were delighted to be nominated for a [British Fantasy Award](https://britishfantasysociety.org/the-british-fantasy-awards-2026-shortlists/) in the *Best Magazine/Periodical* category. We've evolved over our nearly twenty years of publishing, but some things never change: *Mythaxis* has always been focused on the fiction, with as little distraction as possible - no ads, no clutter, just quality stories to transport you somewhere else.
+Established in 2008 by Gil Williamson, *Mythaxis* began as a self-coded webzine with an unpredictable release schedule and a close-knit group of regular contributors. Edited by Andrew Leon Hudson since 2020, the magazine is now a clockwork-quarterly publication and welcomes writers from around the world, and in 2026 we were delighted to be nominated for a [British Fantasy Award](https://britishfantasysociety.org/the-british-fantasy-awards-2026-shortlists/) in the *Best Magazine/Periodical* category.
+
+We've evolved over our nearly twenty years of publishing, but some things never change: *Mythaxis* has always been focused on the fiction, with as little distraction as possible - no ads, no clutter, just quality stories to transport you somewhere else.
 
 For a "subscription" to *Mythaxis*, sign up **[here](http://eepurl.com/hdhvMT)** to receive each new issue's Table of Contents in your inbox on release. You can also follow us on [Bluesky](https://bsky.app/profile/mythaxis.bsky.social) and [Facebook](https://www.facebook.com/MythaxisMagazine).
 
