@@ -73,89 +73,103 @@
     {{- $navRightUrl := "" -}}
     {{- $navRightLabel := "" -}}
 
+    {{- /* Archive URL (shared by multiple contexts) */ -}}
+    {{- $archives := site.GetPage "/archive.md" -}}
+    {{- $archivesUrl := "/archive/" -}}
+    {{- with $archives -}}
+      {{- $archivesUrl = .RelPermalink -}}
+    {{- end -}}
+
+    {{- /* ponytail: latest issue from site config, drives story-vs-issue nav split */ -}}
+    {{- $latestIssueNum := 0 -}}
+    {{- with site.Params.currentIssue -}}
+      {{- $latestIssueNum = replaceRE "[^0-9]" "" . | int -}}
+    {{- end -}}
+
     {{- if or (eq $page.Type "stock") (eq $page.Type "review") -}}
-      {{- /* Story/Review pages: navigate through filtered sequence */ -}}
       {{- $currentSection := $page.Section -}}
-      {{- $currentWeight := $page.Weight -}}
+      {{- $currentIssueNum := replaceRE "^issue-" "" $currentSection | int -}}
 
-      {{- /* Build filtered story sequence: stock + review types, weight-ordered */ -}}
-      {{- $stories := sort (where (where site.RegularPages "Section" $currentSection) ".Type" "in" (slice "stock" "review")) "Weight" "asc" -}}
+      {{- if eq $currentIssueNum $latestIssueNum -}}
+        {{- /* Latest issue stories: navigate through filtered sequence */ -}}
+        {{- $stories := sort (where (where site.RegularPages "Section" $currentSection) ".Type" "in" (slice "stock" "review")) "Weight" "asc" -}}
 
-      {{- /* Find current position in sequence */ -}}
-      {{- $currentIndex := -1 -}}
-      {{- range $idx, $story := $stories -}}
-        {{- if eq $story.RelPermalink $page.RelPermalink -}}
-          {{- $currentIndex = $idx -}}
+        {{- $currentIndex := -1 -}}
+        {{- range $idx, $story := $stories -}}
+          {{- if eq $story.RelPermalink $page.RelPermalink -}}
+            {{- $currentIndex = $idx -}}
+          {{- end -}}
         {{- end -}}
-      {{- end -}}
 
-      {{- /* Calculate prev/next with fallbacks */ -}}
-      {{- $prevIndex := sub $currentIndex 1 -}}
-      {{- $nextIndex := add $currentIndex 1 -}}
+        {{- $prevIndex := sub $currentIndex 1 -}}
+        {{- $nextIndex := add $currentIndex 1 -}}
 
-      {{- if ge $prevIndex 0 -}}
-        {{- /* Previous story exists */ -}}
-        {{- $prevStory := index $stories $prevIndex -}}
-        {{- $navLeftUrl = $prevStory.RelPermalink -}}
-        {{- $navLeftLabel = $prevStory.Title -}}
-      {{- else -}}
-        {{- /* First story: fallback to TOC (contents.md) */ -}}
-        {{- $toc := $section.GetPage "contents.md" -}}
-        {{- if $toc -}}
-          {{- $navLeftUrl = $toc.RelPermalink -}}
-          {{- $navLeftLabel = "Contents" -}}
+        {{- if ge $prevIndex 0 -}}
+          {{- $prevStory := index $stories $prevIndex -}}
+          {{- $navLeftUrl = $prevStory.RelPermalink -}}
+          {{- $navLeftLabel = $prevStory.Title -}}
         {{- else -}}
-          {{- /* Fallback to section home if no contents.md */ -}}
-          {{- $navLeftUrl = $section.RelPermalink -}}
-          {{- $navLeftLabel = $section.Title -}}
+          {{- $toc := $section.GetPage "contents.md" -}}
+          {{- if $toc -}}
+            {{- $navLeftUrl = $toc.RelPermalink -}}
+            {{- $navLeftLabel = "Contents" -}}
+          {{- else -}}
+            {{- $navLeftUrl = $section.RelPermalink -}}
+            {{- $navLeftLabel = $section.Title -}}
+          {{- end -}}
         {{- end -}}
-      {{- end -}}
 
-      {{- if lt $nextIndex (len $stories) -}}
-        {{- /* Next story exists */ -}}
-        {{- $nextStory := index $stories $nextIndex -}}
-        {{- $navRightUrl = $nextStory.RelPermalink -}}
-        {{- $navRightLabel = $nextStory.Title -}}
+        {{- if lt $nextIndex (len $stories) -}}
+          {{- $nextStory := index $stories $nextIndex -}}
+          {{- $navRightUrl = $nextStory.RelPermalink -}}
+          {{- $navRightLabel = $nextStory.Title -}}
+        {{- else -}}
+          {{- $navRightUrl = $section.RelPermalink -}}
+          {{- $navRightLabel = $section.Title -}}
+        {{- end -}}
+
       {{- else -}}
-        {{- /* Last story: fallback to Issue Home (_index.md) */ -}}
-        {{- $navRightUrl = $section.RelPermalink -}}
-        {{- $navRightLabel = $section.Title -}}
-      {{- end -}}
-
-    {{- else -}}
-      {{- /* TOC, Issue Home, Site-Level Pages: issue-to-issue navigation */ -}}
-      {{- $archives := site.GetPage "/archive.md" -}}
-      {{- $archivesUrl := "" -}}
-      {{- if $archives -}}
-        {{- $archivesUrl = $archives.RelPermalink -}}
-      {{- else -}}
-        {{- $archivesUrl = "/archive/" -}}
-      {{- end -}}
-
-      {{- if $section -}}
-        {{- /* Extract current issue number */ -}}
-        {{- $currentIssueNum := replaceRE "^issue-" "" $section.Section | int -}}
+        {{- /* Past issue stories: skip stories, navigate issue-to-issue */ -}}
         {{- $prevIssueNum := sub $currentIssueNum 1 -}}
+        {{- $nextIssueNum := add $currentIssueNum 1 -}}
 
-        {{- /* Find previous issue section */ -}}
-        {{- $prevIssueSection := printf "issue-%d" $prevIssueNum -}}
-        {{- $prevIssue := site.GetPage $prevIssueSection -}}
-
+        {{- $prevIssue := site.GetPage (printf "issue-%d" $prevIssueNum) -}}
         {{- if and (gt $prevIssueNum 0) $prevIssue -}}
-          {{- /* Previous issue exists */ -}}
           {{- $navLeftUrl = $prevIssue.RelPermalink -}}
           {{- $navLeftLabel = printf "i%d" $prevIssueNum -}}
         {{- else -}}
-          {{- /* Issue 1 or no prev: fallback to archives */ -}}
           {{- $navLeftUrl = $archivesUrl -}}
           {{- $navLeftLabel = "Archives" -}}
         {{- end -}}
 
-        {{- /* Right always goes to archives (pseudo-future issue) */ -}}
+        {{- $nextIssue := site.GetPage (printf "issue-%d" $nextIssueNum) -}}
+        {{- if $nextIssue -}}
+          {{- $navRightUrl = $nextIssue.RelPermalink -}}
+          {{- $navRightLabel = printf "i%d" $nextIssueNum -}}
+        {{- else -}}
+          {{- $navRightUrl = $archivesUrl -}}
+          {{- $navRightLabel = "Archives" -}}
+        {{- end -}}
+      {{- end -}}
+
+    {{- else -}}
+      {{- /* TOC, Issue Home, Site-Level Pages: issue-to-issue navigation */ -}}
+      {{- if $section -}}
+        {{- $currentIssueNum := replaceRE "^issue-" "" $section.Section | int -}}
+        {{- $prevIssueNum := sub $currentIssueNum 1 -}}
+
+        {{- $prevIssue := site.GetPage (printf "issue-%d" $prevIssueNum) -}}
+        {{- if and (gt $prevIssueNum 0) $prevIssue -}}
+          {{- $navLeftUrl = $prevIssue.RelPermalink -}}
+          {{- $navLeftLabel = printf "i%d" $prevIssueNum -}}
+        {{- else -}}
+          {{- $navLeftUrl = $archivesUrl -}}
+          {{- $navLeftLabel = "Archives" -}}
+        {{- end -}}
+
         {{- $navRightUrl = $archivesUrl -}}
         {{- $navRightLabel = "Archives" -}}
       {{- else -}}
-        {{- /* Site-level page (no section): both directions go to archives */ -}}
         {{- $navLeftUrl = $archivesUrl -}}
         {{- $navLeftLabel = "Archives" -}}
         {{- $navRightUrl = $archivesUrl -}}
