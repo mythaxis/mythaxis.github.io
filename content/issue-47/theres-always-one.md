@@ -9,20 +9,18 @@ authors:
 - C. J. Peterson
 copyright: '© C. J. Peterson 2026 All Rights Reserved'
 
-description: "XXX
-
-There comes a point we all tire of the daily grind, isn't that so, folks? Voluntarily separated from everything that gives life meaning, reluctantly self-sacrificed on an altar of necessity. Do we even know any longer what it is we lack? Helpfully, Melanie Bell pulls back the veil. The solution might be nothing more than rethinking what it is we choose to do."
+description: "I do appreciate a story that conveys the scale of time. We started 2026 with a fine example, charting decades such that their impact only truly came concrete at the end; here, C. J. Peterson allows centuries, even millenia, to pass as easily as months or years. And as any child or civilisation could confirm, you can pack a whole lot into those great spans."
 
 image: images/TheresAlwaysOne1000.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Tim Mossholder](https://www.pexels.com/photo/green-plants-on-the-tiles-11062912/) and [Nikolett Emmert](https://www.pexels.com/photo/agricultural-field-under-the-cloudy-sky-12508141/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i47/Theres.Always.One.mp3"
-storyRoundel: MythaxisKnot
-chapterMarker: MythaxisKnot
+storyRoundel: MythaxisGalaxy
+chapterMarker: MythaxisGalaxy
 
 colorScheme:
-  primary: "#0aceff"
-  secondary: "#1bb73c"
+  primary: "#212461"
+  secondary: "#13631d"
   accent: "#ffe508"
 
 type: stock

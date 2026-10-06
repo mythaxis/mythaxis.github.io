@@ -9,20 +9,18 @@ authors:
 - Marina Favila
 copyright: '© Marina Favila 2026 All Rights Reserved.'
 
-description: "xxx
-
-Many years ago, while doing research for a screenplay, the editor stumbled across the tradition of 'couvade', in which a father-to-be undergoes a symbolic childbirth as the expectant mother delivers their child. The ritual I read about sounded somewhat more intense (and potentially less voluntary) than what Wikipedia presently describes… perhaps Tim Borella's researches took him down a similar rabbit hole."
+description: "It appears the editor (who also moonlights as story art designer) associates themes of memory with polaroid photographs, since both this issue and the previous boasted such a piece thus decorated. Very much different tales, though. Marina Favila gives us a concise, convincing portrait of persons and place, familiar little cruelties and regrets, and less familiar ones too."
 
 image: images/MissingPerson1000.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Vinh Chế](https://www.pexels.com/photo/muscular-bodybuilder-posing-in-dramatic-light-38131593/), [WikiImages](https://pixabay.com/photos/camera-photo-photography-67714/), and [Clker Free Vector Images](https://pixabay.com/vectors/forward-left-arrow-direction-44026/) - many thanks!"
 
-audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i47/Missing.Person.459.mp3"
-storyRoundel: MythaxisUFO
-chapterMarker: MythaxisUFO
+audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i47/Missing.Person.459.Merle.Gap.mp3"
+storyRoundel: MythaxisAbduction
+chapterMarker: MythaxisAbduction
 
 colorScheme:
-  primary: "#f0aa3b"
-  secondary: "#03615b"
+  primary: "#998a25"
+  secondary: "#854117"
   accent: "#f0aa3b"
 
 type: stock

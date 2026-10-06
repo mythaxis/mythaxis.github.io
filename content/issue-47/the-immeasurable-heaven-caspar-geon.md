@@ -9,19 +9,17 @@ authors:
 - Mattia Ravasi
 copyright: '© Mattia Ravasi 2026 All Rights Reserved'
 
-description: "xxx
-
-Perhaps you're unaware, but Bill Ryan is years deep into a fairly astonishing project: paired reviews of books from his heaving shelves, one each by authors familiar and unfamiliar to him, always delivered in his switchbacking conversational style. They don't wade into the speculative genres often, but he's always welcome here when that itch needs a scratch. And there's a link at the end of this one you may want to follow."
+description: "When I read Mattia Ravasi's review of The Immeasurable Heaven I felt uncontrollably moved to buy a copy the same day - editorial privilege I guess, and possibly a spoiler for what Mattia thought about it. I finished it a few days before the review itself, but it's clearly time to let the man speak for himself."
 
 image: images/ImmeasureableHeaven1000.jpg
-imageCopyright: "The image shows author Jeffrey Ford and the paperback edition's cover, both from [macmillan.com](https://us.macmillan.com/books/9780765397348/thetwilightpariah/)."
+imageCopyright: "The image shows author Caspar Geon, via [Goodreads](https://www.goodreads.com/author/show/52397276.Caspar_Geon), and the paperback edition's cover, from [simonandschuster.com](https://www.simonandschuster.com/books/The-Immeasurable-Heaven-Nominated-for-the-2026-Philip-K-Dick-Award!/Caspar-Geon/9781837864737)."
 
-chapterMarker: MythaxisUFO
+chapterMarker: MythaxisGalaxy
 
 colorScheme:
-  primary: "#004300"
-  secondary: "#124b16"
-  accent: "#b9d537"
+  primary: "#0090ff"
+  secondary: "#127c5d"
+  accent: "#4c1ed0"
 
 type: review
 slug: the-immeasurable-heaven-caspar-geon

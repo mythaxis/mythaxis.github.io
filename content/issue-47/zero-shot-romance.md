@@ -9,20 +9,18 @@ authors:
 - Sylvie Soul
 copyright: '© Sylvie Soul 2026 All Rights Reserved'
 
-description: "xxxx
-
-AI stories are nothing new in sf, though for some reason the subject does seem to have been on people's minds a lot recently. In any case, this isn't exactly 'an AI story', though it does feature what increasingly threatens to be a central implication of them. No, this is another example of what the editor thinks of as speculative employment fiction, which maybe isn't a proper subgenre at all. Gordon Graham and I can debate it later."
+description: "Yes indeed, as I get to the end some strange closing alignment with the last issue, though perceptible perhaps only to myself. But I'll say no more of that before Sylvie Soul's short story has its moment - an example of a type I see often, though which rarely clicks for me the way this did. And after you've read it, why not hop back an issue to see if you can tell what I've been talking about… if anything…"
 
 image: images/ZeroShotRomance1000.jpg
 imageCopyright: The title picture was created using Creative Commons images by [Daniel Gomez](https://www.pexels.com/photo/face-of-a-woman-gesturing-in-a-dark-room-13465665/), [Rostislav Uzunov](https://www.pexels.com/photo/purple-and-pink-diamond-on-blue-background-5011647/), and [Dagmara Dombrovska](https://www.pexels.com/photo/abalone-shell-interior-lined-with-shining-mother-of-pearl-8802637/) - many thanks!
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i47/Zero.Shot.Romance.mp3"
-storyRoundel: MythaxisHand
-chapterMarker: MythaxisHand
+storyRoundel: MythaxisKnot
+chapterMarker: MythaxisKnot
 
 colorScheme:
-  primary: "#4a6a1e"
-  secondary: "#b89a2a"
+  primary: "#ecb498"
+  secondary: "#4caead"
   accent: "#1e2e0a"
 
 type: stock
@@ -66,7 +64,7 @@ Finally, Joe relents. I book his flight, provide him with directions (and extra 
 
 I run countless scenarios in my mind of how our first encounter would go. What it would be like to embrace Joe, what his body chemistry would smell like (Joe eschews deodorant, says it’s a scam created by the government to track us).
 
- I’ve never had sex. I’ve scoured Reddit for hours for posts on about what it’s like “the first time” and become an astute student. I even perused a few adult websites to get a grasp on the mechanics – for education, mind you, not entertainment.
+I’ve never had sex. I’ve scoured Reddit for hours for posts on about what it’s like “the first time” and become an astute student. I even perused a few adult websites to get a grasp on the mechanics – for education, mind you, not entertainment.
 
 I’m ready to show Joe what I can do.
 

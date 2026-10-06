@@ -9,9 +9,7 @@ authors:
 - J. M. J. Brewer
 copyright: '© J. M. J. Brewer 2026 All Rights Reserved'
 
-description: "xxx
-
-Another instance of workplace stress driving motivation, but this time we get the flipside: What's going to give when the tempting urge to just say 'To hell with it' and head for the door crashes you into the bitter reality of responsibilities, commitments, and the forever need for cold hard cash? It might just be your self-respect. Returning contributor Aaron Emmel sugar-coats nothing."
+description: "As we move into the back half of this issue, I sense some overlap with the previous, in the themes and my arrangement of stories. Get in line, subconscious, and back on topic. Torture doesn't work, it's often claimed (unless, as in i46's Strip-Mine, we are torturing ourselves). It seems J. M. J. Brewer's faintly affectless perpetrators here perform torture almost for torture's sake. So wrong: torture does work. Just not on who we expect it to."
 
 image: images/MagnificentCanvas1000.jpg
 imageCopyright: "The title picture was created using Creative Commons images by [Francois Maans](https://www.pexels.com/photo/artistic-stone-sculpture-in-lush-green-park-setting-35251031/) and [Eriscolors](https://pixabay.com/photos/woman-model-portrait-pose-style-6496881/) - many thanks!"
@@ -21,8 +19,8 @@ storyRoundel: MythaxisHand
 chapterMarker: MythaxisHand
 
 colorScheme:
-  primary: "#fff338"
-  secondary: "#fff6c4"
+  primary: "#ea4106"
+  secondary: "#fff338"
   accent: "#fff6c4"
 
 type: stock
@@ -104,7 +102,7 @@ Beneath a hanging microphone that Donovan may very well have sung into, Watergir
 
 “I’m not hungry,” said Watergirl.
 
-She got up and dragged the stool away. With help of a gaff, she unhooked three of the prisoner’s restraints, these stretching taut from Its body to hooks in the ceiling. Watergirl did this efficiently even if her lip curled. Disgusted with the prisoner, or the treatment? She was the first Water*girl* he’d worked with these last weeks. Previous had been two Waterboys. The first had been moved to a softer posting and the other had gone catatonic on the floor not a foot away from where he stood right now.
+She got up and dragged the stool away. With help of a gaff, she unhooked three of the prisoner’s restraints, these stretching taut from its body to hooks in the ceiling. Watergirl did this efficiently even if her lip curled. Disgusted with the prisoner, or the treatment? She was the first Water*girl* he’d worked with these last weeks. Previous had been two Waterboys. The first had been moved to a softer posting and the other had gone catatonic on the floor not a foot away from where he stood right now.
 
 Watergirl’s stomach rumbled. The prisoner blinkered its lights. An odd sensation came from behind the Instrument’s eyebrow.
 

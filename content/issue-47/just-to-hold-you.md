@@ -9,9 +9,7 @@ authors:
 - Daniel Burnbridge
 copyright: '© Daniel Burnbridge 2026 All Rights Reserved'
 
-description: "xxx
-
-When overwhelming grief strikes, you have little choice but to endure, to whatever extent you are able to. Some might need companionship. Some might need space. Julia Tilford gives her protagonist both, if you'll forgive a small pun at an inappropriate time. And speaking of which, they say time heals all wounds, but when your whole universe comes crashing down you'll find there is none of that in your new singularity."
+description: "On the surface, there is little conjunction between Daniel Burnbridge's (potentially triggering; warning over) depiction of an evening in the life of a gay rent boy and last issue's penultimate story, of a grief-stricken astronaut orbiting the world alongside the partner they'd lost. But while their absurdities and resolutions are very different, sex - and profound emotion - are there in both."
 
 image: images/JustToHoldYou1000.jpg
 imageCopyright: "The title picture was created from a free to use image by [Mikhail Nilov](https://www.pexels.com/photo/woman-in-blue-spacesuit-7662630/) - many thanks!"
@@ -21,9 +19,9 @@ storyRoundel: MythaxisFaces
 chapterMarker: MythaxisFaces
 
 colorScheme:
-  primary: "#0048ff"
-  secondary: "#001959"
-  accent: "#001959"
+  primary: "#5d5d5d"
+  secondary: "#cecece"
+  accent: "#8e8e8e"
 
 type: stock
 slug: just-to-hold-you

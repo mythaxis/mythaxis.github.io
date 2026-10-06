@@ -9,7 +9,7 @@ authors:
 - Andrew Leon Hudson
 copyright: '© Andrew Leon Hudson 2026 All Rights Reserved'
 
-description: "For some reason I miscalculated my plans to parcel out my short reviews in four month chunks and picked from five last time, so this time we’re tightly focused on just three! XXXXXXXXX."
+description: "For some reason I miscalculated my plans to parcel out my short reviews in four month chunks and picked from five last time, so for this issue I was tightly focused on just three! Yet in the end I could have focused tightlier still, since my favourite three stories from around and about all landed in September."
 
 image: /images/shared/ShortReviews1000.jpg
 imageCopyright: "The image is by [grandfailure](https://depositphotos.com/368748152/stock-photo-man-standing-mysterious-library-digital.html) via DepositPhotos.com."

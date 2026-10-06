@@ -15,16 +15,16 @@ imageCopyright: "A Place in the Sky by Huy Tran Viet"
 coverArtist: Huy Tran Viet
 
 introPosition: bottom-right # [top|center|bottom]-[left|center|right] or "center" (default)
-introPositionMobile: center # top, center, bottom
+introPositionMobile: top # top, center, bottom
 
 brandRoundel: MythaxisIcon
 issueRoundel: MythaxisIcon
 # or storyRoundel: and chapterMarker:
 
 colorScheme:
-  primary: "#a56f29"
-  secondary: "#e0c02d"
-  accent: "#864a10"
+  primary: "#ec8ea6"
+  secondary: "#ca214c"
+  accent: "#213f47"
 menus:
   issue:
     name: "Front page"
