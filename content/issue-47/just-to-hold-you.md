@@ -1,6 +1,6 @@
 ---
 title: "Just To Hold You"
-date: 2026-10-07
+date: 2026-10-10
 issue: Issue 47
 
 genres:
@@ -12,7 +12,7 @@ copyright: '© Daniel Burnbridge 2026 All Rights Reserved'
 description: "On the surface, there is little conjunction between Daniel Burnbridge's (potentially triggering; warning over) depiction of an evening in the life of a gay rent boy and last issue's penultimate story, of a grief-stricken astronaut orbiting the world alongside the partner they'd lost. But while their absurdities and resolutions are very different, sex - and profound emotion - are there in both."
 
 image: images/JustToHoldYou1000.jpg
-imageCopyright: "The title picture was created from a free to use image by [Mikhail Nilov](https://www.pexels.com/photo/woman-in-blue-spacesuit-7662630/) - many thanks!"
+imageCopyright: "The title picture was created from free to use images by [Ash](https://www.pexels.com/photo/a-low-angle-shot-of-a-shirtless-man-showering-12967646/), [Gustavo Fring](https://www.pexels.com/photo/elderly-man-in-a-suit-sitting-next-to-a-table-with-a-bottle-of-whisky-4975643/), [Beyzanur K.](https://www.pexels.com/photo/chair-in-a-living-room-18721873/), [Dominika Gregušová](https://www.pexels.com/photo/high-angle-photo-of-staircase-3769443/), and [Magda Ehlers](https://www.pexels.com/photo/close-up-of-textured-wallpaper-6699772/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i47/Just.To.Hold.You.mp3"
 storyRoundel: MythaxisFaces

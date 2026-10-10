@@ -1,6 +1,6 @@
 ---
 title: "So Magnificent a Canvas"
-date: 2026-10-07
+date: 2026-10-10
 issue: Issue 47
 
 genres:
@@ -9,10 +9,10 @@ authors:
 - J. M. J. Brewer
 copyright: '© J. M. J. Brewer 2026 All Rights Reserved'
 
-description: "As we move into the back half of this issue, I sense some overlap with the previous, in the themes and my arrangement of stories. Get in line, subconscious, and back on topic. Torture doesn't work, it's often claimed (unless, as in i46's Strip-Mine, we are torturing ourselves). It seems J. M. J. Brewer's faintly affectless perpetrators here perform torture almost for torture's sake. So wrong: torture does work. Just not on who we expect it to."
+description: "As we move through this issue, do I sense some overlap with the previous, in the themes and my arrangement of stories? Get in line, subconscious, and back on topic. Torture doesn't work, They claim (unless, as in i46's 'Strip-Mine', we are torturing ourselves). It seems J. M. J. Brewer's affectless perpetrators here perform torture almost for torture's sake. So They're wrong: torture does work. Just not how, and on whom, it is expected to."
 
 image: images/MagnificentCanvas1000.jpg
-imageCopyright: "The title picture was created using Creative Commons images by [Francois Maans](https://www.pexels.com/photo/artistic-stone-sculpture-in-lush-green-park-setting-35251031/) and [Eriscolors](https://pixabay.com/photos/woman-model-portrait-pose-style-6496881/) - many thanks!"
+imageCopyright: "The title picture was created from free to use images by [Hunain Bin Shahid](https://www.pexels.com/photo/a-close-up-shot-of-a-person-s-hand-5506869/) and [Giovanni Calia](https://www.pexels.com/photo/cellophane-in-red-light-3706642/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i47/So.Magnificent.A.Canvas.mp3"
 storyRoundel: MythaxisHand

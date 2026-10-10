@@ -12,7 +12,7 @@ copyright: '© Marina Favila 2026 All Rights Reserved.'
 description: "It appears the editor (who also moonlights as story art designer) associates themes of memory with polaroid photographs, since both this issue and the previous boasted such a piece thus decorated. Very much different tales, though. Marina Favila gives us a concise, convincing portrait of persons and place, familiar little cruelties and regrets, and less familiar ones too."
 
 image: images/MissingPerson1000.jpg
-imageCopyright: "The title picture was created using Creative Commons images by [Vinh Chế](https://www.pexels.com/photo/muscular-bodybuilder-posing-in-dramatic-light-38131593/), [WikiImages](https://pixabay.com/photos/camera-photo-photography-67714/), and [Clker Free Vector Images](https://pixabay.com/vectors/forward-left-arrow-direction-44026/) - many thanks!"
+imageCopyright: "The title picture was created from free to use images by [Lisa Fotios](https://www.pexels.com/photo/blurred-photo-of-a-woman-6855077/) and [hatice](https://www.pexels.com/photo/vintage-family-photo-collection-reveals-history-34565472/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i47/Missing.Person.459.Merle.Gap.mp3"
 storyRoundel: MythaxisAbduction

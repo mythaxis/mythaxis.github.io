@@ -1,6 +1,6 @@
 ---
 title: "The Immeasurable Heaven, by Caspar Geon"
-date: 2026-10-07
+date: 2026-10-10
 issue: Issue 47
 
 genre:

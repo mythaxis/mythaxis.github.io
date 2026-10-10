@@ -1,7 +1,7 @@
 ---
 theme: nebula2026
 title: "Mythaxis Magazine Issue 47"
-date: 2026-10-07
+date: 2026-10-10
 slug: index
 layout: section
 

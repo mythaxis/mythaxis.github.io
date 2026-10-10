@@ -1,6 +1,6 @@
 ---
 title: "There's Always One"
-date: 2026-10-07
+date: 2026-10-10
 issue: Issue 47
 
 genres:
@@ -9,10 +9,10 @@ authors:
 - C. J. Peterson
 copyright: '© C. J. Peterson 2026 All Rights Reserved'
 
-description: "I do appreciate a story that conveys the scale of time. We started 2026 with a fine example, charting decades such that their impact only truly came concrete at the end; here, C. J. Peterson allows centuries, even millenia, to pass as easily as months or years. And as any child or civilisation could confirm, you can pack a whole lot into those great spans."
+description: "I do appreciate a story that conveys the scale of time. We started 2026 with a fine example, charting decades such that their impact only truly came concrete at the end; here, C. J. Peterson allows centuries, even millenia, to pass as easily as months or years. And as any child or civilisation could confirm, you can pack a lot into those great spans."
 
 image: images/TheresAlwaysOne1000.jpg
-imageCopyright: "The title picture was created using Creative Commons images by [Tim Mossholder](https://www.pexels.com/photo/green-plants-on-the-tiles-11062912/) and [Nikolett Emmert](https://www.pexels.com/photo/agricultural-field-under-the-cloudy-sky-12508141/) - many thanks!"
+imageCopyright: "The title picture was created from free to use images by [Susanne Jutzeler, suju-foto](https://www.pexels.com/photo/silhouette-of-mountain-under-starry-night-11816821/) and [pexels](https://pixabay.com/photos/bonfire-burning-dark-fire-flames-1850646/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i47/Theres.Always.One.mp3"
 storyRoundel: MythaxisGalaxy

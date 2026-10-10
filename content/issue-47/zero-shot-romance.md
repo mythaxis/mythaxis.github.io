@@ -1,6 +1,6 @@
 ---
 title: "Zero-Shot Romance"
-date: 2026-10-07
+date: 2026-10-10
 issue: Issue 47
 
 genres:
@@ -9,10 +9,10 @@ authors:
 - Sylvie Soul
 copyright: '© Sylvie Soul 2026 All Rights Reserved'
 
-description: "Yes indeed, as I get to the end some strange closing alignment with the last issue, though perceptible perhaps only to myself. But I'll say no more of that before Sylvie Soul's short story has its moment - an example of a type I see often, though which rarely clicks for me the way this did. And after you've read it, why not hop back an issue to see if you can tell what I've been talking about… if anything…"
+description: "We close the issue's fiction with a point-of-view becoming increasingly commonplace throughout our world. And yes indeed, more unplanned alignment with the last issue, though perceptible perhaps only to myself. But I'll say no more of that before Sylvie Soul's short story has its moment. And after you've read it, why not hop back an issue to see if you can tell what I've been talking about… if anything…"
 
 image: images/ZeroShotRomance1000.jpg
-imageCopyright: The title picture was created using Creative Commons images by [Daniel Gomez](https://www.pexels.com/photo/face-of-a-woman-gesturing-in-a-dark-room-13465665/), [Rostislav Uzunov](https://www.pexels.com/photo/purple-and-pink-diamond-on-blue-background-5011647/), and [Dagmara Dombrovska](https://www.pexels.com/photo/abalone-shell-interior-lined-with-shining-mother-of-pearl-8802637/) - many thanks!
+imageCopyright: The title picture was created from free to use images by [Umer Nazir](https://www.pexels.com/photo/aerial-photography-of-city-buildings-10588473/) and [Alexander Krivitskiy](https://www.pexels.com/photo/monochrome-photo-of-woman-1428642/) - many thanks!
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i47/Zero.Shot.Romance.mp3"
 storyRoundel: MythaxisKnot

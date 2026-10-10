@@ -1,6 +1,6 @@
 ---
 title: "Blue-Hole Bully Boy"
-date: 2026-10-07
+date: 2026-10-10
 issue: Issue 47
 
 genres:
@@ -9,10 +9,10 @@ authors:
 - K. Meera
 copyright: '© K. Meera 2026 All Rights Reserved'
 
-description: "K. Meera's story is all voice - a deceptive claim? Of course, because there's also thrumming family tension, a vividly sketched community pressured to breaking point, and a liminal unexplainability at the heart of it all. But we get only what the narrator chooses, or can bring himself, to express, so maybe 'all that can be voiced' is closer to his truth."
+description: "K. Meera's story is all voice - a deceptive claim? Of course, because there's also thrumming family tension, a vividly sketched community pressured to breaking point, and a liminal unexplainability at the heart of it all. But we get only what the narrator chooses, or can bring himself, to express, leaving what feels like much left unspoken, so maybe 'all that can be voiced' is closer to his truth."
 
 image: images/BlueHoleBullyBoy1000.jpg
-imageCopyright: "The title picture was created using Creative Commons images by [Vincent Santamaria](https://www.pexels.com/photo/confident-businessman-in-blue-suit-gesturing-37148334/),[Eda Yurtkuran](https://www.pexels.com/photo/golden-retriever-sitting-on-stairs-17859994/), [Max Vakhtbovych](https://www.pexels.com/photo/simple-and-classy-office-interior-8135119/), and [fauxels](https://www.pexels.com/photo/polaroid-photo-of-friends-3228729/) - many thanks!"
+imageCopyright: "The title picture was created from a free to use image by [André Cook](https://www.pexels.com/photo/village-near-shore-under-white-sky-396710/) - many thanks!"
 
 audio: "https://github.com/mythaxis/mythaxis.github.io/releases/download/i47/Blue.Hole.Bully.Boy.mp3"
 storyRoundel: MythaxisIcon
