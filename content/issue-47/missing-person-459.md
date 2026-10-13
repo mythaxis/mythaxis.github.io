@@ -36,7 +36,7 @@ But I didn’t make fun of her. I didn’t say a thing, not a word. I even turne
 
 The ribbing was horrible. I’m not surprised she looked afraid. Threats, mostly from boys, who had always thought Kalinda’s lithe body and generous breasts were reason enough to tease her or flip paper footballs into the gap of her open blouse. I often wondered why she didn’t just button herself up.
 
-‘Course, Gran said she was asking for it – Gran’s older than God and cranky as hell – but Kalinda just seemed confused to me. Pretty, though, with her lank blonde hair and full mouth. But dirty, too, her fingernails, and especially her feet. When she wore sandals, you could see that her toes were the color of peat moss, like she’d been walking through cornfields or newly-dug graves. Dull-eyed. Quiet in class. I didn’t tease her about any of those things.
+’Course, Gran said she was asking for it – Gran’s older than God and cranky as hell – but Kalinda just seemed confused to me. Pretty, though, with her lank blonde hair and full mouth. But dirty, too, her fingernails, and especially her feet. When she wore sandals, you could see that her toes were the color of peat moss, like she’d been walking through cornfields or newly-dug graves. Dull-eyed. Quiet in class. I didn’t tease her about any of those things.
 
 But after she disappeared, well, we couldn’t get enough of her. It was all – what did she say? What was she wearing? Who saw her last? How was she acting when she told Bickles and Shay, her two best friends – or so they say now – that she’d been abducted, abducted for years. Experiments galore, they said.
 
