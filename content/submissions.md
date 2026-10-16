@@ -9,13 +9,9 @@ menus:
     weight: 20
 ---
 
-***Mythaxis Magazine* is currently closed to submissions.**
+***Mythaxis Magazine* is currently closed to submissions.** *But that is soon to change!*
 
-> Thank you for your interest in submitting your work! Our forthcoming issues are complete, but we will reopen for submissions later in 2026, with a particular interest in crime fiction and crime/spec-fic mashups for our end-of-year issue. We recommend following us on [The Submissions Grinder](https://thegrinder.diabolicalplots.com/Market?id=10939#), [Duotrope](https://duotrope.com/listing/10263/mythaxis-magazine), or [Bluesky](https://bsky.app/profile/mythaxis.bsky.social) for notification of when we reopen.
-
-THAT **APRIL 2026** MESSAGE AGAIN: MYTHAXIS IS **NOT OPEN** TO SUBMISSIONS!
-
-The following information is preserved for future reference:
+> We will reopen for submissions on 23rd October, 2026, with a particular interest in crime fiction and crime/spec-fic mashups for our end-of-year issue. We recommend following us on [The Submissions Grinder](https://thegrinder.diabolicalplots.com/Market?id=10939#), [Duotrope](https://duotrope.com/listing/10263/mythaxis-magazine), or [Bluesky](https://bsky.app/profile/mythaxis.bsky.social) for notification of when we reopen.
 
 ### REQUIREMENTS
 
@@ -28,7 +24,7 @@ Our overall upper and lower word counts are *firm* limits. Shorter or longer wor
 
 **Compensation:** $0.01 per word, with a $20 minimum / $50 maximum. Please be aware before submitting that payment is via PayPal only.
 
-**We seek speculative fiction** (sf/f/h/weird/slipstream/…), **crime** (also including police procedural/detective/mystery/cosy/…), **and mashups of the same.** All genres are equally welcome in each submission window. We don't receive enough crime fiction, so if that's your bag we're always eager!
+**We seek speculative fiction** (sf/f/h/weird/slipstream/…), **crime** (also including police procedural/detective/mystery/cosy/…), **and mashups of the same.** All genres are equally welcome in each submission window, but we are particularly interested in crime or crime-adjacent fiction!
 
 We acquire **First Print, Digital, and Audio rights with a six month period of exclusivity** from the date of publication. We also ask permission to potentially include accepted pieces in future anthologies; in event of agreement, an additional compensation will be offered. All other rights remain entirely with the author. See **[here](./editorial-policy.html)** for an overview of our editorial process.
 
@@ -38,9 +34,7 @@ We acquire **First Print, Digital, and Audio rights with a six month period of e
 
 **If a story has previously been rejected by *Mythaxis*, please do not resubmit** or inquire regarding doing so, unless explicitly invited to by the editor during the original rejection.
 
-> **Feedback:** Unfortunately, due to increased submission volume, it is no longer possible for us to offer feedback on all rejected submissions. This is a regretful necessity, but without the time required to say something meaningful feedback loses its value. However, on rejecting strong candidate pieces we may offer constructive comments along with an invitation to revise and resubmit.
-
-> **Reprints:** We do not invite reprint submissions.
+**Reprints:** We do not invite reprint submissions.
 
 **All submissions must be the original work of the author.** This is not a market for fan fiction. If your story is a retelling, pastiche, or homage to an existing work, please mention the source you are alluding to in the submission document.
 
@@ -50,11 +44,7 @@ We acquire **First Print, Digital, and Audio rights with a six month period of e
 
 ### A NOTE ON 'ARTIFICIAL INTELLIGENCE'
 
-**We do not invite submissions featuring prose created by generative "artificial intelligence", algorithmic systems, large language models, or similar tools.**
-
-We recognise the importance of authorial ownership when it comes to an individual's rights. The questionable provenance of AI-derived content, and the uncertain legality of claiming "authorship" of the output of AI tools, means that knowingly signing a contract of sale for an AI-generated submission would be inappropriate. We hope that submitting authors will respect our position.
-
-In our experience, fiction generated using these tools is accurate from a grammatical point of view but lifeless when read. "World English" has many distinctive voices, which brings great value; "AI English" filters them into one voice, which does not. We would rather receive a rough diamond that still gleams than machine-polished plastic that is immediately disposable.
+**We do not invite submissions featuring prose created by generative "artificial intelligence", algorithmic systems, large language models, or similar tools.** We recognise the importance of authorial ownership when it comes to an individual's rights. The questionable provenance of AI-derived content, and the uncertain legality of claiming "authorship" of the output of AI tools, means that knowingly signing a contract of sale for an AI-generated submission would be inappropriate. We hope that submitting authors will respect our position.
 
 > **NOTE:** In the early days of the AI boom, ***Mythaxis*** experimented with generative image tools. For a period, we also used data analytics to investigate the nature of the stories submitted to us. We documented these experiences in a number of editorials (see issue [28](https://mythaxis.co.uk/issue-28/editorial.html) for art, issues [31](https://mythaxis.co.uk/issue-31/editorial.html), [32](https://mythaxis.co.uk/issue-32/editorial.html), and [33](https://mythaxis.co.uk/issue-32/editorial.html) for data analysis, plus our final round up in [issue 34](https://mythaxis.co.uk/issue-34/artificial-artificial-intelligence.html)). All data analysed was fully anonymised and never employed tools capable of producing derivative creative works.
 
