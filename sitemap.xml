@@ -916,9 +916,6 @@
     <loc>/submissions.html</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/submissions.html</loc>
-    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/issue-26/editorial.html</loc>
     <lastmod>2020-06-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -928,6 +925,8 @@
     <loc>/categories.html</loc>
   </url><url>
     <loc>/issues.html</loc>
+  </url><url>
+    <loc>/subs-reference-text.html</loc>
   </url>
 
 
