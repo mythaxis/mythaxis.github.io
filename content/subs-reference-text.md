@@ -1,12 +1,12 @@
 ---
-title: "Submission Guidelines"
-date: 2020-08-01
-type: page
-slug: submissions
+title: "Submission Guidelines backup"
+date: 
+type: 
+slug: 
 menus:
   nebula:
-    name: "Submissions"
-    weight: 20
+    name: "Subs-backup"
+    weight: 
 ---
 
 ***Mythaxis Magazine* is currently closed to submissions.**
