@@ -8,7 +8,7 @@ menus:
     name: "Subs-backup"
     weight: 
 ---
-
+***Mythaxis Magazine* is open to submissions!**
 ***Mythaxis Magazine* is currently closed to submissions.**
 
 > Thank you for your interest in submitting your work! Our forthcoming issues are complete, but we will reopen for submissions later in 2026, with a particular interest in crime fiction and crime/spec-fic mashups for our end-of-year issue. We recommend following us on [The Submissions Grinder](https://thegrinder.diabolicalplots.com/Market?id=10939#), [Duotrope](https://duotrope.com/listing/10263/mythaxis-magazine), or [Bluesky](https://bsky.app/profile/mythaxis.bsky.social) for notification of when we reopen.
